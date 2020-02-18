@@ -1,0 +1,93 @@
+{
+  "_fv": 4,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 384,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "BasicForge",
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 0,
+          "name": "Slot #0",
+          "x": 354,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 1,
+          "name": "Slot #1",
+          "x": 462,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inherited",
+          "id": 2,
+          "name": "Slot #2",
+          "x": 408,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Forge",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Forge",
+          "x": 397,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 552,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Advanced ",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Advanced ",
+          "x": 536,
+          "y": 150
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

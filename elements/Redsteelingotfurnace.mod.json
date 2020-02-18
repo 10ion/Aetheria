@@ -1,0 +1,19 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Redsteelore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Redsteelingot"
+    },
+    "smeltingXPReward": 25.0,
+    "smeltingRetstackSize": 1,
+    "name": "redsteelingotfurnace",
+    "namespace": "mod"
+  }
+}

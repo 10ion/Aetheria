@@ -1,0 +1,42 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "1": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "2": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "3": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "4": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "5": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "6": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "7": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "8": {
+      "item": "aetheria:gemwroughtgem"
+    }
+  },
+  "result": {
+    "item": "aetheria:gemwroughtoreblock",
+    "count": 1
+  }
+}

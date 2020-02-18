@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "1": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "2": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "3": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "5": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "6": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "8": {
+      "item": "aetheria:gemwroughtgem"
+    }
+  },
+  "result": {
+    "item": "aetheria:gemwroughtarmorlegs",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 5,
+  "_type": "potion",
+  "definition": {
+    "name": "Milkbottle",
+    "effectName": "Bottle of Milk",
+    "icon": "cakeslimefront.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "curativeItems": [],
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "MilkbottlePotionStartedapplied"
+    }
+  }
+}

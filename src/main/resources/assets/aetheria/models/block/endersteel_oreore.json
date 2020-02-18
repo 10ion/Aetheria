@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/endersteel_ore_ore",
+    "particle": "aetheria:blocks/endersteel_ore_ore"
+  }
+}

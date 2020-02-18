@@ -1,0 +1,23 @@
+{
+  "_fv": 4,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "redsteel_sword",
+    "customModelName": "Normal",
+    "name": "Redsteelsword",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.65,
+    "enchantability": 20,
+    "damageVsEntity": 9.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

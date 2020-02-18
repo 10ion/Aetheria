@@ -1,0 +1,19 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:GemwroughtOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:GemwroughtGem"
+    },
+    "smeltingXPReward": 1.1549999999999998,
+    "smeltingRetstackSize": 1,
+    "name": "gemwroughtoresmelting",
+    "namespace": "mod"
+  }
+}

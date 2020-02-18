@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/mystical_plank",
+    "up": "aetheria:blocks/mystical_plank",
+    "north": "aetheria:blocks/mystical_plank",
+    "east": "aetheria:blocks/mystical_plank",
+    "south": "aetheria:blocks/mystical_plank",
+    "west": "aetheria:blocks/mystical_plank",
+    "particle": "aetheria:blocks/mystical_plank"
+  }
+}

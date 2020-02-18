@@ -1,0 +1,23 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gemwrought_pickaxe",
+    "customModelName": "Normal",
+    "name": "Gemwrought Pickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 23,
+    "damageVsEntity": 3.0,
+    "usageCount": 504,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

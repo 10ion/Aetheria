@@ -1,0 +1,11 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:smelting",
+  "experience": 25,
+  "ingredient": {
+    "item": "aetheria:redsteelore"
+  },
+  "result": {
+    "item": "aetheria:redsteelingot"
+  }
+}

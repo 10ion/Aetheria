@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/redsteelore",
+    "up": "aetheria:blocks/redsteelore",
+    "north": "aetheria:blocks/redsteeloretexture",
+    "east": "aetheria:blocks/redsteelore",
+    "south": "aetheria:blocks/redsteelore",
+    "west": "aetheria:blocks/redsteelore",
+    "particle": "aetheria:blocks/redsteelore"
+  }
+}

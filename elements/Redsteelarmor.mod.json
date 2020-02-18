@@ -1,0 +1,51 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "redsteel_helmet",
+    "enableBody": true,
+    "textureBody": "chestplateredsteel",
+    "enableLeggings": true,
+    "textureLeggings": "redsteelleggings",
+    "enableBoots": true,
+    "textureBoots": "redsteel_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "redsteel_",
+    "helmetName": "Redsteel Helmet",
+    "bodyName": "Redsteel Body",
+    "leggingsName": "Redsteel Leggings",
+    "bootsName": "Redsteel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "equipSound": {
+      "value": "music.nether"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Redsteelingot"
+      }
+    ]
+  }
+}

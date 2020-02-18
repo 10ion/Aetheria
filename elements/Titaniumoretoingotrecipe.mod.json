@@ -1,0 +1,19 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Titaniumore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Titaniumingot"
+    },
+    "smeltingXPReward": 1.0,
+    "smeltingRetstackSize": 3,
+    "name": "titaniumoretoingotrecipe",
+    "namespace": "mod"
+  }
+}

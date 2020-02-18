@@ -1,0 +1,19 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Endersteel_oreOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Endersteel"
+    },
+    "smeltingXPReward": 1.75,
+    "smeltingRetstackSize": 1,
+    "name": "endersteel_oreoresmelting",
+    "namespace": "mod"
+  }
+}

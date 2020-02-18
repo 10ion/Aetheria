@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:redsteelingot"
+    },
+    "2": {
+      "item": "aetheria:redsteelingot"
+    },
+    "3": {
+      "item": "aetheria:redsteelingot"
+    },
+    "4": {
+      "item": "aetheria:redsteelingot"
+    },
+    "5": {
+      "item": "aetheria:redsteelingot"
+    },
+    "6": {
+      "item": "aetheria:redsteelingot"
+    },
+    "7": {
+      "item": "aetheria:redsteelingot"
+    },
+    "8": {
+      "item": "aetheria:redsteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:redsteelarmorbody",
+    "count": 1
+  }
+}

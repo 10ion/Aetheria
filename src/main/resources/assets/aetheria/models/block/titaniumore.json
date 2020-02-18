@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/titaniumore",
+    "up": "aetheria:blocks/titaniumore",
+    "north": "aetheria:blocks/titaniumore",
+    "east": "aetheria:blocks/titaniumore",
+    "south": "aetheria:blocks/titaniumore",
+    "west": "aetheria:blocks/titaniumore",
+    "particle": "aetheria:blocks/titaniumore"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aetheria:block/mysticallog"
+    },
+    "facing=east": {
+      "model": "aetheria:block/mysticallog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheria:block/mysticallog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheria:block/mysticallog",
+      "y": 270
+    }
+  }
+}

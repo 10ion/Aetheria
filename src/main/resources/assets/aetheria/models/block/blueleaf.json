@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/blue_leaves",
+    "up": "aetheria:blocks/blue_leaves",
+    "north": "aetheria:blocks/blue_leaves",
+    "east": "aetheria:blocks/blue_leaves",
+    "south": "aetheria:blocks/blue_leaves",
+    "west": "aetheria:blocks/blue_leaves",
+    "particle": "aetheria:blocks/blue_leaves"
+  }
+}

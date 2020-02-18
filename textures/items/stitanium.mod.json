@@ -1,0 +1,17 @@
+{
+  "_fv": 4,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:TitaniumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:TitaniumN"
+    },
+    "smeltingXPReward": 1.0,
+    "smeltingRetstackSize": 3
+  }
+}

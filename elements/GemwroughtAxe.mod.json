@@ -1,0 +1,23 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gemwrought_axe",
+    "customModelName": "Normal",
+    "name": "Gemwrought Axe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 23,
+    "damageVsEntity": 3.0,
+    "usageCount": 504,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/mystical_log_top",
+    "up": "aetheria:blocks/mystical_log_top",
+    "north": "aetheria:blocks/mystical_log",
+    "east": "aetheria:blocks/mystical_log",
+    "south": "aetheria:blocks/mystical_log",
+    "west": "aetheria:blocks/mystical_log",
+    "particle": "aetheria:blocks/mystical_log_top"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:TitaniumI"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      },
+      {
+        "value": "CUSTOM:Titaniumingot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "titaniumnuggettoingot",
+    "namespace": "mod"
+  }
+}

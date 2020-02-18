@@ -1,0 +1,13 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheria:mysticallog"
+    }
+  ],
+  "result": {
+    "item": "aetheria:mysticalplanks",
+    "count": 4
+  }
+}

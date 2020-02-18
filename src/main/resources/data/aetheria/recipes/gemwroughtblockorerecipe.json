@@ -1,0 +1,13 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheria:gemwroughtoreblock"
+    }
+  ],
+  "result": {
+    "item": "aetheria:gemwroughtgem",
+    "count": 9
+  }
+}

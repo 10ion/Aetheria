@@ -1,0 +1,13 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheria:endersteel_oreoreblock"
+    }
+  ],
+  "result": {
+    "item": "aetheria:endersteel",
+    "count": 9
+  }
+}

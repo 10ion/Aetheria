@@ -1,0 +1,30 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:redsteelingot"
+    },
+    "1": {
+      "item": "aetheria:redsteelingot"
+    },
+    "2": {
+      "item": "aetheria:redsteelingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aetheria:redsteelpickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 4,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "redsteel_axe",
+    "customModelName": "Normal",
+    "name": "Redsteel Axe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.5,
+    "enchantability": 20,
+    "damageVsEntity": 11.5,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Redsteelingot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/gemrotore",
+    "particle": "aetheria:blocks/gemrotore"
+  }
+}

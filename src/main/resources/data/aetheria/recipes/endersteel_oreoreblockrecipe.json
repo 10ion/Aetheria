@@ -1,0 +1,42 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:endersteel"
+    },
+    "1": {
+      "item": "aetheria:endersteel"
+    },
+    "2": {
+      "item": "aetheria:endersteel"
+    },
+    "3": {
+      "item": "aetheria:endersteel"
+    },
+    "4": {
+      "item": "aetheria:endersteel"
+    },
+    "5": {
+      "item": "aetheria:endersteel"
+    },
+    "6": {
+      "item": "aetheria:endersteel"
+    },
+    "7": {
+      "item": "aetheria:endersteel"
+    },
+    "8": {
+      "item": "aetheria:endersteel"
+    }
+  },
+  "result": {
+    "item": "aetheria:endersteel_oreoreblock",
+    "count": 1
+  }
+}

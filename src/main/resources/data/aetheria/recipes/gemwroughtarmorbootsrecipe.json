@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "2": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "3": {
+      "item": "aetheria:gemwroughtgem"
+    },
+    "5": {
+      "item": "aetheria:gemwroughtgem"
+    }
+  },
+  "result": {
+    "item": "aetheria:gemwroughtarmorboots",
+    "count": 1
+  }
+}
