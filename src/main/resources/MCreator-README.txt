@@ -23,4 +23,4 @@ Full distribution terms are described in the section "Mods made with MCreator" i
 License agreement. This mod is covered by the terms and conditions described in the License
 agreement found on the link above.
 
-This mod was built and exported on 19. 02. 2020 using MCreator 2020.1.
+This mod was built and exported on 20. 02. 2020 using MCreator 2020.1.
