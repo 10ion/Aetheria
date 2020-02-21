@@ -43,7 +43,7 @@ public class MCreatorGemwroughtShovel extends Elementsaetheria.ModElement {
 			public Ingredient getRepairMaterial() {
 				return null;
 			}
-		}, 1, -3F, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2F, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("gemwroughtshovel"));
 	}
 }

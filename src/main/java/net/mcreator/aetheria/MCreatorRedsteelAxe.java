@@ -21,7 +21,7 @@ public class MCreatorRedsteelAxe extends Elementsaetheria.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 660;
+				return 1750;
 			}
 
 			public float getEfficiency() {
@@ -29,7 +29,7 @@ public class MCreatorRedsteelAxe extends Elementsaetheria.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 4.5f;
 			}
 
 			public int getHarvestLevel() {

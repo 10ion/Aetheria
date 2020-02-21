@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/dirt",
+    "up": "aetheria:blocks/bluegrass_block_top",
+    "north": "aetheria:blocks/bluegrass_block_side",
+    "east": "aetheria:blocks/bluegrass_block_side",
+    "south": "aetheria:blocks/bluegrass_block_side",
+    "west": "aetheria:blocks/bluegrass_block_side",
+    "particle": "aetheria:blocks/dirt"
+  }
+}

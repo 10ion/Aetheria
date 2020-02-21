@@ -1,0 +1,66 @@
+{
+  "_fv": 5,
+  "_type": "biome",
+  "definition": {
+    "name": "Aetherbiome",
+    "groundBlock": {
+      "value": "CUSTOM:Bluegrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:MysticalStone"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeStem": {
+      "value": "CUSTOM:Mysticallog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Blueleaf"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:Blueleaf"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -16764109,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16777165,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 4,
+    "flowersPerChunk": 3,
+    "mushroomsPerChunk": 5,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.1,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "biomeWeight": 10,
+    "biomeType": "COOL",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": []
+  }
+}

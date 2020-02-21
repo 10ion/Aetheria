@@ -12,10 +12,10 @@
     "toolType": "Axe",
     "harvestLevel": 3,
     "efficiency": 8.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 2.0,
     "enchantability": 23,
     "damageVsEntity": 3.0,
-    "usageCount": 504,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

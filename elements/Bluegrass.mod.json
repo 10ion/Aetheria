@@ -2,14 +2,14 @@
   "_fv": 5,
   "_type": "block",
   "definition": {
-    "texture": "gemrotore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "dirt",
+    "textureTop": "bluegrass_block_top",
+    "textureLeft": "bluegrass_block_side",
+    "textureFront": "bluegrass_block_side",
+    "textureRight": "bluegrass_block_side",
+    "textureBack": "bluegrass_block_side",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,18 +20,18 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Gemwrought Ore",
+    "name": "Bluegrass",
     "specialInfo": [],
-    "hardness": 4.949999999999999,
-    "resistance": 7.46375129783448,
+    "hardness": -1.0,
+    "resistance": 5.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:GemwroughtGem"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GRASS"
     },
     "tickRate": 10,
     "isReplaceable": false,
@@ -51,11 +51,11 @@
     },
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
-    "luminance": 0.0,
+    "luminance": 0.04,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": -1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -70,37 +70,16 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "ocean"
-      },
-      {
-        "value": "river"
-      },
-      {
-        "value": "beaches"
-      },
-      {
-        "value": "stone_beach"
-      },
-      {
-        "value": "cold_beach"
-      },
-      {
-        "value": "beaches"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.AIR"
       }
     ],
-    "frequencyPerChunks": 7,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": 20,
-    "maxGenerateHeight": 50
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 25,
+    "maxGenerateHeight": 256
   }
 }

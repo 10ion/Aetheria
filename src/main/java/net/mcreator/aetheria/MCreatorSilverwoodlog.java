@@ -16,7 +16,6 @@ import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -32,12 +31,12 @@ import java.util.List;
 import java.util.Collections;
 
 @Elementsaetheria.ModElement.Tag
-public class MCreatorGemwroughtOre extends Elementsaetheria.ModElement {
-	@ObjectHolder("aetheria:gemwroughtore")
+public class MCreatorSilverwoodlog extends Elementsaetheria.ModElement {
+	@ObjectHolder("aetheria:silverwoodlog")
 	public static final Block block = null;
 
-	public MCreatorGemwroughtOre(Elementsaetheria instance) {
-		super(instance, 90);
+	public MCreatorSilverwoodlog(Elementsaetheria instance) {
+		super(instance, 136);
 	}
 
 	@Override
@@ -49,9 +48,9 @@ public class MCreatorGemwroughtOre extends Elementsaetheria.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(4.949999999999999f, 7.46375129783448f)
-					.lightValue(0).harvestLevel(3).harvestTool(ToolType.PICKAXE));
-			setRegistryName("gemwroughtore");
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.GROUND).hardnessAndResistance(-1f, 10f).lightValue(0).harvestLevel(-1)
+					.harvestTool(ToolType.AXE));
+			setRegistryName("silverwoodlog");
 		}
 
 		@Override
@@ -59,28 +58,13 @@ public class MCreatorGemwroughtOre extends Elementsaetheria.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(MCreatorGemwroughtGem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("ocean")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("river")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("beach")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("stone_shore")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("snowy_beach")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("beach")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(new OreFeature(OreFeatureConfig::deserialize) {
 				@Override
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -92,12 +76,12 @@ public class MCreatorGemwroughtOre extends Elementsaetheria.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("gemwroughtore", "gemwroughtore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("silverwoodlog", "silverwoodlog", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+				if (blockAt.getBlock() == Blocks.AIR.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 4), Placement.COUNT_RANGE, new CountRangeConfig(7, 20, 20, 50)));
+			}), block.getDefaultState(), 16), Placement.COUNT_RANGE, new CountRangeConfig(10, 50, 50, 80)));
 		}
 	}
 }

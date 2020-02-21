@@ -21,7 +21,7 @@ public class MCreatorGemwroughtAxe extends Elementsaetheria.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 504;
+				return 1000;
 			}
 
 			public float getEfficiency() {
@@ -43,7 +43,7 @@ public class MCreatorGemwroughtAxe extends Elementsaetheria.ModElement {
 			public Ingredient getRepairMaterial() {
 				return null;
 			}
-		}, 1, -3F, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2F, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("gemwroughtaxe"));
 	}
 }

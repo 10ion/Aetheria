@@ -29,7 +29,7 @@ public class MCreatorGemwroughtSword extends Elementsaetheria.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1f;
+				return 2.3999999999999995f;
 			}
 
 			public int getHarvestLevel() {

@@ -946,6 +946,76 @@
           }
         ]
       }
+    },
+    {
+      "name": "EndersteeelArmor",
+      "type": "armor",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EndersteeelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndersteeelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndersteeelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EndersteeelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Bluegrass",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Aetherbiome",
+      "type": "biome",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwoodlog",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -962,6 +1032,7 @@
       "block.aetheria.mysticalstone": "Mystical Stone",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
       "item.aetheria.redsteelaxe": "Redsteel Axe",
+      "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
       "item.aetheria.brass": "Brass",
@@ -976,7 +1047,9 @@
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
       "item.aetheria.tungsten": "Tungsten",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
+      "item.aetheria.endersteeelarmorlegs": "Endersteeel Leggings",
       "item.aetheria.titaniumi": "Titanium ingot",
+      "item.aetheria.endersteeelarmorbody": "Endersteeel Chestplate",
       "item.aetheria.pizza": "Pizza",
       "item.aetheria.pewter": "Pewter",
       "item.aetheria.redsteelshovel": "Redsteel Shovel",
@@ -984,6 +1057,7 @@
       "item.aetheria.tin": "Tin",
       "block.aetheria.mysticallog": "Mystical log",
       "item.aetheria.sterlingsilver": "Sterling Silver",
+      "block.aetheria.bluegrass": "Bluegrass",
       "item.aetheria.aluminum": "Aluminum",
       "item.aetheria.coldironn": "Cold Iron Nugget",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
@@ -993,6 +1067,7 @@
       "item.aetheria.steel": "Steel",
       "block.aetheria.gemwroughtoreblock": "Block of Gemwrought",
       "item.aetheria.redsteelsword": "Redsteel Sword",
+      "biome.aetheria.aetherbiome": "Aetherbiome",
       "item.aetheria.gemwroughtarmorbody": "Gemwrought Mail Chestplate",
       "item.aetheria.lead": "Lead",
       "item.aetheria.gemwroughtarmorlegs": "Gemwrought Mail Leggings",
@@ -1025,6 +1100,8 @@
       "item.aetheria.endersteeltoolshoe": "Endersteel Hoe",
       "item.aetheria.gemwroughthoe": "Gemwrought Hoe",
       "item.aetheria.platinum": "Platinum",
+      "item.aetheria.endersteeelarmorboots": "Endersteeel Boots",
+      "block.aetheria.silverwoodlog": "Silverwood Log",
       "item.minecraft.tipped_arrow.effect.milkbottle": "Arrow of Milkbottle",
       "item.aetheria.bronze": "Bronze",
       "block.aetheria.endersteel_oreore": "Endersteel Ore",

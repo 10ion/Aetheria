@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "endersteeel_head",
+    "enableBody": true,
+    "textureBody": "endersteeel_body",
+    "enableLeggings": true,
+    "textureLeggings": "endersteeel_leggings",
+    "enableBoots": true,
+    "textureBoots": "endersteeel_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "endersteeel",
+    "helmetName": "Endersteeel Helmet",
+    "bodyName": "Endersteeel Chestplate",
+    "leggingsName": "Endersteeel Leggings",
+    "bootsName": "Endersteeel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 30,
+    "damageValueHelmet": 4,
+    "damageValueBody": 10,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 4,
+    "enchantability": 18,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}
