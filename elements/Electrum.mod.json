@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "magnegold",
+    "texture": "electrum",
     "customModelName": "Normal",
     "name": "Electrum",
     "creativeTab": {

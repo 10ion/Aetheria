@@ -2,16 +2,16 @@
   "_fv": 5,
   "_type": "block",
   "definition": {
-    "texture": "endersteel_ore_ore",
+    "texture": "silverwoodsapling",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 12,
+    "customModelName": "Cross model",
     "rotationMode": 0,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -20,15 +20,15 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Endersteel Ore",
+    "name": "Silverwood Sapling",
     "specialInfo": [],
-    "hardness": 7.5,
-    "resistance": 10.406915092523414,
+    "hardness": 1.0,
+    "resistance": 1.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
@@ -38,31 +38,31 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "PLANTS"
     },
     "tickRate": 10,
     "isReplaceable": false,
     "isFlammable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "FOLIAGE",
     "creativePickItem": {
       "value": ""
     },
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "PLANT"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
-    "spawnParticles": true,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SPELL"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.2999999985098839,
-    "particleAmount": 1,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "inventorySize": 9,
@@ -70,29 +70,16 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface",
-      "End"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "the_end"
-      },
-      {
-        "value": "ocean"
-      },
-      {
-        "value": "stone_beach"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 2,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 25
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }
