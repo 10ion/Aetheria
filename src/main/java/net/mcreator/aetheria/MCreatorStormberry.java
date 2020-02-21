@@ -24,7 +24,8 @@ public class MCreatorStormberry extends Elementsaetheria.ModElement {
 
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(1).saturation(0.3f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
+					.food((new Food.Builder()).hunger(1).saturation(0.3f).setAlwaysEdible().build()));
 			setRegistryName("stormberry");
 		}
 

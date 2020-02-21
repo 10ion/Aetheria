@@ -14,7 +14,7 @@
     "saturation": 0.3,
     "eatingSpeed": 32,
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {
