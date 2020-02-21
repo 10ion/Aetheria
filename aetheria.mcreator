@@ -10,14 +10,6 @@
       "ids": {}
     },
     {
-      "name": "Redsteelore",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Redsteelarmor",
       "type": "armor",
       "sortid": 2,
@@ -772,14 +764,6 @@
       "ids": {}
     },
     {
-      "name": "Endersteel_oreOre",
-      "type": "block",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Endersteel_oreOreBlock",
       "type": "block",
       "sortid": 112,
@@ -1024,6 +1008,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SilverwoodSapling",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CakeSlime",
+      "type": "mob",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1053,6 +1053,7 @@
       "item.aetheria.moonberry": "Moonberry",
       "block.aetheria.mysticalplanks": "Mystical Planks",
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
+      "entity.aetheria.cakeslime": "Cake Slime",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
       "item.aetheria.tungsten": "Tungsten",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
@@ -1073,6 +1074,7 @@
       "item.aetheria.fireberry": "Fireberry",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.stormberryroll": "Stormberry Roll",
+      "block.aetheria.silverwoodsapling": "Silverwood Sapling",
       "item.aetheria.steel": "Steel",
       "block.aetheria.gemwroughtoreblock": "Block of Gemwrought",
       "item.aetheria.redsteelsword": "Redsteel Sword",
@@ -1097,7 +1099,6 @@
       "item.aetheria.electrum": "Electrum",
       "item.aetheria.redsteelhoe": "Redsteel Hoe",
       "item.minecraft.splash_potion.effect.milkbottle": "Splash Milkbottle",
-      "block.aetheria.redsteelore": "Redsteelore",
       "block.aetheria.ghostmorel": "Ghost Morel",
       "item.aetheria.silver": "Silver",
       "item.aetheria.copper": "Copper",
@@ -1112,8 +1113,8 @@
       "item.aetheria.endersteeelarmorboots": "Endersteeel Boots",
       "block.aetheria.silverwoodlog": "Silverwood Log",
       "item.minecraft.tipped_arrow.effect.milkbottle": "Arrow of Milkbottle",
+      "item.aetheria.cakeslime": "Cake Slime Spawn Egg",
       "item.aetheria.bronze": "Bronze",
-      "block.aetheria.endersteel_oreore": "Endersteel Ore",
       "item.aetheria.zinc": "Zinc",
       "item.aetheria.redsteelarmorboots": "Redsteel Boots",
       "item.aetheria.gemwroughtgem": "Gemwrought",
