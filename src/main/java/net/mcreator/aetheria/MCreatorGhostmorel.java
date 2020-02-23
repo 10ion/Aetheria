@@ -62,6 +62,8 @@ public class MCreatorGhostmorel extends Elementsaetheria.ModElement {
 				boolean dimensionCriteria = false;
 				if (dimensionType == DimensionType.OVERWORLD)
 					dimensionCriteria = true;
+				if (dimensionType == MCreatorTheVoid.type)
+					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
 				return super.place(world, generator, random, pos, config);
@@ -69,7 +71,7 @@ public class MCreatorGhostmorel extends Elementsaetheria.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
-					Biome.createDecoratedFeature(feature, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(2)));
+					Biome.createDecoratedFeature(feature, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(1)));
 		}
 	}
 
@@ -90,7 +92,7 @@ public class MCreatorGhostmorel extends Elementsaetheria.ModElement {
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.Plains;
+			return PlantType.Cave;
 		}
 	}
 }

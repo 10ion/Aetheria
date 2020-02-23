@@ -6,7 +6,7 @@
     "texture": "ghost_morel",
     "customModelName": "Cross model",
     "plantType": "normal",
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "name": "Ghost Morel",
     "creativeTab": {
@@ -29,9 +29,10 @@
     "creativePickItem": {
       "value": ""
     },
-    "frequencyOnChunks": 2,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "CUSTOM:TheVoid"
     ],
     "restrictionBiomes": []
   }

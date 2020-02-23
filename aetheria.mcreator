@@ -1040,6 +1040,94 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Voidplanes",
+      "type": "biome",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheVoid",
+      "type": "dimension",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheVoidPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Howtoentervoid",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bedrockreplace",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bedrock",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1086,10 +1174,13 @@
       "block.aetheria.mysticallog": "Mystical log",
       "item.aetheria.sterlingsilver": "Sterling Silver",
       "block.aetheria.bluegrass": "Bluegrass",
+      "block.aetheria.bedrock": "Bedrock",
       "item.aetheria.aluminum": "Aluminum",
       "item.minecraft.potion.effect.omnessence1": "Omnessence1",
       "item.aetheria.coldironn": "Cold Iron Nugget",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
+      "biome.aetheria.voidplanes": "Voidplanes",
+      "item.aetheria.thevoid": "The Void Portal Igniter",
       "item.aetheria.fireberry": "Fireberry",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.stormberryroll": "Stormberry Roll",
