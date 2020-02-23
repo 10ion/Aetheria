@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/tin_ore",
+    "particle": "aetheria:blocks/tin_ore"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:aluminum"
+    },
+    "1": {
+      "item": "aetheria:aluminum"
+    },
+    "2": {
+      "item": "aetheria:aluminum"
+    },
+    "3": {
+      "item": "aetheria:aluminum"
+    },
+    "5": {
+      "item": "aetheria:aluminum"
+    }
+  },
+  "result": {
+    "item": "aetheria:aluminumarmorarmorhelmet",
+    "count": 1
+  }
+}

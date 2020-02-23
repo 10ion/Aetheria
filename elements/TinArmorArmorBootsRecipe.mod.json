@@ -3,43 +3,43 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
-    "recipeShapeless": true,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
     "recipeReturnStack": {
-      "value": "CUSTOM:Pizzaslice"
+      "value": "CUSTOM:TinArmorArmor.boots"
     },
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Pizza"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tin"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tin"
+      },
+      {
+        "value": "CUSTOM:Tin"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Tin"
       }
     ],
     "smeltingXPReward": 0.0,
     "smeltingRetstackSize": 1,
-    "name": "pizzatoslice",
+    "name": "tinarmorarmorbootsrecipe",
     "namespace": "mod"
   }
 }

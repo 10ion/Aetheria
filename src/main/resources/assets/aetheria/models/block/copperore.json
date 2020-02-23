@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/copper_ore",
+    "up": "aetheria:blocks/copper_ore",
+    "north": "aetheria:blocks/copper_ore",
+    "east": "aetheria:blocks/copper_ore",
+    "south": "aetheria:blocks/copper_ore",
+    "west": "aetheria:blocks/copper_ore",
+    "particle": "aetheria:blocks/copper_ore"
+  }
+}

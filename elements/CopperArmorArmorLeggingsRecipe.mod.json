@@ -3,43 +3,43 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
-    "recipeShapeless": true,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
     "recipeReturnStack": {
-      "value": "CUSTOM:Pizzaslice"
+      "value": "CUSTOM:CopperArmorArmor.legs"
     },
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Copper"
       },
       {
-        "value": "CUSTOM:Pizza"
+        "value": "CUSTOM:Copper"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Copper"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Copper"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Copper"
       }
     ],
     "smeltingXPReward": 0.0,
     "smeltingRetstackSize": 1,
-    "name": "pizzatoslice",
+    "name": "copperarmorarmorleggingsrecipe",
     "namespace": "mod"
   }
 }

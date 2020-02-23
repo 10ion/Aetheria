@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tinarmor_head",
+    "enableBody": true,
+    "textureBody": "tinarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "tinarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "tinarmor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "tinarmor",
+    "helmetName": "TinArmor Helmet",
+    "bodyName": "TinArmor Chestplate",
+    "leggingsName": "TinArmor Leggings",
+    "bootsName": "TinArmor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 8,
+    "damageValueHelmet": 1,
+    "damageValueBody": 3,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 1,
+    "enchantability": 5,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

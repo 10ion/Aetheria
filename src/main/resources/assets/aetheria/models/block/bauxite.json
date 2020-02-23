@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/bauxite",
+    "up": "aetheria:blocks/bauxite",
+    "north": "aetheria:blocks/bauxite",
+    "east": "aetheria:blocks/bauxite",
+    "south": "aetheria:blocks/bauxite",
+    "west": "aetheria:blocks/bauxite",
+    "particle": "aetheria:blocks/bauxite"
+  }
+}

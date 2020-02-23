@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:bismuth"
+    },
+    "2": {
+      "item": "aetheria:bismuth"
+    },
+    "3": {
+      "item": "aetheria:bismuth"
+    },
+    "5": {
+      "item": "aetheria:bismuth"
+    }
+  },
+  "result": {
+    "item": "aetheria:bismutharmorarmorboots",
+    "count": 1
+  }
+}

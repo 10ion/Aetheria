@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:BismuthBronzeArmorArmor.legs"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BismuthBronze"
+      },
+      {
+        "value": "CUSTOM:BismuthBronze"
+      },
+      {
+        "value": "CUSTOM:BismuthBronze"
+      },
+      {
+        "value": "CUSTOM:BismuthBronze"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BismuthBronze"
+      },
+      {
+        "value": "CUSTOM:BismuthBronze"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BismuthBronze"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "bismuthbronzearmorarmorleggingsrecipe",
+    "namespace": "mod"
+  }
+}

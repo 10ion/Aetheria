@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:BismuthArmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      },
+      {
+        "value": "CUSTOM:Bismuth"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "bismutharmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

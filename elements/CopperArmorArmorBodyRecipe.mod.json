@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:CopperArmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
+      },
+      {
+        "value": "CUSTOM:Copper"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "copperarmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

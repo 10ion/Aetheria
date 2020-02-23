@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bismuthbronzearmor_head",
+    "enableBody": true,
+    "textureBody": "bismuthbronzearmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "bismuthbronzearmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "bismuthbronzearmor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "bismuthbronzearmor",
+    "helmetName": "BismuthBronzeArmor Helmet",
+    "bodyName": "BismuthBronzeArmor Chestplate",
+    "leggingsName": "BismuthBronzeArmor Leggings",
+    "bootsName": "BismuthBronzeArmor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 14,
+    "damageValueHelmet": 2,
+    "damageValueBody": 4,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

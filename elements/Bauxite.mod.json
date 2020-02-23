@@ -1,13 +1,13 @@
 {
-  "_fv": 4,
+  "_fv": 5,
   "_type": "block",
   "definition": {
     "texture": "bauxite",
-    "textureTop": "bauxite",
-    "textureLeft": "bauxite",
-    "textureFront": "bauxite",
-    "textureRight": "bauxite",
-    "textureBack": "bauxite",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -22,8 +22,8 @@
     "faceShape": "SOLID",
     "name": "Bauxite",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 10.0,
+    "hardness": 1.0,
+    "resistance": 14.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -51,11 +51,11 @@
     },
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -77,20 +77,11 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.STONE#3"
       }
     ],
-    "frequencyPerChunks": 14,
-    "frequencyOnChunk": 20,
-    "minGenerateHeight": 40,
-    "maxGenerateHeight": 210
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 10,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 90
   }
 }

@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:tin"
+    },
+    "1": {
+      "item": "aetheria:tin"
+    },
+    "2": {
+      "item": "aetheria:tin"
+    },
+    "3": {
+      "item": "aetheria:tin"
+    },
+    "5": {
+      "item": "aetheria:tin"
+    }
+  },
+  "result": {
+    "item": "aetheria:tinarmorarmorhelmet",
+    "count": 1
+  }
+}

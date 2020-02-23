@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/bismuth",
+    "particle": "aetheria:blocks/bismuth"
+  }
+}

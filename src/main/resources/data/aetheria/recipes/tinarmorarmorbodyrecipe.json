@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:tin"
+    },
+    "2": {
+      "item": "aetheria:tin"
+    },
+    "3": {
+      "item": "aetheria:tin"
+    },
+    "4": {
+      "item": "aetheria:tin"
+    },
+    "5": {
+      "item": "aetheria:tin"
+    },
+    "6": {
+      "item": "aetheria:tin"
+    },
+    "7": {
+      "item": "aetheria:tin"
+    },
+    "8": {
+      "item": "aetheria:tin"
+    }
+  },
+  "result": {
+    "item": "aetheria:tinarmorarmorbody",
+    "count": 1
+  }
+}

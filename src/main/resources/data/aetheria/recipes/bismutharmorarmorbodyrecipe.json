@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:bismuth"
+    },
+    "2": {
+      "item": "aetheria:bismuth"
+    },
+    "3": {
+      "item": "aetheria:bismuth"
+    },
+    "4": {
+      "item": "aetheria:bismuth"
+    },
+    "5": {
+      "item": "aetheria:bismuth"
+    },
+    "6": {
+      "item": "aetheria:bismuth"
+    },
+    "7": {
+      "item": "aetheria:bismuth"
+    },
+    "8": {
+      "item": "aetheria:bismuth"
+    }
+  },
+  "result": {
+    "item": "aetheria:bismutharmorarmorbody",
+    "count": 1
+  }
+}

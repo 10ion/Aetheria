@@ -3,43 +3,43 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
-    "recipeShapeless": true,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
     "recipeReturnStack": {
-      "value": "CUSTOM:Pizzaslice"
+      "value": "CUSTOM:BronzeArmorArmor.legs"
     },
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Bronze"
       },
       {
-        "value": "CUSTOM:Pizza"
+        "value": "CUSTOM:Bronze"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Bronze"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Bronze"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Bronze"
+      },
+      {
+        "value": "CUSTOM:Bronze"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:Bronze"
       }
     ],
     "smeltingXPReward": 0.0,
     "smeltingRetstackSize": 1,
-    "name": "pizzatoslice",
+    "name": "bronzearmorarmorleggingsrecipe",
     "namespace": "mod"
   }
 }

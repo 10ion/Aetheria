@@ -1,15 +1,15 @@
 {
-  "_fv": 4,
+  "_fv": 5,
   "_type": "block",
   "definition": {
     "texture": "bismuth",
-    "textureTop": "bismuth",
-    "textureLeft": "bismuth",
-    "textureFront": "bismuth",
-    "textureRight": "bismuth",
-    "textureBack": "bismuth",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -22,8 +22,8 @@
     "faceShape": "SOLID",
     "name": "Bismuth Ore",
     "specialInfo": [],
-    "hardness": 2.0,
-    "resistance": 13.0,
+    "hardness": 1.4000000000000001,
+    "resistance": 14.5,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -80,8 +80,8 @@
       }
     ],
     "frequencyPerChunks": 8,
-    "frequencyOnChunk": 10,
-    "minGenerateHeight": 10,
-    "maxGenerateHeight": 90
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 60
   }
 }

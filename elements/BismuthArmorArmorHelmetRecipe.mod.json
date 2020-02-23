@@ -3,29 +3,29 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
-    "recipeShapeless": true,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
     "recipeReturnStack": {
-      "value": "CUSTOM:Pizzaslice"
+      "value": "CUSTOM:BismuthArmorArmor.helmet"
     },
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Bismuth"
       },
       {
-        "value": "CUSTOM:Pizza"
+        "value": "CUSTOM:Bismuth"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Bismuth"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Bismuth"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Bismuth"
       },
       {
         "value": ""
@@ -39,7 +39,7 @@
     ],
     "smeltingXPReward": 0.0,
     "smeltingRetstackSize": 1,
-    "name": "pizzatoslice",
+    "name": "bismutharmorarmorhelmetrecipe",
     "namespace": "mod"
   }
 }
