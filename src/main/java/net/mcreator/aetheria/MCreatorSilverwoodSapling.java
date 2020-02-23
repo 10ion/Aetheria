@@ -39,7 +39,7 @@ public class MCreatorSilverwoodSapling extends Elementsaetheria.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(1f, 1f).lightValue(0));
+			super(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(1f, 1f).lightValue(0).doesNotBlockMovement());
 			setRegistryName("silverwoodsapling");
 		}
 

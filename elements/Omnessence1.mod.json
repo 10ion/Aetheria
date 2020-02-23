@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "potion",
+  "definition": {
+    "name": "Omnessence1",
+    "effectName": "Omnessence1",
+    "icon": "omnessence.png",
+    "color": {
+      "value": -6684928,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": false,
+    "curativeItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "Omnessence1OnPotionActiveTick"
+    }
+  }
+}

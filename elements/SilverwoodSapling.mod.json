@@ -49,7 +49,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "PLANT"
     },

@@ -3,7 +3,7 @@
   "type": "minecraft:smelting",
   "experience": 1.75,
   "ingredient": {
-    "item": "aetheria:endersteel_oreore"
+    "item": "minecraft:air"
   },
   "result": {
     "item": "aetheria:endersteel"
