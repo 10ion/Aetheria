@@ -1426,6 +1426,98 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "GlazedSand",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HOLYHANDGRENADE",
+      "type": "gun",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HOLYHANDGRENADEBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HOLYHANDGRENADERangedItemUsed",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Voidshroom",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverwoodLeaves",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwood1",
+      "type": "structure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwoodforest",
+      "type": "biome",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1438,8 +1530,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
+      "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.bismuthbronzearmorarmorbody": "BismuthBronzeArmor Chestplate",
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
@@ -1447,12 +1539,13 @@
       "item.aetheria.pizzaslice": "Pizza Slice",
       "item.minecraft.splash_potion.effect.omnessence1": "Splash Omnessence1",
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
-      "item.aetheria.bronzearmorarmorlegs": "BronzeArmor Leggings",
+      "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
       "item.aetheria.bismuth": "Bismuth",
+      "item.aetheria.bronzearmorarmorlegs": "BronzeArmor Leggings",
       "item.aetheria.moonberry": "Moonberry",
       "block.aetheria.tinore": "Tin Ore",
-      "block.aetheria.mysticalplanks": "Mystical Planks",
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
+      "block.aetheria.mysticalplanks": "Mystical Planks",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
       "item.aetheria.copperarmorarmorboots": "CopperArmor Boots",
@@ -1463,7 +1556,9 @@
       "item.aetheria.redsteelshovel": "Redsteel Shovel",
       "item.minecraft.tipped_arrow.effect.omnessence1": "Arrow of Omnessence1",
       "block.aetheria.mysticallog": "Mystical log",
+      "block.aetheria.glazedsand": "Glazed Sand",
       "item.aetheria.sterlingsilver": "Sterling Silver",
+      "biome.aetheria.silverwoodforest": "Silverwood forest",
       "item.aetheria.tinarmorarmorbody": "TinArmor Chestplate",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
       "item.aetheria.fireberry": "Fireberry",
@@ -1548,7 +1643,9 @@
       "item.aetheria.bismutharmorarmorbody": "BismuthArmor Chestplate",
       "item.aetheria.silver": "Silver",
       "item.aetheria.copper": "Copper",
+      "block.aetheria.voidshroom": "Voidshroom",
       "item.aetheria.gemwroughtarmorboots": "Gemwrought Mail Boots",
+      "block.aetheria.silverwoodleaves": "Silverwood Leaves",
       "block.aetheria.blueleaf": "Blueleaf",
       "block.aetheria.titaniumore": "Titanium ore",
       "item.aetheria.gemwroughthoe": "Gemwrought Hoe",

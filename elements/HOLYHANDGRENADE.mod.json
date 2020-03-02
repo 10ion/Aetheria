@@ -1,0 +1,44 @@
+{
+  "_fv": 5,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "holyhandgrenade",
+    "customModelName": "Normal",
+    "name": "Holy Hand Grenade",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 1,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 0.1,
+    "bulletPower": 0.4,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:HOLYHANDGRENADE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "HOLYHANDGRENADEBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "HOLYHANDGRENADEBulletHitsBlock"
+    },
+    "onRangedItemUsed": {
+      "name": "HOLYHANDGRENADERangedItemUsed"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 5,
+  "_type": "structure",
+  "definition": {
+    "structure": "silverwood1",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Silverwoodforest"
+      }
+    ]
+  }
+}

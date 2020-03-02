@@ -1,0 +1,85 @@
+{
+  "_fv": 5,
+  "_type": "block",
+  "definition": {
+    "texture": "voidshroom",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Voidshroom",
+    "specialInfo": [],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PLANTS"
+    },
+    "tickRate": 10,
+    "isReplaceable": false,
+    "isFlammable": false,
+    "colorOnMap": "CYAN",
+    "creativePickItem": {
+      "value": ""
+    },
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 0.03,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "UNDERWATER"
+    },
+    "particleSpawningShape": "Tube",
+    "particleSpawningRadious": 0.19999999850988387,
+    "particleAmount": 10,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

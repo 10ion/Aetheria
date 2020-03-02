@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/slilverwoodleaves",
+    "up": "aetheria:blocks/slilverwoodleaves",
+    "north": "aetheria:blocks/slilverwoodleaves",
+    "east": "aetheria:blocks/slilverwoodleaves",
+    "south": "aetheria:blocks/slilverwoodleaves",
+    "west": "aetheria:blocks/slilverwoodleaves",
+    "particle": "aetheria:blocks/slilverwoodleaves"
+  }
+}
