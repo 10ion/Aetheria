@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlatinumarmorArmor.boots"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Platinum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Platinum"
+      },
+      {
+        "value": "CUSTOM:Platinum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Platinum"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "platinumarmorarmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

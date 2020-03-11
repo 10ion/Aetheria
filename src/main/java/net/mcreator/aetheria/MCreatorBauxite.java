@@ -81,7 +81,7 @@ public class MCreatorBauxite extends Elementsaetheria.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 10), Placement.COUNT_RANGE, new CountRangeConfig(12, 0, 0, 90)));
+			}), block.getDefaultState(), 10), Placement.COUNT_RANGE, new CountRangeConfig(14, 0, 0, 95)));
 		}
 	}
 }

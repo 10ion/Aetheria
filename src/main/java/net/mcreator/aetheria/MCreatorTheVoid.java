@@ -45,6 +45,7 @@ import net.minecraft.util.SharedSeedRandom;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import javax.annotation.Nullable;
@@ -86,7 +87,8 @@ public class MCreatorTheVoid extends Elementsaetheria.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("aetheria:voidplanes")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("aetheria:voidplanes")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("aetheria:extremevoidplanes")),};
 	}
 
 	public static class CustomModDimension extends ModDimension {
@@ -213,7 +215,7 @@ public class MCreatorTheVoid extends Elementsaetheria.ModElement {
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {
-					return MCreatorVoidStone.block.getDefaultState();
+					return Blocks.MYCELIUM.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {

@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:brass"
+    },
+    "1": {
+      "item": "aetheria:brass"
+    },
+    "2": {
+      "item": "aetheria:brass"
+    },
+    "3": {
+      "item": "aetheria:brass"
+    },
+    "5": {
+      "item": "aetheria:brass"
+    }
+  },
+  "result": {
+    "item": "aetheria:brassarmorarmorhelmet",
+    "count": 1
+  }
+}

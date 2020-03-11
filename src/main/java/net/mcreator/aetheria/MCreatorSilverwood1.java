@@ -46,7 +46,7 @@ public class MCreatorSilverwood1 extends Elementsaetheria.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 1) {
+				if ((random.nextInt(1000000) + 1) <= 1000000) {
 					i += random.nextInt(16) + 8;
 					k += random.nextInt(16) + 8;
 					int j = iworld.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);

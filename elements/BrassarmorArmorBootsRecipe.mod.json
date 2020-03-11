@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrassarmorArmor.boots"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Brass"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "brassarmorarmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

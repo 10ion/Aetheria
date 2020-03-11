@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:zinc"
+    },
+    "2": {
+      "item": "aetheria:zinc"
+    },
+    "3": {
+      "item": "aetheria:zinc"
+    },
+    "5": {
+      "item": "aetheria:zinc"
+    }
+  },
+  "result": {
+    "item": "aetheria:zincarmorarmorboots",
+    "count": 1
+  }
+}

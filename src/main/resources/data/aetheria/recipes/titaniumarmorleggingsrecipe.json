@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:titaniumi"
+    },
+    "1": {
+      "item": "aetheria:titaniumi"
+    },
+    "2": {
+      "item": "aetheria:titaniumi"
+    },
+    "3": {
+      "item": "aetheria:titaniumi"
+    },
+    "5": {
+      "item": "aetheria:titaniumi"
+    },
+    "6": {
+      "item": "aetheria:titaniumi"
+    },
+    "8": {
+      "item": "aetheria:titaniumi"
+    }
+  },
+  "result": {
+    "item": "aetheria:titaniumarmorlegs",
+    "count": 1
+  }
+}

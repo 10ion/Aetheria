@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:SteelarmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": "CUSTOM:Steel"
+      },
+      {
+        "value": "CUSTOM:Steel"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "steelarmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

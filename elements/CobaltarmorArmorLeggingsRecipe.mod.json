@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:CobaltarmorArmor.legs"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Cobalt"
+      },
+      {
+        "value": "CUSTOM:Cobalt"
+      },
+      {
+        "value": "CUSTOM:Cobalt"
+      },
+      {
+        "value": "CUSTOM:Cobalt"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cobalt"
+      },
+      {
+        "value": "CUSTOM:Cobalt"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Cobalt"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "cobaltarmorarmorleggingsrecipe",
+    "namespace": "mod"
+  }
+}

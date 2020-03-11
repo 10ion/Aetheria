@@ -1428,14 +1428,6 @@
       "ids": {}
     },
     {
-      "name": "GlazedSand",
-      "type": "block",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "HOLYHANDGRENADE",
       "type": "gun",
       "sortid": 198,
@@ -1488,14 +1480,6 @@
       }
     },
     {
-      "name": "Voidshroom",
-      "type": "block",
-      "sortid": 201,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "SilverwoodLeaves",
       "type": "block",
       "sortid": 202,
@@ -1518,6 +1502,782 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Silverwoodgrowthbonemeal",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Silverwoodnaturalgrowth",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Silverwoodalsonaturalgrowth",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitaniumArmor",
+      "type": "armor",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TitaniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ZincarmorArmor",
+      "type": "armor",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ZincarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ZincarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ZincarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ZincarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagnegoldarmorArmor",
+      "type": "armor",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagnegoldarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagnegoldarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagnegoldarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MagnegoldarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectrumarmorArmor",
+      "type": "armor",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectrumarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectrumarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectrumarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectrumarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelarmorArmor",
+      "type": "armor",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverarmorArmor",
+      "type": "armor",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SterlingarmorArmor",
+      "type": "armor",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SterlingarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SterlingarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SterlingarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SterlingarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadarmorArmor",
+      "type": "armor",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalladiumarmorArmor",
+      "type": "armor",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalladiumarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalladiumarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalladiumarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalladiumarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobaltarmorArmor",
+      "type": "armor",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobaltarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobaltarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobaltarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CobaltarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenarmorArmor",
+      "type": "armor",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TungstenarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PewterarmorArmor",
+      "type": "armor",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PewterarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PewterarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PewterarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PewterarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BrassarmorArmor",
+      "type": "armor",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BrassarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BrassarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BrassarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BrassarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColdironarmorArmor",
+      "type": "armor",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColdironarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColdironarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColdironarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColdironarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumarmorArmor",
+      "type": "armor",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwood2",
+      "type": "structure",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwood3",
+      "type": "structure",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwood1_2",
+      "type": "structure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwood2_2",
+      "type": "structure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Silverwood3_2",
+      "type": "structure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Extremevoidplanes",
+      "type": "biome",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Voidshroom",
+      "type": "plant",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AstralToadstool",
+      "type": "plant",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Macowanite",
+      "type": "plant",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Lightningrod",
+      "type": "block",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Blockbird",
+      "type": "mob",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -1530,63 +2290,99 @@
   ],
   "language_map": {
     "en_us": {
-      "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
+      "item.aetheria.sterlingarmorarmorboots": "Sterlingarmor Boots",
+      "item.aetheria.platinumarmorarmorhelmet": "Platinumarmor Helmet",
       "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
+      "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.bismuthbronzearmorarmorbody": "BismuthBronzeArmor Chestplate",
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
+      "item.aetheria.steelarmorarmorhelmet": "Steelarmor Helmet",
       "block.aetheria.voidstone": "Void Stone",
+      "item.aetheria.steelarmorarmorlegs": "Steelarmor Leggings",
+      "biome.aetheria.extremevoidplanes": "Extremevoidplanes",
       "item.aetheria.pizzaslice": "Pizza Slice",
       "item.minecraft.splash_potion.effect.omnessence1": "Splash Omnessence1",
+      "item.aetheria.pewterarmorarmorbody": "Pewterarmor Chestplate",
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
+      "item.aetheria.titaniumarmorlegs": "Titanium Leggings",
       "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
-      "item.aetheria.bismuth": "Bismuth",
       "item.aetheria.bronzearmorarmorlegs": "BronzeArmor Leggings",
+      "item.aetheria.bismuth": "Bismuth",
       "item.aetheria.moonberry": "Moonberry",
+      "item.aetheria.zincarmorarmorhelmet": "Zincarmor Helmet",
+      "item.aetheria.magnegoldarmorarmorhelmet": "Magnegoldarmor Helmet",
+      "item.aetheria.tungstenarmorarmorhelmet": "Tungstenarmor Helmet",
       "block.aetheria.tinore": "Tin Ore",
-      "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "block.aetheria.mysticalplanks": "Mystical Planks",
+      "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
+      "item.aetheria.titaniumarmorhelmet": "Titanium Helmet",
+      "item.aetheria.tungstenarmorarmorboots": "Tungstenarmor Boots",
+      "item.aetheria.blockbird": "Blockbird Spawn Egg",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
+      "block.aetheria.lightningrod": "Lightningrod",
       "item.aetheria.copperarmorarmorboots": "CopperArmor Boots",
       "block.aetheria.copperore": "Copper Ore",
       "item.aetheria.endersteeelarmorbody": "Endersteeel Chestplate",
+      "item.aetheria.sterlingarmorarmorbody": "Sterlingarmor Chestplate",
+      "item.aetheria.palladiumarmorarmorhelmet": "Palladiumarmor Helmet",
       "item.aetheria.pizza": "Pizza",
       "item.aetheria.copperarmorarmorbody": "CopperArmor Chestplate",
       "item.aetheria.redsteelshovel": "Redsteel Shovel",
       "item.minecraft.tipped_arrow.effect.omnessence1": "Arrow of Omnessence1",
+      "item.aetheria.silverarmorarmorboots": "Silverarmor Boots",
       "block.aetheria.mysticallog": "Mystical log",
-      "block.aetheria.glazedsand": "Glazed Sand",
       "item.aetheria.sterlingsilver": "Sterling Silver",
       "biome.aetheria.silverwoodforest": "Silverwood forest",
+      "item.aetheria.magnegoldarmorarmorboots": "Magnegoldarmor Boots",
+      "block.aetheria.macowanite": "Macowanite",
       "item.aetheria.tinarmorarmorbody": "TinArmor Chestplate",
+      "item.aetheria.coldironarmorarmorhelmet": "Coldironarmor Helmet",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
       "item.aetheria.fireberry": "Fireberry",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.bismutharmorarmorboots": "BismuthArmor Boots",
+      "item.aetheria.silverarmorarmorhelmet": "Silverarmor Helmet",
+      "item.aetheria.leadarmorarmorbody": "Leadarmor Chestplate",
       "block.aetheria.bauxite": "Bauxite",
       "item.aetheria.steel": "Steel",
+      "item.aetheria.brassarmorarmorlegs": "Brassarmor Leggings",
       "biome.aetheria.aetherbiome": "Aetherbiome",
+      "item.aetheria.pewterarmorarmorboots": "Pewterarmor Boots",
       "item.aetheria.gemwroughtarmorbody": "Gemwrought Mail Chestplate",
       "item.aetheria.lead": "Lead",
       "item.aetheria.tinarmorarmorhelmet": "TinArmor Helmet",
       "item.aetheria.nethercryptdagger": "Nethercrypt Dagger",
       "item.aetheria.endersteel": "Endersteel",
       "item.aetheria.gemwroughtaxe": "Gemwrought Axe",
+      "item.aetheria.brassarmorarmorboots": "Brassarmor Boots",
+      "item.aetheria.silverarmorarmorbody": "Silverarmor Chestplate",
       "item.aetheria.stormberry": "Stormberry",
+      "item.aetheria.leadarmorarmorboots": "Leadarmor Boots",
+      "item.aetheria.zincarmorarmorbody": "Zincarmor Chestplate",
       "item.aetheria.redsteelarmorhelmet": "Redsteel Helmet",
       "item.aetheria.palladium": "Palladium",
       "item.aetheria.cobalt": "Cobalt",
+      "item.aetheria.magnegoldarmorarmorlegs": "Magnegoldarmor Leggings",
       "item.aetheria.aluminumarmorarmorbody": "AluminumArmor Chestplate",
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
+      "item.aetheria.coldironarmorarmorbody": "Coldironarmor Chestplate",
+      "item.aetheria.cobaltarmorarmorhelmet": "Cobaltarmor Helmet",
       "item.aetheria.rtungsten": "Raw Tungsten",
       "item.aetheria.bronzearmorarmorhelmet": "BronzeArmor Helmet",
       "item.aetheria.bismutharmorarmorlegs": "BismuthArmor Leggings",
+      "item.aetheria.cobaltarmorarmorbody": "Cobaltarmor Chestplate",
       "item.aetheria.tinarmorarmorboots": "TinArmor Boots",
+      "item.aetheria.sterlingarmorarmorlegs": "Sterlingarmor Leggings",
       "item.aetheria.aluminumarmorarmorboots": "AluminumArmor Boots",
+      "item.aetheria.steelarmorarmorboots": "Steelarmor Boots",
       "item.aetheria.gemwroughtpickaxe": "Gemwrought Pickaxe",
       "item.aetheria.bismuthbronze": "Bismuth Bronze",
+      "item.aetheria.zincarmorarmorboots": "Zincarmor Boots",
+      "item.aetheria.platinumarmorarmorbody": "Platinumarmor Chestplate",
       "effect.milkbottle": "Bottle of Milk",
+      "item.aetheria.electrumarmorarmorlegs": "Electrumarmor Leggings",
       "item.aetheria.platinum": "Platinum",
       "item.aetheria.endersteeelarmorboots": "Endersteeel Boots",
       "block.aetheria.silverwoodlog": "Silverwood Log",
@@ -1595,12 +2391,22 @@
       "item.aetheria.zinc": "Zinc",
       "item.aetheria.copperarmorarmorhelmet": "CopperArmor Helmet",
       "item.aetheria.redsteelarmorboots": "Redsteel Boots",
+      "item.aetheria.brassarmorarmorhelmet": "Brassarmor Helmet",
+      "item.aetheria.palladiumarmorarmorlegs": "Palladiumarmor Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
+      "item.aetheria.tungstenarmorarmorbody": "Tungstenarmor Chestplate",
       "item.aetheria.stormberrymuffin": "Stormberry Muffin",
       "block.aetheria.bismuthore": "Bismuth Ore",
+      "item.aetheria.steelarmorarmorbody": "Steelarmor Chestplate",
       "block.aetheria.mysticalstone": "Mystical Stone",
       "item.aetheria.redsteelaxe": "Redsteel Axe",
       "item.aetheria.brass": "Brass",
+      "item.aetheria.brassarmorarmorbody": "Brassarmor Chestplate",
+      "item.aetheria.titaniumarmorboots": "Titanium Boots",
+      "item.aetheria.titaniumarmorbody": "Titanium Chestplate",
+      "item.aetheria.pewterarmorarmorlegs": "Pewterarmor Leggings",
+      "item.aetheria.palladiumarmorarmorboots": "Palladiumarmor Boots",
+      "item.aetheria.platinumarmorarmorboots": "Platinumarmor Boots",
       "item.aetheria.bismutharmorarmorhelmet": "BismuthArmor Helmet",
       "item.aetheria.redsteelarmorbody": "Redsteel Chestplate",
       "item.aetheria.coldiron": "Coldiron",
@@ -1612,6 +2418,7 @@
       "item.aetheria.copperarmorarmorlegs": "CopperArmor Leggings",
       "item.aetheria.pewter": "Pewter",
       "item.aetheria.tinarmorarmorlegs": "TinArmor Leggings",
+      "block.aetheria.astraltoadstool": "Astral Toadstool",
       "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.tin": "Tin",
       "block.aetheria.bluegrass": "Bluegrass",
@@ -1624,15 +2431,24 @@
       "item.aetheria.thevoid": "The Void Portal Igniter",
       "item.aetheria.stormberryroll": "Stormberry Roll",
       "block.aetheria.silverwoodsapling": "Silverwood Sapling",
+      "entity.aetheria.blockbird": "Blockbird",
       "item.aetheria.redsteelsword": "Redsteel Sword",
       "block.aetheria.gemwroughtoreblock": "Block of Gemwrought",
+      "item.aetheria.sterlingarmorarmorhelmet": "Sterlingarmor Helmet",
       "item.aetheria.gemwroughtarmorlegs": "Gemwrought Mail Leggings",
+      "item.aetheria.leadarmorarmorlegs": "Leadarmor Leggings",
       "item.aetheria.moralmedly": "Moral Medly",
       "effect.omnessence1": "Omnessence1",
       "item.aetheria.aluminumarmorarmorlegs": "AluminumArmor Leggings",
+      "item.aetheria.silverarmorarmorlegs": "Silverarmor Leggings",
       "item.aetheria.titaniumingot": "Titanium nugget",
+      "item.aetheria.palladiumarmorarmorbody": "Palladiumarmor Chestplate",
       "item.aetheria.endersteeltoolspickaxe": "Endersteel Pickaxe",
       "item.aetheria.bronzearmorarmorboots": "BronzeArmor Boots",
+      "item.aetheria.zincarmorarmorlegs": "Zincarmor Leggings",
+      "item.aetheria.magnegoldarmorarmorbody": "Magnegoldarmor Chestplate",
+      "item.aetheria.pewterarmorarmorhelmet": "Pewterarmor Helmet",
+      "item.aetheria.cobaltarmorarmorlegs": "Cobaltarmor Leggings",
       "item.aetheria.gemwroughtsword": "Gemwrought Sword",
       "item.aetheria.aluminumarmorarmorhelmet": "AluminumArmor Helmet",
       "item.aetheria.redsteelpickaxe": "Redsteel Pickaxe",
@@ -1641,9 +2457,12 @@
       "item.minecraft.splash_potion.effect.milkbottle": "Splash Milkbottle",
       "block.aetheria.ghostmorel": "Ghost Morel",
       "item.aetheria.bismutharmorarmorbody": "BismuthArmor Chestplate",
+      "item.aetheria.coldironarmorarmorlegs": "Coldironarmor Leggings",
       "item.aetheria.silver": "Silver",
+      "item.aetheria.electrumarmorarmorbody": "Electrumarmor Chestplate",
       "item.aetheria.copper": "Copper",
       "block.aetheria.voidshroom": "Voidshroom",
+      "item.aetheria.cobaltarmorarmorboots": "Cobaltarmor Boots",
       "item.aetheria.gemwroughtarmorboots": "Gemwrought Mail Boots",
       "block.aetheria.silverwoodleaves": "Silverwood Leaves",
       "block.aetheria.blueleaf": "Blueleaf",
@@ -1651,9 +2470,15 @@
       "item.aetheria.gemwroughthoe": "Gemwrought Hoe",
       "item.aetheria.endersteeltoolshoe": "Endersteel Hoe",
       "item.aetheria.bismuthbronzearmorarmorboots": "BismuthBronzeArmor Boots",
+      "item.aetheria.leadarmorarmorhelmet": "Leadarmor Helmet",
       "item.aetheria.bronze": "Bronze",
+      "item.aetheria.coldironarmorarmorboots": "Coldironarmor Boots",
       "item.aetheria.bismuthbronzearmorarmorhelmet": "BismuthBronzeArmor Helmet",
+      "item.aetheria.platinumarmorarmorlegs": "Platinumarmor Leggings",
       "item.minecraft.lingering_potion.effect.omnessence1": "Lingering Omnessence1",
+      "item.aetheria.tungstenarmorarmorlegs": "Tungstenarmor Leggings",
+      "item.aetheria.electrumarmorarmorboots": "Electrumarmor Boots",
+      "item.aetheria.electrumarmorarmorhelmet": "Electrumarmor Helmet",
       "item.aetheria.gemwroughtgem": "Gemwrought"
     }
   },

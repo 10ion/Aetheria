@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/macowanite",
+    "particle": "aetheria:blocks/macowanite"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "titanium_head",
+    "enableBody": true,
+    "textureBody": "titanium_body",
+    "enableLeggings": true,
+    "textureLeggings": "titanium_leggings",
+    "enableBoots": true,
+    "textureBoots": "titanium_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "titanium",
+    "helmetName": "Titanium Helmet",
+    "bodyName": "Titanium Chestplate",
+    "leggingsName": "Titanium Leggings",
+    "bootsName": "Titanium Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 41,
+    "damageValueHelmet": 5,
+    "damageValueBody": 14,
+    "damageValueLeggings": 16,
+    "damageValueBoots": 5,
+    "enchantability": 24,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

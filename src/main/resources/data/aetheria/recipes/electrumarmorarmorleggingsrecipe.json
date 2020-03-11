@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:electrum"
+    },
+    "1": {
+      "item": "aetheria:electrum"
+    },
+    "2": {
+      "item": "aetheria:electrum"
+    },
+    "3": {
+      "item": "aetheria:electrum"
+    },
+    "5": {
+      "item": "aetheria:electrum"
+    },
+    "6": {
+      "item": "aetheria:electrum"
+    },
+    "8": {
+      "item": "aetheria:electrum"
+    }
+  },
+  "result": {
+    "item": "aetheria:electrumarmorarmorlegs",
+    "count": 1
+  }
+}

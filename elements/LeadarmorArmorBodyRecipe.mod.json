@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:LeadarmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "leadarmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

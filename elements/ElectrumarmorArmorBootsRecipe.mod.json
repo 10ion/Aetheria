@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElectrumarmorArmor.boots"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Electrum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Electrum"
+      },
+      {
+        "value": "CUSTOM:Electrum"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Electrum"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "electrumarmorarmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

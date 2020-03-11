@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:electrum"
+    },
+    "1": {
+      "item": "aetheria:electrum"
+    },
+    "2": {
+      "item": "aetheria:electrum"
+    },
+    "3": {
+      "item": "aetheria:electrum"
+    },
+    "5": {
+      "item": "aetheria:electrum"
+    }
+  },
+  "result": {
+    "item": "aetheria:electrumarmorarmorhelmet",
+    "count": 1
+  }
+}

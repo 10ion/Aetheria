@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "electrumarmor_head",
+    "enableBody": true,
+    "textureBody": "electrumarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "electrumarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "electrumarmor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "electrumarmor",
+    "helmetName": "Electrumarmor Helmet",
+    "bodyName": "Electrumarmor Chestplate",
+    "leggingsName": "Electrumarmor Leggings",
+    "bootsName": "Electrumarmor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 5,
+    "damageValueHelmet": 1,
+    "damageValueBody": 2,
+    "damageValueLeggings": 2,
+    "damageValueBoots": 1,
+    "enchantability": 3,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

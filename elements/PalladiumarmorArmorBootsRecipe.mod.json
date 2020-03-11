@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:PalladiumarmorArmor.boots"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "palladiumarmorarmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

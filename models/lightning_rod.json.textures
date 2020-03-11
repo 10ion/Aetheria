@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lightning_rod",
+        "1": "lightningbase",
+        "2": "lightningparticals"
+      },
+      "name": "default"
+    }
+  }
+}

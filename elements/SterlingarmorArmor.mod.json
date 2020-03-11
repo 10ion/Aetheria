@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "sterlingarmor_head",
+    "enableBody": true,
+    "textureBody": "sterlingarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "sterlingarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "sterlingarmor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "sterlingarmor",
+    "helmetName": "Sterlingarmor Helmet",
+    "bodyName": "Sterlingarmor Chestplate",
+    "leggingsName": "Sterlingarmor Leggings",
+    "bootsName": "Sterlingarmor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 9,
+    "damageValueHelmet": 1,
+    "damageValueBody": 3,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
+    "enchantability": 5,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

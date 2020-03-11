@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:tungsten"
+    },
+    "2": {
+      "item": "aetheria:tungsten"
+    },
+    "3": {
+      "item": "aetheria:tungsten"
+    },
+    "4": {
+      "item": "aetheria:tungsten"
+    },
+    "5": {
+      "item": "aetheria:tungsten"
+    },
+    "6": {
+      "item": "aetheria:tungsten"
+    },
+    "7": {
+      "item": "aetheria:tungsten"
+    },
+    "8": {
+      "item": "aetheria:tungsten"
+    }
+  },
+  "result": {
+    "item": "aetheria:tungstenarmorarmorbody",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:lead"
+    },
+    "2": {
+      "item": "aetheria:lead"
+    },
+    "3": {
+      "item": "aetheria:lead"
+    },
+    "5": {
+      "item": "aetheria:lead"
+    }
+  },
+  "result": {
+    "item": "aetheria:leadarmorarmorboots",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:magnegold"
+    },
+    "1": {
+      "item": "aetheria:magnegold"
+    },
+    "2": {
+      "item": "aetheria:magnegold"
+    },
+    "3": {
+      "item": "aetheria:magnegold"
+    },
+    "5": {
+      "item": "aetheria:magnegold"
+    }
+  },
+  "result": {
+    "item": "aetheria:magnegoldarmorarmorhelmet",
+    "count": 1
+  }
+}

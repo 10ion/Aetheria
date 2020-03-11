@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:TungstenarmorArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tungsten"
+      },
+      {
+        "value": "CUSTOM:Tungsten"
+      },
+      {
+        "value": "CUSTOM:Tungsten"
+      },
+      {
+        "value": "CUSTOM:Tungsten"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tungsten"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "tungstenarmorarmorhelmetrecipe",
+    "namespace": "mod"
+  }
+}

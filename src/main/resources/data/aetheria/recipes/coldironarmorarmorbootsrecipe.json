@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:coldiron"
+    },
+    "2": {
+      "item": "aetheria:coldiron"
+    },
+    "3": {
+      "item": "aetheria:coldiron"
+    },
+    "5": {
+      "item": "aetheria:coldiron"
+    }
+  },
+  "result": {
+    "item": "aetheria:coldironarmorarmorboots",
+    "count": 1
+  }
+}

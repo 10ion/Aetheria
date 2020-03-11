@@ -1,0 +1,10 @@
+{
+  "parent": "aetheria:custom/lightning_rod",
+  "textures": {
+    "all": "aetheria:blocks/lightning_rod",
+    "particle": "aetheria:blocks/lightning_rod",
+    "0": "aetheria:blocks/lightning_rod",
+    "1": "aetheria:blocks/lightningbase",
+    "2": "aetheria:blocks/lightningparticals"
+  }
+}

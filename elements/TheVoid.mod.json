@@ -22,11 +22,14 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Voidplanes"
+      },
+      {
+        "value": "CUSTOM:Extremevoidplanes"
       }
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:VoidStone"
+      "value": "Blocks.MYCELIUM"
     },
     "secondaryFillerBlock": {
       "value": "CUSTOM:VoidStone"

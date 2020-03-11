@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/astroltoadstool",
+    "particle": "aetheria:blocks/astroltoadstool"
+  }
+}

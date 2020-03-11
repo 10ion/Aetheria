@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagnegoldarmorArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Magnegold"
+      },
+      {
+        "value": "CUSTOM:Magnegold"
+      },
+      {
+        "value": "CUSTOM:Magnegold"
+      },
+      {
+        "value": "CUSTOM:Magnegold"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Magnegold"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "magnegoldarmorarmorhelmetrecipe",
+    "namespace": "mod"
+  }
+}

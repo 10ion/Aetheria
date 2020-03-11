@@ -40,7 +40,7 @@ public class MCreatorBedrock extends Elementsaetheria.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 50f).lightValue(0).harvestLevel(7)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 18000f).lightValue(0).harvestLevel(7)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("bedrock");
 		}

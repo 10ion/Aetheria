@@ -1,14 +1,8 @@
-//Made with Blockbench
-//Paste this code into your mod.
+// Made with Blockbench
+// Paste this code into your mod.
+// Make sure to generate all required imports
 
-import org.lwjgl.opengl.GL11;
-import net.minecraft.client.model.ModelBase;
-import net.minecraft.client.model.ModelBox;
-import net.minecraft.client.model.ModelRenderer;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.entity.Entity;
-
-public class custom_model extends ModelBase {
+public class ghoul extends ModelBase {
 	private final ModelRenderer lleg;
 	private final ModelRenderer rleg;
 	private final ModelRenderer body;
@@ -16,7 +10,7 @@ public class custom_model extends ModelBase {
 	private final ModelRenderer rarm;
 	private final ModelRenderer head;
 
-	public custom_model() {
+	public ghoul() {
 		textureWidth = 64;
 		textureHeight = 64;
 

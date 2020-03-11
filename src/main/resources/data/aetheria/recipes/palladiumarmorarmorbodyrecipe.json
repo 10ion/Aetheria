@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:palladium"
+    },
+    "2": {
+      "item": "aetheria:palladium"
+    },
+    "3": {
+      "item": "aetheria:palladium"
+    },
+    "4": {
+      "item": "aetheria:palladium"
+    },
+    "5": {
+      "item": "aetheria:palladium"
+    },
+    "6": {
+      "item": "aetheria:palladium"
+    },
+    "7": {
+      "item": "aetheria:palladium"
+    },
+    "8": {
+      "item": "aetheria:palladium"
+    }
+  },
+  "result": {
+    "item": "aetheria:palladiumarmorarmorbody",
+    "count": 1
+  }
+}

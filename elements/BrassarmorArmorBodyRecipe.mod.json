@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:BrassarmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      },
+      {
+        "value": "CUSTOM:Brass"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "brassarmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

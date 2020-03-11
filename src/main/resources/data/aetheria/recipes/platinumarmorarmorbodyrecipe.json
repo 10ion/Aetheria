@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:platinum"
+    },
+    "2": {
+      "item": "aetheria:platinum"
+    },
+    "3": {
+      "item": "aetheria:platinum"
+    },
+    "4": {
+      "item": "aetheria:platinum"
+    },
+    "5": {
+      "item": "aetheria:platinum"
+    },
+    "6": {
+      "item": "aetheria:platinum"
+    },
+    "7": {
+      "item": "aetheria:platinum"
+    },
+    "8": {
+      "item": "aetheria:platinum"
+    }
+  },
+  "result": {
+    "item": "aetheria:platinumarmorarmorbody",
+    "count": 1
+  }
+}

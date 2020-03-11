@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:silver"
+    },
+    "2": {
+      "item": "aetheria:silver"
+    },
+    "3": {
+      "item": "aetheria:silver"
+    },
+    "4": {
+      "item": "aetheria:silver"
+    },
+    "5": {
+      "item": "aetheria:silver"
+    },
+    "6": {
+      "item": "aetheria:silver"
+    },
+    "7": {
+      "item": "aetheria:silver"
+    },
+    "8": {
+      "item": "aetheria:silver"
+    }
+  },
+  "result": {
+    "item": "aetheria:silverarmorarmorbody",
+    "count": 1
+  }
+}

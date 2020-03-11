@@ -48,7 +48,7 @@ public class MCreatorVoidplanes extends Elementsaetheria.ModElement {
 					.waterFogColor(329011)
 					.surfaceBuilder(
 							SurfaceBuilder.DEFAULT,
-							new SurfaceBuilderConfig(MCreatorVoidStone.block.getDefaultState(), MCreatorVoidStone.block.getDefaultState(),
+							new SurfaceBuilderConfig(Blocks.MYCELIUM.getDefaultState(), MCreatorVoidStone.block.getDefaultState(),
 									MCreatorVoidStone.block.getDefaultState())));
 			setRegistryName("voidplanes");
 			DefaultBiomeFeatures.addCarvers(this);

@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:TitaniumArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      },
+      {
+        "value": "CUSTOM:TitaniumI"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "titaniumarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

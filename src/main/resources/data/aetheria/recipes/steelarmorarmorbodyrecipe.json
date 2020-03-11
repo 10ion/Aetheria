@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:steel"
+    },
+    "2": {
+      "item": "aetheria:steel"
+    },
+    "3": {
+      "item": "aetheria:steel"
+    },
+    "4": {
+      "item": "aetheria:steel"
+    },
+    "5": {
+      "item": "aetheria:steel"
+    },
+    "6": {
+      "item": "aetheria:steel"
+    },
+    "7": {
+      "item": "aetheria:steel"
+    },
+    "8": {
+      "item": "aetheria:steel"
+    }
+  },
+  "result": {
+    "item": "aetheria:steelarmorarmorbody",
+    "count": 1
+  }
+}

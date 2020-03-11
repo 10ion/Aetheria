@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:pewter"
+    },
+    "2": {
+      "item": "aetheria:pewter"
+    },
+    "3": {
+      "item": "aetheria:pewter"
+    },
+    "4": {
+      "item": "aetheria:pewter"
+    },
+    "5": {
+      "item": "aetheria:pewter"
+    },
+    "6": {
+      "item": "aetheria:pewter"
+    },
+    "7": {
+      "item": "aetheria:pewter"
+    },
+    "8": {
+      "item": "aetheria:pewter"
+    }
+  },
+  "result": {
+    "item": "aetheria:pewterarmorarmorbody",
+    "count": 1
+  }
+}

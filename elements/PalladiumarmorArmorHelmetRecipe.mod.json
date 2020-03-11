@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:PalladiumarmorArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Palladium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "palladiumarmorarmorhelmetrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZincarmorArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "zincarmorarmorhelmetrecipe",
+    "namespace": "mod"
+  }
+}

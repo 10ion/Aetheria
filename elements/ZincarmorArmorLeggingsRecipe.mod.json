@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:ZincarmorArmor.legs"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Zinc"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "zincarmorarmorleggingsrecipe",
+    "namespace": "mod"
+  }
+}

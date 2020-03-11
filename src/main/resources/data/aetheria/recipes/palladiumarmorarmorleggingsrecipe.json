@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:palladium"
+    },
+    "1": {
+      "item": "aetheria:palladium"
+    },
+    "2": {
+      "item": "aetheria:palladium"
+    },
+    "3": {
+      "item": "aetheria:palladium"
+    },
+    "5": {
+      "item": "aetheria:palladium"
+    },
+    "6": {
+      "item": "aetheria:palladium"
+    },
+    "8": {
+      "item": "aetheria:palladium"
+    }
+  },
+  "result": {
+    "item": "aetheria:palladiumarmorarmorlegs",
+    "count": 1
+  }
+}

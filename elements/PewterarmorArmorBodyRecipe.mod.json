@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:PewterarmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      },
+      {
+        "value": "CUSTOM:Pewter"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "pewterarmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

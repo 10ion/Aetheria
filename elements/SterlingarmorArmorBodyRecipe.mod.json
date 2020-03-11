@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:SterlingarmorArmor.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      },
+      {
+        "value": "CUSTOM:SterlingSilver"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "sterlingarmorarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

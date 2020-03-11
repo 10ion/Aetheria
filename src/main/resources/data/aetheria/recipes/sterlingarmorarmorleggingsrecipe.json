@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:sterlingsilver"
+    },
+    "1": {
+      "item": "aetheria:sterlingsilver"
+    },
+    "2": {
+      "item": "aetheria:sterlingsilver"
+    },
+    "3": {
+      "item": "aetheria:sterlingsilver"
+    },
+    "5": {
+      "item": "aetheria:sterlingsilver"
+    },
+    "6": {
+      "item": "aetheria:sterlingsilver"
+    },
+    "8": {
+      "item": "aetheria:sterlingsilver"
+    }
+  },
+  "result": {
+    "item": "aetheria:sterlingarmorarmorlegs",
+    "count": 1
+  }
+}

@@ -14,10 +14,10 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 0.0,
+    "luminance": 0.01,
     "unbreakable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "PLANT"
     },
     "customDrop": {
       "value": ""
@@ -34,6 +34,16 @@
       "Surface",
       "CUSTOM:TheVoid"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Voidplanes"
+      },
+      {
+        "value": "CUSTOM:Extremevoidplanes"
+      },
+      {
+        "value": "mountains"
+      }
+    ]
   }
 }

@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:ColdironarmorArmor.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Coldiron"
+      },
+      {
+        "value": "CUSTOM:Coldiron"
+      },
+      {
+        "value": "CUSTOM:Coldiron"
+      },
+      {
+        "value": "CUSTOM:Coldiron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Coldiron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "coldironarmorarmorhelmetrecipe",
+    "namespace": "mod"
+  }
+}

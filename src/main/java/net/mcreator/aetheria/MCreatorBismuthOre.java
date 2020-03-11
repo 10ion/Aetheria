@@ -81,7 +81,7 @@ public class MCreatorBismuthOre extends Elementsaetheria.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 4), Placement.COUNT_RANGE, new CountRangeConfig(8, 0, 0, 60)));
+			}), block.getDefaultState(), 6), Placement.COUNT_RANGE, new CountRangeConfig(5, 0, 0, 50)));
 		}
 	}
 }

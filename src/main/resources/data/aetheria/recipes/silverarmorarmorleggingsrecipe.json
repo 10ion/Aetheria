@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:silver"
+    },
+    "1": {
+      "item": "aetheria:silver"
+    },
+    "2": {
+      "item": "aetheria:silver"
+    },
+    "3": {
+      "item": "aetheria:silver"
+    },
+    "5": {
+      "item": "aetheria:silver"
+    },
+    "6": {
+      "item": "aetheria:silver"
+    },
+    "8": {
+      "item": "aetheria:silver"
+    }
+  },
+  "result": {
+    "item": "aetheria:silverarmorarmorlegs",
+    "count": 1
+  }
+}
