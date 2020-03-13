@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/macowaniteblock",
+    "up": "aetheria:blocks/macowaniteblock",
+    "north": "aetheria:blocks/macowaniteblock",
+    "east": "aetheria:blocks/macowaniteblock",
+    "south": "aetheria:blocks/macowaniteblock",
+    "west": "aetheria:blocks/macowaniteblock",
+    "particle": "aetheria:blocks/macowaniteblock"
+  }
+}

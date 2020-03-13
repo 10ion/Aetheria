@@ -3,56 +3,83 @@
 // Make sure to generate all required imports
 
 public class blockbird extends ModelBase {
-	private final ModelRenderer stationaryblocks;
-	private final ModelRenderer legleft;
-	private final ModelRenderer legright;
-	private final ModelRenderer wingleft;
-	private final ModelRenderer wingright;
+	private final ModelRenderer blockbird;
+	private final ModelRenderer bone;
+	private final ModelRenderer rightwing;
+	private final ModelRenderer leftwing;
+	private final ModelRenderer rightleg;
+	private final ModelRenderer leftleg;
 
 	public blockbird() {
 		textureWidth = 32;
 		textureHeight = 32;
 
-		stationaryblocks = new ModelRenderer(this);
-		stationaryblocks.setRotationPoint(0.0F, 17.0F, 1.0F);
-		stationaryblocks.cubeList.add(new ModelBox(stationaryblocks, 0, 0, -4.0F, -2.0F, -4.0F, 7, 6, 7, 0.0F, false));
-		stationaryblocks.cubeList.add(new ModelBox(stationaryblocks, 0, 13, -4.0F, -3.0F, -4.0F, 5, 1, 7, 0.0F, false));
-		stationaryblocks.cubeList.add(new ModelBox(stationaryblocks, 0, 5, -5.0F, 0.0F, -1.0F, 1, 1, 1, 0.0F, false));
-		stationaryblocks.cubeList.add(new ModelBox(stationaryblocks, 0, 23, -4.0F, -4.0F, -2.0F, 1, 1, 3, 0.0F, false));
-		stationaryblocks.cubeList.add(new ModelBox(stationaryblocks, 21, 0, -3.0F, -5.0F, -2.0F, 1, 1, 3, 0.0F, false));
+		blockbird = new ModelRenderer(this);
+		blockbird.setRotationPoint(0.0F, 24.0F, 7.0F);
+		setRotationAngle(blockbird, 0.0F, -1.5708F, 0.0F);
+		blockbird.cubeList.add(new ModelBox(blockbird, 0, 5, -10.5F, -8.0F,
+				-1.0F, 1, 1, 1, 0.0F, false));
+		blockbird.cubeList.add(new ModelBox(blockbird, 0, 0, -9.5F, -9.0F,
+				-4.0F, 7, 6, 7, 0.0F, false));
+		blockbird.cubeList.add(new ModelBox(blockbird, 0, 13, -9.5F, -10.0F,
+				-4.0F, 5, 1, 7, 0.0F, false));
 
-		legleft = new ModelRenderer(this);
-		legleft.setRotationPoint(-1.0F, 21.0F, -2.0F);
-		legleft.cubeList.add(new ModelBox(legleft, 0, 13, 0.0F, 0.0F, 4.0F, 1, 3, 2, 0.0F, false));
+		bone = new ModelRenderer(this);
+		bone.setRotationPoint(-4.0F, -10.0F, 0.0F);
+		setRotationAngle(bone, 0.0F, 0.0F, -0.6981F);
+		blockbird.addChild(bone);
+		bone.cubeList.add(new ModelBox(bone, 21, 0, -4.0F, -3.5F, -1.5F, 2, 0,
+				2, 0.0F, false));
 
-		legright = new ModelRenderer(this);
-		legright.setRotationPoint(-1.0F, 21.0F, 3.0F);
-		legright.cubeList.add(new ModelBox(legright, 0, 0, 0.0F, 0.0F, -6.0F, 1, 3, 2, 0.0F, false));
+		rightwing = new ModelRenderer(this);
+		rightwing.setRotationPoint(-6.0F, -7.0F, -4.0F);
+		blockbird.addChild(rightwing);
+		rightwing.cubeList.add(new ModelBox(rightwing, 20, 20, -2.5F, 0.0F,
+				-1.0F, 4, 3, 1, 0.0F, false));
 
-		wingleft = new ModelRenderer(this);
-		wingleft.setRotationPoint(-1.0F, 17.0F, 4.0F);
-		wingleft.cubeList.add(new ModelBox(wingleft, 17, 15, -2.0F, 0.0F, 0.0F, 4, 1, 1, 0.0F, false));
-		wingleft.cubeList.add(new ModelBox(wingleft, 17, 13, -2.0F, 1.0F, 1.0F, 4, 1, 1, 0.0F, false));
-		wingleft.cubeList.add(new ModelBox(wingleft, 17, 17, -2.0F, 2.0F, 2.0F, 4, 1, 1, 0.0F, false));
+		leftwing = new ModelRenderer(this);
+		leftwing.setRotationPoint(-6.0F, -7.0F, 3.0F);
+		blockbird.addChild(leftwing);
+		leftwing.cubeList.add(new ModelBox(leftwing, 17, 15, -2.5F, 0.0F,
+				-1.0F, 4, 3, 2, 0.0F, false));
 
-		wingright = new ModelRenderer(this);
-		wingright.setRotationPoint(-1.0F, 17.0F, -3.0F);
-		wingright.cubeList.add(new ModelBox(wingright, 20, 21, -2.0F, 0.0F, -1.0F, 4, 1, 1, 0.0F, false));
-		wingright.cubeList.add(new ModelBox(wingright, 10, 21, -2.0F, 1.0F, -2.0F, 4, 1, 1, 0.0F, false));
-		wingright.cubeList.add(new ModelBox(wingright, 0, 21, -2.0F, 2.0F, -3.0F, 4, 1, 1, 0.0F, false));
+		rightleg = new ModelRenderer(this);
+		rightleg.setRotationPoint(-5.0F, -3.0F, -3.0F);
+		blockbird.addChild(rightleg);
+		rightleg.cubeList.add(new ModelBox(rightleg, 0, 1, -0.5F, 0.0F, 0.0F,
+				0, 3, 1, 0.0F, false));
+		rightleg.cubeList.add(new ModelBox(rightleg, 0, 2, -1.5F, 3.0F, 0.0F,
+				1, 0, 1, 0.0F, false));
+
+		leftleg = new ModelRenderer(this);
+		leftleg.setRotationPoint(-5.0F, -3.0F, 2.0F);
+		blockbird.addChild(leftleg);
+		leftleg.cubeList.add(new ModelBox(leftleg, 0, 14, -0.5F, 0.0F, -1.0F,
+				0, 3, 1, 0.0F, false));
+		leftleg.cubeList.add(new ModelBox(leftleg, 0, 15, -1.5F, 3.0F, -1.0F,
+				1, 0, 1, 0.0F, false));
 	}
 
 	@Override
-	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
-		stationaryblocks.render(f5);
-		legleft.render(f5);
-		legright.render(f5);
-		wingleft.render(f5);
-		wingright.render(f5);
+	public void render(Entity entity, float f, float f1, float f2, float f3,
+			float f4, float f5) {
+		blockbird.render(f5);
 	}
-	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
+	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y,
+			float z) {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;
 		modelRenderer.rotateAngleZ = z;
+	}
+
+	public void setRotationAngles(float f, float f1, float f2, float f3,
+			float f4, float f5, Entity e) {
+		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
+		this.blockbird.rotateAngleY = f3 / (180F / (float) Math.PI);
+		this.blockbird.rotateAngleX = f4 / (180F / (float) Math.PI);
+		this.rightleg.rotateAngleZ = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+		this.leftleg.rotateAngleZ = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.rightwing.rotateAngleX = MathHelper.cos(f * 0.6662F) * f1;
+		this.leftwing.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 	}
 }

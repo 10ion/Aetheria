@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/firefungusblock",
+    "up": "aetheria:blocks/firefungusblock",
+    "north": "aetheria:blocks/firefungusblock",
+    "east": "aetheria:blocks/firefungusblock",
+    "south": "aetheria:blocks/firefungusblock",
+    "west": "aetheria:blocks/firefungusblock",
+    "particle": "aetheria:blocks/firefungusblock"
+  }
+}

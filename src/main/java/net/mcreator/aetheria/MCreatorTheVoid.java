@@ -45,7 +45,6 @@ import net.minecraft.util.SharedSeedRandom;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import javax.annotation.Nullable;
@@ -125,7 +124,7 @@ public class MCreatorTheVoid extends Elementsaetheria.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public Vec3d getFogColor(float cangle, float ticks) {
-			return new Vec3d(0, 0.4, 0.4);
+			return new Vec3d(0, 0.2, 0.2);
 		}
 
 		@Override
@@ -151,7 +150,7 @@ public class MCreatorTheVoid extends Elementsaetheria.ModElement {
 
 		@Override
 		public SleepResult canSleepAt(PlayerEntity player, BlockPos pos) {
-			return SleepResult.ALLOW;
+			return SleepResult.DENY;
 		}
 
 		@Nullable
@@ -162,15 +161,6 @@ public class MCreatorTheVoid extends Elementsaetheria.ModElement {
 		@Nullable
 		public BlockPos findSpawn(int x, int z, boolean checkValid) {
 			return null;
-		}
-
-		@Override
-		protected void generateLightBrightnessTable() {
-			float f = 0.5f;
-			for (int i = 0; i <= 15; ++i) {
-				float f1 = 1 - (float) i / 15f;
-				this.lightBrightnessTable[i] = (1 - f1) / (f1 * 3 + 1) * (1 - f) + f;
-			}
 		}
 
 		@Override
@@ -215,7 +205,7 @@ public class MCreatorTheVoid extends Elementsaetheria.ModElement {
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {
-					return Blocks.MYCELIUM.getDefaultState();
+					return MCreatorVoidStone.block.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {

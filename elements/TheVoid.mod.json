@@ -29,7 +29,7 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.MYCELIUM"
+      "value": "CUSTOM:VoidStone"
     },
     "secondaryFillerBlock": {
       "value": "CUSTOM:VoidStone"
@@ -41,15 +41,15 @@
       "value": "CUSTOM:VoidStone"
     },
     "airColor": {
-      "value": -16751002,
+      "value": -16764109,
       "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": true,
     "hasWeather": false,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "dimensionMusic": {

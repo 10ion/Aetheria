@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/aetherportalblock",
+    "up": "aetheria:blocks/aetherportalblock",
+    "north": "aetheria:blocks/aetherportalblock",
+    "east": "aetheria:blocks/aetherportalblock",
+    "south": "aetheria:blocks/aetherportalblock",
+    "west": "aetheria:blocks/aetherportalblock",
+    "particle": "aetheria:blocks/aetherportalblock"
+  }
+}

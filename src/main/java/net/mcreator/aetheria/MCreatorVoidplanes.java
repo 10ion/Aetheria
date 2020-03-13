@@ -41,14 +41,14 @@ public class MCreatorVoidplanes extends Elementsaetheria.ModElement {
 					.downfall(0f)
 					.depth(0.1f)
 					.scale(0.22f)
-					.temperature(0.45f)
+					.temperature(0.3f)
 					.precipitation(Biome.RainType.NONE)
 					.category(Biome.Category.NONE)
 					.waterColor(4159204)
 					.waterFogColor(329011)
 					.surfaceBuilder(
 							SurfaceBuilder.DEFAULT,
-							new SurfaceBuilderConfig(Blocks.MYCELIUM.getDefaultState(), MCreatorVoidStone.block.getDefaultState(),
+							new SurfaceBuilderConfig(MCreatorVoidMycelium.block.getDefaultState(), MCreatorVoidStone.block.getDefaultState(),
 									MCreatorVoidStone.block.getDefaultState())));
 			setRegistryName("voidplanes");
 			DefaultBiomeFeatures.addCarvers(this);
@@ -56,12 +56,12 @@ public class MCreatorVoidplanes extends Elementsaetheria.ModElement {
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.BUSH,
-					new BushConfig(Blocks.BROWN_MUSHROOM.getDefaultState()), Placement.CHANCE_HEIGHTMAP_DOUBLE, new ChanceConfig(4)));
+					new BushConfig(Blocks.BROWN_MUSHROOM.getDefaultState()), Placement.CHANCE_HEIGHTMAP_DOUBLE, new ChanceConfig(160)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.BUSH,
-					new BushConfig(Blocks.RED_MUSHROOM.getDefaultState()), Placement.CHANCE_HEIGHTMAP_DOUBLE, new ChanceConfig(4)));
+					new BushConfig(Blocks.RED_MUSHROOM.getDefaultState()), Placement.CHANCE_HEIGHTMAP_DOUBLE, new ChanceConfig(160)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.RANDOM_BOOLEAN_SELECTOR,
 					new TwoFeatureChoiceConfig(Feature.HUGE_RED_MUSHROOM, new BigMushroomFeatureConfig(false), Feature.HUGE_BROWN_MUSHROOM,
-							new BigMushroomFeatureConfig(false)), Placement.COUNT_HEIGHTMAP, new FrequencyConfig(2)));
+							new BigMushroomFeatureConfig(false)), Placement.COUNT_HEIGHTMAP, new FrequencyConfig(4)));
 		}
 	}
 }

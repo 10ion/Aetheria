@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/fire_fungus",
+    "particle": "aetheria:blocks/fire_fungus"
+  }
+}

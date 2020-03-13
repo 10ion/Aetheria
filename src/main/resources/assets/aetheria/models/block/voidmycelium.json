@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/voidedstone",
+    "up": "aetheria:blocks/voidmyceliumtop",
+    "north": "aetheria:blocks/voidmycilium",
+    "east": "aetheria:blocks/voidmycilium",
+    "south": "aetheria:blocks/voidmycilium",
+    "west": "aetheria:blocks/voidmycilium",
+    "particle": "aetheria:blocks/voidedstone"
+  }
+}

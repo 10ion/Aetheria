@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/astral_toadstool",
+    "up": "aetheria:blocks/astral_toadstool",
+    "north": "aetheria:blocks/astral_toadstool",
+    "east": "aetheria:blocks/astral_toadstool",
+    "south": "aetheria:blocks/astral_toadstool",
+    "west": "aetheria:blocks/astral_toadstool",
+    "particle": "aetheria:blocks/astral_toadstool"
+  }
+}

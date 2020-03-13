@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/rainbowcapblock",
+    "up": "aetheria:blocks/rainbowcapblock",
+    "north": "aetheria:blocks/rainbowcapblock",
+    "east": "aetheria:blocks/rainbowcapblock",
+    "south": "aetheria:blocks/rainbowcapblock",
+    "west": "aetheria:blocks/rainbowcapblock",
+    "particle": "aetheria:blocks/rainbowcapblock"
+  }
+}

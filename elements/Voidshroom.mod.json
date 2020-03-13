@@ -29,7 +29,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "frequencyOnChunks": 7,
+    "frequencyOnChunks": 4,
     "spawnWorldTypes": [
       "CUSTOM:TheVoid"
     ],

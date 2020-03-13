@@ -56,6 +56,7 @@ public class aetheriaVariables {
 
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "aetheria_mapvars";
+		public String race = "";
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -67,10 +68,12 @@ public class aetheriaVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
+			race = nbt.getString("race");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
+			nbt.putString("race", race);
 			return nbt;
 		}
 

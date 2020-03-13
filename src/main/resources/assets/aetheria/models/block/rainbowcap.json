@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/rainbow_cap",
+    "particle": "aetheria:blocks/rainbow_cap"
+  }
+}
