@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/voidcrystleore",
+    "up": "aetheria:blocks/voidcrystleore",
+    "north": "aetheria:blocks/voidcrystleore",
+    "east": "aetheria:blocks/voidcrystleore",
+    "south": "aetheria:blocks/voidcrystleore",
+    "west": "aetheria:blocks/voidcrystleore",
+    "particle": "aetheria:blocks/voidcrystleore"
+  }
+}

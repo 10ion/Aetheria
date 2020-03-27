@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/crocoitegeode",
+    "up": "aetheria:blocks/crocoitegeode",
+    "north": "aetheria:blocks/crocoitegeode",
+    "east": "aetheria:blocks/crocoitegeode",
+    "south": "aetheria:blocks/crocoitegeode",
+    "west": "aetheria:blocks/crocoitegeode",
+    "particle": "aetheria:blocks/crocoitegeode"
+  }
+}

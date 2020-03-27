@@ -2,12 +2,12 @@
   "_fv": 5,
   "_type": "block",
   "definition": {
-    "texture": "lead_ore",
-    "textureTop": "lead_ore",
-    "textureLeft": "lead_ore",
-    "textureFront": "lead_ore",
-    "textureRight": "lead_ore",
-    "textureBack": "lead_ore",
+    "texture": "iridiumore",
+    "textureTop": "iridiumore",
+    "textureLeft": "iridiumore",
+    "textureFront": "iridiumore",
+    "textureRight": "iridiumore",
+    "textureBack": "iridiumore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,9 +20,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Lead Ore",
+    "name": "Iridiumore",
     "specialInfo": [],
-    "hardness": 1.1,
+    "hardness": 1.4000000000000001,
     "resistance": 14.0,
     "hasGravity": false,
     "creativeTab": {
@@ -79,9 +79,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 13,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 20
   }
 }

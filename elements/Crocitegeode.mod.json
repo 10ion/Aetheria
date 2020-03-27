@@ -2,12 +2,12 @@
   "_fv": 5,
   "_type": "block",
   "definition": {
-    "texture": "lead_ore",
-    "textureTop": "lead_ore",
-    "textureLeft": "lead_ore",
-    "textureFront": "lead_ore",
-    "textureRight": "lead_ore",
-    "textureBack": "lead_ore",
+    "texture": "crocoitegeode",
+    "textureTop": "crocoitegeode",
+    "textureLeft": "crocoitegeode",
+    "textureFront": "crocoitegeode",
+    "textureRight": "crocoitegeode",
+    "textureBack": "crocoitegeode",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,18 +20,18 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Lead Ore",
+    "name": "Crocite Geode",
     "specialInfo": [],
-    "hardness": 1.1,
-    "resistance": 14.0,
+    "hardness": 1.5,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:CrocoiteShard"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -45,7 +45,7 @@
     "tickRate": 10,
     "isReplaceable": false,
     "isFlammable": false,
-    "colorOnMap": "STONE",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
@@ -53,9 +53,9 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0.0,
+    "luminance": 0.2,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -71,17 +71,17 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:TheVoid"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:VoidStone"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 13,
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 136
   }
 }

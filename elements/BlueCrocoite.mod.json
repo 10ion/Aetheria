@@ -1,0 +1,38 @@
+{
+  "_fv": 5,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "crocoite",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Blue Crocoite Cluster",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.5,
+    "resistance": 2.0,
+    "luminance": 0.2,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GLASS"
+    },
+    "customDrop": {
+      "value": "CUSTOM:CrocoiteShard"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "isFlammable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:TheVoid"
+    ],
+    "restrictionBiomes": []
+  }
+}

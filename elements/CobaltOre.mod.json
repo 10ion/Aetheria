@@ -1,5 +1,5 @@
 {
-  "_fv": 4,
+  "_fv": 5,
   "_type": "block",
   "definition": {
     "texture": "cobaltore",
@@ -20,15 +20,15 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Cobalt Ore",
+    "name": "Cobaltore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 15.0,
+    "hardness": 1.5,
+    "resistance": 14.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
@@ -45,7 +45,7 @@
     "tickRate": 10,
     "isReplaceable": false,
     "isFlammable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "STONE",
     "creativePickItem": {
       "value": ""
     },
@@ -55,7 +55,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -70,16 +70,18 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 6,
-    "minGenerateHeight": 45,
-    "maxGenerateHeight": 150
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 15,
+    "maxGenerateHeight": 79
   }
 }

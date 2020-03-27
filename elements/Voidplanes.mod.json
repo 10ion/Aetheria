@@ -61,6 +61,10 @@
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnList": []
+    "spawnList": [
+      {
+        "value": "EntityMooshroom"
+      }
+    ]
   }
 }

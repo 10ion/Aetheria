@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/iridiumore",
+    "up": "aetheria:blocks/iridiumore",
+    "north": "aetheria:blocks/iridiumore",
+    "east": "aetheria:blocks/iridiumore",
+    "south": "aetheria:blocks/iridiumore",
+    "west": "aetheria:blocks/iridiumore",
+    "particle": "aetheria:blocks/iridiumore"
+  }
+}
