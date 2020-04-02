@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "music.rickroll": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "aetheria:ick_stley_-_ever_onna_ive_ou_p_ideo",
+        "stream": true
+      }
+    ]
   }
 }

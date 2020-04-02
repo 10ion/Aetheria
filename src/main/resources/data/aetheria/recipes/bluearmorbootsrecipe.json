@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "2": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "3": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "5": {
+      "item": "aetheria:bluesteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:bluearmorboots",
+    "count": 1
+  }
+}

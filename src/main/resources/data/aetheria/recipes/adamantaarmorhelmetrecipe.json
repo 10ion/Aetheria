@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:adamant"
+    },
+    "1": {
+      "item": "aetheria:adamant"
+    },
+    "2": {
+      "item": "aetheria:adamant"
+    },
+    "3": {
+      "item": "aetheria:adamant"
+    },
+    "5": {
+      "item": "aetheria:adamant"
+    }
+  },
+  "result": {
+    "item": "aetheria:adamantaarmorhelmet",
+    "count": 1
+  }
+}

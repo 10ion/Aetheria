@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "1": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "2": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "3": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "5": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "6": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "8": {
+      "item": "aetheria:moonsilveringot"
+    }
+  },
+  "result": {
+    "item": "aetheria:moonsilverarmorlegs",
+    "count": 1
+  }
+}

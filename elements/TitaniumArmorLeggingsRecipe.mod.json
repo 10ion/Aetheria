@@ -1,13 +1,11 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
+    "xpReward": 0.0,
     "recipeRetstackSize": 1,
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": "CUSTOM:TitaniumArmor.legs"
-    },
     "recipeSlots": [
       {
         "value": "CUSTOM:TitaniumI"
@@ -37,8 +35,9 @@
         "value": "CUSTOM:TitaniumI"
       }
     ],
-    "smeltingXPReward": 0.0,
-    "smeltingRetstackSize": 1,
+    "recipeReturnStack": {
+      "value": "CUSTOM:TitaniumArmor.legs"
+    },
     "name": "titaniumarmorleggingsrecipe",
     "namespace": "mod"
   }

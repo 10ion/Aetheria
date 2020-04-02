@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:darkfelsteelingot"
+    },
+    "1": {
+      "item": "aetheria:darkfelsteelingot"
+    },
+    "2": {
+      "item": "aetheria:darkfelsteelingot"
+    },
+    "3": {
+      "item": "aetheria:darkfelsteelingot"
+    },
+    "5": {
+      "item": "aetheria:darkfelsteelingot"
+    },
+    "6": {
+      "item": "aetheria:darkfelsteelingot"
+    },
+    "8": {
+      "item": "aetheria:darkfelsteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:darkfelsteelarmorlegs",
+    "count": 1
+  }
+}

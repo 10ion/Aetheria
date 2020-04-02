@@ -1,13 +1,11 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
+    "xpReward": 0.0,
     "recipeRetstackSize": 1,
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": "CUSTOM:SilverarmorArmor.legs"
-    },
     "recipeSlots": [
       {
         "value": "CUSTOM:Silver"
@@ -37,8 +35,9 @@
         "value": "CUSTOM:Silver"
       }
     ],
-    "smeltingXPReward": 0.0,
-    "smeltingRetstackSize": 1,
+    "recipeReturnStack": {
+      "value": "CUSTOM:SilverarmorArmor.legs"
+    },
     "name": "silverarmorarmorleggingsrecipe",
     "namespace": "mod"
   }

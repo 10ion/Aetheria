@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:darksteel"
+    },
+    "2": {
+      "item": "aetheria:darksteel"
+    },
+    "3": {
+      "item": "aetheria:darksteel"
+    },
+    "4": {
+      "item": "aetheria:darksteel"
+    },
+    "5": {
+      "item": "aetheria:darksteel"
+    },
+    "6": {
+      "item": "aetheria:darksteel"
+    },
+    "7": {
+      "item": "aetheria:darksteel"
+    },
+    "8": {
+      "item": "aetheria:darksteel"
+    }
+  },
+  "result": {
+    "item": "aetheria:darksteelaarmorbody",
+    "count": 1
+  }
+}

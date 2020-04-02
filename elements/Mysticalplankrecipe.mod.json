@@ -1,13 +1,11 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
+    "xpReward": 0.0,
     "recipeRetstackSize": 4,
     "recipeShapeless": true,
-    "recipeReturnStack": {
-      "value": "CUSTOM:MysticalPlanks"
-    },
     "recipeSlots": [
       {
         "value": ""
@@ -37,8 +35,9 @@
         "value": ""
       }
     ],
-    "smeltingXPReward": 0.0,
-    "smeltingRetstackSize": 1,
+    "recipeReturnStack": {
+      "value": "CUSTOM:MysticalPlanks"
+    },
     "name": "mysticalplankrecipe",
     "namespace": "mod"
   }

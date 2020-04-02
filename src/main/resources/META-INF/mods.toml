@@ -7,7 +7,7 @@ version="1.0.0"
 displayName="aetheria"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="jmref, MCreator"
+authors="10ion, Pylons, Noah, Da_Dragon, Mikeadon, BadBird, Gamer, DJDARKWATERS, jointheprayerbro , KidOfCubes "
 
 [[dependencies.aetheria]]
     modId="minecraft"

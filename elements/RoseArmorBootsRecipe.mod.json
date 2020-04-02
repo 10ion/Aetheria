@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RoseArmor.boots"
+    },
+    "name": "rosearmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

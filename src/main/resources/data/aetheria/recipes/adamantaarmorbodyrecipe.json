@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:adamant"
+    },
+    "2": {
+      "item": "aetheria:adamant"
+    },
+    "3": {
+      "item": "aetheria:adamant"
+    },
+    "4": {
+      "item": "aetheria:adamant"
+    },
+    "5": {
+      "item": "aetheria:adamant"
+    },
+    "6": {
+      "item": "aetheria:adamant"
+    },
+    "7": {
+      "item": "aetheria:adamant"
+    },
+    "8": {
+      "item": "aetheria:adamant"
+    }
+  },
+  "result": {
+    "item": "aetheria:adamantaarmorbody",
+    "count": 1
+  }
+}

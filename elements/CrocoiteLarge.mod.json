@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "structure",
+  "definition": {
+    "structure": "crocoitelarge",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:TheVoid"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:VoidStone"
+      }
+    ],
+    "restrictionBiomes": []
+  }
+}

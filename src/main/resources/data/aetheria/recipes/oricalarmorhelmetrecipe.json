@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:oricalingot"
+    },
+    "1": {
+      "item": "aetheria:oricalingot"
+    },
+    "2": {
+      "item": "aetheria:oricalingot"
+    },
+    "3": {
+      "item": "aetheria:oricalingot"
+    },
+    "5": {
+      "item": "aetheria:oricalingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:oricalarmorhelmet",
+    "count": 1
+  }
+}

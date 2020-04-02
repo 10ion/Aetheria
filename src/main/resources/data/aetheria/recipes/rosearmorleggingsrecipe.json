@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:rosegoldingot"
+    },
+    "1": {
+      "item": "aetheria:rosegoldingot"
+    },
+    "2": {
+      "item": "aetheria:rosegoldingot"
+    },
+    "3": {
+      "item": "aetheria:rosegoldingot"
+    },
+    "5": {
+      "item": "aetheria:rosegoldingot"
+    },
+    "6": {
+      "item": "aetheria:rosegoldingot"
+    },
+    "8": {
+      "item": "aetheria:rosegoldingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:rosearmorlegs",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:darksteel"
+    },
+    "1": {
+      "item": "aetheria:darksteel"
+    },
+    "2": {
+      "item": "aetheria:darksteel"
+    },
+    "3": {
+      "item": "aetheria:darksteel"
+    },
+    "5": {
+      "item": "aetheria:darksteel"
+    }
+  },
+  "result": {
+    "item": "aetheria:darksteelaarmorhelmet",
+    "count": 1
+  }
+}

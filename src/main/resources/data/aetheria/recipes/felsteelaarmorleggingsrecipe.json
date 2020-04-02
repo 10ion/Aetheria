@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:felsteel"
+    },
+    "1": {
+      "item": "aetheria:felsteel"
+    },
+    "2": {
+      "item": "aetheria:felsteel"
+    },
+    "3": {
+      "item": "aetheria:felsteel"
+    },
+    "5": {
+      "item": "aetheria:felsteel"
+    },
+    "6": {
+      "item": "aetheria:felsteel"
+    },
+    "8": {
+      "item": "aetheria:felsteel"
+    }
+  },
+  "result": {
+    "item": "aetheria:felsteelaarmorlegs",
+    "count": 1
+  }
+}

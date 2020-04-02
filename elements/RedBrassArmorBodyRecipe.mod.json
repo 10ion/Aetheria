@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      },
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedBrassArmor.body"
+    },
+    "name": "redbrassarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

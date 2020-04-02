@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "blue_head",
+    "enableBody": true,
+    "textureBody": "blue_body",
+    "enableLeggings": true,
+    "textureLeggings": "blue_leggings",
+    "enableBoots": true,
+    "textureBoots": "blue_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "blue",
+    "helmetName": "Blue Helmet",
+    "bodyName": "Blue Chestplate",
+    "leggingsName": "Blue Leggings",
+    "bootsName": "Blue Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 53,
+    "damageValueHelmet": 7,
+    "damageValueBody": 18,
+    "damageValueLeggings": 21,
+    "damageValueBoots": 7,
+    "enchantability": 32,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

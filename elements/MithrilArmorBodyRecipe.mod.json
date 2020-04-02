@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      },
+      {
+        "value": "CUSTOM:MithrilIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MithrilArmor.body"
+    },
+    "name": "mithrilarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

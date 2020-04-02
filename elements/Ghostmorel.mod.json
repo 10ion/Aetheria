@@ -1,5 +1,5 @@
 {
-  "_fv": 5,
+  "_fv": 6,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -24,11 +24,12 @@
     },
     "dropAmount": 1,
     "isReplaceable": false,
-    "isFlammable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
     "frequencyOnChunks": 4,
     "spawnWorldTypes": [
       "Surface",

@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:mithrilingot"
+    },
+    "2": {
+      "item": "aetheria:mithrilingot"
+    },
+    "3": {
+      "item": "aetheria:mithrilingot"
+    },
+    "4": {
+      "item": "aetheria:mithrilingot"
+    },
+    "5": {
+      "item": "aetheria:mithrilingot"
+    },
+    "6": {
+      "item": "aetheria:mithrilingot"
+    },
+    "7": {
+      "item": "aetheria:mithrilingot"
+    },
+    "8": {
+      "item": "aetheria:mithrilingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:mithrilarmorbody",
+    "count": 1
+  }
+}

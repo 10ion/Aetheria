@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueArmor.boots"
+    },
+    "name": "bluearmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

@@ -2486,6 +2486,729 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BlueCrocoiteBlock",
+      "type": "block",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "InfestedVoidstone",
+      "type": "block",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrocoiteLarge",
+      "type": "structure",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VoidEnter",
+      "type": "achievement",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackBronze",
+      "type": "item",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackArmor",
+      "type": "armor",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueSteelIngot",
+      "type": "item",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueArmor",
+      "type": "armor",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkFelSteelIngot",
+      "type": "item",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronIngot",
+      "type": "item",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkFelSteelArmor",
+      "type": "armor",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkFelSteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkFelSteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkFelSteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkFelSteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronArmor",
+      "type": "armor",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkSteel",
+      "type": "item",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarksteelAArmor",
+      "type": "armor",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarksteelAArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarksteelAArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarksteelAArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarksteelAArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FelSteel",
+      "type": "item",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FelSteelAArmor",
+      "type": "armor",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FelSteelAArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FelSteelAArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FelSteelAArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FelSteelAArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeySteel",
+      "type": "item",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeyArmor",
+      "type": "armor",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FeyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MithrilIngot",
+      "type": "item",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MithrilArmor",
+      "type": "armor",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MithrilArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MithrilArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MithrilArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MithrilArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoonsilverIngot",
+      "type": "item",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoonsilverArmor",
+      "type": "armor",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoonsilverArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoonsilverArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoonsilverArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MoonsilverArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OricalIngot",
+      "type": "item",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RoseGoldIngot",
+      "type": "item",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBrassIngot",
+      "type": "item",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OricalArmor",
+      "type": "armor",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OricalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OricalArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OricalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OricalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RoseArmor",
+      "type": "armor",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RoseArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RoseArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RoseArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RoseArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBrassArmor",
+      "type": "armor",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBrassArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBrassArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBrassArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBrassArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Adamant",
+      "type": "item",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdamantAArmor",
+      "type": "armor",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdamantAArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdamantAArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdamantAArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdamantAArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Rickroll",
+      "type": "musicdisc",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrastrasAdvertisment",
+      "type": "procedure",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Lupin",
+      "type": "mob",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Lupin1",
+      "type": "procedure",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Werewolfspawn",
+      "type": "procedure",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2501,11 +3224,17 @@
       "name": "keekuu",
       "file": "2020-01-25-10-27-14",
       "category": "master"
+    },
+    {
+      "name": "music.rickroll",
+      "file": "ick_stley_-_ever_onna_ive_ou_p_ideo",
+      "category": "music"
     }
   ],
   "language_map": {
     "en_us": {
       "item.aetheria.sterlingarmorarmorboots": "Sterlingarmor Boots",
+      "item.aetheria.darkfelsteelarmorbody": "DarkFelSteel Chestplate",
       "item.aetheria.platinumarmorarmorhelmet": "Platinumarmor Helmet",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
       "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
@@ -2529,13 +3258,17 @@
       "item.aetheria.copperarmorarmorboots": "CopperArmor Boots",
       "block.aetheria.macowaniteblock": "Macowaniteblock",
       "item.aetheria.endersteeelarmorbody": "Endersteeel Chestplate",
+      "block.aetheria.infestedvoidstone": "Infested Voidstone",
       "item.aetheria.pizza": "Pizza",
       "item.aetheria.redsteelshovel": "Redsteel Shovel",
       "block.aetheria.voidmycelium": "Void Mycelium",
       "item.minecraft.tipped_arrow.effect.omnessence1": "Arrow of Omnessence1",
       "block.aetheria.bluecrocoite": "Blue Crocoite Cluster",
+      "item.aetheria.oricalarmorbody": "Orical Chestplate",
       "item.aetheria.magnegoldarmorarmorboots": "Magnegoldarmor Boots",
       "block.aetheria.macowanite": "Macowanite",
+      "item.aetheria.blackarmorlegs": "Black Leggings",
+      "item.aetheria.moonsilveringot": "Moonsilver Ingot",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
       "item.aetheria.fireberry": "Fireberry",
       "item.aetheria.leadarmorarmorbody": "Leadarmor Chestplate",
@@ -2543,10 +3276,12 @@
       "block.aetheria.bauxite": "Bauxite",
       "biome.aetheria.aetherbiome": "Aetherbiome",
       "item.aetheria.tinarmorarmorhelmet": "TinArmor Helmet",
+      "advancements.voidenter.title": "Subtranian Lacuna",
       "item.aetheria.nethercryptdagger": "Nethercrypt Dagger",
       "item.aetheria.brassarmorarmorboots": "Brassarmor Boots",
       "item.aetheria.endersteel": "Endersteel",
       "item.aetheria.silverarmorarmorbody": "Silverarmor Chestplate",
+      "item.aetheria.mithrilarmorboots": "Mithril Boots",
       "item.aetheria.redsteelarmorhelmet": "Redsteel Helmet",
       "item.aetheria.palladium": "Palladium",
       "item.aetheria.cobalt": "Cobalt",
@@ -2556,41 +3291,59 @@
       "item.aetheria.bismutharmorarmorlegs": "BismuthArmor Leggings",
       "item.aetheria.cobaltarmorarmorbody": "Cobaltarmor Chestplate",
       "item.aetheria.tinarmorarmorboots": "TinArmor Boots",
+      "item.aetheria.bluearmorlegs": "Blue Leggings",
+      "item.aetheria.darkironarmorlegs": "DarkIron Leggings",
       "item.aetheria.aluminumarmorarmorboots": "AluminumArmor Boots",
       "item.aetheria.steelarmorarmorboots": "Steelarmor Boots",
+      "item.aetheria.felsteelaarmorboots": "FelSteelA Boots",
       "item.aetheria.gemwroughtpickaxe": "Gemwrought Pickaxe",
       "block.aetheria.voidshromblock": "Voidshromblock",
       "item.aetheria.bismuthbronze": "Bismuth Bronze",
+      "item.aetheria.blackbronze": "Black Bronze",
       "item.aetheria.electrumarmorarmorlegs": "Electrumarmor Leggings",
       "block.aetheria.silverwoodlog": "Silverwood Log",
       "item.aetheria.cakeslime": "Cake Slime Spawn Egg",
+      "item.aetheria.rosearmorboots": "Rose Boots",
+      "item.aetheria.redbrassingot": "Red Brass Ingot",
+      "advancements.voidenter.descr": "Enter The Void",
       "item.aetheria.copperarmorarmorhelmet": "CopperArmor Helmet",
       "item.aetheria.brassarmorarmorhelmet": "Brassarmor Helmet",
       "item.aetheria.crocoiteshard": "Crocoite Shard",
       "item.aetheria.palladiumarmorarmorlegs": "Palladiumarmor Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
       "block.aetheria.bismuthore": "Bismuth Ore",
+      "item.aetheria.oricalarmorhelmet": "Orical Helmet",
+      "item.aetheria.darkfelsteelarmorlegs": "DarkFelSteel Leggings",
       "item.aetheria.steelarmorarmorbody": "Steelarmor Chestplate",
+      "item.aetheria.darksteelaarmorlegs": "DarksteelA Leggings",
+      "item.aetheria.feysteel": "Fey Steel",
       "block.aetheria.mysticalstone": "Mystical Stone",
       "item.aetheria.redsteelaxe": "Redsteel Axe",
+      "item.aetheria.adamantaarmorboots": "AdamantA Boots",
+      "item.aetheria.bluesteelingot": "Blue Steel Ingot",
       "item.aetheria.pewterarmorarmorlegs": "Pewterarmor Leggings",
       "item.aetheria.palladiumarmorarmorboots": "Palladiumarmor Boots",
       "entity.aetheria.cakeslime": "Cake Slime",
       "item.aetheria.bismuthbronzearmorarmorlegs": "BismuthBronzeArmor Leggings",
       "item.aetheria.tungsten": "Tungsten",
+      "item.aetheria.blackarmorboots": "Black Boots",
       "item.aetheria.endersteeelarmorlegs": "Endersteeel Leggings",
       "item.aetheria.titaniumi": "Titanium ingot",
       "item.aetheria.copperarmorarmorlegs": "CopperArmor Leggings",
       "item.aetheria.theaether": "Mythical Flint \u0026 Steel",
+      "item.aetheria.mithrilarmorlegs": "Mithril Leggings",
+      "item.aetheria.darksteel": "Dark Steel",
       "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.tin": "Tin",
       "block.aetheria.bluegrass": "Bluegrass",
+      "item.aetheria.blackarmorbody": "Black Chestplate",
       "item.aetheria.aluminum": "Aluminum",
       "item.aetheria.coldironn": "Cold Iron Nugget",
       "block.aetheria.silverwoodsapling": "Silverwood Sapling",
       "entity.aetheria.blockbird": "Blockbird",
       "item.aetheria.redsteelsword": "Redsteel Sword",
       "block.aetheria.gemwroughtoreblock": "Block of Gemwrought",
+      "item.aetheria.blackarmorhelmet": "Black Helmet",
       "item.aetheria.gemwroughtarmorlegs": "Gemwrought Mail Leggings",
       "item.aetheria.leadarmorarmorlegs": "Leadarmor Leggings",
       "entity.aetheria.neko1": "Neko1",
@@ -2598,14 +3351,20 @@
       "item.aetheria.aluminumarmorarmorlegs": "AluminumArmor Leggings",
       "item.aetheria.titaniumingot": "Titanium nugget",
       "item.aetheria.palladiumarmorarmorbody": "Palladiumarmor Chestplate",
+      "item.aetheria.oricalarmorboots": "Orical Boots",
       "item.aetheria.endersteeltoolspickaxe": "Endersteel Pickaxe",
       "item.aetheria.bronzearmorarmorboots": "BronzeArmor Boots",
+      "item.aetheria.darkironarmorbody": "DarkIron Chestplate",
+      "item.aetheria.darkironarmorboots": "DarkIron Boots",
       "item.aetheria.pewterarmorarmorhelmet": "Pewterarmor Helmet",
+      "item.aetheria.moonsilverarmorlegs": "Moonsilver Leggings",
+      "item.aetheria.bluearmorbody": "Blue Chestplate",
       "item.aetheria.redsteelpickaxe": "Redsteel Pickaxe",
       "item.aetheria.bismutharmorarmorbody": "BismuthArmor Chestplate",
       "item.aetheria.coldironarmorarmorlegs": "Coldironarmor Leggings",
       "item.aetheria.silver": "Silver",
       "item.aetheria.electrumarmorarmorbody": "Electrumarmor Chestplate",
+      "item.aetheria.mithrilingot": "Mithril Ingot",
       "block.aetheria.titaniumore": "Titanium ore",
       "item.aetheria.gemwroughthoe": "Gemwrought Hoe",
       "item.aetheria.endersteeltoolshoe": "Endersteel Hoe",
@@ -2613,35 +3372,49 @@
       "item.aetheria.leadarmorarmorhelmet": "Leadarmor Helmet",
       "item.aetheria.bronze": "Bronze",
       "block.aetheria.iridiumore": "Iridiumore",
+      "item.aetheria.darksteelaarmorboots": "DarksteelA Boots",
+      "item.aetheria.feyarmorbody": "Fey Chestplate",
       "item.minecraft.lingering_potion.effect.omnessence1": "Lingering Omnessence1",
       "item.aetheria.tungstenarmorarmorlegs": "Tungstenarmor Leggings",
       "item.aetheria.electrumarmorarmorboots": "Electrumarmor Boots",
+      "item.aetheria.adamantaarmorhelmet": "AdamantA Helmet",
+      "item.aetheria.redbrassarmorboots": "RedBrass Boots",
+      "item.aetheria.rickroll.desc": "Ckir Stelay - Ckir Lorl",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.bismuthbronzearmorarmorbody": "BismuthBronzeArmor Chestplate",
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
       "item.aetheria.pizzaslice": "Pizza Slice",
+      "item.aetheria.redbrassarmorhelmet": "RedBrass Helmet",
+      "item.aetheria.rosearmorhelmet": "Rose Helmet",
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
       "block.aetheria.cobaltore": "Cobaltore",
       "item.aetheria.tungstenarmorarmorhelmet": "Tungstenarmor Helmet",
       "block.aetheria.tinore": "Tin Ore",
+      "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
       "block.aetheria.mysticalplanks": "Mystical Planks",
       "block.aetheria.voidcrystle": "Void Crystal",
       "item.aetheria.titaniumarmorhelmet": "Titanium Helmet",
       "item.aetheria.tungstenarmorarmorboots": "Tungstenarmor Boots",
       "item.aetheria.blockbird": "Blockbird Spawn Egg",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
+      "item.aetheria.mithrilarmorbody": "Mithril Chestplate",
       "block.aetheria.copperore": "Copper Ore",
+      "item.aetheria.bluearmorboots": "Blue Boots",
       "item.aetheria.sterlingarmorarmorbody": "Sterlingarmor Chestplate",
       "item.aetheria.palladiumarmorarmorhelmet": "Palladiumarmor Helmet",
       "item.aetheria.copperarmorarmorbody": "CopperArmor Chestplate",
       "item.aetheria.silverarmorarmorboots": "Silverarmor Boots",
+      "item.aetheria.felsteelaarmorlegs": "FelSteelA Leggings",
       "block.aetheria.mysticallog": "Mystical log",
+      "item.aetheria.darkironingot": "Dark Iron Ingot",
       "item.aetheria.sterlingsilver": "Sterling Silver",
+      "item.aetheria.redbrassarmorbody": "RedBrass Chestplate",
       "biome.aetheria.silverwoodforest": "Silverwood forest",
       "item.aetheria.tinarmorarmorbody": "TinArmor Chestplate",
       "item.aetheria.coldironarmorarmorhelmet": "Coldironarmor Helmet",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.bismutharmorarmorboots": "BismuthArmor Boots",
+      "item.aetheria.darkironarmorhelmet": "DarkIron Helmet",
       "item.aetheria.steel": "Steel",
       "item.aetheria.brassarmorarmorlegs": "Brassarmor Leggings",
       "block.aetheria.aetherframe": "Aether Frame",
@@ -2650,17 +3423,25 @@
       "block.aetheria.fireshroom": "Fire Fungus",
       "item.aetheria.lead": "Lead",
       "block.aetheria.leadore": "Lead Ore",
+      "item.aetheria.rosearmorbody": "Rose Chestplate",
+      "item.aetheria.darksteelaarmorbody": "DarksteelA Chestplate",
       "item.aetheria.gemwroughtaxe": "Gemwrought Axe",
       "block.aetheria.rainbowcap": "Rainbow Cap",
       "block.aetheria.rainbowcapblock": "Rainbowcapblock",
       "item.aetheria.stormberry": "Stormberry",
       "item.aetheria.leadarmorarmorboots": "Leadarmor Boots",
       "item.aetheria.zincarmorarmorbody": "Zincarmor Chestplate",
+      "item.aetheria.mithrilarmorhelmet": "Mithril Helmet",
+      "item.aetheria.adamantaarmorlegs": "AdamantA Leggings",
+      "item.aetheria.rosegoldingot": "Rose Gold Ingot",
+      "item.aetheria.feyarmorboots": "Fey Boots",
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
       "item.aetheria.coldironarmorarmorbody": "Coldironarmor Chestplate",
+      "item.aetheria.feyarmorlegs": "Fey Leggings",
       "item.aetheria.rtungsten": "Raw Tungsten",
       "item.aetheria.bronzearmorarmorhelmet": "BronzeArmor Helmet",
       "item.aetheria.sterlingarmorarmorlegs": "Sterlingarmor Leggings",
+      "item.aetheria.bluearmorhelmet": "Blue Helmet",
       "item.aetheria.zincarmorarmorboots": "Zincarmor Boots",
       "item.aetheria.platinumarmorarmorbody": "Platinumarmor Chestplate",
       "effect.milkbottle": "Bottle of Milk",
@@ -2668,10 +3449,14 @@
       "item.aetheria.platinum": "Platinum",
       "item.minecraft.tipped_arrow.effect.milkbottle": "Arrow of Milkbottle",
       "item.aetheria.zinc": "Zinc",
+      "block.aetheria.bluecrocoiteblock": "Blue Crocoite Block",
+      "item.aetheria.felsteelaarmorhelmet": "FelSteelA Helmet",
       "item.aetheria.redsteelarmorboots": "Redsteel Boots",
       "item.aetheria.tungstenarmorarmorbody": "Tungstenarmor Chestplate",
       "item.aetheria.stormberrymuffin": "Stormberry Muffin",
       "block.aetheria.firefungusblock": "Firefungusblock",
+      "item.aetheria.darkfelsteelarmorhelmet": "DarkFelSteel Helmet",
+      "item.aetheria.feyarmorhelmet": "Fey Helmet",
       "item.aetheria.brass": "Brass",
       "item.aetheria.brassarmorarmorbody": "Brassarmor Chestplate",
       "item.aetheria.titaniumarmorboots": "Titanium Boots",
@@ -2680,29 +3465,44 @@
       "item.aetheria.bismutharmorarmorhelmet": "BismuthArmor Helmet",
       "item.aetheria.redsteelarmorbody": "Redsteel Chestplate",
       "item.aetheria.coldiron": "Coldiron",
+      "item.aetheria.darkfelsteelarmorboots": "DarkFelSteel Boots",
       "item.aetheria.pewter": "Pewter",
       "item.aetheria.tinarmorarmorlegs": "TinArmor Leggings",
       "block.aetheria.astraltoadstool": "Astral Toadstool",
+      "item.aetheria.felsteel": "Fel Steel",
       "block.aetheria.bedrock": "Bedrock",
+      "item.aetheria.oricalarmorlegs": "Orical Leggings",
+      "item.aetheria.redbrassarmorlegs": "RedBrass Leggings",
       "item.minecraft.potion.effect.omnessence1": "Omnessence1",
       "item.aetheria.bronzearmorarmorbody": "BronzeArmor Chestplate",
       "block.aetheria.astraltoodstool": "Astraltoodstool",
       "biome.aetheria.voidplanes": "Voidplanes",
       "item.aetheria.thevoid": "The Void Portal Igniter",
       "item.aetheria.stormberryroll": "Stormberry Roll",
+      "item.aetheria.oricalingot": "Orical Ingot",
+      "item.aetheria.moonsilverarmorbody": "Moonsilver Chestplate",
+      "item.aetheria.felsteelaarmorbody": "FelSteelA Chestplate",
+      "item.aetheria.rosearmorlegs": "Rose Leggings",
       "item.aetheria.sterlingarmorarmorhelmet": "Sterlingarmor Helmet",
       "effect.omnessence1": "Omnessence1",
       "item.aetheria.silverarmorarmorlegs": "Silverarmor Leggings",
+      "item.aetheria.darkfelsteelingot": "Dark Fel Steel Ingot",
       "item.aetheria.zincarmorarmorlegs": "Zincarmor Leggings",
       "item.aetheria.magnegoldarmorarmorbody": "Magnegoldarmor Chestplate",
+      "item.aetheria.lupin": "lupin Spawn Egg",
+      "item.aetheria.adamantaarmorbody": "AdamantA Chestplate",
+      "item.aetheria.moonsilverarmorboots": "Moonsilver Boots",
       "item.aetheria.cobaltarmorarmorlegs": "Cobaltarmor Leggings",
       "item.aetheria.gemwroughtsword": "Gemwrought Sword",
       "item.aetheria.aluminumarmorarmorhelmet": "AluminumArmor Helmet",
       "item.aetheria.electrum": "Electrum",
       "item.aetheria.redsteelhoe": "Redsteel Hoe",
       "item.minecraft.splash_potion.effect.milkbottle": "Splash Milkbottle",
+      "item.aetheria.darksteelaarmorhelmet": "DarksteelA Helmet",
       "block.aetheria.ghostmorel": "Ghost Morel",
       "block.aetheria.crocitegeode": "Crocite Geode",
+      "item.aetheria.rickroll": "Music Disk",
+      "entity.aetheria.lupin": "lupin",
       "item.aetheria.copper": "Copper",
       "block.aetheria.voidshroom": "Voidshroom",
       "item.aetheria.cobaltarmorarmorboots": "Cobaltarmor Boots",
@@ -2714,6 +3514,7 @@
       "item.aetheria.bismuthbronzearmorarmorhelmet": "BismuthBronzeArmor Helmet",
       "item.aetheria.platinumarmorarmorlegs": "Platinumarmor Leggings",
       "item.aetheria.electrumarmorarmorhelmet": "Electrumarmor Helmet",
+      "item.aetheria.adamant": "Adamant",
       "item.aetheria.gemwroughtgem": "Gemwrought"
     }
   },
@@ -2721,7 +3522,7 @@
     "modid": "aetheria",
     "modName": "aetheria",
     "version": "1.0.0",
-    "author": "jmref",
+    "author": "10ion, Pylons, Noah, Da_Dragon, Mikeadon, BadBird, Gamer, DJDARKWATERS, jointheprayerbro , KidOfCubes ",
     "websiteURL": "https://mcreator.net",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -2730,8 +3531,9 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.14.4",
-    "usesProFeatures": false,
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000105419
+  "mcreatorVersion": 202000213719
 }

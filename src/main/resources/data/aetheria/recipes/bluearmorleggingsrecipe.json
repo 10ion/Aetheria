@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "1": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "2": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "3": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "5": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "6": {
+      "item": "aetheria:bluesteelingot"
+    },
+    "8": {
+      "item": "aetheria:bluesteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:bluearmorlegs",
+    "count": 1
+  }
+}

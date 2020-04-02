@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      },
+      {
+        "value": "CUSTOM:BlackBronze"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlackArmor.body"
+    },
+    "name": "blackarmorbodyrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:mithrilingot"
+    },
+    "2": {
+      "item": "aetheria:mithrilingot"
+    },
+    "3": {
+      "item": "aetheria:mithrilingot"
+    },
+    "5": {
+      "item": "aetheria:mithrilingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:mithrilarmorboots",
+    "count": 1
+  }
+}

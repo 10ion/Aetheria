@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "2": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "3": {
+      "item": "aetheria:moonsilveringot"
+    },
+    "5": {
+      "item": "aetheria:moonsilveringot"
+    }
+  },
+  "result": {
+    "item": "aetheria:moonsilverarmorboots",
+    "count": 1
+  }
+}

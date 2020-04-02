@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/bluecrocoiteblock",
+    "up": "aetheria:blocks/bluecrocoiteblock",
+    "north": "aetheria:blocks/bluecrocoiteblock",
+    "east": "aetheria:blocks/bluecrocoiteblock",
+    "south": "aetheria:blocks/bluecrocoiteblock",
+    "west": "aetheria:blocks/bluecrocoiteblock",
+    "particle": "aetheria:blocks/bluecrocoiteblock"
+  }
+}

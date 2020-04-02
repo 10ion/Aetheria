@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:felsteel"
+    },
+    "1": {
+      "item": "aetheria:felsteel"
+    },
+    "2": {
+      "item": "aetheria:felsteel"
+    },
+    "3": {
+      "item": "aetheria:felsteel"
+    },
+    "5": {
+      "item": "aetheria:felsteel"
+    }
+  },
+  "result": {
+    "item": "aetheria:felsteelaarmorhelmet",
+    "count": 1
+  }
+}

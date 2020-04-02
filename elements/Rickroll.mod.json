@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "rickrollrecord",
+    "name": "Music Disk",
+    "description": "Ckir Stelay - Ckir Lorl",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:music.rickroll"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

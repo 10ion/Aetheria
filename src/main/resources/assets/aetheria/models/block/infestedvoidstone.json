@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/zygomycotavoidstone",
+    "up": "aetheria:blocks/zygomycotavoidstone",
+    "north": "aetheria:blocks/zygomycotavoidstone",
+    "east": "aetheria:blocks/zygomycotavoidstone",
+    "south": "aetheria:blocks/zygomycotavoidstone",
+    "west": "aetheria:blocks/zygomycotavoidstone",
+    "particle": "aetheria:blocks/zygomycotavoidstone"
+  }
+}

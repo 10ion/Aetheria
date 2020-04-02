@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:darkironingot"
+    },
+    "2": {
+      "item": "aetheria:darkironingot"
+    },
+    "3": {
+      "item": "aetheria:darkironingot"
+    },
+    "4": {
+      "item": "aetheria:darkironingot"
+    },
+    "5": {
+      "item": "aetheria:darkironingot"
+    },
+    "6": {
+      "item": "aetheria:darkironingot"
+    },
+    "7": {
+      "item": "aetheria:darkironingot"
+    },
+    "8": {
+      "item": "aetheria:darkironingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:darkironarmorbody",
+    "count": 1
+  }
+}

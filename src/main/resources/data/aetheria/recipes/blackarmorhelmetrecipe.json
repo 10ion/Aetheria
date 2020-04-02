@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:blackbronze"
+    },
+    "1": {
+      "item": "aetheria:blackbronze"
+    },
+    "2": {
+      "item": "aetheria:blackbronze"
+    },
+    "3": {
+      "item": "aetheria:blackbronze"
+    },
+    "5": {
+      "item": "aetheria:blackbronze"
+    }
+  },
+  "result": {
+    "item": "aetheria:blackarmorhelmet",
+    "count": 1
+  }
+}

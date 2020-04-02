@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:redbrassingot"
+    },
+    "1": {
+      "item": "aetheria:redbrassingot"
+    },
+    "2": {
+      "item": "aetheria:redbrassingot"
+    },
+    "3": {
+      "item": "aetheria:redbrassingot"
+    },
+    "5": {
+      "item": "aetheria:redbrassingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:redbrassarmorhelmet",
+    "count": 1
+  }
+}
