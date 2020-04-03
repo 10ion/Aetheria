@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "2": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "3": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "5": {
+      "item": "aetheria:flowingwatersteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:flowingarmorboots",
+    "count": 1
+  }
+}

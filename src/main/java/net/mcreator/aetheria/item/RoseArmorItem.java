@@ -36,15 +36,15 @@ public class RoseArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 17;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{2, 6, 6, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 9;
+				return 15;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class RoseArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(RoseGoldIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

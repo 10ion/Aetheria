@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "black",
-    "helmetName": "Black Helmet",
-    "bodyName": "Black Chestplate",
-    "leggingsName": "Black Leggings",
-    "bootsName": "Black Boots",
+    "helmetName": "Black Bronze Helmet",
+    "bodyName": "Black Bronze Chestplate",
+    "leggingsName": "Black Bronze Leggings",
+    "bootsName": "Black Bronze Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 24,
+    "maxDamage": 18,
     "damageValueHelmet": 3,
-    "damageValueBody": 8,
-    "damageValueLeggings": 10,
-    "damageValueBoots": 3,
-    "enchantability": 14,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 7,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:BlackBronze"
+      }
+    ]
   }
 }

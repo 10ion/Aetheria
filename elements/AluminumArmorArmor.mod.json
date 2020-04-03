@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "aluminumarmor",
-    "helmetName": "AluminumArmor Helmet",
-    "bodyName": "AluminumArmor Chestplate",
-    "leggingsName": "AluminumArmor Leggings",
-    "bootsName": "AluminumArmor Boots",
+    "helmetName": "Aluminum Helmet",
+    "bodyName": "Aluminum Chestplate",
+    "leggingsName": "Aluminum Leggings",
+    "bootsName": "Aluminum Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 8,
+    "maxDamage": 11,
     "damageValueHelmet": 1,
-    "damageValueBody": 3,
-    "damageValueLeggings": 3,
-    "damageValueBoots": 1,
-    "enchantability": 5,
-    "toughness": 0.0,
+    "damageValueBody": 4,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 21,
+    "toughness": 0.4,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Aluminum"
+      }
+    ]
   }
 }

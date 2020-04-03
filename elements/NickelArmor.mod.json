@@ -1,0 +1,51 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "nickel_head",
+    "enableBody": true,
+    "textureBody": "nickel_body",
+    "enableLeggings": true,
+    "textureLeggings": "nickel_leggings",
+    "enableBoots": true,
+    "textureBoots": "nickel_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "nickel",
+    "helmetName": "Nickel Helmet",
+    "bodyName": "Nickel Chestplate",
+    "leggingsName": "Nickel Leggings",
+    "bootsName": "Nickel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 13,
+    "damageValueHelmet": 3,
+    "damageValueBody": 3,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 3,
+    "enchantability": 15,
+    "toughness": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:NIckelIngot"
+      }
+    ]
+  }
+}

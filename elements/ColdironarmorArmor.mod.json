@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "coldironarmor",
-    "helmetName": "Coldironarmor Helmet",
-    "bodyName": "Coldironarmor Chestplate",
-    "leggingsName": "Coldironarmor Leggings",
-    "bootsName": "Coldironarmor Boots",
+    "helmetName": "Cold Iron Helmet",
+    "bodyName": "Cold Iron Chestplate",
+    "leggingsName": "Cold Iron Leggings",
+    "bootsName": "Cold Iron Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 18,
+    "maxDamage": 17,
     "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 7,
+    "damageValueBody": 7,
+    "damageValueLeggings": 5,
     "damageValueBoots": 2,
-    "enchantability": 11,
+    "enchantability": 10,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Coldiron"
+      }
+    ]
   }
 }

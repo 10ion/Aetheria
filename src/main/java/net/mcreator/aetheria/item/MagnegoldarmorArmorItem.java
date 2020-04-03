@@ -36,15 +36,15 @@ public class MagnegoldarmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 6;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 13;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 2, 2, 1}[slot.getIndex()];
+				return new int[]{2, 4, 5, 1}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 4;
+				return 18;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class MagnegoldarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(MagnegoldItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class MagnegoldarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 0.4f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

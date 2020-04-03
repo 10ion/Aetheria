@@ -36,11 +36,11 @@ public class BronzeArmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 12;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 17;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 4, 2}[slot.getIndex()];
+				return new int[]{2, 6, 6, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,7 +52,7 @@ public class BronzeArmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(BronzeItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

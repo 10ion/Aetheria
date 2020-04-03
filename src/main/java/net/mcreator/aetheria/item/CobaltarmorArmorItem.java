@@ -36,15 +36,15 @@ public class CobaltarmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 14;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 5, 2}[slot.getIndex()];
+				return new int[]{3, 6, 7, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 8;
+				return 13;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class CobaltarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(CobaltItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class CobaltarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 0.2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

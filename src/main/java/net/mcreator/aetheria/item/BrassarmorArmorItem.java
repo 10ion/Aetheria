@@ -36,15 +36,15 @@ public class BrassarmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 17;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 7, 6, 2}[slot.getIndex()];
+				return new int[]{2, 4, 5, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 10;
+				return 11;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class BrassarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(BrassItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

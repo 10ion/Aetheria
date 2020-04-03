@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "minecraft:obsidian"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "aetheria:obsidianarmorhelmet",
+    "count": 1
+  }
+}

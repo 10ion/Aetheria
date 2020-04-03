@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:nickelingot"
+    },
+    "2": {
+      "item": "aetheria:nickelingot"
+    },
+    "3": {
+      "item": "aetheria:nickelingot"
+    },
+    "4": {
+      "item": "aetheria:nickelingot"
+    },
+    "5": {
+      "item": "aetheria:nickelingot"
+    },
+    "6": {
+      "item": "aetheria:nickelingot"
+    },
+    "7": {
+      "item": "aetheria:nickelingot"
+    },
+    "8": {
+      "item": "aetheria:nickelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:nickelarmorbody",
+    "count": 1
+  }
+}

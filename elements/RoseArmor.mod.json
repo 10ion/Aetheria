@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "rose",
-    "helmetName": "Rose Helmet",
-    "bodyName": "Rose Chestplate",
-    "leggingsName": "Rose Leggings",
-    "bootsName": "Rose Boots",
+    "helmetName": "Rose Gold Helmet",
+    "bodyName": "Rose Gold Chestplate",
+    "leggingsName": "Rose Gold Leggings",
+    "bootsName": "Rose Gold Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
+    "maxDamage": 17,
     "damageValueHelmet": 2,
-    "damageValueBody": 5,
+    "damageValueBody": 6,
     "damageValueLeggings": 6,
     "damageValueBoots": 2,
-    "enchantability": 9,
+    "enchantability": 15,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      }
+    ]
   }
 }

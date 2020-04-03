@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "steelarmor",
-    "helmetName": "Steelarmor Helmet",
-    "bodyName": "Steelarmor Chestplate",
-    "leggingsName": "Steelarmor Leggings",
-    "bootsName": "Steelarmor Boots",
+    "helmetName": "Steel Helmet",
+    "bodyName": "Steel Chestplate",
+    "leggingsName": "Steel Leggings",
+    "bootsName": "Steel Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -34,14 +34,18 @@
     "bootsModelTexture": "From armor",
     "maxDamage": 19,
     "damageValueHelmet": 3,
-    "damageValueBody": 6,
-    "damageValueLeggings": 8,
-    "damageValueBoots": 3,
-    "enchantability": 12,
-    "toughness": 0.0,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 4,
+    "toughness": 0.1,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Steel"
+      }
+    ]
   }
 }

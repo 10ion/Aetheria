@@ -36,15 +36,15 @@ public class SterlingarmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 9;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 4, 3, 1}[slot.getIndex()];
+				return new int[]{2, 4, 5, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 5;
+				return 12;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class SterlingarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SterlingSilverItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

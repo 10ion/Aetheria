@@ -40,11 +40,11 @@ public class SteelarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 8, 6, 3}[slot.getIndex()];
+				return new int[]{2, 6, 7, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 12;
+				return 4;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class SteelarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SteelItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class SteelarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 0.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

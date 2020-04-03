@@ -1,0 +1,36 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:iridiumingot"
+    },
+    "1": {
+      "item": "aetheria:iridiumingot"
+    },
+    "2": {
+      "item": "aetheria:iridiumingot"
+    },
+    "3": {
+      "item": "aetheria:iridiumingot"
+    },
+    "5": {
+      "item": "aetheria:iridiumingot"
+    },
+    "6": {
+      "item": "aetheria:iridiumingot"
+    },
+    "8": {
+      "item": "aetheria:iridiumingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:iridiumarmorlegs",
+    "count": 1
+  }
+}

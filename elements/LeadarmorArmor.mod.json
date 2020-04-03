@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "leadarmor",
-    "helmetName": "Leadarmor Helmet",
-    "bodyName": "Leadarmor Chestplate",
-    "leggingsName": "Leadarmor Leggings",
-    "bootsName": "Leadarmor Boots",
+    "helmetName": "Lead Helmet",
+    "bodyName": "Lead Chestplate",
+    "leggingsName": "Lead Leggings",
+    "bootsName": "Lead Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 3,
-    "damageValueHelmet": 0,
-    "damageValueBody": 1,
-    "damageValueLeggings": 1,
-    "damageValueBoots": 0,
-    "enchantability": 2,
-    "toughness": 0.0,
+    "maxDamage": 11,
+    "damageValueHelmet": 1,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
+    "enchantability": 24,
+    "toughness": 0.1,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Lead"
+      }
+    ]
   }
 }

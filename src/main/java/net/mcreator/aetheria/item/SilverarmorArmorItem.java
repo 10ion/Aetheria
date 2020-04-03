@@ -36,15 +36,15 @@ public class SilverarmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 8;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 11;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 3, 3, 1}[slot.getIndex()];
+				return new int[]{1, 4, 4, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 5;
+				return 23;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class SilverarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(SilverItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class SilverarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 0.2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
