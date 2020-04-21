@@ -13,7 +13,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class MysticWoodFuleLogFuel extends AetheriaElements.ModElement {
 	public MysticWoodFuleLogFuel(AetheriaElements instance) {
-		super(instance, 63);
+		super(instance, 169);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

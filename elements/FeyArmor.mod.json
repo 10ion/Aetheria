@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "fey",
-    "helmetName": "Fey Helmet",
-    "bodyName": "Fey Chestplate",
-    "leggingsName": "Fey Leggings",
-    "bootsName": "Fey Boots",
+    "helmetName": "Feysteel Helmet",
+    "bodyName": "Feysteel Chestplate",
+    "leggingsName": "Feysteel Leggings",
+    "bootsName": "Feysteel Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -33,15 +33,19 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 24,
-    "damageValueHelmet": 3,
-    "damageValueBody": 8,
-    "damageValueLeggings": 10,
-    "damageValueBoots": 3,
+    "damageValueHelmet": 7,
+    "damageValueBody": 16,
+    "damageValueLeggings": 13,
+    "damageValueBoots": 7,
     "enchantability": 14,
-    "toughness": 0.0,
+    "toughness": 5.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:FeySteel"
+      }
+    ]
   }
 }

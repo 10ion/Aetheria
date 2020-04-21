@@ -29,18 +29,18 @@ public class RedsteelarmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:redsteelarmorboots")
 	public static final Item boots = null;
 	public RedsteelarmorItem(AetheriaElements instance) {
-		super(instance, 2);
+		super(instance, 47);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 26;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 7, 8, 4}[slot.getIndex()];
+				return new int[]{4, 8, 9, 5}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -48,7 +48,7 @@ public class RedsteelarmorItem extends AetheriaElements.ModElement {
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("music.nether"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -61,7 +61,7 @@ public class RedsteelarmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 3f;
+				return 3.5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

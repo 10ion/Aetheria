@@ -15,7 +15,7 @@ public class ZincItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:zinc")
 	public static final Item block = null;
 	public ZincItem(AetheriaElements instance) {
-		super(instance, 32);
+		super(instance, 3);
 	}
 
 	@Override

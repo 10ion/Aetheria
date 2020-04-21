@@ -8,7 +8,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class Omnessence1OnPotionActiveTickProcedure extends AetheriaElements.ModElement {
 	public Omnessence1OnPotionActiveTickProcedure(AetheriaElements instance) {
-		super(instance, 140);
+		super(instance, 208);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

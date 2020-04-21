@@ -29,22 +29,22 @@ public class PlatinumarmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:platinumarmorarmorboots")
 	public static final Item boots = null;
 	public PlatinumarmorArmorItem(AetheriaElements instance) {
-		super(instance, 278);
+		super(instance, 59);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 23;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 21;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 9, 8, 3}[slot.getIndex()];
+				return new int[]{3, 7, 8, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 11;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class PlatinumarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(PlatinumItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class PlatinumarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 2.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

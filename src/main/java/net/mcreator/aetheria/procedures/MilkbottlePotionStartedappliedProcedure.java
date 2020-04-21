@@ -8,7 +8,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class MilkbottlePotionStartedappliedProcedure extends AetheriaElements.ModElement {
 	public MilkbottlePotionStartedappliedProcedure(AetheriaElements instance) {
-		super(instance, 129);
+		super(instance, 202);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

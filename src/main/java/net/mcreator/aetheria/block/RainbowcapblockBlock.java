@@ -26,7 +26,7 @@ public class RainbowcapblockBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:rainbowcapblock")
 	public static final Block block = null;
 	public RainbowcapblockBlock(AetheriaElements instance) {
-		super(instance, 309);
+		super(instance, 118);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class MagnegoldarmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:magnegoldarmorarmorboots")
 	public static final Item boots = null;
 	public MagnegoldarmorArmorItem(AetheriaElements instance) {
-		super(instance, 218);
+		super(instance, 32);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class CobaltItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:cobalt")
 	public static final Item block = null;
 	public CobaltItem(AetheriaElements instance) {
-		super(instance, 45);
+		super(instance, 15);
 	}
 
 	@Override

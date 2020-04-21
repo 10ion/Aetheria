@@ -15,7 +15,7 @@ public class RedBrassIngotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:redbrassingot")
 	public static final Item block = null;
 	public RedBrassIngotItem(AetheriaElements instance) {
-		super(instance, 382);
+		super(instance, 153);
 	}
 
 	@Override

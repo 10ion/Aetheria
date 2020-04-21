@@ -15,7 +15,7 @@ public class CopperItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:copper")
 	public static final Item block = null;
 	public CopperItem(AetheriaElements instance) {
-		super(instance, 37);
+		super(instance, 8);
 	}
 
 	@Override

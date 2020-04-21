@@ -15,7 +15,7 @@ public class OricalIngotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:oricalingot")
 	public static final Item block = null;
 	public OricalIngotItem(AetheriaElements instance) {
-		super(instance, 380);
+		super(instance, 151);
 	}
 
 	@Override

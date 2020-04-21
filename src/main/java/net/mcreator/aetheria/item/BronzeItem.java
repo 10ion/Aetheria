@@ -15,7 +15,7 @@ public class BronzeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:bronze")
 	public static final Item block = null;
 	public BronzeItem(AetheriaElements instance) {
-		super(instance, 49);
+		super(instance, 19);
 	}
 
 	@Override

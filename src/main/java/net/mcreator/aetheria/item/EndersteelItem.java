@@ -15,7 +15,7 @@ public class EndersteelItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:endersteel")
 	public static final Item block = null;
 	public EndersteelItem(AetheriaElements instance) {
-		super(instance, 78);
+		super(instance, 23);
 	}
 
 	@Override

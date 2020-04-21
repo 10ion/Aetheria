@@ -34,7 +34,7 @@ import java.util.Random;
 @AetheriaElements.ModElement.Tag
 public class BigfirefungusStructure extends AetheriaElements.ModElement {
 	public BigfirefungusStructure(AetheriaElements instance) {
-		super(instance, 311);
+		super(instance, 313);
 	}
 
 	@Override

@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "darkfelsteel",
-    "helmetName": "DarkFelSteel Helmet",
-    "bodyName": "DarkFelSteel Chestplate",
-    "leggingsName": "DarkFelSteel Leggings",
-    "bootsName": "DarkFelSteel Boots",
+    "helmetName": "Black Felsteel Helmet",
+    "bodyName": "Black Felsteel Chestplate",
+    "leggingsName": "Black Felsteel Leggings",
+    "bootsName": "Black Felsteel Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -33,15 +33,19 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
+    "damageValueHelmet": 9,
+    "damageValueBody": 20,
+    "damageValueLeggings": 19,
+    "damageValueBoots": 9,
     "enchantability": 9,
-    "toughness": 0.0,
+    "toughness": 5.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkFelSteelIngot"
+      }
+    ]
   }
 }

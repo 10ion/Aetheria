@@ -29,22 +29,22 @@ public class DarkIronArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:darkironarmorboots")
 	public static final Item boots = null;
 	public DarkIronArmorItem(AetheriaElements instance) {
-		super(instance, 345);
+		super(instance, 62);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 29;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 11, 10, 4}[slot.getIndex()];
+				return new int[]{2, 7, 7, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 17;
+				return 7;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class DarkIronArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(DarkIronIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class DarkIronArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 0.5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

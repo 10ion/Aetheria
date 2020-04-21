@@ -16,7 +16,7 @@ public class GemwroughtAxeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtaxe")
 	public static final Item block = null;
 	public GemwroughtAxeItem(AetheriaElements instance) {
-		super(instance, 97);
+		super(instance, 126);
 	}
 
 	@Override

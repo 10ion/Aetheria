@@ -23,7 +23,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class HowtoentervoidProcedure extends AetheriaElements.ModElement {
 	public HowtoentervoidProcedure(AetheriaElements instance) {
-		super(instance, 144);
+		super(instance, 212);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

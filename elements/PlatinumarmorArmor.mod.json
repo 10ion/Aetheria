@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "platinumarmor",
-    "helmetName": "Platinumarmor Helmet",
-    "bodyName": "Platinumarmor Chestplate",
-    "leggingsName": "Platinumarmor Leggings",
-    "bootsName": "Platinumarmor Boots",
+    "helmetName": "Platinum Helmet",
+    "bodyName": "Platinum Chestplate",
+    "leggingsName": "Platinum Leggings",
+    "bootsName": "Platinum Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 23,
+    "maxDamage": 21,
     "damageValueHelmet": 3,
     "damageValueBody": 8,
-    "damageValueLeggings": 9,
+    "damageValueLeggings": 7,
     "damageValueBoots": 3,
-    "enchantability": 14,
-    "toughness": 0.0,
+    "enchantability": 11,
+    "toughness": 2.1,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Platinum"
+      }
+    ]
   }
 }

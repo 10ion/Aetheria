@@ -39,7 +39,7 @@ import net.mcreator.aetheria.AetheriaElements;
 public class Neko1Entity extends AetheriaElements.ModElement {
 	public static EntityType entity = null;
 	public Neko1Entity(AetheriaElements instance) {
-		super(instance, 299);
+		super(instance, 139);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

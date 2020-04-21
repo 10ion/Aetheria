@@ -15,7 +15,7 @@ public class ColdironItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:coldiron")
 	public static final Item block = null;
 	public ColdironItem(AetheriaElements instance) {
-		super(instance, 52);
+		super(instance, 22);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ import java.util.Random;
 @AetheriaElements.ModElement.Tag
 public class BigastraltoadstoolStructure extends AetheriaElements.ModElement {
 	public BigastraltoadstoolStructure(AetheriaElements instance) {
-		super(instance, 310);
+		super(instance, 312);
 	}
 
 	@Override

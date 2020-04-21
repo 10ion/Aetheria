@@ -34,7 +34,7 @@ import java.util.Random;
 @AetheriaElements.ModElement.Tag
 public class CrocoiteLargeStructure extends AetheriaElements.ModElement {
 	public CrocoiteLargeStructure(AetheriaElements instance) {
-		super(instance, 324);
+		super(instance, 317);
 	}
 
 	@Override

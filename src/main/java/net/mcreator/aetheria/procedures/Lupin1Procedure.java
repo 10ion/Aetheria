@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class Lupin1Procedure extends AetheriaElements.ModElement {
 	public Lupin1Procedure(AetheriaElements instance) {
-		super(instance, 406);
+		super(instance, 372);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

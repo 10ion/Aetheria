@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 41,
-    "damageValueHelmet": 5,
-    "damageValueBody": 14,
-    "damageValueLeggings": 16,
-    "damageValueBoots": 5,
+    "maxDamage": 25,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 4,
     "enchantability": 24,
-    "toughness": 0.0,
+    "toughness": 3.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaniumI"
+      }
+    ]
   }
 }

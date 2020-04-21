@@ -40,7 +40,7 @@ import net.mcreator.aetheria.AetheriaElements;
 public class LupinEntity extends AetheriaElements.ModElement {
 	public static EntityType entity = null;
 	public LupinEntity(AetheriaElements instance) {
-		super(instance, 405);
+		super(instance, 155);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

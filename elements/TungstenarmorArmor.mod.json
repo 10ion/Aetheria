@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "tungstenarmor",
-    "helmetName": "Tungstenarmor Helmet",
-    "bodyName": "Tungstenarmor Chestplate",
-    "leggingsName": "Tungstenarmor Leggings",
-    "bootsName": "Tungstenarmor Boots",
+    "helmetName": "Tungsten Helmet",
+    "bodyName": "Tungsten Chestplate",
+    "leggingsName": "Tungsten Leggings",
+    "bootsName": "Tungsten Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -35,13 +35,17 @@
     "maxDamage": 20,
     "damageValueHelmet": 3,
     "damageValueBody": 7,
-    "damageValueLeggings": 8,
+    "damageValueLeggings": 7,
     "damageValueBoots": 3,
-    "enchantability": 12,
-    "toughness": 0.0,
+    "enchantability": 11,
+    "toughness": 1.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tungsten"
+      }
+    ]
   }
 }

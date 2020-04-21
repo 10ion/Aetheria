@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class GhoulcollideProcedure extends AetheriaElements.ModElement {
 	public GhoulcollideProcedure(AetheriaElements instance) {
-		super(instance, 10);
+		super(instance, 159);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

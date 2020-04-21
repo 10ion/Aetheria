@@ -26,7 +26,7 @@ public class AetherFrameBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:aetherframe")
 	public static final Block block = null;
 	public AetherFrameBlock(AetheriaElements instance) {
-		super(instance, 315);
+		super(instance, 119);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class MithrilIngotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:mithrilingot")
 	public static final Item block = null;
 	public MithrilIngotItem(AetheriaElements instance) {
-		super(instance, 368);
+		super(instance, 149);
 	}
 
 	@Override

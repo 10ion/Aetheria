@@ -29,7 +29,7 @@ public class EndersteeelArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:endersteeelarmorboots")
 	public static final Item boots = null;
 	public EndersteeelArmorItem(AetheriaElements instance) {
-		super(instance, 130);
+		super(instance, 53);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class EndersteeelArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 12, 10, 4}[slot.getIndex()];
+				return new int[]{5, 12, 13, 5}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,7 +52,7 @@ public class EndersteeelArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(EndersteelItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class EndersteeelArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 4.5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

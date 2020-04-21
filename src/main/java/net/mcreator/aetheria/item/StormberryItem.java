@@ -16,7 +16,7 @@ public class StormberryItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:stormberry")
 	public static final Item block = null;
 	public StormberryItem(AetheriaElements instance) {
-		super(instance, 21);
+		super(instance, 73);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class TinItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:tin")
 	public static final Item block = null;
 	public TinItem(AetheriaElements instance) {
-		super(instance, 40);
+		super(instance, 11);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class RTungstenItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:rtungsten")
 	public static final Item block = null;
 	public RTungstenItem(AetheriaElements instance) {
-		super(instance, 47);
+		super(instance, 17);
 	}
 
 	@Override

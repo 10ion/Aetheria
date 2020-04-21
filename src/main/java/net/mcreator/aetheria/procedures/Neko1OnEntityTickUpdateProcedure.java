@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class Neko1OnEntityTickUpdateProcedure extends AetheriaElements.ModElement {
 	public Neko1OnEntityTickUpdateProcedure(AetheriaElements instance) {
-		super(instance, 300);
+		super(instance, 311);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

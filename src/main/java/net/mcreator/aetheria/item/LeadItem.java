@@ -15,7 +15,7 @@ public class LeadItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:lead")
 	public static final Item block = null;
 	public LeadItem(AetheriaElements instance) {
-		super(instance, 39);
+		super(instance, 10);
 	}
 
 	@Override

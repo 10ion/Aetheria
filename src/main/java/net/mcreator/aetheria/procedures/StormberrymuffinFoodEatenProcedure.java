@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class StormberrymuffinFoodEatenProcedure extends AetheriaElements.ModElement {
 	public StormberrymuffinFoodEatenProcedure(AetheriaElements instance) {
-		super(instance, 22);
+		super(instance, 162);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

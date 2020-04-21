@@ -29,7 +29,7 @@ public class FeyArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:feyarmorboots")
 	public static final Item boots = null;
 	public FeyArmorItem(AetheriaElements instance) {
-		super(instance, 363);
+		super(instance, 65);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class FeyArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 10, 8, 3}[slot.getIndex()];
+				return new int[]{7, 13, 16, 7}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,7 +52,7 @@ public class FeyArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(FeySteelItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class FeyArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

@@ -34,7 +34,7 @@ import java.util.Random;
 @AetheriaElements.ModElement.Tag
 public class BigmacowaniteStructure extends AetheriaElements.ModElement {
 	public BigmacowaniteStructure(AetheriaElements instance) {
-		super(instance, 312);
+		super(instance, 314);
 	}
 
 	@Override

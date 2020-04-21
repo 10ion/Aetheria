@@ -49,7 +49,7 @@ import java.util.Random;
 public class BlockbirdEntity extends AetheriaElements.ModElement {
 	public static EntityType entity = null;
 	public BlockbirdEntity(AetheriaElements instance) {
-		super(instance, 298);
+		super(instance, 138);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -29,7 +29,7 @@ public class CobaltarmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:cobaltarmorarmorboots")
 	public static final Item boots = null;
 	public CobaltarmorArmorItem(AetheriaElements instance) {
-		super(instance, 253);
+		super(instance, 46);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class CobaltarmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{3, 6, 7, 3}[slot.getIndex()];
+				return new int[]{2, 6, 7, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {

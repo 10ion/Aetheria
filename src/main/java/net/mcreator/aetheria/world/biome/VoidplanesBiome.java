@@ -29,7 +29,7 @@ public class VoidplanesBiome extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:voidplanes")
 	public static final CustomBiome biome = null;
 	public VoidplanesBiome(AetheriaElements instance) {
-		super(instance, 141);
+		super(instance, 210);
 	}
 
 	@Override

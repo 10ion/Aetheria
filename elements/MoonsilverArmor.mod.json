@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
+    "maxDamage": 39,
+    "damageValueHelmet": 6,
+    "damageValueBody": 15,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
     "enchantability": 9,
-    "toughness": 0.0,
+    "toughness": 5.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:MoonsilverIngot"
+      }
+    ]
   }
 }

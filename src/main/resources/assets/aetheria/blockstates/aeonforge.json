@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aetheria:block/aeonforge"
+    },
+    "facing=east": {
+      "model": "aetheria:block/aeonforge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheria:block/aeonforge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheria:block/aeonforge",
+      "y": 270
+    }
+  }
+}

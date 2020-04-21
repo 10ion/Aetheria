@@ -16,7 +16,7 @@ public class GemwroughtPickaxeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtpickaxe")
 	public static final Item block = null;
 	public GemwroughtPickaxeItem(AetheriaElements instance) {
-		super(instance, 96);
+		super(instance, 125);
 	}
 
 	@Override

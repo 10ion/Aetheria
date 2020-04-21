@@ -5,7 +5,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class ForgeguicodeProcedure extends AetheriaElements.ModElement {
 	public ForgeguicodeProcedure(AetheriaElements instance) {
-		super(instance, 77);
+		super(instance, 174);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

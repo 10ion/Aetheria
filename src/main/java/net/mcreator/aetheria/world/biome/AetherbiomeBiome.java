@@ -48,7 +48,7 @@ public class AetherbiomeBiome extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:aetherbiome")
 	public static final CustomBiome biome = null;
 	public AetherbiomeBiome(AetheriaElements instance) {
-		super(instance, 135);
+		super(instance, 207);
 	}
 
 	@Override
@@ -100,7 +100,7 @@ public class AetherbiomeBiome extends AetheriaElements.ModElement {
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public int getSkyColorByTemp(float currentTemperature) {
-			return -16764109;
+			return -16777216;
 		}
 	}
 

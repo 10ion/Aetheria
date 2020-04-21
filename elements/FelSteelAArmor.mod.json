@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "felsteela",
-    "helmetName": "FelSteelA Helmet",
-    "bodyName": "FelSteelA Chestplate",
-    "leggingsName": "FelSteelA Leggings",
-    "bootsName": "FelSteelA Boots",
+    "helmetName": "FelSteel Helmet",
+    "bodyName": "FelSteel Chestplate",
+    "leggingsName": "FelSteel Leggings",
+    "bootsName": "FelSteel Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -33,15 +33,19 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 33,
-    "damageValueHelmet": 4,
-    "damageValueBody": 11,
-    "damageValueLeggings": 13,
-    "damageValueBoots": 4,
-    "enchantability": 20,
-    "toughness": 0.0,
+    "damageValueHelmet": 8,
+    "damageValueBody": 17,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 8,
+    "enchantability": 18,
+    "toughness": 5.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:FelSteel"
+      }
+    ]
   }
 }

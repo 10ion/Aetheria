@@ -39,7 +39,7 @@ public class LeadOreBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:leadore")
 	public static final Block block = null;
 	public LeadOreBlock(AetheriaElements instance) {
-		super(instance, 318);
+		super(instance, 95);
 	}
 
 	@Override

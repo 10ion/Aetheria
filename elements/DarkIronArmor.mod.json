@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "darkiron",
-    "helmetName": "DarkIron Helmet",
-    "bodyName": "DarkIron Chestplate",
-    "leggingsName": "DarkIron Leggings",
-    "bootsName": "DarkIron Boots",
+    "helmetName": "Dark Iron Helmet",
+    "bodyName": "Dark Iron Chestplate",
+    "leggingsName": "Dark Iron Leggings",
+    "bootsName": "Dark Iron Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 29,
-    "damageValueHelmet": 4,
-    "damageValueBody": 10,
-    "damageValueLeggings": 11,
-    "damageValueBoots": 4,
-    "enchantability": 17,
-    "toughness": 0.0,
+    "maxDamage": 20,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 2,
+    "enchantability": 7,
+    "toughness": 0.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkIronIngot"
+      }
+    ]
   }
 }

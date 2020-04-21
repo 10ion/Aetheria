@@ -15,7 +15,7 @@ public class PizzaItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:pizza")
 	public static final Item block = null;
 	public PizzaItem(AetheriaElements instance) {
-		super(instance, 74);
+		super(instance, 78);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class SilverwoodforestBiome extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:silverwoodforest")
 	public static final CustomBiome biome = null;
 	public SilverwoodforestBiome(AetheriaElements instance) {
-		super(instance, 204);
+		super(instance, 241);
 	}
 
 	@Override

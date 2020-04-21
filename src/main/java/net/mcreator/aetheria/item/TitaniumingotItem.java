@@ -15,7 +15,7 @@ public class TitaniumingotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:titaniumingot")
 	public static final Item block = null;
 	public TitaniumingotItem(AetheriaElements instance) {
-		super(instance, 24);
+		super(instance, 1);
 	}
 
 	@Override

@@ -29,18 +29,18 @@ public class MoonsilverArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:moonsilverarmorboots")
 	public static final Item boots = null;
 	public MoonsilverArmorItem(AetheriaElements instance) {
-		super(instance, 375);
+		super(instance, 67);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 39;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{6, 12, 15, 6}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,7 +52,7 @@ public class MoonsilverArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(MoonsilverIngotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class MoonsilverArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

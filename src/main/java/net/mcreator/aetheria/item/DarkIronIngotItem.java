@@ -15,7 +15,7 @@ public class DarkIronIngotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:darkironingot")
 	public static final Item block = null;
 	public DarkIronIngotItem(AetheriaElements instance) {
-		super(instance, 339);
+		super(instance, 145);
 	}
 
 	@Override

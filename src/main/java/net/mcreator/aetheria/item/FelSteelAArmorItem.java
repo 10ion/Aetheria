@@ -29,7 +29,7 @@ public class FelSteelAArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:felsteelaarmorboots")
 	public static final Item boots = null;
 	public FelSteelAArmorItem(AetheriaElements instance) {
-		super(instance, 357);
+		super(instance, 64);
 	}
 
 	@Override
@@ -40,11 +40,11 @@ public class FelSteelAArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{4, 13, 11, 4}[slot.getIndex()];
+				return new int[]{8, 15, 17, 8}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 20;
+				return 18;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class FelSteelAArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(FelSteelItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class FelSteelAArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

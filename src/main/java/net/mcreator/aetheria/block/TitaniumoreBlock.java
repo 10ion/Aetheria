@@ -38,7 +38,7 @@ public class TitaniumoreBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:titaniumore")
 	public static final Block block = null;
 	public TitaniumoreBlock(AetheriaElements instance) {
-		super(instance, 23);
+		super(instance, 81);
 	}
 
 	@Override

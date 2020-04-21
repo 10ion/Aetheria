@@ -29,7 +29,7 @@ public class GemwroughtArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtarmorboots")
 	public static final Item boots = null;
 	public GemwroughtArmorItem(AetheriaElements instance) {
-		super(instance, 106);
+		super(instance, 50);
 	}
 
 	@Override

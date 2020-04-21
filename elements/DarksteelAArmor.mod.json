@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "darksteela",
-    "helmetName": "DarksteelA Helmet",
-    "bodyName": "DarksteelA Chestplate",
-    "leggingsName": "DarksteelA Leggings",
-    "bootsName": "DarksteelA Boots",
+    "helmetName": "Blacksteel Helmet",
+    "bodyName": "Blacksteel Chestplate",
+    "leggingsName": "Blacksteel Leggings",
+    "bootsName": "Blacksteel Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
+    "maxDamage": 20,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 3,
     "enchantability": 9,
-    "toughness": 0.0,
+    "toughness": 1.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkSteel"
+      }
+    ]
   }
 }

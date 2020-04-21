@@ -24,7 +24,7 @@ public class MysticalPlanksBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:mysticalplanks")
 	public static final Block block = null;
 	public MysticalPlanksBlock(AetheriaElements instance) {
-		super(instance, 59);
+		super(instance, 103);
 	}
 
 	@Override

@@ -21,7 +21,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModElement {
 	public SilverwoodgrowthbonemealProcedure(AetheriaElements instance) {
-		super(instance, 205);
+		super(instance, 242);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

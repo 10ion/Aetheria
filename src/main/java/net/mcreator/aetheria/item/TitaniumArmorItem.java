@@ -29,18 +29,18 @@ public class TitaniumArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:titaniumarmorboots")
 	public static final Item boots = null;
 	public TitaniumArmorItem(AetheriaElements instance) {
-		super(instance, 208);
+		super(instance, 56);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 41;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{5, 16, 14, 5}[slot.getIndex()];
+				return new int[]{4, 8, 9, 4}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -52,7 +52,7 @@ public class TitaniumArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(TitaniumIItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -61,7 +61,7 @@ public class TitaniumArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 3f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

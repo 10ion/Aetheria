@@ -16,7 +16,7 @@ public class RickrollItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:rickroll")
 	public static final Item block = null;
 	public RickrollItem(AetheriaElements instance) {
-		super(instance, 326);
+		super(instance, 142);
 	}
 
 	@Override

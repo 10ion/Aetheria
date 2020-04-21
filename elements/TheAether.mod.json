@@ -38,12 +38,12 @@
       "value": "Blocks.WATER"
     },
     "airColor": {
-      "value": -13434829,
+      "value": -16777216,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
-    "hasFog": true,
-    "hasWeather": true,
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",

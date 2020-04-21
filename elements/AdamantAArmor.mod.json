@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "adamanta",
-    "helmetName": "AdamantA Helmet",
-    "bodyName": "AdamantA Chestplate",
-    "leggingsName": "AdamantA Leggings",
-    "bootsName": "AdamantA Boots",
+    "helmetName": "Adamant Helmet",
+    "bodyName": "Adamant Chestplate",
+    "leggingsName": "Adamant Leggings",
+    "bootsName": "Adamant Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
-    "enchantability": 9,
-    "toughness": 0.0,
+    "maxDamage": 200,
+    "damageValueHelmet": 25,
+    "damageValueBody": 25,
+    "damageValueLeggings": 25,
+    "damageValueBoots": 25,
+    "enchantability": 40,
+    "toughness": 5.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Adamant"
+      }
+    ]
   }
 }

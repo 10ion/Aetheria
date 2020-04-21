@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "palladiumarmor",
-    "helmetName": "Palladiumarmor Helmet",
-    "bodyName": "Palladiumarmor Chestplate",
-    "leggingsName": "Palladiumarmor Leggings",
-    "bootsName": "Palladiumarmor Boots",
+    "helmetName": "Palladium Helmet",
+    "bodyName": "Palladium Chestplate",
+    "leggingsName": "Palladium Leggings",
+    "bootsName": "Palladium Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 27,
+    "maxDamage": 23,
     "damageValueHelmet": 4,
-    "damageValueBody": 9,
-    "damageValueLeggings": 11,
-    "damageValueBoots": 4,
-    "enchantability": 16,
-    "toughness": 0.0,
+    "damageValueBody": 8,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 3,
+    "enchantability": 13,
+    "toughness": 2.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Palladium"
+      }
+    ]
   }
 }

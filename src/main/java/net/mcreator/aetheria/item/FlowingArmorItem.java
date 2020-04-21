@@ -29,7 +29,7 @@ public class FlowingArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:flowingarmorboots")
 	public static final Item boots = null;
 	public FlowingArmorItem(AetheriaElements instance) {
-		super(instance, 425);
+		super(instance, 71);
 	}
 
 	@Override
@@ -61,7 +61,7 @@ public class FlowingArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0.1f;
+				return 2f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

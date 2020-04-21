@@ -15,7 +15,7 @@ public class FeySteelItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:feysteel")
 	public static final Item block = null;
 	public FeySteelItem(AetheriaElements instance) {
-		super(instance, 362);
+		super(instance, 148);
 	}
 
 	@Override

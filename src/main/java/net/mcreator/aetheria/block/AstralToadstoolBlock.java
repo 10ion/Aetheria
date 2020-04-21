@@ -42,7 +42,7 @@ public class AstralToadstoolBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:astraltoadstool")
 	public static final Block block = null;
 	public AstralToadstoolBlock(AetheriaElements instance) {
-		super(instance, 294);
+		super(instance, 107);
 	}
 
 	@Override

@@ -29,22 +29,22 @@ public class BismuthBronzeArmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:bismuthbronzearmorarmorboots")
 	public static final Item boots = null;
 	public BismuthBronzeArmorArmorItem(AetheriaElements instance) {
-		super(instance, 173);
+		super(instance, 54);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 14;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 4, 2}[slot.getIndex()];
+				return new int[]{3, 6, 8, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 9;
+				return 6;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -52,7 +52,7 @@ public class BismuthBronzeArmorArmorItem extends AetheriaElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(BismuthBronzeItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

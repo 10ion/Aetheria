@@ -3,9 +3,9 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "obsidian_head",
+    "textureHelmet": "obsidian_helmet",
     "enableBody": true,
-    "textureBody": "obsidian_body",
+    "textureBody": "obsidian_chestplate",
     "enableLeggings": true,
     "textureLeggings": "obsidian_leggings",
     "enableBoots": true,

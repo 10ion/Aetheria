@@ -17,7 +17,7 @@ public class EndersteelToolsPickaxeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:endersteeltoolspickaxe")
 	public static final Item block = null;
 	public EndersteelToolsPickaxeItem(AetheriaElements instance) {
-		super(instance, 80);
+		super(instance, 121);
 	}
 
 	@Override

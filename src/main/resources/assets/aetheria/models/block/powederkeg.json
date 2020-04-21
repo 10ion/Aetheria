@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/powderkegbottom",
+    "up": "aetheria:blocks/powderkegtops",
+    "north": "aetheria:blocks/powderkegside",
+    "east": "aetheria:blocks/powderkegside",
+    "south": "aetheria:blocks/powderkegside",
+    "west": "aetheria:blocks/powderkegside",
+    "particle": "aetheria:blocks/powderkegbottom"
+  }
+}

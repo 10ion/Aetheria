@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class FastCommandExecutedProcedure extends AetheriaElements.ModElement {
 	public FastCommandExecutedProcedure(AetheriaElements instance) {
-		super(instance, 68);
+		super(instance, 170);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
