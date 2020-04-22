@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "obsidian",
+    "armorTextureFile": "obsidian_",
     "helmetName": "Obsidian Helmet",
     "bodyName": "Obsidian Chestplate",
     "leggingsName": "Obsidian Leggings",
