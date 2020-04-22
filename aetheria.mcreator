@@ -3011,7 +3011,13 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "MithrilArmorHelmetRecipe",
@@ -3129,7 +3135,13 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "OricalArmorHelmetRecipe",
@@ -3633,6 +3645,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "AetheriaArmor",
+      "type": "tab",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3661,8 +3681,8 @@
       "item.aetheria.darkfelsteelarmorbody": "Black Felsteel Chestplate",
       "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
       "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
-      "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
+      "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.iridiumarmorbody": "Iridium Chestplate",
       "item.aetheria.steelarmorarmorhelmet": "Steel Helmet",
       "block.aetheria.voidstone": "Void Stone",
@@ -3671,31 +3691,31 @@
       "item.minecraft.splash_potion.effect.omnessence1": "Splash Omnessence1",
       "item.aetheria.pewterarmorarmorbody": "Pewter Chestplate",
       "item.aetheria.titaniumarmorlegs": "Titanium Leggings",
-      "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
       "item.aetheria.neko1": "Neko1 Spawn Egg",
+      "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
       "item.aetheria.bronzearmorarmorlegs": "Bronze Leggings",
       "item.aetheria.bismuth": "Bismuth",
       "item.aetheria.emeraldarmorbody": "Emerald Chestplate",
-      "item.aetheria.moonberry": "Moonberry",
-      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
       "item.aetheria.magnegoldarmorarmorhelmet": "Magnegold Helmet",
+      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
+      "item.aetheria.moonberry": "Moonberry",
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
       "block.aetheria.lightningrod": "Lightningrod",
       "item.aetheria.copperarmorarmorboots": "Copper Boots",
       "block.aetheria.macowaniteblock": "Macowaniteblock",
-      "block.aetheria.infestedvoidstone": "Infested Voidstone",
       "item.aetheria.endersteeelarmorbody": "Endersteeel Chestplate",
+      "block.aetheria.infestedvoidstone": "Infested Voidstone",
       "item.aetheria.pizza": "Pizza",
       "item.aetheria.redsteelshovel": "Redsteel Shovel",
       "block.aetheria.voidmycelium": "Void Mycelium",
       "item.minecraft.tipped_arrow.effect.omnessence1": "Arrow of Omnessence1",
-      "item.aetheria.oricalarmorbody": "Orical Chestplate",
       "block.aetheria.bluecrocoite": "Blue Crocoite Cluster",
-      "block.aetheria.macowanite": "Macowanite",
+      "item.aetheria.oricalarmorbody": "Orical Chestplate",
       "item.aetheria.magnegoldarmorarmorboots": "Magnegold Boots",
-      "item.aetheria.moonsilveringot": "Moonsilver Ingot",
+      "block.aetheria.macowanite": "Macowanite",
       "item.aetheria.blackarmorlegs": "Black Bronze Leggings",
+      "item.aetheria.moonsilveringot": "Moonsilver Ingot",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
       "item.aetheria.fireberry": "Fireberry",
       "item.aetheria.leadarmorarmorbody": "Lead Chestplate",
@@ -3860,6 +3880,7 @@
       "item.aetheria.pewterarmorarmorboots": "Pewter Boots",
       "item.aetheria.gemwroughtarmorbody": "Gemwrought Mail Chestplate",
       "block.aetheria.fireshroom": "Fire Fungus",
+      "itemGroup.tabaetheriaarmor": "Aetheria Armor",
       "item.aetheria.lead": "Lead",
       "block.aetheria.leadore": "Lead Ore",
       "item.aetheria.rosearmorbody": "Rose Gold Chestplate",
@@ -3984,5 +4005,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000213719
+  "mcreatorVersion": 202000214217
 }

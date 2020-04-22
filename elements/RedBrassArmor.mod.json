@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "redbrass_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "redbrass",
     "helmetName": "Red Brass Helmet",

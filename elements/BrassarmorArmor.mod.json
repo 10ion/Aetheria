@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "brassarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "brassarmor",
     "helmetName": "Brass Helmet",

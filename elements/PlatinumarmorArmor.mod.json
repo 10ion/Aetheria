@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "platinumarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "platinumarmor",
     "helmetName": "Platinum Helmet",

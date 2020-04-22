@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "nickel_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "nickel",
     "helmetName": "Nickel Helmet",

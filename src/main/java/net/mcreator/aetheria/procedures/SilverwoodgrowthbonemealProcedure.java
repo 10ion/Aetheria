@@ -50,21 +50,10 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModEleme
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if ((((new Object() {
-			public ItemStack get() {
-				ItemStack retval = (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).copy();
-				if (1 > 0)
-					retval.setCount((int) 1);
-				return retval;
-			}
-		}.get()).getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem()) || ((new Object() {
-			public ItemStack get() {
-				ItemStack retval = (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)).copy();
-				if (1 > 0)
-					retval.setCount((int) 1);
-				return retval;
-			}
-		}.get()).getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem()))) {
+		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())
+				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
+						.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem()))) {
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BONE_MEAL, (int) (1)).getItem() == p.getItem(),
 						(int) 1);
