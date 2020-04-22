@@ -27,7 +27,7 @@
     "resistance": 0.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
