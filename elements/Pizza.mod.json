@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Pizza",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:AetheriaFoodItems"
     },
     "stackSize": 64,
     "enchantability": 0,

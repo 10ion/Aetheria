@@ -6,12 +6,12 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.aetheria.procedures.StormberryrollFoodEatenProcedure;
+import net.mcreator.aetheria.itemgroup.AetheriaFoodItemsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -28,7 +28,7 @@ public class MoralmedlyItem extends AetheriaElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1)
+			super(new Item.Properties().group(AetheriaFoodItemsItemGroup.tab).maxStackSize(1)
 					.food((new Food.Builder()).hunger(20).saturation(0.3f).setAlwaysEdible().build()));
 			setRegistryName("moralmedly");
 		}
