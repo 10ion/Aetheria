@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Redsteel Pickaxe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AetheriaTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,
