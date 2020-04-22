@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Coldiron",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:AetheriaMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,
