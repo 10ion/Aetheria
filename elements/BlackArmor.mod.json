@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "black_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "black",
     "helmetName": "Black Bronze Helmet",

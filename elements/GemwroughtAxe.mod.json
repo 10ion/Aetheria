@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Gemwrought Axe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AetheriaTools"
     },
     "toolType": "Axe",
     "harvestLevel": 3,

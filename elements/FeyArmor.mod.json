@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "fey_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "fey",
     "helmetName": "Feysteel Helmet",

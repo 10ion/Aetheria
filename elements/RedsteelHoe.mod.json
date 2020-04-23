@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Redsteel Hoe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AetheriaTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 4,

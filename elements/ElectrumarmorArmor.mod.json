@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "electrumarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "electrumarmor",
     "helmetName": "Electrum Helmet",

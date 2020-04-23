@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "moonsilver_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "moonsilver",
     "helmetName": "Moonsilver Helmet",

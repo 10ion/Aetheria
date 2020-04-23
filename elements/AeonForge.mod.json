@@ -26,7 +26,7 @@
     "resistance": 13.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:AetheriaCrafting"
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,

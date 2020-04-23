@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Stormberry Muffin",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:AetheriaFoodItems"
     },
     "stackSize": 64,
     "nutritionalValue": 4,

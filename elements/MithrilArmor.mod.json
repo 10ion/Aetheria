@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "mithril_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "mithril",
     "helmetName": "Mithril Helmet",

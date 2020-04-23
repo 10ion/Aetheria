@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "titanium_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "titanium",
     "helmetName": "Titanium Helmet",

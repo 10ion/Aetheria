@@ -3633,6 +3633,70 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "AetheriaTools",
+      "type": "tab",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaCrafting",
+      "type": "tab",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaMaterials",
+      "type": "tab",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaMisc",
+      "type": "tab",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaArmor",
+      "type": "tab",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaBlocks",
+      "type": "tab",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaFoodItems",
+      "type": "tab",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AetheriaWeapons",
+      "type": "tab",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3984,5 +4048,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000214217
+  "mcreatorVersion": 202000213719
 }

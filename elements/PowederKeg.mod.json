@@ -26,7 +26,7 @@
     "resistance": 2.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AetheriaMisc"
     },
     "destroyTool": "axe",
     "affectedBySilkTouch": true,

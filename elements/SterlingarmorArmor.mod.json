@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "sterlingarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "sterlingarmor",
     "helmetName": "Sterling Silver Helmet",

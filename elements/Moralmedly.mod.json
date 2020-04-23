@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Moral Medly",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:AetheriaFoodItems"
     },
     "stackSize": 1,
     "nutritionalValue": 20,

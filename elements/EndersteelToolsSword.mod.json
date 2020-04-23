@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Endersteel Sword",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 0,

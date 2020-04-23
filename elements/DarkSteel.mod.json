@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Dark Steel",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AetheriaMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,

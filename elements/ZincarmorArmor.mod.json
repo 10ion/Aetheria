@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "zincarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "zincarmor",
     "helmetName": "Zinc Helmet",

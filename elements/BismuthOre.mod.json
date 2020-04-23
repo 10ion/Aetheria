@@ -26,7 +26,7 @@
     "resistance": 14.5,
     "hasGravity": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
@@ -70,6 +70,7 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

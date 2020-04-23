@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Titanium nugget",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:AetheriaMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,
