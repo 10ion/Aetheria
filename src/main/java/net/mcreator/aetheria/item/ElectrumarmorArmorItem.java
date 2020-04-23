@@ -36,7 +36,7 @@ public class ElectrumarmorArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 13;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 11;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {

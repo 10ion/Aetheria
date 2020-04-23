@@ -36,7 +36,7 @@ public class RedsteelarmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 26;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {

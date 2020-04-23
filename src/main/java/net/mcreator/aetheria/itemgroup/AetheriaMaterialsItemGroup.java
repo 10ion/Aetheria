@@ -1,9 +1,17 @@
 
 package net.mcreator.aetheria.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.aetheria.item.RedsteelingotItem;
+import net.mcreator.aetheria.AetheriaElements;
+
 @AetheriaElements.ModElement.Tag
 public class AetheriaMaterialsItemGroup extends AetheriaElements.ModElement {
-
 	public AetheriaMaterialsItemGroup(AetheriaElements instance) {
 		super(instance, 399);
 	}
@@ -23,7 +31,5 @@ public class AetheriaMaterialsItemGroup extends AetheriaElements.ModElement {
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }

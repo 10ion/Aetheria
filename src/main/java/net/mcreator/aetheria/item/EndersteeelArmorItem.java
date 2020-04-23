@@ -36,7 +36,7 @@ public class EndersteeelArmorItem extends AetheriaElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 60;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {

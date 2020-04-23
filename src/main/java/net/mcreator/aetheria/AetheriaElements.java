@@ -48,9 +48,9 @@ public class AetheriaElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public AetheriaElements() {
-		sounds.put(new ResourceLocation("aetheria", "keekuu"), new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "keekuu")));
 		sounds.put(new ResourceLocation("aetheria", "music.rickroll"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "music.rickroll")));
+		sounds.put(new ResourceLocation("aetheria", "keekuu"), new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "keekuu")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("aetheria").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
