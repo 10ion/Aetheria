@@ -1,19 +1,11 @@
 
 package net.mcreator.aetheria.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.aetheria.item.ObsidianArmorItem;
-import net.mcreator.aetheria.AetheriaElements;
-
 @AetheriaElements.ModElement.Tag
 public class AetheriaArmorItemGroup extends AetheriaElements.ModElement {
+
 	public AetheriaArmorItemGroup(AetheriaElements instance) {
-		super(instance, 397);
+		super(instance, 400);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class AetheriaArmorItemGroup extends AetheriaElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }

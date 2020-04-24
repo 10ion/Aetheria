@@ -1,53 +1,23 @@
 
 package net.mcreator.aetheria.gui;
 
-import org.lwjgl.opengl.GL11;
-
-import net.minecraftforge.fml.network.NetworkEvent;
-import net.minecraftforge.fml.network.IContainerFactory;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.container.Slot;
-import net.minecraft.inventory.container.ContainerType;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.inventory.Inventory;
-import net.minecraft.inventory.IInventory;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.screen.inventory.ContainerScreen;
-import net.minecraft.client.gui.ScreenManager;
-import net.minecraft.client.Minecraft;
-
-import net.mcreator.aetheria.AetheriaElements;
-import net.mcreator.aetheria.Aetheria;
-
-import java.util.function.Supplier;
-import java.util.Map;
-import java.util.HashMap;
-
 @AetheriaElements.ModElement.Tag
 public class AeonForgeguiGui extends AetheriaElements.ModElement {
+
 	public static HashMap guistate = new HashMap();
+
 	private static ContainerType<GuiContainerMod> containerType = null;
+
 	public AeonForgeguiGui(AetheriaElements instance) {
 		super(instance, 394);
+
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
 				GUISlotChangedMessage::handler);
+
 		containerType = new ContainerType<>(new GuiContainerModFactory());
+
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -60,23 +30,33 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
 		event.getRegistry().register(containerType.setRegistryName("aeonforgegui"));
 	}
+
 	public static class GuiContainerModFactory implements IContainerFactory {
+
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
 			return new GuiContainerMod(id, inv, extraData);
 		}
+
 	}
 
 	public static class GuiContainerMod extends Container implements Supplier<Map<Integer, Slot>> {
+
 		private World world;
 		private PlayerEntity entity;
 		private int x, y, z;
+
 		private IInventory internal;
+
 		private Map<Integer, Slot> customSlots = new HashMap<>();
+
 		public GuiContainerMod(int id, PlayerInventory inv, PacketBuffer extraData) {
 			super(containerType, id);
+
 			this.entity = inv.player;
 			this.world = inv.player.world;
+
 			this.internal = new Inventory(26);
+
 			if (extraData != null) {
 				BlockPos pos = extraData.readBlockPos();
 				this.x = pos.getX();
@@ -86,68 +66,99 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 				if (ent instanceof IInventory)
 					this.internal = (IInventory) ent;
 			}
+
 			internal.openInventory(inv.player);
+
 			this.customSlots.put(0, this.addSlot(new Slot(internal, 0, 134, 46) {
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(1, this.addSlot(new Slot(internal, 1, 26, 10) {
+
 			}));
 			this.customSlots.put(2, this.addSlot(new Slot(internal, 2, 44, 10) {
+
 			}));
 			this.customSlots.put(3, this.addSlot(new Slot(internal, 3, 62, 10) {
+
 			}));
 			this.customSlots.put(4, this.addSlot(new Slot(internal, 4, 80, 10) {
+
 			}));
 			this.customSlots.put(5, this.addSlot(new Slot(internal, 5, 98, 10) {
+
 			}));
 			this.customSlots.put(6, this.addSlot(new Slot(internal, 6, 26, 28) {
+
 			}));
 			this.customSlots.put(7, this.addSlot(new Slot(internal, 7, 44, 28) {
+
 			}));
 			this.customSlots.put(8, this.addSlot(new Slot(internal, 8, 62, 28) {
+
 			}));
 			this.customSlots.put(9, this.addSlot(new Slot(internal, 9, 80, 28) {
+
 			}));
 			this.customSlots.put(10, this.addSlot(new Slot(internal, 10, 98, 28) {
+
 			}));
 			this.customSlots.put(11, this.addSlot(new Slot(internal, 11, 26, 46) {
+
 			}));
 			this.customSlots.put(12, this.addSlot(new Slot(internal, 12, 44, 46) {
+
 			}));
 			this.customSlots.put(13, this.addSlot(new Slot(internal, 13, 62, 46) {
+
 			}));
 			this.customSlots.put(14, this.addSlot(new Slot(internal, 14, 80, 46) {
+
 			}));
 			this.customSlots.put(15, this.addSlot(new Slot(internal, 15, 98, 46) {
+
 			}));
 			this.customSlots.put(16, this.addSlot(new Slot(internal, 16, 26, 64) {
+
 			}));
 			this.customSlots.put(17, this.addSlot(new Slot(internal, 17, 44, 64) {
+
 			}));
 			this.customSlots.put(18, this.addSlot(new Slot(internal, 18, 62, 64) {
+
 			}));
 			this.customSlots.put(19, this.addSlot(new Slot(internal, 19, 80, 64) {
+
 			}));
 			this.customSlots.put(20, this.addSlot(new Slot(internal, 20, 98, 64) {
+
 			}));
 			this.customSlots.put(21, this.addSlot(new Slot(internal, 21, 26, 82) {
+
 			}));
 			this.customSlots.put(22, this.addSlot(new Slot(internal, 22, 44, 82) {
+
 			}));
 			this.customSlots.put(23, this.addSlot(new Slot(internal, 23, 62, 82) {
+
 			}));
 			this.customSlots.put(24, this.addSlot(new Slot(internal, 24, 80, 82) {
+
 			}));
 			this.customSlots.put(25, this.addSlot(new Slot(internal, 25, 98, 82) {
+
 			}));
+
 			int si;
 			int sj;
+
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
 					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 1 + 8 + sj * 18, 25 + 84 + si * 18));
+
 			for (si = 0; si < 9; ++si)
 				this.addSlot(new Slot(inv, si, 1 + 8 + si * 18, 25 + 142));
 		}
@@ -165,9 +176,11 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 		public ItemStack transferStackInSlot(PlayerEntity playerIn, int index) {
 			ItemStack itemstack = ItemStack.EMPTY;
 			Slot slot = (Slot) this.inventorySlots.get(index);
+
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
+
 				if (index < 26) {
 					if (!this.mergeItemStack(itemstack1, 26, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
@@ -185,99 +198,23 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 					}
 					return ItemStack.EMPTY;
 				}
+
 				if (itemstack1.getCount() == 0) {
 					slot.putStack(ItemStack.EMPTY);
 				} else {
 					slot.onSlotChanged();
 				}
+
 				if (itemstack1.getCount() == itemstack.getCount()) {
 					return ItemStack.EMPTY;
 				}
+
 				slot.onTake(playerIn, itemstack1);
 			}
 			return itemstack;
 		}
 
-		@Override /**
-					 * Merges provided ItemStack with the first avaliable one in the
-					 * container/player inventor between minIndex (included) and maxIndex
-					 * (excluded). Args : stack, minIndex, maxIndex, negativDirection. /!\ the
-					 * Container implementation do not check if the item is valid for the slot
-					 */
-		protected boolean mergeItemStack(ItemStack stack, int startIndex, int endIndex, boolean reverseDirection) {
-			boolean flag = false;
-			int i = startIndex;
-			if (reverseDirection) {
-				i = endIndex - 1;
-			}
-			if (stack.isStackable()) {
-				while (!stack.isEmpty()) {
-					if (reverseDirection) {
-						if (i < startIndex) {
-							break;
-						}
-					} else if (i >= endIndex) {
-						break;
-					}
-					Slot slot = this.inventorySlots.get(i);
-					ItemStack itemstack = slot.getStack();
-					if (slot.isItemValid(itemstack) && !itemstack.isEmpty() && areItemsAndTagsEqual(stack, itemstack)) {
-						int j = itemstack.getCount() + stack.getCount();
-						int maxSize = Math.min(slot.getSlotStackLimit(), stack.getMaxStackSize());
-						if (j <= maxSize) {
-							stack.setCount(0);
-							itemstack.setCount(j);
-							slot.putStack(itemstack);
-							flag = true;
-						} else if (itemstack.getCount() < maxSize) {
-							stack.shrink(maxSize - itemstack.getCount());
-							itemstack.setCount(maxSize);
-							slot.putStack(itemstack);
-							flag = true;
-						}
-					}
-					if (reverseDirection) {
-						--i;
-					} else {
-						++i;
-					}
-				}
-			}
-			if (!stack.isEmpty()) {
-				if (reverseDirection) {
-					i = endIndex - 1;
-				} else {
-					i = startIndex;
-				}
-				while (true) {
-					if (reverseDirection) {
-						if (i < startIndex) {
-							break;
-						}
-					} else if (i >= endIndex) {
-						break;
-					}
-					Slot slot1 = this.inventorySlots.get(i);
-					ItemStack itemstack1 = slot1.getStack();
-					if (itemstack1.isEmpty() && slot1.isItemValid(stack)) {
-						if (stack.getCount() > slot1.getSlotStackLimit()) {
-							slot1.putStack(stack.split(slot1.getSlotStackLimit()));
-						} else {
-							slot1.putStack(stack.split(stack.getCount()));
-						}
-						slot1.onSlotChanged();
-						flag = true;
-						break;
-					}
-					if (reverseDirection) {
-						--i;
-					} else {
-						++i;
-					}
-				}
-			}
-			return flag;
-		}
+		@Override /* failed to load code for net.minecraft.inventory.container.Container */
 
 		@Override
 		public void onContainerClosed(PlayerEntity playerIn) {
@@ -294,13 +231,16 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 				handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 			}
 		}
+
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static class GuiWindow extends ContainerScreen<GuiContainerMod> {
+
 		private World world;
 		private int x, y, z;
 		private PlayerEntity entity;
+
 		public GuiWindow(GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 			super(container, inventory, text);
 			this.world = container.world;
@@ -311,21 +251,26 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 			this.xSize = 177;
 			this.ySize = 216;
 		}
+
 		private static final ResourceLocation texture = new ResourceLocation("aetheria:textures/aeonforgegui.png");
+
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
 			super.render(mouseX, mouseY, partialTicks);
 			this.renderHoveredToolTip(mouseX, mouseY);
+
 		}
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
 			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+
 			Minecraft.getInstance().getTextureManager().bindTexture(texture);
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
 			this.blit(k, l, 0, 0, this.xSize, this.ySize);
+
 		}
 
 		@Override
@@ -346,12 +291,17 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 		@Override
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
+
 			minecraft.keyboardListener.enableRepeatEvents(true);
+
 		}
+
 	}
 
 	public static class ButtonPressedMessage {
+
 		int buttonID, x, y, z;
+
 		public ButtonPressedMessage(PacketBuffer buffer) {
 			this.buttonID = buffer.readInt();
 			this.x = buffer.readInt();
@@ -381,14 +331,18 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 				int x = message.x;
 				int y = message.y;
 				int z = message.z;
+
 				handleButtonAction(entity, buttonID, x, y, z);
 			});
 			context.setPacketHandled(true);
 		}
+
 	}
 
 	public static class GUISlotChangedMessage {
+
 		int slotID, x, y, z, changeType, meta;
+
 		public GUISlotChangedMessage(int slotID, int x, int y, int z, int changeType, int meta) {
 			this.slotID = slotID;
 			this.x = x;
@@ -426,22 +380,30 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 				int x = message.x;
 				int y = message.y;
 				int z = message.z;
+
 				handleSlotAction(entity, slotID, changeType, meta, x, y, z);
 			});
 			context.setPacketHandled(true);
 		}
+
 	}
+
 	private static void handleButtonAction(PlayerEntity entity, int buttonID, int x, int y, int z) {
 		World world = entity.world;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
 		World world = entity.world;
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+
 	}
+
 }

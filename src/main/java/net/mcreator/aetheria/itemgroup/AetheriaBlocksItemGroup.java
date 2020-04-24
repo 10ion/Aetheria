@@ -1,19 +1,11 @@
 
 package net.mcreator.aetheria.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.aetheria.block.BlueleafBlock;
-import net.mcreator.aetheria.AetheriaElements;
-
 @AetheriaElements.ModElement.Tag
 public class AetheriaBlocksItemGroup extends AetheriaElements.ModElement {
+
 	public AetheriaBlocksItemGroup(AetheriaElements instance) {
-		super(instance, 403);
+		super(instance, 401);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class AetheriaBlocksItemGroup extends AetheriaElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }

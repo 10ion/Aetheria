@@ -1,19 +1,11 @@
 
 package net.mcreator.aetheria.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.aetheria.item.PizzasliceItem;
-import net.mcreator.aetheria.AetheriaElements;
-
 @AetheriaElements.ModElement.Tag
 public class AetheriaFoodItemsItemGroup extends AetheriaElements.ModElement {
+
 	public AetheriaFoodItemsItemGroup(AetheriaElements instance) {
-		super(instance, 398);
+		super(instance, 402);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class AetheriaFoodItemsItemGroup extends AetheriaElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }
