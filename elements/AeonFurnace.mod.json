@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "titaniumore",
-    "textureTop": "titaniumore",
-    "textureLeft": "titaniumore",
-    "textureFront": "titaniumore",
-    "textureRight": "titaniumore",
-    "textureBack": "titaniumore",
+    "texture": "aeon_furnace_top",
+    "textureTop": "aeon_furnace_top",
+    "textureLeft": "aeon_furnace_side",
+    "textureFront": "aeon_furnace_front",
+    "textureRight": "aeon_furnace_side",
+    "textureBack": "aeon_furnace_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,13 +20,13 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Titanium Ore",
+    "name": "Aeon Furnace",
     "specialInfo": [],
-    "hardness": 10.0,
-    "resistance": 25.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaBlocks"
+      "value": "CUSTOM:AetheriaCrafting"
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
@@ -60,7 +60,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -77,18 +77,12 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 10
+    "maxGenerateHeight": 64
   }
 }

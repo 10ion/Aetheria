@@ -1,0 +1,11 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "aetheria:gemwroughtore"
+  },
+  "result": {
+    "item": "aetheria:gemwroughtgem"
+  }
+}
