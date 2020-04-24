@@ -15,7 +15,7 @@ public class NIckelIngotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:nickelingot")
 	public static final Item block = null;
 	public NIckelIngotItem(AetheriaElements instance) {
-		super(instance, 156);
+		super(instance, 40);
 	}
 
 	@Override

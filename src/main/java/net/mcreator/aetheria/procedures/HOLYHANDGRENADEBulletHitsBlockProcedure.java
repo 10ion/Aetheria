@@ -19,7 +19,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class HOLYHANDGRENADEBulletHitsBlockProcedure extends AetheriaElements.ModElement {
 	public HOLYHANDGRENADEBulletHitsBlockProcedure(AetheriaElements instance) {
-		super(instance, 238);
+		super(instance, 240);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

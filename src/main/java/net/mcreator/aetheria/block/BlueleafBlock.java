@@ -28,7 +28,7 @@ public class BlueleafBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:blueleaf")
 	public static final Block block = null;
 	public BlueleafBlock(AetheriaElements instance) {
-		super(instance, 100);
+		super(instance, 117);
 	}
 
 	@Override

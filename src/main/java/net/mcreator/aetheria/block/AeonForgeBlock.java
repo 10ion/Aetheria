@@ -67,7 +67,7 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:aeonforge")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public AeonForgeBlock(AetheriaElements instance) {
-		super(instance, 394);
+		super(instance, 160);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

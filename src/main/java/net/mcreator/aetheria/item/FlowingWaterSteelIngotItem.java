@@ -15,7 +15,7 @@ public class FlowingWaterSteelIngotItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:flowingwatersteelingot")
 	public static final Item block = null;
 	public FlowingWaterSteelIngotItem(AetheriaElements instance) {
-		super(instance, 158);
+		super(instance, 42);
 	}
 
 	@Override

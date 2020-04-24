@@ -70,7 +70,7 @@ public class TheVoidDimension extends AetheriaElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public TheVoidDimension(AetheriaElements instance) {
-		super(instance, 133);
+		super(instance, 150);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

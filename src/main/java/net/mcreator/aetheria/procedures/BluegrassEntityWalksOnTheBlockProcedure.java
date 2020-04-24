@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class BluegrassEntityWalksOnTheBlockProcedure extends AetheriaElements.ModElement {
 	public BluegrassEntityWalksOnTheBlockProcedure(AetheriaElements instance) {
-		super(instance, 160);
+		super(instance, 162);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

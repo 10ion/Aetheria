@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Holy Hand Grenade",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaWeapons"
     },
     "stackSize": 1,
     "ammoItem": {

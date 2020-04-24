@@ -41,7 +41,7 @@ public class SilverwoodSaplingBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:silverwoodsapling")
 	public static final Block block = null;
 	public SilverwoodSaplingBlock(AetheriaElements instance) {
-		super(instance, 88);
+		super(instance, 106);
 	}
 
 	@Override

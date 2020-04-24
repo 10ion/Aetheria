@@ -26,7 +26,7 @@ public class Omnessence1Potion extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:omnessence1")
 	public static final Effect potion = null;
 	public Omnessence1Potion(AetheriaElements instance) {
-		super(instance, 209);
+		super(instance, 211);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

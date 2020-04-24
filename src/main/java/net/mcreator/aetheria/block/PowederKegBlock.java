@@ -27,7 +27,7 @@ public class PowederKegBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:powederkeg")
 	public static final Block block = null;
 	public PowederKegBlock(AetheriaElements instance) {
-		super(instance, 396);
+		super(instance, 154);
 	}
 
 	@Override

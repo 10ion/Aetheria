@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class HOLYHANDGRENADERangedItemUsedProcedure extends AetheriaElements.ModElement {
 	public HOLYHANDGRENADERangedItemUsedProcedure(AetheriaElements instance) {
-		super(instance, 239);
+		super(instance, 241);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

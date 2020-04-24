@@ -48,7 +48,7 @@ public class AetherbiomeBiome extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:aetherbiome")
 	public static final CustomBiome biome = null;
 	public AetherbiomeBiome(AetheriaElements instance) {
-		super(instance, 207);
+		super(instance, 209);
 	}
 
 	@Override

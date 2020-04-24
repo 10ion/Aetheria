@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class TheVoidPlayerEntersDimensionProcedure extends AetheriaElements.ModElement {
 	public TheVoidPlayerEntersDimensionProcedure(AetheriaElements instance) {
-		super(instance, 211);
+		super(instance, 213);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
