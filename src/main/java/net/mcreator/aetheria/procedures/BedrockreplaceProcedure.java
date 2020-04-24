@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class BedrockreplaceProcedure extends AetheriaElements.ModElement {
 	public BedrockreplaceProcedure(AetheriaElements instance) {
-		super(instance, 213);
+		super(instance, 215);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

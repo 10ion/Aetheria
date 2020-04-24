@@ -35,7 +35,7 @@ import net.mcreator.aetheria.AetheriaElements;
 public class CakeSlimeEntity extends AetheriaElements.ModElement {
 	public static EntityType entity = null;
 	public CakeSlimeEntity(AetheriaElements instance) {
-		super(instance, 136);
+		super(instance, 155);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

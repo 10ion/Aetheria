@@ -16,7 +16,7 @@ public class GemwroughtSwordItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtsword")
 	public static final Item block = null;
 	public GemwroughtSwordItem(AetheriaElements instance) {
-		super(instance, 49);
+		super(instance, 86);
 	}
 
 	@Override

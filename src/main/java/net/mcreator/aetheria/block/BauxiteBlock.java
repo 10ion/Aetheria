@@ -38,7 +38,7 @@ public class BauxiteBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:bauxite")
 	public static final Block block = null;
 	public BauxiteBlock(AetheriaElements instance) {
-		super(instance, 80);
+		super(instance, 98);
 	}
 
 	@Override

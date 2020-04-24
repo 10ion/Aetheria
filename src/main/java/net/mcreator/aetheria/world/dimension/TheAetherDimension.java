@@ -105,7 +105,7 @@ public class TheAetherDimension extends AetheriaElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public TheAetherDimension(AetheriaElements instance) {
-		super(instance, 134);
+		super(instance, 151);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

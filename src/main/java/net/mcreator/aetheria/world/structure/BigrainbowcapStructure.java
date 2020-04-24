@@ -34,7 +34,7 @@ import java.util.Random;
 @AetheriaElements.ModElement.Tag
 public class BigrainbowcapStructure extends AetheriaElements.ModElement {
 	public BigrainbowcapStructure(AetheriaElements instance) {
-		super(instance, 315);
+		super(instance, 317);
 	}
 
 	@Override

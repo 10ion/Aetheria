@@ -43,7 +43,7 @@ public class BlueCrocoiteBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:bluecrocoite")
 	public static final Block block = null;
 	public BlueCrocoiteBlock(AetheriaElements instance) {
-		super(instance, 120);
+		super(instance, 137);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class MacowaniteblockBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:macowaniteblock")
 	public static final Block block = null;
 	public MacowaniteblockBlock(AetheriaElements instance) {
-		super(instance, 116);
+		super(instance, 126);
 	}
 
 	@Override

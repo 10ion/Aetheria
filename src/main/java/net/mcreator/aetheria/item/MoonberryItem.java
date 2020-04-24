@@ -16,7 +16,7 @@ public class MoonberryItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:moonberry")
 	public static final Item block = null;
 	public MoonberryItem(AetheriaElements instance) {
-		super(instance, 76);
+		super(instance, 94);
 	}
 
 	@Override

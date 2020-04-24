@@ -39,7 +39,7 @@ public class CobaltoreBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:cobaltore")
 	public static final Block block = null;
 	public CobaltoreBlock(AetheriaElements instance) {
-		super(instance, 93);
+		super(instance, 111);
 	}
 
 	@Override

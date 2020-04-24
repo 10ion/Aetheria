@@ -40,7 +40,7 @@ public class CopperOreBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:copperore")
 	public static final Block block = null;
 	public CopperOreBlock(AetheriaElements instance) {
-		super(instance, 92);
+		super(instance, 110);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class VoidCrystleBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:voidcrystle")
 	public static final Block block = null;
 	public VoidCrystleBlock(AetheriaElements instance) {
-		super(instance, 97);
+		super(instance, 114);
 	}
 
 	@Override

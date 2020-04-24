@@ -19,7 +19,7 @@ public class MoralmedlyItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:moralmedly")
 	public static final Item block = null;
 	public MoralmedlyItem(AetheriaElements instance) {
-		super(instance, 77);
+		super(instance, 95);
 	}
 
 	@Override

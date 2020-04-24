@@ -21,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @AetheriaElements.ModElement.Tag
 public class FastCommand extends AetheriaElements.ModElement {
 	public FastCommand(AetheriaElements instance) {
-		super(instance, 171);
+		super(instance, 173);
 	}
 
 	@Override

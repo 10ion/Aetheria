@@ -31,7 +31,7 @@ public class SilverwoodLeavesBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:silverwoodleaves")
 	public static final Block block = null;
 	public SilverwoodLeavesBlock(AetheriaElements instance) {
-		super(instance, 105);
+		super(instance, 121);
 	}
 
 	@Override

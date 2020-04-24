@@ -24,7 +24,7 @@ public class BluegrassBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:bluegrass")
 	public static final Block block = null;
 	public BluegrassBlock(AetheriaElements instance) {
-		super(instance, 85);
+		super(instance, 103);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class EndersteelToolsHoeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:endersteeltoolshoe")
 	public static final Item block = null;
 	public EndersteelToolsHoeItem(AetheriaElements instance) {
-		super(instance, 124);
+		super(instance, 141);
 	}
 
 	@Override

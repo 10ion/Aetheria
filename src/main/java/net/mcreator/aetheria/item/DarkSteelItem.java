@@ -15,7 +15,7 @@ public class DarkSteelItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:darksteel")
 	public static final Item block = null;
 	public DarkSteelItem(AetheriaElements instance) {
-		super(instance, 146);
+		super(instance, 31);
 	}
 
 	@Override
