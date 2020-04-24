@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "orical_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "orical",
     "helmetName": "Orical Helmet",
@@ -32,7 +32,7 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
+    "maxDamage": 500,
     "damageValueHelmet": 2,
     "damageValueBody": 5,
     "damageValueLeggings": 6,

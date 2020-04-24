@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "endersteeel_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "endersteeel",
     "helmetName": "Endersteeel Helmet",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 30,
-    "damageValueHelmet": 4,
-    "damageValueBody": 10,
+    "maxDamage": 60,
+    "damageValueHelmet": 5,
+    "damageValueBody": 13,
     "damageValueLeggings": 12,
-    "damageValueBoots": 4,
+    "damageValueBoots": 5,
     "enchantability": 18,
-    "toughness": 0.0,
+    "toughness": 4.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Endersteel"
+      }
+    ]
   }
 }

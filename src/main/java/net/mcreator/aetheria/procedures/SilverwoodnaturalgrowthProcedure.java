@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class SilverwoodnaturalgrowthProcedure extends AetheriaElements.ModElement {
 	public SilverwoodnaturalgrowthProcedure(AetheriaElements instance) {
-		super(instance, 206);
+		super(instance, 245);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "redbrass_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "redbrass",
-    "helmetName": "RedBrass Helmet",
-    "bodyName": "RedBrass Chestplate",
-    "leggingsName": "RedBrass Leggings",
-    "bootsName": "RedBrass Boots",
+    "helmetName": "Red Brass Helmet",
+    "bodyName": "Red Brass Chestplate",
+    "leggingsName": "Red Brass Leggings",
+    "bootsName": "Red Brass Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
+    "maxDamage": 21,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
     "enchantability": 9,
-    "toughness": 0.0,
+    "toughness": 0.30000000000000004,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:RedBrassIngot"
+      }
+    ]
   }
 }

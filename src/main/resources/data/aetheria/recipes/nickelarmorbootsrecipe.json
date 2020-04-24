@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:nickelingot"
+    },
+    "2": {
+      "item": "aetheria:nickelingot"
+    },
+    "3": {
+      "item": "aetheria:nickelingot"
+    },
+    "5": {
+      "item": "aetheria:nickelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:nickelarmorboots",
+    "count": 1
+  }
+}

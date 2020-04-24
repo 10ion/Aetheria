@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:iridiumingot"
+    },
+    "2": {
+      "item": "aetheria:iridiumingot"
+    },
+    "3": {
+      "item": "aetheria:iridiumingot"
+    },
+    "5": {
+      "item": "aetheria:iridiumingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:unknown_elementboots",
+    "count": 1
+  }
+}

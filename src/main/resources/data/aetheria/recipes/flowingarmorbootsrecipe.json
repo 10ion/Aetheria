@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:unknown_element"
+    },
+    "2": {
+      "item": "aetheria:unknown_element"
+    },
+    "3": {
+      "item": "aetheria:unknown_element"
+    },
+    "5": {
+      "item": "aetheria:unknown_element"
+    }
+  },
+  "result": {
+    "item": "aetheria:flowingarmorboots",
+    "count": 1
+  }
+}

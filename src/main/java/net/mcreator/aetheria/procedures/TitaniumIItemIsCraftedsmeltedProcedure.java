@@ -8,7 +8,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class TitaniumIItemIsCraftedsmeltedProcedure extends AetheriaElements.ModElement {
 	public TitaniumIItemIsCraftedsmeltedProcedure(AetheriaElements instance) {
-		super(instance, 26);
+		super(instance, 166);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "electrumarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "electrumarmor",
-    "helmetName": "Electrumarmor Helmet",
-    "bodyName": "Electrumarmor Chestplate",
-    "leggingsName": "Electrumarmor Leggings",
-    "bootsName": "Electrumarmor Boots",
+    "helmetName": "Electrum Helmet",
+    "bodyName": "Electrum Chestplate",
+    "leggingsName": "Electrum Leggings",
+    "bootsName": "Electrum Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 5,
-    "damageValueHelmet": 1,
-    "damageValueBody": 2,
-    "damageValueLeggings": 2,
-    "damageValueBoots": 1,
-    "enchantability": 3,
-    "toughness": 0.0,
+    "maxDamage": 11,
+    "damageValueHelmet": 2,
+    "damageValueBody": 3,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 22,
+    "toughness": 0.30000000000000004,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Electrum"
+      }
+    ]
   }
 }

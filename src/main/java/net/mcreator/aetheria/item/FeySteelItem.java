@@ -4,10 +4,10 @@ package net.mcreator.aetheria.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -15,7 +15,7 @@ public class FeySteelItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:feysteel")
 	public static final Item block = null;
 	public FeySteelItem(AetheriaElements instance) {
-		super(instance, 362);
+		super(instance, 33);
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class FeySteelItem extends AetheriaElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
 			setRegistryName("feysteel");
 		}
 

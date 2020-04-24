@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Dark Fel Steel Ingot",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AetheriaMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,

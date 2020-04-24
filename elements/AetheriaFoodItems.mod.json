@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Aetheria Food Items",
+    "icon": {
+      "value": "CUSTOM:Pizzaslice"
+    },
+    "showSearch": false
+  }
+}

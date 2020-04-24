@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class RedsteelShovelItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:redsteelshovel")
 	public static final Item block = null;
 	public RedsteelShovelItem(AetheriaElements instance) {
-		super(instance, 120);
+		super(instance, 148);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class RedsteelShovelItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("redsteelshovel"));
 	}
 }

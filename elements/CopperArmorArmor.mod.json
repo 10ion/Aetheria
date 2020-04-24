@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "copperarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "copperarmor",
-    "helmetName": "CopperArmor Helmet",
-    "bodyName": "CopperArmor Chestplate",
-    "leggingsName": "CopperArmor Leggings",
-    "bootsName": "CopperArmor Boots",
+    "helmetName": "Copper Helmet",
+    "bodyName": "Copper Chestplate",
+    "leggingsName": "Copper Leggings",
+    "bootsName": "Copper Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 6,
-    "damageValueHelmet": 1,
-    "damageValueBody": 2,
-    "damageValueLeggings": 2,
-    "damageValueBoots": 1,
-    "enchantability": 4,
-    "toughness": 0.0,
+    "maxDamage": 14,
+    "damageValueHelmet": 2,
+    "damageValueBody": 4,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 18,
+    "toughness": 0.30000000000000004,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Copper"
+      }
+    ]
   }
 }

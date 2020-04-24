@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "bismutharmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "bismutharmor",
-    "helmetName": "BismuthArmor Helmet",
-    "bodyName": "BismuthArmor Chestplate",
-    "leggingsName": "BismuthArmor Leggings",
-    "bootsName": "BismuthArmor Boots",
+    "helmetName": "Bismuth Helmet",
+    "bodyName": "Bismuth Chestplate",
+    "leggingsName": "Bismuth Leggings",
+    "bootsName": "Bismuth Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 10,
-    "damageValueHelmet": 1,
-    "damageValueBody": 3,
-    "damageValueLeggings": 4,
-    "damageValueBoots": 2,
+    "maxDamage": 23,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
     "enchantability": 9,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Bismuth"
+      }
+    ]
   }
 }

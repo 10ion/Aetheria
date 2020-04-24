@@ -33,7 +33,7 @@ import java.util.Random;
 @AetheriaElements.ModElement.Tag
 public class Silverwood2Structure extends AetheriaElements.ModElement {
 	public Silverwood2Structure(AetheriaElements instance) {
-		super(instance, 287);
+		super(instance, 307);
 	}
 
 	@Override

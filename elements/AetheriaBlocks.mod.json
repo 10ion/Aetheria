@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Aetheria Blocks",
+    "icon": {
+      "value": "CUSTOM:Blueleaf"
+    },
+    "showSearch": false
+  }
+}

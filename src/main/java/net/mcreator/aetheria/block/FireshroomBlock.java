@@ -42,7 +42,7 @@ public class FireshroomBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:fireshroom")
 	public static final Block block = null;
 	public FireshroomBlock(AetheriaElements instance) {
-		super(instance, 303);
+		super(instance, 135);
 	}
 
 	@Override

@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Crocoite Shard",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AetheriaMisc"
     },
     "stackSize": 64,
     "enchantability": 0,

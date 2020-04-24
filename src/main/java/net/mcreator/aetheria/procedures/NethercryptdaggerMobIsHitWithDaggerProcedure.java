@@ -10,7 +10,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class NethercryptdaggerMobIsHitWithDaggerProcedure extends AetheriaElements.ModElement {
 	public NethercryptdaggerMobIsHitWithDaggerProcedure(AetheriaElements instance) {
-		super(instance, 128);
+		super(instance, 202);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

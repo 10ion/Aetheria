@@ -4,11 +4,11 @@ package net.mcreator.aetheria.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class GemwroughtAxeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtaxe")
 	public static final Item block = null;
 	public GemwroughtAxeItem(AetheriaElements instance) {
-		super(instance, 97);
+		super(instance, 143);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class GemwroughtAxeItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -2f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("gemwroughtaxe"));
 	}
 }

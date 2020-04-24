@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Gemwrought Sword",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 3,

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IridiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IridiumIngot"
+      },
+      {
+        "value": "CUSTOM:IridiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IridiumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IridiumArmor.boots"
+    },
+    "name": "iridiumarmorbootsrecipe",
+    "namespace": "mod"
+  }
+}

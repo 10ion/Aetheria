@@ -16,7 +16,6 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -28,6 +27,7 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 import java.util.Random;
@@ -39,14 +39,14 @@ public class MysticallogBlock extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:mysticallog")
 	public static final Block block = null;
 	public MysticallogBlock(AetheriaElements instance) {
-		super(instance, 53);
+		super(instance, 118);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;

@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -17,7 +17,7 @@ public class EndersteelToolsPickaxeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:endersteeltoolspickaxe")
 	public static final Item block = null;
 	public EndersteelToolsPickaxeItem(AetheriaElements instance) {
-		super(instance, 80);
+		super(instance, 138);
 	}
 
 	@Override
@@ -46,7 +46,7 @@ public class EndersteelToolsPickaxeItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(EndersteelItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("endersteeltoolspickaxe"));
 	}
 }

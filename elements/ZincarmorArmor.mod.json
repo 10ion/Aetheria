@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "zincarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "zincarmor",
-    "helmetName": "Zincarmor Helmet",
-    "bodyName": "Zincarmor Chestplate",
-    "leggingsName": "Zincarmor Leggings",
-    "bootsName": "Zincarmor Boots",
+    "helmetName": "Zinc Helmet",
+    "bodyName": "Zinc Chestplate",
+    "leggingsName": "Zinc Leggings",
+    "bootsName": "Zinc Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 12,
-    "damageValueHelmet": 2,
+    "maxDamage": 16,
+    "damageValueHelmet": 3,
     "damageValueBody": 4,
-    "damageValueLeggings": 5,
+    "damageValueLeggings": 4,
     "damageValueBoots": 2,
-    "enchantability": 7,
+    "enchantability": 13,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Zinc"
+      }
+    ]
   }
 }

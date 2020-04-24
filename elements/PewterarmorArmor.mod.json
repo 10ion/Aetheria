@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "pewterarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "pewterarmor",
-    "helmetName": "Pewterarmor Helmet",
-    "bodyName": "Pewterarmor Chestplate",
-    "leggingsName": "Pewterarmor Leggings",
-    "bootsName": "Pewterarmor Boots",
+    "helmetName": "Pewter Helmet",
+    "bodyName": "Pewter Chestplate",
+    "leggingsName": "Pewter Leggings",
+    "bootsName": "Pewter Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -32,16 +32,20 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 11,
-    "damageValueHelmet": 1,
+    "maxDamage": 12,
+    "damageValueHelmet": 2,
     "damageValueBody": 4,
     "damageValueLeggings": 4,
     "damageValueBoots": 1,
-    "enchantability": 6,
-    "toughness": 0.0,
+    "enchantability": 19,
+    "toughness": 0.5,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Pewter"
+      }
+    ]
   }
 }

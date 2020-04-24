@@ -29,7 +29,7 @@ public class MilkbottlePotion extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:milkbottle")
 	public static final Potion potionType = null;
 	public MilkbottlePotion(AetheriaElements instance) {
-		super(instance, 129);
+		super(instance, 203);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

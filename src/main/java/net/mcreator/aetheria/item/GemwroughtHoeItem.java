@@ -4,11 +4,11 @@ package net.mcreator.aetheria.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -16,7 +16,7 @@ public class GemwroughtHoeItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughthoe")
 	public static final Item block = null;
 	public GemwroughtHoeItem(AetheriaElements instance) {
-		super(instance, 100);
+		super(instance, 145);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class GemwroughtHoeItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, -2f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -2f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("gemwroughthoe"));
 	}
 }

@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.aetheria.procedures.NethercryptdaggerMobIsHitWithDaggerProcedure;
+import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -20,7 +20,7 @@ public class NethercryptdaggerItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:nethercryptdagger")
 	public static final Item block = null;
 	public NethercryptdaggerItem(AetheriaElements instance) {
-		super(instance, 128);
+		super(instance, 88);
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class NethercryptdaggerItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity entity2) {
 				boolean retval = super.hitEntity(itemstack, entity, entity2);

@@ -16,7 +16,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class SilverwoodalsonaturalgrowthProcedure extends AetheriaElements.ModElement {
 	public SilverwoodalsonaturalgrowthProcedure(AetheriaElements instance) {
-		super(instance, 207);
+		super(instance, 246);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -45,7 +45,7 @@ public class SilverwoodalsonaturalgrowthProcedure extends AetheriaElements.ModEl
 			if ((Math.random() < 0.33)) {
 				if (!world.isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
+							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
 					if (template != null) {
 						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
 								.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));

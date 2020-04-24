@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/aeonbottom",
+    "up": "aetheria:blocks/aeontop",
+    "north": "aetheria:blocks/aeonfront",
+    "east": "aetheria:blocks/aeonside",
+    "south": "aetheria:blocks/aeonfront",
+    "west": "aetheria:blocks/aeonside",
+    "particle": "aetheria:blocks/aeonbottom"
+  }
+}

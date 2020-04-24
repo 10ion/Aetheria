@@ -4,10 +4,10 @@ package net.mcreator.aetheria.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
@@ -15,7 +15,7 @@ public class ElectrumItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:electrum")
 	public static final Item block = null;
 	public ElectrumItem(AetheriaElements instance) {
-		super(instance, 34);
+		super(instance, 5);
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class ElectrumItem extends AetheriaElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64));
+			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
 			setRegistryName("electrum");
 		}
 

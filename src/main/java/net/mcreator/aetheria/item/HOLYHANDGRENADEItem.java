@@ -19,7 +19,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
@@ -37,6 +36,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.aetheria.procedures.HOLYHANDGRENADERangedItemUsedProcedure;
 import net.mcreator.aetheria.procedures.HOLYHANDGRENADEBulletHitsBlockProcedure;
+import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 import com.google.common.collect.Multimap;
@@ -48,7 +48,7 @@ public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:entitybulletholyhandgrenade")
 	public static final EntityType arrow = null;
 	public HOLYHANDGRENADEItem(AetheriaElements instance) {
-		super(instance, 198);
+		super(instance, 89);
 	}
 
 	@Override
@@ -68,7 +68,7 @@ public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(1));
+			super(new Item.Properties().group(AetheriaWeaponsItemGroup.tab).maxDamage(1));
 			setRegistryName("holyhandgrenade");
 		}
 
