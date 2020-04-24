@@ -1,0 +1,11 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "ingredient": {
+    "item": "aetheria:copperore"
+  },
+  "result": {
+    "item": "aetheria:copper"
+  }
+}
