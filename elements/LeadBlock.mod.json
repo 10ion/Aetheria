@@ -2,33 +2,33 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "silverwoodsapling",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
+    "texture": "leadblock",
+    "textureTop": "leadblock",
+    "textureLeft": "leadblock",
+    "textureFront": "leadblock",
+    "textureRight": "leadblock",
+    "textureBack": "leadblock",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
-    "hasTransparency": true,
-    "transparencyType": "CUTOUT",
-    "mx": -0.30000000000000004,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
     "my": 0.0,
-    "mz": -0.30000000000000004,
-    "Mx": 0.30000000000000004,
+    "mz": 0.0,
+    "Mx": 1.0,
     "My": 1.0,
-    "Mz": 0.30000000000000004,
+    "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Silverwood Sapling",
+    "name": "Lead Block",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 1.0,
+    "hardness": 1.2,
+    "resistance": 12.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaBlocks"
+      "value": "CUSTOM:AetheriaTools"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
@@ -38,14 +38,14 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "PLANTS"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "FOLIAGE",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
@@ -53,10 +53,10 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "METAL"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -77,12 +77,6 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "onRightClicked": {
-      "name": "Silverwoodgrowthbonemeal"
-    },
-    "onRandomUpdateEvent": {
-      "name": "Silverwoodalsonaturalgrowth"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

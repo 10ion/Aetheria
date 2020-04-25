@@ -49,7 +49,7 @@ public class TitaniumoreBlock extends AetheriaElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 25f).lightValue(0).harvestLevel(3)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(10f, 25f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("titaniumore");
 		}

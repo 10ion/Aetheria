@@ -21,7 +21,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModElement {
 	public SilverwoodgrowthbonemealProcedure(AetheriaElements instance) {
-		super(instance, 244);
+		super(instance, 246);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -67,7 +67,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModEleme
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 					if (template != null) {
-						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
+						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
 								.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 					}
 				}
@@ -77,7 +77,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModEleme
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
 						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
+							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
 									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 						}
 					}
@@ -86,7 +86,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModEleme
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
 						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
+							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
 									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 						}
 					}

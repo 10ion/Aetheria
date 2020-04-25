@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "1": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "2": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "3": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "5": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementhelmet",
+    "item": "aetheria:flowingarmorhelmet",
     "count": 1
   }
 }

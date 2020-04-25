@@ -72,7 +72,7 @@
     "hasInventory": true,
     "guiBoundTo": "AeonForgegui",
     "openGUIOnRightClick": true,
-    "inventorySize": 27,
+    "inventorySize": 28,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": false,

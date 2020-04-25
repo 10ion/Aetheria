@@ -1,0 +1,16 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Silverwoodlog"
+      }
+    ],
+    "functions": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

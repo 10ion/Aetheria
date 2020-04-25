@@ -10,7 +10,7 @@
     "textureBack": "silverwoodlogside",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -49,7 +49,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 0,
+    "flammability": 5,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,

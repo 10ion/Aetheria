@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Titanium Ore",
+    "name": "Titanium ore",
     "specialInfo": [],
     "hardness": 10.0,
     "resistance": 25.0,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=1": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=2": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=3": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=4": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=5": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=6": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=7": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=8": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=9": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=10": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=11": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=12": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=13": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=14": {
+      "model": "aetheria:block/silverwoodsap"
+    },
+    "age=15": {
+      "model": "aetheria:block/silverwoodsap"
+    }
+  }
+}

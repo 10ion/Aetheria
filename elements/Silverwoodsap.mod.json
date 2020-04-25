@@ -1,0 +1,37 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "silverwoodsapling",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 1,
+    "name": "Silverwood Sapling",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMisc"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "FOLIAGE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/leadblock",
+    "up": "aetheria:blocks/leadblock",
+    "north": "aetheria:blocks/leadblock",
+    "east": "aetheria:blocks/leadblock",
+    "south": "aetheria:blocks/leadblock",
+    "west": "aetheria:blocks/leadblock",
+    "particle": "aetheria:blocks/leadblock"
+  }
+}

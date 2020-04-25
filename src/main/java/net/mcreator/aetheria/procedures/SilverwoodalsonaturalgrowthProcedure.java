@@ -16,7 +16,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class SilverwoodalsonaturalgrowthProcedure extends AetheriaElements.ModElement {
 	public SilverwoodalsonaturalgrowthProcedure(AetheriaElements instance) {
-		super(instance, 246);
+		super(instance, 248);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -40,14 +40,14 @@ public class SilverwoodalsonaturalgrowthProcedure extends AetheriaElements.ModEl
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if ((Math.random() < 0.1)) {
+		if ((Math.random() < 0.005)) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			if ((Math.random() < 0.33)) {
 				if (!world.isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
 					if (template != null) {
-						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
+						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
 								.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 					}
 				}
@@ -57,7 +57,7 @@ public class SilverwoodalsonaturalgrowthProcedure extends AetheriaElements.ModEl
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
 						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
+							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
 									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 						}
 					}
@@ -66,7 +66,7 @@ public class SilverwoodalsonaturalgrowthProcedure extends AetheriaElements.ModEl
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + 0), (int) y, (int) (z + 0)), new PlacementSettings()
+							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
 									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 						}
 					}

@@ -32,9 +32,9 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:SilverwoodSapling"
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -78,9 +78,6 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "onDestroyedByPlayer": {
-      "name": "Silverwoodnaturalgrowth"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
