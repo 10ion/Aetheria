@@ -51,6 +51,11 @@ public class AetheriaElements {
 		sounds.put(new ResourceLocation("aetheria", "music.rickroll"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "music.rickroll")));
 		sounds.put(new ResourceLocation("aetheria", "keekuu"), new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "keekuu")));
+		sounds.put(new ResourceLocation("aetheria", "megalovania-ultimate"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "megalovania-ultimate")));
+		sounds.put(new ResourceLocation("aetheria", "werenotgonnatakeit"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "werenotgonnatakeit")));
+		sounds.put(new ResourceLocation("aetheria", "nyan-cat"), new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "nyan-cat")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("aetheria").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

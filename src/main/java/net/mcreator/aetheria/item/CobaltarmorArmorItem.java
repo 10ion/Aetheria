@@ -29,7 +29,7 @@ public class CobaltarmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:cobaltarmorarmorboots")
 	public static final Item boots = null;
 	public CobaltarmorArmorItem(AetheriaElements instance) {
-		super(instance, 46);
+		super(instance, 64);
 	}
 
 	@Override

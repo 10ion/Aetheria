@@ -16,5 +16,32 @@
         "stream": false
       }
     ]
+  },
+  "megalovania-ultimate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:megalovania-but-its-100-versions-at-once",
+        "stream": true
+      }
+    ]
+  },
+  "werenotgonnatakeit": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:were-not-gonna-take-it-with-lyrics",
+        "stream": true
+      }
+    ]
+  },
+  "nyan-cat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:nyan-cat-original",
+        "stream": true
+      }
+    ]
   }
 }

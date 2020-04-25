@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_stal",
+    "name": "Music Disc",
+    "description": "Megalovania Ultimate - ?",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMusic"
+    },
+    "music": {
+      "value": "CUSTOM:megalovania-ultimate"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

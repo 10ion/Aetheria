@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_13",
+    "name": "Music Disc",
+    "description": "We're Not Gonna Take It - Twisted Sister",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMusic"
+    },
+    "music": {
+      "value": "CUSTOM:werenotgonnatakeit"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

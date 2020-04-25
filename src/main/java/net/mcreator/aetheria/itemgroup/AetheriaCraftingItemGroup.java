@@ -1,19 +1,11 @@
 
 package net.mcreator.aetheria.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.aetheria.block.AeonForgeBlock;
-import net.mcreator.aetheria.AetheriaElements;
-
 @AetheriaElements.ModElement.Tag
 public class AetheriaCraftingItemGroup extends AetheriaElements.ModElement {
+
 	public AetheriaCraftingItemGroup(AetheriaElements instance) {
-		super(instance, 404);
+		super(instance, 399);
 	}
 
 	@Override
@@ -31,5 +23,7 @@ public class AetheriaCraftingItemGroup extends AetheriaElements.ModElement {
 			}
 		};
 	}
+
 	public static ItemGroup tab;
+
 }

@@ -29,7 +29,7 @@ public class DarksteelAArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:darksteelaarmorboots")
 	public static final Item boots = null;
 	public DarksteelAArmorItem(AetheriaElements instance) {
-		super(instance, 63);
+		super(instance, 68);
 	}
 
 	@Override
