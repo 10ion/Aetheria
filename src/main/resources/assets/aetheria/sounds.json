@@ -16,5 +16,14 @@
         "stream": false
       }
     ]
+  },
+  "werenotgonnatakeit": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:were-not-gonna-take-it-with-lyrics",
+        "stream": true
+      }
+    ]
   }
 }

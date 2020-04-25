@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.aetheria.item.ObsidianArmorItem;
+import net.mcreator.aetheria.item.RickrollItem;
 import net.mcreator.aetheria.AetheriaElements;
 
 @AetheriaElements.ModElement.Tag
-public class AetheriaArmorItemGroup extends AetheriaElements.ModElement {
-	public AetheriaArmorItemGroup(AetheriaElements instance) {
-		super(instance, 400);
+public class AetheriaMusicItemGroup extends AetheriaElements.ModElement {
+	public AetheriaMusicItemGroup(AetheriaElements instance) {
+		super(instance, 422);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabaetheriaarmor") {
+		tab = new ItemGroup("tabaetheriamusic") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ObsidianArmorItem.body, (int) (1));
+				return new ItemStack(RickrollItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "1": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "2": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "3": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "5": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "6": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     },
     "8": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:flowingwatersteelingot"
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementlegs",
+    "item": "aetheria:flowingarmorlegs",
     "count": 1
   }
 }

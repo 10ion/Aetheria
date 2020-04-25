@@ -29,7 +29,7 @@ public class TungstenarmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:tungstenarmorarmorboots")
 	public static final Item boots = null;
 	public TungstenarmorArmorItem(AetheriaElements instance) {
-		super(instance, 58);
+		super(instance, 67);
 	}
 
 	@Override

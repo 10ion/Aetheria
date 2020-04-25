@@ -1,9 +1,17 @@
 
 package net.mcreator.aetheria.itemgroup;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+
+import net.mcreator.aetheria.item.GemwroughtSwordItem;
+import net.mcreator.aetheria.AetheriaElements;
+
 @AetheriaElements.ModElement.Tag
 public class AetheriaWeaponsItemGroup extends AetheriaElements.ModElement {
-
 	public AetheriaWeaponsItemGroup(AetheriaElements instance) {
 		super(instance, 403);
 	}
@@ -23,7 +31,5 @@ public class AetheriaWeaponsItemGroup extends AetheriaElements.ModElement {
 			}
 		};
 	}
-
 	public static ItemGroup tab;
-
 }

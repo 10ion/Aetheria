@@ -29,7 +29,7 @@ public class BismuthArmorArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:bismutharmorarmorboots")
 	public static final Item boots = null;
 	public BismuthArmorArmorItem(AetheriaElements instance) {
-		super(instance, 44);
+		super(instance, 62);
 	}
 
 	@Override

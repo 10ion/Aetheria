@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Aetheria Music",
+    "icon": {
+      "value": "CUSTOM:Rickroll"
+    },
+    "showSearch": false
+  }
+}

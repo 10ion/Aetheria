@@ -3839,6 +3839,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "AetheriaMusic",
+      "type": "tab",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WereNotGonnaTakeIt",
+      "type": "musicdisc",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3859,6 +3875,11 @@
       "name": "keekuu",
       "file": "2020-01-25-10-27-14",
       "category": "neutral"
+    },
+    {
+      "name": "werenotgonnatakeit",
+      "file": "were-not-gonna-take-it-with-lyrics",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -3929,6 +3950,7 @@
       "item.aetheria.bluearmorlegs": "Bluesteel Leggings",
       "item.aetheria.darkironarmorlegs": "Dark Iron Leggings",
       "item.aetheria.aluminumarmorarmorboots": "Aluminum Boots",
+      "item.aetheria.werenotgonnatakeit": "Music Disc",
       "item.aetheria.steelarmorarmorboots": "Steel Boots",
       "item.aetheria.felsteelaarmorboots": "FelSteel Boots",
       "item.aetheria.gemwroughtpickaxe": "Gemwrought Pickaxe",
@@ -4059,6 +4081,7 @@
       "item.aetheria.darkironingot": "Dark Iron Ingot",
       "item.aetheria.sterlingsilver": "Sterling Silver",
       "item.aetheria.redbrassarmorbody": "Red Brass Chestplate",
+      "itemGroup.tabaetheriamusic": "Aetheria Music",
       "biome.aetheria.silverwoodforest": "Silverwood forest",
       "item.aetheria.tinarmorarmorbody": "Tin Chestplate",
       "item.aetheria.coldironarmorarmorhelmet": "Cold Iron Helmet",
@@ -4081,6 +4104,7 @@
       "item.aetheria.gemwroughtaxe": "Gemwrought Axe",
       "block.aetheria.rainbowcap": "Rainbow Cap",
       "block.aetheria.rainbowcapblock": "Rainbowcapblock",
+      "item.aetheria.werenotgonnatakeit.desc": "We\u0027re Not Gonna Take It - Twisted Sister",
       "item.aetheria.stormberry": "Stormberry",
       "item.aetheria.leadarmorarmorboots": "Lead Boots",
       "item.aetheria.zincarmorarmorbody": "Zinc Chestplate",

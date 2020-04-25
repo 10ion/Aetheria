@@ -29,7 +29,7 @@ public class MoonsilverArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:moonsilverarmorboots")
 	public static final Item boots = null;
 	public MoonsilverArmorItem(AetheriaElements instance) {
-		super(instance, 67);
+		super(instance, 77);
 	}
 
 	@Override

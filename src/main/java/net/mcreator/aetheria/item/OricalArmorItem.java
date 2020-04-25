@@ -29,7 +29,7 @@ public class OricalArmorItem extends AetheriaElements.ModElement {
 	@ObjectHolder("aetheria:oricalarmorboots")
 	public static final Item boots = null;
 	public OricalArmorItem(AetheriaElements instance) {
-		super(instance, 68);
+		super(instance, 82);
 	}
 
 	@Override
