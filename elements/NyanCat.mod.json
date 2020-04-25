@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_ward",
+    "name": "Music Disc",
+    "description": "Nyan Cat - Unkown Creator",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:nyan-cat"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

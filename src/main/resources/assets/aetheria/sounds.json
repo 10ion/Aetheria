@@ -25,5 +25,23 @@
         "stream": true
       }
     ]
+  },
+  "nyan-cat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:nyan-cat-original",
+        "stream": true
+      }
+    ]
+  },
+  "megalovania-ultimate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:megalovania-but-its-100-versions-at-once",
+        "stream": true
+      }
+    ]
   }
 }

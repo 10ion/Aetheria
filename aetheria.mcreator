@@ -3855,6 +3855,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "NyanCat",
+      "type": "musicdisc",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MegalovaniaUltimate",
+      "type": "musicdisc",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3879,6 +3895,16 @@
     {
       "name": "werenotgonnatakeit",
       "file": "were-not-gonna-take-it-with-lyrics",
+      "category": "record"
+    },
+    {
+      "name": "nyan-cat",
+      "file": "nyan-cat-original",
+      "category": "record"
+    },
+    {
+      "name": "megalovania-ultimate",
+      "file": "megalovania-but-its-100-versions-at-once",
       "category": "record"
     }
   ],
@@ -3937,6 +3963,7 @@
       "item.aetheria.brassarmorarmorboots": "Brass Boots",
       "item.aetheria.endersteel": "Endersteel",
       "item.aetheria.silverarmorarmorbody": "Silver Chestplate",
+      "item.aetheria.nyancat.desc": "Nyan Cat - Unkown Creator",
       "item.aetheria.mithrilarmorboots": "Mithril Boots",
       "item.aetheria.redsteelarmorhelmet": "Redsteel Helmet",
       "item.aetheria.palladium": "Palladium",
@@ -3970,6 +3997,7 @@
       "item.aetheria.crocoiteshard": "Crocoite Shard",
       "item.aetheria.palladiumarmorarmorlegs": "Palladium Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
+      "item.aetheria.megalovaniaultimate": "Music Disc",
       "block.aetheria.bismuthore": "Bismuth Ore",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.darkfelsteelarmorlegs": "Black Felsteel Leggings",
@@ -3999,6 +4027,7 @@
       "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.tin": "Tin",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
+      "item.aetheria.nyancat": "Music Disc",
       "block.aetheria.bluegrass": "Bluegrass",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "item.aetheria.aluminum": "Aluminum",
@@ -4093,6 +4122,7 @@
       "item.aetheria.steel": "Steel",
       "item.aetheria.brassarmorarmorlegs": "Brass Leggings",
       "block.aetheria.aetherframe": "Aether Frame",
+      "item.aetheria.megalovaniaultimate.desc": "Megalovania Ultimate - ?",
       "item.aetheria.pewterarmorarmorboots": "Pewter Boots",
       "item.aetheria.gemwroughtarmorbody": "Gemwrought Mail Chestplate",
       "block.aetheria.fireshroom": "Fire Fungus",
