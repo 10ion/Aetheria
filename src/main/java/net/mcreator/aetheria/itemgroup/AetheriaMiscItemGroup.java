@@ -13,7 +13,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class AetheriaMiscItemGroup extends AetheriaElements.ModElement {
 	public AetheriaMiscItemGroup(AetheriaElements instance) {
-		super(instance, 400);
+		super(instance, 399);
 	}
 
 	@Override

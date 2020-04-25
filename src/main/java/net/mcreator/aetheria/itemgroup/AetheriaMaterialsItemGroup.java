@@ -13,7 +13,7 @@ import net.mcreator.aetheria.AetheriaElements;
 @AetheriaElements.ModElement.Tag
 public class AetheriaMaterialsItemGroup extends AetheriaElements.ModElement {
 	public AetheriaMaterialsItemGroup(AetheriaElements instance) {
-		super(instance, 399);
+		super(instance, 398);
 	}
 
 	@Override

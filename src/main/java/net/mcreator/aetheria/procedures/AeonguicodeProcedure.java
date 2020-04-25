@@ -1,11 +1,21 @@
 package net.mcreator.aetheria.procedures;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.tileentity.LockableLootTileEntity;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.block.Blocks;
+
+import net.mcreator.aetheria.block.PowederKegBlock;
+import net.mcreator.aetheria.block.MysticalPlanksBlock;
+import net.mcreator.aetheria.AetheriaElements;
+
 @AetheriaElements.ModElement.Tag
 public class AeonguicodeProcedure extends AetheriaElements.ModElement {
-
 	public AeonguicodeProcedure(AetheriaElements instance) {
 		super(instance, 397);
-
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -25,12 +35,10 @@ public class AeonguicodeProcedure extends AetheriaElements.ModElement {
 			System.err.println("Failed to load dependency world for procedure Aeonguicode!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if ((((new Object() {
 			public int getAmount(BlockPos pos, int sltid) {
 				TileEntity inv = world.getTileEntity(pos);
@@ -1002,7 +1010,5 @@ public class AeonguicodeProcedure extends AetheriaElements.ModElement {
 				}
 			}
 		}
-
 	}
-
 }

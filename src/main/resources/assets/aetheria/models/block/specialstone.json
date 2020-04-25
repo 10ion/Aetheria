@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/stone",
+    "up": "aetheria:blocks/stone",
+    "north": "aetheria:blocks/smiley_ore",
+    "east": "aetheria:blocks/smiley_ore",
+    "south": "aetheria:blocks/smiley_ore",
+    "west": "aetheria:blocks/smiley_ore",
+    "particle": "aetheria:blocks/stone"
+  }
+}
