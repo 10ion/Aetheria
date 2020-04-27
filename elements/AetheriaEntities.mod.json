@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Aetheria Entities",
+    "icon": {
+      "value": "Blocks.MOB_SPAWNER"
+    },
+    "showSearch": false
+  }
+}

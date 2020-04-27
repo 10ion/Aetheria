@@ -1,0 +1,2 @@
+# Enter the function code here
+summon firework_rocket ~ ~1 ~ {LifeTime:30,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:1,Trail:0,Colors:[I;1973019,11743532,11250603,6719955],FadeColors:[I;5320730,2651799,15790320]}]}}}}
