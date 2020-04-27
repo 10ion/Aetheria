@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leadt_shovel",
+    "customModelName": "Normal",
+    "name": "Leadt Shovel",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.7,
+    "enchantability": 14,
+    "damageVsEntity": 1.0,
+    "usageCount": 40,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

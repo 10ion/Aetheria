@@ -1,0 +1,30 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:lead"
+    },
+    "1": {
+      "item": "aetheria:lead"
+    },
+    "2": {
+      "item": "aetheria:lead"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aetheria:leadtaxe",
+    "count": 1
+  }
+}

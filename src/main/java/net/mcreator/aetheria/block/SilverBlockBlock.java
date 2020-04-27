@@ -3,13 +3,10 @@ package net.mcreator.aetheria.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -19,52 +16,36 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @AetheriaElements.ModElement.Tag
-public class BedrockBlock extends AetheriaElements.ModElement {
-	@ObjectHolder("aetheria:bedrock")
+public class SilverBlockBlock extends AetheriaElements.ModElement {
+	@ObjectHolder("aetheria:silverblock")
 	public static final Block block = null;
-	public BedrockBlock(AetheriaElements instance) {
-		super(instance, 107);
+	public SilverBlockBlock(AetheriaElements instance) {
+		super(instance, 427);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaToolsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(100f, 18000f).lightValue(0).harvestLevel(7)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.2f, 14f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("bedrock");
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public BlockRenderLayer getRenderLayer() {
-			return BlockRenderLayer.CUTOUT;
-		}
-
-		@Override
-		public boolean isNormalCube(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return false;
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			setRegistryName("silverblock");
 		}
 
 		@Override
 		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
-			return MaterialColor.BLACK;
+			return MaterialColor.LIGHT_GRAY;
 		}
 
 		@Override

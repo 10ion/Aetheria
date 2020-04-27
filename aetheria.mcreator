@@ -3884,6 +3884,107 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadtPickaxe",
+      "type": "tool",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadpickaxe"
+    },
+    {
+      "name": "LeadtAxe",
+      "type": "tool",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadaxe"
+    },
+    {
+      "name": "LeadtSword",
+      "type": "tool",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadsword"
+    },
+    {
+      "name": "LeadtShovel",
+      "type": "tool",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadshovel"
+    },
+    {
+      "name": "LeadtHoe",
+      "type": "tool",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leadhoe"
+    },
+    {
+      "name": "LeadtPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadtAxeRecipe",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadtSwordRecipe",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadtShovelRecipe",
+      "type": "recipe",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadtHoeRecipe",
+      "type": "recipe",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadBlockR",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -3969,6 +4070,7 @@
       "item.aetheria.silverarmorarmorhelmet": "Silver Helmet",
       "item.aetheria.obsidianarmorboots": "Obsidian Boots",
       "block.aetheria.bauxite": "Bauxite",
+      "item.aetheria.leadaxe": "Leadt Axe",
       "biome.aetheria.aetherbiome": "Aetherbiome",
       "item.aetheria.tinarmorarmorhelmet": "Tin Helmet",
       "advancements.voidenter.title": "Subtranian Lacuna",
@@ -4044,6 +4146,7 @@
       "item.aetheria.nyancat": "Music Disc",
       "block.aetheria.bluegrass": "Bluegrass",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
+      "block.aetheria.silverblock": "Silver Block",
       "item.aetheria.aluminum": "Aluminum",
       "item.aetheria.coldironn": "Cold Iron Nugget",
       "block.aetheria.silverwoodsapling": "Silverwood Sapling",
@@ -4057,6 +4160,7 @@
       "entity.aetheria.neko1": "Neko1",
       "item.aetheria.moralmedly": "Moral Medly",
       "item.aetheria.aluminumarmorarmorlegs": "Aluminum Leggings",
+      "item.aetheria.leadpickaxe": "Leadt Pickaxe",
       "item.aetheria.flowingarmorboots": "Flowing Water Steel Boots",
       "item.aetheria.titaniumingot": "Titanium nugget",
       "item.aetheria.palladiumarmorarmorbody": "Palladium Chestplate",
@@ -4074,6 +4178,7 @@
       "item.aetheria.silver": "Silver",
       "item.aetheria.electrumarmorarmorbody": "Electrum Chestplate",
       "itemGroup.tabaetheriablocks": "Aetheria Blocks",
+      "item.aetheria.leadhoe": "Leadt Hoe",
       "item.aetheria.mithrilingot": "Mithril Ingot",
       "item.aetheria.flowingwatersteelingot": "Flowing Water Steel Ingot",
       "item.aetheria.obsidianarmorbody": "Obsidian Chestplate",
@@ -4149,6 +4254,7 @@
       "item.aetheria.gemwroughtaxe": "Gemwrought Axe",
       "block.aetheria.rainbowcap": "Rainbow Cap",
       "block.aetheria.rainbowcapblock": "Rainbowcapblock",
+      "item.aetheria.leadsword": "Leadt Sword",
       "item.aetheria.werenotgonnatakeit.desc": "We\u0027re Not Gonna Take It - Twisted Sister",
       "item.aetheria.stormberry": "Stormberry",
       "item.aetheria.leadarmorarmorboots": "Lead Boots",
@@ -4164,6 +4270,7 @@
       "item.aetheria.feyarmorlegs": "Feysteel Leggings",
       "item.aetheria.rtungsten": "Raw Tungsten",
       "item.aetheria.bronzearmorarmorhelmet": "Bronze Helmet",
+      "item.aetheria.leadshovel": "Leadt Shovel",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
       "item.aetheria.bluearmorhelmet": "Bluesteel Helmet",
       "item.aetheria.zincarmorarmorboots": "Zinc Boots",

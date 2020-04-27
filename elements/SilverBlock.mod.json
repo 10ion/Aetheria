@@ -2,16 +2,16 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "bedrock",
-    "textureTop": "bedrock",
-    "textureLeft": "bedrock",
-    "textureFront": "bedrock",
-    "textureRight": "bedrock",
-    "textureBack": "bedrock",
+    "texture": "silverblock",
+    "textureTop": "silverblock",
+    "textureLeft": "silverblock",
+    "textureFront": "silverblock",
+    "textureRight": "silverblock",
+    "textureBack": "silverblock",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -20,13 +20,13 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Bedrock",
+    "name": "Silver Block",
     "specialInfo": [],
-    "hardness": 100.0,
-    "resistance": 18000.0,
+    "hardness": 1.2,
+    "resistance": 14.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaBlocks"
+      "value": "CUSTOM:AetheriaTools"
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
@@ -38,14 +38,14 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "BLACK",
+    "colorOnMap": "SILVER",
     "creativePickItem": {
       "value": ""
     },
@@ -56,11 +56,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 7,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

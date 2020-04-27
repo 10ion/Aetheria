@@ -1,0 +1,30 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:lead"
+    },
+    "1": {
+      "item": "aetheria:lead"
+    },
+    "2": {
+      "item": "aetheria:lead"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aetheria:leadtpickaxe",
+    "count": 1
+  }
+}

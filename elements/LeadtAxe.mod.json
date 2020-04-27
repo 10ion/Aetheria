@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leadt_axe",
+    "customModelName": "Normal",
+    "name": "Leadt Axe",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.6,
+    "enchantability": 14,
+    "damageVsEntity": 3.0,
+    "usageCount": 40,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

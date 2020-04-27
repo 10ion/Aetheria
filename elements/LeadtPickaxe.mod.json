@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leadt_pickaxe",
+    "customModelName": "Normal",
+    "name": "Leadt Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.4,
+    "enchantability": 14,
+    "damageVsEntity": 1.0,
+    "usageCount": 40,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

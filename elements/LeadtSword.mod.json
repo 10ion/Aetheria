@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "leadt_sword",
+    "customModelName": "Normal",
+    "name": "Leadt Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 2.0,
+    "attackSpeed": 0.7999999999999999,
+    "enchantability": 14,
+    "damageVsEntity": 5.0,
+    "usageCount": 40,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}
