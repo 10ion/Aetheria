@@ -1,12 +1,20 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.AetheriaElements;
+
 @AetheriaElements.ModElement.Tag
 public class LeadtSwordItem extends AetheriaElements.ModElement {
-
 	@ObjectHolder("aetheria:leadsword")
 	public static final Item block = null;
-
 	public LeadtSwordItem(AetheriaElements instance) {
 		super(instance, 430);
 	}
@@ -38,8 +46,6 @@ public class LeadtSwordItem extends AetheriaElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3.2000000000000001f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 		}.setRegistryName("leadsword"));
 	}
-
 }

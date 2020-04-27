@@ -1,15 +1,33 @@
 
 package net.mcreator.aetheria.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.block.material.MaterialColor;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.AetheriaElements;
+
+import java.util.List;
+import java.util.Collections;
+
 @AetheriaElements.ModElement.Tag
 public class SilverBlockBlock extends AetheriaElements.ModElement {
-
 	@ObjectHolder("aetheria:silverblock")
 	public static final Block block = null;
-
 	public SilverBlockBlock(AetheriaElements instance) {
 		super(instance, 427);
-
 	}
 
 	@Override
@@ -18,15 +36,10 @@ public class SilverBlockBlock extends AetheriaElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaToolsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-
 	public static class CustomBlock extends Block {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.2f, 14f).lightValue(0).harvestLevel(1)
-							.harvestTool(ToolType.PICKAXE));
-
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1.2f, 14f).lightValue(0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("silverblock");
 		}
 
@@ -42,7 +55,5 @@ public class SilverBlockBlock extends AetheriaElements.ModElement {
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
-
 	}
-
 }
