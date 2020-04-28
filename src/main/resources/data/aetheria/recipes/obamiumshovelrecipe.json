@@ -2,24 +2,18 @@
   "group": "aetheria",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "0",
+    "1",
+    "2"
   ],
   "key": {
     "0": {
-      "item": "aetheria:silver"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:silver"
-    },
-    "2": {
-      "item": "aetheria:silver"
-    },
-    "4": {
       "item": "minecraft:stick"
     },
-    "7": {
+    "2": {
       "item": "minecraft:stick"
     }
   },

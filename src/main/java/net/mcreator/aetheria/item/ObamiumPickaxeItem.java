@@ -2,44 +2,44 @@
 package net.mcreator.aetheria.item;
 
 @AetheriaElements.ModElement.Tag
-public class SIlvertPickaxeItem extends AetheriaElements.ModElement {
+public class ObamiumPickaxeItem extends AetheriaElements.ModElement {
 
-	@ObjectHolder("aetheria:silverpickaxe")
+	@ObjectHolder("aetheria:obamiumpickaxe")
 	public static final Item block = null;
 
-	public SIlvertPickaxeItem(AetheriaElements instance) {
-		super(instance, 439);
+	public ObamiumPickaxeItem(AetheriaElements instance) {
+		super(instance, 441);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 50;
+				return 4000;
 			}
 
 			public float getEfficiency() {
-				return 3f;
+				return 10f;
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 5;
 			}
 
 			public int getEnchantability() {
-				return 30;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(ObamiumItem.block, (int) (1)));
 			}
-		}, 1, -2.5999999999999999f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
+		}, 1, -2f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 
-		}.setRegistryName("silverpickaxe"));
+		}.setRegistryName("obamiumpickaxe"));
 	}
 
 }

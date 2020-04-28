@@ -2,44 +2,44 @@
 package net.mcreator.aetheria.item;
 
 @AetheriaElements.ModElement.Tag
-public class SIlvertHoeItem extends AetheriaElements.ModElement {
+public class ObamiumHoeItem extends AetheriaElements.ModElement {
 
-	@ObjectHolder("aetheria:silverhoe")
+	@ObjectHolder("aetheria:obamiumhoe")
 	public static final Item block = null;
 
-	public SIlvertHoeItem(AetheriaElements instance) {
-		super(instance, 443);
+	public ObamiumHoeItem(AetheriaElements instance) {
+		super(instance, 445);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 30;
+				return 4000;
 			}
 
 			public float getEfficiency() {
-				return 3f;
+				return 10f;
 			}
 
 			public float getAttackDamage() {
-				return -1f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 5;
 			}
 
 			public int getEnchantability() {
-				return 30;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(ObamiumItem.block, (int) (1)));
 			}
-		}, -2.8f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
+		}, -2f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 
-		}.setRegistryName("silverhoe"));
+		}.setRegistryName("obamiumhoe"));
 	}
 
 }

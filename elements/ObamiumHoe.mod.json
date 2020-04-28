@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obamium_hoe",
+    "customModelName": "Normal",
+    "name": "Obamium Hoe",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaTools"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 2.0,
+    "enchantability": 10,
+    "damageVsEntity": 5.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Obamium"
+      }
+    ]
+  }
+}

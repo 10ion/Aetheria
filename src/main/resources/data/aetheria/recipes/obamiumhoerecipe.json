@@ -2,24 +2,21 @@
   "group": "aetheria",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "01",
+    " 3",
+    " 5"
   ],
   "key": {
     "0": {
-      "item": "aetheria:silver"
+      "item": "aetheria:obamium"
     },
     "1": {
-      "item": "aetheria:silver"
+      "item": "aetheria:obamium"
     },
-    "2": {
-      "item": "aetheria:silver"
-    },
-    "4": {
+    "3": {
       "item": "minecraft:stick"
     },
-    "7": {
+    "5": {
       "item": "minecraft:stick"
     }
   },

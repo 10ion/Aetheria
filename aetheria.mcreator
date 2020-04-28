@@ -1902,7 +1902,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "leadarmor",
       "metadata": {
         "eh": true,
         "el": true,
@@ -3988,15 +3987,6 @@
       "ids": {}
     },
     {
-      "name": "SIlvertPickaxe",
-      "type": "tool",
-      "sortid": 439,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "silverpickaxe"
-    },
-    {
       "name": "SIlvertAxe",
       "type": "tool",
       "sortid": 440,
@@ -4004,6 +3994,56 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "silveraxe"
+    },
+    {
+      "name": "SIlvertHoe",
+      "type": "tool",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverhoe"
+    },
+    {
+      "name": "SIlvertAxeRecipe",
+      "type": "recipe",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SIlvertShovelRecipe",
+      "type": "recipe",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SIlvertPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SIlvertSwordRecipe",
+      "type": "recipe",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SIlvertPickaxe",
+      "type": "tool",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverpickaxe"
     },
     {
       "name": "SIlvertSword",
@@ -4024,47 +4064,6 @@
       "registry_name": "silvershovel"
     },
     {
-      "name": "SIlvertHoe",
-      "type": "tool",
-      "sortid": 443,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "silverhoe"
-    },
-    {
-      "name": "SIlvertPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SIlvertAxeRecipe",
-      "type": "recipe",
-      "sortid": 445,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SIlvertSwordRecipe",
-      "type": "recipe",
-      "sortid": 446,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SIlvertShovelRecipe",
-      "type": "recipe",
-      "sortid": 447,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "SIlvertHoeRecipe",
       "type": "recipe",
       "sortid": 448,
@@ -4076,6 +4075,110 @@
       "name": "SilverBlockR",
       "type": "recipe",
       "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumOre",
+      "type": "block",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumSword",
+      "type": "tool",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumAxe",
+      "type": "tool",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumShovel",
+      "type": "tool",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Obamium",
+      "type": "item",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumHoe",
+      "type": "tool",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumOreSmelt",
+      "type": "recipe",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObamiumPickaxe",
+      "type": "tool",
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4132,16 +4235,15 @@
       "item.minecraft.splash_potion.effect.omnessence1": "Splash Omnessence1",
       "item.aetheria.pewterarmorarmorbody": "Pewter Chestplate",
       "item.aetheria.titaniumarmorlegs": "Titanium Leggings",
-      "item.aetheria.neko1": "Neko1 Spawn Egg",
       "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
+      "item.aetheria.neko1": "Neko1 Spawn Egg",
       "item.aetheria.bronzearmorarmorlegs": "Bronze Leggings",
       "item.aetheria.bismuth": "Bismuth",
       "item.aetheria.emeraldarmorbody": "Emerald Chestplate",
-      "item.aetheria.magnegoldarmorarmorhelmet": "Magnegold Helmet",
-      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
       "item.aetheria.moonberry": "Moonberry",
+      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
+      "item.aetheria.magnegoldarmorarmorhelmet": "Magnegold Helmet",
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
-      "item.aetheria.silverpickaxe": "SIlver Pickaxe",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
       "block.aetheria.lightningrod": "Lightningrod",
       "item.aetheria.copperarmorarmorboots": "Copper Boots",
@@ -4161,11 +4263,11 @@
       "item.aetheria.blackarmorlegs": "Black Bronze Leggings",
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
       "item.aetheria.fireberry": "Fireberry",
+      "item.aetheria.leadarmorarmorbody": "Lead Chestplate",
       "item.aetheria.silverarmorarmorhelmet": "Silver Helmet",
       "item.aetheria.obsidianarmorboots": "Obsidian Boots",
-      "item.aetheria.leadarmorarmorbody": "Lead Chestplate",
       "block.aetheria.bauxite": "Bauxite",
-      "item.aetheria.leadaxe": "Lead Axe",
+      "item.aetheria.leadaxe": "Leadt Axe",
       "biome.aetheria.aetherbiome": "Aetherbiome",
       "item.aetheria.tinarmorarmorhelmet": "Tin Helmet",
       "advancements.voidenter.title": "Subtranian Lacuna",
@@ -4204,7 +4306,6 @@
       "advancements.specialstoneachievement.title": "Easter Egg Achievment",
       "advancements.voidenter.descr": "Enter The Void",
       "item.aetheria.copperarmorarmorhelmet": "Copper Helmet",
-      "item.aetheria.silverhoe": "SIlver Hoe",
       "item.aetheria.brassarmorarmorhelmet": "Brass Helmet",
       "item.aetheria.crocoiteshard": "Crocoite Shard",
       "item.aetheria.palladiumarmorarmorlegs": "Palladium Leggings",
@@ -4253,11 +4354,11 @@
       "block.aetheria.gemwroughtoreblock": "Block of Gemwrought",
       "item.aetheria.blackarmorhelmet": "Black Bronze Helmet",
       "item.aetheria.gemwroughtarmorlegs": "Gemwrought Mail Leggings",
-      "entity.aetheria.neko1": "Neko1",
       "item.aetheria.leadarmorarmorlegs": "Lead Leggings",
+      "entity.aetheria.neko1": "Neko1",
       "item.aetheria.moralmedly": "Moral Medly",
       "item.aetheria.aluminumarmorarmorlegs": "Aluminum Leggings",
-      "item.aetheria.leadpickaxe": "Lead Pickaxe",
+      "item.aetheria.leadpickaxe": "Leadt Pickaxe",
       "item.aetheria.flowingarmorboots": "Flowing Water Steel Boots",
       "item.aetheria.titaniumingot": "Titanium nugget",
       "item.aetheria.palladiumarmorarmorbody": "Palladium Chestplate",
@@ -4276,7 +4377,7 @@
       "item.aetheria.silver": "Silver",
       "item.aetheria.electrumarmorarmorbody": "Electrum Chestplate",
       "itemGroup.tabaetheriablocks": "Aetheria Blocks",
-      "item.aetheria.leadhoe": "Lead Hoe",
+      "item.aetheria.leadhoe": "Leadt Hoe",
       "item.aetheria.mithrilingot": "Mithril Ingot",
       "item.aetheria.flowingwatersteelingot": "Flowing Water Steel Ingot",
       "item.aetheria.obsidianarmorbody": "Obsidian Chestplate",
@@ -4354,14 +4455,13 @@
       "item.aetheria.gemwroughtaxe": "Gemwrought Axe",
       "block.aetheria.rainbowcap": "Rainbow Cap",
       "block.aetheria.rainbowcapblock": "Rainbowcapblock",
-      "item.aetheria.leadsword": "Lead Sword",
+      "item.aetheria.leadsword": "Leadt Sword",
       "item.aetheria.werenotgonnatakeit.desc": "We\u0027re Not Gonna Take It - Twisted Sister",
       "item.aetheria.stormberry": "Stormberry",
       "item.aetheria.leadarmorarmorboots": "Lead Boots",
       "item.aetheria.zincarmorarmorbody": "Zinc Chestplate",
       "block.aetheria.aeonfurnace": "Aeon Furnace",
       "item.aetheria.mithrilarmorhelmet": "Mithril Helmet",
-      "item.aetheria.silveraxe": "SIlver Axe",
       "item.aetheria.adamantaarmorlegs": "Adamant Leggings",
       "block.aetheria.specialstone": "Special Stone",
       "item.aetheria.rosegoldingot": "Rose Gold Ingot",
@@ -4371,7 +4471,7 @@
       "item.aetheria.feyarmorlegs": "Feysteel Leggings",
       "item.aetheria.rtungsten": "Raw Tungsten",
       "item.aetheria.bronzearmorarmorhelmet": "Bronze Helmet",
-      "item.aetheria.leadshovel": "Lead Shovel",
+      "item.aetheria.leadshovel": "Leadt Shovel",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
       "item.aetheria.bluearmorhelmet": "Bluesteel Helmet",
       "item.aetheria.zincarmorarmorboots": "Zinc Boots",
@@ -4425,7 +4525,6 @@
       "item.aetheria.rosearmorlegs": "Rose Gold Leggings",
       "item.aetheria.sterlingarmorarmorhelmet": "Sterling Silver Helmet",
       "item.aetheria.iridiumarmorboots": "Iridium Boots",
-      "item.aetheria.silvershovel": "SIlver Shovel",
       "effect.omnessence1": "Omnessence1",
       "item.aetheria.silverarmorarmorlegs": "Silver Leggings",
       "item.aetheria.darkfelsteelingot": "Dark Fel Steel Ingot",
@@ -4442,7 +4541,6 @@
       "item.aetheria.redsteelhoe": "Redsteel Hoe",
       "item.minecraft.splash_potion.effect.milkbottle": "Splash Milkbottle",
       "item.aetheria.darksteelaarmorhelmet": "Blacksteel Helmet",
-      "item.aetheria.silversword": "SIlver Sword",
       "block.aetheria.ghostmorel": "Ghost Morel",
       "item.aetheria.rickroll": "Music Disk",
       "entity.aetheria.lupin": "lupin",
