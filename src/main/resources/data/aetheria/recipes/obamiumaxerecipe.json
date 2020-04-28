@@ -1,0 +1,30 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:obamium"
+    },
+    "1": {
+      "item": "aetheria:obamium"
+    },
+    "2": {
+      "item": "aetheria:obamium"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aetheria:obamiumaxe",
+    "count": 1
+  }
+}

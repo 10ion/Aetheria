@@ -34,11 +34,11 @@ import java.util.List;
 import java.util.Collections;
 
 @AetheriaElements.ModElement.Tag
-public class TitaniumoreBlock extends AetheriaElements.ModElement {
-	@ObjectHolder("aetheria:titaniumore")
+public class ObamiumOreBlock extends AetheriaElements.ModElement {
+	@ObjectHolder("aetheria:obamiumore")
 	public static final Block block = null;
-	public TitaniumoreBlock(AetheriaElements instance) {
-		super(instance, 99);
+	public ObamiumOreBlock(AetheriaElements instance) {
+		super(instance, 439);
 	}
 
 	@Override
@@ -49,9 +49,9 @@ public class TitaniumoreBlock extends AetheriaElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 25f).lightValue(0).harvestLevel(3)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(25f, 10f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("titaniumore");
+			setRegistryName("obamiumore");
 		}
 
 		@Override
@@ -76,12 +76,12 @@ public class TitaniumoreBlock extends AetheriaElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("titaniumore", "titaniumore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("obamiumore", "obamiumore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16), Placement.COUNT_RANGE, new CountRangeConfig(10, 0, 0, 10)));
+			}), block.getDefaultState(), 5), Placement.COUNT_RANGE, new CountRangeConfig(2, 10, 10, 15)));
 		}
 	}
 }

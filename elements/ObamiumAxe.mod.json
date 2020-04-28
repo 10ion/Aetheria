@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obamium_axe",
+    "customModelName": "Normal",
+    "name": "Obamium Axe",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 10,
+    "damageVsEntity": 12.0,
+    "usageCount": 4000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Obamium"
+      }
+    ]
+  }
+}

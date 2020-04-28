@@ -2,14 +2,14 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "titaniumore",
-    "textureTop": "titaniumore",
-    "textureLeft": "titaniumore",
-    "textureFront": "titaniumore",
-    "textureRight": "titaniumore",
-    "textureBack": "titaniumore",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "emerald_ore",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "emerald_ore",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "hasTransparency": false,
     "transparencyType": "SOLID",
@@ -20,10 +20,10 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Titanium ore",
+    "name": "Obamium Ore",
     "specialInfo": [],
-    "hardness": 10.0,
-    "resistance": 25.0,
+    "hardness": 25.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriaBlocks"
@@ -86,9 +86,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 10
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 15
   }
 }
