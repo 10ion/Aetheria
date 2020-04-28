@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "leadt_axe",
+    "texture": "silvert_axe",
     "customModelName": "Normal",
-    "name": "Lead Axe",
+    "name": "SIlver Axe",
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },
     "toolType": "Axe",
     "harvestLevel": 1,
-    "efficiency": 2.0,
-    "attackSpeed": 0.6,
-    "enchantability": 14,
-    "damageVsEntity": 3.0,
-    "usageCount": 40,
+    "efficiency": 3.0,
+    "attackSpeed": 1.2,
+    "enchantability": 30,
+    "damageVsEntity": 4.0,
+    "usageCount": 50,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

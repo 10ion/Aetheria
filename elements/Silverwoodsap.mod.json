@@ -5,8 +5,8 @@
     "renderType": 12,
     "texture": "silverwoodsapling",
     "customModelName": "Cross model",
-    "plantType": "growapable",
-    "growapableSpawnType": "Crop",
+    "plantType": "normal",
+    "growapableSpawnType": "Plains",
     "growapableMaxHeight": 1,
     "name": "Silverwood Sapling",
     "creativeTab": {
@@ -32,6 +32,12 @@
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 20,
     "spawnWorldTypes": [],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "onTickUpdate": {
+      "name": "Silverwoodalsonaturalgrowth"
+    },
+    "onRightClicked": {
+      "name": "Silverwoodgrowthbonemeal"
+    }
   }
 }

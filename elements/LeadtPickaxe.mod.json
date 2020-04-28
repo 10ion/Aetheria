@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "leadt_pickaxe",
     "customModelName": "Normal",
-    "name": "Leadt Pickaxe",
+    "name": "Lead Pickaxe",
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },

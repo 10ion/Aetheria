@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "leadt_hoe",
+    "texture": "silvert_hoe",
     "customModelName": "Normal",
-    "name": "Lead Hoe",
+    "name": "SIlver Hoe",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:AetheriaTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 1,
-    "efficiency": 2.0,
-    "attackSpeed": 0.7,
-    "enchantability": 14,
+    "efficiency": 3.0,
+    "attackSpeed": 1.2,
+    "enchantability": 30,
     "damageVsEntity": 1.0,
-    "usageCount": 40,
+    "usageCount": 30,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

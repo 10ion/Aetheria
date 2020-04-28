@@ -32,9 +32,9 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:SilverwoodSapling"
+      "value": "CUSTOM:Silverwoodsap"
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

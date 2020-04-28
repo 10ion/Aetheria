@@ -7,17 +7,24 @@ import net.minecraftforge.common.PlantType;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Hand;
+import net.minecraft.util.Direction;
+import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SugarCaneBlock;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.aetheria.procedures.SilverwoodgrowthbonemealProcedure;
+import net.mcreator.aetheria.procedures.SilverwoodalsonaturalgrowthProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
 import net.mcreator.aetheria.AetheriaElements;
 
@@ -39,9 +46,9 @@ public class SilverwoodsapBlock extends AetheriaElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaMiscItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-	public static class BlockCustomFlower extends SugarCaneBlock {
+	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
-			super(Block.Properties.create(Material.PLANTS, MaterialColor.FOLIAGE).tickRandomly().doesNotBlockMovement().sound(SoundType.PLANT)
+			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS, MaterialColor.FOLIAGE).doesNotBlockMovement().sound(SoundType.PLANT)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("silverwoodsap");
 		}
@@ -56,26 +63,41 @@ public class SilverwoodsapBlock extends AetheriaElements.ModElement {
 
 		@Override
 		public PlantType getPlantType(IBlockReader world, BlockPos pos) {
-			return PlantType.Crop;
+			return PlantType.Plains;
 		}
 
 		@Override
 		public void tick(BlockState state, World world, BlockPos pos, Random random) {
-			if (!state.isValidPosition(world, pos)) {
-				world.destroyBlock(pos, true);
-			} else if (world.isAirBlock(pos.up())) {
-				int i = 1;
-				for (; world.getBlockState(pos.down(i)).getBlock() == this; ++i);
-				if (i < 1) {
-					int j = state.get(AGE);
-					if (j == 15) {
-						world.setBlockState(pos.up(), getDefaultState());
-						world.setBlockState(pos, state.with(AGE, 0), 4);
-					} else {
-						world.setBlockState(pos, state.with(AGE, j + 1), 4);
-					}
-				}
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SilverwoodalsonaturalgrowthProcedure.executeProcedure($_dependencies);
 			}
+		}
+
+		@Override
+		public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand, BlockRayTraceResult hit) {
+			boolean retval = super.onBlockActivated(state, world, pos, entity, hand, hit);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			Direction direction = hit.getFace();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				SilverwoodgrowthbonemealProcedure.executeProcedure($_dependencies);
+			}
+			return true;
 		}
 	}
 }

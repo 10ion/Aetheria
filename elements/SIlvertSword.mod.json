@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "leadsword",
+    "texture": "silversword",
     "customModelName": "Normal",
-    "name": "Lead Sword",
+    "name": "SIlver Sword",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 2.0,
-    "attackSpeed": 0.7999999999999999,
-    "enchantability": 14,
+    "efficiency": 3.0,
+    "attackSpeed": 1.2,
+    "enchantability": 30,
     "damageVsEntity": 5.0,
-    "usageCount": 40,
+    "usageCount": 50,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

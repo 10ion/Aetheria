@@ -43,6 +43,7 @@ import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
@@ -51,10 +52,12 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.aetheria.procedures.ForgeguicodeProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaCraftingItemGroup;
 import net.mcreator.aetheria.gui.AeonForgeguiGui;
 import net.mcreator.aetheria.AetheriaElements;
 
+import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
@@ -141,6 +144,20 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
+			super.animateTick(state, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				ForgeguicodeProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
