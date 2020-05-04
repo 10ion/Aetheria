@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:obamium"
     },
     "1": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:obamium"
     },
     "2": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:obamium"
     },
     "4": {
       "item": "minecraft:stick"
@@ -24,7 +24,7 @@
     }
   },
   "result": {
-    "item": "aetheria:unknown_element",
+    "item": "aetheria:obamiumpickaxe",
     "count": 1
   }
 }

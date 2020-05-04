@@ -1,12 +1,20 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.AetheriaElements;
+
 @AetheriaElements.ModElement.Tag
 public class SIlvertPickaxeItem extends AetheriaElements.ModElement {
-
 	@ObjectHolder("aetheria:silverpickaxe")
 	public static final Item block = null;
-
 	public SIlvertPickaxeItem(AetheriaElements instance) {
 		super(instance, 439);
 	}
@@ -38,8 +46,6 @@ public class SIlvertPickaxeItem extends AetheriaElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -2.5999999999999999f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
-
 		}.setRegistryName("silverpickaxe"));
 	}
-
 }

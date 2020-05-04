@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wizard_hat_texture"
+      },
+      "name": "default"
+    }
+  }
+}

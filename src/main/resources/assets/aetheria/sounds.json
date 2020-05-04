@@ -43,5 +43,14 @@
         "stream": true
       }
     ]
+  },
+  "space-battle": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "aetheria:space-battle",
+        "stream": true
+      }
+    ]
   }
 }

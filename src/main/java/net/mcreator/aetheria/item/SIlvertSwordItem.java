@@ -1,12 +1,20 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
+import net.mcreator.aetheria.AetheriaElements;
+
 @AetheriaElements.ModElement.Tag
 public class SIlvertSwordItem extends AetheriaElements.ModElement {
-
 	@ObjectHolder("aetheria:silversword")
 	public static final Item block = null;
-
 	public SIlvertSwordItem(AetheriaElements instance) {
 		super(instance, 441);
 	}
@@ -38,8 +46,6 @@ public class SIlvertSwordItem extends AetheriaElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -2.8f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
-
 		}.setRegistryName("silversword"));
 	}
-
 }

@@ -8,7 +8,7 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:obamium"
     },
     "1": {
       "item": "minecraft:stick"
@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "aetheria:unknown_element",
+    "item": "aetheria:obamiumshovel",
     "count": 1
   }
 }
