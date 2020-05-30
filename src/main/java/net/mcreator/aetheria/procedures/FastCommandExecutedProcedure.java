@@ -5,11 +5,11 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class FastCommandExecutedProcedure extends AetheriaElements.ModElement {
-	public FastCommandExecutedProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class FastCommandExecutedProcedure extends AetheriaModElements.ModElement {
+	public FastCommandExecutedProcedure(AetheriaModElements instance) {
 		super(instance, 172);
 	}
 

@@ -9,13 +9,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class SIlvertAxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class SIlvertAxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silveraxe")
 	public static final Item block = null;
-	public SIlvertAxeItem(AetheriaElements instance) {
+	public SIlvertAxeItem(AetheriaModElements instance) {
 		super(instance, 440);
 	}
 

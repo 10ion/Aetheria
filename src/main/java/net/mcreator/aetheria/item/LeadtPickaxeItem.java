@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class LeadtPickaxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadtPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadpickaxe")
 	public static final Item block = null;
-	public LeadtPickaxeItem(AetheriaElements instance) {
+	public LeadtPickaxeItem(AetheriaModElements instance) {
 		super(instance, 428);
 	}
 

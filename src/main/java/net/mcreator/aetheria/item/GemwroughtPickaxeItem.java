@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class GemwroughtPickaxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class GemwroughtPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtpickaxe")
 	public static final Item block = null;
-	public GemwroughtPickaxeItem(AetheriaElements instance) {
+	public GemwroughtPickaxeItem(AetheriaModElements instance) {
 		super(instance, 142);
 	}
 

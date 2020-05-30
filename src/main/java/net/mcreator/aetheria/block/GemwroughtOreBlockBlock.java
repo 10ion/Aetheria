@@ -19,16 +19,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class GemwroughtOreBlockBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class GemwroughtOreBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtoreblock")
 	public static final Block block = null;
-	public GemwroughtOreBlockBlock(AetheriaElements instance) {
+	public GemwroughtOreBlockBlock(AetheriaModElements instance) {
 		super(instance, 101);
 	}
 

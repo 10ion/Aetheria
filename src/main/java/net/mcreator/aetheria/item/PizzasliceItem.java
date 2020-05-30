@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
 import net.mcreator.aetheria.itemgroup.AetheriaFoodItemsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class PizzasliceItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class PizzasliceItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:pizzaslice")
 	public static final Item block = null;
-	public PizzasliceItem(AetheriaElements instance) {
+	public PizzasliceItem(AetheriaModElements instance) {
 		super(instance, 97);
 	}
 

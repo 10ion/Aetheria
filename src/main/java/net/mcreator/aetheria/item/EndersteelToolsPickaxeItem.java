@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class EndersteelToolsPickaxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class EndersteelToolsPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:endersteeltoolspickaxe")
 	public static final Item block = null;
-	public EndersteelToolsPickaxeItem(AetheriaElements instance) {
+	public EndersteelToolsPickaxeItem(AetheriaModElements instance) {
 		super(instance, 138);
 	}
 

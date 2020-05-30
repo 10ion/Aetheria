@@ -27,17 +27,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class TitaniumoreBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class TitaniumoreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:titaniumore")
 	public static final Block block = null;
-	public TitaniumoreBlock(AetheriaElements instance) {
+	public TitaniumoreBlock(AetheriaModElements instance) {
 		super(instance, 99);
 	}
 

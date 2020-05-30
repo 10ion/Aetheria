@@ -9,13 +9,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class GemwroughtHoeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class GemwroughtHoeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughthoe")
 	public static final Item block = null;
-	public GemwroughtHoeItem(AetheriaElements instance) {
+	public GemwroughtHoeItem(AetheriaModElements instance) {
 		super(instance, 145);
 	}
 

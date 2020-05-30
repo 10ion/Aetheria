@@ -17,16 +17,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class PowederKegBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class PowederKegBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:powederkeg")
 	public static final Block block = null;
-	public PowederKegBlock(AetheriaElements instance) {
+	public PowederKegBlock(AetheriaModElements instance) {
 		super(instance, 154);
 	}
 

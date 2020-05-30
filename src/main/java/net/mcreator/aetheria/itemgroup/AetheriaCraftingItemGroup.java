@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.block.AeonForgeBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaCraftingItemGroup extends AetheriaElements.ModElement {
-	public AetheriaCraftingItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaCraftingItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaCraftingItemGroup(AetheriaModElements instance) {
 		super(instance, 399);
 	}
 

@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "leadt_hoe",
     "customModelName": "Normal",
     "name": "Lead Hoe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },

@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "leadt_axe",
     "customModelName": "Normal",
     "name": "Lead Axe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },

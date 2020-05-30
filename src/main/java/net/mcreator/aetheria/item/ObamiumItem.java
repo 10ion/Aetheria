@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ObamiumItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class ObamiumItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:obamium")
 	public static final Item block = null;
-	public ObamiumItem(AetheriaElements instance) {
+	public ObamiumItem(AetheriaModElements instance) {
 		super(instance, 440);
 	}
 

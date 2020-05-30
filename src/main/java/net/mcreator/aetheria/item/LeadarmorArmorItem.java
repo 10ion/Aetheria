@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class LeadarmorArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadarmorArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadarmorarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:leadarmorarmorbody")
@@ -28,7 +28,7 @@ public class LeadarmorArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:leadarmorarmorboots")
 	public static final Item boots = null;
-	public LeadarmorArmorItem(AetheriaElements instance) {
+	public LeadarmorArmorItem(AetheriaModElements instance) {
 		super(instance, 43);
 	}
 

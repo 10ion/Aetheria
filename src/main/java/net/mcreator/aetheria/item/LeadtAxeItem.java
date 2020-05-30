@@ -9,13 +9,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class LeadtAxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadtAxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadaxe")
 	public static final Item block = null;
-	public LeadtAxeItem(AetheriaElements instance) {
+	public LeadtAxeItem(AetheriaModElements instance) {
 		super(instance, 429);
 	}
 

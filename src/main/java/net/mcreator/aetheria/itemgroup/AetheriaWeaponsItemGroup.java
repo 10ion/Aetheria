@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.item.GemwroughtSwordItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaWeaponsItemGroup extends AetheriaElements.ModElement {
-	public AetheriaWeaponsItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaWeaponsItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaWeaponsItemGroup(AetheriaModElements instance) {
 		super(instance, 403);
 	}
 

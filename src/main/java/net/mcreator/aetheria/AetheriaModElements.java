@@ -40,14 +40,14 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
-public class AetheriaElements {
+public class AetheriaModElements {
 	public final List<ModElement> elements = new ArrayList<>();
 	public final List<Supplier<Block>> blocks = new ArrayList<>();
 	public final List<Supplier<Item>> items = new ArrayList<>();
 	public final List<Supplier<Biome>> biomes = new ArrayList<>();
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
-	public AetheriaElements() {
+	public AetheriaModElements() {
 		sounds.put(new ResourceLocation("aetheria", "music.rickroll"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "music.rickroll")));
 		sounds.put(new ResourceLocation("aetheria", "keekuu"), new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "keekuu")));
@@ -64,17 +64,17 @@ public class AetheriaElements {
 			for (ModFileScanData.AnnotationData annotationData : annotations) {
 				if (annotationData.getAnnotationType().getClassName().equals(ModElement.Tag.class.getName())) {
 					Class<?> clazz = Class.forName(annotationData.getClassType().getClassName());
-					if (clazz.getSuperclass() == AetheriaElements.ModElement.class)
-						elements.add((AetheriaElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
+					if (clazz.getSuperclass() == AetheriaModElements.ModElement.class)
+						elements.add((AetheriaModElements.ModElement) clazz.getConstructor(this.getClass()).newInstance(this));
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		Collections.sort(elements);
-		elements.forEach(AetheriaElements.ModElement::initElements);
-		this.addNetworkMessage(AetheriaVariables.WorldSavedDataSyncMessage.class, AetheriaVariables.WorldSavedDataSyncMessage::buffer,
-				AetheriaVariables.WorldSavedDataSyncMessage::new, AetheriaVariables.WorldSavedDataSyncMessage::handler);
+		elements.forEach(AetheriaModElements.ModElement::initElements);
+		this.addNetworkMessage(AetheriaModVariables.WorldSavedDataSyncMessage.class, AetheriaModVariables.WorldSavedDataSyncMessage::buffer,
+				AetheriaModVariables.WorldSavedDataSyncMessage::new, AetheriaModVariables.WorldSavedDataSyncMessage::handler);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -86,30 +86,30 @@ public class AetheriaElements {
 	@SubscribeEvent
 	public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
 		if (!event.getPlayer().world.isRemote) {
-			WorldSavedData mapdata = AetheriaVariables.MapVariables.get(event.getPlayer().world);
-			WorldSavedData worlddata = AetheriaVariables.WorldVariables.get(event.getPlayer().world);
+			WorldSavedData mapdata = AetheriaModVariables.MapVariables.get(event.getPlayer().world);
+			WorldSavedData worlddata = AetheriaModVariables.WorldVariables.get(event.getPlayer().world);
 			if (mapdata != null)
-				Aetheria.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new AetheriaVariables.WorldSavedDataSyncMessage(0, mapdata));
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new AetheriaModVariables.WorldSavedDataSyncMessage(0, mapdata));
 			if (worlddata != null)
-				Aetheria.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new AetheriaVariables.WorldSavedDataSyncMessage(1, worlddata));
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new AetheriaModVariables.WorldSavedDataSyncMessage(1, worlddata));
 		}
 	}
 
 	@SubscribeEvent
 	public void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
 		if (!event.getPlayer().world.isRemote) {
-			WorldSavedData worlddata = AetheriaVariables.WorldVariables.get(event.getPlayer().world);
+			WorldSavedData worlddata = AetheriaModVariables.WorldVariables.get(event.getPlayer().world);
 			if (worlddata != null)
-				Aetheria.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
-						new AetheriaVariables.WorldSavedDataSyncMessage(1, worlddata));
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new AetheriaModVariables.WorldSavedDataSyncMessage(1, worlddata));
 		}
 	}
 	private int messageID = 0;
 	public <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, PacketBuffer> encoder, Function<PacketBuffer, T> decoder,
 			BiConsumer<T, Supplier<NetworkEvent.Context>> messageConsumer) {
-		Aetheria.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
+		AetheriaMod.PACKET_HANDLER.registerMessage(messageID, messageType, encoder, decoder, messageConsumer);
 		messageID++;
 	}
 
@@ -136,9 +136,9 @@ public class AetheriaElements {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
 		}
-		protected final AetheriaElements elements;
+		protected final AetheriaModElements elements;
 		protected final int sortid;
-		public ModElement(AetheriaElements elements, int sortid) {
+		public ModElement(AetheriaModElements elements, int sortid) {
 			this.elements = elements;
 			this.sortid = sortid;
 		}

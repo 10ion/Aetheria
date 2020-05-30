@@ -31,17 +31,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class MacowaniteBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MacowaniteBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:macowanite")
 	public static final Block block = null;
-	public MacowaniteBlock(AetheriaElements instance) {
+	public MacowaniteBlock(AetheriaModElements instance) {
 		super(instance, 133);
 	}
 

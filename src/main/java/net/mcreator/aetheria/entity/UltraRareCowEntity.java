@@ -27,10 +27,8 @@ import net.minecraft.entity.ai.goal.PanicGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.Pose;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
-import net.minecraft.entity.EntitySize;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
@@ -39,12 +37,12 @@ import net.minecraft.client.renderer.entity.model.CowModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
 import net.mcreator.aetheria.itemgroup.AetheriaEntitiesItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class UltraRareCowEntity extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 	public static EntityType entity = null;
-	public UltraRareCowEntity(AetheriaElements instance) {
+	public UltraRareCowEntity(AetheriaModElements instance) {
 		super(instance, 429);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -71,12 +69,11 @@ public class UltraRareCowEntity extends AetheriaElements.ModElement {
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			return new MobRenderer(renderManager, new CowModel(), 0.5f) {
-				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("aetheria:textures/ultra_rare_cow.png");
-				}
-			};
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
+			@Override
+			protected ResourceLocation getEntityTexture(Entity entity) {
+				return new ResourceLocation("aetheria:textures/ultra_rare_cow.png");
+			}
 		});
 	}
 	public static class CustomEntity extends AnimalEntity {
@@ -133,24 +130,20 @@ public class UltraRareCowEntity extends AetheriaElements.ModElement {
 		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
-			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
-			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
+			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
+			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
+				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
 		}
 
 		@Override
 		public AgeableEntity createChild(AgeableEntity ageable) {
 			return (CustomEntity) entity.create(this.world);
-		}
-
-		@Override
-		public float getStandingEyeHeight(Pose pose, EntitySize size) {
-			return this.isChild() ? size.height : 1.3F;
 		}
 
 		@Override

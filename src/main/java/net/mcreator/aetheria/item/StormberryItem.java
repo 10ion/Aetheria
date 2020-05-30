@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
 import net.mcreator.aetheria.itemgroup.AetheriaFoodItemsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class StormberryItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class StormberryItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:stormberry")
 	public static final Item block = null;
-	public StormberryItem(AetheriaElements instance) {
+	public StormberryItem(AetheriaModElements instance) {
 		super(instance, 91);
 	}
 

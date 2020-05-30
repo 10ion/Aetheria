@@ -19,13 +19,13 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class SilverwoodforestBiome extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class SilverwoodforestBiome extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwoodforest")
 	public static final CustomBiome biome = null;
-	public SilverwoodforestBiome(AetheriaElements instance) {
+	public SilverwoodforestBiome(AetheriaModElements instance) {
 		super(instance, 243);
 	}
 

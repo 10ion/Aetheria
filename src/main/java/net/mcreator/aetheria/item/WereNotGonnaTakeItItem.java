@@ -9,13 +9,13 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.Item;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMusicItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class WereNotGonnaTakeItItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class WereNotGonnaTakeItItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:werenotgonnatakeit")
 	public static final Item block = null;
-	public WereNotGonnaTakeItItem(AetheriaElements instance) {
+	public WereNotGonnaTakeItItem(AetheriaModElements instance) {
 		super(instance, 423);
 	}
 
@@ -25,7 +25,7 @@ public class WereNotGonnaTakeItItem extends AetheriaElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, AetheriaElements.sounds.get(new ResourceLocation("aetheria:werenotgonnatakeit")),
+			super(0, AetheriaModElements.sounds.get(new ResourceLocation("aetheria:werenotgonnatakeit")),
 					new Item.Properties().group(AetheriaMusicItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("werenotgonnatakeit");
 		}

@@ -31,17 +31,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class RainbowCapBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RainbowCapBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:rainbowcap")
 	public static final Block block = null;
-	public RainbowCapBlock(AetheriaElements instance) {
+	public RainbowCapBlock(AetheriaModElements instance) {
 		super(instance, 136);
 	}
 

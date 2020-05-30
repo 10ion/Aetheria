@@ -29,12 +29,12 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.SlimeModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class CakeSlimeEntity extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 	public static EntityType entity = null;
-	public CakeSlimeEntity(AetheriaElements instance) {
+	public CakeSlimeEntity(AetheriaModElements instance) {
 		super(instance, 155);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -51,13 +51,13 @@ public class CakeSlimeEntity extends AetheriaElements.ModElement {
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			return new MobRenderer(renderManager, new SlimeModel(0), 0.5f) {
-				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("aetheria:textures/cakeslime.png");
-				}
-			};
-		});
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class,
+				renderManager -> new MobRenderer(renderManager, new SlimeModel(0), 0.5f) {
+					@Override
+					protected ResourceLocation getEntityTexture(Entity entity) {
+						return new ResourceLocation("aetheria:textures/cakeslime.png");
+					}
+				});
 	}
 	public static class CustomEntity extends SlimeEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
@@ -116,14 +116,15 @@ public class CakeSlimeEntity extends AetheriaElements.ModElement {
 		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
-			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.2);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(15);
-			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
+			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
+			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
+				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
 		}
 	}
 }

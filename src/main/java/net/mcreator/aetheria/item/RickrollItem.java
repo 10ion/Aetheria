@@ -9,13 +9,13 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class RickrollItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RickrollItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:rickroll")
 	public static final Item block = null;
-	public RickrollItem(AetheriaElements instance) {
+	public RickrollItem(AetheriaModElements instance) {
 		super(instance, 158);
 	}
 
@@ -25,7 +25,7 @@ public class RickrollItem extends AetheriaElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, AetheriaElements.sounds.get(new ResourceLocation("aetheria:music.rickroll")),
+			super(0, AetheriaModElements.sounds.get(new ResourceLocation("aetheria:music.rickroll")),
 					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("rickroll");
 		}

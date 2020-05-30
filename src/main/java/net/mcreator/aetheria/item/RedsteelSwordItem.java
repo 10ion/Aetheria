@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class RedsteelSwordItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RedsteelSwordItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:redsteelsword")
 	public static final Item block = null;
-	public RedsteelSwordItem(AetheriaElements instance) {
+	public RedsteelSwordItem(AetheriaModElements instance) {
 		super(instance, 87);
 	}
 

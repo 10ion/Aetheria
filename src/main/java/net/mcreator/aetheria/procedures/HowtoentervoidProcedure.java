@@ -18,11 +18,11 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class HowtoentervoidProcedure extends AetheriaElements.ModElement {
-	public HowtoentervoidProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
+	public HowtoentervoidProcedure(AetheriaModElements instance) {
 		super(instance, 214);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -34,33 +34,39 @@ public class HowtoentervoidProcedure extends AetheriaElements.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((((entity.dimension.getId()) == (0)) && ((entity.posY) < 0))) {
-			if (!entity.world.isRemote && entity instanceof ServerPlayerEntity) {
-				DimensionType destinationType = TheVoidDimension.type;
-				ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) entity, true, "field_184851_cj");
-				ServerWorld nextWorld = entity.getServer().getWorld(destinationType);
-				((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(4, 0));
-				((ServerPlayerEntity) entity).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-						nextWorld.getSpawnPoint().getZ(), entity.rotationYaw, entity.rotationPitch);
-				((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
-				for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects()) {
-					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(entity.getEntityId(), effectinstance));
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+					DimensionType destinationType = TheVoidDimension.type;
+					ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) _ent, true, "field_184851_cj");
+					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(4, 0));
+					((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
+							nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
+					}
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
-				((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 			}
 		}
 		if ((((entity.dimension.getId()) == (-1)) && ((entity.posY) < 0))) {
-			if (!entity.world.isRemote && entity instanceof ServerPlayerEntity) {
-				DimensionType destinationType = TheVoidDimension.type;
-				ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) entity, true, "field_184851_cj");
-				ServerWorld nextWorld = entity.getServer().getWorld(destinationType);
-				((ServerPlayerEntity) entity).connection.sendPacket(new SChangeGameStatePacket(4, 0));
-				((ServerPlayerEntity) entity).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-						nextWorld.getSpawnPoint().getZ(), entity.rotationYaw, entity.rotationPitch);
-				((ServerPlayerEntity) entity).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) entity).abilities));
-				for (EffectInstance effectinstance : ((ServerPlayerEntity) entity).getActivePotionEffects()) {
-					((ServerPlayerEntity) entity).connection.sendPacket(new SPlayEntityEffectPacket(entity.getEntityId(), effectinstance));
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+					DimensionType destinationType = TheVoidDimension.type;
+					ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) _ent, true, "field_184851_cj");
+					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(4, 0));
+					((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
+							nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+					for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
+					}
+					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
-				((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 			}
 		}
 	}

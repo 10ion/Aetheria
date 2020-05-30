@@ -13,16 +13,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class VoidStoneBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class VoidStoneBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidstone")
 	public static final Block block = null;
-	public VoidStoneBlock(AetheriaElements instance) {
+	public VoidStoneBlock(AetheriaModElements instance) {
 		super(instance, 105);
 	}
 

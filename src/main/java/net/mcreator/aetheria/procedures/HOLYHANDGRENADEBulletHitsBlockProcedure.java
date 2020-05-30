@@ -14,11 +14,11 @@ import net.minecraft.entity.effect.LightningBoltEntity;
 import net.minecraft.command.ICommandSource;
 import net.minecraft.command.CommandSource;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class HOLYHANDGRENADEBulletHitsBlockProcedure extends AetheriaElements.ModElement {
-	public HOLYHANDGRENADEBulletHitsBlockProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class HOLYHANDGRENADEBulletHitsBlockProcedure extends AetheriaModElements.ModElement {
+	public HOLYHANDGRENADEBulletHitsBlockProcedure(AetheriaModElements instance) {
 		super(instance, 240);
 	}
 
@@ -59,17 +59,17 @@ public class HOLYHANDGRENADEBulletHitsBlockProcedure extends AetheriaElements.Mo
 							new StringTextComponent(""), world.getServer(), null).withFeedbackDisabled(),
 					"effect give @e[distance=..10] minecraft:instant_damage  1 4");
 		}
-		for (int _ct = 0; _ct < 7; _ct++) {
-			world.addOptionalParticle(ParticleTypes.EXPLOSION, x, y, z, 3, 3, 3);
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(ParticleTypes.EXPLOSION, x, y, z, (int) 7, 3, 3, 3, 2);
 		}
-		for (int _ct = 0; _ct < 7; _ct++) {
-			world.addOptionalParticle(ParticleTypes.EXPLOSION_EMITTER, x, y, z, 3, 3, 3);
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(ParticleTypes.EXPLOSION_EMITTER, x, y, z, (int) 7, 3, 3, 3, 2);
 		}
-		for (int _ct = 0; _ct < 7; _ct++) {
-			world.addOptionalParticle(ParticleTypes.LAVA, x, y, z, 3, 3, 3);
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(ParticleTypes.LAVA, x, y, z, (int) 7, 3, 3, 3, 2);
 		}
-		for (int _ct = 0; _ct < 7; _ct++) {
-			world.addOptionalParticle(ParticleTypes.FLAME, x, y, z, 3, 3, 3);
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(ParticleTypes.FLAME, x, y, z, (int) 7, 3, 3, 3, 2);
 		}
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "dimension",
   "definition": {
     "portalFrame": {
@@ -31,12 +31,6 @@
     "mainFillerBlock": {
       "value": "CUSTOM:VoidStone"
     },
-    "secondaryFillerBlock": {
-      "value": "CUSTOM:VoidStone"
-    },
-    "tertiaryFillerBlock": {
-      "value": ""
-    },
     "fluidBlock": {
       "value": "CUSTOM:VoidStone"
     },
@@ -52,9 +46,6 @@
     "sleepResult": "DENY",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
-    "dimensionMusic": {
-      "value": ""
-    },
     "onPlayerEntersDimension": {
       "name": "TheVoidPlayerEntersDimension"
     }

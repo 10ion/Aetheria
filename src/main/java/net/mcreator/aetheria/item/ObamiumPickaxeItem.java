@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ObamiumPickaxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class ObamiumPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:obamiumpickaxe")
 	public static final Item block = null;
-	public ObamiumPickaxeItem(AetheriaElements instance) {
+	public ObamiumPickaxeItem(AetheriaModElements instance) {
 		super(instance, 441);
 	}
 

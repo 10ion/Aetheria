@@ -50,7 +50,7 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.procedures.TheVoidPlayerEntersDimensionProcedure;
 import net.mcreator.aetheria.block.VoidStoneBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import javax.annotation.Nullable;
 
@@ -63,13 +63,13 @@ import java.util.Collections;
 
 import com.google.common.collect.Sets;
 
-@AetheriaElements.ModElement.Tag
-public class TheVoidDimension extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class TheVoidDimension extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:thevoid")
 	public static final ModDimension dimension = null;
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
-	public TheVoidDimension(AetheriaElements instance) {
+	public TheVoidDimension(AetheriaModElements instance) {
 		super(instance, 150);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -101,6 +101,7 @@ public class TheVoidDimension extends AetheriaElements.ModElement {
 	}
 
 	public static class CustomDimension extends Dimension {
+		private BiomeProviderCustom biomeProviderCustom = null;
 		public CustomDimension(World world, DimensionType type) {
 			super(world, type);
 			this.nether = false;
@@ -132,7 +133,10 @@ public class TheVoidDimension extends AetheriaElements.ModElement {
 
 		@Override
 		public ChunkGenerator<?> createChunkGenerator() {
-			return new ChunkProviderModded(this.world, new BiomeProviderCustom(this.world));
+			if (this.biomeProviderCustom == null) {
+				this.biomeProviderCustom = new BiomeProviderCustom(this.world);
+			}
+			return new ChunkProviderModded(this.world, this.biomeProviderCustom);
 		}
 
 		@Override

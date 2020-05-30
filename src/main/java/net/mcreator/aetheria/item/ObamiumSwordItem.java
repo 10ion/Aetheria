@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ObamiumSwordItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class ObamiumSwordItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:obamiumsword")
 	public static final Item block = null;
-	public ObamiumSwordItem(AetheriaElements instance) {
+	public ObamiumSwordItem(AetheriaModElements instance) {
 		super(instance, 442);
 	}
 

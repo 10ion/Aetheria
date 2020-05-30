@@ -3,9 +3,14 @@ package net.mcreator.aetheria.gui;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraftforge.items.SlotItemHandler;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.network.NetworkEvent;
 import net.minecraftforge.fml.network.IContainerFactory;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -21,8 +26,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Container;
-import net.minecraft.inventory.Inventory;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
@@ -30,18 +33,18 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.aetheria.AetheriaElements;
-import net.mcreator.aetheria.Aetheria;
+import net.mcreator.aetheria.AetheriaModElements;
+import net.mcreator.aetheria.AetheriaMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-@AetheriaElements.ModElement.Tag
-public class AeonForgeguiGui extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class AeonForgeguiGui extends AetheriaModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public AeonForgeguiGui(AetheriaElements instance) {
+	public AeonForgeguiGui(AetheriaModElements instance) {
 		super(instance, 396);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
@@ -53,7 +56,7 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		ScreenManager.registerFactory(containerType, GuiWindow::new);
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, GuiWindow::new));
 	}
 
 	@SubscribeEvent
@@ -70,78 +73,98 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 		private World world;
 		private PlayerEntity entity;
 		private int x, y, z;
-		private IInventory internal;
+		private IItemHandler internal;
 		private Map<Integer, Slot> customSlots = new HashMap<>();
+		private boolean bound = false;
 		public GuiContainerMod(int id, PlayerInventory inv, PacketBuffer extraData) {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new Inventory(26);
+			this.internal = new ItemStackHandler(26);
+			BlockPos pos = null;
 			if (extraData != null) {
-				BlockPos pos = extraData.readBlockPos();
+				pos = extraData.readBlockPos();
 				this.x = pos.getX();
 				this.y = pos.getY();
 				this.z = pos.getZ();
-				TileEntity ent = inv.player != null ? inv.player.world.getTileEntity(pos) : null;
-				if (ent instanceof IInventory)
-					this.internal = (IInventory) ent;
 			}
-			internal.openInventory(inv.player);
-			this.customSlots.put(0, this.addSlot(new Slot(internal, 0, 134, 46) {
+			if (pos != null) {
+				if (extraData.readableBytes() == 1) { // bound to item
+					byte hand = extraData.readByte();
+					ItemStack itemstack;
+					if (hand == 0)
+						itemstack = this.entity.getHeldItemMainhand();
+					else
+						itemstack = this.entity.getHeldItemOffhand();
+					itemstack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						this.internal = capability;
+						this.bound = true;
+					});
+				} else { // might be bound to block
+					TileEntity ent = inv.player != null ? inv.player.world.getTileEntity(pos) : null;
+					if (ent != null) {
+						ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+							this.internal = capability;
+							this.bound = true;
+						});
+					}
+				}
+			}
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 134, 46) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
-			this.customSlots.put(1, this.addSlot(new Slot(internal, 1, 26, 10) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 26, 10) {
 			}));
-			this.customSlots.put(2, this.addSlot(new Slot(internal, 2, 44, 10) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 44, 10) {
 			}));
-			this.customSlots.put(3, this.addSlot(new Slot(internal, 3, 62, 10) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 62, 10) {
 			}));
-			this.customSlots.put(4, this.addSlot(new Slot(internal, 4, 80, 10) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 80, 10) {
 			}));
-			this.customSlots.put(5, this.addSlot(new Slot(internal, 5, 98, 10) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 98, 10) {
 			}));
-			this.customSlots.put(6, this.addSlot(new Slot(internal, 6, 26, 28) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 26, 28) {
 			}));
-			this.customSlots.put(7, this.addSlot(new Slot(internal, 7, 44, 28) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 44, 28) {
 			}));
-			this.customSlots.put(8, this.addSlot(new Slot(internal, 8, 62, 28) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 62, 28) {
 			}));
-			this.customSlots.put(9, this.addSlot(new Slot(internal, 9, 80, 28) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 80, 28) {
 			}));
-			this.customSlots.put(10, this.addSlot(new Slot(internal, 10, 98, 28) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 98, 28) {
 			}));
-			this.customSlots.put(11, this.addSlot(new Slot(internal, 11, 26, 46) {
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 26, 46) {
 			}));
-			this.customSlots.put(12, this.addSlot(new Slot(internal, 12, 44, 46) {
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 44, 46) {
 			}));
-			this.customSlots.put(13, this.addSlot(new Slot(internal, 13, 62, 46) {
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 62, 46) {
 			}));
-			this.customSlots.put(14, this.addSlot(new Slot(internal, 14, 80, 46) {
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 80, 46) {
 			}));
-			this.customSlots.put(15, this.addSlot(new Slot(internal, 15, 98, 46) {
+			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 98, 46) {
 			}));
-			this.customSlots.put(16, this.addSlot(new Slot(internal, 16, 26, 64) {
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 26, 64) {
 			}));
-			this.customSlots.put(17, this.addSlot(new Slot(internal, 17, 44, 64) {
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 44, 64) {
 			}));
-			this.customSlots.put(18, this.addSlot(new Slot(internal, 18, 62, 64) {
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 62, 64) {
 			}));
-			this.customSlots.put(19, this.addSlot(new Slot(internal, 19, 80, 64) {
+			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 80, 64) {
 			}));
-			this.customSlots.put(20, this.addSlot(new Slot(internal, 20, 98, 64) {
+			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 98, 64) {
 			}));
-			this.customSlots.put(21, this.addSlot(new Slot(internal, 21, 26, 82) {
+			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 26, 82) {
 			}));
-			this.customSlots.put(22, this.addSlot(new Slot(internal, 22, 44, 82) {
+			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 44, 82) {
 			}));
-			this.customSlots.put(23, this.addSlot(new Slot(internal, 23, 62, 82) {
+			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 62, 82) {
 			}));
-			this.customSlots.put(24, this.addSlot(new Slot(internal, 24, 80, 82) {
+			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 80, 82) {
 			}));
-			this.customSlots.put(25, this.addSlot(new Slot(internal, 25, 98, 82) {
+			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 98, 82) {
 			}));
 			int si;
 			int sj;
@@ -158,7 +181,7 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 
 		@Override
 		public boolean canInteractWith(PlayerEntity player) {
-			return internal.isUsableByPlayer(player);
+			return true;
 		}
 
 		@Override
@@ -282,15 +305,23 @@ public class AeonForgeguiGui extends AetheriaElements.ModElement {
 		@Override
 		public void onContainerClosed(PlayerEntity playerIn) {
 			super.onContainerClosed(playerIn);
-			internal.closeInventory(playerIn);
-			if ((internal instanceof Inventory) && (playerIn instanceof ServerPlayerEntity)) {
-				this.clearContainer(playerIn, playerIn.world, internal);
+			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
+				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
+					for (int j = 0; j < internal.getSlots(); ++j) {
+						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
+					}
+				} else {
+					for (int i = 0; i < internal.getSlots(); ++i) {
+						playerIn.inventory.placeItemBackInInventory(playerIn.world,
+								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
+					}
+				}
 			}
 		}
 
 		private void slotChanged(int slotid, int ctype, int meta) {
 			if (this.world != null && this.world.isRemote) {
-				Aetheria.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
+				AetheriaMod.PACKET_HANDLER.sendToServer(new GUISlotChangedMessage(slotid, x, y, z, ctype, meta));
 				handleSlotAction(entity, slotid, ctype, meta, x, y, z);
 			}
 		}

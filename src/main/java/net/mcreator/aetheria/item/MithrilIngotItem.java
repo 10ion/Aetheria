@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MithrilIngotItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MithrilIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mithrilingot")
 	public static final Item block = null;
-	public MithrilIngotItem(AetheriaElements instance) {
+	public MithrilIngotItem(AetheriaModElements instance) {
 		super(instance, 34);
 	}
 

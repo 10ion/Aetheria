@@ -9,6 +9,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.IPlacementConfig;
 import net.minecraft.world.gen.feature.template.Template;
 import net.minecraft.world.gen.feature.template.PlacementSettings;
+import net.minecraft.world.gen.feature.template.BlockIgnoreStructureProcessor;
 import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
@@ -27,13 +28,13 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
 import net.mcreator.aetheria.block.VoidMyceliumBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 
-@AetheriaElements.ModElement.Tag
-public class BigmacowaniteStructure extends AetheriaElements.ModElement {
-	public BigmacowaniteStructure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class BigmacowaniteStructure extends AetheriaModElements.ModElement {
+	public BigmacowaniteStructure(AetheriaModElements instance) {
 		super(instance, 316);
 	}
 
@@ -70,8 +71,10 @@ public class BigmacowaniteStructure extends AetheriaElements.ModElement {
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
 						BlockPos spawnTo = new BlockPos(i, j + 0, k);
-						template.addBlocksToWorldChunk(iworld, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random)
-								.setMirror(mirror).setChunk((ChunkPos) null).setIgnoreEntities(false));
+						template.addBlocksToWorldChunk(iworld, spawnTo,
+								new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+										.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk((ChunkPos) null)
+										.setIgnoreEntities(false));
 					}
 				}
 				return true;

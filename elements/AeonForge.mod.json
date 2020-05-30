@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "block",
   "definition": {
     "texture": "aeonbottom",
@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 1,
     "hasTransparency": true,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -19,7 +20,6 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "faceShape": "SOLID",
     "name": "Aeon Forge",
     "specialInfo": [],
     "hardness": 1.7,
@@ -29,7 +29,6 @@
       "value": "CUSTOM:AetheriaCrafting"
     },
     "destroyTool": "pickaxe",
-    "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
     },
@@ -49,6 +48,8 @@
     "creativePickItem": {
       "value": ""
     },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -77,6 +78,7 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "onRandomUpdateEvent": {
       "name": "Forgeguicode"
     },

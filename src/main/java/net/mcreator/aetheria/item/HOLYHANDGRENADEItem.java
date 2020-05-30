@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Hand;
@@ -37,17 +38,19 @@ import net.minecraft.client.Minecraft;
 import net.mcreator.aetheria.procedures.HOLYHANDGRENADERangedItemUsedProcedure;
 import net.mcreator.aetheria.procedures.HOLYHANDGRENADEBulletHitsBlockProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
+
+import java.util.Random;
 
 import com.google.common.collect.Multimap;
 
-@AetheriaElements.ModElement.Tag
-public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:holyhandgrenade")
 	public static final Item block = null;
 	@ObjectHolder("aetheria:entitybulletholyhandgrenade")
 	public static final EntityType arrow = null;
-	public HOLYHANDGRENADEItem(AetheriaElements instance) {
+	public HOLYHANDGRENADEItem(AetheriaModElements instance) {
 		super(instance, 89);
 	}
 
@@ -62,9 +65,8 @@ public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void init(FMLCommonSetupEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(ArrowCustomEntity.class, renderManager -> {
-			return new SpriteRenderer(renderManager, Minecraft.getInstance().getItemRenderer());
-		});
+		RenderingRegistry.registerEntityRenderingHandler(ArrowCustomEntity.class,
+				renderManager -> new SpriteRenderer(renderManager, Minecraft.getInstance().getItemRenderer()));
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
@@ -105,22 +107,12 @@ public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
 			World world = entityLiving.world;
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
-				float power = 0.4f;
-				ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, world);
-				entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
-				entityarrow.setSilent(true);
-				entityarrow.setIsCritical(false);
-				entityarrow.setDamage(0);
-				entityarrow.setKnockbackStrength(0);
+				ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.4f, 0, 0);
 				itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
+				entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				int x = (int) entity.posX;
 				int y = (int) entity.posY;
 				int z = (int) entity.posZ;
-				world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
-						SoundCategory.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
-				entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-				world.addEntity(entityarrow);
 				{
 					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 					$_dependencies.put("entity", entity);
@@ -169,6 +161,7 @@ public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
 		protected void arrowHit(LivingEntity entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
+			Entity sourceentity = this.getShooter();
 			int x = (int) this.posX;
 			int y = (int) this.posY;
 			int z = (int) this.posZ;
@@ -203,5 +196,39 @@ public class HOLYHANDGRENADEItem extends AetheriaElements.ModElement {
 				this.remove();
 			}
 		}
+	}
+	public static ArrowCustomEntity shoot(World world, LivingEntity entity, Random random, float power, double damage, int knockback) {
+		ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, world);
+		entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
+		entityarrow.setSilent(true);
+		entityarrow.setIsCritical(false);
+		entityarrow.setDamage(damage);
+		entityarrow.setKnockbackStrength(knockback);
+		world.addEntity(entityarrow);
+		int x = (int) entity.posX;
+		int y = (int) entity.posY;
+		int z = (int) entity.posZ;
+		world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
+				SoundCategory.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
+		return entityarrow;
+	}
+
+	public static ArrowCustomEntity shoot(LivingEntity entity, LivingEntity target) {
+		ArrowCustomEntity entityarrow = new ArrowCustomEntity(arrow, entity, entity.world);
+		double d0 = target.posY + (double) target.getEyeHeight() - 1.1;
+		double d1 = target.posX - entity.posX;
+		double d3 = target.posZ - entity.posZ;
+		entityarrow.shoot(d1, d0 - entityarrow.posY + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
+		entityarrow.setSilent(true);
+		entityarrow.setIsCritical(false);
+		entity.world.addEntity(entityarrow);
+		int x = (int) entity.posX;
+		int y = (int) entity.posY;
+		int z = (int) entity.posZ;
+		entity.world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
+				SoundCategory.PLAYERS, 1, 1f / (new Random().nextFloat() * 0.5f + 1));
+		return entityarrow;
 	}
 }

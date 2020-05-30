@@ -29,17 +29,17 @@ import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
 import net.mcreator.aetheria.item.GemwroughtGemItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class GemwroughtOreBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class GemwroughtOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtore")
 	public static final Block block = null;
-	public GemwroughtOreBlock(AetheriaElements instance) {
+	public GemwroughtOreBlock(AetheriaModElements instance) {
 		super(instance, 100);
 	}
 

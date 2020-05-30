@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class BismuthArmorArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class BismuthArmorArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bismutharmorarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:bismutharmorarmorbody")
@@ -28,7 +28,7 @@ public class BismuthArmorArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:bismutharmorarmorboots")
 	public static final Item boots = null;
-	public BismuthArmorArmorItem(AetheriaElements instance) {
+	public BismuthArmorArmorItem(AetheriaModElements instance) {
 		super(instance, 62);
 	}
 

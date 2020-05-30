@@ -7,11 +7,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class BedrockreplaceProcedure extends AetheriaElements.ModElement {
-	public BedrockreplaceProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class BedrockreplaceProcedure extends AetheriaModElements.ModElement {
+	public BedrockreplaceProcedure(AetheriaModElements instance) {
 		super(instance, 215);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -22,9 +22,12 @@ public class BedrockreplaceProcedure extends AetheriaElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (!entity.world.isRemote && entity.world.getServer() != null) {
-			entity.world.getServer().getCommandManager().handleCommand(entity.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-					"fill ~-10 0 ~-10 ~10 ~10 ~10 aetheria:bedrock replace minecraft:bedrock");
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"fill ~-10 0 ~-10 ~10 ~10 ~10 aetheria:bedrock replace minecraft:bedrock");
+			}
 		}
 	}
 

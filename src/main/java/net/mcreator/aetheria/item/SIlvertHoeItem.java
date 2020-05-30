@@ -9,13 +9,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class SIlvertHoeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class SIlvertHoeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverhoe")
 	public static final Item block = null;
-	public SIlvertHoeItem(AetheriaElements instance) {
+	public SIlvertHoeItem(AetheriaModElements instance) {
 		super(instance, 443);
 	}
 

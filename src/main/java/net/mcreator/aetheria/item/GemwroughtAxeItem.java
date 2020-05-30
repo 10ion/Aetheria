@@ -9,13 +9,13 @@ import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class GemwroughtAxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class GemwroughtAxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtaxe")
 	public static final Item block = null;
-	public GemwroughtAxeItem(AetheriaElements instance) {
+	public GemwroughtAxeItem(AetheriaModElements instance) {
 		super(instance, 143);
 	}
 

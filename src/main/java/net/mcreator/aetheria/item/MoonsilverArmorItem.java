@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MoonsilverArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MoonsilverArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonsilverarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:moonsilverarmorbody")
@@ -28,7 +28,7 @@ public class MoonsilverArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:moonsilverarmorboots")
 	public static final Item boots = null;
-	public MoonsilverArmorItem(AetheriaElements instance) {
+	public MoonsilverArmorItem(AetheriaModElements instance) {
 		super(instance, 77);
 	}
 

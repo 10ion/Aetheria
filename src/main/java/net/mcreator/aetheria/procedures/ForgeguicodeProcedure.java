@@ -1,10 +1,10 @@
 package net.mcreator.aetheria.procedures;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ForgeguicodeProcedure extends AetheriaElements.ModElement {
-	public ForgeguicodeProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class ForgeguicodeProcedure extends AetheriaModElements.ModElement {
+	public ForgeguicodeProcedure(AetheriaModElements instance) {
 		super(instance, 176);
 	}
 

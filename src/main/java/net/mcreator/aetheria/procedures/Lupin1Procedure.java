@@ -7,11 +7,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class Lupin1Procedure extends AetheriaElements.ModElement {
-	public Lupin1Procedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class Lupin1Procedure extends AetheriaModElements.ModElement {
+	public Lupin1Procedure(AetheriaModElements instance) {
 		super(instance, 373);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
@@ -29,26 +29,41 @@ public class Lupin1Procedure extends AetheriaElements.ModElement {
 		World world = (World) dependencies.get("world");
 		String player = "";
 		if ((((world.getDayTime()) > 13000) && ((world.getDayTime()) < 24000))) {
-			if (!entity.world.isRemote && entity.world.getServer() != null) {
-				entity.world.getServer().getCommandManager().handleCommand(entity.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"team add foreignraces");
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"team add foreignraces");
+				}
 			}
-			if (!entity.world.isRemote && entity.world.getServer() != null) {
-				entity.world.getServer().getCommandManager().handleCommand(entity.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"team join foreignraces @e[type=aetheria:lupin]");
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"team join foreignraces @e[type=aetheria:lupin]");
+				}
 			}
-			if (!entity.world.isRemote && entity.world.getServer() != null) {
-				entity.world.getServer().getCommandManager().handleCommand(entity.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"team modify foreignraces collisionRule never");
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"team modify foreignraces collisionRule never");
+				}
 			}
-			if (!entity.world.isRemote && entity.world.getServer() != null) {
-				entity.world.getServer().getCommandManager().handleCommand(entity.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"tp @e[type=aetheria:lupin] @p");
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"tp @e[type=aetheria:lupin] @p");
+				}
 			}
 		} else {
-			if (!entity.world.isRemote && entity.world.getServer() != null) {
-				entity.world.getServer().getCommandManager().handleCommand(entity.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
-						"/kill @e[type=aetheria:lupin]");
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+					_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+							"/kill @e[type=aetheria:lupin]");
+				}
 			}
 		}
 	}

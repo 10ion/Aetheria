@@ -1,8 +1,7 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "biome",
   "definition": {
-    "name": "Aetherbiome",
     "groundBlock": {
       "value": "CUSTOM:Bluegrass"
     },
@@ -48,7 +47,6 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "deadBushesPerChunk": 0,
     "rainingPossibility": 0.1,
     "temperature": 0.5,
     "baseHeight": 0.1,

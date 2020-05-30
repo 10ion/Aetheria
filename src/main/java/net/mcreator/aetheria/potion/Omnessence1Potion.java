@@ -11,21 +11,16 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.aetheria.procedures.Omnessence1OnPotionActiveTickProcedure;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@AetheriaElements.ModElement.Tag
-public class Omnessence1Potion extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class Omnessence1Potion extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:omnessence1")
 	public static final Effect potion = null;
-	public Omnessence1Potion(AetheriaElements instance) {
+	public Omnessence1Potion(AetheriaModElements instance) {
 		super(instance, 211);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -55,13 +50,6 @@ public class Omnessence1Potion extends AetheriaElements.ModElement {
 		@Override
 		public boolean isInstant() {
 			return false;
-		}
-
-		@Override
-		public List<ItemStack> getCurativeItems() {
-			List<ItemStack> ret = new ArrayList<>();
-			ret.add(new ItemStack(Items.MILK_BUCKET, (int) (1)));
-			return ret;
 		}
 
 		@Override

@@ -16,16 +16,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class VoidshromblockBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class VoidshromblockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidshromblock")
 	public static final Block block = null;
-	public VoidshromblockBlock(AetheriaElements instance) {
+	public VoidshromblockBlock(AetheriaModElements instance) {
 		super(instance, 124);
 	}
 

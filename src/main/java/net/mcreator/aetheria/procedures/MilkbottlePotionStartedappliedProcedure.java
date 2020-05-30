@@ -3,11 +3,11 @@ package net.mcreator.aetheria.procedures;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MilkbottlePotionStartedappliedProcedure extends AetheriaElements.ModElement {
-	public MilkbottlePotionStartedappliedProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class MilkbottlePotionStartedappliedProcedure extends AetheriaModElements.ModElement {
+	public MilkbottlePotionStartedappliedProcedure(AetheriaModElements instance) {
 		super(instance, 204);
 	}
 

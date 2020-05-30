@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "potion",
   "definition": {
     "name": "Omnessence1",
@@ -13,11 +13,6 @@
     "isBad": false,
     "isBenefitical": true,
     "registerPotionType": false,
-    "curativeItems": [
-      {
-        "value": "Items.MILK_BUCKET"
-      }
-    ],
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "onActiveTick": {

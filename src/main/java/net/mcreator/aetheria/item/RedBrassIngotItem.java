@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class RedBrassIngotItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RedBrassIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:redbrassingot")
 	public static final Item block = null;
-	public RedBrassIngotItem(AetheriaElements instance) {
+	public RedBrassIngotItem(AetheriaModElements instance) {
 		super(instance, 38);
 	}
 

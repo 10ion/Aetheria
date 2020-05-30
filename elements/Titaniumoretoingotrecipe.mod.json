@@ -1,9 +1,10 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
     "xpReward": 0.0,
+    "cookingTime": 200,
     "recipeRetstackSize": 0,
     "recipeShapeless": false,
     "smeltingInputStack": {

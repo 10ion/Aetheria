@@ -29,17 +29,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class CopperOreBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class CopperOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:copperore")
 	public static final Block block = null;
-	public CopperOreBlock(AetheriaElements instance) {
+	public CopperOreBlock(AetheriaModElements instance) {
 		super(instance, 110);
 	}
 

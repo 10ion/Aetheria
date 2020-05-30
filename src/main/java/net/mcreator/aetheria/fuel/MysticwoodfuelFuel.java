@@ -8,11 +8,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.item.ItemStack;
 
 import net.mcreator.aetheria.block.MysticalPlanksBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MysticwoodfuelFuel extends AetheriaElements.ModElement {
-	public MysticwoodfuelFuel(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class MysticwoodfuelFuel extends AetheriaModElements.ModElement {
+	public MysticwoodfuelFuel(AetheriaModElements instance) {
 		super(instance, 170);
 		MinecraftForge.EVENT_BUS.register(this);
 	}

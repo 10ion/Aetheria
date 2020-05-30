@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class SterlingarmorArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class SterlingarmorArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sterlingarmorarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:sterlingarmorarmorbody")
@@ -28,7 +28,7 @@ public class SterlingarmorArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:sterlingarmorarmorboots")
 	public static final Item boots = null;
-	public SterlingarmorArmorItem(AetheriaElements instance) {
+	public SterlingarmorArmorItem(AetheriaModElements instance) {
 		super(instance, 54);
 	}
 

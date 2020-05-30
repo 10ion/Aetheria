@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MoonsilverIngotItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MoonsilverIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonsilveringot")
 	public static final Item block = null;
-	public MoonsilverIngotItem(AetheriaElements instance) {
+	public MoonsilverIngotItem(AetheriaModElements instance) {
 		super(instance, 35);
 	}
 

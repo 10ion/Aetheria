@@ -14,16 +14,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaCraftingItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class AeonFurnaceBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class AeonFurnaceBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:aeonfurnace")
 	public static final Block block = null;
-	public AeonFurnaceBlock(AetheriaElements instance) {
+	public AeonFurnaceBlock(AetheriaModElements instance) {
 		super(instance, 162);
 	}
 

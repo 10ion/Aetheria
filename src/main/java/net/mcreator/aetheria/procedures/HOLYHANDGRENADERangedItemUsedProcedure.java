@@ -5,11 +5,11 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.item.HOLYHANDGRENADEItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class HOLYHANDGRENADERangedItemUsedProcedure extends AetheriaElements.ModElement {
-	public HOLYHANDGRENADERangedItemUsedProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class HOLYHANDGRENADERangedItemUsedProcedure extends AetheriaModElements.ModElement {
+	public HOLYHANDGRENADERangedItemUsedProcedure(AetheriaModElements instance) {
 		super(instance, 241);
 	}
 

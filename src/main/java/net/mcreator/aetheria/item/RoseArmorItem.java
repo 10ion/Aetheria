@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class RoseArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RoseArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:rosearmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:rosearmorbody")
@@ -28,7 +28,7 @@ public class RoseArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:rosearmorboots")
 	public static final Item boots = null;
-	public RoseArmorItem(AetheriaElements instance) {
+	public RoseArmorItem(AetheriaModElements instance) {
 		super(instance, 57);
 	}
 

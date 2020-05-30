@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.item.RedsteelingotItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaMaterialsItemGroup extends AetheriaElements.ModElement {
-	public AetheriaMaterialsItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaMaterialsItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaMaterialsItemGroup(AetheriaModElements instance) {
 		super(instance, 398);
 	}
 

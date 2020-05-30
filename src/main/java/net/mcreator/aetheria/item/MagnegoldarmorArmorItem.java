@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MagnegoldarmorArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MagnegoldarmorArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:magnegoldarmorarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:magnegoldarmorarmorbody")
@@ -28,7 +28,7 @@ public class MagnegoldarmorArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:magnegoldarmorarmorboots")
 	public static final Item boots = null;
-	public MagnegoldarmorArmorItem(AetheriaElements instance) {
+	public MagnegoldarmorArmorItem(AetheriaModElements instance) {
 		super(instance, 49);
 	}
 

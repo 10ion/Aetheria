@@ -9,6 +9,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.IPlacementConfig;
 import net.minecraft.world.gen.feature.template.Template;
 import net.minecraft.world.gen.feature.template.PlacementSettings;
+import net.minecraft.world.gen.feature.template.BlockIgnoreStructureProcessor;
 import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
@@ -26,13 +27,13 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 
-@AetheriaElements.ModElement.Tag
-public class Silverwood2Structure extends AetheriaElements.ModElement {
-	public Silverwood2Structure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class Silverwood2Structure extends AetheriaModElements.ModElement {
+	public Silverwood2Structure(AetheriaModElements instance) {
 		super(instance, 307);
 	}
 
@@ -69,8 +70,10 @@ public class Silverwood2Structure extends AetheriaElements.ModElement {
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
 						BlockPos spawnTo = new BlockPos(i, j + 0, k);
-						template.addBlocksToWorldChunk(iworld, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random)
-								.setMirror(mirror).setChunk((ChunkPos) null).setIgnoreEntities(false));
+						template.addBlocksToWorldChunk(iworld, spawnTo,
+								new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+										.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk((ChunkPos) null)
+										.setIgnoreEntities(false));
 					}
 				}
 				return true;

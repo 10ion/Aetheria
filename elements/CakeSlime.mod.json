@@ -1,15 +1,15 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "mob",
   "definition": {
     "mobName": "Cake Slime",
     "mobLabel": "",
-    "mobModelTexture": "cakeslime.png",
     "mobModelName": "Slime",
+    "mobModelTexture": "cakeslime.png",
     "modelWidth": 1.0,
     "modelHeight": 1.0,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 0.0,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -8522647,
@@ -47,6 +47,7 @@
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "movementSpeed": 0.2,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 15,
     "xpAmount": 6,
@@ -93,6 +94,7 @@
     "rangedAttackItem": {
       "value": ""
     },
+    "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 1,

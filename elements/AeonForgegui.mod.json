@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -11,6 +11,7 @@
         "type": "outputslot",
         "data": {
           "id": 0,
+          "disableStackInteraction": false,
           "name": "Slot #0",
           "x": 516,
           "y": 114
@@ -23,6 +24,7 @@
             "value": ""
           },
           "id": 1,
+          "disableStackInteraction": false,
           "name": "Slot #1",
           "x": 300,
           "y": 42
@@ -35,6 +37,7 @@
             "value": ""
           },
           "id": 2,
+          "disableStackInteraction": false,
           "name": "Slot #2",
           "x": 336,
           "y": 42
@@ -47,6 +50,7 @@
             "value": ""
           },
           "id": 3,
+          "disableStackInteraction": false,
           "name": "Slot #3",
           "x": 372,
           "y": 42
@@ -59,6 +63,7 @@
             "value": ""
           },
           "id": 4,
+          "disableStackInteraction": false,
           "name": "Slot #4",
           "x": 408,
           "y": 42
@@ -71,6 +76,7 @@
             "value": ""
           },
           "id": 5,
+          "disableStackInteraction": false,
           "name": "Slot #5",
           "x": 444,
           "y": 42
@@ -83,6 +89,7 @@
             "value": ""
           },
           "id": 6,
+          "disableStackInteraction": false,
           "name": "Slot #6",
           "x": 300,
           "y": 78
@@ -95,6 +102,7 @@
             "value": ""
           },
           "id": 7,
+          "disableStackInteraction": false,
           "name": "Slot #7",
           "x": 336,
           "y": 78
@@ -107,6 +115,7 @@
             "value": ""
           },
           "id": 8,
+          "disableStackInteraction": false,
           "name": "Slot #8",
           "x": 372,
           "y": 78
@@ -119,6 +128,7 @@
             "value": ""
           },
           "id": 9,
+          "disableStackInteraction": false,
           "name": "Slot #9",
           "x": 408,
           "y": 78
@@ -131,6 +141,7 @@
             "value": ""
           },
           "id": 10,
+          "disableStackInteraction": false,
           "name": "Slot #10",
           "x": 444,
           "y": 78
@@ -143,6 +154,7 @@
             "value": ""
           },
           "id": 11,
+          "disableStackInteraction": false,
           "name": "Slot #11",
           "x": 300,
           "y": 114
@@ -155,6 +167,7 @@
             "value": ""
           },
           "id": 12,
+          "disableStackInteraction": false,
           "name": "Slot #12",
           "x": 336,
           "y": 114
@@ -167,6 +180,7 @@
             "value": ""
           },
           "id": 13,
+          "disableStackInteraction": false,
           "name": "Slot #13",
           "x": 372,
           "y": 114
@@ -179,6 +193,7 @@
             "value": ""
           },
           "id": 14,
+          "disableStackInteraction": false,
           "name": "Slot #14",
           "x": 408,
           "y": 114
@@ -191,6 +206,7 @@
             "value": ""
           },
           "id": 15,
+          "disableStackInteraction": false,
           "name": "Slot #15",
           "x": 444,
           "y": 114
@@ -203,6 +219,7 @@
             "value": ""
           },
           "id": 16,
+          "disableStackInteraction": false,
           "name": "Slot #16",
           "x": 300,
           "y": 150
@@ -215,6 +232,7 @@
             "value": ""
           },
           "id": 17,
+          "disableStackInteraction": false,
           "name": "Slot #17",
           "x": 336,
           "y": 150
@@ -227,6 +245,7 @@
             "value": ""
           },
           "id": 18,
+          "disableStackInteraction": false,
           "name": "Slot #18",
           "x": 372,
           "y": 150
@@ -239,6 +258,7 @@
             "value": ""
           },
           "id": 19,
+          "disableStackInteraction": false,
           "name": "Slot #19",
           "x": 408,
           "y": 150
@@ -251,6 +271,7 @@
             "value": ""
           },
           "id": 20,
+          "disableStackInteraction": false,
           "name": "Slot #20",
           "x": 444,
           "y": 150
@@ -263,6 +284,7 @@
             "value": ""
           },
           "id": 21,
+          "disableStackInteraction": false,
           "name": "Slot #21",
           "x": 300,
           "y": 186
@@ -275,6 +297,7 @@
             "value": ""
           },
           "id": 22,
+          "disableStackInteraction": false,
           "name": "Slot #22",
           "x": 336,
           "y": 186
@@ -287,6 +310,7 @@
             "value": ""
           },
           "id": 23,
+          "disableStackInteraction": false,
           "name": "Slot #23",
           "x": 372,
           "y": 186
@@ -299,6 +323,7 @@
             "value": ""
           },
           "id": 24,
+          "disableStackInteraction": false,
           "name": "Slot #24",
           "x": 408,
           "y": 186
@@ -311,6 +336,7 @@
             "value": ""
           },
           "id": 25,
+          "disableStackInteraction": false,
           "name": "Slot #25",
           "x": 444,
           "y": 186

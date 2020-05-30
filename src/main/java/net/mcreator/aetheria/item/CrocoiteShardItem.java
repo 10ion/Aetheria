@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class CrocoiteShardItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class CrocoiteShardItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:crocoiteshard")
 	public static final Item block = null;
-	public CrocoiteShardItem(AetheriaElements instance) {
+	public CrocoiteShardItem(AetheriaModElements instance) {
 		super(instance, 153);
 	}
 

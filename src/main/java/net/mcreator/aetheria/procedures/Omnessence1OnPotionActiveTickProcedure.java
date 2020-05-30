@@ -3,11 +3,11 @@ package net.mcreator.aetheria.procedures;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class Omnessence1OnPotionActiveTickProcedure extends AetheriaElements.ModElement {
-	public Omnessence1OnPotionActiveTickProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class Omnessence1OnPotionActiveTickProcedure extends AetheriaModElements.ModElement {
+	public Omnessence1OnPotionActiveTickProcedure(AetheriaModElements instance) {
 		super(instance, 210);
 	}
 

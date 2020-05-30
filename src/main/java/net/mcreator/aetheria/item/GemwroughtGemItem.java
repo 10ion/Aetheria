@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class GemwroughtGemItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class GemwroughtGemItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtgem")
 	public static final Item block = null;
-	public GemwroughtGemItem(AetheriaElements instance) {
+	public GemwroughtGemItem(AetheriaModElements instance) {
 		super(instance, 152);
 	}
 

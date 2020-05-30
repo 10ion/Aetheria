@@ -32,17 +32,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class VoidshroomBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class VoidshroomBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidshroom")
 	public static final Block block = null;
-	public VoidshroomBlock(AetheriaElements instance) {
+	public VoidshroomBlock(AetheriaModElements instance) {
 		super(instance, 131);
 	}
 

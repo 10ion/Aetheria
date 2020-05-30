@@ -13,16 +13,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class MysticalStoneBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MysticalStoneBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mysticalstone")
 	public static final Block block = null;
-	public MysticalStoneBlock(AetheriaElements instance) {
+	public MysticalStoneBlock(AetheriaModElements instance) {
 		super(instance, 119);
 	}
 

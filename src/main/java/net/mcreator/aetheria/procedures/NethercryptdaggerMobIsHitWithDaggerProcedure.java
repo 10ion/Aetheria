@@ -5,11 +5,11 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class NethercryptdaggerMobIsHitWithDaggerProcedure extends AetheriaElements.ModElement {
-	public NethercryptdaggerMobIsHitWithDaggerProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class NethercryptdaggerMobIsHitWithDaggerProcedure extends AetheriaModElements.ModElement {
+	public NethercryptdaggerMobIsHitWithDaggerProcedure(AetheriaModElements instance) {
 		super(instance, 202);
 	}
 

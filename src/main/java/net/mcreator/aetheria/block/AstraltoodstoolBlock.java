@@ -16,16 +16,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class AstraltoodstoolBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class AstraltoodstoolBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:astraltoodstool")
 	public static final Block block = null;
-	public AstraltoodstoolBlock(AetheriaElements instance) {
+	public AstraltoodstoolBlock(AetheriaModElements instance) {
 		super(instance, 125);
 	}
 

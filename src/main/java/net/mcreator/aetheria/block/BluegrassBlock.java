@@ -14,16 +14,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class BluegrassBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class BluegrassBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bluegrass")
 	public static final Block block = null;
-	public BluegrassBlock(AetheriaElements instance) {
+	public BluegrassBlock(AetheriaModElements instance) {
 		super(instance, 103);
 	}
 

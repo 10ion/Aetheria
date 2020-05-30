@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class DarksteelAArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class DarksteelAArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:darksteelaarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:darksteelaarmorbody")
@@ -28,7 +28,7 @@ public class DarksteelAArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:darksteelaarmorboots")
 	public static final Item boots = null;
-	public DarksteelAArmorItem(AetheriaElements instance) {
+	public DarksteelAArmorItem(AetheriaModElements instance) {
 		super(instance, 68);
 	}
 
