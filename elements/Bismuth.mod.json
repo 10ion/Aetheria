@@ -20,6 +20,7 @@
     "damageVsEntity": 5.0,
     "specialInfo": [],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }

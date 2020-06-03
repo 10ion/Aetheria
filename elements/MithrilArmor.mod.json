@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "mithril",
+    "armorTextureFile": "mithril_",
     "helmetName": "Mithril Helmet",
     "bodyName": "Mithril Chestplate",
     "leggingsName": "Mithril Leggings",

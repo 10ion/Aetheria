@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "zincarmor",
+    "armorTextureFile": "zincarmor_",
     "helmetName": "Zinc Helmet",
     "bodyName": "Zinc Chestplate",
     "leggingsName": "Zinc Leggings",

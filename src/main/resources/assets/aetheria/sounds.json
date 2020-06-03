@@ -35,20 +35,20 @@
       }
     ]
   },
-  "nyan-cat": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "aetheria:nyan-cat-original",
-        "stream": true
-      }
-    ]
-  },
   "space-battle": {
     "category": "music",
     "sounds": [
       {
         "name": "aetheria:space-battle",
+        "stream": true
+      }
+    ]
+  },
+  "nyan-cat": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:nyan-cat-original",
         "stream": true
       }
     ]

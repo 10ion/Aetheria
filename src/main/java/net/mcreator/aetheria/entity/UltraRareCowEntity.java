@@ -33,11 +33,18 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
+import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.model.CowModel;
+import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.IEntityRenderer;
+import net.minecraft.client.renderer.GameRenderer;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.aetheria.itemgroup.AetheriaEntitiesItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
+
+import com.mojang.blaze3d.platform.GlStateManager;
 
 @AetheriaModElements.ModElement.Tag
 public class UltraRareCowEntity extends AetheriaModElements.ModElement {
@@ -70,6 +77,9 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
+			{
+				this.addLayer(new GlowingLayer<>(this));
+			}
 			@Override
 			protected ResourceLocation getEntityTexture(Entity entity) {
 				return new ResourceLocation("aetheria:textures/ultra_rare_cow.png");
@@ -150,6 +160,46 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 		public boolean isBreedingItem(ItemStack stack) {
 			if (stack == null)
 				return false;
+			return false;
+		}
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	private static class GlowingLayer<T extends Entity, M extends EntityModel<T>> extends LayerRenderer<T, M> {
+		private static final ResourceLocation GLOW_TEXTURE = new ResourceLocation("aetheria:textures/ultra_rare_cow_glow.png");
+		public GlowingLayer(IEntityRenderer<T, M> er) {
+			super(er);
+		}
+
+		public void render(T entityIn, float l1, float l2, float l3, float l4, float l5, float l6, float l7) {
+			this.bindTexture(GLOW_TEXTURE);
+			GlStateManager.enableBlend();
+			GlStateManager.disableAlphaTest();
+			GlStateManager.blendFunc(GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ONE);
+			if (entityIn.isInvisible())
+				GlStateManager.depthMask(false);
+			else
+				GlStateManager.depthMask(true);
+			int i = 61680;
+			int j = i % 65536;
+			int k = i / 65536;
+			com.mojang.blaze3d.platform.GLX.glMultiTexCoord2f(com.mojang.blaze3d.platform.GLX.GL_TEXTURE1, (float) j, (float) k);
+			GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+			GameRenderer gamerenderer = Minecraft.getInstance().gameRenderer;
+			gamerenderer.setupFogColor(true);
+			((EntityModel<T>) this.getEntityModel()).render(entityIn, l1, l2, l4, l5, l6, l7);
+			gamerenderer.setupFogColor(false);
+			i = entityIn.getBrightnessForRender();
+			j = i % 65536;
+			k = i / 65536;
+			com.mojang.blaze3d.platform.GLX.glMultiTexCoord2f(com.mojang.blaze3d.platform.GLX.GL_TEXTURE1, (float) j, (float) k);
+			this.func_215334_a(entityIn);
+			GlStateManager.depthMask(true);
+			GlStateManager.disableBlend();
+			GlStateManager.enableAlphaTest();
+		}
+
+		public boolean shouldCombineTextures() {
 			return false;
 		}
 	}

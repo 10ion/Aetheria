@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "iridium",
+    "armorTextureFile": "iridium_",
     "helmetName": "Iridium Helmet",
     "bodyName": "Iridium Chestplate",
     "leggingsName": "Iridium Leggings",

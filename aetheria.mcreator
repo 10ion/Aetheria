@@ -2951,7 +2951,13 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "MithrilArmorHelmetRecipe",
@@ -4190,6 +4196,44 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ScytheBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scythe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scythe"
     }
   ],
   "variable_elements": [
@@ -4222,14 +4266,14 @@
       "category": "record"
     },
     {
-      "name": "nyan-cat",
-      "file": "nyan-cat-original",
-      "category": "record"
-    },
-    {
       "name": "space-battle",
       "file": "space-battle",
       "category": "music"
+    },
+    {
+      "name": "nyan-cat",
+      "file": "nyan-cat-original",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -4387,6 +4431,7 @@
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
       "item.aetheria.darkironarmorboots": "Dark Iron Boots",
       "itemGroup.tabaetheriaentities": "Aetheria Entities",
+      "item.aetheria.scythe": "Scythe",
       "item.aetheria.pewterarmorarmorhelmet": "Pewter Helmet",
       "item.aetheria.moonsilverarmorlegs": "Moonsilver Leggings",
       "item.aetheria.bluearmorbody": "Bluesteel Chestplate",

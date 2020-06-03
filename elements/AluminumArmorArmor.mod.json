@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "aluminumarmor",
+    "armorTextureFile": "aluminumarmor_",
     "helmetName": "Aluminum Helmet",
     "bodyName": "Aluminum Chestplate",
     "leggingsName": "Aluminum Leggings",

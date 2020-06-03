@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "bismuthbronzearmor",
+    "armorTextureFile": "bismuthbronzearmor_",
     "helmetName": "Bismuth Bronze Helmet",
     "bodyName": "Bismuth Bronze Chestplate",
     "leggingsName": "Bismuth Bronze Leggings",
