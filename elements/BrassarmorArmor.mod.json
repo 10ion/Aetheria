@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "brassarmor",
+    "armorTextureFile": "brassarmor_",
     "helmetName": "Brass Helmet",
     "bodyName": "Brass Chestplate",
     "leggingsName": "Brass Leggings",

@@ -67,25 +67,25 @@ public class SteelarmorArmorItem extends AetheriaModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/steelarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/steelarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("steelarmorarmorhelmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/steelarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/steelarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("steelarmorarmorbody"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/steelarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/steelarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("steelarmorarmorlegs"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/steelarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/steelarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("steelarmorarmorboots"));
 	}

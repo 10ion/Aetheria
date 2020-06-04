@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "palladiumarmor",
+    "armorTextureFile": "palladiumarmor_",
     "helmetName": "Palladium Helmet",
     "bodyName": "Palladium Chestplate",
     "leggingsName": "Palladium Leggings",

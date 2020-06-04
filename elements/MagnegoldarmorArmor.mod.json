@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "magnegoldarmor",
+    "armorTextureFile": "magnegoldarmor_",
     "helmetName": "Magnegold Helmet",
     "bodyName": "Magnegold Chestplate",
     "leggingsName": "Magnegold Leggings",

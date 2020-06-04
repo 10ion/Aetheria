@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "pewterarmor",
+    "armorTextureFile": "pewterarmor_",
     "helmetName": "Pewter Helmet",
     "bodyName": "Pewter Chestplate",
     "leggingsName": "Pewter Leggings",

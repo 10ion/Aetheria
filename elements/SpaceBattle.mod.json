@@ -1,0 +1,17 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "space_battle_music_disc",
+    "name": "Music Disc",
+    "description": "Space Battle - F-777",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMusic"
+    },
+    "music": {
+      "value": "CUSTOM:space-battle"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "tinarmor",
+    "armorTextureFile": "tinarmor_",
     "helmetName": "Tin Helmet",
     "bodyName": "Tin Chestplate",
     "leggingsName": "Tin Leggings",

@@ -1,0 +1,31 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "scythetexture",
+    "customModelName": "scythe:default",
+    "name": "Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 10.0,
+    "usageCount": 7500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.IRON_BLOCK"
+      }
+    ],
+    "onRightClickedInAir": {
+      "name": "FastCommandExecuted"
+    }
+  }
+}

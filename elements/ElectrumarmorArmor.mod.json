@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "electrumarmor",
+    "armorTextureFile": "electrumarmor_",
     "helmetName": "Electrum Helmet",
     "bodyName": "Electrum Chestplate",
     "leggingsName": "Electrum Leggings",

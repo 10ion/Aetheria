@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "black",
+    "armorTextureFile": "black_",
     "helmetName": "Black Bronze Helmet",
     "bodyName": "Black Bronze Chestplate",
     "leggingsName": "Black Bronze Leggings",

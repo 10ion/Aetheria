@@ -67,25 +67,25 @@ public class PewterarmorArmorItem extends AetheriaModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/pewterarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/pewterarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("pewterarmorarmorhelmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/pewterarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/pewterarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("pewterarmorarmorbody"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/pewterarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/pewterarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("pewterarmorarmorlegs"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/pewterarmor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/pewterarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("pewterarmorarmorboots"));
 	}

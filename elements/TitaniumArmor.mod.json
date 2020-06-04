@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "titanium",
+    "armorTextureFile": "titanium_",
     "helmetName": "Titanium Helmet",
     "bodyName": "Titanium Chestplate",
     "leggingsName": "Titanium Leggings",

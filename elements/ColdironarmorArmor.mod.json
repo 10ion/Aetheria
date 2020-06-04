@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "coldironarmor",
+    "armorTextureFile": "coldironarmor_",
     "helmetName": "Cold Iron Helmet",
     "bodyName": "Cold Iron Chestplate",
     "leggingsName": "Cold Iron Leggings",

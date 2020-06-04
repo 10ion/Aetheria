@@ -1,15 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraft.util.DamageSource;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.aetheria.AetheriaModElements;
-
 @AetheriaModElements.ModElement.Tag
 public class PlantslayingfunctionProcedure extends AetheriaModElements.ModElement {
+
 	public PlantslayingfunctionProcedure(AetheriaModElements instance) {
 		super(instance, 462);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -21,10 +17,14 @@ public class PlantslayingfunctionProcedure extends AetheriaModElements.ModElemen
 			System.err.println("Failed to load dependency itemstack for procedure Plantslayingfunction!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
+
 		if ((((itemstack).getOrCreateTag().getBoolean("testenchant")) == (true))) {
 			entity.attackEntityFrom(DamageSource.GENERIC, (float) ((0.2 * (((itemstack)).getMaxDamage())) + (((itemstack)).getMaxDamage())));
 		}
+
 	}
+
 }

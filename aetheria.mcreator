@@ -4184,6 +4184,51 @@
       "ids": {}
     },
     {
+      "name": "WoodenChairBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_chair_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lantern",
+      "type": "structure",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlantSlaying",
+      "type": "item",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "PowederKegOnBlockRightClicked",
       "type": "procedure",
       "sortid": 452,
@@ -4216,97 +4261,9 @@
       }
     },
     {
-      "name": "PowederKegExplosion",
-      "type": "procedure",
-      "sortid": 453,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Lantern",
-      "type": "structure",
-      "sortid": 454,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Ruins1",
       "type": "structure",
       "sortid": 455,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SilverOre",
-      "type": "block",
-      "sortid": 456,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "NickelOre",
-      "type": "block",
-      "sortid": 457,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "PlantSlaying",
-      "type": "item",
-      "sortid": 461,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Plantslayingfunction",
-      "type": "procedure",
-      "sortid": 462,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
-      "name": "IronRapier",
-      "type": "tool",
-      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4350,6 +4307,22 @@
       }
     },
     {
+      "name": "NickelOre",
+      "type": "block",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronRapier",
+      "type": "tool",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "WoodenChair",
       "type": "block",
       "sortid": 465,
@@ -4359,13 +4332,86 @@
       "registry_name": "wooden_chair"
     },
     {
-      "name": "WoodenChairBlockDestroyedByPlayer",
+      "name": "PowederKegExplosion",
       "type": "procedure",
-      "sortid": 466,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "wooden_chair_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Plantslayingfunction",
+      "type": "procedure",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpaceBattle",
+      "type": "musicdisc",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scythe"
+    },
+    {
+      "name": "ScytheBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scythe_block_destroyed_with_tool",
       "metadata": {
         "dependencies": [
           {
@@ -4421,6 +4467,11 @@
       "name": "nyan-cat",
       "file": "nyan-cat-original",
       "category": "record"
+    },
+    {
+      "name": "space-battle",
+      "file": "space-battle",
+      "category": "music"
     }
   ],
   "language_map": {
@@ -4440,14 +4491,14 @@
       "item.minecraft.splash_potion.effect.omnessence1": "Splash Omnessence1",
       "item.aetheria.pewterarmorarmorbody": "Pewter Chestplate",
       "item.aetheria.titaniumarmorlegs": "Titanium Leggings",
-      "item.aetheria.neko1": "Neko1 Spawn Egg",
       "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
+      "item.aetheria.neko1": "Neko1 Spawn Egg",
       "item.aetheria.bronzearmorarmorlegs": "Bronze Leggings",
       "item.aetheria.bismuth": "Bismuth",
       "item.aetheria.emeraldarmorbody": "Emerald Chestplate",
-      "item.aetheria.magnegoldarmorarmorhelmet": "Magnegold Helmet",
-      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
       "item.aetheria.moonberry": "Moonberry",
+      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
+      "item.aetheria.magnegoldarmorarmorhelmet": "Magnegold Helmet",
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "item.aetheria.silverpickaxe": "SIlver Pickaxe",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
@@ -4506,7 +4557,6 @@
       "item.aetheria.blackbronze": "Black Bronze",
       "item.aetheria.electrumarmorarmorlegs": "Electrum Leggings",
       "block.aetheria.silverwoodlog": "Silverwood Log",
-      "entity.aetheria.chair_entity": "Chair Entity",
       "item.aetheria.cakeslime": "Cake Slime Spawn Egg",
       "item.aetheria.rosearmorboots": "Rose Gold Boots",
       "item.aetheria.redbrassingot": "Red Brass Ingot",
@@ -4538,6 +4588,7 @@
       "itemGroup.tabaetheriatools": "Aetheria Tools",
       "entity.aetheria.cakeslime": "Cake Slime",
       "item.aetheria.bismuthbronzearmorarmorlegs": "Bismuth Bronze Leggings",
+      "item.aetheria.spacebattle": "Music Disc",
       "item.aetheria.tungsten": "Tungsten",
       "item.aetheria.blackarmorboots": "Black Bronze Boots",
       "item.aetheria.emeraldarmorlegs": "Emerald Leggings",
@@ -4578,6 +4629,7 @@
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
       "item.aetheria.darkironarmorboots": "Dark Iron Boots",
       "itemGroup.tabaetheriaentities": "Aetheria Entities",
+      "item.aetheria.scythe": "Scythe",
       "item.aetheria.pewterarmorarmorhelmet": "Pewter Helmet",
       "item.aetheria.moonsilverarmorlegs": "Moonsilver Leggings",
       "item.aetheria.bluearmorbody": "Bluesteel Chestplate",
@@ -4618,12 +4670,13 @@
       "item.aetheria.rosearmorhelmet": "Rose Gold Helmet",
       "block.aetheria.leadblock": "Lead Block",
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
-      "block.aetheria.cobaltore": "Cobalt Ore",
+      "block.aetheria.cobaltore": "Cobaltore",
       "item.aetheria.tungstenarmorarmorhelmet": "Tungsten Helmet",
       "block.aetheria.tinore": "Tin Ore",
       "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
       "block.aetheria.mysticalplanks": "Mystical Planks",
       "block.aetheria.voidcrystle": "Void Crystal",
+      "item.aetheria.spacebattle.desc": "Space Battle - F-777",
       "item.aetheria.titaniumarmorhelmet": "Titanium Helmet",
       "item.aetheria.tungstenarmorarmorboots": "Tungsten Boots",
       "item.aetheria.blockbird": "Blockbird Spawn Egg",
@@ -4667,8 +4720,6 @@
       "block.aetheria.rainbowcap": "Rainbow Cap",
       "block.aetheria.rainbowcapblock": "Rainbowcapblock",
       "item.aetheria.leadsword": "Lead Sword",
-      "item.aetheria.chair_entity": "Chair Entity Spawn Egg",
-      "block.aetheria.wooden_chair": "Wooden Chair",
       "item.aetheria.werenotgonnatakeit.desc": "We\u0027re Not Gonna Take It - Twisted Sister",
       "item.aetheria.stormberry": "Stormberry",
       "item.aetheria.leadarmorarmorboots": "Lead Boots",
@@ -4700,7 +4751,6 @@
       "item.aetheria.zinc": "Zinc",
       "block.aetheria.bluecrocoiteblock": "Blue Crocoite Block",
       "item.aetheria.felsteelaarmorhelmet": "FelSteel Helmet",
-      "block.aetheria.silverore": "Silver Ore",
       "item.aetheria.redsteelarmorboots": "Redsteel Boots",
       "item.aetheria.iridiumingot": "Iridium Ingot",
       "item.aetheria.tungstenarmorarmorbody": "Tungsten Chestplate",
@@ -4751,7 +4801,6 @@
       "item.aetheria.adamantaarmorbody": "Adamant Chestplate",
       "item.aetheria.moonsilverarmorboots": "Moonsilver Boots",
       "item.aetheria.ultrararecow": "Ultra Rare Cow Spawn Egg",
-      "item.aetheria.ironrapier": "Iron Rapier",
       "item.aetheria.cobaltarmorarmorlegs": "Cobalt Leggings",
       "item.aetheria.gemwroughtsword": "Gemwrought Sword",
       "item.aetheria.aluminumarmorarmorhelmet": "Aluminum Helmet",
@@ -4768,12 +4817,10 @@
       "item.aetheria.cobaltarmorarmorboots": "Cobalt Boots",
       "item.aetheria.gemwroughtarmorboots": "Gemwrought Mail Boots",
       "block.aetheria.silverwoodleaves": "Silverwood Leaves",
-      "item.aetheria.plantslaying": "Test Enchanting",
       "item.aetheria.obamiumhoe": "Obamium Hoe",
       "item.aetheria.flowingarmorbody": "Flowing Water Steel Chestplate",
       "block.aetheria.blueleaf": "Blueleaf",
       "block.aetheria.zygomycota": "Zygomycota",
-      "block.aetheria.nickelore": "Nickel Ore",
       "item.aetheria.coldironarmorarmorboots": "Cold Iron Boots",
       "item.aetheria.bismuthbronzearmorarmorhelmet": "Bismuth Bronze Helmet",
       "item.aetheria.platinumarmorarmorlegs": "Platinum Leggings",
@@ -4801,5 +4848,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000322116
+  "mcreatorVersion": 202000214217
 }

@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "tungstenarmor",
+    "armorTextureFile": "tungstenarmor_",
     "helmetName": "Tungsten Helmet",
     "bodyName": "Tungsten Chestplate",
     "leggingsName": "Tungsten Leggings",

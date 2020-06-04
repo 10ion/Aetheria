@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "fey",
+    "armorTextureFile": "fey_",
     "helmetName": "Feysteel Helmet",
     "bodyName": "Feysteel Chestplate",
     "leggingsName": "Feysteel Leggings",

@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "endersteeel",
+    "armorTextureFile": "endersteel_",
     "helmetName": "Endersteeel Helmet",
     "bodyName": "Endersteeel Chestplate",
     "leggingsName": "Endersteeel Leggings",

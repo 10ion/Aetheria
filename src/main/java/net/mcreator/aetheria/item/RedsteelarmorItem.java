@@ -67,25 +67,25 @@ public class RedsteelarmorItem extends AetheriaModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/redsteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/redsteel___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("redsteelarmorhelmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/redsteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/redsteel___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("redsteelarmorbody"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/redsteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/redsteel___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("redsteelarmorlegs"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/redsteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/redsteel___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("redsteelarmorboots"));
 	}

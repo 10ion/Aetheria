@@ -1,14 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.aetheria.AetheriaModElements;
-
 @AetheriaModElements.ModElement.Tag
 public class TitaniumIItemIsCraftedsmeltedProcedure extends AetheriaModElements.ModElement {
+
 	public TitaniumIItemIsCraftedsmeltedProcedure(AetheriaModElements instance) {
 		super(instance, 166);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -16,8 +13,12 @@ public class TitaniumIItemIsCraftedsmeltedProcedure extends AetheriaModElements.
 			System.err.println("Failed to load dependency entity for procedure TitaniumIItemIsCraftedsmelted!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if (entity instanceof PlayerEntity)
 			((PlayerEntity) entity).addExperienceLevel((int) 1);
+
 	}
+
 }

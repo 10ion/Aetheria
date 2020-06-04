@@ -67,25 +67,25 @@ public class BlueArmorItem extends AetheriaModElements.ModElement {
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/blue_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/blue__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("bluearmorhelmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/blue_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/blue__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("bluearmorbody"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/blue_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/blue__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("bluearmorlegs"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "aetheria:textures/models/armor/blue_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "aetheria:textures/models/armor/blue__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("bluearmorboots"));
 	}

@@ -1,40 +1,15 @@
 
 package net.mcreator.aetheria.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.common.ToolType;
-
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.world.Explosion;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Hand;
-import net.minecraft.util.Direction;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.aetheria.procedures.PowederKegOnBlockRightClickedProcedure;
-import net.mcreator.aetheria.procedures.PowederKegExplosionProcedure;
-import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.List;
-import java.util.Collections;
-
 @AetheriaModElements.ModElement.Tag
 public class PowederKegBlock extends AetheriaModElements.ModElement {
+
 	@ObjectHolder("aetheria:powederkeg")
 	public static final Block block = null;
+
 	public PowederKegBlock(AetheriaModElements instance) {
 		super(instance, 154);
+
 	}
 
 	@Override
@@ -43,10 +18,15 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaMiscItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 2f).lightValue(0).harvestLevel(1)
-					.harvestTool(ToolType.AXE));
+			super(
+
+					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 2f).lightValue(0).harvestLevel(1)
+							.harvestTool(ToolType.AXE));
+
 			setRegistryName("powederkeg");
 		}
 
@@ -76,6 +56,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
+
 					PowederKegExplosionProcedure.executeProcedure($_dependencies);
 				}
 			} else {
@@ -94,6 +75,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				PowederKegExplosionProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -104,6 +86,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+
 			Direction direction = hit.getFace();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
@@ -112,9 +95,13 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				PowederKegOnBlockRightClickedProcedure.executeProcedure($_dependencies);
 			}
+
 			return true;
 		}
+
 	}
+
 }

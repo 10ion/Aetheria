@@ -1,19 +1,12 @@
 
 package net.mcreator.aetheria.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.aetheria.itemgroup.AetheriaFoodItemsItemGroup;
-import net.mcreator.aetheria.AetheriaModElements;
-
 @AetheriaModElements.ModElement.Tag
 public class PizzaItem extends AetheriaModElements.ModElement {
+
 	@ObjectHolder("aetheria:pizza")
 	public static final Item block = null;
+
 	public PizzaItem(AetheriaModElements instance) {
 		super(instance, 96);
 	}
@@ -22,7 +15,9 @@ public class PizzaItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaFoodItemsItemGroup.tab).maxStackSize(64));
 			setRegistryName("pizza");
@@ -42,5 +37,7 @@ public class PizzaItem extends AetheriaModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
+
 	}
+
 }
