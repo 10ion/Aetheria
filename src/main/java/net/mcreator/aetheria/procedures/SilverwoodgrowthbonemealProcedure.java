@@ -1,11 +1,27 @@
 package net.mcreator.aetheria.procedures;
 
+import net.minecraft.world.server.ServerWorld;
+import net.minecraft.world.gen.feature.template.Template;
+import net.minecraft.world.gen.feature.template.PlacementSettings;
+import net.minecraft.world.World;
+import net.minecraft.util.math.ChunkPos;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Mirror;
+import net.minecraft.particles.ParticleTypes;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModElement {
-
 	public SilverwoodgrowthbonemealProcedure(AetheriaModElements instance) {
 		super(instance, 244);
-
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -29,13 +45,11 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 			System.err.println("Failed to load dependency world for procedure Silverwoodgrowthbonemeal!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())
 				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
@@ -92,7 +106,5 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 				}
 			}
 		}
-
 	}
-
 }

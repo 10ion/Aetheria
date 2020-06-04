@@ -1,12 +1,19 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class AdamantItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:adamant")
 	public static final Item block = null;
-
 	public AdamantItem(AetheriaModElements instance) {
 		super(instance, 39);
 	}
@@ -15,9 +22,7 @@ public class AdamantItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
 			setRegistryName("adamant");
@@ -37,7 +42,5 @@ public class AdamantItem extends AetheriaModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

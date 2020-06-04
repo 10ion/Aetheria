@@ -1,12 +1,20 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class IronRapierItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:ironrapier")
 	public static final Item block = null;
-
 	public IronRapierItem(AetheriaModElements instance) {
 		super(instance, 463);
 	}
@@ -38,8 +46,6 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 		}.setRegistryName("ironrapier"));
 	}
-
 }
