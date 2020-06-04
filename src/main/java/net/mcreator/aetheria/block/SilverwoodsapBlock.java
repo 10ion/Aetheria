@@ -26,17 +26,17 @@ import net.minecraft.block.Block;
 import net.mcreator.aetheria.procedures.SilverwoodgrowthbonemealProcedure;
 import net.mcreator.aetheria.procedures.SilverwoodalsonaturalgrowthProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class SilverwoodsapBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class SilverwoodsapBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwoodsap")
 	public static final Block block = null;
-	public SilverwoodsapBlock(AetheriaElements instance) {
+	public SilverwoodsapBlock(AetheriaModElements instance) {
 		super(instance, 155);
 	}
 

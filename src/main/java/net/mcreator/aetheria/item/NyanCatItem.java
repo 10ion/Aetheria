@@ -9,13 +9,13 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class NyanCatItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class NyanCatItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:nyancat")
 	public static final Item block = null;
-	public NyanCatItem(AetheriaElements instance) {
+	public NyanCatItem(AetheriaModElements instance) {
 		super(instance, 424);
 	}
 
@@ -25,7 +25,7 @@ public class NyanCatItem extends AetheriaElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, AetheriaElements.sounds.get(new ResourceLocation("aetheria:nyan-cat")),
+			super(0, AetheriaModElements.sounds.get(new ResourceLocation("aetheria:nyan-cat")),
 					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("nyancat");
 		}

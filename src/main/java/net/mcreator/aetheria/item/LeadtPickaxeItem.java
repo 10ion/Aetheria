@@ -5,17 +5,18 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class LeadtPickaxeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadtPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadpickaxe")
 	public static final Item block = null;
-	public LeadtPickaxeItem(AetheriaElements instance) {
+	public LeadtPickaxeItem(AetheriaModElements instance) {
 		super(instance, 428);
 	}
 
@@ -27,7 +28,7 @@ public class LeadtPickaxeItem extends AetheriaElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 2f;
+				return 1.5f;
 			}
 
 			public float getAttackDamage() {
@@ -39,13 +40,13 @@ public class LeadtPickaxeItem extends AetheriaElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 14;
+				return 7;
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(LeadItem.block, (int) (1)));
 			}
-		}, 1, -3.6f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("leadpickaxe"));
 	}
 }

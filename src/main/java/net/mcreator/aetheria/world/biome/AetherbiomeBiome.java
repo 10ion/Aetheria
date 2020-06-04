@@ -38,16 +38,16 @@ import net.mcreator.aetheria.block.MysticallogBlock;
 import net.mcreator.aetheria.block.MysticalStoneBlock;
 import net.mcreator.aetheria.block.BlueleafBlock;
 import net.mcreator.aetheria.block.BluegrassBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Set;
 import java.util.Random;
 
-@AetheriaElements.ModElement.Tag
-public class AetherbiomeBiome extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class AetherbiomeBiome extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:aetherbiome")
 	public static final CustomBiome biome = null;
-	public AetherbiomeBiome(AetheriaElements instance) {
+	public AetherbiomeBiome(AetheriaModElements instance) {
 		super(instance, 209);
 	}
 

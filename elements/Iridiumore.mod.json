@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "block",
   "definition": {
     "texture": "iridiumore",
@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -19,7 +20,6 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "faceShape": "SOLID",
     "name": "Iridiumore",
     "specialInfo": [],
     "hardness": 1.4000000000000001,
@@ -29,7 +29,6 @@
       "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "Not specified",
-    "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
     },
@@ -49,6 +48,8 @@
     "creativePickItem": {
       "value": ""
     },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -77,6 +78,7 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -86,9 +88,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
+    "frequencyPerChunks": 6,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 20
+    "minGenerateHeight": 15,
+    "maxGenerateHeight": 33
   }
 }

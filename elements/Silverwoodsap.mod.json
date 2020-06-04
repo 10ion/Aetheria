@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -9,6 +9,7 @@
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 1,
     "name": "Silverwood Sapling",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaMisc"
     },
@@ -23,11 +24,14 @@
       "value": ""
     },
     "dropAmount": 1,
+    "forceTicking": false,
     "isReplaceable": false,
     "colorOnMap": "FOLIAGE",
     "creativePickItem": {
       "value": ""
     },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 20,

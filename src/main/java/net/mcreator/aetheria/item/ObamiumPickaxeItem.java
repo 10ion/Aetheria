@@ -1,13 +1,22 @@
 
 package net.mcreator.aetheria.item;
 
-@AetheriaElements.ModElement.Tag
-public class ObamiumPickaxeItem extends AetheriaElements.ModElement {
+import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
+@AetheriaModElements.ModElement.Tag
+public class ObamiumPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:obamiumpickaxe")
 	public static final Item block = null;
-
-	public ObamiumPickaxeItem(AetheriaElements instance) {
+	public ObamiumPickaxeItem(AetheriaModElements instance) {
 		super(instance, 441);
 	}
 
@@ -38,8 +47,6 @@ public class ObamiumPickaxeItem extends AetheriaElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(ObamiumItem.block, (int) (1)));
 			}
 		}, 1, -2f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
-
 		}.setRegistryName("obamiumpickaxe"));
 	}
-
 }

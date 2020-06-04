@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "dimension",
   "definition": {
     "portalFrame": {
@@ -28,12 +28,6 @@
     "mainFillerBlock": {
       "value": "CUSTOM:Bluegrass"
     },
-    "secondaryFillerBlock": {
-      "value": "CUSTOM:MysticalStone"
-    },
-    "tertiaryFillerBlock": {
-      "value": ""
-    },
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
@@ -48,9 +42,6 @@
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false,
-    "dimensionMusic": {
-      "value": ""
-    }
+    "imitateOverworldBehaviour": false
   }
 }

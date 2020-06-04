@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaEntitiesItemGroup extends AetheriaElements.ModElement {
-	public AetheriaEntitiesItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaEntitiesItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaEntitiesItemGroup(AetheriaModElements instance) {
 		super(instance, 429);
 	}
 

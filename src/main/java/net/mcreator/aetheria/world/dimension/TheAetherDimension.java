@@ -77,7 +77,7 @@ import net.minecraft.block.Block;
 import net.mcreator.aetheria.item.TheAetherItem;
 import net.mcreator.aetheria.block.BluegrassBlock;
 import net.mcreator.aetheria.block.AetherFrameBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import javax.annotation.Nullable;
 
@@ -96,15 +96,15 @@ import com.google.common.collect.Sets;
 import com.google.common.collect.Maps;
 import com.google.common.cache.LoadingCache;
 
-@AetheriaElements.ModElement.Tag
-public class TheAetherDimension extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class TheAetherDimension extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:theaether")
 	public static final ModDimension dimension = null;
 	@ObjectHolder("aetheria:theaether_portal")
 	public static final CustomPortalBlock portal = null;
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
-	public TheAetherDimension(AetheriaElements instance) {
+	public TheAetherDimension(AetheriaModElements instance) {
 		super(instance, 151);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
@@ -685,6 +685,7 @@ public class TheAetherDimension extends AetheriaElements.ModElement {
 	}
 
 	public static class CustomDimension extends Dimension {
+		private BiomeProviderCustom biomeProviderCustom = null;
 		public CustomDimension(World world, DimensionType type) {
 			super(world, type);
 			this.nether = false;
@@ -716,7 +717,10 @@ public class TheAetherDimension extends AetheriaElements.ModElement {
 
 		@Override
 		public ChunkGenerator<?> createChunkGenerator() {
-			return new ChunkProviderModded(this.world, new BiomeProviderCustom(this.world));
+			if (this.biomeProviderCustom == null) {
+				this.biomeProviderCustom = new BiomeProviderCustom(this.world);
+			}
+			return new ChunkProviderModded(this.world, this.biomeProviderCustom);
 		}
 
 		@Override

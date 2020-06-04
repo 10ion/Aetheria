@@ -41,14 +41,14 @@ import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 
-@AetheriaElements.ModElement.Tag
-public class BlockbirdEntity extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class BlockbirdEntity extends AetheriaModElements.ModElement {
 	public static EntityType entity = null;
-	public BlockbirdEntity(AetheriaElements instance) {
+	public BlockbirdEntity(AetheriaModElements instance) {
 		super(instance, 156);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -83,6 +83,7 @@ public class BlockbirdEntity extends AetheriaElements.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
 			return new MobRenderer(renderManager, new blockbird(), 0.5f) {
+				@Override
 				protected ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("aetheria:textures/blockbirdtexture.png");
 				}
@@ -157,15 +158,17 @@ public class BlockbirdEntity extends AetheriaElements.ModElement {
 		@Override
 		protected void registerAttributes() {
 			super.registerAttributes();
-			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
-			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
-			this.getAttributes().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
+			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
+			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
+				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
+			if (this.getAttribute(SharedMonsterAttributes.FLYING_SPEED) == null)
+				this.getAttributes().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
 			this.getAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.3);
 		}
 

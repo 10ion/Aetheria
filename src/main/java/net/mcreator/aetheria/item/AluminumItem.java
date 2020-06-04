@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AluminumItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class AluminumItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:aluminum")
 	public static final Item block = null;
-	public AluminumItem(AetheriaElements instance) {
+	public AluminumItem(AetheriaModElements instance) {
 		super(instance, 12);
 	}
 

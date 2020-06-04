@@ -12,13 +12,13 @@ import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.aetheria.procedures.StormberryrollFoodEatenProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaFoodItemsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MoralmedlyItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MoralmedlyItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moralmedly")
 	public static final Item block = null;
-	public MoralmedlyItem(AetheriaElements instance) {
+	public MoralmedlyItem(AetheriaModElements instance) {
 		super(instance, 95);
 	}
 

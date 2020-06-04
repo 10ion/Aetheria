@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "silversword",
     "customModelName": "Normal",
     "name": "SIlver Sword",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaWeapons"
     },

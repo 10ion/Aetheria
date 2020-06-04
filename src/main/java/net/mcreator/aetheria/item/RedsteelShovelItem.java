@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class RedsteelShovelItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RedsteelShovelItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:redsteelshovel")
 	public static final Item block = null;
-	public RedsteelShovelItem(AetheriaElements instance) {
+	public RedsteelShovelItem(AetheriaModElements instance) {
 		super(instance, 148);
 	}
 

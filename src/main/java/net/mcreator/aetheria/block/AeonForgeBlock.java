@@ -2,10 +2,15 @@
 package net.mcreator.aetheria.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.items.wrapper.SidedInvWrapper;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -40,6 +45,7 @@ import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
@@ -55,21 +61,24 @@ import net.minecraft.block.Block;
 import net.mcreator.aetheria.procedures.ForgeguicodeProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaCraftingItemGroup;
 import net.mcreator.aetheria.gui.AeonForgeguiGui;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
+import javax.annotation.Nullable;
+
+import java.util.stream.IntStream;
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-@AetheriaElements.ModElement.Tag
-public class AeonForgeBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class AeonForgeBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:aeonforge")
 	public static final Block block = null;
 	@ObjectHolder("aetheria:aeonforge")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public AeonForgeBlock(AetheriaElements instance) {
+	public AeonForgeBlock(AetheriaModElements instance) {
 		super(instance, 161);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -219,7 +228,7 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 		}
 	}
 
-	public static class CustomTileEntity extends LockableLootTileEntity {
+	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(28, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
@@ -229,13 +238,17 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 		public void read(CompoundNBT compound) {
 			super.read(compound);
 			this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
-			ItemStackHelper.loadAllItems(compound, this.stacks);
+			if (!this.checkLootAndRead(compound)) {
+				ItemStackHelper.loadAllItems(compound, this.stacks);
+			}
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT compound) {
 			super.write(compound);
-			ItemStackHelper.saveAllItems(compound, this.stacks);
+			if (!this.checkLootAndWrite(compound)) {
+				ItemStackHelper.saveAllItems(compound, this.stacks);
+			}
 			return compound;
 		}
 
@@ -256,7 +269,7 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 
 		@Override
 		public int getSizeInventory() {
-			return 28;
+			return stacks.size();
 		}
 
 		@Override
@@ -265,16 +278,6 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 				if (!itemstack.isEmpty())
 					return false;
 			return true;
-		}
-
-		@Override
-		public boolean isItemValidForSlot(int index, ItemStack stack) {
-			return true;
-		}
-
-		@Override
-		public ItemStack getStackInSlot(int slot) {
-			return stacks.get(slot);
 		}
 
 		@Override
@@ -305,6 +308,40 @@ public class AeonForgeBlock extends AetheriaElements.ModElement {
 		@Override
 		protected void setItems(NonNullList<ItemStack> stacks) {
 			this.stacks = stacks;
+		}
+
+		@Override
+		public boolean isItemValidForSlot(int index, ItemStack stack) {
+			return true;
+		}
+
+		@Override
+		public int[] getSlotsForFace(Direction side) {
+			return IntStream.range(0, this.getSizeInventory()).toArray();
+		}
+
+		@Override
+		public boolean canInsertItem(int index, ItemStack stack, @Nullable Direction direction) {
+			return this.isItemValidForSlot(index, stack);
+		}
+
+		@Override
+		public boolean canExtractItem(int index, ItemStack stack, Direction direction) {
+			return true;
+		}
+		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
+		@Override
+		public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
+			if (!this.removed && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
+				return handlers[facing.ordinal()].cast();
+			return super.getCapability(capability, facing);
+		}
+
+		@Override
+		public void remove() {
+			super.remove();
+			for (LazyOptional<? extends IItemHandler> handler : handlers)
+				handler.invalidate();
 		}
 	}
 }

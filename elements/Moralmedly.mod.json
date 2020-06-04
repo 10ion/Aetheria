@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "moralmedly",
     "customModelName": "Normal",
     "name": "Moral Medly",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaFoodItems"
     },

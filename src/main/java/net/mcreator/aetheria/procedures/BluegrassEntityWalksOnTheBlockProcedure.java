@@ -5,11 +5,11 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class BluegrassEntityWalksOnTheBlockProcedure extends AetheriaElements.ModElement {
-	public BluegrassEntityWalksOnTheBlockProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class BluegrassEntityWalksOnTheBlockProcedure extends AetheriaModElements.ModElement {
+	public BluegrassEntityWalksOnTheBlockProcedure(AetheriaModElements instance) {
 		super(instance, 162);
 	}
 

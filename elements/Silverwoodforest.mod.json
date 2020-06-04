@@ -1,15 +1,14 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "biome",
   "definition": {
-    "name": "Silverwood forest",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "generateLakes": false,
+    "generateLakes": true,
     "treeType": 0,
     "vanillaTreeType": "Default",
     "minHeight": 7,
@@ -26,13 +25,13 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": false,
+    "customColors": true,
     "airColor": {
       "value": -5916161,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -14389449,
+      "value": -16740793,
       "falpha": 0.0
     },
     "waterColor": {
@@ -48,7 +47,6 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "deadBushesPerChunk": 0,
     "rainingPossibility": 0.7,
     "temperature": 0.44,
     "baseHeight": 0.12,
@@ -60,7 +58,26 @@
     "parent": {
       "value": "No parent"
     },
-    "biomeDictionaryTypes": [],
-    "spawnList": []
+    "biomeDictionaryTypes": [
+      "MAGICAL",
+      "FOREST"
+    ],
+    "spawnList": [
+      {
+        "value": "EntityVindicator"
+      },
+      {
+        "value": "EntityVex"
+      },
+      {
+        "value": "EntityFox"
+      },
+      {
+        "value": "EntityWolf"
+      },
+      {
+        "value": "EntityPhantom"
+      }
+    ]
   }
 }

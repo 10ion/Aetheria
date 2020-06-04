@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.block.BlueleafBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaBlocksItemGroup extends AetheriaElements.ModElement {
-	public AetheriaBlocksItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaBlocksItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaBlocksItemGroup(AetheriaModElements instance) {
 		super(instance, 401);
 	}
 

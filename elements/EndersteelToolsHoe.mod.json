@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "endersteeltools_hoe",
     "customModelName": "Normal",
     "name": "Endersteel Hoe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },

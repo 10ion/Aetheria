@@ -31,17 +31,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class FireshroomBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class FireshroomBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:fireshroom")
 	public static final Block block = null;
-	public FireshroomBlock(AetheriaElements instance) {
+	public FireshroomBlock(AetheriaModElements instance) {
 		super(instance, 135);
 	}
 

@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ColdironItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class ColdironItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:coldiron")
 	public static final Item block = null;
-	public ColdironItem(AetheriaElements instance) {
+	public ColdironItem(AetheriaModElements instance) {
 		super(instance, 22);
 	}
 

@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "fireberry",
     "customModelName": "Normal",
     "name": "Fireberry",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaFoodItems"
     },

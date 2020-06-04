@@ -1,13 +1,21 @@
 
 package net.mcreator.aetheria.item;
 
-@AetheriaElements.ModElement.Tag
-public class SIlvertHoeItem extends AetheriaElements.ModElement {
+import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.HoeItem;
+
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
+@AetheriaModElements.ModElement.Tag
+public class SIlvertHoeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverhoe")
 	public static final Item block = null;
-
-	public SIlvertHoeItem(AetheriaElements instance) {
+	public SIlvertHoeItem(AetheriaModElements instance) {
 		super(instance, 443);
 	}
 
@@ -38,8 +46,6 @@ public class SIlvertHoeItem extends AetheriaElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, -2.8f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
-
 		}.setRegistryName("silverhoe"));
 	}
-
 }

@@ -1,13 +1,21 @@
 
 package net.mcreator.aetheria.item;
 
-@AetheriaElements.ModElement.Tag
-public class SIlvertAxeItem extends AetheriaElements.ModElement {
+import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
+
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
+@AetheriaModElements.ModElement.Tag
+public class SIlvertAxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silveraxe")
 	public static final Item block = null;
-
-	public SIlvertAxeItem(AetheriaElements instance) {
+	public SIlvertAxeItem(AetheriaModElements instance) {
 		super(instance, 440);
 	}
 
@@ -38,8 +46,6 @@ public class SIlvertAxeItem extends AetheriaElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -2.8f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
-
 		}.setRegistryName("silveraxe"));
 	}
-
 }

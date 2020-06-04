@@ -22,13 +22,13 @@ import net.minecraft.block.Blocks;
 
 import net.mcreator.aetheria.block.VoidStoneBlock;
 import net.mcreator.aetheria.block.VoidMyceliumBlock;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ExtremevoidplanesBiome extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class ExtremevoidplanesBiome extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:extremevoidplanes")
 	public static final CustomBiome biome = null;
-	public ExtremevoidplanesBiome(AetheriaElements instance) {
+	public ExtremevoidplanesBiome(AetheriaModElements instance) {
 		super(instance, 312);
 	}
 

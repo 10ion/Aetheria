@@ -29,17 +29,17 @@ import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class VoidCrystleBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class VoidCrystleBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidcrystle")
 	public static final Block block = null;
-	public VoidCrystleBlock(AetheriaElements instance) {
+	public VoidCrystleBlock(AetheriaModElements instance) {
 		super(instance, 114);
 	}
 

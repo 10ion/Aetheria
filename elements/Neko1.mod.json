@@ -1,15 +1,15 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "mob",
   "definition": {
     "mobName": "Neko1",
     "mobLabel": "",
-    "mobModelTexture": "neko1.png",
     "mobModelName": "neko",
+    "mobModelTexture": "neko1.png",
     "modelWidth": 0.2,
     "modelHeight": 0.2,
     "modelShadowSize": 0.1,
-    "armorBaseValue": 0.0,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1,
@@ -47,6 +47,7 @@
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "movementSpeed": 8.4,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 10,
     "xpAmount": 5,
@@ -93,6 +94,7 @@
     "rangedAttackItem": {
       "value": ""
     },
+    "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": false,
     "spawningProbability": 20,

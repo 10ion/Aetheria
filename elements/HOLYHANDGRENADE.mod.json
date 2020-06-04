@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "gun",
   "definition": {
     "renderType": 0,
     "texture": "holyhandgrenade",
     "customModelName": "Normal",
     "name": "Holy Hand Grenade",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaWeapons"
     },
@@ -21,6 +22,9 @@
     "hasGlow": false,
     "enableMeleeDamage": true,
     "damageVsEntity": 0.1,
+    "onRangedItemUsed": {
+      "name": "HOLYHANDGRENADERangedItemUsed"
+    },
     "bulletPower": 0.4,
     "bulletDamage": 0.0,
     "bulletKnockback": 0,
@@ -36,9 +40,6 @@
     },
     "onBulletHitsEntity": {
       "name": "HOLYHANDGRENADEBulletHitsBlock"
-    },
-    "onRangedItemUsed": {
-      "name": "HOLYHANDGRENADERangedItemUsed"
     }
   }
 }

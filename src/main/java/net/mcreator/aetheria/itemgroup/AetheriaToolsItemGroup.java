@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.item.EndersteelToolsPickaxeItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaToolsItemGroup extends AetheriaElements.ModElement {
-	public AetheriaToolsItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaToolsItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaToolsItemGroup(AetheriaModElements instance) {
 		super(instance, 396);
 	}
 

@@ -1,15 +1,15 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "mob",
   "definition": {
     "mobName": "Ultra Rare Cow",
     "mobLabel": "",
-    "mobModelTexture": "ultra_rare_cow.png",
     "mobModelName": "Cow",
+    "mobModelTexture": "ultra_rare_cow.png",
     "modelWidth": 0.9,
     "modelHeight": 1.4,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 0.0,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -9751022,
@@ -47,6 +47,7 @@
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 10,
     "xpAmount": 5,
@@ -93,6 +94,7 @@
     "rangedAttackItem": {
       "value": ""
     },
+    "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 1,

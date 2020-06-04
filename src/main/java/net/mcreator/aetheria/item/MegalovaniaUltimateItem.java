@@ -9,13 +9,13 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.Item;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMusicItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class MegalovaniaUltimateItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MegalovaniaUltimateItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:megalovaniaultimate")
 	public static final Item block = null;
-	public MegalovaniaUltimateItem(AetheriaElements instance) {
+	public MegalovaniaUltimateItem(AetheriaModElements instance) {
 		super(instance, 425);
 	}
 
@@ -25,7 +25,7 @@ public class MegalovaniaUltimateItem extends AetheriaElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, AetheriaElements.sounds.get(new ResourceLocation("aetheria:megalovania-ultimate")),
+			super(0, AetheriaModElements.sounds.get(new ResourceLocation("aetheria:megalovania-ultimate")),
 					new Item.Properties().group(AetheriaMusicItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("megalovaniaultimate");
 		}

@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "leadt_axe",
     "customModelName": "Normal",
     "name": "Lead Axe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },
@@ -14,10 +15,14 @@
     "efficiency": 2.0,
     "attackSpeed": 0.6,
     "enchantability": 14,
-    "damageVsEntity": 3.0,
+    "damageVsEntity": 1.0,
     "usageCount": 40,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Lead"
+      }
+    ]
   }
 }

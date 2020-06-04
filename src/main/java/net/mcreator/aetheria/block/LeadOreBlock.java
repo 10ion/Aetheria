@@ -28,17 +28,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class LeadOreBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadore")
 	public static final Block block = null;
-	public LeadOreBlock(AetheriaElements instance) {
+	public LeadOreBlock(AetheriaModElements instance) {
 		super(instance, 113);
 	}
 
@@ -86,7 +86,7 @@ public class LeadOreBlock extends AetheriaElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 13), Placement.COUNT_RANGE, new CountRangeConfig(10, 0, 0, 64)));
+			}), block.getDefaultState(), 6), Placement.COUNT_RANGE, new CountRangeConfig(13, 0, 0, 64)));
 		}
 	}
 }

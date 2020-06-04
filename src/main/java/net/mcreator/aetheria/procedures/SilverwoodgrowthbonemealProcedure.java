@@ -16,11 +16,11 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModElement {
-	public SilverwoodgrowthbonemealProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModElement {
+	public SilverwoodgrowthbonemealProcedure(AetheriaModElements instance) {
 		super(instance, 244);
 	}
 
@@ -57,37 +57,50 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaElements.ModEleme
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BONE_MEAL, (int) (1)).getItem() == p.getItem(),
 						(int) 1);
-			for (int _ct = 0; _ct < 5; _ct++) {
-				world.addOptionalParticle(ParticleTypes.COMPOSTER, x, (y + 1), z, 3, 3, 3);
+			if (world instanceof ServerWorld) {
+				((ServerWorld) world).spawnParticle(ParticleTypes.COMPOSTER, x, (y + 1), z, (int) 5, 3, 3, 3, 1);
 			}
 		}
-		if ((Math.random() < 0.3)) {
-			if ((Math.random() < 0.33)) {
+		if ((Math.random() < 0.2)) {
+			if ((Math.random() < 0.25)) {
 				if (!world.isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 					if (template != null) {
-						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
+						template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))), new PlacementSettings()
 								.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 					}
 				}
 			} else {
-				if ((Math.random() < 0.33)) {
+				if ((Math.random() < 0.25)) {
 					if (!world.isRemote) {
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
 						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
+							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))), new PlacementSettings()
 									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
 						}
 					}
 				} else {
-					if (!world.isRemote) {
-						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
-						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + -3), (int) y, (int) (z + -3)), new PlacementSettings()
-									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
+					if ((Math.random() < 0.25)) {
+						if (!world.isRemote) {
+							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
+							if (template != null) {
+								template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))),
+										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null)
+												.setIgnoreEntities(false));
+							}
+						}
+					} else {
+						if (!world.isRemote) {
+							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood4"));
+							if (template != null) {
+								template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))),
+										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null)
+												.setIgnoreEntities(false));
+							}
 						}
 					}
 				}

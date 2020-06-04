@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class BlueArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class BlueArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bluearmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:bluearmorbody")
@@ -28,7 +28,7 @@ public class BlueArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:bluearmorboots")
 	public static final Item boots = null;
-	public BlueArmorItem(AetheriaElements instance) {
+	public BlueArmorItem(AetheriaModElements instance) {
 		super(instance, 75);
 	}
 

@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.item.RickrollItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaMusicItemGroup extends AetheriaElements.ModElement {
-	public AetheriaMusicItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaMusicItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaMusicItemGroup(AetheriaModElements instance) {
 		super(instance, 422);
 	}
 

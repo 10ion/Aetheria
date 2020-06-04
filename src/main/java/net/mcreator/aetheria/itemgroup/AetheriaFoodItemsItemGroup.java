@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
 import net.mcreator.aetheria.item.PizzasliceItem;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class AetheriaFoodItemsItemGroup extends AetheriaElements.ModElement {
-	public AetheriaFoodItemsItemGroup(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class AetheriaFoodItemsItemGroup extends AetheriaModElements.ModElement {
+	public AetheriaFoodItemsItemGroup(AetheriaModElements instance) {
 		super(instance, 402);
 	}
 

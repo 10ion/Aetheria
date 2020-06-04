@@ -22,16 +22,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class LightningrodBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LightningrodBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:lightningrod")
 	public static final Block block = null;
-	public LightningrodBlock(AetheriaElements instance) {
+	public LightningrodBlock(AetheriaModElements instance) {
 		super(instance, 122);
 	}
 

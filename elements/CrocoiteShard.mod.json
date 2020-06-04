@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -19,6 +19,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false
+    "hasGlow": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64
   }
 }

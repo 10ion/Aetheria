@@ -3,11 +3,11 @@ package net.mcreator.aetheria.procedures;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class TitaniumIItemIsCraftedsmeltedProcedure extends AetheriaElements.ModElement {
-	public TitaniumIItemIsCraftedsmeltedProcedure(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class TitaniumIItemIsCraftedsmeltedProcedure extends AetheriaModElements.ModElement {
+	public TitaniumIItemIsCraftedsmeltedProcedure(AetheriaModElements instance) {
 		super(instance, 166);
 	}
 

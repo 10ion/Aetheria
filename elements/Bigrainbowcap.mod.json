@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "structure",
   "definition": {
     "structure": "bigrainbowcap",
@@ -18,6 +18,7 @@
         "value": "CUSTOM:VoidMycelium"
       }
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

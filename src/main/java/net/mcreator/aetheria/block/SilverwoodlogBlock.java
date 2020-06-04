@@ -22,16 +22,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class SilverwoodlogBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class SilverwoodlogBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwoodlog")
 	public static final Block block = null;
-	public SilverwoodlogBlock(AetheriaElements instance) {
+	public SilverwoodlogBlock(AetheriaModElements instance) {
 		super(instance, 104);
 	}
 

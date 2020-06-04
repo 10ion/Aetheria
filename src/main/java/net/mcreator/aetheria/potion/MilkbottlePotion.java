@@ -12,23 +12,19 @@ import net.minecraft.potion.Potion;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
-import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.procedures.MilkbottlePotionStartedappliedProcedure;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@AetheriaElements.ModElement.Tag
-public class MilkbottlePotion extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class MilkbottlePotion extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:milkbottle")
 	public static final Effect potion = null;
 	@ObjectHolder("aetheria:milkbottle")
 	public static final Potion potionType = null;
-	public MilkbottlePotion(AetheriaElements instance) {
+	public MilkbottlePotion(AetheriaModElements instance) {
 		super(instance, 203);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
@@ -73,13 +69,12 @@ public class MilkbottlePotion extends AetheriaElements.ModElement {
 		}
 
 		@Override
-		public List<ItemStack> getCurativeItems() {
-			List<ItemStack> ret = new ArrayList<>();
-			return ret;
+		public boolean shouldRenderInvText(EffectInstance effect) {
+			return false;
 		}
 
 		@Override
-		public boolean shouldRenderInvText(EffectInstance effect) {
+		public boolean shouldRender(EffectInstance effect) {
 			return false;
 		}
 

@@ -1,9 +1,10 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
     "xpReward": 1.0,
+    "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,

@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class LeadtHoeItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadtHoeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadhoe")
 	public static final Item block = null;
-	public LeadtHoeItem(AetheriaElements instance) {
+	public LeadtHoeItem(AetheriaModElements instance) {
 		super(instance, 432);
 	}
 
@@ -27,7 +27,7 @@ public class LeadtHoeItem extends AetheriaElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 2f;
+				return 1f;
 			}
 
 			public float getAttackDamage() {
@@ -45,7 +45,7 @@ public class LeadtHoeItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, -3.3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("leadhoe"));
 	}
 }

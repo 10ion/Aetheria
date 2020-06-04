@@ -9,13 +9,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class LeadtShovelItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadtShovelItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadshovel")
 	public static final Item block = null;
-	public LeadtShovelItem(AetheriaElements instance) {
+	public LeadtShovelItem(AetheriaModElements instance) {
 		super(instance, 431);
 	}
 
@@ -27,7 +27,7 @@ public class LeadtShovelItem extends AetheriaElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 2f;
+				return 1f;
 			}
 
 			public float getAttackDamage() {
@@ -45,7 +45,7 @@ public class LeadtShovelItem extends AetheriaElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3.3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("leadshovel"));
 	}
 }

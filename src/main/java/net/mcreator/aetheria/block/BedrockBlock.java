@@ -20,16 +20,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class BedrockBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class BedrockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bedrock")
 	public static final Block block = null;
-	public BedrockBlock(AetheriaElements instance) {
+	public BedrockBlock(AetheriaModElements instance) {
 		super(instance, 107);
 	}
 

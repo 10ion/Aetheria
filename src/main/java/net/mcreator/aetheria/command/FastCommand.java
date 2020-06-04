@@ -9,7 +9,7 @@ import net.minecraft.command.Commands;
 import net.minecraft.command.CommandSource;
 
 import net.mcreator.aetheria.procedures.FastCommandExecutedProcedure;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.HashMap;
 import java.util.Arrays;
@@ -18,9 +18,9 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.arguments.StringArgumentType;
 
-@AetheriaElements.ModElement.Tag
-public class FastCommand extends AetheriaElements.ModElement {
-	public FastCommand(AetheriaElements instance) {
+@AetheriaModElements.ModElement.Tag
+public class FastCommand extends AetheriaModElements.ModElement {
+	public FastCommand(AetheriaModElements instance) {
 		super(instance, 173);
 	}
 

@@ -13,13 +13,13 @@ import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.aetheria.procedures.NethercryptdaggerMobIsHitWithDaggerProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class NethercryptdaggerItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class NethercryptdaggerItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:nethercryptdagger")
 	public static final Item block = null;
-	public NethercryptdaggerItem(AetheriaElements instance) {
+	public NethercryptdaggerItem(AetheriaModElements instance) {
 		super(instance, 88);
 	}
 
@@ -51,8 +51,8 @@ public class NethercryptdaggerItem extends AetheriaElements.ModElement {
 			}
 		}, 3, -3f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
 			@Override
-			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity entity2) {
-				boolean retval = super.hitEntity(itemstack, entity, entity2);
+			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
 				int x = (int) entity.posX;
 				int y = (int) entity.posY;
 				int z = (int) entity.posZ;

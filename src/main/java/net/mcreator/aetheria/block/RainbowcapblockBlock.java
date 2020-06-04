@@ -16,16 +16,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaBlocksItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class RainbowcapblockBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class RainbowcapblockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:rainbowcapblock")
 	public static final Block block = null;
-	public RainbowcapblockBlock(AetheriaElements instance) {
+	public RainbowcapblockBlock(AetheriaModElements instance) {
 		super(instance, 128);
 	}
 

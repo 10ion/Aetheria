@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "structure",
   "definition": {
     "structure": "silverwood2",
@@ -22,6 +22,7 @@
       {
         "value": "CUSTOM:Silverwoodforest"
       }
-    ]
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

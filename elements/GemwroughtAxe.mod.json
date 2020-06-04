@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "gemwrought_axe",
     "customModelName": "Normal",
     "name": "Gemwrought Axe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },

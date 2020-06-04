@@ -16,10 +16,10 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class PlatinumarmorArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class PlatinumarmorArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:platinumarmorarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:platinumarmorarmorbody")
@@ -28,7 +28,7 @@ public class PlatinumarmorArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:platinumarmorarmorboots")
 	public static final Item boots = null;
-	public PlatinumarmorArmorItem(AetheriaElements instance) {
+	public PlatinumarmorArmorItem(AetheriaModElements instance) {
 		super(instance, 71);
 	}
 

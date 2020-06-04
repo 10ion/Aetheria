@@ -17,10 +17,10 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class EmeraldArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class EmeraldArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:emeraldarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:emeraldarmorbody")
@@ -29,7 +29,7 @@ public class EmeraldArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:emeraldarmorboots")
 	public static final Item boots = null;
-	public EmeraldArmorItem(AetheriaElements instance) {
+	public EmeraldArmorItem(AetheriaModElements instance) {
 		super(instance, 70);
 	}
 

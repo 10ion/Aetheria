@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "potion",
   "definition": {
     "name": "Milkbottle",
@@ -13,7 +13,6 @@
     "isBad": false,
     "isBenefitical": false,
     "registerPotionType": true,
-    "curativeItems": [],
     "renderStatusInInventory": false,
     "renderStatusInHUD": false,
     "onStarted": {

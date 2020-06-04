@@ -15,16 +15,16 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@AetheriaElements.ModElement.Tag
-public class LeadBlockBlock extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class LeadBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadblock")
 	public static final Block block = null;
-	public LeadBlockBlock(AetheriaElements instance) {
+	public LeadBlockBlock(AetheriaModElements instance) {
 		super(instance, 149);
 	}
 

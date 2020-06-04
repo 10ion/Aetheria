@@ -8,13 +8,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class OricalIngotItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class OricalIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:oricalingot")
 	public static final Item block = null;
-	public OricalIngotItem(AetheriaElements instance) {
+	public OricalIngotItem(AetheriaModElements instance) {
 		super(instance, 36);
 	}
 

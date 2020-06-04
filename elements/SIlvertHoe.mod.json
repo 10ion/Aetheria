@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 8,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "silvert_hoe",
     "customModelName": "Normal",
     "name": "SIlver Hoe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:AetheriaTools"
     },

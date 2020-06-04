@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/silver_ore",
+    "up": "aetheria:blocks/silver_ore",
+    "north": "aetheria:blocks/silver_ore",
+    "east": "aetheria:blocks/silver_ore",
+    "south": "aetheria:blocks/silver_ore",
+    "west": "aetheria:blocks/silver_ore",
+    "particle": "aetheria:blocks/silver_ore"
+  }
+}

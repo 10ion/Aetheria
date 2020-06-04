@@ -17,10 +17,10 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.aetheria.itemgroup.AetheriaArmorItemGroup;
-import net.mcreator.aetheria.AetheriaElements;
+import net.mcreator.aetheria.AetheriaModElements;
 
-@AetheriaElements.ModElement.Tag
-public class ObsidianArmorItem extends AetheriaElements.ModElement {
+@AetheriaModElements.ModElement.Tag
+public class ObsidianArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:obsidianarmorhelmet")
 	public static final Item helmet = null;
 	@ObjectHolder("aetheria:obsidianarmorbody")
@@ -29,7 +29,7 @@ public class ObsidianArmorItem extends AetheriaElements.ModElement {
 	public static final Item legs = null;
 	@ObjectHolder("aetheria:obsidianarmorboots")
 	public static final Item boots = null;
-	public ObsidianArmorItem(AetheriaElements instance) {
+	public ObsidianArmorItem(AetheriaModElements instance) {
 		super(instance, 56);
 	}
 
