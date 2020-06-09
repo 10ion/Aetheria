@@ -1,13 +1,13 @@
 {
-  "_fv": 4,
+  "_fv": 8,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "Glowmoss",
+    "texture": "glowmoss",
     "customModelName": "Normal",
     "name": "Glowmoss",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:QuestItems"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -17,10 +17,11 @@
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
     "enableMeleeDamage": false,
-    "damageVsEntity": 5.0,
-    "specialInfo": [
-      "A legendarymoss scraped from the depths of an ancient dungeon."
-    ],
-    "hasGlow": false
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
   }
 }

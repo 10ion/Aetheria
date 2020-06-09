@@ -4234,6 +4234,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "scythe"
+    },
+    {
+      "name": "OPTestPick",
+      "type": "tool",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "op_test_pick"
+    },
+    {
+      "name": "Glowmoss",
+      "type": "item",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowmoss"
+    },
+    {
+      "name": "QuestItems",
+      "type": "tab",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quest_items"
     }
   ],
   "variable_elements": [
@@ -4404,7 +4431,7 @@
       "item.aetheria.tin": "Tin",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
       "item.aetheria.nyancat": "Music Disc",
-      "block.aetheria.bluegrass": "Bluegrass",
+      "block.aetheria.bluegrass": "Blue Grass",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "block.aetheria.silverblock": "Silver Block",
       "item.aetheria.aluminum": "Aluminum",
@@ -4534,6 +4561,7 @@
       "block.aetheria.specialstone": "Special Stone",
       "item.aetheria.rosegoldingot": "Rose Gold Ingot",
       "item.aetheria.feyarmorboots": "Feysteel Boots",
+      "itemGroup.tabquest_items": "Quest Items",
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
       "item.aetheria.coldironarmorarmorbody": "Cold Iron Chestplate",
       "item.aetheria.feyarmorlegs": "Feysteel Leggings",
@@ -4627,9 +4655,11 @@
       "item.aetheria.bismuthbronzearmorarmorhelmet": "Bismuth Bronze Helmet",
       "item.aetheria.platinumarmorarmorlegs": "Platinum Leggings",
       "item.aetheria.obamiumsword": "Obamium Sword",
+      "item.aetheria.glowmoss": "Glowmoss",
       "item.aetheria.electrumarmorarmorhelmet": "Electrum Helmet",
       "item.aetheria.adamant": "Adamant",
-      "item.aetheria.gemwroughtgem": "Gemwrought"
+      "item.aetheria.gemwroughtgem": "Gemwrought",
+      "item.aetheria.op_test_pick": "OP Test Pick"
     }
   },
   "workspaceSettings": {

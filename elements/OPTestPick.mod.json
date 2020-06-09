@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "testpick",
+    "customModelName": "Normal",
+    "name": "OP Test Pick",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 50,
+    "efficiency": 15.0,
+    "attackSpeed": 50.0,
+    "enchantability": 100000,
+    "damageVsEntity": 20.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

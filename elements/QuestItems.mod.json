@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "Quest Items",
+    "icon": {
+      "value": "CUSTOM:Glowmoss"
+    },
+    "showSearch": false
+  }
+}
