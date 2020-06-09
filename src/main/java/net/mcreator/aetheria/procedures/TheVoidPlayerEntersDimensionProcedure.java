@@ -4,7 +4,6 @@ import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.aetheria.block.VoidStoneBlock;
 import net.mcreator.aetheria.AetheriaModElements;
@@ -45,13 +44,13 @@ public class TheVoidPlayerEntersDimensionProcedure extends AetheriaModElements.M
 		World world = (World) dependencies.get("world");
 		{
 			Entity _ent = entity;
-			_ent.setPositionAndUpdate((x + 2000), (y + 2002), (z + 2000));
+			_ent.setPositionAndUpdate(x, (y + 2002), z);
 			if (_ent instanceof ServerPlayerEntity) {
-				((ServerPlayerEntity) _ent).connection.setPlayerLocation((x + 2000), (y + 2002), (z + 2000), _ent.rotationYaw, _ent.rotationPitch,
+				((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, (y + 2002), z, _ent.rotationYaw, _ent.rotationPitch,
 						Collections.emptySet());
 			}
 		}
-		world.setBlockState(new BlockPos((int) x, (int) 50, (int) z), Blocks.WATER.getDefaultState(), 3);
+		world.setBlockState(new BlockPos((int) x, (int) 50, (int) z), VoidStoneBlock.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) (x - 1), (int) 50, (int) z), VoidStoneBlock.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) x, (int) 50, (int) (z - 1)), VoidStoneBlock.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) x, (int) 50, (int) (z + 1)), VoidStoneBlock.block.getDefaultState(), 3);

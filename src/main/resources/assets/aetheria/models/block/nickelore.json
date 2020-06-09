@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/nickelore",
+    "up": "aetheria:blocks/nickelore",
+    "north": "aetheria:blocks/nickelore",
+    "east": "aetheria:blocks/nickelore",
+    "south": "aetheria:blocks/nickelore",
+    "west": "aetheria:blocks/nickelore",
+    "particle": "aetheria:blocks/nickelore"
+  }
+}

@@ -27,7 +27,7 @@ public class LeadtHoeItem extends AetheriaModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 2f;
+				return 1f;
 			}
 
 			public float getAttackDamage() {
@@ -45,7 +45,7 @@ public class LeadtHoeItem extends AetheriaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, -3.3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("leadhoe"));
 	}
 }

@@ -50,7 +50,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 5,
+    "flammability": 1024,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -79,6 +79,15 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "onRightClicked": {
+      "name": "PowederKegOnBlockRightClicked"
+    },
+    "onDestroyedByExplosion": {
+      "name": "PowederKegExplosion"
+    },
+    "onRedstoneOn": {
+      "name": "PowederKegExplosion"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -6,7 +6,6 @@
     "mobLabel": "",
     "mobModelName": "Cow",
     "mobModelTexture": "ultra_rare_cow.png",
-    "mobModelGlowTexture": "ultra_rare_cow_glow.png",
     "modelWidth": 0.9,
     "modelHeight": 1.4,
     "modelShadowSize": 0.5,

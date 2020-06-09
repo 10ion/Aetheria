@@ -61,8 +61,8 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 				((ServerWorld) world).spawnParticle(ParticleTypes.COMPOSTER, x, (y + 1), z, (int) 5, 3, 3, 3, 1);
 			}
 		}
-		if ((Math.random() < 0.3)) {
-			if ((Math.random() < 0.33)) {
+		if ((Math.random() < 0.2)) {
+			if ((Math.random() < 0.25)) {
 				if (!world.isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
@@ -72,7 +72,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 					}
 				}
 			} else {
-				if ((Math.random() < 0.33)) {
+				if ((Math.random() < 0.25)) {
 					if (!world.isRemote) {
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
@@ -82,12 +82,25 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 						}
 					}
 				} else {
-					if (!world.isRemote) {
-						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
-						if (template != null) {
-							template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))), new PlacementSettings()
-									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null).setIgnoreEntities(false));
+					if ((Math.random() < 0.25)) {
+						if (!world.isRemote) {
+							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
+							if (template != null) {
+								template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))),
+										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null)
+												.setIgnoreEntities(false));
+							}
+						}
+					} else {
+						if (!world.isRemote) {
+							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
+									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood4"));
+							if (template != null) {
+								template.addBlocksToWorldChunk(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))),
+										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk((ChunkPos) null)
+												.setIgnoreEntities(false));
+							}
 						}
 					}
 				}

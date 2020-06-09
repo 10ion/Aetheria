@@ -5,8 +5,7 @@
     "recipeType": "Smelting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
-    "group": "",
+    "recipeRetstackSize": 0,
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "CUSTOM:Titaniumore"

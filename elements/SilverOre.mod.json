@@ -1,5 +1,5 @@
 {
-  "_fv": 4,
+  "_fv": 8,
   "_type": "block",
   "definition": {
     "texture": "silver_ore",
@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -19,17 +20,15 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "faceShape": "SOLID",
     "name": "Silver Ore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 15.0,
+    "hardness": 1.5,
+    "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "pickaxe",
-    "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
     },
@@ -43,19 +42,26 @@
       "value": "ROCK"
     },
     "tickRate": 10,
+    "tickRandomly": false,
     "isReplaceable": false,
-    "isFlammable": false,
-    "colorOnMap": "GRAY",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -65,11 +71,14 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -80,8 +89,8 @@
       }
     ],
     "frequencyPerChunks": 8,
-    "frequencyOnChunk": 10,
-    "minGenerateHeight": 10,
-    "maxGenerateHeight": 90
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 35
   }
 }

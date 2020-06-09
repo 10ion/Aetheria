@@ -8,7 +8,7 @@
     "undergroundBlock": {
       "value": "Blocks.DIRT#0"
     },
-    "generateLakes": false,
+    "generateLakes": true,
     "treeType": 0,
     "vanillaTreeType": "Default",
     "minHeight": 7,
@@ -25,13 +25,13 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": false,
+    "customColors": true,
     "airColor": {
       "value": -5916161,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -14389449,
+      "value": -16740793,
       "falpha": 0.0
     },
     "waterColor": {
@@ -58,7 +58,26 @@
     "parent": {
       "value": "No parent"
     },
-    "biomeDictionaryTypes": [],
-    "spawnList": []
+    "biomeDictionaryTypes": [
+      "MAGICAL",
+      "FOREST"
+    ],
+    "spawnList": [
+      {
+        "value": "EntityVindicator"
+      },
+      {
+        "value": "EntityVex"
+      },
+      {
+        "value": "EntityFox"
+      },
+      {
+        "value": "EntityWolf"
+      },
+      {
+        "value": "EntityPhantom"
+      }
+    ]
   }
 }

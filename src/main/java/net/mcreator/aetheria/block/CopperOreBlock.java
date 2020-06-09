@@ -88,7 +88,7 @@ public class CopperOreBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 18), Placement.COUNT_RANGE, new CountRangeConfig(12, 0, 0, 68)));
+			}), block.getDefaultState(), 10), Placement.COUNT_RANGE, new CountRangeConfig(7, 0, 0, 68)));
 		}
 	}
 }

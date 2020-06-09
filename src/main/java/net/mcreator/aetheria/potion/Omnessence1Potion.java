@@ -58,6 +58,11 @@ public class Omnessence1Potion extends AetheriaModElements.ModElement {
 		}
 
 		@Override
+		public boolean shouldRender(EffectInstance effect) {
+			return true;
+		}
+
+		@Override
 		public boolean shouldRenderHUD(EffectInstance effect) {
 			return true;
 		}

@@ -74,6 +74,11 @@ public class MilkbottlePotion extends AetheriaModElements.ModElement {
 		}
 
 		@Override
+		public boolean shouldRender(EffectInstance effect) {
+			return false;
+		}
+
+		@Override
 		public boolean shouldRenderHUD(EffectInstance effect) {
 			return false;
 		}

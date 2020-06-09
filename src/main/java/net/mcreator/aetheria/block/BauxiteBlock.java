@@ -81,7 +81,7 @@ public class BauxiteBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 10), Placement.COUNT_RANGE, new CountRangeConfig(14, 0, 0, 95)));
+			}), block.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(14, 0, 0, 95)));
 		}
 	}
 }
