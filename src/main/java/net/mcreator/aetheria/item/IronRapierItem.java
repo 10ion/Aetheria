@@ -1,12 +1,24 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class IronRapierItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:ironrapier")
 	public static final Item block = null;
-
 	public IronRapierItem(AetheriaModElements instance) {
 		super(instance, 463);
 	}
@@ -15,11 +27,11 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 225;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 3f;
 			}
 
 			public float getAttackDamage() {
@@ -27,7 +39,7 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 0;
 			}
 
 			public int getEnchantability() {
@@ -35,11 +47,14 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT, (int) (1)));
 			}
 		}, 3, -2f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("ironrapier"));
 	}
-
 }

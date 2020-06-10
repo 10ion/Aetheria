@@ -11,14 +11,18 @@
       "value": "COMBAT"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
+    "harvestLevel": 0,
+    "efficiency": 3.0,
     "attackSpeed": 2.0,
     "enchantability": 2,
     "damageVsEntity": 1.0,
-    "usageCount": 100,
+    "usageCount": 225,
     "blocksAffected": [],
-    "hasGlow": false,
-    "repairItems": []
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ]
   }
 }

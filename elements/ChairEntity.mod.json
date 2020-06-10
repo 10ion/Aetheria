@@ -5,7 +5,7 @@
     "mobName": "Chair Entity",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "chairentity.png",
+    "mobModelTexture": "notexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 1.0,
     "modelHeight": 1.0,

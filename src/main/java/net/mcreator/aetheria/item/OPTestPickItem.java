@@ -1,12 +1,19 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class OPTestPickItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:op_test_pick")
 	public static final Item block = null;
-
 	public OPTestPickItem(AetheriaModElements instance) {
 		super(instance, 454);
 	}
@@ -38,8 +45,6 @@ public class OPTestPickItem extends AetheriaModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, 46f, new Item.Properties().group(null)) {
-
 		}.setRegistryName("op_test_pick"));
 	}
-
 }

@@ -2,7 +2,7 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "woodenchair",
+    "texture": "woodchair",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "chairmodel:default",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
