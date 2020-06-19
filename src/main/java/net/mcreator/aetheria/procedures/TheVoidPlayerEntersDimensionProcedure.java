@@ -44,9 +44,9 @@ public class TheVoidPlayerEntersDimensionProcedure extends AetheriaModElements.M
 		World world = (World) dependencies.get("world");
 		{
 			Entity _ent = entity;
-			_ent.setPositionAndUpdate(x, (y + 2002), z);
+			_ent.setPositionAndUpdate((x + 2002), (y + 2002), (z + 2002));
 			if (_ent instanceof ServerPlayerEntity) {
-				((ServerPlayerEntity) _ent).connection.setPlayerLocation(x, (y + 2002), z, _ent.rotationYaw, _ent.rotationPitch,
+				((ServerPlayerEntity) _ent).connection.setPlayerLocation((x + 2002), (y + 2002), (z + 2002), _ent.rotationYaw, _ent.rotationPitch,
 						Collections.emptySet());
 			}
 		}

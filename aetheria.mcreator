@@ -4636,7 +4636,7 @@
       "item.aetheria.tin": "Tin",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
       "item.aetheria.nyancat": "Music Disc",
-      "block.aetheria.bluegrass": "Bluegrass",
+      "block.aetheria.bluegrass": "Blue Grass",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "block.aetheria.silverblock": "Silver Block",
       "item.aetheria.aluminum": "Aluminum",
@@ -4704,7 +4704,7 @@
       "item.aetheria.rosearmorhelmet": "Rose Gold Helmet",
       "block.aetheria.leadblock": "Lead Block",
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
-      "block.aetheria.cobaltore": "Cobaltore",
+      "block.aetheria.cobaltore": "Cobalt Ore",
       "item.aetheria.tungstenarmorarmorhelmet": "Tungsten Helmet",
       "block.aetheria.tinore": "Tin Ore",
       "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
@@ -4891,5 +4891,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000321322
+  "mcreatorVersion": 202000322116
 }
