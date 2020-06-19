@@ -4465,6 +4465,58 @@
           }
         ]
       }
+    },
+    {
+      "name": "DeadPlayerBody",
+      "type": "mob",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_player_body"
+    },
+    {
+      "name": "Deadbodyisappearing",
+      "type": "procedure",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deadbodyisappearing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SporeReservoirMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spore_reservoir_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SporeReservoir",
+      "type": "fluid",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spore_reservoir"
     }
   ],
   "variable_elements": [
@@ -4573,6 +4625,7 @@
       "item.aetheria.magnegoldarmorarmorlegs": "Magnegold Leggings",
       "item.aetheria.aluminumarmorarmorbody": "Aluminum Chestplate",
       "item.aetheria.cobaltarmorarmorhelmet": "Cobalt Helmet",
+      "item.aetheria.spore_reservoir_bucket": "SporeReservoir Bucket",
       "item.aetheria.bismutharmorarmorlegs": "Bismuth Leggings",
       "item.aetheria.cobaltarmorarmorbody": "Cobalt Chestplate",
       "item.aetheria.tinarmorarmorboots": "Tin Boots",
@@ -4636,7 +4689,7 @@
       "item.aetheria.tin": "Tin",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
       "item.aetheria.nyancat": "Music Disc",
-      "block.aetheria.bluegrass": "Bluegrass",
+      "block.aetheria.bluegrass": "Blue Grass",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "block.aetheria.silverblock": "Silver Block",
       "item.aetheria.aluminum": "Aluminum",
@@ -4661,6 +4714,7 @@
       "item.aetheria.endersteeltoolspickaxe": "Endersteel Pickaxe",
       "item.aetheria.bronzearmorarmorboots": "Bronze Boots",
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
+      "item.aetheria.dead_player_body": "Dead Player Body Spawn Egg",
       "item.aetheria.darkironarmorboots": "Dark Iron Boots",
       "itemGroup.tabaetheriaentities": "Aetheria Entities",
       "item.aetheria.scythe": "Scythe",
@@ -4673,6 +4727,7 @@
       "item.aetheria.coldironarmorarmorlegs": "Cold Iron Leggings",
       "item.aetheria.silver": "Silver",
       "item.aetheria.electrumarmorarmorbody": "Electrum Chestplate",
+      "fluid.spore_reservoir": "SporeReservoir",
       "itemGroup.tabaetheriablocks": "Aetheria Blocks",
       "item.aetheria.leadhoe": "Lead Hoe",
       "item.aetheria.mithrilingot": "Mithril Ingot",
@@ -4704,7 +4759,7 @@
       "item.aetheria.rosearmorhelmet": "Rose Gold Helmet",
       "block.aetheria.leadblock": "Lead Block",
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
-      "block.aetheria.cobaltore": "Cobaltore",
+      "block.aetheria.cobaltore": "Cobalt Ore",
       "item.aetheria.tungstenarmorarmorhelmet": "Tungsten Helmet",
       "block.aetheria.tinore": "Tin Ore",
       "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
@@ -4808,6 +4863,7 @@
       "item.aetheria.redsteelarmorbody": "Redsteel Chestplate",
       "item.aetheria.coldiron": "Coldiron",
       "item.aetheria.darkfelsteelarmorboots": "Black Felsteel Boots",
+      "entity.aetheria.dead_player_body": "Dead Player Body",
       "item.aetheria.pewter": "Pewter",
       "item.aetheria.tinarmorarmorlegs": "Tin Leggings",
       "block.aetheria.astraltoadstool": "Astral Toadstool",
@@ -4891,5 +4947,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000321322
+  "mcreatorVersion": 202000322116
 }

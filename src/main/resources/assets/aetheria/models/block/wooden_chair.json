@@ -1,8 +1,8 @@
 {
   "parent": "aetheria:custom/chairmodel",
   "textures": {
-    "all": "aetheria:blocks/woodchair",
-    "particle": "aetheria:blocks/woodchair",
-    "2": "aetheria:blocks/woodenchair"
+    "all": "aetheria:blocks/woodchairtexture",
+    "particle": "aetheria:blocks/woodchairtexture",
+    "2": "aetheria:blocks/woodchairtexture"
   }
 }
