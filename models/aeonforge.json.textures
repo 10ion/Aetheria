@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "2": "woodchairtexture"
+        "1": "aeontexture"
       },
       "name": "default"
     }
