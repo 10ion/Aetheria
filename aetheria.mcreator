@@ -117,7 +117,8 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "titanium_ore"
     },
     {
       "name": "Titaniumingot",
@@ -1281,7 +1282,8 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "bismuth_ore"
     },
     {
       "name": "BronzeArmorArmor",
@@ -1381,7 +1383,8 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "tinore"
     },
     {
       "name": "CopperArmorArmor",
@@ -4517,6 +4520,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spore_reservoir"
+    },
+    {
+      "name": "FoxFur",
+      "type": "item",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fox_fur"
     }
   ],
   "variable_elements": [
@@ -4657,7 +4669,6 @@
       "item.aetheria.palladiumarmorarmorlegs": "Palladium Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
       "item.aetheria.megalovaniaultimate": "Music Disc",
-      "block.aetheria.bismuthore": "Bismuth Ore",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.darkfelsteelarmorlegs": "Black Felsteel Leggings",
       "item.aetheria.steelarmorarmorbody": "Steel Chestplate",
@@ -4733,7 +4744,6 @@
       "item.aetheria.mithrilingot": "Mithril Ingot",
       "item.aetheria.flowingwatersteelingot": "Flowing Water Steel Ingot",
       "item.aetheria.obsidianarmorbody": "Obsidian Chestplate",
-      "block.aetheria.titaniumore": "Titanium ore",
       "item.aetheria.nickelingot": "Nickel Ingot",
       "item.aetheria.gemwroughthoe": "Gemwrought Hoe",
       "item.aetheria.endersteeltoolshoe": "Endersteel Hoe",
@@ -4761,8 +4771,8 @@
       "item.aetheria.gemwroughtshovel": "Gemwrought Shovel",
       "block.aetheria.cobaltore": "Cobalt Ore",
       "item.aetheria.tungstenarmorarmorhelmet": "Tungsten Helmet",
-      "block.aetheria.tinore": "Tin Ore",
       "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
+      "block.aetheria.tinore": "Tin Ore",
       "block.aetheria.mysticalplanks": "Mystical Planks",
       "block.aetheria.voidcrystle": "Void Crystal",
       "item.aetheria.spacebattle.desc": "Space Battle - F-777",
@@ -4780,6 +4790,7 @@
       "item.aetheria.felsteelaarmorlegs": "FelSteel Leggings",
       "block.aetheria.mysticallog": "Mystical log",
       "item.aetheria.darkironingot": "Dark Iron Ingot",
+      "block.aetheria.bismuth_ore": "Bismuth Ore",
       "item.aetheria.sterlingsilver": "Sterling Silver",
       "item.aetheria.redbrassarmorbody": "Red Brass Chestplate",
       "itemGroup.tabaetheriamusic": "Aetheria Music",
@@ -4793,6 +4804,7 @@
       "itemGroup.tabaetheriamisc": "Aetheria Miscellaneous",
       "item.aetheria.steel": "Steel",
       "item.aetheria.brassarmorarmorlegs": "Brass Leggings",
+      "block.aetheria.titanium_ore": "Titanium ore",
       "block.aetheria.aetherframe": "Aether Frame",
       "item.aetheria.megalovaniaultimate.desc": "Megalovania Ultimate - ?",
       "item.aetheria.pewterarmorarmorboots": "Pewter Boots",
@@ -4831,6 +4843,7 @@
       "item.aetheria.bronzearmorarmorhelmet": "Bronze Helmet",
       "item.aetheria.leadshovel": "Lead Shovel",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
+      "item.aetheria.fox_fur": "Fox Fur",
       "item.aetheria.bluearmorhelmet": "Bluesteel Helmet",
       "item.aetheria.zincarmorarmorboots": "Zinc Boots",
       "item.aetheria.flowingarmorhelmet": "Flowing Water Steel Helmet",

@@ -50,7 +50,7 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 10,
+    "health": 1,
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
@@ -65,7 +65,7 @@
     "immuneToDrowning": true,
     "immuneToLightning": true,
     "immuneToPotions": true,
-    "immuneToPlayer": true,
+    "immuneToPlayer": false,
     "mobDrop": {
       "value": ""
     },

@@ -35,7 +35,7 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class TitaniumoreBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:titaniumore")
+	@ObjectHolder("aetheria:titanium_ore")
 	public static final Block block = null;
 	public TitaniumoreBlock(AetheriaModElements instance) {
 		super(instance, 99);
@@ -51,7 +51,7 @@ public class TitaniumoreBlock extends AetheriaModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 25f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("titaniumore");
+			setRegistryName("titanium_ore");
 		}
 
 		@Override
@@ -76,7 +76,7 @@ public class TitaniumoreBlock extends AetheriaModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("titaniumore", "titaniumore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("titanium_ore", "titanium_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;

@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
@@ -45,7 +45,7 @@ public class LeadtSwordItem extends AetheriaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.2000000000000001f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3.2000000000000001f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
 		}.setRegistryName("leadsword"));
 	}
 }

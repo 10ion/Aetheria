@@ -35,7 +35,7 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class BismuthOreBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:bismuthore")
+	@ObjectHolder("aetheria:bismuth_ore")
 	public static final Block block = null;
 	public BismuthOreBlock(AetheriaModElements instance) {
 		super(instance, 108);
@@ -51,7 +51,7 @@ public class BismuthOreBlock extends AetheriaModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.4000000000000001f, 14.5f).lightValue(0)
 					.harvestLevel(2).harvestTool(ToolType.PICKAXE));
-			setRegistryName("bismuthore");
+			setRegistryName("bismuth_ore");
 		}
 
 		@Override
@@ -76,7 +76,7 @@ public class BismuthOreBlock extends AetheriaModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("bismuthore", "bismuthore", blockAt -> {
+			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("bismuth_ore", "bismuth_ore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;

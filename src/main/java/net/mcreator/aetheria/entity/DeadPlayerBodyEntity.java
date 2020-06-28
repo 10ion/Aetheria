@@ -18,7 +18,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
@@ -105,8 +104,6 @@ public class DeadPlayerBodyEntity extends AetheriaModElements.ModElement {
 		public boolean attackEntityFrom(DamageSource source, float amount) {
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;
-			if (source.getImmediateSource() instanceof PlayerEntity)
-				return false;
 			if (source.getImmediateSource() instanceof PotionEntity)
 				return false;
 			if (source == DamageSource.FALL)
@@ -126,7 +123,7 @@ public class DeadPlayerBodyEntity extends AetheriaModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(1);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
