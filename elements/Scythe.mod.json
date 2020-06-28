@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "scythetexture",
+    "texture": "scythetext",
     "customModelName": "scythe:default",
     "name": "Scythe",
     "specialInfo": [],

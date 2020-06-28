@@ -29,6 +29,13 @@ public class BedrockreplaceProcedure extends AetheriaModElements.ModElement {
 						"fill ~-10 0 ~-10 ~10 ~10 ~10 aetheria:bedrock replace minecraft:bedrock");
 			}
 		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"fill ~-10 ~-10 ~-10 ~10 ~10 ~10 aetheria:bedrock replace minecraft:bedrock");
+			}
+		}
 	}
 
 	@SubscribeEvent
