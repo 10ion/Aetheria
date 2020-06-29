@@ -1,0 +1,20 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 3.0,
+    "cookingTime": 300,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:TungstenOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:RTungsten"
+    },
+    "name": "tungsten_smelt",
+    "namespace": "mod"
+  }
+}

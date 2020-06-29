@@ -1,0 +1,12 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "aetheria:zinc_ore"
+  },
+  "result": {
+    "item": "aetheria:zinc"
+  }
+}

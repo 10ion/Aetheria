@@ -81,7 +81,7 @@ public class BismuthOreBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 6), Placement.COUNT_RANGE, new CountRangeConfig(5, 0, 0, 50)));
+			}), block.getDefaultState(), 9), Placement.COUNT_RANGE, new CountRangeConfig(15, 0, 0, 50)));
 		}
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "aetheria:nickelore"
+  },
+  "result": {
+    "item": "aetheria:nickelore"
+  }
+}

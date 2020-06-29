@@ -1,0 +1,20 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 3.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RTungsten"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Tungsten"
+    },
+    "name": "raw_to_ingot_tungsten",
+    "namespace": "mod"
+  }
+}

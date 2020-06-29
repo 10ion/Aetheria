@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/palladium",
+    "up": "aetheria:blocks/palladium",
+    "north": "aetheria:blocks/palladium",
+    "east": "aetheria:blocks/palladium",
+    "south": "aetheria:blocks/palladium",
+    "west": "aetheria:blocks/palladium",
+    "particle": "aetheria:blocks/palladium"
+  }
+}

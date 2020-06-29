@@ -1,0 +1,12 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "aetheria:palladium_ore"
+  },
+  "result": {
+    "item": "aetheria:palladium"
+  }
+}
