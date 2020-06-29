@@ -4561,7 +4561,7 @@
       "name": "PalladiumOre",
       "type": "block",
       "sortid": 474,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "palladium_ore"
@@ -4570,7 +4570,7 @@
       "name": "TungstenOre",
       "type": "block",
       "sortid": 471,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "tungsten_ore"
@@ -4588,7 +4588,7 @@
       "name": "PlatinumOre",
       "type": "block",
       "sortid": 475,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "platinum_ore"
@@ -4597,7 +4597,7 @@
       "name": "ZincOre",
       "type": "block",
       "sortid": 476,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "zinc_ore"
@@ -4691,6 +4691,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "platinum_blast"
+    },
+    {
+      "name": "GlowshroomStewFoodEaten",
+      "type": "procedure",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_stew_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlowshroomStew",
+      "type": "food",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_stew"
     }
   ],
   "variable_elements": [
@@ -4761,6 +4787,7 @@
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "item.aetheria.silverpickaxe": "SIlver Pickaxe",
       "item.aetheria.redsteelarmorlegs": "Redsteel Leggings",
+      "item.aetheria.glowshroom_stew": "Glowshroom Stew",
       "block.aetheria.lightningrod": "Lightningrod",
       "item.aetheria.copperarmorarmorboots": "Copper Boots",
       "block.aetheria.macowaniteblock": "Macowaniteblock",
@@ -4820,6 +4847,7 @@
       "entity.aetheria.chair_entity": "Chair Entity",
       "item.aetheria.cakeslime": "Cake Slime Spawn Egg",
       "item.aetheria.rosearmorboots": "Rose Gold Boots",
+      "block.aetheria.tungsten_ore": "Tungsten Ore",
       "item.aetheria.redbrassingot": "Red Brass Ingot",
       "advancements.specialstoneachievement.title": "Easter Egg Achievment",
       "advancements.voidenter.descr": "Enter The Void",
@@ -4944,6 +4972,7 @@
       "item.aetheria.blockbird": "Blockbird Spawn Egg",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
       "item.aetheria.mithrilarmorbody": "Mithril Chestplate",
+      "block.aetheria.platinum_ore": "Platinum Ore",
       "block.aetheria.copperore": "Copper Ore",
       "item.aetheria.bluearmorboots": "Bluesteel Boots",
       "item.aetheria.sterlingarmorarmorbody": "Sterling Silver Chestplate",
@@ -4960,6 +4989,7 @@
       "biome.aetheria.silverwoodforest": "Silverwood forest",
       "item.aetheria.tinarmorarmorbody": "Tin Chestplate",
       "item.aetheria.coldironarmorarmorhelmet": "Cold Iron Helmet",
+      "block.aetheria.zinc_ore": "Zinc Ore",
       "item.aetheria.nickelarmorbody": "Nickel Chestplate",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.bismutharmorarmorboots": "Bismuth Boots",
@@ -5064,6 +5094,7 @@
       "effect.omnessence1": "Omnessence1",
       "item.aetheria.silverarmorarmorlegs": "Silver Leggings",
       "item.aetheria.darkfelsteelingot": "Dark Fel Steel Ingot",
+      "block.aetheria.palladium_ore": "Palladium Ore",
       "item.aetheria.zincarmorarmorlegs": "Zinc Leggings",
       "item.aetheria.magnegoldarmorarmorbody": "Magnegold Chestplate",
       "item.aetheria.lupin": "lupin Spawn Egg",
