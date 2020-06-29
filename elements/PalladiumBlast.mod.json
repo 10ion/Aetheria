@@ -1,0 +1,20 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 3.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:PalladiumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Palladium"
+    },
+    "name": "palladium_blast",
+    "namespace": "mod"
+  }
+}

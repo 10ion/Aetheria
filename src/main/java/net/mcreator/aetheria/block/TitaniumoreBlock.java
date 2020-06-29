@@ -81,7 +81,7 @@ public class TitaniumoreBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 16), Placement.COUNT_RANGE, new CountRangeConfig(10, 0, 0, 10)));
+			}), block.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(3, 0, 0, 10)));
 		}
 	}
 }

@@ -297,7 +297,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "tungsten_ingot"
     },
     {
       "name": "RTungsten",
@@ -305,7 +306,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "tungsten_raw"
     },
     {
       "name": "Pewter",
@@ -4529,6 +4531,150 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fox_fur"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_ore"
+    },
+    {
+      "name": "TungstenSmelt",
+      "type": "recipe",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tungsten_smelt"
+    },
+    {
+      "name": "RawToIngotTungsten",
+      "type": "recipe",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_to_ingot_tungsten"
+    },
+    {
+      "name": "PalladiumOre",
+      "type": "block",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_ore"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ore"
+    },
+    {
+      "name": "ZincOre",
+      "type": "block",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ore"
+    },
+    {
+      "name": "ZincOreSmelt",
+      "type": "recipe",
+      "sortid": 477,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_ore_smelt"
+    },
+    {
+      "name": "PlatinumSmelt",
+      "type": "recipe",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_smelt"
+    },
+    {
+      "name": "ZincBlast",
+      "type": "recipe",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zinc_blast"
+    },
+    {
+      "name": "PlatinumBlast",
+      "type": "recipe",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_blast"
+    },
+    {
+      "name": "PalladiumSmelt",
+      "type": "recipe",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_smelt"
+    },
+    {
+      "name": "PalladiumBlast",
+      "type": "recipe",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palladium_blast"
+    },
+    {
+      "name": "SilverSmelt",
+      "type": "recipe",
+      "sortid": 483,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_smelt"
+    },
+    {
+      "name": "SilverBlast",
+      "type": "recipe",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_blast"
+    },
+    {
+      "name": "NickelSmelt",
+      "type": "recipe",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nickel_smelt"
+    },
+    {
+      "name": "NickelBlast",
+      "type": "recipe",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nickel_blast"
     }
   ],
   "variable_elements": [
@@ -4658,6 +4804,7 @@
       "entity.aetheria.chair_entity": "Chair Entity",
       "item.aetheria.cakeslime": "Cake Slime Spawn Egg",
       "item.aetheria.rosearmorboots": "Rose Gold Boots",
+      "block.aetheria.tungsten_ore": "Tungsten Ore",
       "item.aetheria.redbrassingot": "Red Brass Ingot",
       "advancements.specialstoneachievement.title": "Easter Egg Achievment",
       "advancements.voidenter.descr": "Enter The Void",
@@ -4687,7 +4834,6 @@
       "entity.aetheria.cakeslime": "Cake Slime",
       "item.aetheria.bismuthbronzearmorarmorlegs": "Bismuth Bronze Leggings",
       "item.aetheria.spacebattle": "Music Disc",
-      "item.aetheria.tungsten": "Tungsten",
       "item.aetheria.blackarmorboots": "Black Bronze Boots",
       "item.aetheria.emeraldarmorlegs": "Emerald Leggings",
       "item.aetheria.endersteeelarmorlegs": "Endersteeel Leggings",
@@ -4760,6 +4906,7 @@
       "item.aetheria.adamantaarmorhelmet": "Adamant Helmet",
       "item.aetheria.redbrassarmorboots": "Red Brass Boots",
       "item.aetheria.rickroll.desc": "Ckir Stelay - Ckir Lorl",
+      "item.aetheria.tungsten_raw": "Raw Tungsten",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.bismuthbronzearmorarmorbody": "Bismuth Bronze Chestplate",
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
@@ -4781,6 +4928,7 @@
       "item.aetheria.blockbird": "Blockbird Spawn Egg",
       "item.aetheria.endersteeltoolsaxe": "Endersteel Axe",
       "item.aetheria.mithrilarmorbody": "Mithril Chestplate",
+      "block.aetheria.platinum_ore": "Platinum Ore",
       "block.aetheria.copperore": "Copper Ore",
       "item.aetheria.bluearmorboots": "Bluesteel Boots",
       "item.aetheria.sterlingarmorarmorbody": "Sterling Silver Chestplate",
@@ -4797,6 +4945,7 @@
       "biome.aetheria.silverwoodforest": "Silverwood forest",
       "item.aetheria.tinarmorarmorbody": "Tin Chestplate",
       "item.aetheria.coldironarmorarmorhelmet": "Cold Iron Helmet",
+      "block.aetheria.zinc_ore": "Zinc Ore",
       "item.aetheria.nickelarmorbody": "Nickel Chestplate",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.bismutharmorarmorboots": "Bismuth Boots",
@@ -4839,7 +4988,6 @@
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
       "item.aetheria.coldironarmorarmorbody": "Cold Iron Chestplate",
       "item.aetheria.feyarmorlegs": "Feysteel Leggings",
-      "item.aetheria.rtungsten": "Raw Tungsten",
       "item.aetheria.bronzearmorarmorhelmet": "Bronze Helmet",
       "item.aetheria.leadshovel": "Lead Shovel",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
@@ -4902,6 +5050,7 @@
       "effect.omnessence1": "Omnessence1",
       "item.aetheria.silverarmorarmorlegs": "Silver Leggings",
       "item.aetheria.darkfelsteelingot": "Dark Fel Steel Ingot",
+      "block.aetheria.palladium_ore": "Palladium Ore",
       "item.aetheria.zincarmorarmorlegs": "Zinc Leggings",
       "item.aetheria.magnegoldarmorarmorbody": "Magnegold Chestplate",
       "item.aetheria.lupin": "lupin Spawn Egg",
@@ -4931,6 +5080,7 @@
       "block.aetheria.blueleaf": "Blueleaf",
       "block.aetheria.zygomycota": "Zygomycota",
       "block.aetheria.nickelore": "Nickel Ore",
+      "item.aetheria.tungsten_ingot": "Tungsten Ingot",
       "item.aetheria.coldironarmorarmorboots": "Cold Iron Boots",
       "item.aetheria.bismuthbronzearmorarmorhelmet": "Bismuth Bronze Helmet",
       "item.aetheria.platinumarmorarmorlegs": "Platinum Leggings",

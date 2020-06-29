@@ -1,0 +1,12 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:blasting",
+  "experience": 3,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "aetheria:tungsten_ore"
+  },
+  "result": {
+    "item": "aetheria:tungsten_raw"
+  }
+}

@@ -4,7 +4,7 @@
   "experience": 0,
   "cookingtime": 200,
   "ingredient": {
-    "item": "aetheria:titaniumore"
+    "item": "aetheria:titanium_ore"
   },
   "result": {
     "item": "aetheria:titaniumingot"

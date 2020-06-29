@@ -1,0 +1,12 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "aetheria:palladium_ore"
+  },
+  "result": {
+    "item": "aetheria:palladium"
+  }
+}

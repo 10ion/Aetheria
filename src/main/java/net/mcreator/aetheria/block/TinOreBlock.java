@@ -79,7 +79,7 @@ public class TinOreBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8), Placement.COUNT_RANGE, new CountRangeConfig(9, 0, 0, 58)));
+			}), block.getDefaultState(), 11), Placement.COUNT_RANGE, new CountRangeConfig(22, 0, 0, 58)));
 		}
 	}
 }

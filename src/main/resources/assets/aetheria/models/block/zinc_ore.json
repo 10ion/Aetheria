@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/zinkore",
+    "up": "aetheria:blocks/zinkore",
+    "north": "aetheria:blocks/zinkore",
+    "east": "aetheria:blocks/zinkore",
+    "south": "aetheria:blocks/zinkore",
+    "west": "aetheria:blocks/zinkore",
+    "particle": "aetheria:blocks/zinkore"
+  }
+}
