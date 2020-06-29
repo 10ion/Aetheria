@@ -5,7 +5,8 @@
     "mobName": "Blockbird",
     "mobLabel": "",
     "mobModelName": "blockbird",
-    "mobModelTexture": "blockbirdtexture.png",
+    "mobModelTexture": "placeholder.png",
+    "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -59,7 +60,7 @@
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
@@ -72,10 +73,10 @@
       "value": "CUSTOM:keekuu"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.parrot.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.parrot.death"
     },
     "spawnParticles": false,
     "particleToSpawn": {

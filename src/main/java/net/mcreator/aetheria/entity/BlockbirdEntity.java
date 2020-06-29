@@ -85,7 +85,7 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			return new MobRenderer(renderManager, new blockbird(), 0.5f) {
 				@Override
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("aetheria:textures/blockbirdtexture.png");
+					return new ResourceLocation("aetheria:textures/placeholder.png");
 				}
 			};
 		});
@@ -138,12 +138,12 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.parrot.hurt"));
 		}
 
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.parrot.death"));
 		}
 
 		@Override
@@ -153,6 +153,13 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 
 		@Override
 		public void fall(float l, float d) {
+		}
+
+		@Override
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source == DamageSource.FALL)
+				return false;
+			return super.attackEntityFrom(source, amount);
 		}
 
 		@Override
