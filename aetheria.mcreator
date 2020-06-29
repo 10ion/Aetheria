@@ -4717,6 +4717,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowshroom_stew"
+    },
+    {
+      "name": "GlowshroomStewRecipe",
+      "type": "recipe",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glowshroom_stew_recipe"
     }
   ],
   "variable_elements": [

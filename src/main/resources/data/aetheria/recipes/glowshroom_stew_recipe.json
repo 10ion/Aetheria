@@ -1,0 +1,16 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheria:glowshroom_item"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "aetheria:glowshroom_stew",
+    "count": 1
+  }
+}

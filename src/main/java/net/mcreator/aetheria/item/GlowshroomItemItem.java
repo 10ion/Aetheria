@@ -26,7 +26,7 @@ public class GlowshroomItemItem extends AetheriaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64));
+			super(new Item.Properties().group(ItemGroup.DECORATIONS).maxStackSize(64));
 			setRegistryName("glowshroom_item");
 		}
 
