@@ -3,15 +3,15 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "glowshroom",
+    "texture": "glowshroom_stew",
     "customModelName": "Normal",
     "name": "Glowshroom Stew",
     "specialInfo": [],
     "creativeTab": {
       "value": "FOOD"
     },
-    "stackSize": 64,
-    "nutritionalValue": 4,
+    "stackSize": 1,
+    "nutritionalValue": 6,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "forDogs": false,

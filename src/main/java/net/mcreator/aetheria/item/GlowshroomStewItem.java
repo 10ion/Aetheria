@@ -28,8 +28,8 @@ public class GlowshroomStewItem extends AetheriaModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f).setAlwaysEdible().build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1)
+					.food((new Food.Builder()).hunger(6).saturation(0.3f).setAlwaysEdible().build()));
 			setRegistryName("glowshroom_stew");
 		}
 
