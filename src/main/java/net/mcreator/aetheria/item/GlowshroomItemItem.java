@@ -1,12 +1,21 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class GlowshroomItemItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:glowshroom_item")
 	public static final Item block = null;
-
 	public GlowshroomItemItem(AetheriaModElements instance) {
 		super(instance, 471);
 	}
@@ -15,9 +24,7 @@ public class GlowshroomItemItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64));
 			setRegistryName("glowshroom_item");
@@ -43,7 +50,5 @@ public class GlowshroomItemItem extends AetheriaModElements.ModElement {
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
 		}
-
 	}
-
 }

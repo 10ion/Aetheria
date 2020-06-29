@@ -4561,7 +4561,7 @@
       "name": "PalladiumOre",
       "type": "block",
       "sortid": 474,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "palladium_ore"
@@ -4570,7 +4570,7 @@
       "name": "TungstenOre",
       "type": "block",
       "sortid": 471,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "tungsten_ore"
@@ -4588,7 +4588,7 @@
       "name": "PlatinumOre",
       "type": "block",
       "sortid": 475,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "platinum_ore"
@@ -4597,7 +4597,7 @@
       "name": "ZincOre",
       "type": "block",
       "sortid": 476,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "zinc_ore"
@@ -4737,8 +4737,8 @@
     "en_us": {
       "item.aetheria.sterlingarmorarmorboots": "Sterling Silver Boots",
       "item.aetheria.darkfelsteelarmorbody": "Black Felsteel Chestplate",
-      "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
       "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
+      "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
       "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.iridiumarmorbody": "Iridium Chestplate",
@@ -4831,6 +4831,7 @@
       "item.aetheria.palladiumarmorarmorlegs": "Palladium Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
       "item.aetheria.megalovaniaultimate": "Music Disc",
+      "block.aetheria.glowshroom": "Glowshroom",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.darkfelsteelarmorlegs": "Black Felsteel Leggings",
       "item.aetheria.steelarmorarmorbody": "Steel Chestplate",
@@ -5081,6 +5082,7 @@
       "block.aetheria.ghostmorel": "Ghost Morel",
       "item.aetheria.rickroll": "Music Disk",
       "entity.aetheria.lupin": "lupin",
+      "item.aetheria.glowshroom_item": "Glowshroom",
       "item.aetheria.copper": "Copper",
       "block.aetheria.voidshroom": "Voidshroom",
       "item.aetheria.cobaltarmorarmorboots": "Cobalt Boots",
