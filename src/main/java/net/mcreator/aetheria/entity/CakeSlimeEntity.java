@@ -19,8 +19,13 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.monster.SlimeEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.goal.LookAtGoal;
+import net.minecraft.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
@@ -52,7 +57,20 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 3, 4, 40));
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("plains")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("mountains")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("taiga")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("swamp")))
+				biomeCriteria = true;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
+			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 2, 4, 40));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::func_223315_a);
@@ -69,7 +87,7 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 					}
 				});
 	}
-	public static class CustomEntity extends SlimeEntity {
+	public static class CustomEntity extends MonsterEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -83,6 +101,11 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
+			this.goalSelector.addGoal(1, new LookAtGoal(this, PlayerEntity.class, (float) 10));
+			this.goalSelector.addGoal(2, new LeapAtTargetGoal(this, (float) 0.5));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 0.7, false));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 		}
 
 		@Override
@@ -120,12 +143,12 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.2);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(15);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(4);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(1);
 		}
 	}
 }

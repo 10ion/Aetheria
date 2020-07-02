@@ -4,7 +4,7 @@
   "experience": 5,
   "cookingtime": 200,
   "ingredient": {
-    "item": "aetheria:unknown_element"
+    "item": "aetheria:platinum_ore"
   },
   "result": {
     "item": "aetheria:platinum"
