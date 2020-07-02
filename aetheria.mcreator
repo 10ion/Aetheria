@@ -4531,15 +4531,6 @@
       "registry_name": "fox_fur"
     },
     {
-      "name": "GlowshroomItem",
-      "type": "item",
-      "sortid": 471,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "glowshroom_item"
-    },
-    {
       "name": "Glowshroom",
       "type": "plant",
       "sortid": 471,
@@ -4772,8 +4763,8 @@
     "en_us": {
       "item.aetheria.sterlingarmorarmorboots": "Sterling Silver Boots",
       "item.aetheria.darkfelsteelarmorbody": "Black Felsteel Chestplate",
-      "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
       "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
+      "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
       "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.iridiumarmorbody": "Iridium Chestplate",
@@ -5122,7 +5113,6 @@
       "block.aetheria.ghostmorel": "Ghost Morel",
       "item.aetheria.rickroll": "Music Disk",
       "entity.aetheria.lupin": "lupin",
-      "item.aetheria.glowshroom_item": "Glowshroom",
       "item.aetheria.copper": "Copper",
       "block.aetheria.voidshroom": "Voidshroom",
       "item.aetheria.cobaltarmorarmorboots": "Cobalt Boots",

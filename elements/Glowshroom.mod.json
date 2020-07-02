@@ -21,14 +21,14 @@
       "value": "PLANT"
     },
     "customDrop": {
-      "value": "CUSTOM:GlowshroomItem"
+      "value": ""
     },
     "dropAmount": 1,
     "forceTicking": false,
     "isReplaceable": false,
     "colorOnMap": "YELLOW",
     "creativePickItem": {
-      "value": "CUSTOM:GlowshroomItem"
+      "value": ""
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
@@ -38,10 +38,6 @@
     "spawnWorldTypes": [
       "CUSTOM:TheAether"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Aetherbiome"
-      }
-    ]
+    "restrictionBiomes": []
   }
 }
