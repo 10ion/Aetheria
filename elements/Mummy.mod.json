@@ -2,26 +2,26 @@
   "_fv": 8,
   "_type": "mob",
   "definition": {
-    "mobName": "Cake Slime",
+    "mobName": "Mummy",
     "mobLabel": "",
-    "mobModelName": "Slime",
-    "mobModelTexture": "cakeslime.png",
-    "mobModelGlowTexture": "",
-    "modelWidth": 1.0,
-    "modelHeight": 1.0,
+    "mobModelName": "Modelundead",
+    "mobModelTexture": "mummy.png",
+    "mobModelGlowTexture": "mummyoverlay.png",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -8522647,
+      "value": -3618716,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -16777216,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AetheriaEntities"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -45,13 +45,13 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
-    "attackStrength": 1,
+    "mobCreatureType": "UNDEAD",
+    "attackStrength": 5,
     "movementSpeed": 0.2,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 6.0,
     "trackingRange": 64,
-    "health": 4,
-    "xpAmount": 6,
+    "health": 20,
+    "xpAmount": 10,
     "waterMob": false,
     "flyingMob": false,
     "disableCollisions": false,
@@ -61,8 +61,8 @@
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
@@ -70,25 +70,25 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.husk.ambient"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.husk.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.husk.death"
     },
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SLIME"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.1,
-    "particleAmount": 1,
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"watch_closest_entity\"><field name=\"radius\">10</field><field name=\"entity\">EntityPlayer</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><next><block type=\"attack_on_collide\"><field name=\"speed\">0.7</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"restrict_sun\"><next><block type=\"wander\"><field name=\"speed\">0.8</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,
@@ -98,25 +98,16 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 2,
+    "spawningProbability": 5,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 40,
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
-        "value": "plains"
+        "value": "desert"
       },
       {
-        "value": "mountains"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "swamp"
-      },
-      {
-        "value": "jungle"
+        "value": "desert_hills"
       }
     ],
     "spawnInDungeons": false

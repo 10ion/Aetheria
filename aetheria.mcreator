@@ -4717,6 +4717,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glowshroom_stew_recipe"
+    },
+    {
+      "name": "Mummy",
+      "type": "mob",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mummy"
     }
   ],
   "variable_elements": [
@@ -4812,6 +4821,7 @@
       "block.aetheria.bauxite": "Bauxite",
       "item.aetheria.leadaxe": "Lead Axe",
       "biome.aetheria.aetherbiome": "Aetherbiome",
+      "item.aetheria.mummy": "Mummy Spawn Egg",
       "item.aetheria.tinarmorarmorhelmet": "Tin Helmet",
       "advancements.voidenter.title": "Subtranian Lacuna",
       "item.aetheria.nethercryptdagger": "Nethercrypt Dagger",
@@ -4878,6 +4888,7 @@
       "entity.aetheria.cakeslime": "Cake Slime",
       "item.aetheria.bismuthbronzearmorarmorlegs": "Bismuth Bronze Leggings",
       "item.aetheria.spacebattle": "Music Disc",
+      "item.aetheria.tungsten": "Tungsten Ingot",
       "item.aetheria.blackarmorboots": "Black Bronze Boots",
       "item.aetheria.emeraldarmorlegs": "Emerald Leggings",
       "item.aetheria.endersteeelarmorlegs": "Endersteeel Leggings",
@@ -4894,6 +4905,7 @@
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "block.aetheria.silverblock": "Silver Block",
       "item.aetheria.aluminum": "Aluminum",
+      "entity.aetheria.mummy": "Mummy",
       "item.aetheria.coldironn": "Cold Iron Nugget",
       "block.aetheria.silverwoodsapling": "Silverwood Sapling",
       "item.aetheria.obamiumshovel": "Obamium Shovel",
@@ -5033,6 +5045,7 @@
       "item.aetheria.coldironarmorarmorbody": "Cold Iron Chestplate",
       "item.aetheria.feyarmorlegs": "Feysteel Leggings",
       "item.aetheria.bronzearmorarmorhelmet": "Bronze Helmet",
+      "item.aetheria.rtungsten": "Raw Tungsten",
       "item.aetheria.leadshovel": "Lead Shovel",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
       "item.aetheria.fox_fur": "Fox Fur",
