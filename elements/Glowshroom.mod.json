@@ -38,10 +38,6 @@
     "spawnWorldTypes": [
       "CUSTOM:TheAether"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Aetherbiome"
-      }
-    ]
+    "restrictionBiomes": []
   }
 }
