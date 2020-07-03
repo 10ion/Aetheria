@@ -4,7 +4,7 @@
   "definition": {
     "name": "Aetheria Music",
     "icon": {
-      "value": "CUSTOM:Rickroll"
+      "value": "Items.RECORD_CHIRP"
     },
     "showSearch": false
   }

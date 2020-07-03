@@ -18,7 +18,6 @@ import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Effects;
@@ -26,7 +25,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -35,7 +33,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.world.dimension.TheAetherDimension;
-import net.mcreator.aetheria.item.GlowshroomItemItem;
 import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
@@ -88,13 +85,8 @@ public class GlowshroomBlock extends AetheriaModElements.ModElement {
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS, MaterialColor.YELLOW).doesNotBlockMovement().sound(SoundType.PLANT)
-					.hardnessAndResistance(0f, 0f).lightValue(0));
+					.hardnessAndResistance(0f, 0f).lightValue(9));
 			setRegistryName("glowshroom");
-		}
-
-		@Override
-		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(GlowshroomItemItem.block, (int) (1));
 		}
 
 		@Override
@@ -102,7 +94,7 @@ public class GlowshroomBlock extends AetheriaModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(GlowshroomItemItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
 		@Override

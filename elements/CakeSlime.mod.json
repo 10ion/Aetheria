@@ -88,7 +88,7 @@
     "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"watch_closest_entity\"><field name=\"radius\">10</field><field name=\"entity\">EntityPlayer</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><next><block type=\"attack_on_collide\"><field name=\"speed\">0.7</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><next><block type=\"attack_on_collide\"><field name=\"speed\">0.7</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,

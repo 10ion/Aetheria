@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "endersteeltools_sword",
+    "texture": "endersteelsword",
     "customModelName": "Normal",
     "name": "Endersteel Sword",
     "specialInfo": [],

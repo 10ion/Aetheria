@@ -40,7 +40,7 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class BlueCrocoiteBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:bluecrocoite")
+	@ObjectHolder("aetheria:crocoite")
 	public static final Block block = null;
 	public BlueCrocoiteBlock(AetheriaModElements instance) {
 		super(instance, 137);
@@ -80,7 +80,7 @@ public class BlueCrocoiteBlock extends AetheriaModElements.ModElement {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.GLASS)
 					.hardnessAndResistance(0.5f, 2f).lightValue(3));
-			setRegistryName("bluecrocoite");
+			setRegistryName("crocoite");
 		}
 
 		@Override

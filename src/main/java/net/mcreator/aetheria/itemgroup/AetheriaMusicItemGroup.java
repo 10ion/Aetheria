@@ -4,10 +4,10 @@ package net.mcreator.aetheria.itemgroup;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.aetheria.item.RickrollItem;
 import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class AetheriaMusicItemGroup extends AetheriaModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(RickrollItem.block, (int) (1));
+				return new ItemStack(Items.MUSIC_DISC_CHIRP, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)
