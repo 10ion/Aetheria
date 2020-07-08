@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheria:blocks/platinum_ore",
+    "up": "aetheria:blocks/platinum_ore",
+    "north": "aetheria:blocks/platinum_ore",
+    "east": "aetheria:blocks/platinum_ore",
+    "south": "aetheria:blocks/platinum_ore",
+    "west": "aetheria:blocks/platinum_ore",
+    "particle": "aetheria:blocks/platinum_ore"
+  }
+}

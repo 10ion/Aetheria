@@ -36,7 +36,7 @@ public class AdamantAArmorItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 999;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 700;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {

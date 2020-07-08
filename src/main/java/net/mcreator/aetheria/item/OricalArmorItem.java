@@ -40,7 +40,7 @@ public class OricalArmorItem extends AetheriaModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{23, 23, 23, 23}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -61,7 +61,7 @@ public class OricalArmorItem extends AetheriaModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0f;
+				return 5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {

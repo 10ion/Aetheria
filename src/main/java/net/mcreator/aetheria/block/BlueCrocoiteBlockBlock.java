@@ -26,7 +26,7 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class BlueCrocoiteBlockBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:bluecrocoiteblock")
+	@ObjectHolder("aetheria:crocoite_block")
 	public static final Block block = null;
 	public BlueCrocoiteBlockBlock(AetheriaModElements instance) {
 		super(instance, 116);
@@ -41,7 +41,7 @@ public class BlueCrocoiteBlockBlock extends AetheriaModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 16f).lightValue(0));
-			setRegistryName("bluecrocoiteblock");
+			setRegistryName("crocoite_block");
 		}
 
 		@OnlyIn(Dist.CLIENT)

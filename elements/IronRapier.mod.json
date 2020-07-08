@@ -8,17 +8,17 @@
     "name": "Iron Rapier",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaTools"
     },
     "toolType": "Sword",
     "harvestLevel": 0,
     "efficiency": 3.0,
-    "attackSpeed": 2.0,
+    "attackSpeed": 3.6,
     "enchantability": 2,
     "damageVsEntity": 1.0,
     "usageCount": 225,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": [
       {
         "value": "Items.IRON_INGOT"

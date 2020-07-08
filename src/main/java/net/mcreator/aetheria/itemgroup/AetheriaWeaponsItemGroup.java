@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.aetheria.item.GemwroughtSwordItem;
+import net.mcreator.aetheria.item.EndersteelToolsSwordItem;
 import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class AetheriaWeaponsItemGroup extends AetheriaModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(GemwroughtSwordItem.block, (int) (1));
+				return new ItemStack(EndersteelToolsSwordItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -1,5 +1,5 @@
 {
-  "_fv": 4,
+  "_fv": 8,
   "_type": "block",
   "definition": {
     "texture": "palladium",
@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "hasTransparency": false,
+    "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -19,17 +20,15 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "faceShape": "SOLID",
     "name": "Palladium Ore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 16.0,
+    "hardness": 1.3,
+    "resistance": 13.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:AetheriaTools"
     },
-    "destroyTool": "pickaxe",
-    "affectedBySilkTouch": true,
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -43,19 +42,26 @@
       "value": "ROCK"
     },
     "tickRate": 10,
+    "tickRandomly": false,
     "isReplaceable": false,
-    "isFlammable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
       "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -65,12 +71,17 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
+    "inventoryInSlotIDs": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -78,8 +89,8 @@
       }
     ],
     "frequencyPerChunks": 1,
-    "frequencyOnChunk": 1,
-    "minGenerateHeight": 7,
-    "maxGenerateHeight": 7
+    "frequencyOnChunk": 6,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 10
   }
 }

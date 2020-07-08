@@ -8,17 +8,17 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:obamium"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:obamium"
+      "item": "aetheria:unknown_element"
     },
     "2": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "aetheria:obamiumsword",
+    "item": "aetheria:unknown_element",
     "count": 1
   }
 }

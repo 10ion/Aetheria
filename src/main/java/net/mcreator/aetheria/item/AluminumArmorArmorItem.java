@@ -36,15 +36,15 @@ public class AluminumArmorArmorItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 12;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 13;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 4, 4, 1}[slot.getIndex()];
+				return new int[]{2, 3, 4, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 21;
+				return 20;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
@@ -61,7 +61,7 @@ public class AluminumArmorArmorItem extends AetheriaModElements.ModElement {
 			}
 
 			public float getToughness() {
-				return 0.4f;
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {

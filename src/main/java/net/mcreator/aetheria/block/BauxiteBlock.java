@@ -49,7 +49,7 @@ public class BauxiteBlock extends AetheriaModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 14f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 14f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("bauxite");
 		}
@@ -81,7 +81,7 @@ public class BauxiteBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(14, 0, 0, 95)));
+			}), block.getDefaultState(), 10), Placement.COUNT_RANGE, new CountRangeConfig(23, 32, 32, 95)));
 		}
 	}
 }
