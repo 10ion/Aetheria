@@ -2,7 +2,7 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "bedrock2",
+    "texture": "bedrock",
     "textureTop": "bedrock",
     "textureLeft": "bedrock",
     "textureFront": "bedrock",

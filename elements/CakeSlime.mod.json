@@ -50,7 +50,7 @@
     "movementSpeed": 0.2,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 15,
+    "health": 2,
     "xpAmount": 6,
     "waterMob": false,
     "flyingMob": false,
@@ -67,7 +67,7 @@
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "Items.SLIME_BALL"
     },
     "livingSound": {
       "value": ""
