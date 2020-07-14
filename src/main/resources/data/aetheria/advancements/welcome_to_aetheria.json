@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "aetheria:aeonforge"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_aetheria.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_aetheria.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_aetheria": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

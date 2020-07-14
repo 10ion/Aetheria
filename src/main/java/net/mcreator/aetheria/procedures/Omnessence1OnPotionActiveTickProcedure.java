@@ -17,7 +17,7 @@ public class Omnessence1OnPotionActiveTickProcedure extends AetheriaModElements.
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0) != ((entity instanceof PlayerEntity)
+		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0) == ((entity instanceof PlayerEntity)
 				? ((PlayerEntity) entity).experienceLevel
 				: 0))) {
 			if (entity instanceof PlayerEntity)

@@ -34,7 +34,7 @@ public class Omnessence1Potion extends AetheriaModElements.ModElement {
 		public EffectCustom() {
 			super(EffectType.BENEFICIAL, -6684928);
 			setRegistryName("omnessence1");
-			potionIcon = new ResourceLocation("aetheria:textures/omnessence.png");
+			potionIcon = new ResourceLocation("aetheria:textures/placeholder.png");
 		}
 
 		@Override

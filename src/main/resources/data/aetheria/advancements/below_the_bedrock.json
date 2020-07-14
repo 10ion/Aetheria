@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "minecraft:bedrock"
     },
@@ -10,20 +9,21 @@
     "description": {
       "translate": "advancements.below_the_bedrock.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "below_the_bedrock": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "unknown_element"
+        "to": "aetheria:underworld"
       }
     }
   },
   "rewards": {
     "experience": 0
-  }
+  },
+  "parent": "aetheria:welcome_to_aetheria"
 }
