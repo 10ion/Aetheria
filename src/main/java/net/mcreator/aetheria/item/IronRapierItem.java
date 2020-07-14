@@ -2,8 +2,6 @@
 package net.mcreator.aetheria.item;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
@@ -35,7 +33,7 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 0f;
+				return -1f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,12 +47,7 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT, (int) (1)));
 			}
-		}, 3, -1.4f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
-			@Override
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasEffect(ItemStack itemstack) {
-				return true;
-			}
+		}, 3, -0.4f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("ironrapier"));
 	}
 }

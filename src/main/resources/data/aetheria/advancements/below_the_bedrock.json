@@ -19,7 +19,7 @@
     "below_the_bedrock": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "aetheria:underworld"
+        "to": "unknown_element"
       }
     }
   },

@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "loottable",
+  "definition": {
+    "type": "Entity",
+    "pools": [
+      {
+        "minrolls": 1,
+        "maxrolls": 1,
+        "minbonusrolls": 0,
+        "maxbonusrolls": 0,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:FoxFur"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "name": "fox_drop_extra",
+    "namespace": "mod"
+  }
+}

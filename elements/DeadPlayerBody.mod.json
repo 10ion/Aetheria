@@ -5,13 +5,13 @@
     "mobName": "Dead Player Body",
     "mobLabel": "",
     "mobModelName": "Modeldeadbody",
-    "mobModelTexture": "deadbodytexture.png",
+    "mobModelTexture": "deadbody.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 0.8,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
-    "hasSpawnEgg": true,
+    "hasSpawnEgg": false,
     "spawnEggBaseColor": {
       "value": -1,
       "falpha": 0.0

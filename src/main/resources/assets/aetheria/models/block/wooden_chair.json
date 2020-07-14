@@ -3,6 +3,6 @@
   "textures": {
     "all": "aetheria:blocks/woodenchair",
     "particle": "aetheria:blocks/woodenchair",
-    "2": "aetheria:blocks/woodchairtexture"
+    "2": "aetheria:blocks/woodenchair"
   }
 }

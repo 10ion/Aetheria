@@ -13,9 +13,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
-import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -45,7 +42,6 @@ public class DeadPlayerBodyEntity extends AetheriaModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 0.8f))
 						.build("dead_player_body").setRegistryName("dead_player_body");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("dead_player_body"));
 	}
 
 	@SubscribeEvent
@@ -55,7 +51,7 @@ public class DeadPlayerBodyEntity extends AetheriaModElements.ModElement {
 			return new MobRenderer(renderManager, new Modeldeadbody(), 0.5f) {
 				@Override
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("aetheria:textures/deadbodytexture.png");
+					return new ResourceLocation("aetheria:textures/deadbody.png");
 				}
 			};
 		});

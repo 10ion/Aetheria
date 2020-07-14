@@ -15,7 +15,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 0.0,
+    "luminance": 0.63,
     "unbreakable": false,
     "soundOnStep": {
       "value": "PLANT"

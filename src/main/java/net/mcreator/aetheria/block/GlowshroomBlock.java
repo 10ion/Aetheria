@@ -79,7 +79,7 @@ public class GlowshroomBlock extends AetheriaModElements.ModElement {
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS, MaterialColor.YELLOW).doesNotBlockMovement().sound(SoundType.PLANT)
-					.hardnessAndResistance(0f, 0f).lightValue(0));
+					.hardnessAndResistance(0f, 0f).lightValue(9));
 			setRegistryName("glowshroom");
 		}
 

@@ -3265,14 +3265,6 @@
       "ids": {}
     },
     {
-      "name": "Rickroll",
-      "type": "musicdisc",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Lupin",
       "type": "mob",
       "sortid": 159,
@@ -3823,33 +3815,9 @@
       "ids": {}
     },
     {
-      "name": "WereNotGonnaTakeIt",
-      "type": "musicdisc",
-      "sortid": 423,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "NyanCat",
-      "type": "musicdisc",
-      "sortid": 424,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "AetheriaMusic",
       "type": "tab",
       "sortid": 422,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "MegalovaniaUltimate",
-      "type": "musicdisc",
-      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4113,30 +4081,6 @@
       "ids": {}
     },
     {
-      "name": "ObamiumSword",
-      "type": "tool",
-      "sortid": 442,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumAxe",
-      "type": "tool",
-      "sortid": 443,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumShovel",
-      "type": "tool",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "ObamiumAxeRecipe",
       "type": "recipe",
       "sortid": 448,
@@ -4145,25 +4089,9 @@
       "ids": {}
     },
     {
-      "name": "Obamium",
-      "type": "item",
-      "sortid": 440,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "ObamiumHoeRecipe",
       "type": "recipe",
       "sortid": 450,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumHoe",
-      "type": "tool",
-      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4180,22 +4108,6 @@
       "name": "ObamiumOreSmelt",
       "type": "recipe",
       "sortid": 451,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumPickaxe",
-      "type": "tool",
-      "sortid": 441,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SpaceBattle",
-      "type": "musicdisc",
-      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4298,14 +4210,6 @@
       "name": "Lantern",
       "type": "structure",
       "sortid": 454,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "PlantSlaying",
-      "type": "item",
-      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4511,15 +4415,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "SporeReservoir",
-      "type": "fluid",
-      "sortid": 469,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spore_reservoir"
     },
     {
       "name": "FoxFur",
@@ -4728,24 +4623,6 @@
       "registry_name": "mummy"
     },
     {
-      "name": "Underworld",
-      "type": "dimension",
-      "sortid": 490,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "underworld"
-    },
-    {
-      "name": "UnderworldBiome",
-      "type": "biome",
-      "sortid": 491,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "underworld_biome"
-    },
-    {
       "name": "BelowTheBedrock",
       "type": "achievement",
       "sortid": 492,
@@ -4793,6 +4670,24 @@
       "registry_name": "oink"
     },
     {
+      "name": "Underworld",
+      "type": "dimension",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "underworld"
+    },
+    {
+      "name": "UnderworldBiome",
+      "type": "biome",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "underworld_biome"
+    },
+    {
       "name": "OinkAch",
       "type": "achievement",
       "sortid": 494,
@@ -4800,6 +4695,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "oink_ach"
+    },
+    {
+      "name": "FoxDropExtra",
+      "type": "loottable",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fox_drop_extra"
     }
   ],
   "variable_elements": [
@@ -4882,7 +4786,6 @@
       "item.minecraft.tipped_arrow.effect.omnessence1": "Arrow of Omnessence1",
       "itemGroup.tabaetheriafooditems": "Aetheria Food Items",
       "item.aetheria.oricalarmorbody": "Orical Chestplate",
-      "block.aetheria.bluecrocoite": "Blue Crocoite Cluster",
       "block.aetheria.macowanite": "Macowanite",
       "item.aetheria.magnegoldarmorarmorboots": "Magnegold Boots",
       "item.aetheria.moonsilveringot": "Moonsilver Ingot",
@@ -4936,15 +4839,14 @@
       "advancements.specialstoneachievement.title": "Easter Egg Achievment",
       "advancements.voidenter.descr": "Enter The Void",
       "block.aetheria.obamiumore": "Obamium Ore",
-      "advancements.below_the_bedrock.title": "Below The Bedrock",
       "item.aetheria.copperarmorarmorhelmet": "Copper Helmet",
       "item.aetheria.silverhoe": "SIlver Hoe",
       "item.aetheria.brassarmorarmorhelmet": "Brass Helmet",
       "item.aetheria.crocoiteshard": "Crocoite Shard",
       "item.aetheria.palladiumarmorarmorlegs": "Palladium Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
-      "item.aetheria.megalovaniaultimate": "Music Disc",
       "block.aetheria.glowshroom": "Glowshroom",
+      "item.aetheria.megalovaniaultimate": "Music Disc",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.darkfelsteelarmorlegs": "Black Felsteel Leggings",
       "item.aetheria.steelarmorarmorbody": "Steel Chestplate",
@@ -4957,6 +4859,7 @@
       "item.aetheria.adamantaarmorboots": "Adamant Boots",
       "item.aetheria.bluesteelingot": "Blue Steel Ingot",
       "item.aetheria.obsidianarmorhelmet": "Obsidian Helmet",
+      "item.aetheria.endersteel_sword": "Endersteel Sword",
       "item.aetheria.pewterarmorarmorlegs": "Pewter Leggings",
       "item.aetheria.palladiumarmorarmorboots": "Palladium Boots",
       "itemGroup.tabaetheriatools": "Aetheria Tools",
@@ -4996,17 +4899,18 @@
       "item.aetheria.aluminumarmorarmorlegs": "Aluminum Leggings",
       "item.aetheria.leadpickaxe": "Lead Pickaxe",
       "item.aetheria.flowingarmorboots": "Flowing Water Steel Boots",
+      "block.aetheria.crocoite_block": "Crocoite Block",
       "item.aetheria.titaniumingot": "Titanium nugget",
       "item.aetheria.palladiumarmorarmorbody": "Palladium Chestplate",
       "item.aetheria.oricalarmorboots": "Orical Boots",
       "item.aetheria.endersteeltoolspickaxe": "Endersteel Pickaxe",
       "item.aetheria.bronzearmorarmorboots": "Bronze Boots",
-      "advancements.oink_ach.title": "Power of Pigs",
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
       "item.aetheria.dead_player_body": "Dead Player Body Spawn Egg",
       "item.aetheria.darkironarmorboots": "Dark Iron Boots",
       "itemGroup.tabaetheriaentities": "Aetheria Entities",
       "item.aetheria.scythe": "Scythe",
+      "block.aetheria.crocoite": "Crocoite Cluster",
       "item.aetheria.pewterarmorarmorhelmet": "Pewter Helmet",
       "item.aetheria.moonsilverarmorlegs": "Moonsilver Leggings",
       "item.aetheria.bluearmorbody": "Bluesteel Chestplate",
@@ -5041,7 +4945,6 @@
       "item.aetheria.tungsten_raw": "Raw Tungsten",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.bismuthbronzearmorarmorbody": "Bismuth Bronze Chestplate",
-      "item.aetheria.endersteeltoolssword": "Endersteel Sword",
       "itemGroup.tabaetheriacrafting": "Aetheria Crafting",
       "item.aetheria.pizzaslice": "Pizza Slice",
       "item.aetheria.redbrassarmorhelmet": "Red Brass Helmet",
@@ -5066,7 +4969,6 @@
       "item.aetheria.sterlingarmorarmorbody": "Sterling Silver Chestplate",
       "item.aetheria.palladiumarmorarmorhelmet": "Palladium Helmet",
       "item.aetheria.copperarmorarmorbody": "Copper Chestplate",
-      "item.aetheria.underworld": "Underworld Portal Igniter",
       "item.aetheria.silverarmorarmorboots": "Silver Boots",
       "item.aetheria.felsteelaarmorlegs": "FelSteel Leggings",
       "block.aetheria.mysticallog": "Mystical log",
@@ -5114,7 +5016,6 @@
       "item.aetheria.silveraxe": "SIlver Axe",
       "item.aetheria.adamantaarmorlegs": "Adamant Leggings",
       "item.aetheria.obamium": "Obamium",
-      "advancements.oink_ach.descr": "Easter egg",
       "block.aetheria.specialstone": "Special Stone",
       "item.aetheria.rosegoldingot": "Rose Gold Ingot",
       "item.aetheria.feyarmorboots": "Feysteel Boots",
@@ -5128,7 +5029,6 @@
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
       "item.aetheria.fox_fur": "Fox Fur",
       "item.aetheria.bluearmorhelmet": "Bluesteel Helmet",
-      "item.aetheria.oink": "The Baconator",
       "item.aetheria.zincarmorarmorboots": "Zinc Boots",
       "item.aetheria.flowingarmorhelmet": "Flowing Water Steel Helmet",
       "item.aetheria.platinumarmorarmorbody": "Platinum Chestplate",
@@ -5138,7 +5038,6 @@
       "item.aetheria.platinum": "Platinum",
       "item.minecraft.tipped_arrow.effect.milkbottle": "Arrow of Milkbottle",
       "item.aetheria.zinc": "Zinc",
-      "block.aetheria.bluecrocoiteblock": "Blue Crocoite Block",
       "item.aetheria.felsteelaarmorhelmet": "FelSteel Helmet",
       "block.aetheria.silverore": "Silver Ore",
       "item.aetheria.redsteelarmorboots": "Redsteel Boots",
@@ -5180,7 +5079,6 @@
       "item.aetheria.moonsilverarmorbody": "Moonsilver Chestplate",
       "item.aetheria.felsteelaarmorbody": "FelSteel Chestplate",
       "item.aetheria.rosearmorlegs": "Rose Gold Leggings",
-      "advancements.below_the_bedrock.descr": "Enter the underworkd, a subterranean cave system with new ores",
       "item.aetheria.sterlingarmorarmorhelmet": "Sterling Silver Helmet",
       "item.aetheria.iridiumarmorboots": "Iridium Boots",
       "item.aetheria.silvershovel": "SIlver Shovel",

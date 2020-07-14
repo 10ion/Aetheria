@@ -29,8 +29,13 @@ public class GlowshroomStewItem extends AetheriaModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1)
-					.food((new Food.Builder()).hunger(6).saturation(0.3f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(6).saturation(0.5f).setAlwaysEdible().build()));
 			setRegistryName("glowshroom_stew");
+		}
+
+		@Override
+		public int getUseDuration(ItemStack stack) {
+			return 25;
 		}
 
 		@Override
