@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "aetheria:voidstone"
     },
@@ -25,5 +24,6 @@
   },
   "rewards": {
     "experience": 45
-  }
+  },
+  "parent": "aetheria:below_the_bedrock"
 }

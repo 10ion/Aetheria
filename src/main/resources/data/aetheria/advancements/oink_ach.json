@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "aetheria:oink"
+    },
+    "title": {
+      "translate": "advancements.oink_ach.title"
+    },
+    "description": {
+      "translate": "advancements.oink_ach.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "oink_ach": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aetheria:oink",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 72,
+    "function": "aetheria:special_stone_achievement_function"
+  },
+  "parent": "aetheria:specialstoneachievement"
+}
