@@ -16,8 +16,8 @@
           "id": 0,
           "disableStackInteraction": false,
           "name": "Slot #0",
-          "x": 256,
-          "y": 80
+          "x": 257,
+          "y": 186
         }
       },
       {
@@ -29,8 +29,8 @@
           "id": 1,
           "disableStackInteraction": false,
           "name": "Slot #1",
-          "x": 326,
-          "y": 148
+          "x": 257,
+          "y": 149
         }
       },
       {
@@ -42,8 +42,8 @@
           "id": 2,
           "disableStackInteraction": false,
           "name": "Slot #2",
-          "x": 326,
-          "y": 80
+          "x": 559,
+          "y": 81
         }
       },
       {
@@ -68,8 +68,8 @@
           "id": 4,
           "disableStackInteraction": false,
           "name": "Slot #4",
-          "x": 257,
-          "y": 149
+          "x": 327,
+          "y": 148
         }
       },
       {
@@ -81,8 +81,8 @@
             "falpha": 0.0
           },
           "name": "Rings",
-          "x": 254,
-          "y": 119
+          "x": 255,
+          "y": 221
         }
       },
       {
@@ -94,8 +94,8 @@
             "falpha": 0.0
           },
           "name": "Belt",
-          "x": 327,
-          "y": 121
+          "x": 560,
+          "y": 118
         }
       },
       {
@@ -122,6 +122,162 @@
           "name": "Pouch",
           "x": 326,
           "y": 188
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "name": "Slot #5",
+          "x": 366,
+          "y": 148
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "name": "Slot #6",
+          "x": 407,
+          "y": 148
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "name": "Slot #7",
+          "x": 444,
+          "y": 148
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Circlet/tiara",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Circlet/tiara",
+          "x": 255,
+          "y": 116
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "name": "Slot #8",
+          "x": 278,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bracelets",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Bracelets",
+          "x": 453,
+          "y": 118
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "name": "Slot #9",
+          "x": 458,
+          "y": 81
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "name": "Slot #10",
+          "x": 501,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Necklace",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Necklace",
+          "x": 519,
+          "y": 169
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 11,
+          "disableStackInteraction": false,
+          "name": "Slot #11",
+          "x": 545,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Gloves/gauntlets",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Gloves/gauntlets",
+          "x": 428,
+          "y": 206
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 12,
+          "disableStackInteraction": false,
+          "name": "Slot #12",
+          "x": 483,
+          "y": 177
         }
       }
     ]

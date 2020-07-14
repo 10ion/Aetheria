@@ -80,7 +80,7 @@ public class AccessoriesGui extends AetheriaModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(5);
+			this.internal = new ItemStackHandler(13);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -110,15 +110,31 @@ public class AccessoriesGui extends AetheriaModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 3, 4) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 4, 57) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 38, 38) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 4, 38) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 38, 4) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 155, 4) {
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 71, 4) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 4, 38) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 39, 38) {
+			}));
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 58, 38) {
+			}));
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 79, 38) {
+			}));
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 97, 38) {
+			}));
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 14, 4) {
+			}));
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 104, 4) {
+			}));
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 126, 4) {
+			}));
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 148, 32) {
+			}));
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 117, 52) {
 			}));
 			int si;
 			int sj;
@@ -145,18 +161,18 @@ public class AccessoriesGui extends AetheriaModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 5) {
-					if (!this.mergeItemStack(itemstack1, 5, this.inventorySlots.size(), true)) {
+				if (index < 13) {
+					if (!this.mergeItemStack(itemstack1, 13, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 5, false)) {
-					if (index < 5 + 27) {
-						if (!this.mergeItemStack(itemstack1, 5 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 13, false)) {
+					if (index < 13 + 27) {
+						if (!this.mergeItemStack(itemstack1, 13 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 5, 5 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 13, 13 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -320,10 +336,14 @@ public class AccessoriesGui extends AetheriaModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Rings", 2, 23, -1);
-			this.font.drawString("Belt", 38, 24, -1);
+			this.font.drawString("Rings", 2, 74, -1);
+			this.font.drawString("Belt", 155, 22, -1);
 			this.font.drawString("Cloak", 70, 21, -1);
 			this.font.drawString("Pouch", 38, 57, -1);
+			this.font.drawString("Circlet/tiara", 2, 21, -1);
+			this.font.drawString("Bracelets", 101, 22, -1);
+			this.font.drawString("Necklace", 134, 48, -1);
+			this.font.drawString("Gloves/gauntlets", 89, 66, -1);
 		}
 
 		@Override
