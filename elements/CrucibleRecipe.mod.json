@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      },
+      {
+        "value": "CUSTOM:LeadBlock"
+      },
+      {
+        "value": "CUSTOM:Lead"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AeonFurnace"
+    },
+    "name": "crucible_recipe",
+    "namespace": "mod"
+  }
+}
