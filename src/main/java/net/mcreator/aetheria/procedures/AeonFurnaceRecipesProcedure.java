@@ -526,7 +526,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (0);
+					final int _sltid = (int) (3);
 					final ItemStack _setstack = new ItemStack(SteelItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
