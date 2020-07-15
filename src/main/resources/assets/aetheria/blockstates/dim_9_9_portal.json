@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "aetheria:block/dim_9_9_portal_ew"
+    },
+    "axis=x": {
+      "model": "aetheria:block/dim_9_9_portal_ns"
+    }
+  }
+}

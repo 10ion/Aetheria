@@ -188,7 +188,7 @@ public class UnderworldDimension extends AetheriaModElements.ModElement {
 				}
 
 				public BlockState getDefaultFluid() {
-					return Blocks.LAVA.getDefaultState();
+					return Blocks.AIR.getDefaultState();
 				}
 			});
 			this.randomSeed.skip(9716);

@@ -3,7 +3,7 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": ""
+      "value": "Blocks.SOUL_SAND"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -12,36 +12,36 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Underworld Portal Igniter",
+    "igniterName": "Decay",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "",
-    "portalTexture": "",
-    "enablePortal": false,
+    "texture": "decay",
+    "portalTexture": "styxwater",
+    "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "CUSTOM:UnderworldBiome"
+        "value": "CUSTOM:SoullessPlains"
       }
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.BEDROCK"
+      "value": "Blocks.SOUL_SAND"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:StyxWater"
     },
     "airColor": {
-      "value": -10066330,
+      "value": -10092544,
       "falpha": 0.0
     },
     "canRespawnHere": false,
-    "hasFog": true,
+    "hasFog": false,
     "hasWeather": false,
     "isDark": true,
-    "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
-    "hasSkyLight": true,
+    "doesWaterVaporize": true,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false
   }
 }
