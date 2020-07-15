@@ -34,7 +34,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.aetheria.procedures.AeonTestProcedure;
+import net.mcreator.aetheria.procedures.AeonForgeRecipesProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 import net.mcreator.aetheria.AetheriaMod;
 
@@ -481,7 +481,7 @@ public class AeonForgeguiGui extends AetheriaModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				AeonTestProcedure.executeProcedure($_dependencies);
+				AeonForgeRecipesProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

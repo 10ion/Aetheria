@@ -79,9 +79,6 @@
     "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "onTickUpdate": {
-      "name": "AeonTest"
-    },
     "onRandomUpdateEvent": {
       "name": "Forgeguicode"
     },

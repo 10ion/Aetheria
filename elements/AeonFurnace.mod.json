@@ -8,10 +8,10 @@
     "textureFront": "aeon_furnace_front",
     "textureRight": "aeon_furnace_side",
     "textureBack": "aeon_furnace_side",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 2,
+    "customModelName": "crucible:default",
     "rotationMode": 0,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -37,7 +37,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },

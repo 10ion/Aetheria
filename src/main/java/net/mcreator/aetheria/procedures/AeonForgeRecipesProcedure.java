@@ -16,26 +16,26 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @AetheriaModElements.ModElement.Tag
-public class AeonTestProcedure extends AetheriaModElements.ModElement {
-	public AeonTestProcedure(AetheriaModElements instance) {
-		super(instance, 498);
+public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
+	public AeonForgeRecipesProcedure(AetheriaModElements instance) {
+		super(instance, 509);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure AeonTest!");
+			System.err.println("Failed to load dependency x for procedure AeonForgeRecipes!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure AeonTest!");
+			System.err.println("Failed to load dependency y for procedure AeonForgeRecipes!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure AeonTest!");
+			System.err.println("Failed to load dependency z for procedure AeonForgeRecipes!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure AeonTest!");
+			System.err.println("Failed to load dependency world for procedure AeonForgeRecipes!");
 			return;
 		}
 		int x = (int) dependencies.get("x");
