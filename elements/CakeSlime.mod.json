@@ -46,11 +46,11 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 1,
+    "attackStrength": 3,
     "movementSpeed": 0.2,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 4,
+    "health": 2,
     "xpAmount": 6,
     "waterMob": false,
     "flyingMob": false,
@@ -67,7 +67,7 @@
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "Items.SLIME_BALL"
     },
     "livingSound": {
       "value": ""
@@ -87,8 +87,8 @@
     "particleAmount": 1,
     "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
-    "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><next><block type=\"attack_on_collide\"><field name=\"speed\">0.7</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aiBase": "Slime",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"/></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,
@@ -98,27 +98,11 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 2,
+    "spawningProbability": 3,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 40,
-    "restrictionBiomes": [
-      {
-        "value": "plains"
-      },
-      {
-        "value": "mountains"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "swamp"
-      },
-      {
-        "value": "jungle"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }

@@ -1,0 +1,33 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "oink",
+    "customModelName": "Normal",
+    "name": "The Baconator",
+    "specialInfo": [
+      "Easter Egg"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 32,
+    "damageVsEntity": 17.0,
+    "usageCount": 7200,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.PORKCHOP"
+      }
+    ],
+    "onEntityHitWith": {
+      "name": "OinkLivingEntityIsHitWithTool"
+    }
+  }
+}
