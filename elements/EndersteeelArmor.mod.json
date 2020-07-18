@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -14,14 +14,10 @@
       "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "endersteel_",
-    "helmetName": "Endersteeel Helmet",
-    "bodyName": "Endersteeel Chestplate",
-    "leggingsName": "Endersteeel Leggings",
-    "bootsName": "Endersteeel Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetName": "Endersteel Helmet",
+    "bodyName": "Endersteel Chestplate",
+    "leggingsName": "Endersteel Leggings",
+    "bootsName": "Endersteel Boots",
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

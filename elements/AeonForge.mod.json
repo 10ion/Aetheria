@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "block",
   "definition": {
     "texture": "aeonbottom",
@@ -11,7 +11,6 @@
     "renderType": 2,
     "customModelName": "aeonforge:default",
     "rotationMode": 1,
-    "emissiveRendering": false,
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -70,6 +69,7 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
     "hasInventory": true,
     "guiBoundTo": "AeonForgegui",
     "openGUIOnRightClick": true,
@@ -79,13 +79,9 @@
     "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "hasEnergyStorage": false,
-    "energyInitial": 0,
-    "energyCapacity": 400000,
-    "energyMaxReceive": 200,
-    "energyMaxExtract": 200,
-    "isFluidTank": false,
-    "fluidCapacity": 8000,
+    "onTickUpdate": {
+      "name": "Aeonguicode"
+    },
     "onRandomUpdateEvent": {
       "name": "Forgeguicode"
     },

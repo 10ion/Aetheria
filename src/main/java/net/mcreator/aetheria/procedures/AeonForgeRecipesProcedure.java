@@ -1,25 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-
-import net.mcreator.aetheria.item.OinkItem;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-
 @AetheriaModElements.ModElement.Tag
 public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
+
 	public AeonForgeRecipesProcedure(AetheriaModElements instance) {
 		super(instance, 509);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -39,10 +25,12 @@ public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
 			System.err.println("Failed to load dependency world for procedure AeonForgeRecipes!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if ((((((((new Object() {
 			public int getAmount(BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -715,5 +703,7 @@ public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
 				}
 			}
 		}
+
 	}
+
 }

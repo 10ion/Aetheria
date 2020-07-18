@@ -1,39 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-
-import net.mcreator.aetheria.item.ZincItem;
-import net.mcreator.aetheria.item.TinItem;
-import net.mcreator.aetheria.item.SterlingSilverItem;
-import net.mcreator.aetheria.item.SteelItem;
-import net.mcreator.aetheria.item.SilverItem;
-import net.mcreator.aetheria.item.PewterItem;
-import net.mcreator.aetheria.item.NIckelIngotItem;
-import net.mcreator.aetheria.item.MagnegoldItem;
-import net.mcreator.aetheria.item.LeadItem;
-import net.mcreator.aetheria.item.ElectrumItem;
-import net.mcreator.aetheria.item.DarkIronIngotItem;
-import net.mcreator.aetheria.item.CopperItem;
-import net.mcreator.aetheria.item.CobaltItem;
-import net.mcreator.aetheria.item.BronzeItem;
-import net.mcreator.aetheria.item.BrassItem;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-
 @AetheriaModElements.ModElement.Tag
 public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement {
+
 	public AeonFurnaceRecipesProcedure(AetheriaModElements instance) {
 		super(instance, 508);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -53,10 +25,12 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 			System.err.println("Failed to load dependency world for procedure AeonFurnaceRecipes!");
 			return;
 		}
+
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if ((((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -2344,5 +2318,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				}
 			}
 		}
+
 	}
+
 }
