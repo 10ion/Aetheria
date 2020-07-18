@@ -86,7 +86,7 @@ public class IridiumoreBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(6, 15, 15, 33)));
+			}), block.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(5, 15, 15, 33)));
 		}
 	}
 }

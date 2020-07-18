@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class EndersteeelArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:endersteeelarmorhelmet")
+	@ObjectHolder("aetheria:endersteel_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:endersteeelarmorbody")
+	@ObjectHolder("aetheria:endersteel_body")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:endersteeelarmorlegs")
+	@ObjectHolder("aetheria:endersteel_legs")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:endersteeelarmorboots")
+	@ObjectHolder("aetheria:endersteel_boots")
 	public static final Item boots = null;
 	public EndersteeelArmorItem(AetheriaModElements instance) {
 		super(instance, 76);
@@ -57,7 +57,7 @@ public class EndersteeelArmorItem extends AetheriaModElements.ModElement {
 
 			@OnlyIn(Dist.CLIENT)
 			public String getName() {
-				return "endersteeelarmor";
+				return "endersteeel";
 			}
 
 			public float getToughness() {
@@ -69,24 +69,24 @@ public class EndersteeelArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/endersteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("endersteeelarmorhelmet"));
+		}.setRegistryName("endersteel_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/endersteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("endersteeelarmorbody"));
+		}.setRegistryName("endersteel_body"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/endersteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("endersteeelarmorlegs"));
+		}.setRegistryName("endersteel_legs"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/endersteel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("endersteeelarmorboots"));
+		}.setRegistryName("endersteel_boots"));
 	}
 }

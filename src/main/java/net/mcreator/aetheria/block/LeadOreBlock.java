@@ -86,7 +86,7 @@ public class LeadOreBlock extends AetheriaModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 6), Placement.COUNT_RANGE, new CountRangeConfig(13, 0, 0, 64)));
+			}), block.getDefaultState(), 6), Placement.COUNT_RANGE, new CountRangeConfig(18, 41, 41, 64)));
 		}
 	}
 }
