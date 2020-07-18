@@ -11,6 +11,8 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+
 @AetheriaModElements.ModElement.Tag
 public class DeadbodyisappearingProcedure extends AetheriaModElements.ModElement {
 	public DeadbodyisappearingProcedure(AetheriaModElements instance) {
@@ -18,7 +20,7 @@ public class DeadbodyisappearingProcedure extends AetheriaModElements.ModElement
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure Deadbodyisappearing!");
 			return;
@@ -42,9 +44,9 @@ public class DeadbodyisappearingProcedure extends AetheriaModElements.ModElement
 		if (event != null && event.getEntity() != null) {
 			Entity entity = event.getEntity();
 			Entity sourceentity = event.getSource().getTrueSource();
-			int i = (int) entity.posX;
-			int j = (int) entity.posY;
-			int k = (int) entity.posZ;
+			double i = entity.posX;
+			double j = entity.posY;
+			double k = entity.posZ;
 			World world = entity.world;
 			java.util.HashMap<String, Object> dependencies = new java.util.HashMap<>();
 			dependencies.put("x", i);

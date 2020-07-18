@@ -16,6 +16,9 @@ import net.minecraft.entity.LivingEntity;
 import net.mcreator.aetheria.procedures.Omnessence1OnPotionActiveTickProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class Omnessence1Potion extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:omnessence1")
@@ -70,11 +73,11 @@ public class Omnessence1Potion extends AetheriaModElements.ModElement {
 		@Override
 		public void performEffect(LivingEntity entity, int amplifier) {
 			World world = entity.world;
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			double x = entity.posX;
+			double y = entity.posY;
+			double z = entity.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				Omnessence1OnPotionActiveTickProcedure.executeProcedure($_dependencies);
 			}

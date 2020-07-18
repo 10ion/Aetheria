@@ -33,6 +33,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.entity.EntityType;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.block.Block;
 
 import java.util.function.Supplier;
@@ -82,6 +83,11 @@ public class AetheriaMod {
 	@SubscribeEvent
 	public void registerEntities(RegistryEvent.Register<EntityType<?>> event) {
 		event.getRegistry().registerAll(elements.getEntities().stream().map(Supplier::get).toArray(EntityType[]::new));
+	}
+
+	@SubscribeEvent
+	public void registerEnchantments(RegistryEvent.Register<Enchantment> event) {
+		event.getRegistry().registerAll(elements.getEnchantments().stream().map(Supplier::get).toArray(Enchantment[]::new));
 	}
 
 	@SubscribeEvent

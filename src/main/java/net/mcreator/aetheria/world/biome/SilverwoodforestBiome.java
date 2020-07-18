@@ -66,11 +66,11 @@ public class SilverwoodforestBiome extends AetheriaModElements.ModElement {
 					new BushConfig(Blocks.BROWN_MUSHROOM.getDefaultState()), Placement.CHANCE_HEIGHTMAP_DOUBLE, new ChanceConfig(2)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.BUSH,
 					new BushConfig(Blocks.RED_MUSHROOM.getDefaultState()), Placement.CHANCE_HEIGHTMAP_DOUBLE, new ChanceConfig(2)));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.VINDICATOR, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.VEX, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.FOX, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.WOLF, 15, 1, 5));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PHANTOM, 15, 1, 5));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.VINDICATOR, 15, 1, 15));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.VEX, 15, 1, 15));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.FOX, 15, 1, 15));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.WOLF, 15, 1, 15));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.PHANTOM, 15, 1, 15));
 		}
 
 		@OnlyIn(Dist.CLIENT)

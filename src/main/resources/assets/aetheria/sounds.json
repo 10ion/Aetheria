@@ -52,5 +52,14 @@
         "stream": true
       }
     ]
+  },
+  "sh_ultimate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheria:notfound",
+        "stream": true
+      }
+    ]
   }
 }

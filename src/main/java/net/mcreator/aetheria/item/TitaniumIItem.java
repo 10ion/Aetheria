@@ -13,6 +13,9 @@ import net.mcreator.aetheria.procedures.TitaniumIItemIsCraftedsmeltedProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class TitaniumIItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:titaniumi")
@@ -49,11 +52,11 @@ public class TitaniumIItem extends AetheriaModElements.ModElement {
 		@Override
 		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
 			super.onCreated(itemstack, world, entity);
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			double x = entity.posX;
+			double y = entity.posY;
+			double z = entity.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				TitaniumIItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 			}

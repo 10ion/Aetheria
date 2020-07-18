@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "block",
   "definition": {
     "texture": "tin_ore",
@@ -11,6 +11,7 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
+    "emissiveRendering": false,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -69,7 +70,6 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -79,6 +79,13 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
     "spawnWorldTypes": [
       "Surface"
     ],

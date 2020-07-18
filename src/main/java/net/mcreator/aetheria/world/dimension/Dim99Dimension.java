@@ -249,7 +249,7 @@ public class Dim99Dimension extends AetheriaModElements.ModElement {
 		}
 
 		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-			if (!world.isRemote && !entity.isPassenger() && !entity.isBeingRidden() && entity instanceof ServerPlayerEntity) {
+			if (!world.isRemote && !entity.isPassenger() && !entity.isBeingRidden() && entity instanceof ServerPlayerEntity && true) {
 				ServerPlayerEntity player = (ServerPlayerEntity) entity;
 				if (player.timeUntilPortal > 0) {
 					player.timeUntilPortal = 10;

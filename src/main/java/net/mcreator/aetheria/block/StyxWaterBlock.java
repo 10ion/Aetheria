@@ -42,8 +42,8 @@ public class StyxWaterBlock extends AetheriaModElements.ModElement {
 	public static final FlowingFluidBlock block = null;
 	@ObjectHolder("aetheria:styx_water_bucket")
 	public static final Item bucket = null;
-	private FlowingFluid flowing = null;
-	private FlowingFluid still = null;
+	public static FlowingFluid flowing = null;
+	public static FlowingFluid still = null;
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 	public StyxWaterBlock(AetheriaModElements instance) {
 		super(instance, 502);

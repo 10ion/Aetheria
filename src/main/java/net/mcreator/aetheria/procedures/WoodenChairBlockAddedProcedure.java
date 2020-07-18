@@ -1,10 +1,17 @@
 package net.mcreator.aetheria.procedures;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.ILivingEntityData;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.entity.ChairEntityEntity;
 import net.mcreator.aetheria.AetheriaModElements;
+
+import java.util.Map;
 
 @AetheriaModElements.ModElement.Tag
 public class WoodenChairBlockAddedProcedure extends AetheriaModElements.ModElement {
@@ -12,7 +19,7 @@ public class WoodenChairBlockAddedProcedure extends AetheriaModElements.ModEleme
 		super(instance, 465);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure WoodenChairBlockAdded!");
 			return;
@@ -29,13 +36,16 @@ public class WoodenChairBlockAddedProcedure extends AetheriaModElements.ModEleme
 			System.err.println("Failed to load dependency world for procedure WoodenChairBlockAdded!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if (!world.isRemote) {
 			Entity entityToSpawn = new ChairEntityEntity.CustomEntity(ChairEntityEntity.entity, world);
 			entityToSpawn.setLocationAndAngles((x + 0.5), (y + 0.5), (z + 0.5), world.rand.nextFloat() * 360F, 0);
+			if (entityToSpawn instanceof MobEntity)
+				((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
+						SpawnReason.MOB_SUMMONED, (ILivingEntityData) null, (CompoundNBT) null);
 			world.addEntity(entityToSpawn);
 		}
 	}

@@ -20,7 +20,9 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.mcreator.aetheria.procedures.OinkLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @AetheriaModElements.ModElement.Tag
 public class OinkItem extends AetheriaModElements.ModElement {
@@ -66,12 +68,12 @@ public class OinkItem extends AetheriaModElements.ModElement {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
-				int x = (int) entity.posX;
-				int y = (int) entity.posY;
-				int z = (int) entity.posZ;
+				double x = entity.posX;
+				double y = entity.posY;
+				double z = entity.posZ;
 				World world = entity.world;
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);

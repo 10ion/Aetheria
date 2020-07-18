@@ -2,6 +2,7 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -19,10 +20,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
+import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
@@ -39,6 +40,7 @@ import net.minecraft.client.renderer.model.ModelBox;
 import net.minecraft.client.renderer.entity.model.RendererModel;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.AetheriaModElements;
@@ -75,7 +77,8 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 20, 1, 5));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::func_223315_a);
+				(entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 
 	@SubscribeEvent
@@ -101,6 +104,11 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			setNoAI(false);
 			this.moveController = new FlyingMovementController(this);
 			this.navigator = new FlyingPathNavigator(this, this.world);
+		}
+
+		@Override
+		public IPacket<?> createSpawnPacket() {
+			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override

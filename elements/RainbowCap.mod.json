@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -25,6 +25,8 @@
     },
     "dropAmount": 1,
     "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {

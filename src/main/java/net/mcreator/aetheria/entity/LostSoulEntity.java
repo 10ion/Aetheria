@@ -2,6 +2,7 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -17,10 +18,10 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.particles.ParticleTypes;
+import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -36,6 +37,7 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
+import net.minecraft.block.material.Material;
 
 import net.mcreator.aetheria.AetheriaModElements;
 
@@ -70,7 +72,8 @@ public class LostSoulEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 3, 1, 3));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::func_223315_a);
+				(entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 
 	@SubscribeEvent
@@ -96,6 +99,11 @@ public class LostSoulEntity extends AetheriaModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+		}
+
+		@Override
+		public IPacket<?> createSpawnPacket() {
+			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override
@@ -166,15 +174,16 @@ public class LostSoulEntity extends AetheriaModElements.ModElement {
 
 		public void livingTick() {
 			super.livingTick();
-			int i = (int) this.posX;
-			int j = (int) this.posY;
-			int k = (int) this.posZ;
+			double x = this.posX;
+			double y = this.posY;
+			double z = this.posZ;
 			Random random = this.rand;
+			Entity entity = this;
 			if (true)
 				for (int l = 0; l < 10; ++l) {
-					double d0 = (i + random.nextFloat());
-					double d1 = (j + random.nextFloat());
-					double d2 = (k + random.nextFloat());
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
 					int i1 = random.nextInt(2) * 2 - 1;
 					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
 					double d4 = (random.nextFloat() - 0.5D) * 0.5D;

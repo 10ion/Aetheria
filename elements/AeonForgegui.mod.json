@@ -1,11 +1,12 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "gui",
   "definition": {
     "type": 1,
     "width": 354,
     "height": 432,
     "renderBgLayer": true,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "outputslot",
