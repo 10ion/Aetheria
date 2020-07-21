@@ -22,6 +22,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:UnderworldBiome"
+      },
+      {
+        "value": "CUSTOM:UnderworldBiome2"
       }
     ],
     "worldGenType": "Nether like gen",

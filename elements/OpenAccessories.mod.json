@@ -1,0 +1,12 @@
+{
+  "_fv": 8,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "K",
+    "keyBindingName": "Open Accessories",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenAccessoriesOnKeyPressed"
+    }
+  }
+}

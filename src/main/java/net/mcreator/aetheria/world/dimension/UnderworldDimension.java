@@ -85,7 +85,8 @@ public class UnderworldDimension extends AetheriaModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("aetheria:underworld_biome")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("aetheria:underworld_biome")),
+				ForgeRegistries.BIOMES.getValue(new ResourceLocation("aetheria:underworld_biome_2")),};
 	}
 	public static class CustomModDimension extends ModDimension {
 		@Override
