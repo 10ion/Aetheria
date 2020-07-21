@@ -58,6 +58,8 @@ public class AetheriaModElements {
 		sounds.put(new ResourceLocation("aetheria", "space-battle"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "space-battle")));
 		sounds.put(new ResourceLocation("aetheria", "nyan-cat"), new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "nyan-cat")));
+		sounds.put(new ResourceLocation("aetheria", "sh_ultimate"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("aetheria", "sh_ultimate")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("aetheria").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

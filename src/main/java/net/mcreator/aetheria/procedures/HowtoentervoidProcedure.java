@@ -21,6 +21,8 @@ import net.mcreator.aetheria.world.dimension.UnderworldDimension;
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+
 @AetheriaModElements.ModElement.Tag
 public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 	public HowtoentervoidProcedure(AetheriaModElements instance) {
@@ -28,7 +30,7 @@ public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure Howtoentervoid!");
 			return;
@@ -95,9 +97,9 @@ public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 		if (event.phase == TickEvent.Phase.END) {
 			Entity entity = event.player;
 			World world = entity.world;
-			int i = (int) entity.posX;
-			int j = (int) entity.posY;
-			int k = (int) entity.posZ;
+			double i = entity.posX;
+			double j = entity.posY;
+			double k = entity.posZ;
 			java.util.HashMap<String, Object> dependencies = new java.util.HashMap<>();
 			dependencies.put("x", i);
 			dependencies.put("y", j);

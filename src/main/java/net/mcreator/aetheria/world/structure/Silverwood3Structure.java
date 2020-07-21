@@ -70,6 +70,10 @@ public class Silverwood3Structure extends AetheriaModElements.ModElement {
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
 						BlockPos spawnTo = new BlockPos(i, j + 0, k);
+						ServerWorld world = (ServerWorld) iworld.getWorld();
+						int x = spawnTo.getX();
+						int y = spawnTo.getY();
+						int z = spawnTo.getZ();
 						template.addBlocksToWorldChunk(iworld, spawnTo,
 								new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
 										.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk((ChunkPos) null)

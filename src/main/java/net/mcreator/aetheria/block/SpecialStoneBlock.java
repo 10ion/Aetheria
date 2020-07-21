@@ -87,14 +87,11 @@ public class SpecialStoneBlock extends AetheriaModElements.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			int i = x;
-			int j = y;
-			int k = z;
 			if (true)
 				for (int l = 0; l < 6; ++l) {
-					double d0 = (i + random.nextFloat());
-					double d1 = (j + random.nextFloat());
-					double d2 = (k + random.nextFloat());
+					double d0 = (x + random.nextFloat());
+					double d1 = (y + random.nextFloat());
+					double d2 = (z + random.nextFloat());
 					int i1 = random.nextInt(2) * 2 - 1;
 					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
 					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
@@ -108,14 +105,14 @@ public class SpecialStoneBlock extends AetheriaModElements.ModElement {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(new OreFeature(OreFeatureConfig::deserialize) {
 				@Override
-				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
-					DimensionType dimensionType = world.getDimension().getType();
+				public boolean place(IWorld iworld, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
+					DimensionType dimensionType = iworld.getDimension().getType();
 					boolean dimensionCriteria = false;
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					return super.place(world, generator, rand, pos, config);
+					return super.place(iworld, generator, rand, pos, config);
 				}
 			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("specialstone", "specialstone", blockAt -> {
 				boolean blockCriteria = false;

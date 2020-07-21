@@ -40,7 +40,7 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class BlueCrocoiteBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:crocoite")
+	@ObjectHolder("aetheria:bluecrocoite")
 	public static final Block block = null;
 	public BlueCrocoiteBlock(AetheriaModElements instance) {
 		super(instance, 137);
@@ -61,14 +61,14 @@ public class BlueCrocoiteBlock extends AetheriaModElements.ModElement {
 			}
 
 			@Override
-			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
-				DimensionType dimensionType = world.getDimension().getType();
+			public boolean place(IWorld iworld, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
+				DimensionType dimensionType = iworld.getDimension().getType();
 				boolean dimensionCriteria = false;
 				if (dimensionType == TheVoidDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				return super.place(world, generator, random, pos, config);
+				return super.place(iworld, generator, random, pos, config);
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
@@ -80,7 +80,7 @@ public class BlueCrocoiteBlock extends AetheriaModElements.ModElement {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.GLASS)
 					.hardnessAndResistance(0.5f, 2f).lightValue(3));
-			setRegistryName("crocoite");
+			setRegistryName("bluecrocoite");
 		}
 
 		@Override

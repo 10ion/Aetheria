@@ -74,21 +74,21 @@ public class CopperOreBlock extends AetheriaModElements.ModElement {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(new OreFeature(OreFeatureConfig::deserialize) {
 				@Override
-				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
-					DimensionType dimensionType = world.getDimension().getType();
+				public boolean place(IWorld iworld, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
+					DimensionType dimensionType = iworld.getDimension().getType();
 					boolean dimensionCriteria = false;
 					if (dimensionType == DimensionType.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					return super.place(world, generator, rand, pos, config);
+					return super.place(iworld, generator, rand, pos, config);
 				}
 			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("copperore", "copperore", blockAt -> {
 				boolean blockCriteria = false;
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 9), Placement.COUNT_RANGE, new CountRangeConfig(18, 0, 0, 68)));
+			}), block.getDefaultState(), 9), Placement.COUNT_RANGE, new CountRangeConfig(19, 0, 0, 68)));
 		}
 	}
 }

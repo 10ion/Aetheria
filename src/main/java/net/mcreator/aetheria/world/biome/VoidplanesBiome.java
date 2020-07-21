@@ -3,6 +3,8 @@ package net.mcreator.aetheria.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -16,6 +18,7 @@ import net.minecraft.world.gen.feature.BigMushroomFeatureConfig;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
@@ -43,7 +46,7 @@ public class VoidplanesBiome extends AetheriaModElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(0.22f).temperature(0.3f).precipitation(Biome.RainType.NONE)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.NONE).waterColor(-16764109).waterFogColor(-16764109)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(VoidMyceliumBlock.block.getDefaultState(),
 							VoidStoneBlock.block.getDefaultState(), VoidStoneBlock.block.getDefaultState())));
 			setRegistryName("voidplanes");
@@ -60,7 +63,25 @@ public class VoidplanesBiome extends AetheriaModElements.ModElement {
 							Feature.RANDOM_BOOLEAN_SELECTOR, new TwoFeatureChoiceConfig(Feature.HUGE_RED_MUSHROOM,
 									new BigMushroomFeatureConfig(false), Feature.HUGE_BROWN_MUSHROOM, new BigMushroomFeatureConfig(false)),
 							Placement.COUNT_HEIGHTMAP, new FrequencyConfig(4)));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.MOOSHROOM, 15, 1, 5));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.MOOSHROOM, 15, 1, 15));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getGrassColor(BlockPos pos) {
+			return -16737946;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor(BlockPos pos) {
+			return -16737946;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getSkyColorByTemp(float currentTemperature) {
+			return -16737895;
 		}
 	}
 }

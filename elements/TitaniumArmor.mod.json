@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -18,6 +18,10 @@
     "bodyName": "Titanium Chestplate",
     "leggingsName": "Titanium Leggings",
     "bootsName": "Titanium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

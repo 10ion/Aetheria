@@ -2,8 +2,9 @@
 package net.mcreator.aetheria.command;
 
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
+import net.minecraftforge.common.util.FakePlayerFactory;
 
-import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.entity.Entity;
 import net.minecraft.command.Commands;
 import net.minecraft.command.CommandSource;
@@ -11,6 +12,7 @@ import net.minecraft.command.CommandSource;
 import net.mcreator.aetheria.procedures.FastCommandExecutedProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 
@@ -35,24 +37,24 @@ public class FastCommand extends AetheriaModElements.ModElement {
 	}
 
 	private int execute(CommandContext<CommandSource> ctx) {
+		ServerWorld world = ctx.getSource().getWorld();
+		double x = ctx.getSource().getPos().getX();
+		double y = ctx.getSource().getPos().getY();
+		double z = ctx.getSource().getPos().getZ();
 		Entity entity = ctx.getSource().getEntity();
-		if (entity != null) {
-			int x = entity.getPosition().getX();
-			int y = entity.getPosition().getY();
-			int z = entity.getPosition().getZ();
-			World world = entity.world;
-			HashMap<String, String> cmdparams = new HashMap<>();
-			int[] index = {-1};
-			Arrays.stream(ctx.getInput().split("\\s+")).forEach(param -> {
-				if (index[0] >= 0)
-					cmdparams.put(Integer.toString(index[0]), param);
-				index[0]++;
-			});
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				FastCommandExecutedProcedure.executeProcedure($_dependencies);
-			}
+		if (entity == null)
+			entity = FakePlayerFactory.getMinecraft(world);
+		HashMap<String, String> cmdparams = new HashMap<>();
+		int[] index = {-1};
+		Arrays.stream(ctx.getInput().split("\\s+")).forEach(param -> {
+			if (index[0] >= 0)
+				cmdparams.put(Integer.toString(index[0]), param);
+			index[0]++;
+		});
+		{
+			Map<String, Object> $_dependencies = new HashMap<>();
+			$_dependencies.put("entity", entity);
+			FastCommandExecutedProcedure.executeProcedure($_dependencies);
 		}
 		return 0;
 	}

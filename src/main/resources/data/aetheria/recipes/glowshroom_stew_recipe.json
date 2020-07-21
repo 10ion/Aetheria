@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:glowshroom"
     },
     {
       "item": "minecraft:bowl"

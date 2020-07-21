@@ -60,14 +60,14 @@ public class AstralToadstoolBlock extends AetheriaModElements.ModElement {
 			}
 
 			@Override
-			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
-				DimensionType dimensionType = world.getDimension().getType();
+			public boolean place(IWorld iworld, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
+				DimensionType dimensionType = iworld.getDimension().getType();
 				boolean dimensionCriteria = false;
 				if (dimensionType == TheVoidDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				return super.place(world, generator, random, pos, config);
+				return super.place(iworld, generator, random, pos, config);
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {

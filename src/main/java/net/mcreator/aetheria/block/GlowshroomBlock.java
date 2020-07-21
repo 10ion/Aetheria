@@ -19,6 +19,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -61,17 +62,22 @@ public class GlowshroomBlock extends AetheriaModElements.ModElement {
 			}
 
 			@Override
-			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
-				DimensionType dimensionType = world.getDimension().getType();
+			public boolean place(IWorld iworld, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
+				DimensionType dimensionType = iworld.getDimension().getType();
 				boolean dimensionCriteria = false;
 				if (dimensionType == TheAetherDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				return super.place(world, generator, random, pos, config);
+				return super.place(iworld, generator, random, pos, config);
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("aetheria:aetherbiome")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					Biome.createDecoratedFeature(feature, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(3)));
 		}

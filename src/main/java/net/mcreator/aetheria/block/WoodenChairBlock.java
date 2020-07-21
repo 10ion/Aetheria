@@ -9,6 +9,9 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.Explosion;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -35,7 +38,9 @@ import net.mcreator.aetheria.procedures.WoodenChairBlockAddedProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
@@ -74,6 +79,23 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 		@Override
 		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
 			return true;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			switch ((Direction) state.get(FACING)) {
+				case UP :
+				case DOWN :
+				case SOUTH :
+				default :
+					return VoxelShapes.create(1D, 0D, 1D, 0D, 0.6D, 0D);
+				case NORTH :
+					return VoxelShapes.create(0D, 0D, 0D, 1D, 0.6D, 1D);
+				case WEST :
+					return VoxelShapes.create(0D, 0D, 1D, 1D, 0.6D, 0D);
+				case EAST :
+					return VoxelShapes.create(1D, 0D, 0D, 0D, 0.6D, 1D);
+			}
 		}
 
 		@Override
@@ -119,7 +141,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -135,7 +157,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -152,7 +174,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);

@@ -18,6 +18,9 @@ import net.mcreator.aetheria.procedures.FastCommandExecutedProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class ScytheItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:scythe")
@@ -57,11 +60,11 @@ public class ScytheItem extends AetheriaModElements.ModElement {
 			public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 				ActionResult<ItemStack> retval = super.onItemRightClick(world, entity, hand);
 				ItemStack itemstack = retval.getResult();
-				int x = (int) entity.posX;
-				int y = (int) entity.posY;
-				int z = (int) entity.posZ;
+				double x = entity.posX;
+				double y = entity.posY;
+				double z = entity.posZ;
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					FastCommandExecutedProcedure.executeProcedure($_dependencies);
 				}

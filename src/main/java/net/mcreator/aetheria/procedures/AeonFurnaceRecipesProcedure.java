@@ -1,45 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-
-import net.mcreator.aetheria.item.ZincItem;
-import net.mcreator.aetheria.item.TinItem;
-import net.mcreator.aetheria.item.SterlingSilverItem;
-import net.mcreator.aetheria.item.SteelItem;
-import net.mcreator.aetheria.item.SilverItem;
-import net.mcreator.aetheria.item.RoseGoldIngotItem;
-import net.mcreator.aetheria.item.RedBrassIngotItem;
-import net.mcreator.aetheria.item.PewterItem;
-import net.mcreator.aetheria.item.NIckelIngotItem;
-import net.mcreator.aetheria.item.MagnegoldItem;
-import net.mcreator.aetheria.item.LeadItem;
-import net.mcreator.aetheria.item.FlowingWaterSteelIngotItem;
-import net.mcreator.aetheria.item.ElectrumItem;
-import net.mcreator.aetheria.item.DarkSteelItem;
-import net.mcreator.aetheria.item.DarkIronIngotItem;
-import net.mcreator.aetheria.item.CopperItem;
-import net.mcreator.aetheria.item.CobaltItem;
-import net.mcreator.aetheria.item.BronzeItem;
-import net.mcreator.aetheria.item.BrassItem;
-import net.mcreator.aetheria.item.BlackBronzeItem;
-import net.mcreator.aetheria.item.BismuthItem;
-import net.mcreator.aetheria.item.BismuthBronzeItem;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-
 @AetheriaModElements.ModElement.Tag
 public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement {
+
 	public AeonFurnaceRecipesProcedure(AetheriaModElements instance) {
 		super(instance, 508);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -59,10 +25,12 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 			System.err.println("Failed to load dependency world for procedure AeonFurnaceRecipes!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if ((((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -4095,5 +4063,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				}
 			}
 		}
+
 	}
+
 }
