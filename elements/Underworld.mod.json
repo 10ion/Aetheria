@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "dimension",
   "definition": {
     "portalFrame": {
@@ -21,10 +21,10 @@
     "enablePortal": false,
     "biomesInDimension": [
       {
-        "value": "CUSTOM:UnderworldBiome"
+        "value": "CUSTOM:UnderworldBiome2"
       },
       {
-        "value": "CUSTOM:UnderworldBiome2"
+        "value": "CUSTOM:UnderworldBiome"
       }
     ],
     "worldGenType": "Nether like gen",

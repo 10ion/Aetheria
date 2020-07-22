@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Tungsten"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Tungsten"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Tungsten"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Tungsten"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Tungsten"
       },
       {
-        "value": "CUSTOM:LeadBlock"
+        "value": "CUSTOM:Tungsten"
       },
       {
-        "value": "CUSTOM:Lead"
+        "value": "CUSTOM:Tungsten"
       }
     ],
     "recipeReturnStack": {

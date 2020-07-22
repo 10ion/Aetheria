@@ -1,40 +1,41 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "biome",
   "definition": {
     "groundBlock": {
-      "value": "Blocks.BEDROCK"
+      "value": "CUSTOM:Bedrock"
     },
     "undergroundBlock": {
-      "value": "Blocks.BEDROCK"
+      "value": "CUSTOM:Bedrock"
     },
-    "generateLakes": false,
-    "treeType": 1,
+    "generateLakes": true,
+    "treeType": 0,
     "vanillaTreeType": "Default",
-    "minHeight": 0,
+    "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeStem": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
+    "customColors": true,
     "airColor": {
       "value": -13421773,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -16764160,
+      "value": -13421773,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16737895,
+      "value": -16777165,
       "falpha": 0.0
     },
     "treesPerChunk": 0,
@@ -47,17 +48,17 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "rainingPossibility": 0.0,
-    "temperature": 0.5,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "temperature": 0.0,
+    "baseHeight": 0.0,
+    "heightVariation": 0.19999999999999998,
     "spawnBiome": false,
-    "biomeWeight": 1024,
+    "biomeWeight": 100,
     "biomeType": "WARM",
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnEntries": []
+    "spawnList": []
   }
 }

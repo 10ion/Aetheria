@@ -4679,15 +4679,6 @@
       "registry_name": "underworld"
     },
     {
-      "name": "UnderworldBiome",
-      "type": "biome",
-      "sortid": 491,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "underworld_biome"
-    },
-    {
       "name": "OinkAch",
       "type": "achievement",
       "sortid": 494,
@@ -4767,15 +4758,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "styx_water"
-    },
-    {
-      "name": "SoullessPlains",
-      "type": "biome",
-      "sortid": 503,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "soulless_plains"
     },
     {
       "name": "AntiCheat",
@@ -4965,6 +4947,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sh_ultimate"
+    },
+    {
+      "name": "SoullessPlains",
+      "type": "biome",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soulless_plains"
+    },
+    {
+      "name": "UnderworldBiome",
+      "type": "biome",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "underworld_biome"
     }
   ],
   "variable_elements": [
@@ -5016,7 +5016,7 @@
     "en_us": {
       "item.aetheria.darkfelsteelarmorbody": "Black Felsteel Chestplate",
       "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
-      "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
+      "item.aetheria.endersteeelarmorhelmet": "Endersteel Helmet",
       "item.aetheria.steelarmorarmorlegs": "Steel Leggings",
       "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
       "item.aetheria.bismuth": "Bismuth",
@@ -5073,10 +5073,11 @@
       "item.aetheria.pewterarmorarmorlegs": "Pewter Leggings",
       "item.aetheria.palladiumarmorarmorboots": "Palladium Boots",
       "entity.aetheria.cakeslime": "Cake Slime",
+      "entity.aetheria.mycon": "Mycon",
       "item.aetheria.spacebattle": "Music Disc",
       "item.aetheria.tungsten": "Tungsten Ingot",
       "item.aetheria.emeraldarmorlegs": "Emerald Leggings",
-      "item.aetheria.endersteeelarmorlegs": "Endersteeel Leggings",
+      "item.aetheria.endersteeelarmorlegs": "Endersteel Leggings",
       "item.aetheria.mithrilarmorlegs": "Mithril Leggings",
       "item.aetheria.darksteel": "Dark Steel",
       "item.aetheria.magnegold": "Magnegold",
@@ -5105,6 +5106,7 @@
       "item.aetheria.mithrilingot": "Mithril Ingot",
       "item.aetheria.obsidianarmorbody": "Obsidian Chestplate",
       "item.aetheria.nickelingot": "Nickel Ingot",
+      "item.aetheria.mycon": "Mycon Spawn Egg",
       "item.aetheria.endersteeltoolshoe": "Endersteel Hoe",
       "item.aetheria.bronze": "Bronze",
       "item.aetheria.feyarmorbody": "Feysteel Chestplate",
@@ -5117,10 +5119,12 @@
       "itemGroup.tabaetheriacrafting": "Aetheria Crafting",
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
       "item.aetheria.pizzaslice": "Pizza Slice",
+      "item.aetheria.dim_9_9": "Decay",
       "block.aetheria.cobaltore": "Cobalt Ore",
       "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
       "block.aetheria.mysticalplanks": "Mystical Planks",
       "block.aetheria.voidcrystle": "Void Crystal",
+      "item.aetheria.bedrock_breaker": "Bedrock Breaker",
       "item.aetheria.tungstenarmorarmorboots": "Tungsten Boots",
       "item.aetheria.mithrilarmorbody": "Mithril Chestplate",
       "block.aetheria.platinum_ore": "Platinum Ore",
@@ -5165,7 +5169,7 @@
       "effect.milkbottle": "Bottle of Milk",
       "item.aetheria.obsidianarmorlegs": "Obsidian Leggings",
       "item.minecraft.splash_potion.effect.anti_cheat": "Splash Anti-Cheat",
-      "item.aetheria.endersteeelarmorboots": "Endersteeel Boots",
+      "item.aetheria.endersteeelarmorboots": "Endersteel Boots",
       "item.minecraft.tipped_arrow.effect.milkbottle": "Arrow of Milkbottle",
       "item.aetheria.zinc": "Zinc",
       "item.aetheria.redsteelarmorboots": "Redsteel Boots",
@@ -5232,7 +5236,7 @@
       "item.aetheria.glowshroom_stew": "Glowshroom Stew",
       "block.aetheria.lightningrod": "Lightningrod",
       "item.aetheria.copperarmorarmorboots": "Copper Boots",
-      "item.aetheria.endersteeelarmorbody": "Endersteeel Chestplate",
+      "item.aetheria.endersteeelarmorbody": "Endersteel Chestplate",
       "block.aetheria.infestedvoidstone": "Infested Voidstone",
       "item.aetheria.redsteelshovel": "Redsteel Shovel",
       "itemGroup.tabaetheriafooditems": "Aetheria Food Items",
@@ -5244,6 +5248,7 @@
       "item.aetheria.leadarmorarmorbody": "Lead Chestplate",
       "block.aetheria.bauxite": "Bauxite",
       "item.aetheria.tinarmorarmorhelmet": "Tin Helmet",
+      "item.aetheria.sh_ultimate": "SH Ultimate",
       "item.aetheria.palladium": "Palladium",
       "item.aetheria.cobalt": "Cobalt",
       "item.aetheria.magnegoldarmorarmorlegs": "Magnegold Leggings",
@@ -5367,6 +5372,7 @@
       "item.aetheria.endersteeelhelmet": "Endersteel Helmet",
       "block.aetheria.silverore": "Silver Ore",
       "item.aetheria.iridiumingot": "Iridium Ingot",
+      "item.aetheria.sh_ultimate.desc": "null",
       "item.aetheria.stormberrymuffin": "Stormberry Muffin",
       "item.aetheria.feyarmorhelmet": "Feysteel Helmet",
       "item.aetheria.nickelarmorboots": "Nickel Boots",
