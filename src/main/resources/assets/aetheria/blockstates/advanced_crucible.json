@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aetheria:block/advanced_crucible"
+    },
+    "facing=east": {
+      "model": "aetheria:block/advanced_crucible",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheria:block/advanced_crucible",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheria:block/advanced_crucible",
+      "y": 270
+    }
+  }
+}

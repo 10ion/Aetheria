@@ -4965,6 +4965,53 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "underworld_biome"
+    },
+    {
+      "name": "AdvancedCrucible",
+      "type": "block",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_crucible"
+    },
+    {
+      "name": "AdvancedCrucibleGUI",
+      "type": "gui",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_crucible_gui"
+    },
+    {
+      "name": "AdvancedCrucibleRecipes",
+      "type": "procedure",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_crucible_recipes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5021,8 +5068,8 @@
       "item.aetheria.holyhandgrenade": "Holy Hand Grenade",
       "item.aetheria.bismuth": "Bismuth",
       "item.aetheria.bronzearmorarmorlegs": "Bronze Leggings",
-      "item.minecraft.potion.effect.anti_cheat": "Anti-Cheat",
       "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
+      "item.minecraft.potion.effect.anti_cheat": "Anti-Cheat",
       "block.aetheria.macowaniteblock": "Macowaniteblock",
       "item.aetheria.pizza": "Pizza",
       "block.aetheria.voidmycelium": "Void Mycelium",
@@ -5037,8 +5084,8 @@
       "item.aetheria.mummy": "Mummy Spawn Egg",
       "advancements.voidenter.title": "Subtranian Lacuna",
       "item.aetheria.nethercryptdagger": "Nethercrypt Dagger",
-      "item.aetheria.brassarmorarmorboots": "Brass Boots",
       "item.aetheria.endersteel": "Endersteel",
+      "item.aetheria.brassarmorarmorboots": "Brass Boots",
       "item.aetheria.silverarmorarmorbody": "Silver Chestplate",
       "item.aetheria.nyancat.desc": "Nyan Cat - Unkown Creator",
       "item.aetheria.mithrilarmorboots": "Mithril Boots",
@@ -5058,8 +5105,8 @@
       "advancements.specialstoneachievement.title": "Easter Egg Achievment",
       "block.aetheria.obamiumore": "Obamium Ore",
       "item.aetheria.copperarmorarmorhelmet": "Copper Helmet",
-      "item.aetheria.brassarmorarmorhelmet": "Brass Helmet",
       "item.aetheria.crocoiteshard": "Crocoite Shard",
+      "item.aetheria.brassarmorarmorhelmet": "Brass Helmet",
       "item.aetheria.palladiumarmorarmorlegs": "Palladium Leggings",
       "item.aetheria.redsteelingot": "Redsteelingot",
       "block.aetheria.glowshroom": "Glowshroom",
@@ -5080,8 +5127,8 @@
       "item.aetheria.endersteeelarmorlegs": "Endersteel Leggings",
       "item.aetheria.mithrilarmorlegs": "Mithril Leggings",
       "item.aetheria.darksteel": "Dark Steel",
-      "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.tin": "Tin",
+      "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
       "item.aetheria.nyancat": "Music Disc",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
@@ -5111,8 +5158,8 @@
       "item.aetheria.bronze": "Bronze",
       "item.aetheria.feyarmorbody": "Feysteel Chestplate",
       "item.aetheria.nickelarmorhelmet": "Nickel Helmet",
-      "item.minecraft.lingering_potion.effect.omnessence1": "Lingering Omnessence1",
       "item.aetheria.tungstenarmorarmorlegs": "Tungsten Leggings",
+      "item.minecraft.lingering_potion.effect.omnessence1": "Lingering Omnessence1",
       "item.aetheria.electrumarmorarmorboots": "Electrum Boots",
       "item.aetheria.adamantaarmorhelmet": "Adamant Helmet",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
@@ -5124,8 +5171,8 @@
       "item.aetheria.moonsilverarmorhelmet": "Moonsilver Helmet",
       "block.aetheria.mysticalplanks": "Mystical Planks",
       "block.aetheria.voidcrystle": "Void Crystal",
-      "item.aetheria.bedrock_breaker": "Bedrock Breaker",
       "item.aetheria.tungstenarmorarmorboots": "Tungsten Boots",
+      "item.aetheria.bedrock_breaker": "Bedrock Breaker",
       "item.aetheria.mithrilarmorbody": "Mithril Chestplate",
       "block.aetheria.platinum_ore": "Platinum Ore",
       "block.aetheria.copperore": "Copper Ore",
@@ -5135,8 +5182,8 @@
       "block.aetheria.mysticallog": "Mystical log",
       "item.aetheria.darkironingot": "Dark Iron Ingot",
       "block.aetheria.bismuth_ore": "Bismuth Ore",
-      "item.aetheria.redbrassarmorbody": "Red Brass Chestplate",
       "item.aetheria.sterlingsilver": "Sterling Silver",
+      "item.aetheria.redbrassarmorbody": "Red Brass Chestplate",
       "biome.aetheria.silverwoodforest": "Silverwood forest",
       "item.aetheria.coldironarmorarmorhelmet": "Cold Iron Helmet",
       "item.minecraft.lingering_potion.effect.anti_cheat": "Lingering Anti-Cheat",
@@ -5279,6 +5326,7 @@
       "itemGroup.tabaetheriatools": "Aetheria Tools",
       "item.aetheria.bismuthbronzearmorarmorlegs": "Bismuth Bronze Leggings",
       "item.aetheria.blackarmorboots": "Black Bronze Boots",
+      "block.aetheria.advanced_crucible": "Advanced Crucible",
       "item.aetheria.titaniumi": "Titanium ingot",
       "item.aetheria.copperarmorarmorlegs": "Copper Leggings",
       "item.aetheria.theaether": "Mythical Flint \u0026 Steel",
