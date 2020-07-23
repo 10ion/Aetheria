@@ -22,12 +22,12 @@ import net.mcreator.aetheria.item.MagnegoldItem;
 import net.mcreator.aetheria.item.LeadItem;
 import net.mcreator.aetheria.item.FlowingWaterSteelIngotItem;
 import net.mcreator.aetheria.item.ElectrumItem;
-import net.mcreator.aetheria.item.DarkSteelItem;
 import net.mcreator.aetheria.item.DarkIronIngotItem;
 import net.mcreator.aetheria.item.CopperItem;
 import net.mcreator.aetheria.item.CobaltItem;
 import net.mcreator.aetheria.item.BronzeItem;
 import net.mcreator.aetheria.item.BrassItem;
+import net.mcreator.aetheria.item.BlacksteelIngotItem;
 import net.mcreator.aetheria.item.BlackBronzeItem;
 import net.mcreator.aetheria.item.BismuthItem;
 import net.mcreator.aetheria.item.BismuthBronzeItem;
@@ -4074,7 +4074,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(DarkSteelItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(BlacksteelIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);

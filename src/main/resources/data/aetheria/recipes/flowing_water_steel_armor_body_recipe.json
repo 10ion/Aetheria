@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "2": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "3": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "4": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "5": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "6": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "7": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "8": {
+      "item": "aetheria:flowingwatersteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:flowing_water_steel_armorbody",
+    "count": 1
+  }
+}

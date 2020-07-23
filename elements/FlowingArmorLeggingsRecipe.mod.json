@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:FlowingArmor.legs"
     },
-    "name": "flowingarmorleggingsrecipe",
+    "name": "flowing_armor_leggings_recipe",
     "namespace": "mod"
   }
 }

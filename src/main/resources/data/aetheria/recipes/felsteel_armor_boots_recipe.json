@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:felsteel_ingot"
+    },
+    "2": {
+      "item": "aetheria:felsteel_ingot"
+    },
+    "3": {
+      "item": "aetheria:felsteel_ingot"
+    },
+    "5": {
+      "item": "aetheria:felsteel_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:felsteel_armorboots",
+    "count": 1
+  }
+}

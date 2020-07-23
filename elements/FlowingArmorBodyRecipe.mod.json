@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:FlowingArmor.body"
     },
-    "name": "flowingarmorbodyrecipe",
+    "name": "flowing_armor_body_recipe",
     "namespace": "mod"
   }
 }
