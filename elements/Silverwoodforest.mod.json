@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "biome",
   "definition": {
     "groundBlock": {
@@ -25,6 +25,7 @@
     "treeFruits": {
       "value": ""
     },
+    "customColors": false,
     "airColor": {
       "value": -5916161,
       "falpha": 0.0
@@ -60,53 +61,6 @@
     "biomeDictionaryTypes": [
       "MAGICAL",
       "FOREST"
-    ],
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityVindicator"
-        },
-        "minGroup": 1,
-        "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityVex"
-        },
-        "minGroup": 1,
-        "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityFox"
-        },
-        "minGroup": 1,
-        "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityWolf"
-        },
-        "minGroup": 1,
-        "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityPhantom"
-        },
-        "minGroup": 1,
-        "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
-      }
     ]
   }
 }

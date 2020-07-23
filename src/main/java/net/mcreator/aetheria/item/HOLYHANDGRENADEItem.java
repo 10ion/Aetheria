@@ -41,8 +41,6 @@ import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
-import java.util.Map;
-import java.util.HashMap;
 
 import com.google.common.collect.Multimap;
 
@@ -109,18 +107,16 @@ public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 			World world = entityLiving.world;
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
-				double x = entity.posX;
-				double y = entity.posY;
-				double z = entity.posZ;
-				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.4f, 0, 0);
-					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
-					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
-					{
-						Map<String, Object> $_dependencies = new HashMap<>();
-						$_dependencies.put("entity", entity);
-						HOLYHANDGRENADERangedItemUsedProcedure.executeProcedure($_dependencies);
-					}
+				ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.4f, 0, 0);
+				itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
+				entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
+				{
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					$_dependencies.put("entity", entity);
+					HOLYHANDGRENADERangedItemUsedProcedure.executeProcedure($_dependencies);
 				}
 				entity.stopActiveHand();
 			}
@@ -166,12 +162,12 @@ public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
 			Entity sourceentity = this.getShooter();
-			double x = this.posX;
-			double y = this.posY;
-			double z = this.posZ;
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
 			World world = this.world;
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -183,14 +179,14 @@ public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 		@Override
 		public void tick() {
 			super.tick();
-			double x = this.posX;
-			double y = this.posY;
-			double z = this.posZ;
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
 			World world = this.world;
 			Entity entity = this.getShooter();
 			if (this.inGround) {
 				{
-					Map<String, Object> $_dependencies = new HashMap<>();
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
@@ -209,9 +205,9 @@ public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 		entityarrow.setDamage(damage);
 		entityarrow.setKnockbackStrength(knockback);
 		world.addEntity(entityarrow);
-		double x = entity.posX;
-		double y = entity.posY;
-		double z = entity.posZ;
+		int x = (int) entity.posX;
+		int y = (int) entity.posY;
+		int z = (int) entity.posZ;
 		world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
 				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
 				SoundCategory.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
@@ -223,15 +219,13 @@ public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 		double d0 = target.posY + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.posX - entity.posX;
 		double d3 = target.posZ - entity.posZ;
-		entityarrow.shoot(d1, d0 - entityarrow.posY + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 0.4f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.posY + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(0);
-		entityarrow.setKnockbackStrength(0);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
-		double x = entity.posX;
-		double y = entity.posY;
-		double z = entity.posZ;
+		int x = (int) entity.posX;
+		int y = (int) entity.posY;
+		int z = (int) entity.posZ;
 		entity.world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
 				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
 				SoundCategory.PLAYERS, 1, 1f / (new Random().nextFloat() * 0.5f + 1));

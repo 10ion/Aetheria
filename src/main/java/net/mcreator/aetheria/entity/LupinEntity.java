@@ -2,7 +2,6 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -18,7 +17,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
-import net.minecraft.network.IPacket;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -37,9 +35,6 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.procedures.Lupin1Procedure;
 import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.Map;
-import java.util.HashMap;
 
 @AetheriaModElements.ModElement.Tag
 public class LupinEntity extends AetheriaModElements.ModElement {
@@ -81,11 +76,6 @@ public class LupinEntity extends AetheriaModElements.ModElement {
 			enablePersistence();
 			this.moveController = new FlyingMovementController(this);
 			this.navigator = new FlyingPathNavigator(this, this.world);
-		}
-
-		@Override
-		public IPacket<?> createSpawnPacket() {
-			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override
@@ -148,12 +138,12 @@ public class LupinEntity extends AetheriaModElements.ModElement {
 		@Override
 		public void baseTick() {
 			super.baseTick();
-			double x = this.posX;
-			double y = this.posY;
-			double z = this.posZ;
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
 			Entity entity = this;
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("world", world);
 				Lupin1Procedure.executeProcedure($_dependencies);

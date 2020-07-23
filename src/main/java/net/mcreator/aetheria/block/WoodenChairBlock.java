@@ -38,9 +38,7 @@ import net.mcreator.aetheria.procedures.WoodenChairBlockAddedProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
@@ -141,7 +139,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -157,7 +155,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -174,7 +172,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);

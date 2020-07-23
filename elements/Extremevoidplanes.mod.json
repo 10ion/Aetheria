@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "biome",
   "definition": {
     "groundBlock": {
@@ -25,6 +25,7 @@
     "treeFruits": {
       "value": ""
     },
+    "customColors": false,
     "airColor": {
       "value": -16751002,
       "falpha": 0.0
@@ -57,17 +58,6 @@
     "parent": {
       "value": "CUSTOM:Voidplanes"
     },
-    "biomeDictionaryTypes": [],
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityMooshroom"
-        },
-        "minGroup": 1,
-        "maxGroup": 15,
-        "weight": 15,
-        "spawnType": "creature"
-      }
-    ]
+    "biomeDictionaryTypes": []
   }
 }

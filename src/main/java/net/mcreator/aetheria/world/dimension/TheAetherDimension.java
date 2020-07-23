@@ -251,7 +251,7 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 		}
 
 		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-			if (!world.isRemote && !entity.isPassenger() && !entity.isBeingRidden() && entity instanceof ServerPlayerEntity && true) {
+			if (!world.isRemote && !entity.isPassenger() && !entity.isBeingRidden() && entity instanceof ServerPlayerEntity) {
 				ServerPlayerEntity player = (ServerPlayerEntity) entity;
 				if (player.timeUntilPortal > 0) {
 					player.timeUntilPortal = 10;
@@ -780,6 +780,7 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 	}
 
 	public static class ChunkProviderModded extends EndChunkGenerator {
+		private static final int SEALEVEL = 63;
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {

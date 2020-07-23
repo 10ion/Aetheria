@@ -24,5 +24,6 @@
   },
   "rewards": {
     "experience": 0
-  }
+  },
+  "parent": "aetheria:welcome_to_aetheria"
 }

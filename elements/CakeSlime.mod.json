@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 8,
   "_type": "mob",
   "definition": {
     "mobName": "Cake Slime",
@@ -54,8 +54,6 @@
     "xpAmount": 6,
     "waterMob": false,
     "flyingMob": false,
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
@@ -91,7 +89,6 @@
     "aiBase": "Slime",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"/></xml>",
     "breedable": false,
-    "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {

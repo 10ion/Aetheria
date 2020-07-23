@@ -15,9 +15,6 @@ import net.mcreator.aetheria.procedures.NethercryptdaggerMobIsHitWithDaggerProce
 import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
-import java.util.Map;
-import java.util.HashMap;
-
 @AetheriaModElements.ModElement.Tag
 public class NethercryptdaggerItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:nethercryptdagger")
@@ -56,12 +53,12 @@ public class NethercryptdaggerItem extends AetheriaModElements.ModElement {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
-				double x = entity.posX;
-				double y = entity.posY;
-				double z = entity.posZ;
+				int x = (int) entity.posX;
+				int y = (int) entity.posY;
+				int z = (int) entity.posZ;
 				World world = entity.world;
 				{
-					Map<String, Object> $_dependencies = new HashMap<>();
+					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 					$_dependencies.put("entity", entity);
 					NethercryptdaggerMobIsHitWithDaggerProcedure.executeProcedure($_dependencies);
 				}

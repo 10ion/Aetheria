@@ -196,7 +196,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(RedsteelingotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
@@ -352,7 +352,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(BlueSteelIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
@@ -509,7 +509,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(EndersteelItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
@@ -665,7 +665,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(FeySteelItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
@@ -821,7 +821,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(DarkFelSteelIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
@@ -977,7 +977,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(FelSteelItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
@@ -1059,7 +1059,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								return _retval.get();
 							}
 						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (4))) == 0))
-								&& (((world.isDaytime()) == (false)) && ((world.getCurrentMoonPhaseFactor()) == 4)))))) {
+								&& (((world.isDaytime()) == (false)) && ((world.getCurrentMoonPhaseFactor()) == 1)))))) {
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
@@ -1133,7 +1133,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
-					final int _sltid = (int) (3);
+					final int _sltid = (int) (5);
 					final ItemStack _setstack = new ItemStack(MoonsilverIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {

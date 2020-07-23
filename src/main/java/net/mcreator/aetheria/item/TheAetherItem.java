@@ -30,10 +30,7 @@ public class TheAetherItem extends Item {
 		if (!entity.canPlayerEdit(pos, context.getFace(), itemstack)) {
 			return ActionResultType.FAIL;
 		} else {
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (world.isAirBlock(pos) && true)
+			if (world.isAirBlock(pos))
 				TheAetherDimension.portal.portalSpawn(world, pos);
 			itemstack.damageItem(1, entity, c -> c.sendBreakAnimation(context.getHand()));
 			return ActionResultType.SUCCESS;

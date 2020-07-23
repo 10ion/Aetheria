@@ -58,9 +58,7 @@ import java.util.function.LongFunction;
 import java.util.function.BiFunction;
 import java.util.Set;
 import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 import com.google.common.collect.Sets;
@@ -191,12 +189,12 @@ public class TheVoidDimension extends AetheriaModElements.ModElement {
 	public void onPlayerChangedDimensionEvent(PlayerEvent.PlayerChangedDimensionEvent event) {
 		Entity entity = event.getPlayer();
 		World world = entity.world;
-		double x = entity.posX;
-		double y = entity.posY;
-		double z = entity.posZ;
+		int x = (int) entity.posX;
+		int y = (int) entity.posY;
+		int z = (int) entity.posZ;
 		if (event.getTo() == type) {
 			{
-				Map<String, Object> $_dependencies = new HashMap<>();
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
@@ -207,6 +205,7 @@ public class TheVoidDimension extends AetheriaModElements.ModElement {
 		}
 	}
 	public static class ChunkProviderModded extends EndChunkGenerator {
+		private static final int SEALEVEL = 63;
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {

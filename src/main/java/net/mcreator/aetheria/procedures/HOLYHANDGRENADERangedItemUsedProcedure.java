@@ -7,15 +7,13 @@ import net.minecraft.entity.Entity;
 import net.mcreator.aetheria.item.HOLYHANDGRENADEItem;
 import net.mcreator.aetheria.AetheriaModElements;
 
-import java.util.Map;
-
 @AetheriaModElements.ModElement.Tag
 public class HOLYHANDGRENADERangedItemUsedProcedure extends AetheriaModElements.ModElement {
 	public HOLYHANDGRENADERangedItemUsedProcedure(AetheriaModElements instance) {
 		super(instance, 241);
 	}
 
-	public static void executeProcedure(Map<String, Object> dependencies) {
+	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure HOLYHANDGRENADERangedItemUsed!");
 			return;

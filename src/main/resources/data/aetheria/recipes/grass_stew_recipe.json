@@ -1,0 +1,16 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "aetheria:grass_stew",
+    "count": 1
+  }
+}

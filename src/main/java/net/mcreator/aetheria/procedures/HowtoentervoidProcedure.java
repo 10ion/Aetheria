@@ -1,13 +1,9 @@
 package net.mcreator.aetheria.procedures;
 
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.network.play.server.SPlayerAbilitiesPacket;
@@ -21,16 +17,13 @@ import net.mcreator.aetheria.world.dimension.UnderworldDimension;
 import net.mcreator.aetheria.world.dimension.TheVoidDimension;
 import net.mcreator.aetheria.AetheriaModElements;
 
-import java.util.Map;
-
 @AetheriaModElements.ModElement.Tag
 public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 	public HowtoentervoidProcedure(AetheriaModElements instance) {
 		super(instance, 214);
-		MinecraftForge.EVENT_BUS.register(this);
 	}
 
-	public static void executeProcedure(Map<String, Object> dependencies) {
+	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure Howtoentervoid!");
 			return;
@@ -89,25 +82,6 @@ public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		}
-	}
-
-	@SubscribeEvent
-	public void onPlayerTick(TickEvent.PlayerTickEvent event) {
-		if (event.phase == TickEvent.Phase.END) {
-			Entity entity = event.player;
-			World world = entity.world;
-			double i = entity.posX;
-			double j = entity.posY;
-			double k = entity.posZ;
-			java.util.HashMap<String, Object> dependencies = new java.util.HashMap<>();
-			dependencies.put("x", i);
-			dependencies.put("y", j);
-			dependencies.put("z", k);
-			dependencies.put("world", world);
-			dependencies.put("entity", entity);
-			dependencies.put("event", event);
-			this.executeProcedure(dependencies);
 		}
 	}
 }
