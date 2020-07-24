@@ -13,34 +13,34 @@
         "value": "CUSTOM:BlackBronzeIngot"
       },
       {
+        "value": "CUSTOM:BlackBronzeIngot"
+      },
+      {
+        "value": "CUSTOM:BlackBronzeIngot"
+      },
+      {
+        "value": "CUSTOM:BlackBronzeIngot"
+      },
+      {
         "value": ""
       },
       {
         "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlackArmor.body"
+      "value": "CUSTOM:Black_BronzeArmor.helmet"
     },
-    "name": "black_armor_body_recipe",
+    "name": "black_bronze_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

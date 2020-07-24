@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BismuthBronzeIngot"
+      },
+      {
+        "value": "CUSTOM:BismuthBronzeIngot"
+      },
+      {
+        "value": "CUSTOM:BismuthBronzeIngot"
+      },
+      {
+        "value": "CUSTOM:BismuthBronzeIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BismuthBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlackArmor.body"
+      "value": "CUSTOM:Bismuth_BronzeArmor.helmet"
     },
-    "name": "black_armor_body_recipe",
+    "name": "bismuth_bronze_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

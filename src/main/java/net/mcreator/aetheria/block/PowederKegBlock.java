@@ -52,7 +52,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 
 		@Override
 		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 1024;
+			return 1023;
 		}
 
 		@Override

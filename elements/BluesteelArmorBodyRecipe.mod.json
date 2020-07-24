@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:BlueSteelIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlackArmor.body"
+      "value": "CUSTOM:BluesteelArmor.body"
     },
-    "name": "black_armor_body_recipe",
+    "name": "bluesteel_armor_body_recipe",
     "namespace": "mod"
   }
 }

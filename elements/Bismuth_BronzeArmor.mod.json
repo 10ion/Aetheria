@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bismuth_bronze_head",
+    "enableBody": true,
+    "textureBody": "bismuth_bronze_body",
+    "enableLeggings": true,
+    "textureLeggings": "bismuth_bronze_leggings",
+    "enableBoots": true,
+    "textureBoots": "bismuth_bronze_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "bismuth_bronze",
+    "helmetName": "Bismuth_Bronze Helmet",
+    "bodyName": "Bismuth_Bronze Chestplate",
+    "leggingsName": "Bismuth_Bronze Leggings",
+    "bootsName": "Bismuth_Bronze Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 30,
+    "damageValueHelmet": 2,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 6,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:BismuthBronzeIngot"
+      }
+    ]
+  }
+}

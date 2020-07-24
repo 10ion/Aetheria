@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlackArmor.body"
+      "value": "CUSTOM:Black_BronzeArmor.body"
     },
-    "name": "black_armor_body_recipe",
+    "name": "black_bronze_armor_body_recipe",
     "namespace": "mod"
   }
 }

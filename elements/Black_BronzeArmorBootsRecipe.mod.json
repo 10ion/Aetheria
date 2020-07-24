@@ -10,6 +10,15 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
         "value": "CUSTOM:BlackBronzeIngot"
       },
       {
@@ -22,25 +31,16 @@
         "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
         "value": "CUSTOM:BlackBronzeIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlackArmor.body"
+      "value": "CUSTOM:Black_BronzeArmor.boots"
     },
-    "name": "black_armor_body_recipe",
+    "name": "black_bronze_armor_boots_recipe",
     "namespace": "mod"
   }
 }

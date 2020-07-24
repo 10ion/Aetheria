@@ -2,14 +2,11 @@
   "group": "aetheria",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
+    "0 2",
     "3 5"
   ],
   "key": {
     "0": {
-      "item": "aetheria:bluesteel_ingot"
-    },
-    "1": {
       "item": "aetheria:bluesteel_ingot"
     },
     "2": {
@@ -23,7 +20,7 @@
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementhelmet",
+    "item": "aetheria:bluesteel_armorboots",
     "count": 1
   }
 }

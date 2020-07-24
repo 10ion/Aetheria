@@ -28,9 +28,9 @@ import net.mcreator.aetheria.item.CobaltItem;
 import net.mcreator.aetheria.item.BronzeItem;
 import net.mcreator.aetheria.item.BrassItem;
 import net.mcreator.aetheria.item.BlacksteelIngotItem;
-import net.mcreator.aetheria.item.BlackBronzeItem;
+import net.mcreator.aetheria.item.BlackBronzeIngotItem;
 import net.mcreator.aetheria.item.BismuthItem;
-import net.mcreator.aetheria.item.BismuthBronzeItem;
+import net.mcreator.aetheria.item.BismuthBronzeIngotItem;
 import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -3490,7 +3490,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(BismuthBronzeItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(BismuthBronzeIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -3782,7 +3782,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(BlackBronzeItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(BlackBronzeIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);

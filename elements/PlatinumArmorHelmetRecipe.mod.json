@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:PlatinumIngot"
+      },
+      {
+        "value": "CUSTOM:PlatinumIngot"
+      },
+      {
+        "value": "CUSTOM:PlatinumIngot"
+      },
+      {
+        "value": "CUSTOM:PlatinumIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": "CUSTOM:PlatinumIngot"
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BlackBronzeIngot"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlackArmor.body"
+      "value": "CUSTOM:PlatinumArmor.helmet"
     },
-    "name": "black_armor_body_recipe",
+    "name": "platinum_armor_helmet_recipe",
     "namespace": "mod"
   }
 }
