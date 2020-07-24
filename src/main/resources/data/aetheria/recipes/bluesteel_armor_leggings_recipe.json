@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     },
     "1": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     },
     "2": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     },
     "3": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     },
     "5": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     },
     "6": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     },
     "8": {
-      "item": "aetheria:bluesteel_ingot"
+      "item": "aetheria:bluesteelingot"
     }
   },
   "result": {
-    "item": "aetheria:bluesteel_armorlegs",
+    "item": "aetheria:unknown_elementlegs",
     "count": 1
   }
 }

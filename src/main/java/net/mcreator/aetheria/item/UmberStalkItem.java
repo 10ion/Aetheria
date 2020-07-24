@@ -2,13 +2,13 @@
 package net.mcreator.aetheria.item;
 
 @AetheriaModElements.ModElement.Tag
-public class BlackBronzeIngotItem extends AetheriaModElements.ModElement {
+public class UmberStalkItem extends AetheriaModElements.ModElement {
 
-	@ObjectHolder("aetheria:black_bronze_ingot")
+	@ObjectHolder("aetheria:umber_stalk")
 	public static final Item block = null;
 
-	public BlackBronzeIngotItem(AetheriaModElements instance) {
-		super(instance, 575);
+	public UmberStalkItem(AetheriaModElements instance) {
+		super(instance, 530);
 	}
 
 	@Override
@@ -20,7 +20,7 @@ public class BlackBronzeIngotItem extends AetheriaModElements.ModElement {
 
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("black_bronze_ingot");
+			setRegistryName("umber_stalk");
 		}
 
 		@Override

@@ -2449,38 +2449,34 @@
     {
       "name": "BlackArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 577,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "black_armor_helmet_recipe"
+      "ids": {}
     },
     {
       "name": "BlackArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 578,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "black_armor_body_recipe"
+      "ids": {}
     },
     {
       "name": "BlackArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 579,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "black_armor_leggings_recipe"
+      "ids": {}
     },
     {
       "name": "BlackArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 580,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "black_armor_boots_recipe"
+      "ids": {}
     },
     {
       "name": "BlueSteelIngot",
@@ -2488,8 +2484,7 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "bluesteel_ingot"
+      "ids": {}
     },
     {
       "name": "BlueArmorHelmetRecipe",
@@ -5006,30 +5001,6 @@
       "registry_name": "blacksteel_armor_boots_recipe"
     },
     {
-      "name": "BluesteelArmor",
-      "type": "armor",
-      "sortid": 570,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bluesteel_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "BluesteelArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 571,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bluesteel_armor_helmet_recipe"
-    },
-    {
       "name": "BluesteelArmorBodyRecipe",
       "type": "recipe",
       "sortid": 572,
@@ -5037,6 +5008,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bluesteel_armor_body_recipe"
+    },
+    {
+      "name": "Bismuth_BronzeArmor",
+      "type": "armor",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_bronze_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "BluesteelArmorLeggingsRecipe",
@@ -5048,22 +5034,13 @@
       "registry_name": "bluesteel_armor_leggings_recipe"
     },
     {
-      "name": "BluesteelArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 574,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bluesteel_armor_boots_recipe"
-    },
-    {
-      "name": "BlackBronzeIngot",
+      "name": "BismuthBronzeIngot",
       "type": "item",
-      "sortid": 575,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_bronze_ingot"
+      "registry_name": "bismuth_bronze_ingot"
     },
     {
       "name": "Black_BronzeArmor",
@@ -5079,6 +5056,60 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Black_BronzeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_bronze_armor_leggings_recipe"
+    },
+    {
+      "name": "Bismuth_BronzeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_bronze_armor_body_recipe"
+    },
+    {
+      "name": "Black_BronzeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_bronze_armor_boots_recipe"
+    },
+    {
+      "name": "Bismuth_BronzeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_bronze_armor_boots_recipe"
+    },
+    {
+      "name": "BlackBronzeIngot",
+      "type": "item",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_bronze_ingot"
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_ingot"
     },
     {
       "name": "Black_BronzeArmorHelmetRecipe",
@@ -5099,31 +5130,82 @@
       "registry_name": "black_bronze_armor_body_recipe"
     },
     {
-      "name": "Black_BronzeArmorLeggingsRecipe",
+      "name": "Bismuth_BronzeArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 584,
+      "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_bronze_armor_leggings_recipe"
+      "registry_name": "bismuth_bronze_armor_leggings_recipe"
     },
     {
-      "name": "Black_BronzeArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 585,
+      "name": "BluesteelArmor",
+      "type": "armor",
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_bronze_armor_boots_recipe"
+      "registry_name": "bluesteel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
-      "name": "PlatinumIngot",
-      "type": "item",
-      "sortid": 586,
+      "name": "PlatinumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "platinum_ingot"
+      "registry_name": "platinum_armor_leggings_recipe"
+    },
+    {
+      "name": "BluesteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluesteel_armor_helmet_recipe"
+    },
+    {
+      "name": "PlatinumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_armor_body_recipe"
+    },
+    {
+      "name": "PlatinumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platinum_armor_boots_recipe"
+    },
+    {
+      "name": "BluesteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluesteel_armor_boots_recipe"
+    },
+    {
+      "name": "Bismuth_BronzeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bismuth_bronze_armor_helmet_recipe"
     },
     {
       "name": "PlatinumArmor",
@@ -5150,91 +5232,93 @@
       "registry_name": "platinum_armor_helmet_recipe"
     },
     {
-      "name": "PlatinumArmorBodyRecipe",
+      "name": "CocoabeanRollRecipe",
       "type": "recipe",
-      "sortid": 589,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "platinum_armor_body_recipe"
+      "registry_name": "cocoabean_roll_recipe"
     },
     {
-      "name": "PlatinumArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 590,
+      "name": "StormberryCookieFoodEaten",
+      "type": "procedure",
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "platinum_armor_leggings_recipe"
-    },
-    {
-      "name": "PlatinumArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 591,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "platinum_armor_boots_recipe"
-    },
-    {
-      "name": "BismuthBronzeIngot",
-      "type": "item",
-      "sortid": 592,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuth_bronze_ingot"
-    },
-    {
-      "name": "Bismuth_BronzeArmor",
-      "type": "armor",
-      "sortid": 593,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bismuth_bronze_armor",
+      "registry_name": "stormberry_cookie_food_eaten",
       "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
-      "name": "Bismuth_BronzeArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 594,
+      "name": "UmberStalk",
+      "type": "item",
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bismuth_bronze_armor_helmet_recipe"
+      "registry_name": "umber_stalk"
     },
     {
-      "name": "Bismuth_BronzeArmorBodyRecipe",
+      "name": "GoldenAppleRecipe",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bismuth_bronze_armor_body_recipe"
+      "registry_name": "golden_apple_recipe"
     },
     {
-      "name": "Bismuth_BronzeArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 596,
+      "name": "CocoabeanRoll",
+      "type": "food",
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bismuth_bronze_armor_leggings_recipe"
+      "registry_name": "cocoabean_roll"
     },
     {
-      "name": "Bismuth_BronzeArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 597,
+      "name": "StormberryCookie",
+      "type": "food",
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bismuth_bronze_armor_boots_recipe"
+      "registry_name": "stormberry_cookie"
+    },
+    {
+      "name": "StormberryCookieRecipe",
+      "type": "recipe",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stormberry_cookie_recipe"
+    },
+    {
+      "name": "StormberryCakeRecipe",
+      "type": "recipe",
+      "sortid": 537,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stormberry_cake_recipe"
+    },
+    {
+      "name": "StormberryCake",
+      "type": "food",
+      "sortid": 536,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stormberry_cake"
     }
   ],
   "variable_elements": [

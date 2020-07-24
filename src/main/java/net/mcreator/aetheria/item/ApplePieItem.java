@@ -25,7 +25,7 @@ public class ApplePieItem extends AetheriaModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).food((new Food.Builder()).hunger(8).saturation(1.6f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).food((new Food.Builder()).hunger(14).saturation(1.6f).build()));
 			setRegistryName("apple_pie");
 		}
 

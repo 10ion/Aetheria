@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "Items.COOKIE"
+      },
+      {
+        "value": "CUSTOM:Stormberry"
+      },
+      {
+        "value": "CUSTOM:Stormberry"
+      },
+      {
+        "value": "CUSTOM:Stormberry"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StormberryCookie"
+    },
+    "name": "stormberry_cookie_recipe",
+    "namespace": "mod"
+  }
+}
