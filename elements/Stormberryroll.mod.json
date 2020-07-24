@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "stormberryroll",
+    "texture": "stormberryroll2",
     "customModelName": "Normal",
     "name": "Stormberry Roll",
     "specialInfo": [],

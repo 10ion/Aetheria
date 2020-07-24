@@ -12,11 +12,11 @@ import net.minecraft.item.Food;
 import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
-public class ApplePieItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:apple_pie")
+public class CocoabeanRollItem extends AetheriaModElements.ModElement {
+	@ObjectHolder("aetheria:cocoabean_roll")
 	public static final Item block = null;
-	public ApplePieItem(AetheriaModElements instance) {
-		super(instance, 521);
+	public CocoabeanRollItem(AetheriaModElements instance) {
+		super(instance, 531);
 	}
 
 	@Override
@@ -25,13 +25,13 @@ public class ApplePieItem extends AetheriaModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).food((new Food.Builder()).hunger(14).saturation(1.6f).build()));
-			setRegistryName("apple_pie");
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(7).saturation(1.3f).build()));
+			setRegistryName("cocoabean_roll");
 		}
 
 		@Override
 		public int getUseDuration(ItemStack stack) {
-			return 40;
+			return 20;
 		}
 
 		@Override

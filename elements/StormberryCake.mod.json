@@ -3,19 +3,19 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "moonberry1",
+    "texture": "layer_1",
     "customModelName": "Normal",
-    "name": "Moonberry",
+    "name": "Stormberry Cake",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:AetheriaFoodItems"
+      "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 1,
+    "nutritionalValue": 10,
     "saturation": 0.3,
     "eatingSpeed": 32,
     "forDogs": false,
-    "isAlwaysEdible": true,
+    "isAlwaysEdible": false,
     "animation": "eat",
     "hasGlow": false
   }
