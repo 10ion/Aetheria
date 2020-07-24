@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Flowing_Water_SteelArmor.body"
+    },
+    "name": "flowing_water_steel_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

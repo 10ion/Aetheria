@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "aetheria:blocks/emerald_ore",
-    "particle": "aetheria:blocks/emerald_ore"
-  }
-}

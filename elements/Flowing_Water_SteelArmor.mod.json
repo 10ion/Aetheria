@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "flowing_head",
+    "enableBody": true,
+    "textureBody": "flowing_body",
+    "enableLeggings": true,
+    "textureLeggings": "flowing_leggings",
+    "enableBoots": true,
+    "textureBoots": "flowing_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "flowing_",
+    "helmetName": "Flowing_Water_Steel Helmet",
+    "bodyName": "Flowing_Water_Steel Chestplate",
+    "leggingsName": "Flowing_Water_Steel Leggings",
+    "bootsName": "Flowing_Water_Steel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 33,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 10,
+    "toughness": 2.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:FlowingWaterSteelIngot"
+      }
+    ]
+  }
+}

@@ -2771,163 +2771,9 @@
       "ids": {}
     },
     {
-      "name": "DarkSteel",
-      "type": "item",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "DarksteelAArmor",
-      "type": "armor",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
       "name": "DarksteelAArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 337,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "DarksteelAArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 338,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "DarksteelAArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 339,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "DarksteelAArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 340,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FelSteel",
-      "type": "item",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FelSteelAArmor",
-      "type": "armor",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "FelSteelAArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 341,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FelSteelAArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 342,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FelSteelAArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 343,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FelSteelAArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 344,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FeySteel",
-      "type": "item",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FeyArmor",
-      "type": "armor",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "FeyArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 345,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FeyArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 346,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FeyArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 347,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FeyArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3111,20 +2957,6 @@
       "ids": {}
     },
     {
-      "name": "RoseArmor",
-      "type": "armor",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
       "name": "RoseArmorHelmetRecipe",
       "type": "recipe",
       "sortid": 361,
@@ -3198,60 +3030,6 @@
       "name": "RedBrassArmorBootsRecipe",
       "type": "recipe",
       "sortid": 368,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Adamant",
-      "type": "item",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AdamantAArmor",
-      "type": "armor",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "AdamantAArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 369,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AdamantAArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 370,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AdamantAArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 371,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AdamantAArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3445,20 +3223,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "FlowingArmor",
-      "type": "armor",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
     },
     {
       "name": "FlowingArmorHelmetRecipe",
@@ -4044,62 +3808,6 @@
       "name": "SilverBlockR",
       "type": "recipe",
       "sortid": 449,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumShovelRecipe",
-      "type": "recipe",
-      "sortid": 449,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 446,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumOre",
-      "type": "block",
-      "sortid": 439,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumAxeRecipe",
-      "type": "recipe",
-      "sortid": 448,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumHoeRecipe",
-      "type": "recipe",
-      "sortid": 450,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumSwordRecipe",
-      "type": "recipe",
-      "sortid": 447,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ObamiumOreSmelt",
-      "type": "recipe",
-      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -5099,6 +4807,32 @@
       "registry_name": "gold_ring"
     },
     {
+      "name": "CocoabeanRollRecipe",
+      "type": "recipe",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cocoabean_roll_recipe"
+    },
+    {
+      "name": "StormberryCookieFoodEaten",
+      "type": "procedure",
+      "sortid": 535,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stormberry_cookie_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "UmberStalk",
       "type": "item",
       "sortid": 530,
@@ -5108,6 +4842,15 @@
       "registry_name": "umber_stalk"
     },
     {
+      "name": "GoldenAppleRecipe",
+      "type": "recipe",
+      "sortid": 538,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_apple_recipe"
+    },
+    {
       "name": "CocoabeanRoll",
       "type": "food",
       "sortid": 531,
@@ -5115,15 +4858,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cocoabean_roll"
-    },
-    {
-      "name": "CocoabeanRollRecipe",
-      "type": "recipe",
-      "sortid": 532,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cocoabean_roll_recipe"
     },
     {
       "name": "StormberryCookie",
@@ -5144,21 +4878,13 @@
       "registry_name": "stormberry_cookie_recipe"
     },
     {
-      "name": "StormberryCookieFoodEaten",
-      "type": "procedure",
-      "sortid": 535,
+      "name": "StormberryCakeRecipe",
+      "type": "recipe",
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "stormberry_cookie_food_eaten",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "stormberry_cake_recipe"
     },
     {
       "name": "StormberryCake",
@@ -5170,22 +4896,346 @@
       "registry_name": "stormberry_cake"
     },
     {
-      "name": "StormberryCakeRecipe",
-      "type": "recipe",
-      "sortid": 537,
+      "name": "Rose_GoldArmor",
+      "type": "armor",
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "stormberry_cake_recipe"
+      "registry_name": "rose_gold_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
-      "name": "GoldenAppleRecipe",
-      "type": "recipe",
-      "sortid": 538,
+      "name": "BlacksteelArmor",
+      "type": "armor",
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "golden_apple_recipe"
+      "registry_name": "blacksteel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FeysteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 551,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feysteel_armor_boots_recipe"
+    },
+    {
+      "name": "BlacksteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacksteel_armor_leggings_recipe"
+    },
+    {
+      "name": "AdamantArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 534,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamant_armor_leggings_recipe"
+    },
+    {
+      "name": "BlacksteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacksteel_armor_body_recipe"
+    },
+    {
+      "name": "FeysteelIngot",
+      "type": "item",
+      "sortid": 546,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feysteel_ingot"
+    },
+    {
+      "name": "FeysteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 548,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feysteel_armor_helmet_recipe"
+    },
+    {
+      "name": "FelsteelArmor",
+      "type": "armor",
+      "sortid": 553,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felsteel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FeysteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 549,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feysteel_armor_body_recipe"
+    },
+    {
+      "name": "FelsteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 556,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felsteel_armor_leggings_recipe"
+    },
+    {
+      "name": "Flowing_Water_SteelArmor",
+      "type": "armor",
+      "sortid": 541,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flowing_water_steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Flowing_Water_SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 544,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flowing_water_steel_armor_leggings_recipe"
+    },
+    {
+      "name": "FelsteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 557,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felsteel_armor_boots_recipe"
+    },
+    {
+      "name": "Rose_GoldArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 559,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose_gold_armor_helmet_recipe"
+    },
+    {
+      "name": "BlacksteelIngot",
+      "type": "item",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacksteel_ingot"
+    },
+    {
+      "name": "AdamantArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamant_armor_helmet_recipe"
+    },
+    {
+      "name": "Rose_GoldArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 561,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose_gold_armor_leggings_recipe"
+    },
+    {
+      "name": "BlacksteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacksteel_armor_boots_recipe"
+    },
+    {
+      "name": "AdamantIngot",
+      "type": "item",
+      "sortid": 530,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamant_ingot"
+    },
+    {
+      "name": "FelsteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 555,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felsteel_armor_body_recipe"
+    },
+    {
+      "name": "AdamantArmor",
+      "type": "armor",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamant_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AdamantArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamant_armor_body_recipe"
+    },
+    {
+      "name": "BlacksteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacksteel_armor_helmet_recipe"
+    },
+    {
+      "name": "FeysteelArmor",
+      "type": "armor",
+      "sortid": 547,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feysteel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FeysteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 550,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feysteel_armor_leggings_recipe"
+    },
+    {
+      "name": "Rose_GoldArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 560,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose_gold_armor_body_recipe"
+    },
+    {
+      "name": "Flowing_Water_SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 542,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flowing_water_steel_armor_helmet_recipe"
+    },
+    {
+      "name": "Rose_GoldArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rose_gold_armor_boots_recipe"
+    },
+    {
+      "name": "AdamantArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 535,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adamant_armor_boots_recipe"
+    },
+    {
+      "name": "FelsteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 554,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felsteel_armor_helmet_recipe"
+    },
+    {
+      "name": "Flowing_Water_SteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 543,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flowing_water_steel_armor_body_recipe"
+    },
+    {
+      "name": "Flowing_Water_SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 545,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flowing_water_steel_armor_boots_recipe"
+    },
+    {
+      "name": "FelsteelIngot",
+      "type": "item",
+      "sortid": 552,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felsteel_ingot"
     }
   ],
   "variable_elements": [

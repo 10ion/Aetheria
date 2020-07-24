@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:FlowingArmor.helmet"
     },
-    "name": "flowingarmorhelmetrecipe",
+    "name": "flowing_armor_helmet_recipe",
     "namespace": "mod"
   }
 }
