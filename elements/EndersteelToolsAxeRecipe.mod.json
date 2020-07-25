@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Endersteel"
+        "value": "CUSTOM:EndersteelIngot"
       },
       {
-        "value": "CUSTOM:Endersteel"
+        "value": "CUSTOM:EndersteelIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Endersteel"
+        "value": "CUSTOM:EndersteelIngot"
       },
       {
         "value": "Items.STICK"

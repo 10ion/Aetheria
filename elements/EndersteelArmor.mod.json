@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "endersteel_head",
+    "enableBody": true,
+    "textureBody": "endersteel_body",
+    "enableLeggings": true,
+    "textureLeggings": "endersteel_leggings",
+    "enableBoots": true,
+    "textureBoots": "endersteel_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "endersteel",
+    "helmetName": "Endersteel Helmet",
+    "bodyName": "Endersteel Chestplate",
+    "leggingsName": "Endersteel Leggings",
+    "bootsName": "Endersteel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 60,
+    "damageValueHelmet": 5,
+    "damageValueBody": 13,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 5,
+    "enchantability": 18,
+    "toughness": 4.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:EndersteelIngot"
+      }
+    ]
+  }
+}

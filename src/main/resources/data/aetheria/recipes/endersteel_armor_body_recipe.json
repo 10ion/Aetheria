@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "2": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "3": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "4": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "5": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "6": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "7": {
+      "item": "aetheria:endersteel_ingot"
+    },
+    "8": {
+      "item": "aetheria:endersteel_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:endersteel_armorbody",
+    "count": 1
+  }
+}

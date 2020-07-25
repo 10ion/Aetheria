@@ -44,7 +44,7 @@ public class EndersteelToolsSwordItem extends AetheriaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(EndersteelItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(EndersteelIngotItem.block, (int) (1)));
 			}
 		}, 3, -3.35f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
 		}.setRegistryName("endersteeltoolssword"));

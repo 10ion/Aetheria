@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:bronze_ingot"
+    },
+    "1": {
+      "item": "aetheria:bronze_ingot"
+    },
+    "2": {
+      "item": "aetheria:bronze_ingot"
+    },
+    "3": {
+      "item": "aetheria:bronze_ingot"
+    },
+    "5": {
+      "item": "aetheria:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:bronze_armorhelmet",
+    "count": 1
+  }
+}

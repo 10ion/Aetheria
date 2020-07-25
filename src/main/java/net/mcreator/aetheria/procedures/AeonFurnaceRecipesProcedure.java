@@ -16,7 +16,7 @@ import net.mcreator.aetheria.item.SteelItem;
 import net.mcreator.aetheria.item.SilverItem;
 import net.mcreator.aetheria.item.RoseGoldIngotItem;
 import net.mcreator.aetheria.item.RedBrassIngotItem;
-import net.mcreator.aetheria.item.PewterItem;
+import net.mcreator.aetheria.item.PewterIngotItem;
 import net.mcreator.aetheria.item.NIckelIngotItem;
 import net.mcreator.aetheria.item.MagnegoldItem;
 import net.mcreator.aetheria.item.LeadItem;
@@ -24,9 +24,9 @@ import net.mcreator.aetheria.item.FlowingWaterSteelIngotItem;
 import net.mcreator.aetheria.item.ElectrumItem;
 import net.mcreator.aetheria.item.DarkIronIngotItem;
 import net.mcreator.aetheria.item.CopperItem;
-import net.mcreator.aetheria.item.CobaltItem;
-import net.mcreator.aetheria.item.BronzeItem;
-import net.mcreator.aetheria.item.BrassItem;
+import net.mcreator.aetheria.item.CobaltIngotItem;
+import net.mcreator.aetheria.item.BronzeIngotItem;
+import net.mcreator.aetheria.item.BrassIngotItem;
 import net.mcreator.aetheria.item.BlacksteelIngotItem;
 import net.mcreator.aetheria.item.BlackBronzeIngotItem;
 import net.mcreator.aetheria.item.BismuthItem;
@@ -1467,7 +1467,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(PewterItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(PewterIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -1752,7 +1752,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(BronzeItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(BronzeIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -2037,7 +2037,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (3);
-					final ItemStack _setstack = new ItemStack(BrassItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(BrassIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -2093,8 +2093,8 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(CobaltItem.block, (int) (1))
-								.getItem())))
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
+								.getItem() == new ItemStack(CobaltIngotItem.block, (int) (1)).getItem())))
 				|| (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -2131,7 +2131,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 										return _retval.get();
 									}
 								}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-										.getItem() == new ItemStack(CobaltItem.block, (int) (1)).getItem()))))
+										.getItem() == new ItemStack(CobaltIngotItem.block, (int) (1)).getItem()))))
 				|| ((((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -2143,8 +2143,8 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(CobaltItem.block, (int) (1)).getItem())
-						&& (((new Object() {
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(CobaltIngotItem.block, (int) (1))
+						.getItem()) && (((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								TileEntity _ent = world.getTileEntity(pos);
@@ -2180,8 +2180,8 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(CobaltItem.block, (int) (1))
-								.getItem()) && (((new Object() {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0)))
+								.getItem() == new ItemStack(CobaltIngotItem.block, (int) (1)).getItem()) && (((new Object() {
 									public ItemStack getItemStack(BlockPos pos, int sltid) {
 										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -2230,7 +2230,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 												return _retval.get();
 											}
 										}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
-												.getItem() == new ItemStack(CobaltItem.block, (int) (1)).getItem()) && ((new Object() {
+												.getItem() == new ItemStack(CobaltIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 													public ItemStack getItemStack(BlockPos pos, int sltid) {
 														AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 														TileEntity _ent = world.getTileEntity(pos);
@@ -2269,7 +2269,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 														return _retval.get();
 													}
 												}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
-														.getItem() == new ItemStack(CobaltItem.block, (int) (1)).getItem()) && ((new Object() {
+														.getItem() == new ItemStack(CobaltIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 															public ItemStack getItemStack(BlockPos pos, int sltid) {
 																AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 																TileEntity _ent = world.getTileEntity(pos);
@@ -3522,7 +3522,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem())
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem())
 				&& (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -3571,8 +3571,8 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(BronzeItem.block, (int) (1))
-								.getItem()) && ((new Object() {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
+								.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public ItemStack getItemStack(BlockPos pos, int sltid) {
 										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -3621,7 +3621,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 										return _retval.get();
 									}
 								}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-										.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem())))
+										.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem())))
 						|| ((((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -3646,7 +3646,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 										return _retval.get();
 									}
 								}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
-										.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem()) && ((new Object() {
+										.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 											public ItemStack getItemStack(BlockPos pos, int sltid) {
 												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 												TileEntity _ent = world.getTileEntity(pos);
@@ -3696,7 +3696,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 														return _retval.get();
 													}
 												}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-														.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem())))
+														.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem())))
 										|| (((new Object() {
 											public ItemStack getItemStack(BlockPos pos, int sltid) {
 												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -3709,7 +3709,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 												return _retval.get();
 											}
 										}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0)))
-												.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem()) && (((new Object() {
+												.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem()) && (((new Object() {
 													public ItemStack getItemStack(BlockPos pos, int sltid) {
 														AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 														TileEntity _ent = world.getTileEntity(pos);
@@ -3814,7 +3814,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem())
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem())
 				&& (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -3863,8 +3863,8 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(BronzeItem.block, (int) (1))
-								.getItem()) && ((new Object() {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
+								.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public ItemStack getItemStack(BlockPos pos, int sltid) {
 										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -3913,7 +3913,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 										return _retval.get();
 									}
 								}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-										.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem())))
+										.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem())))
 						|| ((((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -3938,7 +3938,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 										return _retval.get();
 									}
 								}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
-										.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem()) && ((new Object() {
+										.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 											public ItemStack getItemStack(BlockPos pos, int sltid) {
 												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 												TileEntity _ent = world.getTileEntity(pos);
@@ -3988,7 +3988,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 														return _retval.get();
 													}
 												}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
-														.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem())))
+														.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem())))
 										|| (((new Object() {
 											public ItemStack getItemStack(BlockPos pos, int sltid) {
 												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -4001,7 +4001,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 												return _retval.get();
 											}
 										}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0)))
-												.getItem() == new ItemStack(BronzeItem.block, (int) (1)).getItem()) && (((new Object() {
+												.getItem() == new ItemStack(BronzeIngotItem.block, (int) (1)).getItem()) && (((new Object() {
 													public ItemStack getItemStack(BlockPos pos, int sltid) {
 														AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 														TileEntity _ent = world.getTileEntity(pos);

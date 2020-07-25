@@ -52,7 +52,7 @@ public class TitaniumArmorItem extends AetheriaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(TitaniumIItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(TitaniumingotItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

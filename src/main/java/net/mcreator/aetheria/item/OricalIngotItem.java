@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class OricalIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:oricalingot")
+	@ObjectHolder("aetheria:orical_ingot")
 	public static final Item block = null;
 	public OricalIngotItem(AetheriaModElements instance) {
 		super(instance, 36);
@@ -25,7 +25,7 @@ public class OricalIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("oricalingot");
+			setRegistryName("orical_ingot");
 		}
 
 		@Override

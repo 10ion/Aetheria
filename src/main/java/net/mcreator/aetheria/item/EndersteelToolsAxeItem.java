@@ -44,7 +44,7 @@ public class EndersteelToolsAxeItem extends AetheriaModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(EndersteelItem.block, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(EndersteelIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
 		}.setRegistryName("endersteeltoolsaxe"));
