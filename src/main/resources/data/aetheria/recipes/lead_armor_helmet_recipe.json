@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:lead_ingot"
+    },
+    "1": {
+      "item": "aetheria:lead_ingot"
+    },
+    "2": {
+      "item": "aetheria:lead_ingot"
+    },
+    "3": {
+      "item": "aetheria:lead_ingot"
+    },
+    "5": {
+      "item": "aetheria:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:unknown_elementhelmet",
+    "count": 1
+  }
+}

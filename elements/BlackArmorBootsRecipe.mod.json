@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:BlackArmor.boots"
     },
-    "name": "blackarmorbootsrecipe",
+    "name": "black_armor_boots_recipe",
     "namespace": "mod"
   }
 }

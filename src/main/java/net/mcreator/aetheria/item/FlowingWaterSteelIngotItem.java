@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class FlowingWaterSteelIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:flowingwatersteelingot")
+	@ObjectHolder("aetheria:flowing_water_steel_ingot")
 	public static final Item block = null;
 	public FlowingWaterSteelIngotItem(AetheriaModElements instance) {
 		super(instance, 42);
@@ -25,7 +25,7 @@ public class FlowingWaterSteelIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("flowingwatersteelingot");
+			setRegistryName("flowing_water_steel_ingot");
 		}
 
 		@Override

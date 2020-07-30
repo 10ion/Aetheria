@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class RoseGoldIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:rosegoldingot")
+	@ObjectHolder("aetheria:rose_gold_ingot")
 	public static final Item block = null;
 	public RoseGoldIngotItem(AetheriaModElements instance) {
 		super(instance, 37);
@@ -25,7 +25,7 @@ public class RoseGoldIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("rosegoldingot");
+			setRegistryName("rose_gold_ingot");
 		}
 
 		@Override

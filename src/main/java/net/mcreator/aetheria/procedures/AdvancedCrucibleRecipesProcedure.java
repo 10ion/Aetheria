@@ -8,28 +8,28 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 
-import net.mcreator.aetheria.item.SterlingSilverItem;
-import net.mcreator.aetheria.item.SteelItem;
-import net.mcreator.aetheria.item.SilverItem;
+import net.mcreator.aetheria.item.SterlingSilverIngotItem;
+import net.mcreator.aetheria.item.SteelIngotItem;
+import net.mcreator.aetheria.item.SilverIngotItem;
 import net.mcreator.aetheria.item.RoseGoldIngotItem;
 import net.mcreator.aetheria.item.RedsteelingotItem;
 import net.mcreator.aetheria.item.RedBrassIngotItem;
-import net.mcreator.aetheria.item.PlatinumItem;
-import net.mcreator.aetheria.item.PewterItem;
+import net.mcreator.aetheria.item.PlatinumIngotItem;
+import net.mcreator.aetheria.item.PewterIngotItem;
 import net.mcreator.aetheria.item.MoonsilverIngotItem;
 import net.mcreator.aetheria.item.IridiumIngotItem;
 import net.mcreator.aetheria.item.FeysteelIngotItem;
 import net.mcreator.aetheria.item.FelsteelIngotItem;
-import net.mcreator.aetheria.item.EndersteelItem;
+import net.mcreator.aetheria.item.EndersteelIngotItem;
 import net.mcreator.aetheria.item.DarkIronIngotItem;
 import net.mcreator.aetheria.item.DarkFelSteelIngotItem;
-import net.mcreator.aetheria.item.ColdironItem;
-import net.mcreator.aetheria.item.BrassItem;
+import net.mcreator.aetheria.item.ColdIronIngotItem;
+import net.mcreator.aetheria.item.BrassIngotItem;
 import net.mcreator.aetheria.item.BlueSteelIngotItem;
 import net.mcreator.aetheria.item.BlacksteelIngotItem;
-import net.mcreator.aetheria.item.BlackBronzeItem;
-import net.mcreator.aetheria.item.BismuthItem;
-import net.mcreator.aetheria.item.BismuthBronzeItem;
+import net.mcreator.aetheria.item.BlackBronzeIngotItem;
+import net.mcreator.aetheria.item.BismuthIngotItem;
+import net.mcreator.aetheria.item.BismuthBronzeIngotItem;
 import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -98,8 +98,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(BrassItem.block, (int) (1)).getItem())
-						&& (((new Object() {
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(BrassIngotItem.block, (int) (1))
+						.getItem()) && (((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								TileEntity _ent = world.getTileEntity(pos);
@@ -110,8 +110,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(SteelItem.block, (int) (1))
-								.getItem()) && ((new Object() {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
+								.getItem() == new ItemStack(SteelIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public int getAmount(BlockPos pos, int sltid) {
 										AtomicInteger _retval = new AtomicInteger(0);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -241,8 +241,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(BismuthBronzeItem.block, (int) (1))
-						.getItem()))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
+						.getItem() == new ItemStack(BismuthBronzeIngotItem.block, (int) (1)).getItem()))
 				&& (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -254,8 +254,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(SterlingSilverItem.block, (int) (1))
-						.getItem()) && (((new Object() {
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
+						.getItem() == new ItemStack(SterlingSilverIngotItem.block, (int) (1)).getItem()) && (((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								TileEntity _ent = world.getTileEntity(pos);
@@ -266,8 +266,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(SteelItem.block, (int) (1))
-								.getItem()) && ((new Object() {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
+								.getItem() == new ItemStack(SteelIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public int getAmount(BlockPos pos, int sltid) {
 										AtomicInteger _retval = new AtomicInteger(0);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -397,8 +397,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(BismuthBronzeItem.block, (int) (1))
-						.getItem()))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1)))
+						.getItem() == new ItemStack(BismuthBronzeIngotItem.block, (int) (1)).getItem()))
 				&& (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -410,7 +410,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(BismuthItem.block, (int) (1))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(BismuthIngotItem.block, (int) (1))
 						.getItem()) && (((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -423,7 +423,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								return _retval.get();
 							}
 						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
-								.getItem() == new ItemStack(SterlingSilverItem.block, (int) (1)).getItem()) && ((new Object() {
+								.getItem() == new ItemStack(SterlingSilverIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public ItemStack getItemStack(BlockPos pos, int sltid) {
 										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -435,7 +435,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 										return _retval.get();
 									}
 								}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4)))
-										.getItem() == new ItemStack(SteelItem.block, (int) (1)).getItem()))))) {
+										.getItem() == new ItemStack(SteelIngotItem.block, (int) (1)).getItem()))))) {
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
@@ -510,7 +510,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {
 					final int _sltid = (int) (5);
-					final ItemStack _setstack = new ItemStack(EndersteelItem.block, (int) (1));
+					final ItemStack _setstack = new ItemStack(EndersteelIngotItem.block, (int) (1));
 					_setstack.setCount((int) ((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							AtomicInteger _retval = new AtomicInteger(0);
@@ -554,7 +554,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(ColdironItem.block, (int) (1))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(ColdIronIngotItem.block, (int) (1))
 						.getItem()))
 				&& (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
@@ -567,8 +567,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(SterlingSilverItem.block, (int) (1))
-						.getItem()) && (((new Object() {
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2)))
+						.getItem() == new ItemStack(SterlingSilverIngotItem.block, (int) (1)).getItem()) && (((new Object() {
 							public ItemStack getItemStack(BlockPos pos, int sltid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								TileEntity _ent = world.getTileEntity(pos);
@@ -579,8 +579,8 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								}
 								return _retval.get();
 							}
-						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(PewterItem.block, (int) (1))
-								.getItem()) && ((new Object() {
+						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
+								.getItem() == new ItemStack(PewterIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public int getAmount(BlockPos pos, int sltid) {
 										AtomicInteger _retval = new AtomicInteger(0);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -736,7 +736,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								return _retval.get();
 							}
 						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
-								.getItem() == new ItemStack(BlackBronzeItem.block, (int) (1)).getItem()) && ((new Object() {
+								.getItem() == new ItemStack(BlackBronzeIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public int getAmount(BlockPos pos, int sltid) {
 										AtomicInteger _retval = new AtomicInteger(0);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -854,7 +854,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(SteelItem.block, (int) (1)).getItem())
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(SteelIngotItem.block, (int) (1)).getItem())
 				&& ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -892,7 +892,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								return _retval.get();
 							}
 						}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3)))
-								.getItem() == new ItemStack(BlackBronzeItem.block, (int) (1)).getItem()) && ((new Object() {
+								.getItem() == new ItemStack(BlackBronzeIngotItem.block, (int) (1)).getItem()) && ((new Object() {
 									public int getAmount(BlockPos pos, int sltid) {
 										AtomicInteger _retval = new AtomicInteger(0);
 										TileEntity _ent = world.getTileEntity(pos);
@@ -1010,7 +1010,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(SilverItem.block, (int) (1)).getItem())
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(SilverIngotItem.block, (int) (1)).getItem())
 				&& ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -1022,7 +1022,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 						}
 						return _retval.get();
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(PlatinumItem.block, (int) (1))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(PlatinumIngotItem.block, (int) (1))
 						.getItem()))
 				&& (((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {

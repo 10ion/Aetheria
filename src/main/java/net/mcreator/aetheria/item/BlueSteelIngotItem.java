@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class BlueSteelIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:bluesteelingot")
+	@ObjectHolder("aetheria:bluesteel_ingot")
 	public static final Item block = null;
 	public BlueSteelIngotItem(AetheriaModElements instance) {
 		super(instance, 28);
@@ -25,7 +25,7 @@ public class BlueSteelIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("bluesteelingot");
+			setRegistryName("bluesteel_ingot");
 		}
 
 		@Override

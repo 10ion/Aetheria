@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "electrum_head",
+    "enableBody": true,
+    "textureBody": "electrum_body",
+    "enableLeggings": true,
+    "textureLeggings": "electrum_leggings",
+    "enableBoots": true,
+    "textureBoots": "electrum_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "electrum",
+    "helmetName": "Electrum Helmet",
+    "bodyName": "Electrum Chestplate",
+    "leggingsName": "Electrum Leggings",
+    "bootsName": "Electrum Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 11,
+    "damageValueHelmet": 2,
+    "damageValueBody": 3,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 22,
+    "toughness": 0.3,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      }
+    ]
+  }
+}

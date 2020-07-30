@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       },
       {
-        "value": "CUSTOM:Titaniumingot"
+        "value": "CUSTOM:TitaniumNuggeet"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TitaniumI"
+      "value": "CUSTOM:Titaniumingot"
     },
     "name": "titaniumnuggettoingot",
     "namespace": "mod"

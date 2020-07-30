@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:BlackArmor.body"
     },
-    "name": "blackarmorbodyrecipe",
+    "name": "black_armor_body_recipe",
     "namespace": "mod"
   }
 }

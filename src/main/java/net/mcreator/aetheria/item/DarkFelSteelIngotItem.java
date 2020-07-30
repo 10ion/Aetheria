@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class DarkFelSteelIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:darkfelsteelingot")
+	@ObjectHolder("aetheria:dark_felsteel_ingot")
 	public static final Item block = null;
 	public DarkFelSteelIngotItem(AetheriaModElements instance) {
 		super(instance, 29);
@@ -25,7 +25,7 @@ public class DarkFelSteelIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("darkfelsteelingot");
+			setRegistryName("dark_felsteel_ingot");
 		}
 
 		@Override

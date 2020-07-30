@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "steel_head",
+    "enableBody": true,
+    "textureBody": "steel_body",
+    "enableLeggings": true,
+    "textureLeggings": "steel_leggings",
+    "enableBoots": true,
+    "textureBoots": "steel_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "steel",
+    "helmetName": "Steel Helmet",
+    "bodyName": "Steel Chestplate",
+    "leggingsName": "Steel Leggings",
+    "bootsName": "Steel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 26,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 4,
+    "toughness": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SteelIngot"
+      }
+    ]
+  }
+}

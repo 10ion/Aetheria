@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
         "value": ""
@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:BlackArmor.helmet"
     },
-    "name": "blackarmorhelmetrecipe",
+    "name": "black_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

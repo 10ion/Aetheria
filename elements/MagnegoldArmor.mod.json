@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "magnegold_head",
+    "enableBody": true,
+    "textureBody": "magnegold_body",
+    "enableLeggings": true,
+    "textureLeggings": "magnegold_leggings",
+    "enableBoots": true,
+    "textureBoots": "magnegold_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "magnegold",
+    "helmetName": "Magnegold Helmet",
+    "bodyName": "Magnegold Chestplate",
+    "leggingsName": "Magnegold Leggings",
+    "bootsName": "Magnegold Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 14,
+    "damageValueHelmet": 1,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 18,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagnegoldIngot"
+      }
+    ]
+  }
+}

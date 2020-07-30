@@ -1,28 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraft.potion.Effects;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.item.ItemStack;
-import net.minecraft.inventory.container.Slot;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.Entity;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.enchantment.EnchantmentHelper;
-
-import net.mcreator.aetheria.potion.MilkbottlePotion;
-import net.mcreator.aetheria.item.IronRingItem;
-import net.mcreator.aetheria.item.GoldRingItem;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.function.Supplier;
-import java.util.Map;
-
 @AetheriaModElements.ModElement.Tag
 public class AccessoriesSlot1Procedure extends AetheriaModElements.ModElement {
+
 	public AccessoriesSlot1Procedure(AetheriaModElements instance) {
 		super(instance, 571);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -30,7 +13,9 @@ public class AccessoriesSlot1Procedure extends AetheriaModElements.ModElement {
 			System.err.println("Failed to load dependency entity for procedure AccessoriesSlot1!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if ((((new Object() {
 			public ItemStack getItemStack(int sltid) {
 				Entity _ent = entity;
@@ -226,5 +211,7 @@ public class AccessoriesSlot1Procedure extends AetheriaModElements.ModElement {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(MilkbottlePotion.potion, (int) 1, (int) 1));
 		}
+
 	}
+
 }

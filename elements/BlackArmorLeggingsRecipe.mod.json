@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
-        "value": "CUSTOM:BlackBronze"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:BlackBronze"
-      },
-      {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBronze"
+        "value": "CUSTOM:BlackBronzeIngot"
+      },
+      {
+        "value": "CUSTOM:BlackBronzeIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackBronzeIngot"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:BlackArmor.legs"
     },
-    "name": "blackarmorleggingsrecipe",
+    "name": "black_armor_leggings_recipe",
     "namespace": "mod"
   }
 }
