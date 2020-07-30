@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:palladium_ingot"
+    },
+    "2": {
+      "item": "aetheria:palladium_ingot"
+    },
+    "3": {
+      "item": "aetheria:palladium_ingot"
+    },
+    "5": {
+      "item": "aetheria:palladium_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:palladium_armorboots",
+    "count": 1
+  }
+}

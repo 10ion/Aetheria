@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:tin_ingot"
+    },
+    "2": {
+      "item": "aetheria:tin_ingot"
+    },
+    "3": {
+      "item": "aetheria:tin_ingot"
+    },
+    "5": {
+      "item": "aetheria:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:tin_armorboots",
+    "count": 1
+  }
+}

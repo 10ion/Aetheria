@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      },
+      {
+        "value": "CUSTOM:TinIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TinArmor.body"
+    },
+    "name": "tin_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

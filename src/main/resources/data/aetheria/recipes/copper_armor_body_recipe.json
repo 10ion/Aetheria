@@ -1,0 +1,39 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:copper_ingot"
+    },
+    "2": {
+      "item": "aetheria:copper_ingot"
+    },
+    "3": {
+      "item": "aetheria:copper_ingot"
+    },
+    "4": {
+      "item": "aetheria:copper_ingot"
+    },
+    "5": {
+      "item": "aetheria:copper_ingot"
+    },
+    "6": {
+      "item": "aetheria:copper_ingot"
+    },
+    "7": {
+      "item": "aetheria:copper_ingot"
+    },
+    "8": {
+      "item": "aetheria:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:copper_armorbody",
+    "count": 1
+  }
+}

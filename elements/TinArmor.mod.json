@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tin_head",
+    "enableBody": true,
+    "textureBody": "tin_body",
+    "enableLeggings": true,
+    "textureLeggings": "tin_leggings",
+    "enableBoots": true,
+    "textureBoots": "tin_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "tin",
+    "helmetName": "Tin Helmet",
+    "bodyName": "Tin Chestplate",
+    "leggingsName": "Tin Leggings",
+    "bootsName": "Tin Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 12,
+    "damageValueHelmet": 1,
+    "damageValueBody": 4,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 2,
+    "enchantability": 21,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TinIngot"
+      }
+    ]
+  }
+}
