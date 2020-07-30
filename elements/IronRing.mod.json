@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "goldring",
+    "texture": "ironring",
     "customModelName": "Normal",
-    "name": "Gold Ring",
+    "name": "Iron Ring",
     "creativeTab": {
       "value": "MISC"
     },

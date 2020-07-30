@@ -4,18 +4,18 @@ package net.mcreator.aetheria.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
-public class FeysteelIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:feysteel_ingot")
+public class IronRingItem extends AetheriaModElements.ModElement {
+	@ObjectHolder("aetheria:iron_ring")
 	public static final Item block = null;
-	public FeysteelIngotItem(AetheriaModElements instance) {
-		super(instance, 546);
+	public IronRingItem(AetheriaModElements instance) {
+		super(instance, 573);
 	}
 
 	@Override
@@ -24,13 +24,13 @@ public class FeysteelIngotItem extends AetheriaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("feysteel_ingot");
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1));
+			setRegistryName("iron_ring");
 		}
 
 		@Override
 		public int getItemEnchantability() {
-			return 0;
+			return 10;
 		}
 
 		@Override

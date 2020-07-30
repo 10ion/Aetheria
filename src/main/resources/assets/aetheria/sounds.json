@@ -8,15 +8,6 @@
       }
     ]
   },
-  "keekuu": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "aetheria:2020-01-25-10-27-14",
-        "stream": false
-      }
-    ]
-  },
   "megalovania-ultimate": {
     "category": "record",
     "sounds": [
@@ -59,6 +50,15 @@
       {
         "name": "aetheria:notfound",
         "stream": true
+      }
+    ]
+  },
+  "keekuu": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "aetheria:2020-01-25-10-27-14",
+        "stream": false
       }
     ]
   }

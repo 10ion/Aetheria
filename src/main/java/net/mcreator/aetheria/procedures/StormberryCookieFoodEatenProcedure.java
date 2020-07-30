@@ -1,11 +1,16 @@
 package net.mcreator.aetheria.procedures;
 
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aetheria.potion.Omnessence1Potion;
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class StormberryCookieFoodEatenProcedure extends AetheriaModElements.ModElement {
-
 	public StormberryCookieFoodEatenProcedure(AetheriaModElements instance) {
 		super(instance, 535);
-
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -13,12 +18,8 @@ public class StormberryCookieFoodEatenProcedure extends AetheriaModElements.ModE
 			System.err.println("Failed to load dependency entity for procedure StormberryCookieFoodEaten!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Omnessence1Potion.potion, (int) 1800, (int) 1));
-
 	}
-
 }
