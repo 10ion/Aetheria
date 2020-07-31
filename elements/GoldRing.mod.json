@@ -2,9 +2,9 @@
   "_fv": 8,
   "_type": "item",
   "definition": {
-    "renderType": 2,
+    "renderType": 0,
     "texture": "goldring",
-    "customModelName": "lhring",
+    "customModelName": "Normal",
     "name": "Gold Ring",
     "creativeTab": {
       "value": "MISC"

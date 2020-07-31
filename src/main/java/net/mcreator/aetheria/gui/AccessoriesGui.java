@@ -33,6 +33,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.aetheria.procedures.AccessoriesSlot0Procedure;
 import net.mcreator.aetheria.AetheriaModElements;
 import net.mcreator.aetheria.AetheriaMod;
 
@@ -111,6 +112,11 @@ public class AccessoriesGui extends AetheriaModElements.ModElement {
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 4, 57) {
+				@Override
+				public void onSlotChanged() {
+					super.onSlotChanged();
+					GuiContainerMod.this.slotChanged(0, 0, 0);
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 4, 38) {
 			}));
@@ -452,5 +458,12 @@ public class AccessoriesGui extends AetheriaModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				AccessoriesSlot0Procedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

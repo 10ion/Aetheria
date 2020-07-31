@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:pewter_ingot"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:pewter_ingot"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:pewter_ingot"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:pewter_ingot"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:pewter_ingot"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:pewter_armorhelmet",
+    "item": "aetheria:unknown_elementhelmet",
     "count": 1
   }
 }

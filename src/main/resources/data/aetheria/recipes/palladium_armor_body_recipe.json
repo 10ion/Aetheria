@@ -8,32 +8,32 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "4": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "6": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "7": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     },
     "8": {
-      "item": "aetheria:palladium_ingot"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:palladium_armorbody",
+    "item": "aetheria:unknown_elementbody",
     "count": 1
   }
 }
