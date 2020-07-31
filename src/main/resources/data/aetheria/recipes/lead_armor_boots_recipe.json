@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:lead_ingot"
     },
     "2": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:lead_ingot"
     },
     "3": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:lead_ingot"
     },
     "5": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:lead_ingot"
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementboots",
+    "item": "aetheria:lead_armorboots",
     "count": 1
   }
 }

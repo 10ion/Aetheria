@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "6": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "8": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:bismutharmorarmorlegs",
+    "item": "aetheria:unknown_elementlegs",
     "count": 1
   }
 }

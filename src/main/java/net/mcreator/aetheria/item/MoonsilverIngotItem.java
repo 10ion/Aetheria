@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class MoonsilverIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:moonsilver_ingot")
+	@ObjectHolder("aetheria:moonsilveringot")
 	public static final Item block = null;
 	public MoonsilverIngotItem(AetheriaModElements instance) {
 		super(instance, 35);
@@ -25,7 +25,7 @@ public class MoonsilverIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("moonsilver_ingot");
+			setRegistryName("moonsilveringot");
 		}
 
 		@Override

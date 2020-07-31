@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:copper"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:copper"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:copper"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:copper"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:copper"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:copperarmorarmorhelmet",
+    "item": "aetheria:unknown_elementhelmet",
     "count": 1
   }
 }
