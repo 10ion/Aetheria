@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     },
     "6": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     },
     "8": {
-      "item": "aetheria:electrum"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:electrumarmorarmorlegs",
+    "item": "aetheria:unknown_elementlegs",
     "count": 1
   }
 }

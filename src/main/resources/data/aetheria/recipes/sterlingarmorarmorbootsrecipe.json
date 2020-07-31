@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:sterlingsilver"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:sterlingsilver"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:sterlingsilver"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:sterlingsilver"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:sterlingarmorarmorboots",
+    "item": "aetheria:unknown_elementboots",
     "count": 1
   }
 }

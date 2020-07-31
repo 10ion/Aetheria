@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class IridiumIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:iridium_ingot")
+	@ObjectHolder("aetheria:iridiumingot")
 	public static final Item block = null;
 	public IridiumIngotItem(AetheriaModElements instance) {
 		super(instance, 41);
@@ -25,7 +25,7 @@ public class IridiumIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("iridium_ingot");
+			setRegistryName("iridiumingot");
 		}
 
 		@Override

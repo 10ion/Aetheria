@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "1": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:bismuth"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:bismutharmorarmorhelmet",
+    "item": "aetheria:unknown_elementhelmet",
     "count": 1
   }
 }

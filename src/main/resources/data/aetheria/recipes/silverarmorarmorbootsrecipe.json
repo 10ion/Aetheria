@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:silver"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:silver"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:silver"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:silver"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:silverarmorarmorboots",
+    "item": "aetheria:unknown_elementboots",
     "count": 1
   }
 }

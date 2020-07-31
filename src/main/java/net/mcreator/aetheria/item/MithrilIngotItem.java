@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class MithrilIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:mithril_ingot")
+	@ObjectHolder("aetheria:mithrilingot")
 	public static final Item block = null;
 	public MithrilIngotItem(AetheriaModElements instance) {
 		super(instance, 34);
@@ -25,7 +25,7 @@ public class MithrilIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("mithril_ingot");
+			setRegistryName("mithrilingot");
 		}
 
 		@Override

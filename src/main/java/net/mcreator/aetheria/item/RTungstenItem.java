@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class RTungstenItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:raw_tungsten")
+	@ObjectHolder("aetheria:rtungsten")
 	public static final Item block = null;
 	public RTungstenItem(AetheriaModElements instance) {
 		super(instance, 17);
@@ -25,7 +25,7 @@ public class RTungstenItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("raw_tungsten");
+			setRegistryName("rtungsten");
 		}
 
 		@Override
