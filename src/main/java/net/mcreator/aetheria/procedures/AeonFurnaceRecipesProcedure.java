@@ -624,7 +624,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -909,7 +909,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -1194,7 +1194,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -1479,7 +1479,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -1764,7 +1764,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -2049,7 +2049,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -2341,7 +2341,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 3));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -2633,7 +2633,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -2918,7 +2918,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 2));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -3210,7 +3210,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 3));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -3502,7 +3502,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 3));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -3794,7 +3794,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 3));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);
@@ -4086,7 +4086,7 @@ public class AeonFurnaceRecipesProcedure extends AetheriaModElements.ModElement 
 							}
 							return _retval.get();
 						}
-					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 1));
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (3))) + 3));
 					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
 						if (capability instanceof IItemHandlerModifiable) {
 							((IItemHandlerModifiable) capability).setStackInSlot(_sltid, _setstack);

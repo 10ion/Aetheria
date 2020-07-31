@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/parasol_mushroom_patch",
+    "particle": "aetheria:blocks/parasol_mushroom_patch"
+  }
+}

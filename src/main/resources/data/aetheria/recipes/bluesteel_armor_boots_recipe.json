@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:bluesteelingot"
+      "item": "aetheria:bluesteel_ingot"
     },
     "2": {
-      "item": "aetheria:bluesteelingot"
+      "item": "aetheria:bluesteel_ingot"
     },
     "3": {
-      "item": "aetheria:bluesteelingot"
+      "item": "aetheria:bluesteel_ingot"
     },
     "5": {
-      "item": "aetheria:bluesteelingot"
+      "item": "aetheria:bluesteel_ingot"
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementboots",
+    "item": "aetheria:bluesteel_armorboots",
     "count": 1
   }
 }

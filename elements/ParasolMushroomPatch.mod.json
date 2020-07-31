@@ -1,0 +1,44 @@
+{
+  "_fv": 8,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "parasol_mushroom_patch",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Parasol Mushroom Patch",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMisc"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:ParasolMushroom"
+    },
+    "dropAmount": 3,
+    "forceTicking": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:TheVoid"
+    ],
+    "restrictionBiomes": []
+  }
+}

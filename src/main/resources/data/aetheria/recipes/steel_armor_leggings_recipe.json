@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     },
     "1": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     },
     "2": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     },
     "3": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     },
     "5": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     },
     "6": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     },
     "8": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:steel_ingot"
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementlegs",
+    "item": "aetheria:steel_armorlegs",
     "count": 1
   }
 }
