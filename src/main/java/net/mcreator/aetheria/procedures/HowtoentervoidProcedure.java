@@ -29,7 +29,7 @@ public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((((entity.dimension.getId()) == (UnderworldDimension.type.getId())) && ((entity.posY) < 0))) {
+		if ((((entity.dimension.getId()) == (UnderworldDimension.type.getId())) && ((entity.getPosY()) < 0))) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
@@ -47,7 +47,7 @@ public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 				}
 			}
 		}
-		if ((((entity.dimension.getId()) == (0)) && ((entity.posY) < 0))) {
+		if ((((entity.dimension.getId()) == (0)) && ((entity.getPosY()) < 0))) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
@@ -65,7 +65,7 @@ public class HowtoentervoidProcedure extends AetheriaModElements.ModElement {
 				}
 			}
 		}
-		if ((((entity.dimension.getId()) == (-1)) && ((entity.posY) < 0))) {
+		if ((((entity.dimension.getId()) == (-1)) && ((entity.getPosY()) < 0))) {
 			{
 				Entity _ent = entity;
 				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {

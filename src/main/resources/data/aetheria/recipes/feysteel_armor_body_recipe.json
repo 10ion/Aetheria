@@ -8,32 +8,32 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "4": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "6": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "7": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "8": {
-      "item": "aetheria:feysteel_ingot"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:feysteel_armorbody",
+    "item": "aetheria:unknown_elementbody",
     "count": 1
   }
 }

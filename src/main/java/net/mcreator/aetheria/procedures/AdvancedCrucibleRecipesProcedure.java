@@ -1,44 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.ItemStack;
-
-import net.mcreator.aetheria.item.SterlingSilverIngotItem;
-import net.mcreator.aetheria.item.SteelIngotItem;
-import net.mcreator.aetheria.item.SilverIngotItem;
-import net.mcreator.aetheria.item.RoseGoldIngotItem;
-import net.mcreator.aetheria.item.RedsteelingotItem;
-import net.mcreator.aetheria.item.RedBrassIngotItem;
-import net.mcreator.aetheria.item.PlatinumIngotItem;
-import net.mcreator.aetheria.item.PewterIngotItem;
-import net.mcreator.aetheria.item.MoonsilverIngotItem;
-import net.mcreator.aetheria.item.IridiumIngotItem;
-import net.mcreator.aetheria.item.FeysteelIngotItem;
-import net.mcreator.aetheria.item.FelsteelIngotItem;
-import net.mcreator.aetheria.item.EndersteelIngotItem;
-import net.mcreator.aetheria.item.DarkIronIngotItem;
-import net.mcreator.aetheria.item.DarkFelSteelIngotItem;
-import net.mcreator.aetheria.item.ColdIronIngotItem;
-import net.mcreator.aetheria.item.BrassIngotItem;
-import net.mcreator.aetheria.item.BlueSteelIngotItem;
-import net.mcreator.aetheria.item.BlacksteelIngotItem;
-import net.mcreator.aetheria.item.BlackBronzeIngotItem;
-import net.mcreator.aetheria.item.BismuthIngotItem;
-import net.mcreator.aetheria.item.BismuthBronzeIngotItem;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-
 @AetheriaModElements.ModElement.Tag
 public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModElement {
+
 	public AdvancedCrucibleRecipesProcedure(AetheriaModElements instance) {
 		super(instance, 519);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -58,10 +25,12 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			System.err.println("Failed to load dependency world for procedure AdvancedCrucibleRecipes!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if (((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -1155,5 +1124,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 				}
 			}
 		}
+
 	}
+
 }

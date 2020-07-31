@@ -8,32 +8,32 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "4": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "6": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "7": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     },
     "8": {
-      "item": "aetheria:zinc_ingot"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:zinc_armorbody",
+    "item": "aetheria:unknown_elementbody",
     "count": 1
   }
 }

@@ -7,6 +7,10 @@
     "item": "aetheria:palladium_ore"
   },
   "result": {
+<<<<<<< HEAD
     "item": "aetheria:unknown_element"
+=======
+    "item": "aetheria:palladium_ingot"
+>>>>>>> branch 'master' of https://github.com/10ion/Aetheria.git
   }
 }

@@ -7,6 +7,10 @@
     "item": "aetheria:leadore"
   },
   "result": {
+<<<<<<< HEAD
     "item": "aetheria:unknown_element"
+=======
+    "item": "aetheria:lead_ingot"
+>>>>>>> branch 'master' of https://github.com/10ion/Aetheria.git
   }
 }

@@ -7,6 +7,10 @@
     "item": "aetheria:bismuth_ore"
   },
   "result": {
+<<<<<<< HEAD
     "item": "aetheria:unknown_element"
+=======
+    "item": "aetheria:bismuth_ingot"
+>>>>>>> branch 'master' of https://github.com/10ion/Aetheria.git
   }
 }

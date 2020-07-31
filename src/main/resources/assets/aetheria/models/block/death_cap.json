@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/death_cap",
+    "particle": "aetheria:blocks/death_cap"
+  }
+}

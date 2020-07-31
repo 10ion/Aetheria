@@ -1,32 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.item.Items;
-import net.minecraft.item.ItemStack;
-
-import net.mcreator.aetheria.item.UmberStalkItem;
-import net.mcreator.aetheria.item.PizzaItem;
-import net.mcreator.aetheria.item.OinkItem;
-import net.mcreator.aetheria.item.MoralmedlyItem;
-import net.mcreator.aetheria.item.CheeseItem;
-import net.mcreator.aetheria.block.RainbowCapBlock;
-import net.mcreator.aetheria.block.GhostmorelBlock;
-import net.mcreator.aetheria.block.FireshroomBlock;
-import net.mcreator.aetheria.block.AstralToadstoolBlock;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
-
 @AetheriaModElements.ModElement.Tag
 public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
+
 	public AeonForgeRecipesProcedure(AetheriaModElements instance) {
 		super(instance, 509);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -46,10 +25,12 @@ public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
 			System.err.println("Failed to load dependency world for procedure AeonForgeRecipes!");
 			return;
 		}
+
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+
 		if ((((((((new Object() {
 			public int getAmount(BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -2121,5 +2102,7 @@ public class AeonForgeRecipesProcedure extends AetheriaModElements.ModElement {
 				}
 			}
 		}
+
 	}
+
 }

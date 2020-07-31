@@ -7,20 +7,20 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:felsteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:felsteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:felsteel_ingot"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:felsteel_ingot"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:felsteel_armorboots",
+    "item": "aetheria:unknown_elementboots",
     "count": 1
   }
 }

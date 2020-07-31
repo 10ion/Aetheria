@@ -1,0 +1,63 @@
+{
+  "_fv": 8,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "death_cap",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Death Cap",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaBlocks"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "isReplaceable": false,
+    "colorOnMap": "BLACK",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DAMAGE_OTHER",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:TheVoid"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Voidplanes"
+      },
+      {
+        "value": "CUSTOM:Extremevoidplanes"
+      },
+      {
+        "value": "CUSTOM:SoullessPlains"
+      },
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "mushroom_field_shore"
+      },
+      {
+        "value": "jungle"
+      }
+    ]
+  }
+}

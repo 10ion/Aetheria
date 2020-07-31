@@ -38,10 +38,11 @@ public class WoodenChairBlockDestroyedByPlayerProcedure extends AetheriaModEleme
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if (!world.isRemote && world.getServer() != null) {
-			world.getServer().getCommandManager().handleCommand(
-					new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
-							new StringTextComponent(""), world.getServer(), null).withFeedbackDisabled(),
-					"kill @e[type=aetheria:chair_entity,distance=..1]");
+			world.getServer().getCommandManager()
+					.handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=aetheria:chair_entity,distance=..1]");
 		}
 	}
 }

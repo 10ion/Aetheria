@@ -36,15 +36,15 @@ public class BrassArmorItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 17;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 19;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 4, 5, 3}[slot.getIndex()];
+				return new int[]{2, 6, 6, 2}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
-				return 11;
+				return 7;
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
