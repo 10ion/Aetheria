@@ -26,7 +26,7 @@
     "resistance": 12.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaTools"
+      "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -69,6 +69,7 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

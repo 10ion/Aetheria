@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/aluminum_block",
+    "particle": "aetheria:blocks/aluminum_block"
+  }
+}

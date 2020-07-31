@@ -1,0 +1,42 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "1": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "2": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "3": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "4": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "5": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "6": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "7": {
+      "item": "aetheria:pewter_ingot"
+    },
+    "8": {
+      "item": "aetheria:pewter_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:pewter_block",
+    "count": 1
+  }
+}

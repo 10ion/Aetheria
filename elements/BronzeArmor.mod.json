@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "bronze_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "bronze",
     "helmetName": "Bronze Helmet",
@@ -32,12 +32,12 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 19,
+    "maxDamage": 17,
     "damageValueHelmet": 2,
-    "damageValueBody": 65,
-    "damageValueLeggings": 6,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
     "damageValueBoots": 2,
-    "enchantability": 7,
+    "enchantability": 11,
     "toughness": 0.0,
     "equipSound": {
       "value": ""
