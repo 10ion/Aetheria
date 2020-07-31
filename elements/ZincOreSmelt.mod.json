@@ -12,7 +12,7 @@
       "value": "CUSTOM:ZincOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Zinc"
+      "value": "CUSTOM:ZincIngot"
     },
     "name": "zinc_ore_smelt",
     "namespace": "mod"
