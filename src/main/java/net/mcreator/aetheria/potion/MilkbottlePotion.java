@@ -86,9 +86,9 @@ public class MilkbottlePotion extends AetheriaModElements.ModElement {
 		@Override
 		public void affectEntity(Entity source, Entity indirectSource, LivingEntity entity, int amplifier, double health) {
 			World world = entity.world;
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			int x = (int) entity.getPosX();
+			int y = (int) entity.getPosY();
+			int z = (int) entity.getPosZ();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);

@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[31,)"
 
 [[mods]]
 modId="aetheria"
@@ -15,7 +15,7 @@ The Aetheria Mod is the mod from Cube Kid's books come to real minecraft
 [[dependencies.aetheria]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+    versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
 

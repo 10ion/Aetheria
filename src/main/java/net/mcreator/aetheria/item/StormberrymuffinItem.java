@@ -41,9 +41,9 @@ public class StormberrymuffinItem extends AetheriaModElements.ModElement {
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			int x = (int) entity.getPosX();
+			int y = (int) entity.getPosY();
+			int z = (int) entity.getPosZ();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);

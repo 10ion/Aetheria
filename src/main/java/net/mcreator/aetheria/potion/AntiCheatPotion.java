@@ -70,9 +70,9 @@ public class AntiCheatPotion extends AetheriaModElements.ModElement {
 		@Override
 		public void performEffect(LivingEntity entity, int amplifier) {
 			World world = entity.world;
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			int x = (int) entity.getPosX();
+			int y = (int) entity.getPosY();
+			int z = (int) entity.getPosZ();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);

@@ -11,11 +11,14 @@ import net.minecraftforge.fml.network.PacketDistributor;
 import net.minecraftforge.fml.network.NetworkEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.WorldSavedData;
 import net.minecraft.world.biome.Biome;
@@ -152,6 +155,10 @@ public class AetheriaModElements {
 		}
 
 		public void serverLoad(FMLServerStartingEvent event) {
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public void clientLoad(FMLClientSetupEvent event) {
 		}
 
 		@Override

@@ -75,15 +75,15 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 1, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::func_223315_a);
+				AnimalEntity::canAnimalSpawn);
 	}
 
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
+		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
 			@Override
-			protected ResourceLocation getEntityTexture(Entity entity) {
+			public ResourceLocation getEntityTexture(Entity entity) {
 				return new ResourceLocation("aetheria:textures/ultra_rare_cow.png");
 			}
 		});

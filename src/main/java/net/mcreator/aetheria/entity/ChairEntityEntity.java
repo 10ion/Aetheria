@@ -49,10 +49,10 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0.1f) {
+		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
+			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.1f) {
 				@Override
-				protected ResourceLocation getEntityTexture(Entity entity) {
+				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("aetheria:textures/chairentity.png");
 				}
 			};
@@ -134,9 +134,9 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 		public boolean processInteract(PlayerEntity sourceentity, Hand hand) {
 			super.processInteract(sourceentity, hand);
 			sourceentity.startRiding(this);
-			int x = (int) this.posX;
-			int y = (int) this.posY;
-			int z = (int) this.posZ;
+			int x = (int) this.getPosX();
+			int y = (int) this.getPosY();
+			int z = (int) this.getPosZ();
 			ItemStack itemstack = sourceentity.getHeldItem(hand);
 			Entity entity = this;
 			return true;

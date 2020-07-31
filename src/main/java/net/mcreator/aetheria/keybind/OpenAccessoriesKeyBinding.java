@@ -81,9 +81,9 @@ public class OpenAccessoriesKeyBinding extends AetheriaModElements.ModElement {
 	}
 	private static void pressAction(PlayerEntity entity, int type, int pressedms) {
 		World world = entity.world;
-		int x = (int) entity.posX;
-		int y = (int) entity.posY;
-		int z = (int) entity.posZ;
+		int x = (int) entity.getPosX();
+		int y = (int) entity.getPosY();
+		int z = (int) entity.getPosZ();
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;

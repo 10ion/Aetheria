@@ -70,16 +70,16 @@ public class LostSoulEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 3, 1, 3));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::func_223315_a);
+				AnimalEntity::canAnimalSpawn);
 	}
 
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0.5f) {
+		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
+			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 				@Override
-				protected ResourceLocation getEntityTexture(Entity entity) {
+				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("aetheria:textures/placeholder.png");
 				}
 			};
@@ -166,9 +166,9 @@ public class LostSoulEntity extends AetheriaModElements.ModElement {
 
 		public void livingTick() {
 			super.livingTick();
-			int i = (int) this.posX;
-			int j = (int) this.posY;
-			int k = (int) this.posZ;
+			int i = (int) this.getPosX();
+			int j = (int) this.getPosY();
+			int k = (int) this.getPosZ();
 			Random random = this.rand;
 			if (true)
 				for (int l = 0; l < 10; ++l) {

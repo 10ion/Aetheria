@@ -65,19 +65,18 @@ public class MyconEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 25, 1, 7));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::func_223315_a);
+				AnimalEntity::canAnimalSpawn);
 	}
 
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class,
-				renderManager -> new MobRenderer(renderManager, new VillagerModel(0), 0.5f) {
-					@Override
-					protected ResourceLocation getEntityTexture(Entity entity1) {
-						return new ResourceLocation("aetheria:textures/placeholder.png");
-					}
-				});
+		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> new MobRenderer(renderManager, new VillagerModel(0), 0.5f) {
+			@Override
+			public ResourceLocation getEntityTexture(Entity entity1) {
+				return new ResourceLocation("aetheria:textures/placeholder.png");
+			}
+		});
 	}
 	public static class CustomEntity extends CreatureEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {

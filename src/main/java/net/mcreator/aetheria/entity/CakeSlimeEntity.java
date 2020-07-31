@@ -57,19 +57,18 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 3, 4, 40));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				MonsterEntity::func_223315_a);
+				MonsterEntity::canMonsterSpawn);
 	}
 
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class,
-				renderManager -> new MobRenderer(renderManager, new SlimeModel(0), 0.5f) {
-					@Override
-					protected ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("aetheria:textures/cakeslime.png");
-					}
-				});
+		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> new MobRenderer(renderManager, new SlimeModel(0), 0.5f) {
+			@Override
+			public ResourceLocation getEntityTexture(Entity entity) {
+				return new ResourceLocation("aetheria:textures/cakeslime.png");
+			}
+		});
 	}
 	public static class CustomEntity extends SlimeEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
