@@ -4635,6 +4635,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "fox_drop_extra"
+    },
+    {
+      "name": "Dash",
+      "type": "keybind",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dash"
+    },
+    {
+      "name": "DashOnKeyReleased",
+      "type": "procedure",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dash_on_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -4681,8 +4707,8 @@
     "en_us": {
       "item.aetheria.sterlingarmorarmorboots": "Sterling Silver Boots",
       "item.aetheria.darkfelsteelarmorbody": "Black Felsteel Chestplate",
-      "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
       "item.aetheria.platinumarmorarmorhelmet": "Platinum Helmet",
+      "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
       "item.aetheria.endersteeltoolsshovel": "Endersteel Shovel",
       "item.aetheria.endersteeelarmorhelmet": "Endersteeel Helmet",
       "item.aetheria.iridiumarmorbody": "Iridium Chestplate",
@@ -4820,6 +4846,7 @@
       "entity.aetheria.neko1": "Neko1",
       "item.aetheria.moralmedly": "Moral Medly",
       "item.aetheria.aluminumarmorarmorlegs": "Aluminum Leggings",
+      "key.mcreator.dash": "Dash Ability",
       "item.aetheria.leadpickaxe": "Lead Pickaxe",
       "item.aetheria.flowingarmorboots": "Flowing Water Steel Boots",
       "block.aetheria.crocoite_block": "Crocoite Block",
