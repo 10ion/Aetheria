@@ -1,0 +1,42 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:end_stone"
+    },
+    "1": {
+      "item": "minecraft:end_crystal"
+    },
+    "2": {
+      "item": "minecraft:end_stone"
+    },
+    "3": {
+      "item": "minecraft:end_stone"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:end_stone"
+    },
+    "6": {
+      "item": "minecraft:end_stone"
+    },
+    "7": {
+      "item": "minecraft:end_stone"
+    },
+    "8": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "item": "aetheria:bedrock_breaker",
+    "count": 1
+  }
+}

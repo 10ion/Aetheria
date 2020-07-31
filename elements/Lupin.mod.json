@@ -84,7 +84,6 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "onMobTickUpdate": {
       "name": "Lupin1"
     },

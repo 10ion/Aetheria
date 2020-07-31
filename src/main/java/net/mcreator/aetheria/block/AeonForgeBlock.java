@@ -7,6 +7,7 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.util.LazyOptional;
@@ -16,6 +17,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.text.StringTextComponent;
@@ -27,7 +29,7 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
-import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.ActionResultType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
@@ -49,6 +51,8 @@ import net.minecraft.inventory.ISidedInventory;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.MaterialColor;
@@ -59,6 +63,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.aetheria.procedures.ForgeguicodeProcedure;
+import net.mcreator.aetheria.procedures.AeonguicodeProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaCraftingItemGroup;
 import net.mcreator.aetheria.gui.AeonForgeguiGui;
 import net.mcreator.aetheria.AetheriaModElements;
@@ -94,19 +99,19 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
 		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("aeonforge"));
 	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public void clientLoad(FMLClientSetupEvent event) {
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
+	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2.3f, 28f).lightValue(0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE));
+					.harvestTool(ToolType.PICKAXE).notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("aeonforge");
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public BlockRenderLayer getRenderLayer() {
-			return BlockRenderLayer.CUTOUT;
 		}
 
 		@Override
@@ -155,6 +160,32 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
 
+		@Override
+		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
+			super.onBlockAdded(state, world, pos, oldState, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
+		@Override
+		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+			super.tick(state, world, pos, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				AeonguicodeProcedure.executeProcedure($_dependencies);
+			}
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
 		@OnlyIn(Dist.CLIENT)
 		@Override
 		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
@@ -170,8 +201,9 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 		}
 
 		@Override
-		public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand, BlockRayTraceResult hit) {
-			boolean retval = super.onBlockActivated(state, world, pos, entity, hand, hit);
+		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
+				BlockRayTraceResult hit) {
+			super.onBlockActivated(state, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
@@ -189,7 +221,7 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 					}
 				}, new BlockPos(x, y, z));
 			}
-			return true;
+			return ActionResultType.SUCCESS;
 		}
 
 		@Override
@@ -237,10 +269,10 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 		@Override
 		public void read(CompoundNBT compound) {
 			super.read(compound);
-			this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
 			if (!this.checkLootAndRead(compound)) {
-				ItemStackHelper.loadAllItems(compound, this.stacks);
+				this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
 			}
+			ItemStackHelper.loadAllItems(compound, this.stacks);
 		}
 
 		@Override

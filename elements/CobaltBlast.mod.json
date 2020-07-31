@@ -12,7 +12,7 @@
       "value": "CUSTOM:Cobaltore"
     },
     "blastingReturnStack": {
-      "value": "CUSTOM:Cobalt"
+      "value": "CUSTOM:CobaltIngot"
     },
     "name": "cobaltblast",
     "namespace": "mod"

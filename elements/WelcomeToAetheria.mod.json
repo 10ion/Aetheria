@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Welcome To Aetheria",
+    "achievementDescription": "Mod active",
+    "achievementIcon": {
+      "value": "CUSTOM:AeonForge"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"54\" y=\"59\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

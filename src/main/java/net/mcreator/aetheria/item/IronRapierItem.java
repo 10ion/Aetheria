@@ -10,7 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
-import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
@@ -47,7 +47,7 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT, (int) (1)));
 			}
-		}, 3, -0.4f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
+		}, 3, -0.4f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
 		}.setRegistryName("ironrapier"));
 	}
 }

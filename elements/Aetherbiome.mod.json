@@ -25,7 +25,7 @@
     "treeFruits": {
       "value": "CUSTOM:Blueleaf"
     },
-    "customColors": true,
+    "customColors": false,
     "airColor": {
       "value": -16777216,
       "falpha": 0.0
@@ -58,7 +58,6 @@
     "parent": {
       "value": "No parent"
     },
-    "biomeDictionaryTypes": [],
-    "spawnList": []
+    "biomeDictionaryTypes": []
   }
 }

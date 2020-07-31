@@ -1,29 +1,17 @@
 
 package net.mcreator.aetheria.keybind;
 
-import org.lwjgl.glfw.GLFW;
-
-import net.minecraftforge.fml.network.NetworkEvent;
-import net.minecraftforge.fml.client.registry.ClientRegistry;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.client.event.InputEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.client.settings.KeyBinding;
-
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.function.Supplier;
+import net.mcreator.aetheria.AetheriaMod;
 
 @AetheriaModElements.ModElement.Tag
 public class DashKeyBinding extends AetheriaModElements.ModElement {
+
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
+
 	public DashKeyBinding(AetheriaModElements instance) {
 		super(instance, 491);
+
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}
@@ -40,8 +28,11 @@ public class DashKeyBinding extends AetheriaModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void onKeyInput(InputEvent.KeyInputEvent event) {
 	}
+
 	public static class KeyBindingPressedMessage {
+
 		int type, pressedms;
+
 		public KeyBindingPressedMessage(int type, int pressedms) {
 			this.type = type;
 			this.pressedms = pressedms;
@@ -63,5 +54,7 @@ public class DashKeyBinding extends AetheriaModElements.ModElement {
 			});
 			context.setPacketHandled(true);
 		}
+
 	}
+
 }

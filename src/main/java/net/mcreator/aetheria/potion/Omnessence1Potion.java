@@ -34,7 +34,7 @@ public class Omnessence1Potion extends AetheriaModElements.ModElement {
 		public EffectCustom() {
 			super(EffectType.BENEFICIAL, -6684928);
 			setRegistryName("omnessence1");
-			potionIcon = new ResourceLocation("aetheria:textures/omnessence.png");
+			potionIcon = new ResourceLocation("aetheria:textures/placeholder.png");
 		}
 
 		@Override
@@ -70,9 +70,9 @@ public class Omnessence1Potion extends AetheriaModElements.ModElement {
 		@Override
 		public void performEffect(LivingEntity entity, int amplifier) {
 			World world = entity.world;
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			int x = (int) entity.getPosX();
+			int y = (int) entity.getPosY();
+			int z = (int) entity.getPosZ();
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);

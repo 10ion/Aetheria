@@ -50,7 +50,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 1024,
+    "flammability": 1023,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,

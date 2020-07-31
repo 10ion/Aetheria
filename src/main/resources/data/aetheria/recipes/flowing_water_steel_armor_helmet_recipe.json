@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "1": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "2": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "3": {
+      "item": "aetheria:flowingwatersteelingot"
+    },
+    "5": {
+      "item": "aetheria:flowingwatersteelingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:unknown_elementhelmet",
+    "count": 1
+  }
+}

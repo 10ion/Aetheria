@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "moonberry",
+    "texture": "moonberry1",
     "customModelName": "Normal",
     "name": "Moonberry",
     "specialInfo": [],

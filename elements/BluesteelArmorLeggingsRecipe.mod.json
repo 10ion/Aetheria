@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BluesteelArmor.legs"
+    },
+    "name": "bluesteel_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

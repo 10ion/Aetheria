@@ -1,0 +1,19 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "aetheria:unknown_element",
+    "count": 1
+  }
+}

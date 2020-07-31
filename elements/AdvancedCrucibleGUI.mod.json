@@ -1,0 +1,114 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 292,
+          "y": 94
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 340,
+          "y": 95
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 386,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Advanced Crucible",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Advanced Crucible",
+          "x": 424,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Smelt",
+          "onClick": {
+            "name": "AdvancedCrucibleRecipes"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Smelt",
+          "x": 358,
+          "y": 141
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "name": "Slot #3",
+          "x": 434,
+          "y": 94
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "name": "Slot #4",
+          "x": 482,
+          "y": 95
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": false,
+          "name": "Slot #5",
+          "x": 384,
+          "y": 194
+        }
+      }
+    ]
+  }
+}

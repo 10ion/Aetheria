@@ -1,13 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraft.entity.Entity;
-
-import net.mcreator.aetheria.AetheriaModElements;
-
 @AetheriaModElements.ModElement.Tag
 public class DashOnKeyReleasedProcedure extends AetheriaModElements.ModElement {
+
 	public DashOnKeyReleasedProcedure(AetheriaModElements instance) {
 		super(instance, 492);
+
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -15,7 +13,9 @@ public class DashOnKeyReleasedProcedure extends AetheriaModElements.ModElement {
 			System.err.println("Failed to load dependency entity for procedure DashOnKeyReleased!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		{
 			Entity _ent = entity;
 			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
@@ -23,5 +23,7 @@ public class DashOnKeyReleasedProcedure extends AetheriaModElements.ModElement {
 						"execute at @s tp @s ^ ^ ^1");
 			}
 		}
+
 	}
+
 }

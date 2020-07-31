@@ -18,7 +18,7 @@
     "rewardXP": 45,
     "achievementType": "goal",
     "parent": {
-      "value": "No parent: root"
+      "value": "CUSTOM:BelowTheBedrock"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"49\" y=\"53\"><field name=\"dimension\">CUSTOM:TheVoid</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }

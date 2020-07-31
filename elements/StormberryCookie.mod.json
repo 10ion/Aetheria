@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "stormberrycookie",
+    "customModelName": "Normal",
+    "name": "Stormberry Cookie",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.7,
+    "eatingSpeed": 26,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "StormberryCookieFoodEaten"
+    }
+  }
+}

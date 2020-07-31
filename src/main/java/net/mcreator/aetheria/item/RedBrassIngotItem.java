@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class RedBrassIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:redbrassingot")
+	@ObjectHolder("aetheria:red_brass_ingot")
 	public static final Item block = null;
 	public RedBrassIngotItem(AetheriaModElements instance) {
 		super(instance, 38);
@@ -25,7 +25,7 @@ public class RedBrassIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("redbrassingot");
+			setRegistryName("red_brass_ingot");
 		}
 
 		@Override

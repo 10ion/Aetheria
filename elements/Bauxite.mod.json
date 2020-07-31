@@ -69,7 +69,6 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -88,7 +87,7 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 23,
+    "frequencyPerChunks": 21,
     "frequencyOnChunk": 10,
     "minGenerateHeight": 32,
     "maxGenerateHeight": 95

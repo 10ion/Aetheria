@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Endersteel"
+      "value": "CUSTOM:EndersteelIngot"
     },
     "name": "endersteel_oreblockorerecipe",
     "namespace": "mod"

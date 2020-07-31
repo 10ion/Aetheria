@@ -4,9 +4,9 @@
   "experience": 3,
   "cookingtime": 400,
   "ingredient": {
-    "item": "aetheria:rtungsten"
+    "item": "aetheria:raw_tungsten"
   },
   "result": {
-    "item": "aetheria:tungsten"
+    "item": "aetheria:tungsten_ingot"
   }
 }

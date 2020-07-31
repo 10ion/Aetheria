@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bluesteel_head",
+    "enableBody": true,
+    "textureBody": "bluesteel_body",
+    "enableLeggings": true,
+    "textureLeggings": "bluesteel_leggings",
+    "enableBoots": true,
+    "textureBoots": "bluesteel_boots",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaArmor"
+    },
+    "armorTextureFile": "bluesteel",
+    "helmetName": "Bluesteel Helmet",
+    "bodyName": "Bluesteel Chestplate",
+    "leggingsName": "Bluesteel Leggings",
+    "bootsName": "Bluesteel Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 55,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 9,
+    "damageValueBoots": 5,
+    "enchantability": 32,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:BlueSteelIngot"
+      }
+    ]
+  }
+}

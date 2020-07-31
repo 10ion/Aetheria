@@ -8,17 +8,17 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:endersteel"
+      "item": "aetheria:endersteel_ingot"
     },
     "1": {
-      "item": "aetheria:endersteel"
+      "item": "aetheria:endersteel_ingot"
     },
     "2": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "aetheria:endersteel_sword",
+    "item": "aetheria:endersteeltoolssword",
     "count": 1
   }
 }

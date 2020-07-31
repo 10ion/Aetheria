@@ -8,29 +8,29 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     },
     "1": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     },
     "2": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     },
     "3": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     },
     "5": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     },
     "6": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     },
     "8": {
-      "item": "aetheria:rosegoldingot"
+      "item": "aetheria:rose_gold_ingot"
     }
   },
   "result": {
-    "item": "aetheria:rosearmorlegs",
+    "item": "aetheria:unknown_elementlegs",
     "count": 1
   }
 }

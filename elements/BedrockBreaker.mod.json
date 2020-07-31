@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bedrockbreaker",
+    "customModelName": "Normal",
+    "name": "Bedrock Breaker",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 7,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.5,
+    "usageCount": 124,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": []
+  }
+}

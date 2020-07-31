@@ -26,7 +26,7 @@
     "resistance": 12.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaTools"
+      "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

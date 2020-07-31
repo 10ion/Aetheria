@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RoseGoldIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Rose_GoldArmor.helmet"
+    },
+    "name": "rose_gold_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

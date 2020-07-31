@@ -25,7 +25,7 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": true,
+    "customColors": false,
     "airColor": {
       "value": -5916161,
       "falpha": 0.0
@@ -61,23 +61,6 @@
     "biomeDictionaryTypes": [
       "MAGICAL",
       "FOREST"
-    ],
-    "spawnList": [
-      {
-        "value": "EntityVindicator"
-      },
-      {
-        "value": "EntityVex"
-      },
-      {
-        "value": "EntityFox"
-      },
-      {
-        "value": "EntityWolf"
-      },
-      {
-        "value": "EntityPhantom"
-      }
     ]
   }
 }

@@ -1,0 +1,28 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "minecraft:cookie"
+    },
+    {
+      "item": "aetheria:stormberry"
+    },
+    {
+      "item": "aetheria:stormberry"
+    },
+    {
+      "item": "aetheria:stormberry"
+    }
+  ],
+  "result": {
+    "item": "aetheria:stormberry_cookie",
+    "count": 3
+  }
+}

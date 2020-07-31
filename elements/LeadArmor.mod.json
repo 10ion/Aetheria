@@ -1,0 +1,51 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "lead_head",
+    "enableBody": true,
+    "textureBody": "lead_body",
+    "enableLeggings": true,
+    "textureLeggings": "lead_leggings",
+    "enableBoots": true,
+    "textureBoots": "lead_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "lead",
+    "helmetName": "Lead Helmet",
+    "bodyName": "Lead Chestplate",
+    "leggingsName": "Lead Leggings",
+    "bootsName": "Lead Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 1,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
+    "enchantability": 24,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ]
+  }
+}

@@ -22,7 +22,7 @@ public class Omnessence1OnPotionActiveTickProcedure extends AetheriaModElements.
 				: 0))) {
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity)
-						.giveExperiencePoints((int) (0.1 * ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0)));
+						.giveExperiencePoints((int) (0.25 * ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0)));
 		}
 	}
 }

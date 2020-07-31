@@ -1,0 +1,17 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "hi",
+    "name": "SH Ultimate",
+    "description": "null",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMisc"
+    },
+    "music": {
+      "value": "CUSTOM:sh_ultimate"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

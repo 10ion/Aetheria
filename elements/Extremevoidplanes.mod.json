@@ -58,11 +58,6 @@
     "parent": {
       "value": "CUSTOM:Voidplanes"
     },
-    "biomeDictionaryTypes": [],
-    "spawnList": [
-      {
-        "value": "EntityMooshroom"
-      }
-    ]
+    "biomeDictionaryTypes": []
   }
 }

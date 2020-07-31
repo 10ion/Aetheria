@@ -354,6 +354,20 @@
           "x": 370,
           "y": 415
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft",
+          "onClick": {
+            "name": "AeonForgeRecipes"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Craft",
+          "x": 489,
+          "y": 168
+        }
       }
     ]
   }

@@ -1,0 +1,26 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:copper_ingot"
+    },
+    "2": {
+      "item": "aetheria:copper_ingot"
+    },
+    "3": {
+      "item": "aetheria:copper_ingot"
+    },
+    "5": {
+      "item": "aetheria:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "aetheria:copper_armorboots",
+    "count": 1
+  }
+}

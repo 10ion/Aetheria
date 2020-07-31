@@ -69,7 +69,6 @@
     "particleSpawningShape": "Tube",
     "particleSpawningRadious": 0.5000000014901161,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

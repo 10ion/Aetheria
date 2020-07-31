@@ -1,0 +1,21 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "StyxWater",
+    "textureStill": "styxwater",
+    "textureFlowing": "styxwater",
+    "luminosity": 2,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "spawnWorldTypes": [
+      "CUSTOM:Dim99"
+    ]
+  }
+}

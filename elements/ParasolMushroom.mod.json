@@ -1,0 +1,22 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "parasol_mushroom",
+    "customModelName": "Normal",
+    "name": "Parasol Mushroom",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaFoodItems"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 3,
+    "saturation": 0.4,
+    "eatingSpeed": 20,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

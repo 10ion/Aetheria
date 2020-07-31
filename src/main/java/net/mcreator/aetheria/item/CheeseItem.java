@@ -1,0 +1,35 @@
+
+package net.mcreator.aetheria.item;
+
+@AetheriaModElements.ModElement.Tag
+public class CheeseItem extends AetheriaModElements.ModElement {
+
+	@ObjectHolder("aetheria:cheese")
+	public static final Item block = null;
+
+	public CheeseItem(AetheriaModElements instance) {
+		super(instance, 520);
+	}
+
+	@Override
+	public void initElements() {
+		elements.items.add(() -> new FoodItemCustom());
+	}
+
+	public static class FoodItemCustom extends Item {
+
+		public FoodItemCustom() {
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(16).food((new Food.Builder()).hunger(3).saturation(0.6f)
+
+					.build()));
+			setRegistryName("cheese");
+		}
+
+		@Override
+		public UseAction getUseAction(ItemStack par1ItemStack) {
+			return UseAction.EAT;
+		}
+
+	}
+
+}

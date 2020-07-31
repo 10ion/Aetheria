@@ -54,10 +54,11 @@ public class HOLYHANDGRENADEBulletHitsBlockProcedure extends AetheriaModElements
 			world.createExplosion(null, (int) x, (int) y, (int) z, (float) 20, Explosion.Mode.BREAK);
 		}
 		if (!world.isRemote && world.getServer() != null) {
-			world.getServer().getCommandManager().handleCommand(
-					new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
-							new StringTextComponent(""), world.getServer(), null).withFeedbackDisabled(),
-					"effect give @e[distance=..10] minecraft:instant_damage  1 4");
+			world.getServer().getCommandManager()
+					.handleCommand(
+							new CommandSource(ICommandSource.DUMMY, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getServer(), null).withFeedbackDisabled(),
+							"effect give @e[distance=..10] minecraft:instant_damage  1 4");
 		}
 		if (world instanceof ServerWorld) {
 			((ServerWorld) world).spawnParticle(ParticleTypes.EXPLOSION, x, y, z, (int) 7, 3, 3, 3, 2);
