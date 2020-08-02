@@ -1,0 +1,119 @@
+{
+  "_fv": 8,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Spectral Raven",
+    "mobLabel": "",
+    "mobModelName": "Chicken",
+    "mobModelTexture": "texture.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.4,
+    "modelHeight": 0.7,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "health": 10,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": true,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "Items.FEATHER"
+    },
+    "livingSound": {
+      "value": "entity.chicken.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.chicken.hurt"
+    },
+    "deathSound": {
+      "value": "entity.chicken.death"
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SMOKE_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 2,
+    "particleSpawningCondition": "ALWAYS",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.BEETROOT</field></block></value><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Items.BEETROOT"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 9,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 7,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Voidplanes"
+      },
+      {
+        "value": "CUSTOM:Extremevoidplanes"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

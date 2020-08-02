@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "rose_gold_head",
+    "textureHelmet": "rose_head",
     "enableBody": true,
-    "textureBody": "rose_gold_body",
+    "textureBody": "rose_body",
     "enableLeggings": true,
-    "textureLeggings": "rose_gold_leggings",
+    "textureLeggings": "rose_leggings",
     "enableBoots": true,
-    "textureBoots": "rose_gold_boots",
+    "textureBoots": "rose_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "rose_gold",
+    "armorTextureFile": "rose_",
     "helmetName": "Rose_Gold Helmet",
     "bodyName": "Rose_Gold Chestplate",
     "leggingsName": "Rose_Gold Leggings",

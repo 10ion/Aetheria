@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "flowing_water_steel_head",
+    "textureHelmet": "flowing_head",
     "enableBody": true,
-    "textureBody": "flowing_water_steel_body",
+    "textureBody": "flowing_body",
     "enableLeggings": true,
-    "textureLeggings": "flowing_water_steel_leggings",
+    "textureLeggings": "flowing_leggings",
     "enableBoots": true,
-    "textureBoots": "flowing_water_steel_boots",
+    "textureBoots": "flowing_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },

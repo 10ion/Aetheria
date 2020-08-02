@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "bluesteel_head",
+    "textureHelmet": "blue_head",
     "enableBody": true,
-    "textureBody": "bluesteel_body",
+    "textureBody": "blue_body",
     "enableLeggings": true,
-    "textureLeggings": "bluesteel_leggings",
+    "textureLeggings": "blue_leggings",
     "enableBoots": true,
-    "textureBoots": "bluesteel_boots",
+    "textureBoots": "blue_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "bluesteel",
+    "armorTextureFile": "blue_",
     "helmetName": "Bluesteel Helmet",
     "bodyName": "Bluesteel Chestplate",
     "leggingsName": "Bluesteel Leggings",

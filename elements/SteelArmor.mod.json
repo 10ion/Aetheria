@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "steel_head",
+    "textureHelmet": "steelarmor_head",
     "enableBody": true,
-    "textureBody": "steel_body",
+    "textureBody": "steelarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "steel_leggings",
+    "textureLeggings": "steelarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "steel_boots",
+    "textureBoots": "steelarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "steel",
+    "armorTextureFile": "steelarmor_",
     "helmetName": "Steel Helmet",
     "bodyName": "Steel Chestplate",
     "leggingsName": "Steel Leggings",

@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "sterling_silver_head",
+    "textureHelmet": "sterlingarmor_head",
     "enableBody": true,
-    "textureBody": "sterling_silver_body",
+    "textureBody": "sterlingarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "sterling_silver_leggings",
+    "textureLeggings": "sterlingarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "sterling_silver_boots",
+    "textureBoots": "sterlingarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "sterling_silver",
+    "armorTextureFile": "sterlingarmor_",
     "helmetName": "Sterling_Silver Helmet",
     "bodyName": "Sterling_Silver Chestplate",
     "leggingsName": "Sterling_Silver Leggings",

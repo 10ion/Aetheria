@@ -317,17 +317,6 @@
       "ids": {}
     },
     {
-      "name": "Forgeguicode",
-      "type": "procedure",
-      "sortid": 176,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "EndersteelToolsPickaxe",
       "type": "tool",
       "sortid": 138,
@@ -5398,6 +5387,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magnegold_block_recipe"
+    },
+    {
+      "name": "SpectralRaven",
+      "type": "mob",
+      "sortid": 731,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectral_raven"
     }
   ],
   "variable_elements": [
@@ -5474,6 +5472,7 @@
       "block.aetheria.gemwroughtore": "Gemwrought Ore",
       "item.aetheria.bronze_armorlegs": "Bronze Leggings",
       "item.aetheria.obsidianarmorboots": "Obsidian Boots",
+      "entity.aetheria.spectral_raven": "Spectral Raven",
       "item.aetheria.leadaxe": "Lead Axe",
       "item.aetheria.mummy": "Mummy Spawn Egg",
       "biome.aetheria.aetherbiome": "Aetherbiome",
@@ -5592,6 +5591,7 @@
       "item.minecraft.lingering_potion.effect.omnessence1": "Lingering Omnessence1",
       "item.aetheria.electrumarmorarmorboots": "Electrum Boots",
       "item.aetheria.cobalt_ingot": "Cobalt",
+      "item.aetheria.spectral_raven": "Spectral Raven Spawn Egg",
       "item.aetheria.adamantaarmorhelmet": "Adamant Helmet",
       "item.aetheria.tin_ingot": "Tin",
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",

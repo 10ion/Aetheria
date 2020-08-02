@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "tungsten_head",
+    "textureHelmet": "tungstenarmor_head",
     "enableBody": true,
-    "textureBody": "tungsten_body",
+    "textureBody": "tungstenarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "tungsten_leggings",
+    "textureLeggings": "tungstenarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "tungsten_boots",
+    "textureBoots": "tungstenarmor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "tungsten",
+    "armorTextureFile": "tungstenarmor_",
     "helmetName": "Tungsten Helmet",
     "bodyName": "Tungsten Chestplate",
     "leggingsName": "Tungsten Leggings",
