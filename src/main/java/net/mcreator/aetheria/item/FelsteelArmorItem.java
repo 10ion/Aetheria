@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class FelsteelArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:felsteel_armorhelmet")
+	@ObjectHolder("aetheria:felsteel_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:felsteel_armorbody")
+	@ObjectHolder("aetheria:felsteel_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:felsteel_armorlegs")
+	@ObjectHolder("aetheria:felsteel_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:felsteel_armorboots")
+	@ObjectHolder("aetheria:felsteel_armor_boots")
 	public static final Item boots = null;
 	public FelsteelArmorItem(AetheriaModElements instance) {
 		super(instance, 553);
@@ -69,24 +69,24 @@ public class FelsteelArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/felsteela__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("felsteel_armorhelmet"));
+		}.setRegistryName("felsteel_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/felsteela__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("felsteel_armorbody"));
+		}.setRegistryName("felsteel_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/felsteela__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("felsteel_armorlegs"));
+		}.setRegistryName("felsteel_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/felsteela__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("felsteel_armorboots"));
+		}.setRegistryName("felsteel_armor_boots"));
 	}
 }

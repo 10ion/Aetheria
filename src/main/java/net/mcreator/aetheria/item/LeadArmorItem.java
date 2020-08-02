@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class LeadArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:lead_armorhelmet")
+	@ObjectHolder("aetheria:lead_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:lead_armorbody")
+	@ObjectHolder("aetheria:lead_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:lead_armorlegs")
+	@ObjectHolder("aetheria:lead_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:lead_armorboots")
+	@ObjectHolder("aetheria:lead_armor_boots")
 	public static final Item boots = null;
 	public LeadArmorItem(AetheriaModElements instance) {
 		super(instance, 658);
@@ -69,24 +69,24 @@ public class LeadArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/leadarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorhelmet"));
+		}.setRegistryName("lead_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/leadarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorbody"));
+		}.setRegistryName("lead_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/leadarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorlegs"));
+		}.setRegistryName("lead_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/leadarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorboots"));
+		}.setRegistryName("lead_armor_boots"));
 	}
 }

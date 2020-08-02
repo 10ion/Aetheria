@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "tool",
   "definition": {
     "renderType": 1,
@@ -24,6 +24,8 @@
         "value": "Blocks.IRON_BLOCK"
       }
     ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "FastCommandExecuted"
     }

@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class GemwroughtArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:gemwroughtarmorhelmet")
+	@ObjectHolder("aetheria:gemwroughtarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:gemwroughtarmorbody")
+	@ObjectHolder("aetheria:gemwroughtarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:gemwroughtarmorlegs")
+	@ObjectHolder("aetheria:gemwroughtarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:gemwroughtarmorboots")
+	@ObjectHolder("aetheria:gemwroughtarmor_boots")
 	public static final Item boots = null;
 	public GemwroughtArmorItem(AetheriaModElements instance) {
 		super(instance, 84);
@@ -69,24 +69,24 @@ public class GemwroughtArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/gemwrought__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("gemwroughtarmorhelmet"));
+		}.setRegistryName("gemwroughtarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/gemwrought__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("gemwroughtarmorbody"));
+		}.setRegistryName("gemwroughtarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/gemwrought__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("gemwroughtarmorlegs"));
+		}.setRegistryName("gemwroughtarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/gemwrought__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("gemwroughtarmorboots"));
+		}.setRegistryName("gemwroughtarmor_boots"));
 	}
 }

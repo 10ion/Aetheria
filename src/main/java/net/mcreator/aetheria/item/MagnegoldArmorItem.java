@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class MagnegoldArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:magnegold_armorhelmet")
+	@ObjectHolder("aetheria:magnegold_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:magnegold_armorbody")
+	@ObjectHolder("aetheria:magnegold_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:magnegold_armorlegs")
+	@ObjectHolder("aetheria:magnegold_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:magnegold_armorboots")
+	@ObjectHolder("aetheria:magnegold_armor_boots")
 	public static final Item boots = null;
 	public MagnegoldArmorItem(AetheriaModElements instance) {
 		super(instance, 688);
@@ -69,24 +69,24 @@ public class MagnegoldArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/magnegoldarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("magnegold_armorhelmet"));
+		}.setRegistryName("magnegold_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/magnegoldarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("magnegold_armorbody"));
+		}.setRegistryName("magnegold_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/magnegoldarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("magnegold_armorlegs"));
+		}.setRegistryName("magnegold_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/magnegoldarmor__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("magnegold_armorboots"));
+		}.setRegistryName("magnegold_armor_boots"));
 	}
 }

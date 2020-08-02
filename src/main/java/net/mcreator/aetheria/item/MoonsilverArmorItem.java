@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class MoonsilverArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:moonsilverarmorhelmet")
+	@ObjectHolder("aetheria:moonsilverarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:moonsilverarmorbody")
+	@ObjectHolder("aetheria:moonsilverarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:moonsilverarmorlegs")
+	@ObjectHolder("aetheria:moonsilverarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:moonsilverarmorboots")
+	@ObjectHolder("aetheria:moonsilverarmor_boots")
 	public static final Item boots = null;
 	public MoonsilverArmorItem(AetheriaModElements instance) {
 		super(instance, 77);
@@ -69,24 +69,24 @@ public class MoonsilverArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/moonsilver__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("moonsilverarmorhelmet"));
+		}.setRegistryName("moonsilverarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/moonsilver__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("moonsilverarmorbody"));
+		}.setRegistryName("moonsilverarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/moonsilver__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("moonsilverarmorlegs"));
+		}.setRegistryName("moonsilverarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/moonsilver__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("moonsilverarmorboots"));
+		}.setRegistryName("moonsilverarmor_boots"));
 	}
 }

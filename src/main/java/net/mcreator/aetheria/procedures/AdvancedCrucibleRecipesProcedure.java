@@ -3,7 +3,7 @@ package net.mcreator.aetheria.procedures;
 import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.CapabilityItemHandler;
 
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
@@ -34,6 +34,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
 
 @AetheriaModElements.ModElement.Tag
 public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModElement {
@@ -41,7 +42,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 		super(instance, 519);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure AdvancedCrucibleRecipes!");
 			return;
@@ -58,10 +59,10 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 			System.err.println("Failed to load dependency world for procedure AdvancedCrucibleRecipes!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
-		World world = (World) dependencies.get("world");
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
 		if (((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -1059,7 +1060,7 @@ public class AdvancedCrucibleRecipesProcedure extends AetheriaModElements.ModEle
 								return _retval.get();
 							}
 						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (4))) == 0))
-								&& (((world.isDaytime()) == (false)) && ((world.getCurrentMoonPhaseFactor()) == 1)))))) {
+								&& (((world.getWorld().isDaytime()) == (false)) && ((world.getCurrentMoonPhaseFactor()) == 1)))))) {
 			{
 				TileEntity _ent = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (_ent != null) {

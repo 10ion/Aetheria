@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class NickelArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:nickelarmorhelmet")
+	@ObjectHolder("aetheria:nickelarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:nickelarmorbody")
+	@ObjectHolder("aetheria:nickelarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:nickelarmorlegs")
+	@ObjectHolder("aetheria:nickelarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:nickelarmorboots")
+	@ObjectHolder("aetheria:nickelarmor_boots")
 	public static final Item boots = null;
 	public NickelArmorItem(AetheriaModElements instance) {
 		super(instance, 51);
@@ -69,24 +69,24 @@ public class NickelArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/nickel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("nickelarmorhelmet"));
+		}.setRegistryName("nickelarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/nickel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("nickelarmorbody"));
+		}.setRegistryName("nickelarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/nickel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("nickelarmorlegs"));
+		}.setRegistryName("nickelarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/nickel__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("nickelarmorboots"));
+		}.setRegistryName("nickelarmor_boots"));
 	}
 }

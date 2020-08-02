@@ -7,13 +7,15 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+
 @AetheriaModElements.ModElement.Tag
 public class StormberryrollFoodEatenProcedure extends AetheriaModElements.ModElement {
 	public StormberryrollFoodEatenProcedure(AetheriaModElements instance) {
 		super(instance, 163);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure StormberryrollFoodEaten!");
 			return;

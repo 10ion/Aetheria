@@ -2,19 +2,48 @@ package net.mcreator.aetheria;
 
 import net.minecraftforge.fml.network.PacketDistributor;
 import net.minecraftforge.fml.network.NetworkEvent;
-import net.minecraftforge.fml.LogicalSide;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 
 import net.minecraft.world.storage.WorldSavedData;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.client.Minecraft;
+import net.minecraft.entity.player.ServerPlayerEntity;
 
 import java.util.function.Supplier;
 
 public class AetheriaModVariables {
+	public AetheriaModVariables(AetheriaModElements elements) {
+		elements.addNetworkMessage(WorldSavedDataSyncMessage.class, WorldSavedDataSyncMessage::buffer, WorldSavedDataSyncMessage::new,
+				WorldSavedDataSyncMessage::handler);
+	}
+
+	@SubscribeEvent
+	public void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
+		if (!event.getPlayer().world.isRemote) {
+			WorldSavedData mapdata = MapVariables.get(event.getPlayer().world);
+			WorldSavedData worlddata = WorldVariables.get(event.getPlayer().world);
+			if (mapdata != null)
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new WorldSavedDataSyncMessage(0, mapdata));
+			if (worlddata != null)
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new WorldSavedDataSyncMessage(1, worlddata));
+		}
+	}
+
+	@SubscribeEvent
+	public void onPlayerChangedDimension(PlayerEvent.PlayerChangedDimensionEvent event) {
+		if (!event.getPlayer().world.isRemote) {
+			WorldSavedData worlddata = WorldVariables.get(event.getPlayer().world);
+			if (worlddata != null)
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> (ServerPlayerEntity) event.getPlayer()),
+						new WorldSavedDataSyncMessage(1, worlddata));
+		}
+	}
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "aetheria_worldvars";
 		public WorldVariables() {
@@ -34,18 +63,16 @@ public class AetheriaModVariables {
 			return nbt;
 		}
 
-		public void syncData(World world) {
+		public void syncData(IWorld world) {
 			this.markDirty();
-			if (world.isRemote) {
-				AetheriaMod.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(1, this));
-			} else {
-				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.DIMENSION.with(world.dimension::getType), new WorldSavedDataSyncMessage(1, this));
-			}
+			if (!world.getWorld().isRemote)
+				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.DIMENSION.with(world.getWorld().dimension::getType),
+						new WorldSavedDataSyncMessage(1, this));
 		}
 		static WorldVariables clientSide = new WorldVariables();
-		public static WorldVariables get(World world) {
-			if (world instanceof ServerWorld) {
-				return ((ServerWorld) world).getSavedData().getOrCreate(WorldVariables::new, DATA_NAME);
+		public static WorldVariables get(IWorld world) {
+			if (world.getWorld() instanceof ServerWorld) {
+				return ((ServerWorld) world.getWorld()).getSavedData().getOrCreate(WorldVariables::new, DATA_NAME);
 			} else {
 				return clientSide;
 			}
@@ -74,18 +101,15 @@ public class AetheriaModVariables {
 			return nbt;
 		}
 
-		public void syncData(World world) {
+		public void syncData(IWorld world) {
 			this.markDirty();
-			if (world.isRemote) {
-				AetheriaMod.PACKET_HANDLER.sendToServer(new WorldSavedDataSyncMessage(0, this));
-			} else {
+			if (!world.getWorld().isRemote)
 				AetheriaMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(), new WorldSavedDataSyncMessage(0, this));
-			}
 		}
 		static MapVariables clientSide = new MapVariables();
-		public static MapVariables get(World world) {
-			if (world instanceof ServerWorld) {
-				return world.getServer().getWorld(DimensionType.OVERWORLD).getSavedData().getOrCreate(MapVariables::new, DATA_NAME);
+		public static MapVariables get(IWorld world) {
+			if (world.getWorld() instanceof ServerWorld) {
+				return world.getWorld().getServer().getWorld(DimensionType.OVERWORLD).getSavedData().getOrCreate(MapVariables::new, DATA_NAME);
 			} else {
 				return clientSide;
 			}
@@ -97,10 +121,7 @@ public class AetheriaModVariables {
 		public WorldSavedData data;
 		public WorldSavedDataSyncMessage(PacketBuffer buffer) {
 			this.type = buffer.readInt();
-			if (this.type == 0)
-				this.data = new MapVariables();
-			else
-				this.data = new WorldVariables();
+			this.data = this.type == 0 ? new MapVariables() : new WorldVariables();
 			this.data.read(buffer.readCompoundTag());
 		}
 
@@ -117,31 +138,14 @@ public class AetheriaModVariables {
 		public static void handler(WorldSavedDataSyncMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 			NetworkEvent.Context context = contextSupplier.get();
 			context.enqueueWork(() -> {
-				if (context.getDirection().getReceptionSide().isServer())
-					syncData(message, context.getDirection().getReceptionSide(), context.getSender().world);
-				else
-					syncData(message, context.getDirection().getReceptionSide(), Minecraft.getInstance().player.world);
+				if (!context.getDirection().getReceptionSide().isServer()) {
+					if (message.type == 0)
+						MapVariables.clientSide = (MapVariables) message.data;
+					else
+						WorldVariables.clientSide = (WorldVariables) message.data;
+				}
 			});
 			context.setPacketHandled(true);
-		}
-
-		private static void syncData(WorldSavedDataSyncMessage message, LogicalSide side, World world) {
-			if (side.isServer()) {
-				message.data.markDirty();
-				if (message.type == 0) {
-					AetheriaMod.PACKET_HANDLER.send(PacketDistributor.ALL.noArg(), message);
-					world.getServer().getWorld(DimensionType.OVERWORLD).getSavedData().set(message.data);
-				} else {
-					AetheriaMod.PACKET_HANDLER.send(PacketDistributor.DIMENSION.with(world.dimension::getType), message);
-					((ServerWorld) world).getSavedData().set(message.data);
-				}
-			} else {
-				if (message.type == 0) {
-					MapVariables.clientSide = (MapVariables) message.data;
-				} else {
-					WorldVariables.clientSide = (WorldVariables) message.data;
-				}
-			}
 		}
 	}
 }

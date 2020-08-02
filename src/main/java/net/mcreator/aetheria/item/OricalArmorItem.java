@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class OricalArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:oricalarmorhelmet")
+	@ObjectHolder("aetheria:oricalarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:oricalarmorbody")
+	@ObjectHolder("aetheria:oricalarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:oricalarmorlegs")
+	@ObjectHolder("aetheria:oricalarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:oricalarmorboots")
+	@ObjectHolder("aetheria:oricalarmor_boots")
 	public static final Item boots = null;
 	public OricalArmorItem(AetheriaModElements instance) {
 		super(instance, 82);
@@ -69,24 +69,24 @@ public class OricalArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/orical__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("oricalarmorhelmet"));
+		}.setRegistryName("oricalarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/orical__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("oricalarmorbody"));
+		}.setRegistryName("oricalarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/orical__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("oricalarmorlegs"));
+		}.setRegistryName("oricalarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/orical__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("oricalarmorboots"));
+		}.setRegistryName("oricalarmor_boots"));
 	}
 }

@@ -14,6 +14,9 @@ import net.minecraft.entity.LivingEntity;
 import net.mcreator.aetheria.procedures.StormberryCookieFoodEatenProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class StormberryCookieItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:stormberry_cookie")
@@ -45,11 +48,11 @@ public class StormberryCookieItem extends AetheriaModElements.ModElement {
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				StormberryCookieFoodEatenProcedure.executeProcedure($_dependencies);
 			}

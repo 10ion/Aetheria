@@ -21,13 +21,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class EmeraldArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:emeraldarmorhelmet")
+	@ObjectHolder("aetheria:emeraldarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:emeraldarmorbody")
+	@ObjectHolder("aetheria:emeraldarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:emeraldarmorlegs")
+	@ObjectHolder("aetheria:emeraldarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:emeraldarmorboots")
+	@ObjectHolder("aetheria:emeraldarmor_boots")
 	public static final Item boots = null;
 	public EmeraldArmorItem(AetheriaModElements instance) {
 		super(instance, 70);
@@ -70,24 +70,24 @@ public class EmeraldArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/emerald__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorhelmet"));
+		}.setRegistryName("emeraldarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/emerald__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorbody"));
+		}.setRegistryName("emeraldarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/emerald__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorlegs"));
+		}.setRegistryName("emeraldarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/emerald__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorboots"));
+		}.setRegistryName("emeraldarmor_boots"));
 	}
 }

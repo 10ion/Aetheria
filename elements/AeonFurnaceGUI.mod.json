@@ -1,11 +1,12 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "gui",
   "definition": {
     "type": 1,
     "width": 352,
     "height": 332,
     "renderBgLayer": true,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "inputslot",
@@ -15,6 +16,7 @@
           },
           "id": 0,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 292,
           "y": 94
@@ -28,6 +30,7 @@
           },
           "id": 1,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #1",
           "x": 340,
           "y": 95
@@ -41,6 +44,7 @@
           },
           "id": 2,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #2",
           "x": 393,
           "y": 95
@@ -64,6 +68,7 @@
         "data": {
           "id": 3,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #3",
           "x": 339,
           "y": 196
