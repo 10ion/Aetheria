@@ -2,6 +2,7 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -12,12 +13,12 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorldReader;
-import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
+import net.minecraft.network.IPacket;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -28,15 +29,13 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.client.renderer.model.ModelRenderer;
+import net.minecraft.client.renderer.model.ModelBox;
+import net.minecraft.client.renderer.entity.model.RendererModel;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.aetheria.AetheriaModElements;
-
-import com.mojang.blaze3d.vertex.IVertexBuilder;
-import com.mojang.blaze3d.matrix.MatrixStack;
 
 @AetheriaModElements.ModElement.Tag
 public class Neko1Entity extends AetheriaModElements.ModElement {
@@ -57,10 +56,10 @@ public class Neko1Entity extends AetheriaModElements.ModElement {
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
 			return new MobRenderer(renderManager, new neko(), 0.1f) {
 				@Override
-				public ResourceLocation getEntityTexture(Entity entity) {
+				protected ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("aetheria:textures/neko1.png");
 				}
 			};
@@ -76,8 +75,13 @@ public class Neko1Entity extends AetheriaModElements.ModElement {
 			experienceValue = 5;
 			setNoAI(true);
 			enablePersistence();
-			this.moveController = new FlyingMovementController(this, 10, true);
+			this.moveController = new FlyingMovementController(this);
 			this.navigator = new FlyingPathNavigator(this, this.world);
+		}
+
+		@Override
+		public IPacket<?> createSpawnPacket() {
+			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override
@@ -110,13 +114,7 @@ public class Neko1Entity extends AetheriaModElements.ModElement {
 		}
 
 		@Override
-		protected float getSoundVolume() {
-			return 1.0F;
-		}
-
-		@Override
-		public boolean onLivingFall(float l, float d) {
-			return false;
+		public void fall(float l, float d) {
 		}
 
 		@Override
@@ -162,7 +160,7 @@ public class Neko1Entity extends AetheriaModElements.ModElement {
 
 		@Override
 		public boolean isNotColliding(IWorldReader worldreader) {
-			return worldreader.checkNoEntityCollision(this, VoxelShapes.create(this.getBoundingBox()));
+			return worldreader.checkNoEntityCollision(this);
 		}
 
 		@Override
@@ -194,59 +192,49 @@ public class Neko1Entity extends AetheriaModElements.ModElement {
 	// Paste this code into your mod.
 	// Make sure to generate all required imports
 	public class neko extends EntityModel<Entity> {
-		private final ModelRenderer tail;
-		private final ModelRenderer tail2;
-		private final ModelRenderer ears;
+		private final RendererModel tail;
+		private final RendererModel tail2;
+		private final RendererModel ears;
 		public neko() {
 			textureWidth = 32;
 			textureHeight = 32;
-			tail = new ModelRenderer(this);
+			tail = new RendererModel(this);
 			tail.setRotationPoint(0.0F, 12.0F, 2.0F);
 			setRotationAngle(tail, -1.309F, 0.0F, 0.0F);
-			addBoxHelper(tail, 0, 0, -0.5F, -0.7753F, -0.2929F, 1, 1, 11, 0.0F, false);
-			tail2 = new ModelRenderer(this);
+			tail.cubeList.add(new ModelBox(tail, 0, 0, -0.5F, -0.7753F, -0.2929F, 1, 1, 11, 0.0F, false));
+			tail2 = new RendererModel(this);
 			tail2.setRotationPoint(0.0F, 0.0F, 10.0F);
 			setRotationAngle(tail2, 1.2217F, 0.0F, 0.0F);
 			tail.addChild(tail2);
-			addBoxHelper(tail2, 0, 12, -0.5F, -0.4664F, 0.5865F, 1, 1, 5, 0.0F, false);
-			ears = new ModelRenderer(this);
+			tail2.cubeList.add(new ModelBox(tail2, 0, 12, -0.5F, -0.4664F, 0.5865F, 1, 1, 5, 0.0F, false));
+			ears = new RendererModel(this);
 			ears.setRotationPoint(0.0F, 0.0F, 0.0F);
-			addBoxHelper(ears, 0, 6, -3.5F, -8.0F, -3.0F, 1, 1, 1, 0.0F, false);
-			addBoxHelper(ears, 5, 1, -3.5F, -7.0F, -2.5F, 1, 1, 1, 0.0F, false);
-			addBoxHelper(ears, 4, 4, 2.5F, -7.0F, -2.5F, 1, 1, 1, 0.0F, false);
-			addBoxHelper(ears, 0, 4, 2.5F, -8.0F, -3.0F, 1, 1, 1, 0.0F, false);
-			addBoxHelper(ears, 0, 2, 2.0F, -7.0F, -3.0F, 2, 1, 1, 0.0F, false);
-			addBoxHelper(ears, 0, 0, -4.0F, -7.0F, -3.0F, 2, 1, 1, 0.0F, false);
+			ears.cubeList.add(new ModelBox(ears, 0, 6, -3.5F, -8.0F, -3.0F, 1, 1, 1, 0.0F, false));
+			ears.cubeList.add(new ModelBox(ears, 5, 1, -3.5F, -7.0F, -2.5F, 1, 1, 1, 0.0F, false));
+			ears.cubeList.add(new ModelBox(ears, 4, 4, 2.5F, -7.0F, -2.5F, 1, 1, 1, 0.0F, false));
+			ears.cubeList.add(new ModelBox(ears, 0, 4, 2.5F, -8.0F, -3.0F, 1, 1, 1, 0.0F, false));
+			ears.cubeList.add(new ModelBox(ears, 0, 2, 2.0F, -7.0F, -3.0F, 2, 1, 1, 0.0F, false));
+			ears.cubeList.add(new ModelBox(ears, 0, 0, -4.0F, -7.0F, -3.0F, 2, 1, 1, 0.0F, false));
 		}
 
 		@Override
-		public void render(MatrixStack ms, IVertexBuilder vb, int i1, int i2, float f1, float f2, float f3, float f4) {
-			tail.render(ms, vb, i1, i2, f1, f2, f3, f4);
-			ears.render(ms, vb, i1, i2, f1, f2, f3, f4);
+		public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+			tail.render(f5);
+			ears.render(f5);
 		}
 
-		public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
+		public void setRotationAngle(RendererModel modelRenderer, float x, float y, float z) {
 			modelRenderer.rotateAngleX = x;
 			modelRenderer.rotateAngleY = y;
 			modelRenderer.rotateAngleZ = z;
 		}
 
-		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
+		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4, float f5) {
+			super.setRotationAngles(e, f, f1, f2, f3, f4, f5);
 			this.tail2.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
 			this.ears.rotateAngleY = f3 / (180F / (float) Math.PI);
 			this.ears.rotateAngleX = f4 / (180F / (float) Math.PI);
 			this.tail.rotateAngleY = MathHelper.cos(f * 0.6662F) * f1;
 		}
-	}
-	@OnlyIn(Dist.CLIENT)
-	public static void addBoxHelper(ModelRenderer renderer, int texU, int texV, float x, float y, float z, int dx, int dy, int dz, float delta) {
-		addBoxHelper(renderer, texU, texV, x, y, z, dx, dy, dz, delta, renderer.mirror);
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void addBoxHelper(ModelRenderer renderer, int texU, int texV, float x, float y, float z, int dx, int dy, int dz, float delta,
-			boolean mirror) {
-		renderer.mirror = mirror;
-		renderer.addBox("", x, y, z, dx, dy, dz, delta, texU, texV);
 	}
 }

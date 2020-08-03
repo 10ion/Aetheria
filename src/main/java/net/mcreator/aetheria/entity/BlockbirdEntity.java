@@ -2,6 +2,7 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -20,10 +21,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
+import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
@@ -36,17 +36,16 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.client.renderer.model.ModelRenderer;
+import net.minecraft.client.renderer.entity.model.RendererModel;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.aetheria.itemgroup.AetheriaEntitiesItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Random;
-
-import com.mojang.blaze3d.vertex.IVertexBuilder;
-import com.mojang.blaze3d.matrix.MatrixStack;
 
 @AetheriaModElements.ModElement.Tag
 public class BlockbirdEntity extends AetheriaModElements.ModElement {
@@ -62,7 +61,8 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("blockbird")
 						.setRegistryName("blockbird");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -1, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("blockbird"));
+		elements.items.add(() -> new SpawnEggItem(entity, -3407821, -3407668, new Item.Properties().group(AetheriaEntitiesItemGroup.tab))
+				.setRegistryName("blockbird"));
 	}
 
 	@Override
@@ -78,17 +78,18 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 20, 1, 5));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::canAnimalSpawn);
+				(entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
 			return new MobRenderer(renderManager, new blockbird(), 0.5f) {
 				@Override
-				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("aetheria:textures/placeholder.png");
+				protected ResourceLocation getEntityTexture(Entity entity) {
+					return new ResourceLocation("aetheria:textures/blockbirdtexture.png");
 				}
 			};
 		});
@@ -102,8 +103,13 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			super(type, world);
 			experienceValue = 5;
 			setNoAI(false);
-			this.moveController = new FlyingMovementController(this, 10, true);
+			this.moveController = new FlyingMovementController(this);
 			this.navigator = new FlyingPathNavigator(this, this.world);
+		}
+
+		@Override
+		public IPacket<?> createSpawnPacket() {
+			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override
@@ -114,9 +120,9 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 				@Override
 				protected Vec3d getPosition() {
 					Random random = CustomEntity.this.getRNG();
-					double dir_x = CustomEntity.this.getPosX() + ((random.nextFloat() * 2 - 1) * 16);
-					double dir_y = CustomEntity.this.getPosY() + ((random.nextFloat() * 2 - 1) * 16);
-					double dir_z = CustomEntity.this.getPosZ() + ((random.nextFloat() * 2 - 1) * 16);
+					double dir_x = CustomEntity.this.posX + ((random.nextFloat() * 2 - 1) * 16);
+					double dir_y = CustomEntity.this.posY + ((random.nextFloat() * 2 - 1) * 16);
+					double dir_z = CustomEntity.this.posZ + ((random.nextFloat() * 2 - 1) * 16);
 					return new Vec3d(dir_x, dir_y, dir_z);
 				}
 			});
@@ -150,13 +156,7 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 		}
 
 		@Override
-		protected float getSoundVolume() {
-			return 1.0F;
-		}
-
-		@Override
-		public boolean onLivingFall(float l, float d) {
-			return false;
+		public void fall(float l, float d) {
 		}
 
 		@Override
@@ -202,39 +202,39 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 	// Exported for Minecraft version 1.15
 	// Paste this class into your mod and generate all required imports
 	public class blockbird extends EntityModel<Entity> {
-		private final ModelRenderer blockbird;
-		private final ModelRenderer bone;
-		private final ModelRenderer rightwing;
-		private final ModelRenderer leftwing;
-		private final ModelRenderer rightleg;
-		private final ModelRenderer leftleg;
+		private final RendererModel blockbird;
+		private final RendererModel bone;
+		private final RendererModel rightwing;
+		private final RendererModel leftwing;
+		private final RendererModel rightleg;
+		private final RendererModel leftleg;
 		public blockbird() {
 			textureWidth = 32;
 			textureHeight = 32;
-			blockbird = new ModelRenderer(this);
+			blockbird = new RendererModel(this);
 			blockbird.setRotationPoint(0.0F, 24.0F, 7.0F);
 			blockbird.setTextureOffset(0, 2).addBox(-0.5F, -7.0F, -11.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 			blockbird.setTextureOffset(0, 0).addBox(-3.5F, -9.0F, -10.0F, 7.0F, 6.0F, 7.0F, 0.0F, false);
 			blockbird.setTextureOffset(0, 13).addBox(-3.5F, -10.0F, -10.0F, 7.0F, 1.0F, 5.0F, 0.0F, false);
-			bone = new ModelRenderer(this);
+			bone = new RendererModel(this);
 			bone.setRotationPoint(0.0F, -10.0F, -9.0F);
 			blockbird.addChild(bone);
 			setRotationAngle(bone, 0.9599F, 0.0F, 0.0F);
 			bone.setTextureOffset(0, 0).addBox(-1.1056F, -0.7149F, -0.5F, 2.0F, 0.0F, 2.0F, 0.0F, false);
-			rightwing = new ModelRenderer(this);
+			rightwing = new RendererModel(this);
 			rightwing.setRotationPoint(-3.5F, -7.0F, -6.0F);
 			blockbird.addChild(rightwing);
 			rightwing.setTextureOffset(0, 19).addBox(-1.0F, 0.0F, -2.0F, 1.0F, 3.0F, 4.0F, 0.0F, false);
-			leftwing = new ModelRenderer(this);
+			leftwing = new RendererModel(this);
 			leftwing.setRotationPoint(3.5F, -7.0F, -6.0F);
 			blockbird.addChild(leftwing);
 			leftwing.setTextureOffset(0, 19).addBox(0.0F, 0.0F, -2.0F, 1.0F, 3.0F, 4.0F, 0.0F, false);
-			rightleg = new ModelRenderer(this);
+			rightleg = new RendererModel(this);
 			rightleg.setRotationPoint(2.0F, -3.0F, -6.0F);
 			blockbird.addChild(rightleg);
 			rightleg.setTextureOffset(0, 4).addBox(-0.5F, 0.0F, 0.0F, 1.0F, 3.0F, 0.0F, 0.0F, false);
 			rightleg.setTextureOffset(2, 2).addBox(-0.5F, 3.0F, -1.0F, 1.0F, 0.0F, 1.0F, 0.0F, false);
-			leftleg = new ModelRenderer(this);
+			leftleg = new RendererModel(this);
 			leftleg.setRotationPoint(-2.0F, -3.0F, -6.0F);
 			blockbird.addChild(leftleg);
 			leftleg.setTextureOffset(2, 4).addBox(-0.5F, 0.0F, 0.0F, 1.0F, 3.0F, 0.0F, 0.0F, false);
@@ -247,13 +247,14 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			blockbird.render(matrixStack, buffer, packedLight, packedOverlay);
 		}
 
-		public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
+		public void setRotationAngle(RendererModel modelRenderer, float x, float y, float z) {
 			modelRenderer.rotateAngleX = x;
 			modelRenderer.rotateAngleY = y;
 			modelRenderer.rotateAngleZ = z;
 		}
 
-		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
+		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4, float f5) {
+			super.setRotationAngles(e, f, f1, f2, f3, f4, f5);
 			this.blockbird.rotateAngleY = f3 / (180F / (float) Math.PI);
 			this.blockbird.rotateAngleX = f4 / (180F / (float) Math.PI);
 			this.rightwing.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;

@@ -14,6 +14,9 @@ import net.mcreator.aetheria.procedures.StormberryrollFoodEatenProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaFoodItemsItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class MoralmedlyItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moralmedly")
@@ -41,11 +44,11 @@ public class MoralmedlyItem extends AetheriaModElements.ModElement {
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.posX;
+			double y = entity.posY;
+			double z = entity.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				StormberryrollFoodEatenProcedure.executeProcedure($_dependencies);
 			}

@@ -14,7 +14,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class EndersteelToolsSwordItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:endersteeltoolssword")
+	@ObjectHolder("aetheria:endersteel_sword")
 	public static final Item block = null;
 	public EndersteelToolsSwordItem(AetheriaModElements instance) {
 		super(instance, 85);
@@ -47,6 +47,6 @@ public class EndersteelToolsSwordItem extends AetheriaModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(EndersteelIngotItem.block, (int) (1)));
 			}
 		}, 3, -3.35f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
-		}.setRegistryName("endersteeltoolssword"));
+		}.setRegistryName("endersteel_sword"));
 	}
 }

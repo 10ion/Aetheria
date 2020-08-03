@@ -1,12 +1,25 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.aetheria.procedures.TitaniumIItemIsCraftedsmeltedProcedure;
+import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class TitaniumNuggeetItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:titanium_nuggeet")
 	public static final Item block = null;
-
 	public TitaniumNuggeetItem(AetheriaModElements instance) {
 		super(instance, 634);
 	}
@@ -15,9 +28,7 @@ public class TitaniumNuggeetItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
 			setRegistryName("titanium_nuggeet");
@@ -41,17 +52,14 @@ public class TitaniumNuggeetItem extends AetheriaModElements.ModElement {
 		@Override
 		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
 			super.onCreated(itemstack, world, entity);
-			int x = (int) entity.posX;
-			int y = (int) entity.posY;
-			int z = (int) entity.posZ;
+			double x = entity.posX;
+			double y = entity.posY;
+			double z = entity.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-
 				TitaniumIItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 			}
 		}
-
 	}
-
 }

@@ -1,21 +1,33 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class Cold_IronArmorItem extends AetheriaModElements.ModElement {
-
-	@ObjectHolder("aetheria:cold_iron_armorhelmet")
+	@ObjectHolder("aetheria:cold_iron_armor_helmet")
 	public static final Item helmet = null;
-
-	@ObjectHolder("aetheria:cold_iron_armorbody")
+	@ObjectHolder("aetheria:cold_iron_armor_chestplate")
 	public static final Item body = null;
-
-	@ObjectHolder("aetheria:cold_iron_armorlegs")
+	@ObjectHolder("aetheria:cold_iron_armor_leggings")
 	public static final Item legs = null;
-
-	@ObjectHolder("aetheria:cold_iron_armorboots")
+	@ObjectHolder("aetheria:cold_iron_armor_boots")
 	public static final Item boots = null;
-
 	public Cold_IronArmorItem(AetheriaModElements instance) {
 		super(instance, 605);
 	}
@@ -52,42 +64,29 @@ public class Cold_IronArmorItem extends AetheriaModElements.ModElement {
 				return 0f;
 			}
 		};
-
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/cold_iron_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
-		}.setRegistryName("cold_iron_armorhelmet"));
-
+		}.setRegistryName("cold_iron_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/cold_iron_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
-		}.setRegistryName("cold_iron_armorbody"));
-
+		}.setRegistryName("cold_iron_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/cold_iron_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
-		}.setRegistryName("cold_iron_armorlegs"));
-
+		}.setRegistryName("cold_iron_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/cold_iron_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-
-		}.setRegistryName("cold_iron_armorboots"));
+		}.setRegistryName("cold_iron_armor_boots"));
 	}
-
 }

@@ -38,7 +38,7 @@ public class SilverwoodLeavesBlock extends AetheriaModElements.ModElement {
 	}
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(0).notSolid());
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("silverwoodleaves");
 		}
 

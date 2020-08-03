@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class CrocoiteShardItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:crocoiteshard")
+	@ObjectHolder("aetheria:crocoite_shard")
 	public static final Item block = null;
 	public CrocoiteShardItem(AetheriaModElements instance) {
 		super(instance, 153);
@@ -25,7 +25,7 @@ public class CrocoiteShardItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMiscItemGroup.tab).maxStackSize(64));
-			setRegistryName("crocoiteshard");
+			setRegistryName("crocoite_shard");
 		}
 
 		@Override

@@ -2,6 +2,7 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -16,6 +17,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
@@ -34,6 +36,7 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
 import net.minecraft.client.renderer.entity.model.CowModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.block.material.Material;
 
 import net.mcreator.aetheria.itemgroup.AetheriaEntitiesItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
@@ -75,15 +78,16 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 1, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				AnimalEntity::canAnimalSpawn);
+				(entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
 	}
 
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> new MobRenderer(renderManager, new CowModel(), 0.5f) {
 			@Override
-			public ResourceLocation getEntityTexture(Entity entity) {
+			protected ResourceLocation getEntityTexture(Entity entity) {
 				return new ResourceLocation("aetheria:textures/ultra_rare_cow.png");
 			}
 		});
@@ -97,6 +101,11 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 			super(type, world);
 			experienceValue = 5;
 			setNoAI(false);
+		}
+
+		@Override
+		public IPacket<?> createSpawnPacket() {
+			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override
@@ -131,11 +140,6 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.cow.death"));
-		}
-
-		@Override
-		protected float getSoundVolume() {
-			return 1.0F;
 		}
 
 		@Override

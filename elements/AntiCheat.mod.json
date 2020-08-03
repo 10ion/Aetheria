@@ -1,20 +1,20 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "potion",
   "definition": {
     "name": "Anti-Cheat",
     "effectName": "Anti-Cheat",
-    "icon": "placeholder.png",
+    "icon": "transparent.png",
     "color": {
       "value": -13369549,
       "falpha": 0.0
     },
-    "isInstant": false,
-    "isBad": false,
+    "isInstant": true,
+    "isBad": true,
     "isBenefitical": false,
     "registerPotionType": false,
-    "renderStatusInInventory": true,
-    "renderStatusInHUD": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
     "onActiveTick": {
       "name": "AntiCheatOnPotionActiveTick"
     }

@@ -1,12 +1,19 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class GoldRingItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:gold_ring")
 	public static final Item block = null;
-
 	public GoldRingItem(AetheriaModElements instance) {
 		super(instance, 529);
 	}
@@ -15,9 +22,7 @@ public class GoldRingItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1));
 			setRegistryName("gold_ring");
@@ -37,7 +42,5 @@ public class GoldRingItem extends AetheriaModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

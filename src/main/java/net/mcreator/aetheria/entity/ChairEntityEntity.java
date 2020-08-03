@@ -2,6 +2,7 @@
 package net.mcreator.aetheria.entity;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -14,6 +15,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Hand;
 import net.minecraft.util.DamageSource;
+import net.minecraft.network.IPacket;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
@@ -49,10 +51,10 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.1f) {
+		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
+			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0.1f) {
 				@Override
-				public ResourceLocation getEntityTexture(Entity entity) {
+				protected ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("aetheria:textures/chairentity.png");
 				}
 			};
@@ -70,6 +72,11 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 			experienceValue = 0;
 			setNoAI(false);
 			enablePersistence();
+		}
+
+		@Override
+		public IPacket<?> createSpawnPacket() {
+			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
 		@Override
@@ -92,11 +99,6 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 		}
 
 		@Override
-		public net.minecraft.util.SoundEvent getAmbientSound() {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
-		}
-
-		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 		}
@@ -104,11 +106,6 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getDeathSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
-		}
-
-		@Override
-		protected float getSoundVolume() {
-			return 1.0F;
 		}
 
 		@Override
@@ -132,14 +129,15 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 
 		@Override
 		public boolean processInteract(PlayerEntity sourceentity, Hand hand) {
+			ItemStack itemstack = sourceentity.getHeldItem(hand);
+			boolean retval = true;
 			super.processInteract(sourceentity, hand);
 			sourceentity.startRiding(this);
-			int x = (int) this.getPosX();
-			int y = (int) this.getPosY();
-			int z = (int) this.getPosZ();
-			ItemStack itemstack = sourceentity.getHeldItem(hand);
+			double x = this.posX;
+			double y = this.posY;
+			double z = this.posZ;
 			Entity entity = this;
-			return true;
+			return retval;
 		}
 
 		@Override

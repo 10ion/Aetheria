@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class TitaniumArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:titaniumarmorhelmet")
+	@ObjectHolder("aetheria:titaniumarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:titaniumarmorbody")
+	@ObjectHolder("aetheria:titaniumarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:titaniumarmorlegs")
+	@ObjectHolder("aetheria:titaniumarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:titaniumarmorboots")
+	@ObjectHolder("aetheria:titaniumarmor_boots")
 	public static final Item boots = null;
 	public TitaniumArmorItem(AetheriaModElements instance) {
 		super(instance, 72);
@@ -69,24 +69,24 @@ public class TitaniumArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/titanium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titaniumarmorhelmet"));
+		}.setRegistryName("titaniumarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/titanium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titaniumarmorbody"));
+		}.setRegistryName("titaniumarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/titanium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titaniumarmorlegs"));
+		}.setRegistryName("titaniumarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/titanium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titaniumarmorboots"));
+		}.setRegistryName("titaniumarmor_boots"));
 	}
 }

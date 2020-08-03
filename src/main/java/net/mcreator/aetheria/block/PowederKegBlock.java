@@ -12,7 +12,6 @@ import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -27,7 +26,9 @@ import net.mcreator.aetheria.procedures.PowederKegExplosionProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
@@ -72,7 +73,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 			int z = pos.getZ();
 			if (world.getRedstonePowerFromNeighbors(new BlockPos(x, y, z)) > 0) {
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("x", x);
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
@@ -90,7 +91,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -100,15 +101,14 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 		}
 
 		@Override
-		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
-				BlockRayTraceResult hit) {
-			super.onBlockActivated(state, world, pos, entity, hand, hit);
+		public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand, BlockRayTraceResult hit) {
+			boolean retval = super.onBlockActivated(state, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
 			Direction direction = hit.getFace();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
@@ -116,7 +116,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 				$_dependencies.put("world", world);
 				PowederKegOnBlockRightClickedProcedure.executeProcedure($_dependencies);
 			}
-			return ActionResultType.SUCCESS;
+			return true;
 		}
 	}
 }

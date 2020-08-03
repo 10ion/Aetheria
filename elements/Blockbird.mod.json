@@ -1,11 +1,11 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "mob",
   "definition": {
     "mobName": "Blockbird",
     "mobLabel": "",
     "mobModelName": "blockbird",
-    "mobModelTexture": "placeholder.png",
+    "mobModelTexture": "blockbirdtexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -13,15 +13,15 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -3407821,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -3407668,
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:AetheriaEntities"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -54,6 +54,9 @@
     "xpAmount": 5,
     "waterMob": false,
     "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
@@ -78,6 +81,9 @@
     "deathSound": {
       "value": "entity.parrot.death"
     },
+    "stepSound": {
+      "value": ""
+    },
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -87,8 +93,9 @@
     "particleAmount": 4,
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
+    "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {

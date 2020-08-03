@@ -7,23 +7,23 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:bismuth_bronze_ingot"
     },
     "1": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:bismuth_bronze_ingot"
     },
     "2": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:bismuth_bronze_ingot"
     },
     "3": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:bismuth_bronze_ingot"
     },
     "5": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:bismuth_bronze_ingot"
     }
   },
   "result": {
-    "item": "aetheria:unknown_elementhelmet",
+    "item": "aetheria:bismuth_bronze_armorhelmet",
     "count": 1
   }
 }

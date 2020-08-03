@@ -1,8 +1,8 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "0",
+    "triggerKey": "C",
     "keyBindingName": "Dash Ability",
     "keyBindingCategoryKey": "gameplay"
   }

@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class IridiumArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:iridiumarmorhelmet")
+	@ObjectHolder("aetheria:iridiumarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:iridiumarmorbody")
+	@ObjectHolder("aetheria:iridiumarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:iridiumarmorlegs")
+	@ObjectHolder("aetheria:iridiumarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:iridiumarmorboots")
+	@ObjectHolder("aetheria:iridiumarmor_boots")
 	public static final Item boots = null;
 	public IridiumArmorItem(AetheriaModElements instance) {
 		super(instance, 52);
@@ -69,24 +69,24 @@ public class IridiumArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/iridium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("iridiumarmorhelmet"));
+		}.setRegistryName("iridiumarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/iridium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("iridiumarmorbody"));
+		}.setRegistryName("iridiumarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/iridium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("iridiumarmorlegs"));
+		}.setRegistryName("iridiumarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/iridium__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("iridiumarmorboots"));
+		}.setRegistryName("iridiumarmor_boots"));
 	}
 }

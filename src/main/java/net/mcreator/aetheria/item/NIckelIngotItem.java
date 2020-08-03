@@ -12,7 +12,7 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class NIckelIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:nickel_ingot")
+	@ObjectHolder("aetheria:nickelingot")
 	public static final Item block = null;
 	public NIckelIngotItem(AetheriaModElements instance) {
 		super(instance, 40);
@@ -25,7 +25,7 @@ public class NIckelIngotItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("nickel_ingot");
+			setRegistryName("nickelingot");
 		}
 
 		@Override

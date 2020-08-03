@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -23,6 +23,8 @@
       {
         "value": "CUSTOM:EndersteelIngot"
       }
-    ]
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
   }
 }
