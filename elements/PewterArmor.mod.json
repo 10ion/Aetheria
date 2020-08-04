@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "pewter_head",
+    "textureHelmet": "pewterarmor_head",
     "enableBody": true,
-    "textureBody": "pewter_body",
+    "textureBody": "pewterarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "pewter_leggings",
+    "textureLeggings": "pewterarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "pewter_boots",
+    "textureBoots": "pewterarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "pewter",
+    "armorTextureFile": "pewterarmor_",
     "helmetName": "Pewter Helmet",
     "bodyName": "Pewter Chestplate",
     "leggingsName": "Pewter Leggings",

@@ -1,21 +1,12 @@
 
 package net.mcreator.aetheria.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
-
-import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
-import net.mcreator.aetheria.AetheriaModElements;
-
 @AetheriaModElements.ModElement.Tag
 public class SapphireHoeItem extends AetheriaModElements.ModElement {
+
 	@ObjectHolder("aetheria:sapphire_hoe")
 	public static final Item block = null;
+
 	public SapphireHoeItem(AetheriaModElements instance) {
 		super(instance, 741);
 	}
@@ -47,6 +38,8 @@ public class SapphireHoeItem extends AetheriaModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(SapphireGemItem.block, (int) (1)));
 			}
 		}, 0f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
+
 		}.setRegistryName("sapphire_hoe"));
 	}
+
 }

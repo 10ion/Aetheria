@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "aetheria:blocks/mystical_plank",
+    "particle": "aetheria:blocks/mystical_plank"
+  }
+}

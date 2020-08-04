@@ -8,32 +8,32 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "2": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "3": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "4": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "5": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "6": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "7": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     },
     "8": {
-      "item": "aetheria:sapphire"
+      "item": "aetheria:unknown_element"
     }
   },
   "result": {
-    "item": "aetheria:sapphire_armor_chestplate",
+    "item": "aetheria:unknown_element_chestplate",
     "count": 1
   }
 }

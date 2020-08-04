@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "tin_head",
+    "textureHelmet": "tinarmor_head",
     "enableBody": true,
-    "textureBody": "tin_body",
+    "textureBody": "tinarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "tin_leggings",
+    "textureLeggings": "tinarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "tin_boots",
+    "textureBoots": "tinarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "tin",
+    "armorTextureFile": "tinarmor_",
     "helmetName": "Tin Helmet",
     "bodyName": "Tin Chestplate",
     "leggingsName": "Tin Leggings",

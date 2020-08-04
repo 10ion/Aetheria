@@ -1,0 +1,22 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "1": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "2": {
+      "item": "aetheria:mysticalplanks"
+    }
+  },
+  "result": {
+    "item": "aetheria:unknown_element",
+    "count": 6
+  }
+}

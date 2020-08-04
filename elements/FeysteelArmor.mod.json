@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "feysteel_head",
+    "textureHelmet": "fey_head",
     "enableBody": true,
-    "textureBody": "feysteel_body",
+    "textureBody": "fey_body",
     "enableLeggings": true,
-    "textureLeggings": "feysteel_leggings",
+    "textureLeggings": "fey_leggings",
     "enableBoots": true,
-    "textureBoots": "feysteel_boots",
+    "textureBoots": "fey_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "feysteel",
+    "armorTextureFile": "fey_",
     "helmetName": "Feysteel Helmet",
     "bodyName": "Feysteel Chestplate",
     "leggingsName": "Feysteel Leggings",

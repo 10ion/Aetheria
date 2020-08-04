@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "magnegold_head",
+    "textureHelmet": "magnegoldarmor_head",
     "enableBody": true,
-    "textureBody": "magnegold_body",
+    "textureBody": "magnegoldarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "magnegold_leggings",
+    "textureLeggings": "magnegoldarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "magnegold_boots",
+    "textureBoots": "magnegoldarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "magnegold",
+    "armorTextureFile": "magnegoldarmor_",
     "helmetName": "Magnegold Helmet",
     "bodyName": "Magnegold Chestplate",
     "leggingsName": "Magnegold Leggings",

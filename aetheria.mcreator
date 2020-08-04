@@ -5400,87 +5400,6 @@
       "registry_name": "magnegold_block_recipe"
     },
     {
-      "name": "SapphireOre",
-      "type": "block",
-      "sortid": 731,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_ore"
-    },
-    {
-      "name": "SapphireOreBlock",
-      "type": "block",
-      "sortid": 732,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_ore_block"
-    },
-    {
-      "name": "SapphireGem",
-      "type": "item",
-      "sortid": 733,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire"
-    },
-    {
-      "name": "SapphireOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 734,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_ore_block_recipe"
-    },
-    {
-      "name": "SapphireBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 735,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_block_ore_recipe"
-    },
-    {
-      "name": "SapphireOreSmelting",
-      "type": "recipe",
-      "sortid": 736,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_ore_smelting"
-    },
-    {
-      "name": "SapphirePickaxe",
-      "type": "tool",
-      "sortid": 737,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_pickaxe"
-    },
-    {
-      "name": "SapphireAxe",
-      "type": "tool",
-      "sortid": 738,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_axe"
-    },
-    {
-      "name": "SapphireSword",
-      "type": "tool",
-      "sortid": 739,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_sword"
-    },
-    {
       "name": "SapphireShovel",
       "type": "tool",
       "sortid": 740,
@@ -5488,51 +5407,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_shovel"
-    },
-    {
-      "name": "SapphireHoe",
-      "type": "tool",
-      "sortid": 741,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_hoe"
-    },
-    {
-      "name": "SapphirePickaxeRecipe",
-      "type": "recipe",
-      "sortid": 742,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_pickaxe_recipe"
-    },
-    {
-      "name": "SapphireAxeRecipe",
-      "type": "recipe",
-      "sortid": 743,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_axe_recipe"
-    },
-    {
-      "name": "SapphireSwordRecipe",
-      "type": "recipe",
-      "sortid": 744,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_sword_recipe"
-    },
-    {
-      "name": "SapphireShovelRecipe",
-      "type": "recipe",
-      "sortid": 745,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_shovel_recipe"
     },
     {
       "name": "SapphireHoeRecipe",
@@ -5544,24 +5418,6 @@
       "registry_name": "sapphire_hoe_recipe"
     },
     {
-      "name": "SapphireArmor",
-      "type": "armor",
-      "sortid": 747,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_armor"
-    },
-    {
-      "name": "SapphireArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 748,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_armor_helmet_recipe"
-    },
-    {
       "name": "SapphireArmorBodyRecipe",
       "type": "recipe",
       "sortid": 749,
@@ -5569,24 +5425,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sapphire_armor_body_recipe"
-    },
-    {
-      "name": "SapphireArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 750,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_armor_leggings_recipe"
-    },
-    {
-      "name": "SapphireArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 751,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_armor_boots_recipe"
     },
     {
       "name": "CopperBlock",
@@ -5598,13 +5436,112 @@
       "registry_name": "copper_block"
     },
     {
-      "name": "Tets",
-      "type": "structure",
-      "sortid": 753,
+      "name": "SapphireAxeRecipe",
+      "type": "recipe",
+      "sortid": 743,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tets"
+      "registry_name": "sapphire_axe_recipe"
+    },
+    {
+      "name": "SapphireAxe",
+      "type": "tool",
+      "sortid": 738,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_axe"
+    },
+    {
+      "name": "SapphireGem",
+      "type": "item",
+      "sortid": 733,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "NickelBlock",
+      "type": "block",
+      "sortid": 755,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nickel_block"
+    },
+    {
+      "name": "SapphireArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 750,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_leggings_recipe"
+    },
+    {
+      "name": "SapphirePickaxe",
+      "type": "tool",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_pickaxe"
+    },
+    {
+      "name": "SapphireHoe",
+      "type": "tool",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_hoe"
+    },
+    {
+      "name": "SapphireBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 735,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_block_ore_recipe"
+    },
+    {
+      "name": "SapphireArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 748,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_helmet_recipe"
+    },
+    {
+      "name": "SapphireOreBlock",
+      "type": "block",
+      "sortid": 732,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore_block"
+    },
+    {
+      "name": "SapphireOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 734,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore_block_recipe"
+    },
+    {
+      "name": "SapphireOreSmelting",
+      "type": "recipe",
+      "sortid": 736,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore_smelting"
     },
     {
       "name": "SilverwoodWood",
@@ -5616,13 +5553,193 @@
       "registry_name": "silverwood_wood"
     },
     {
-      "name": "NickelBlock",
-      "type": "block",
-      "sortid": 755,
+      "name": "SapphireSwordRecipe",
+      "type": "recipe",
+      "sortid": 744,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "nickel_block"
+      "registry_name": "sapphire_sword_recipe"
+    },
+    {
+      "name": "SapphireArmor",
+      "type": "armor",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor"
+    },
+    {
+      "name": "SapphireSword",
+      "type": "tool",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_sword"
+    },
+    {
+      "name": "Tets",
+      "type": "structure",
+      "sortid": 753,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tets"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 731,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_ore"
+    },
+    {
+      "name": "SapphirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_pickaxe_recipe"
+    },
+    {
+      "name": "SapphireShovelRecipe",
+      "type": "recipe",
+      "sortid": 745,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_shovel_recipe"
+    },
+    {
+      "name": "SapphireArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 751,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sapphire_armor_boots_recipe"
+    },
+    {
+      "name": "MysticalSlabRecipe",
+      "type": "recipe",
+      "sortid": 738,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_slab_recipe"
+    },
+    {
+      "name": "MysticalDoorRecipe",
+      "type": "recipe",
+      "sortid": 740,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_door_recipe"
+    },
+    {
+      "name": "MysticalFenceGate",
+      "type": "block",
+      "sortid": 735,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_fence_gate"
+    },
+    {
+      "name": "MysticalFence",
+      "type": "block",
+      "sortid": 734,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_fence"
+    },
+    {
+      "name": "MysticalDoor",
+      "type": "block",
+      "sortid": 736,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_door"
+    },
+    {
+      "name": "MysticalSlab",
+      "type": "block",
+      "sortid": 732,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_slab"
+    },
+    {
+      "name": "MysticalTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 741,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_trapdoor_recipe"
+    },
+    {
+      "name": "MysticalStairs",
+      "type": "block",
+      "sortid": 733,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_stairs"
+    },
+    {
+      "name": "MysticalFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 743,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_fence_gate_recipe"
+    },
+    {
+      "name": "MysticalFenceRecipe",
+      "type": "recipe",
+      "sortid": 742,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_fence_recipe"
+    },
+    {
+      "name": "SpectralRaven",
+      "type": "mob",
+      "sortid": 731,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectral_raven"
+    },
+    {
+      "name": "MysticalStairsRecipe",
+      "type": "recipe",
+      "sortid": 739,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_stairs_recipe"
+    },
+    {
+      "name": "MysticalTrapDoor",
+      "type": "block",
+      "sortid": 737,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystical_trap_door"
     }
   ],
   "variable_elements": [
@@ -6462,5 +6579,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202000322116
 }

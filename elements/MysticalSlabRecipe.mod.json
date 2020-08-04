@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MysticalSlab"
+    },
+    "name": "mystical_slab_recipe",
+    "namespace": "mod"
+  }
+}
