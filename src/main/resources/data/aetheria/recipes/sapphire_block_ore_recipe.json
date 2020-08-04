@@ -1,0 +1,13 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheria:sapphire_ore_block"
+    }
+  ],
+  "result": {
+    "item": "aetheria:sapphire",
+    "count": 9
+  }
+}

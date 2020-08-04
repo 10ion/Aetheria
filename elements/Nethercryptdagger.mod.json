@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -20,6 +20,8 @@
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "onEntityHitWith": {
       "name": "NethercryptdaggerMobIsHitWithDagger"
     }

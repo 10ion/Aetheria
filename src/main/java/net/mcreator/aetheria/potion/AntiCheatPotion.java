@@ -16,6 +16,9 @@ import net.minecraft.entity.LivingEntity;
 import net.mcreator.aetheria.procedures.AntiCheatOnPotionActiveTickProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class AntiCheatPotion extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:anti_cheat")
@@ -70,11 +73,11 @@ public class AntiCheatPotion extends AetheriaModElements.ModElement {
 		@Override
 		public void performEffect(LivingEntity entity, int amplifier) {
 			World world = entity.world;
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				AntiCheatOnPotionActiveTickProcedure.executeProcedure($_dependencies);
 			}

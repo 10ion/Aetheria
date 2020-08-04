@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "biome",
   "definition": {
     "groundBlock": {
@@ -25,7 +25,6 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": true,
     "airColor": {
       "value": -13421773,
       "falpha": 0.0
@@ -59,6 +58,6 @@
       "value": "No parent"
     },
     "biomeDictionaryTypes": [],
-    "spawnList": []
+    "spawnEntries": []
   }
 }

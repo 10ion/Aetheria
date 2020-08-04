@@ -1,15 +1,15 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "silverwood1",
+    "structure": "silverwoodbig1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,
     "minCountPerChunk": 1,
-    "maxCountPerChunk": 7,
+    "maxCountPerChunk": 3,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
+    "spawnHeightOffset": -3,
     "spawnWorldTypes": [
       "Surface"
     ],

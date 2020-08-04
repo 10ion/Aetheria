@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class AdamantArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:adamant_armorhelmet")
+	@ObjectHolder("aetheria:adamant_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:adamant_armorbody")
+	@ObjectHolder("aetheria:adamant_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:adamant_armorlegs")
+	@ObjectHolder("aetheria:adamant_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:adamant_armorboots")
+	@ObjectHolder("aetheria:adamant_armor_boots")
 	public static final Item boots = null;
 	public AdamantArmorItem(AetheriaModElements instance) {
 		super(instance, 531);
@@ -69,24 +69,24 @@ public class AdamantArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/adamanta__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("adamant_armorhelmet"));
+		}.setRegistryName("adamant_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/adamanta__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("adamant_armorbody"));
+		}.setRegistryName("adamant_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/adamanta__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("adamant_armorlegs"));
+		}.setRegistryName("adamant_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/adamanta__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("adamant_armorboots"));
+		}.setRegistryName("adamant_armor_boots"));
 	}
 }

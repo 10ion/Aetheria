@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class SilverArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:silver_armorhelmet")
+	@ObjectHolder("aetheria:silver_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:silver_armorbody")
+	@ObjectHolder("aetheria:silver_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:silver_armorlegs")
+	@ObjectHolder("aetheria:silver_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:silver_armorboots")
+	@ObjectHolder("aetheria:silver_armor_boots")
 	public static final Item boots = null;
 	public SilverArmorItem(AetheriaModElements instance) {
 		super(instance, 673);
@@ -69,24 +69,24 @@ public class SilverArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/silver_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("silver_armorhelmet"));
+		}.setRegistryName("silver_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/silver_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("silver_armorbody"));
+		}.setRegistryName("silver_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/silver_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("silver_armorlegs"));
+		}.setRegistryName("silver_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/silver_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("silver_armorboots"));
+		}.setRegistryName("silver_armor_boots"));
 	}
 }

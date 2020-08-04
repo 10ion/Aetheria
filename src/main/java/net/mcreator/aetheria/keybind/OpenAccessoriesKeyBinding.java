@@ -23,6 +23,8 @@ import net.mcreator.aetheria.AetheriaModElements;
 import net.mcreator.aetheria.AetheriaMod;
 
 import java.util.function.Supplier;
+import java.util.Map;
+import java.util.HashMap;
 
 @AetheriaModElements.ModElement.Tag
 public class OpenAccessoriesKeyBinding extends AetheriaModElements.ModElement {
@@ -81,15 +83,15 @@ public class OpenAccessoriesKeyBinding extends AetheriaModElements.ModElement {
 	}
 	private static void pressAction(PlayerEntity entity, int type, int pressedms) {
 		World world = entity.world;
-		int x = (int) entity.getPosX();
-		int y = (int) entity.getPosY();
-		int z = (int) entity.getPosZ();
+		double x = entity.getPosX();
+		double y = entity.getPosY();
+		double z = entity.getPosZ();
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
 		if (type == 0) {
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

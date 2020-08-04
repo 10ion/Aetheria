@@ -18,6 +18,9 @@ import net.minecraft.entity.Entity;
 import net.mcreator.aetheria.procedures.MilkbottlePotionStartedappliedProcedure;
 import net.mcreator.aetheria.AetheriaModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class MilkbottlePotion extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:milkbottle")
@@ -86,11 +89,11 @@ public class MilkbottlePotion extends AetheriaModElements.ModElement {
 		@Override
 		public void affectEntity(Entity source, Entity indirectSource, LivingEntity entity, int amplifier, double health) {
 			World world = entity.world;
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				MilkbottlePotionStartedappliedProcedure.executeProcedure($_dependencies);
 			}

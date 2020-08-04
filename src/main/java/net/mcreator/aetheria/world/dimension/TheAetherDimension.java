@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.RegisterDimensionsEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.util.ITeleporter;
 import net.minecraftforge.common.ModDimension;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.DimensionManager;
@@ -38,12 +39,12 @@ import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.biome.provider.BiomeProvider;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
-import net.minecraft.world.Teleporter;
 import net.minecraft.world.IWorld;
 import net.minecraft.village.PointOfInterestType;
 import net.minecraft.village.PointOfInterestManager;
 import net.minecraft.village.PointOfInterest;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.util.math.Vec3i;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.ChunkPos;
@@ -52,12 +53,7 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Direction;
 import net.minecraft.util.CachedBlockInfo;
-import net.minecraft.potion.EffectInstance;
 import net.minecraft.particles.ParticleTypes;
-import net.minecraft.network.play.server.SPlayerAbilitiesPacket;
-import net.minecraft.network.play.server.SPlaySoundEventPacket;
-import net.minecraft.network.play.server.SPlayEntityEffectPacket;
-import net.minecraft.network.play.server.SChangeGameStatePacket;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
@@ -80,6 +76,7 @@ import javax.annotation.Nullable;
 
 import java.util.stream.Collectors;
 import java.util.function.LongFunction;
+import java.util.function.Function;
 import java.util.function.BiFunction;
 import java.util.Set;
 import java.util.Random;
@@ -256,40 +253,25 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 
 		@Override
 		public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
-			if (!world.isRemote && !entity.isPassenger() && !entity.isBeingRidden() && entity instanceof ServerPlayerEntity) {
-				ServerPlayerEntity player = (ServerPlayerEntity) entity;
-				if (player.timeUntilPortal > 0) {
-					player.timeUntilPortal = 10;
-				} else if (player.dimension != type) {
-					player.timeUntilPortal = 10;
-					teleportToDimension(player, type);
+			if (!entity.isPassenger() && !entity.isBeingRidden() && entity.isNonBoss() && !entity.world.isRemote && true) {
+				if (entity.timeUntilPortal > 0) {
+					entity.timeUntilPortal = entity.getPortalCooldown();
+				} else if (entity.dimension != type) {
+					entity.timeUntilPortal = entity.getPortalCooldown();
+					teleportToDimension(entity, pos, type);
 				} else {
-					player.timeUntilPortal = 10;
-					teleportToDimension(player, DimensionType.OVERWORLD);
+					entity.timeUntilPortal = entity.getPortalCooldown();
+					teleportToDimension(entity, pos, DimensionType.OVERWORLD);
 				}
 			}
 		}
 
-		private void teleportToDimension(ServerPlayerEntity player, DimensionType destinationType) {
-			ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, player, true, "field_184851_cj");
-			ServerWorld nextWorld = player.getServer().getWorld(destinationType);
-			TeleporterDimensionMod teleporter = getTeleporterForDimension(player, player.getPosition(), nextWorld);
-			player.connection.sendPacket(new SChangeGameStatePacket(4, 0));
-			if (!teleporter.placeInPortal(player, player.rotationYaw)) {
-				teleporter.makePortal(player);
-				teleporter.placeInPortal(player, player.rotationYaw);
-			}
-			player.teleport(nextWorld, player.getPosition().getX(), player.getPosition().getY(), player.getPosition().getZ(), player.rotationYaw,
-					player.rotationPitch);
-			player.connection.sendPacket(new SPlayerAbilitiesPacket(player.abilities));
-			for (EffectInstance effectinstance : player.getActivePotionEffects()) {
-				player.connection.sendPacket(new SPlayEntityEffectPacket(player.getEntityId(), effectinstance));
-			}
-			player.connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
+		private void teleportToDimension(Entity entity, BlockPos pos, DimensionType destinationType) {
+			entity.changeDimension(destinationType, getTeleporterForDimension(entity, pos, entity.getServer().getWorld(destinationType)));
 		}
 
 		private TeleporterDimensionMod getTeleporterForDimension(Entity entity, BlockPos pos, ServerWorld nextWorld) {
-			BlockPattern.PatternHelper bph = TheAetherDimension.CustomPortalBlock.createPatternHelper(entity.world, new BlockPos(pos));
+			BlockPattern.PatternHelper bph = TheAetherDimension.CustomPortalBlock.createPatternHelper(entity.world, pos);
 			double d0 = bph.getForwards().getAxis() == Direction.Axis.X
 					? (double) bph.getFrontTopLeft().getZ()
 					: (double) bph.getFrontTopLeft().getX();
@@ -429,10 +411,11 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 		}
 	}
 	private static PointOfInterestType poi = null;
+	public static final TicketType<BlockPos> CUSTOM_PORTAL = TicketType.create("theaether_portal", Vec3i::compareTo, 300);
 	@SubscribeEvent
 	public void registerPointOfInterest(RegistryEvent.Register<PointOfInterestType> event) {
 		try {
-			Method method = ObfuscationReflectionHelper.findMethod(PointOfInterestType.class, "register", String.class, Set.class, int.class,
+			Method method = ObfuscationReflectionHelper.findMethod(PointOfInterestType.class, "func_226359_a_", String.class, Set.class, int.class,
 					int.class);
 			method.setAccessible(true);
 			poi = (PointOfInterestType) method.invoke(null, "theaether_portal",
@@ -442,20 +425,57 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 			e.printStackTrace();
 		}
 	}
-	public static class TeleporterDimensionMod extends Teleporter {
+	public static class TeleporterDimensionMod implements ITeleporter {
 		private Vec3d lastPortalVec;
 		private Direction teleportDirection;
 		protected final ServerWorld world;
 		protected final Random random;
 		public TeleporterDimensionMod(ServerWorld worldServer, Vec3d lastPortalVec, Direction teleportDirection) {
-			super(worldServer);
 			this.world = worldServer;
 			this.random = new Random(worldServer.getSeed());
 			this.lastPortalVec = lastPortalVec;
 			this.teleportDirection = teleportDirection;
 		}
 
-		@Override
+		@Nullable
+		public BlockPattern.PortalInfo placeInExistingPortal(BlockPos p_222272_1_, Vec3d p_222272_2_, Direction directionIn, double p_222272_4_,
+				double p_222272_6_, boolean p_222272_8_) {
+			PointOfInterestManager pointofinterestmanager = this.world.getPointOfInterestManager();
+			pointofinterestmanager.ensureLoadedAndValid(this.world, p_222272_1_, 128);
+			List<PointOfInterest> list = pointofinterestmanager.getInSquare((p_226705_0_) -> {
+				return p_226705_0_ == poi;
+			}, p_222272_1_, 128, PointOfInterestManager.Status.ANY).collect(Collectors.toList());
+			Optional<PointOfInterest> optional = list.stream().min(Comparator.<PointOfInterest>comparingDouble((p_226706_1_) -> {
+				return p_226706_1_.getPos().distanceSq(p_222272_1_);
+			}).thenComparingInt((p_226704_0_) -> {
+				return p_226704_0_.getPos().getY();
+			}));
+			return optional.map((p_226707_7_) -> {
+				BlockPos blockpos = p_226707_7_.getPos();
+				this.world.getChunkProvider().registerTicket(CUSTOM_PORTAL, new ChunkPos(blockpos), 3, blockpos);
+				BlockPattern.PatternHelper blockpattern$patternhelper = TheAetherDimension.CustomPortalBlock.createPatternHelper(this.world,
+						blockpos);
+				return blockpattern$patternhelper.getPortalInfo(directionIn, blockpos, p_222272_6_, p_222272_2_, p_222272_4_);
+			}).orElse((BlockPattern.PortalInfo) null);
+		}
+
+		public boolean placeInPortal(Entity p_222268_1_, float p_222268_2_) {
+			Vec3d vec3d = lastPortalVec;
+			Direction direction = teleportDirection;
+			BlockPattern.PortalInfo blockpattern$portalinfo = this.placeInExistingPortal(new BlockPos(p_222268_1_), p_222268_1_.getMotion(),
+					direction, vec3d.x, vec3d.y, p_222268_1_ instanceof PlayerEntity);
+			if (blockpattern$portalinfo == null) {
+				return false;
+			} else {
+				Vec3d vec3d1 = blockpattern$portalinfo.pos;
+				Vec3d vec3d2 = blockpattern$portalinfo.motion;
+				p_222268_1_.setMotion(vec3d2);
+				p_222268_1_.rotationYaw = p_222268_2_ + (float) blockpattern$portalinfo.rotation;
+				p_222268_1_.moveForced(vec3d1.x, vec3d1.y, vec3d1.z);
+				return true;
+			}
+		}
+
 		public boolean makePortal(Entity entityIn) {
 			int i = 16;
 			double d0 = -1.0D;
@@ -591,49 +611,47 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 				for (int j9 = 0; j9 < 3; ++j9) {
 					blockpos$mutable.setPos(i6 + k8 * l6, k2 + j9, k6 + k8 * i3);
 					this.world.setBlockState(blockpos$mutable, blockstate, 18);
+					this.world.getPointOfInterestManager().add(blockpos$mutable, poi);
 				}
 			}
 			return true;
 		}
 
 		@Override
-		@Nullable
-		public BlockPattern.PortalInfo placeInExistingPortal(BlockPos p_222272_1_, Vec3d p_222272_2_, Direction directionIn, double p_222272_4_,
-				double p_222272_6_, boolean p_222272_8_) {
-			PointOfInterestManager pointofinterestmanager = this.world.getPointOfInterestManager();
-			pointofinterestmanager.ensureLoadedAndValid(this.world, p_222272_1_, 128);
-			List<PointOfInterest> list = pointofinterestmanager.getInSquare((p_226705_0_) -> {
-				return p_226705_0_ == poi;
-			}, p_222272_1_, 128, PointOfInterestManager.Status.ANY).collect(Collectors.toList());
-			Optional<PointOfInterest> optional = list.stream().min(Comparator.<PointOfInterest>comparingDouble((p_226706_1_) -> {
-				return p_226706_1_.getPos().distanceSq(p_222272_1_);
-			}).thenComparingInt((p_226704_0_) -> {
-				return p_226704_0_.getPos().getY();
-			}));
-			return optional.map((p_226707_7_) -> {
-				BlockPos blockpos = p_226707_7_.getPos();
-				this.world.getChunkProvider().registerTicket(TicketType.PORTAL, new ChunkPos(blockpos), 3, blockpos);
-				BlockPattern.PatternHelper blockpattern$patternhelper = TheAetherDimension.CustomPortalBlock.createPatternHelper(this.world,
-						blockpos);
-				return blockpattern$patternhelper.getPortalInfo(directionIn, blockpos, p_222272_6_, p_222272_2_, p_222272_4_);
-			}).orElse((BlockPattern.PortalInfo) null);
-		}
-
-		@Override
-		public boolean placeInPortal(Entity p_222268_1_, float p_222268_2_) {
-			Vec3d vec3d = lastPortalVec;
-			Direction direction = teleportDirection;
-			BlockPattern.PortalInfo blockpattern$portalinfo = this.placeInExistingPortal(new BlockPos(p_222268_1_), p_222268_1_.getMotion(),
-					direction, vec3d.x, vec3d.y, p_222268_1_ instanceof PlayerEntity);
-			if (blockpattern$portalinfo == null) {
-				return false;
+		public Entity placeEntity(Entity entity, ServerWorld serverworld, ServerWorld serverworld1, float yaw,
+				Function<Boolean, Entity> repositionEntity) {
+			double d0 = entity.getPosX();
+			double d1 = entity.getPosY();
+			double d2 = entity.getPosZ();
+			if (entity instanceof ServerPlayerEntity) {
+				entity.setLocationAndAngles(d0, d1, d2, yaw, entity.rotationPitch);
+				if (!this.placeInPortal(entity, yaw)) {
+					this.makePortal(entity);
+					this.placeInPortal(entity, yaw);
+				}
+				entity.setWorld(serverworld1);
+				serverworld1.addDuringPortalTeleport((ServerPlayerEntity) entity);
+				((ServerPlayerEntity) entity).connection.setPlayerLocation(entity.getPosX(), entity.getPosY(), entity.getPosZ(), yaw,
+						entity.rotationPitch);
+				return entity;
 			} else {
-				Vec3d vec3d1 = blockpattern$portalinfo.pos;
-				Vec3d vec3d2 = blockpattern$portalinfo.motion;
-				p_222268_1_.setMotion(vec3d2);
-				p_222268_1_.rotationYaw = p_222268_2_ + (float) blockpattern$portalinfo.rotation;
-				p_222268_1_.moveForced(vec3d1.x, vec3d1.y, vec3d1.z);
-				return true;
+				Vec3d vec3d = entity.getMotion();
+				BlockPos blockpos = new BlockPos(d0, d1, d2);
+				BlockPattern.PortalInfo blockpattern$portalinfo = this.placeInExistingPortal(blockpos, vec3d, teleportDirection, lastPortalVec.x,
+						lastPortalVec.y, entity instanceof PlayerEntity);
+				if (blockpattern$portalinfo == null)
+					return null;
+				blockpos = new BlockPos(blockpattern$portalinfo.pos);
+				vec3d = blockpattern$portalinfo.motion;
+				float f = (float) blockpattern$portalinfo.rotation;
+				Entity entityNew = entity.getType().create(serverworld1);
+				if (entityNew != null) {
+					entityNew.copyDataFromOld(entity);
+					entityNew.moveToBlockPosAndAngles(blockpos, entityNew.rotationYaw + f, entityNew.rotationPitch);
+					entityNew.setMotion(vec3d);
+					serverworld1.addFromAnotherDimension(entityNew);
+				}
+				return entityNew;
 			}
 		}
 	}
@@ -732,7 +750,6 @@ public class TheAetherDimension extends AetheriaModElements.ModElement {
 	}
 
 	public static class ChunkProviderModded extends EndChunkGenerator {
-		private static final int SEALEVEL = 63;
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
 			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {

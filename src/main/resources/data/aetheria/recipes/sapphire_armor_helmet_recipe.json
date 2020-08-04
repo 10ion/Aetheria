@@ -1,0 +1,29 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:sapphire"
+    },
+    "1": {
+      "item": "aetheria:sapphire"
+    },
+    "2": {
+      "item": "aetheria:sapphire"
+    },
+    "3": {
+      "item": "aetheria:sapphire"
+    },
+    "5": {
+      "item": "aetheria:sapphire"
+    }
+  },
+  "result": {
+    "item": "aetheria:sapphire_armor_helmet",
+    "count": 1
+  }
+}

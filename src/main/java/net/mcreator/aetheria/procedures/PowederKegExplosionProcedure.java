@@ -1,9 +1,12 @@
 package net.mcreator.aetheria.procedures;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.world.Explosion;
 
 import net.mcreator.aetheria.AetheriaModElements;
+
+import java.util.Map;
 
 @AetheriaModElements.ModElement.Tag
 public class PowederKegExplosionProcedure extends AetheriaModElements.ModElement {
@@ -11,7 +14,7 @@ public class PowederKegExplosionProcedure extends AetheriaModElements.ModElement
 		super(instance, 453);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			System.err.println("Failed to load dependency x for procedure PowederKegExplosion!");
 			return;
@@ -28,12 +31,12 @@ public class PowederKegExplosionProcedure extends AetheriaModElements.ModElement
 			System.err.println("Failed to load dependency world for procedure PowederKegExplosion!");
 			return;
 		}
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
-		World world = (World) dependencies.get("world");
-		if (!world.isRemote) {
-			world.createExplosion(null, (int) x, (int) y, (int) z, (float) 10, Explosion.Mode.BREAK);
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
+		if (world instanceof World && !world.getWorld().isRemote) {
+			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 10, Explosion.Mode.BREAK);
 		}
 	}
 }

@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class TungstenArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:tungsten_armorhelmet")
+	@ObjectHolder("aetheria:tungsten_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:tungsten_armorbody")
+	@ObjectHolder("aetheria:tungsten_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:tungsten_armorlegs")
+	@ObjectHolder("aetheria:tungsten_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:tungsten_armorboots")
+	@ObjectHolder("aetheria:tungsten_armor_boots")
 	public static final Item boots = null;
 	public TungstenArmorItem(AetheriaModElements instance) {
 		super(instance, 629);
@@ -69,24 +69,24 @@ public class TungstenArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/tungsten_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("tungsten_armorhelmet"));
+		}.setRegistryName("tungsten_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/tungsten_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("tungsten_armorbody"));
+		}.setRegistryName("tungsten_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/tungsten_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("tungsten_armorlegs"));
+		}.setRegistryName("tungsten_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/tungsten_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("tungsten_armorboots"));
+		}.setRegistryName("tungsten_armor_boots"));
 	}
 }

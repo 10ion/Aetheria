@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class Flowing_Water_SteelArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:flowing_water_steel_armorhelmet")
+	@ObjectHolder("aetheria:flowing_water_steel_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:flowing_water_steel_armorbody")
+	@ObjectHolder("aetheria:flowing_water_steel_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:flowing_water_steel_armorlegs")
+	@ObjectHolder("aetheria:flowing_water_steel_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:flowing_water_steel_armorboots")
+	@ObjectHolder("aetheria:flowing_water_steel_armor_boots")
 	public static final Item boots = null;
 	public Flowing_Water_SteelArmorItem(AetheriaModElements instance) {
 		super(instance, 541);
@@ -69,24 +69,24 @@ public class Flowing_Water_SteelArmorItem extends AetheriaModElements.ModElement
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/flowing__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("flowing_water_steel_armorhelmet"));
+		}.setRegistryName("flowing_water_steel_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/flowing__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("flowing_water_steel_armorbody"));
+		}.setRegistryName("flowing_water_steel_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/flowing__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("flowing_water_steel_armorlegs"));
+		}.setRegistryName("flowing_water_steel_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/flowing__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("flowing_water_steel_armorboots"));
+		}.setRegistryName("flowing_water_steel_armor_boots"));
 	}
 }

@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class DarkIronArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:darkironarmorhelmet")
+	@ObjectHolder("aetheria:darkironarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:darkironarmorbody")
+	@ObjectHolder("aetheria:darkironarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:darkironarmorlegs")
+	@ObjectHolder("aetheria:darkironarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:darkironarmorboots")
+	@ObjectHolder("aetheria:darkironarmor_boots")
 	public static final Item boots = null;
 	public DarkIronArmorItem(AetheriaModElements instance) {
 		super(instance, 66);
@@ -69,24 +69,24 @@ public class DarkIronArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/darkiron__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("darkironarmorhelmet"));
+		}.setRegistryName("darkironarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/darkiron__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("darkironarmorbody"));
+		}.setRegistryName("darkironarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/darkiron__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("darkironarmorlegs"));
+		}.setRegistryName("darkironarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/darkiron__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("darkironarmorboots"));
+		}.setRegistryName("darkironarmor_boots"));
 	}
 }
