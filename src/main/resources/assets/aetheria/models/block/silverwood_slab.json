@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "aetheria:blocks/silverwoodplank",
+    "top": "aetheria:blocks/silverwoodplank",
+    "side": "aetheria:blocks/silverwoodplank"
+  }
+}

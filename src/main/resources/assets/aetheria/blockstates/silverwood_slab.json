@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetheria:block/silverwood_slab"
+    },
+    "type=top": {
+      "model": "aetheria:block/silverwood_slab_top"
+    },
+    "type=double": {
+      "model": "aetheria:block/silverwood_slab_full"
+    }
+  }
+}

@@ -1,11 +1,20 @@
 package net.mcreator.aetheria.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.aetheria.block.VoidStoneBlock;
+import net.mcreator.aetheria.AetheriaModElements;
+
+import java.util.Map;
+import java.util.Collections;
+
 @AetheriaModElements.ModElement.Tag
 public class TheVoidPlayerEntersDimensionProcedure extends AetheriaModElements.ModElement {
-
 	public TheVoidPlayerEntersDimensionProcedure(AetheriaModElements instance) {
 		super(instance, 213);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -29,13 +38,11 @@ public class TheVoidPlayerEntersDimensionProcedure extends AetheriaModElements.M
 			System.err.println("Failed to load dependency world for procedure TheVoidPlayerEntersDimension!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		{
 			Entity _ent = entity;
 			_ent.setPositionAndUpdate(x, (y + 2002), z);
@@ -53,7 +60,5 @@ public class TheVoidPlayerEntersDimensionProcedure extends AetheriaModElements.M
 		world.setBlockState(new BlockPos((int) (x + 1), (int) 50, (int) (z - 1)), VoidStoneBlock.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) (x - 1), (int) 50, (int) (z - 1)), VoidStoneBlock.block.getDefaultState(), 3);
 		world.setBlockState(new BlockPos((int) (x - 1), (int) 50, (int) (z + 1)), VoidStoneBlock.block.getDefaultState(), 3);
-
 	}
-
 }
