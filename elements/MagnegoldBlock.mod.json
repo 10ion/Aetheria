@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "magnegold_block",
+    "texture": "magnegoldblock",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -12,7 +12,6 @@
     "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -22,7 +21,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Magnegold Block",
+    "name": "Electrum Block",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.0,
@@ -30,12 +29,12 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaBlocks"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": true,
+    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -63,7 +62,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -87,7 +86,6 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
-    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
