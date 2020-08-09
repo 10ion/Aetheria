@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class ZincArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:zinc_armorhelmet")
+	@ObjectHolder("aetheria:zinc_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:zinc_armorbody")
+	@ObjectHolder("aetheria:zinc_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:zinc_armorlegs")
+	@ObjectHolder("aetheria:zinc_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:zinc_armorboots")
+	@ObjectHolder("aetheria:zinc_armor_boots")
 	public static final Item boots = null;
 	public ZincArmorItem(AetheriaModElements instance) {
 		super(instance, 693);
@@ -69,24 +69,24 @@ public class ZincArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorhelmet"));
+		}.setRegistryName("zinc_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorbody"));
+		}.setRegistryName("zinc_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorlegs"));
+		}.setRegistryName("zinc_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorboots"));
+		}.setRegistryName("zinc_armor_boots"));
 	}
 }

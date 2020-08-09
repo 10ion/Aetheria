@@ -21,13 +21,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class ObsidianArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:obsidianarmorhelmet")
+	@ObjectHolder("aetheria:obsidianarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:obsidianarmorbody")
+	@ObjectHolder("aetheria:obsidianarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:obsidianarmorlegs")
+	@ObjectHolder("aetheria:obsidianarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:obsidianarmorboots")
+	@ObjectHolder("aetheria:obsidianarmor_boots")
 	public static final Item boots = null;
 	public ObsidianArmorItem(AetheriaModElements instance) {
 		super(instance, 56);
@@ -70,24 +70,24 @@ public class ObsidianArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/obsidian___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("obsidianarmorhelmet"));
+		}.setRegistryName("obsidianarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/obsidian___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("obsidianarmorbody"));
+		}.setRegistryName("obsidianarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/obsidian___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("obsidianarmorlegs"));
+		}.setRegistryName("obsidianarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/obsidian___layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("obsidianarmorboots"));
+		}.setRegistryName("obsidianarmor_boots"));
 	}
 }

@@ -20,13 +20,13 @@ import net.mcreator.aetheria.AetheriaModElements;
 
 @AetheriaModElements.ModElement.Tag
 public class CopperArmorItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:copper_armorhelmet")
+	@ObjectHolder("aetheria:copper_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("aetheria:copper_armorbody")
+	@ObjectHolder("aetheria:copper_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("aetheria:copper_armorlegs")
+	@ObjectHolder("aetheria:copper_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("aetheria:copper_armorboots")
+	@ObjectHolder("aetheria:copper_armor_boots")
 	public static final Item boots = null;
 	public CopperArmorItem(AetheriaModElements instance) {
 		super(instance, 713);
@@ -69,24 +69,24 @@ public class CopperArmorItem extends AetheriaModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorhelmet"));
+		}.setRegistryName("copper_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorbody"));
+		}.setRegistryName("copper_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorlegs"));
+		}.setRegistryName("copper_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(AetheriaArmorItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "aetheria:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorboots"));
+		}.setRegistryName("copper_armor_boots"));
 	}
 }
