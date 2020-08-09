@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "aetheria:blocks/mystical_plank",
+    "top": "aetheria:blocks/mystical_plank",
+    "side": "aetheria:blocks/mystical_plank"
+  }
+}

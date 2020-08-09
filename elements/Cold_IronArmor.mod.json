@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "cold_iron_head",
+    "textureHelmet": "coldironarmor_head",
     "enableBody": true,
-    "textureBody": "cold_iron_body",
+    "textureBody": "coldironarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "cold_iron_leggings",
+    "textureLeggings": "coldironarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "cold_iron_boots",
+    "textureBoots": "coldironarmor_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "cold_iron",
+    "armorTextureFile": "coldironarmor_",
     "helmetName": "Cold Iron Helmet",
     "bodyName": "Cold Iron Chestplate",
     "leggingsName": "Cold Iron Leggings",

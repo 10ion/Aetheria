@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "electrum_head",
+    "textureHelmet": "electrumarmor_head",
     "enableBody": true,
-    "textureBody": "electrum_body",
+    "textureBody": "electrumarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "electrum_leggings",
+    "textureLeggings": "electrumarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "electrum_boots",
+    "textureBoots": "electrumarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "electrum",
+    "armorTextureFile": "electrumarmor_",
     "helmetName": "Electrum Helmet",
     "bodyName": "Electrum Chestplate",
     "leggingsName": "Electrum Leggings",

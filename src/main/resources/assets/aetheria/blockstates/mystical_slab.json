@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetheria:block/mystical_slab"
+    },
+    "type=top": {
+      "model": "aetheria:block/mystical_slab_top"
+    },
+    "type=double": {
+      "model": "aetheria:block/mystical_slab_full"
+    }
+  }
+}

@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "silver_head",
+    "textureHelmet": "silverarmor_head",
     "enableBody": true,
-    "textureBody": "silver_body",
+    "textureBody": "silverarmor_body",
     "enableLeggings": true,
-    "textureLeggings": "silver_leggings",
+    "textureLeggings": "silverarmor_leggings",
     "enableBoots": true,
-    "textureBoots": "silver_boots",
+    "textureBoots": "silverarmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "silver",
+    "armorTextureFile": "silverarmor_",
     "helmetName": "Silver Helmet",
     "bodyName": "Silver Chestplate",
     "leggingsName": "Silver Leggings",

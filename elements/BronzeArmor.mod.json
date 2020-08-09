@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "bronze_head",
+    "textureHelmet": "bronzearmor_head",
     "enableBody": true,
-    "textureBody": "bronze_body",
+    "textureBody": "bronzearmor_body",
     "enableLeggings": true,
-    "textureLeggings": "bronze_leggings",
+    "textureLeggings": "bronzearmor_leggings",
     "enableBoots": true,
-    "textureBoots": "bronze_boots",
+    "textureBoots": "bronzearmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "bronze",
+    "armorTextureFile": "bronzearmor_",
     "helmetName": "Bronze Helmet",
     "bodyName": "Bronze Chestplate",
     "leggingsName": "Bronze Leggings",

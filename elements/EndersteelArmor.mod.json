@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "endersteel_head",
+    "textureHelmet": "endersteeel_head",
     "enableBody": true,
-    "textureBody": "endersteel_body",
+    "textureBody": "endersteeel_body",
     "enableLeggings": true,
-    "textureLeggings": "endersteel_leggings",
+    "textureLeggings": "endersteeel_leggings",
     "enableBoots": true,
-    "textureBoots": "endersteel_boots",
+    "textureBoots": "endersteeel_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "endersteel",
+    "armorTextureFile": "endersteeel_",
     "helmetName": "Endersteel Helmet",
     "bodyName": "Endersteel Chestplate",
     "leggingsName": "Endersteel Leggings",

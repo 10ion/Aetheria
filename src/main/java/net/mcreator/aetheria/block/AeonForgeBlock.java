@@ -1,92 +1,18 @@
 
 package net.mcreator.aetheria.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.items.wrapper.SidedInvWrapper;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.fml.network.NetworkHooks;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.World;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.math.BlockRayTraceResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Hand;
-import net.minecraft.util.Direction;
-import net.minecraft.util.ActionResultType;
-import net.minecraft.tileentity.TileEntityType;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.LockableLootTileEntity;
-import net.minecraft.state.StateContainer;
-import net.minecraft.state.DirectionProperty;
-import net.minecraft.network.play.server.SUpdateTileEntityPacket;
-import net.minecraft.network.PacketBuffer;
-import net.minecraft.network.NetworkManager;
-import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.BlockItem;
-import net.minecraft.inventory.container.INamedContainerProvider;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.inventory.ItemStackHelper;
-import net.minecraft.inventory.InventoryHelper;
-import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.Minecraft;
-import net.minecraft.block.material.PushReaction;
-import net.minecraft.block.material.MaterialColor;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.aetheria.procedures.ForgeguicodeProcedure;
-import net.mcreator.aetheria.procedures.AeonguicodeProcedure;
-import net.mcreator.aetheria.itemgroup.AetheriaCraftingItemGroup;
-import net.mcreator.aetheria.gui.AeonForgeguiGui;
-import net.mcreator.aetheria.AetheriaModElements;
-
-import javax.annotation.Nullable;
-
-import java.util.stream.IntStream;
-import java.util.Random;
-import java.util.Map;
-import java.util.List;
-import java.util.HashMap;
-import java.util.Collections;
-
-import io.netty.buffer.Unpooled;
-
 @AetheriaModElements.ModElement.Tag
 public class AeonForgeBlock extends AetheriaModElements.ModElement {
+
 	@ObjectHolder("aetheria:aeonforge")
 	public static final Block block = null;
+
 	@ObjectHolder("aetheria:aeonforge")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
+
 	public AeonForgeBlock(AetheriaModElements instance) {
 		super(instance, 161);
+
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -102,18 +28,25 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("aeonforge"));
 	}
 
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
-	}
 	public static class CustomBlock extends Block {
+
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2.3f, 28f).lightValue(0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).notSolid());
+			super(
+
+					Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2.3f, 28f).lightValue(0).harvestLevel(2)
+							.harvestTool(ToolType.PICKAXE));
+
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+
 			setRegistryName("aeonforge");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public BlockRenderLayer getRenderLayer() {
+			return BlockRenderLayer.CUTOUT;
 		}
 
 		@Override
@@ -156,6 +89,7 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 
 		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
@@ -172,43 +106,31 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 		}
 
 		@Override
-		public void tick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+		public void tick(BlockState state, World world, BlockPos pos, Random random) {
 			super.tick(state, world, pos, random);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
+
 				AeonguicodeProcedure.executeProcedure($_dependencies);
 			}
 			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
-		@OnlyIn(Dist.CLIENT)
 		@Override
-		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
-			super.animateTick(state, world, pos, random);
-			PlayerEntity entity = Minecraft.getInstance().player;
+		public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand, BlockRayTraceResult hit) {
+			boolean retval = super.onBlockActivated(state, world, pos, entity, hand, hit);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				ForgeguicodeProcedure.executeProcedure($_dependencies);
-			}
-		}
 
-		@Override
-		public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity entity, Hand hand,
-				BlockRayTraceResult hit) {
-			super.onBlockActivated(state, world, pos, entity, hand, hit);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
 			if (entity instanceof ServerPlayerEntity) {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
@@ -223,7 +145,8 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 					}
 				}, new BlockPos(x, y, z));
 			}
-			return ActionResultType.SUCCESS;
+
+			return true;
 		}
 
 		@Override
@@ -257,13 +180,17 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 					InventoryHelper.dropInventoryItems(world, pos, (CustomTileEntity) tileentity);
 					world.updateComparatorOutputLevel(pos, this);
 				}
+
 				super.onReplaced(state, world, pos, newState, isMoving);
 			}
 		}
+
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
+
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(27, ItemStack.EMPTY);
+
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}
@@ -271,18 +198,23 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 		@Override
 		public void read(CompoundNBT compound) {
 			super.read(compound);
+
+			this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
+
 			if (!this.checkLootAndRead(compound)) {
-				this.stacks = NonNullList.withSize(this.getSizeInventory(), ItemStack.EMPTY);
+				ItemStackHelper.loadAllItems(compound, this.stacks);
 			}
-			ItemStackHelper.loadAllItems(compound, this.stacks);
+
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT compound) {
 			super.write(compound);
+
 			if (!this.checkLootAndWrite(compound)) {
 				ItemStackHelper.saveAllItems(compound, this.stacks);
 			}
+
 			return compound;
 		}
 
@@ -363,11 +295,14 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 		public boolean canExtractItem(int index, ItemStack stack, Direction direction) {
 			return true;
 		}
+
 		private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
+
 		@Override
 		public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
 			if (!this.removed && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
 				return handlers[facing.ordinal()].cast();
+
 			return super.getCapability(capability, facing);
 		}
 
@@ -377,5 +312,7 @@ public class AeonForgeBlock extends AetheriaModElements.ModElement {
 			for (LazyOptional<? extends IItemHandler> handler : handlers)
 				handler.invalidate();
 		}
+
 	}
+
 }

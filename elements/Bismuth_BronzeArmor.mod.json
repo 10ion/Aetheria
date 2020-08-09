@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "bismuth_bronze_head",
+    "textureHelmet": "bismuthbronzearmor_head",
     "enableBody": true,
-    "textureBody": "bismuth_bronze_body",
+    "textureBody": "bismuthbronzearmor_body",
     "enableLeggings": true,
-    "textureLeggings": "bismuth_bronze_leggings",
+    "textureLeggings": "bismuthbronzearmor_leggings",
     "enableBoots": true,
-    "textureBoots": "bismuth_bronze_boots",
+    "textureBoots": "bismuthbronzearmor_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "bismuth_bronze",
+    "armorTextureFile": "bismuthbronzearmor_",
     "helmetName": "Bismuth_Bronze Helmet",
     "bodyName": "Bismuth_Bronze Chestplate",
     "leggingsName": "Bismuth_Bronze Leggings",

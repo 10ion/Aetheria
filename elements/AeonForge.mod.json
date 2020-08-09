@@ -89,9 +89,6 @@
     "onTickUpdate": {
       "name": "Aeonguicode"
     },
-    "onRandomUpdateEvent": {
-      "name": "Forgeguicode"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

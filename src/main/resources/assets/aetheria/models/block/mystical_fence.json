@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "aetheria:blocks/mystical_plank",
+    "particle": "aetheria:blocks/mystical_plank"
+  }
+}

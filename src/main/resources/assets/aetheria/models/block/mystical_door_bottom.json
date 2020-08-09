@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "aetheria:blocks/mystical_plank",
+    "top": "aetheria:blocks/mystical_plank"
+  }
+}

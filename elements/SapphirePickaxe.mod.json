@@ -1,0 +1,30 @@
+{
+  "_fv": 10,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sapphire_pickaxe",
+    "customModelName": "Normal",
+    "name": "Sapphire Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 9.0,
+    "attackSpeed": 1.2,
+    "enchantability": 9,
+    "damageVsEntity": 3.0,
+    "usageCount": 1900,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SapphireGem"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

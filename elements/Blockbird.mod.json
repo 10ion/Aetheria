@@ -5,7 +5,7 @@
     "mobName": "Blockbird",
     "mobLabel": "",
     "mobModelName": "blockbird",
-    "mobModelTexture": "placeholder.png",
+    "mobModelTexture": "blockbirdtexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,

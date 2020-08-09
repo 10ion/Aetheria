@@ -1,0 +1,32 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "1": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "2": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "3": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "4": {
+      "item": "aetheria:mysticalplanks"
+    },
+    "5": {
+      "item": "aetheria:mysticalplanks"
+    }
+  },
+  "result": {
+    "item": "aetheria:mystical_trap_door",
+    "count": 2
+  }
+}

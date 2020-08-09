@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      },
+      {
+        "value": "CUSTOM:MysticalPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MysticalTrapDoor"
+    },
+    "name": "mystical_trapdoor_recipe",
+    "namespace": "mod"
+  }
+}

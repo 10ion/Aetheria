@@ -1,19 +1,12 @@
 
 package net.mcreator.aetheria.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.aetheria.itemgroup.AetheriaMaterialsItemGroup;
-import net.mcreator.aetheria.AetheriaModElements;
-
 @AetheriaModElements.ModElement.Tag
 public class DarkFelSteelIngotItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:dark_felsteel_ingot")
+
+	@ObjectHolder("aetheria:darkfelsteelingot")
 	public static final Item block = null;
+
 	public DarkFelSteelIngotItem(AetheriaModElements instance) {
 		super(instance, 29);
 	}
@@ -22,10 +15,12 @@ public class DarkFelSteelIngotItem extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
-			setRegistryName("dark_felsteel_ingot");
+			setRegistryName("darkfelsteelingot");
 		}
 
 		@Override
@@ -42,5 +37,7 @@ public class DarkFelSteelIngotItem extends AetheriaModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
+
 	}
+
 }

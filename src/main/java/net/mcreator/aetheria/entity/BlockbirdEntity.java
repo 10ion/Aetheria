@@ -91,7 +91,7 @@ public class BlockbirdEntity extends AetheriaModElements.ModElement {
 			return new MobRenderer(renderManager, new blockbird(), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("aetheria:textures/placeholder.png");
+					return new ResourceLocation("aetheria:textures/blockbirdtexture.png");
 				}
 			};
 		});
