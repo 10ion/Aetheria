@@ -8,10 +8,10 @@
   ],
   "key": {
     "0": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:sapphire"
     },
     "1": {
-      "item": "aetheria:unknown_element"
+      "item": "aetheria:sapphire"
     },
     "3": {
       "item": "minecraft:stick"
@@ -21,7 +21,7 @@
     }
   },
   "result": {
-    "item": "aetheria:unknown_element",
+    "item": "aetheria:sapphire_hoe",
     "count": 1
   }
 }

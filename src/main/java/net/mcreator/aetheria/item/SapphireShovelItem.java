@@ -1,12 +1,21 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.itemgroup.AetheriaToolsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class SapphireShovelItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:sapphire_shovel")
 	public static final Item block = null;
-
 	public SapphireShovelItem(AetheriaModElements instance) {
 		super(instance, 740);
 	}
@@ -38,8 +47,6 @@ public class SapphireShovelItem extends AetheriaModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(SapphireGemItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(AetheriaToolsItemGroup.tab)) {
-
 		}.setRegistryName("sapphire_shovel"));
 	}
-
 }

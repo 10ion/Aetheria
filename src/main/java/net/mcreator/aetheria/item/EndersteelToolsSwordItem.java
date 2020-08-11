@@ -1,12 +1,21 @@
 
 package net.mcreator.aetheria.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.aetheria.itemgroup.AetheriaWeaponsItemGroup;
+import net.mcreator.aetheria.AetheriaModElements;
+
 @AetheriaModElements.ModElement.Tag
 public class EndersteelToolsSwordItem extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:endersteel_sword")
 	public static final Item block = null;
-
 	public EndersteelToolsSwordItem(AetheriaModElements instance) {
 		super(instance, 85);
 	}
@@ -38,8 +47,6 @@ public class EndersteelToolsSwordItem extends AetheriaModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(EndersteelIngotItem.block, (int) (1)));
 			}
 		}, 3, -3.35f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
-
 		}.setRegistryName("endersteel_sword"));
 	}
-
 }
