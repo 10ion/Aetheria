@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "copperarmor_head",
+    "textureHelmet": "copper_head",
     "enableBody": true,
-    "textureBody": "copperarmor_body",
+    "textureBody": "copper_body",
     "enableLeggings": true,
-    "textureLeggings": "copperarmor_leggings",
+    "textureLeggings": "copper_leggings",
     "enableBoots": true,
-    "textureBoots": "copperarmor_boots",
+    "textureBoots": "copper_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "copperarmor_",
+    "armorTextureFile": "copper",
     "helmetName": "Copper Helmet",
     "bodyName": "Copper Chestplate",
     "leggingsName": "Copper Leggings",

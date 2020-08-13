@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "testpick",
+    "texture": "test_pickaxe",
     "customModelName": "Normal",
     "name": "OP Test Pick",
     "specialInfo": [],

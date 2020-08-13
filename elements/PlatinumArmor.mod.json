@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "platinumarmor_head",
+    "textureHelmet": "platinum_head",
     "enableBody": true,
-    "textureBody": "platinumarmor_body",
+    "textureBody": "platinum_body",
     "enableLeggings": true,
-    "textureLeggings": "platinumarmor_leggings",
+    "textureLeggings": "platinum_leggings",
     "enableBoots": true,
-    "textureBoots": "platinumarmor_boots",
+    "textureBoots": "platinum_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "platinumarmor_",
+    "armorTextureFile": "platinum",
     "helmetName": "Platinum Helmet",
     "bodyName": "Platinum Chestplate",
     "leggingsName": "Platinum Leggings",

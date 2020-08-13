@@ -1,7 +1,7 @@
 {
   "parent": "block/template_orientable_trapdoor_bottom",
   "textures": {
-    "texture": "aetheria:blocks/silverwoodplank",
-    "particle": "aetheria:blocks/silverwoodplank"
+    "texture": "aetheria:blocks/silverwood_trap_door",
+    "particle": "aetheria:blocks/silverwood_trap_door"
   }
 }

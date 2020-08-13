@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "zincarmor_head",
+    "textureHelmet": "zinc_head",
     "enableBody": true,
-    "textureBody": "zincarmor_body",
+    "textureBody": "zinc_body",
     "enableLeggings": true,
-    "textureLeggings": "zincarmor_leggings",
+    "textureLeggings": "zinc_leggings",
     "enableBoots": true,
-    "textureBoots": "zincarmor_boots",
+    "textureBoots": "zinc_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "zincarmor_",
+    "armorTextureFile": "zinc",
     "helmetName": "Zinc Helmet",
     "bodyName": "Zinc Chestplate",
     "leggingsName": "Zinc Leggings",

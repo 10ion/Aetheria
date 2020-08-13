@@ -78,8 +78,6 @@ public class ParasolMushroomPatchBlock extends AetheriaModElements.ModElement {
 			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 				DimensionType dimensionType = world.getDimension().getType();
 				boolean dimensionCriteria = false;
-				if (dimensionType == DimensionType.OVERWORLD)
-					dimensionCriteria = true;
 				if (dimensionType == TheVoidDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
@@ -92,7 +90,7 @@ public class ParasolMushroomPatchBlock extends AetheriaModElements.ModElement {
 					feature.withConfiguration(
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(64).build())
-							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(5))));
+							.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(3))));
 		}
 	}
 	public static class BlockCustomFlower extends FlowerBlock {

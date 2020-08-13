@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "brassarmor_head",
+    "textureHelmet": "brass_head",
     "enableBody": true,
-    "textureBody": "brassarmor_body",
+    "textureBody": "brass_body",
     "enableLeggings": true,
-    "textureLeggings": "brassarmor_leggings",
+    "textureLeggings": "brass_leggings",
     "enableBoots": true,
-    "textureBoots": "brassarmor_boots",
+    "textureBoots": "brass_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "brassarmor_",
+    "armorTextureFile": "brass",
     "helmetName": "Brass Helmet",
     "bodyName": "Brass Chestplate",
     "leggingsName": "Brass Leggings",

@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "grassstew",
+    "texture": "grass_stew",
     "customModelName": "Normal",
     "name": "Grass Stew",
     "specialInfo": [],

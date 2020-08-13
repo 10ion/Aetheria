@@ -34,7 +34,7 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class PowederKegBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:powederkeg")
+	@ObjectHolder("aetheria:powder_keg")
 	public static final Block block = null;
 	public PowederKegBlock(AetheriaModElements instance) {
 		super(instance, 154);
@@ -50,7 +50,7 @@ public class PowederKegBlock extends AetheriaModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 2f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.AXE));
-			setRegistryName("powederkeg");
+			setRegistryName("powder_keg");
 		}
 
 		@Override

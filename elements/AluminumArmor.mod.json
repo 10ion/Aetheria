@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "aluminumarmor_head",
+    "textureHelmet": "aluminum_head",
     "enableBody": true,
-    "textureBody": "aluminumarmor_body",
+    "textureBody": "aluminum_body",
     "enableLeggings": true,
-    "textureLeggings": "aluminumarmor_leggings",
+    "textureLeggings": "aluminum_leggings",
     "enableBoots": true,
-    "textureBoots": "aluminumarmor_boots",
+    "textureBoots": "aluminum_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "aluminumarmor_",
+    "armorTextureFile": "aluminum",
     "helmetName": "Aluminum Helmet",
     "bodyName": "Aluminum Chestplate",
     "leggingsName": "Aluminum Leggings",

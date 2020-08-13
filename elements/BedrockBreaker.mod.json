@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bedrockbreaker",
+    "texture": "bedrock_breaker",
     "customModelName": "Normal",
     "name": "Bedrock Breaker",
     "specialInfo": [],

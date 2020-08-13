@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "leadarmor_head",
+    "textureHelmet": "lead_head",
     "enableBody": true,
-    "textureBody": "leadarmor_body",
+    "textureBody": "lead_body",
     "enableLeggings": true,
-    "textureLeggings": "leadarmor_leggings",
+    "textureLeggings": "lead_leggings",
     "enableBoots": true,
-    "textureBoots": "leadarmor_boots",
+    "textureBoots": "lead_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "leadarmor_",
+    "armorTextureFile": "lead",
     "helmetName": "Lead Helmet",
     "bodyName": "Lead Chestplate",
     "leggingsName": "Lead Leggings",

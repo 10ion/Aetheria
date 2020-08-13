@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "coldironarmor_head",
+    "textureHelmet": "cold_iron_head",
     "enableBody": true,
-    "textureBody": "coldironarmor_body",
+    "textureBody": "cold_iron_body",
     "enableLeggings": true,
-    "textureLeggings": "coldironarmor_leggings",
+    "textureLeggings": "cold_iron_leggings",
     "enableBoots": true,
-    "textureBoots": "coldironarmor_boots",
+    "textureBoots": "cold_iron_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "coldironarmor_",
+    "armorTextureFile": "cold_iron",
     "helmetName": "Cold Iron Helmet",
     "bodyName": "Cold Iron Chestplate",
     "leggingsName": "Cold Iron Leggings",

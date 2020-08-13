@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "layer_1",
+    "texture": "croissant",
     "customModelName": "Normal",
     "name": "Croissant",
     "specialInfo": [],
