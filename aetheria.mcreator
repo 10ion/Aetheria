@@ -4,7 +4,7 @@
     {
       "name": "Redsteelingot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -12,7 +12,7 @@
     {
       "name": "Redsteelarmor",
       "type": "armor",
-      "sortid": 74,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -26,7 +26,7 @@
     {
       "name": "Ghoulcollide",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -42,7 +42,7 @@
     {
       "name": "BluegrassEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "StormberryrollFoodEaten",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -74,7 +74,7 @@
     {
       "name": "Stormberryroll",
       "type": "food",
-      "sortid": 90,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -82,7 +82,7 @@
     {
       "name": "Stormberry",
       "type": "food",
-      "sortid": 91,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -90,7 +90,7 @@
     {
       "name": "StormberrymuffinFoodEaten",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -106,7 +106,7 @@
     {
       "name": "Stormberrymuffin",
       "type": "food",
-      "sortid": 92,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -114,7 +114,7 @@
     {
       "name": "Titaniumore",
       "type": "block",
-      "sortid": 99,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -131,7 +131,7 @@
     {
       "name": "Titaniumoretoingotrecipe",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -139,7 +139,7 @@
     {
       "name": "TitaniumIItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 166,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -155,7 +155,7 @@
     {
       "name": "Titaniumnuggettoingot",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -163,7 +163,7 @@
     {
       "name": "Blueleaf",
       "type": "block",
-      "sortid": 117,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -171,7 +171,7 @@
     {
       "name": "ForgeR",
       "type": "procedure",
-      "sortid": 168,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -182,7 +182,7 @@
     {
       "name": "RTungsten",
       "type": "item",
-      "sortid": 17,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -190,7 +190,7 @@
     {
       "name": "Mysticallog",
       "type": "block",
-      "sortid": 118,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -198,7 +198,7 @@
     {
       "name": "MysticalStone",
       "type": "block",
-      "sortid": 119,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -206,7 +206,7 @@
     {
       "name": "MysticalPlanks",
       "type": "block",
-      "sortid": 120,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -214,7 +214,7 @@
     {
       "name": "Mysticalplankrecipe",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -222,7 +222,7 @@
     {
       "name": "Mysticwoodfuel",
       "type": "fuel",
-      "sortid": 170,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -230,7 +230,7 @@
     {
       "name": "Ghostmorel",
       "type": "plant",
-      "sortid": 130,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -238,7 +238,7 @@
     {
       "name": "FastCommandExecuted",
       "type": "procedure",
-      "sortid": 172,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -254,7 +254,7 @@
     {
       "name": "Fast",
       "type": "command",
-      "sortid": 173,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -262,7 +262,7 @@
     {
       "name": "Fireberry",
       "type": "food",
-      "sortid": 93,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -270,7 +270,7 @@
     {
       "name": "Moonberry",
       "type": "food",
-      "sortid": 94,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -278,7 +278,7 @@
     {
       "name": "Moralmedly",
       "type": "food",
-      "sortid": 95,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -286,7 +286,7 @@
     {
       "name": "Redsteelchestplacerecipe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -294,7 +294,7 @@
     {
       "name": "Pizza",
       "type": "item",
-      "sortid": 96,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -302,7 +302,7 @@
     {
       "name": "Pizzaslice",
       "type": "food",
-      "sortid": 97,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -310,7 +310,7 @@
     {
       "name": "Pizzatoslice",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -318,7 +318,7 @@
     {
       "name": "Forgeguicode",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -329,7 +329,7 @@
     {
       "name": "EndersteelToolsPickaxe",
       "type": "tool",
-      "sortid": 138,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -337,7 +337,7 @@
     {
       "name": "EndersteelToolsAxe",
       "type": "tool",
-      "sortid": 139,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -345,7 +345,7 @@
     {
       "name": "EndersteelToolsSword",
       "type": "tool",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -354,7 +354,7 @@
     {
       "name": "EndersteelToolsShovel",
       "type": "tool",
-      "sortid": 140,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -362,7 +362,7 @@
     {
       "name": "EndersteelToolsHoe",
       "type": "tool",
-      "sortid": 141,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -370,7 +370,7 @@
     {
       "name": "EndersteelToolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -378,7 +378,7 @@
     {
       "name": "EndersteelToolsAxeRecipe",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -386,7 +386,7 @@
     {
       "name": "EndersteelToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -394,7 +394,7 @@
     {
       "name": "EndersteelToolsShovelRecipe",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -402,7 +402,7 @@
     {
       "name": "EndersteelToolsHoeRecipe",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -410,7 +410,7 @@
     {
       "name": "GemwroughtOre",
       "type": "block",
-      "sortid": 100,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -418,7 +418,7 @@
     {
       "name": "GemwroughtOreBlock",
       "type": "block",
-      "sortid": 101,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -426,7 +426,7 @@
     {
       "name": "GemwroughtGem",
       "type": "item",
-      "sortid": 152,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -434,7 +434,7 @@
     {
       "name": "GemwroughtOreBlockRecipe",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -442,7 +442,7 @@
     {
       "name": "GemwroughtBlockOreRecipe",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -450,7 +450,7 @@
     {
       "name": "GemwroughtOreSmelting",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -458,7 +458,7 @@
     {
       "name": "GemwroughtPickaxe",
       "type": "tool",
-      "sortid": 142,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -466,7 +466,7 @@
     {
       "name": "GemwroughtAxe",
       "type": "tool",
-      "sortid": 143,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -474,7 +474,7 @@
     {
       "name": "GemwroughtSword",
       "type": "tool",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -482,7 +482,7 @@
     {
       "name": "GemwroughtShovel",
       "type": "tool",
-      "sortid": 144,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -490,7 +490,7 @@
     {
       "name": "GemwroughtHoe",
       "type": "tool",
-      "sortid": 145,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -498,7 +498,7 @@
     {
       "name": "GemwroughtPickaxeRecipe",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -506,7 +506,7 @@
     {
       "name": "GemwroughtAxeRecipe",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -514,7 +514,7 @@
     {
       "name": "GemwroughtSwordRecipe",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -522,7 +522,7 @@
     {
       "name": "GemwroughtShovelRecipe",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -530,7 +530,7 @@
     {
       "name": "GemwroughtHoeRecipe",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -538,7 +538,7 @@
     {
       "name": "GemwroughtArmor",
       "type": "armor",
-      "sortid": 84,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -552,7 +552,7 @@
     {
       "name": "GemwroughtArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -560,7 +560,7 @@
     {
       "name": "GemwroughtArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 191,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -568,7 +568,7 @@
     {
       "name": "GemwroughtArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -576,7 +576,7 @@
     {
       "name": "GemwroughtArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -584,7 +584,7 @@
     {
       "name": "Endersteel_oreOreBlock",
       "type": "block",
-      "sortid": 102,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -592,7 +592,7 @@
     {
       "name": "Endersteel_oreOreBlockRecipe",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -600,7 +600,7 @@
     {
       "name": "Endersteel_oreBlockOreRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -608,7 +608,7 @@
     {
       "name": "RedsteelPickaxe",
       "type": "tool",
-      "sortid": 146,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -616,7 +616,7 @@
     {
       "name": "RedsteelAxe",
       "type": "tool",
-      "sortid": 147,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -624,7 +624,7 @@
     {
       "name": "RedsteelSword",
       "type": "tool",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -632,7 +632,7 @@
     {
       "name": "RedsteelShovel",
       "type": "tool",
-      "sortid": 148,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -640,7 +640,7 @@
     {
       "name": "RedsteelHoe",
       "type": "tool",
-      "sortid": 149,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -648,7 +648,7 @@
     {
       "name": "RedsteelPickaxeRecipe",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -656,7 +656,7 @@
     {
       "name": "RedsteelAxeRecipe",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -664,7 +664,7 @@
     {
       "name": "RedsteelSwordRecipe",
       "type": "recipe",
-      "sortid": 199,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -672,7 +672,7 @@
     {
       "name": "RedsteelShovelRecipe",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -680,7 +680,7 @@
     {
       "name": "RedsteelHoeRecipe",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -688,7 +688,7 @@
     {
       "name": "NethercryptdaggerMobIsHitWithDagger",
       "type": "procedure",
-      "sortid": 202,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -704,7 +704,7 @@
     {
       "name": "Nethercryptdagger",
       "type": "tool",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -712,7 +712,7 @@
     {
       "name": "Milkbottle",
       "type": "potion",
-      "sortid": 203,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -720,7 +720,7 @@
     {
       "name": "MilkbottlePotionStartedapplied",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -736,7 +736,7 @@
     {
       "name": "Bluegrass",
       "type": "block",
-      "sortid": 103,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -744,7 +744,7 @@
     {
       "name": "Aetherbiome",
       "type": "biome",
-      "sortid": 209,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -752,7 +752,7 @@
     {
       "name": "Silverwoodlog",
       "type": "block",
-      "sortid": 104,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -760,7 +760,7 @@
     {
       "name": "VoidStone",
       "type": "block",
-      "sortid": 105,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -768,7 +768,7 @@
     {
       "name": "CakeSlime",
       "type": "mob",
-      "sortid": 155,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -776,7 +776,7 @@
     {
       "name": "Omnessence1OnPotionActiveTick",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -792,7 +792,7 @@
     {
       "name": "Omnessence1",
       "type": "potion",
-      "sortid": 211,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -800,7 +800,7 @@
     {
       "name": "Voidplanes",
       "type": "biome",
-      "sortid": 212,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -808,7 +808,7 @@
     {
       "name": "TheVoid",
       "type": "dimension",
-      "sortid": 150,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -816,7 +816,7 @@
     {
       "name": "TheVoidPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 213,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -848,7 +848,7 @@
     {
       "name": "Howtoentervoid",
       "type": "procedure",
-      "sortid": 214,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -864,7 +864,7 @@
     {
       "name": "Bedrockreplace",
       "type": "procedure",
-      "sortid": 215,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -880,7 +880,7 @@
     {
       "name": "Bedrock",
       "type": "block",
-      "sortid": 107,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -888,7 +888,7 @@
     {
       "name": "Bauxite",
       "type": "block",
-      "sortid": 98,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -896,7 +896,7 @@
     {
       "name": "BismuthOre",
       "type": "block",
-      "sortid": 108,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -905,7 +905,7 @@
     {
       "name": "TinOre",
       "type": "block",
-      "sortid": 109,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -914,7 +914,7 @@
     {
       "name": "CopperOre",
       "type": "block",
-      "sortid": 110,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -922,7 +922,7 @@
     {
       "name": "HOLYHANDGRENADE",
       "type": "gun",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -930,7 +930,7 @@
     {
       "name": "HOLYHANDGRENADEBulletHitsBlock",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -958,7 +958,7 @@
     {
       "name": "HOLYHANDGRENADERangedItemUsed",
       "type": "procedure",
-      "sortid": 241,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -974,7 +974,7 @@
     {
       "name": "SilverwoodLeaves",
       "type": "block",
-      "sortid": 121,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -982,7 +982,7 @@
     {
       "name": "Silverwood1",
       "type": "structure",
-      "sortid": 242,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -990,7 +990,7 @@
     {
       "name": "Silverwoodforest",
       "type": "biome",
-      "sortid": 243,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -998,7 +998,7 @@
     {
       "name": "Silverwoodalsonaturalgrowth",
       "type": "procedure",
-      "sortid": 246,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1026,7 +1026,7 @@
     {
       "name": "TitaniumArmor",
       "type": "armor",
-      "sortid": 72,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1040,7 +1040,7 @@
     {
       "name": "Silverwood2",
       "type": "structure",
-      "sortid": 307,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1048,7 +1048,7 @@
     {
       "name": "Silverwood3",
       "type": "structure",
-      "sortid": 308,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1056,7 +1056,7 @@
     {
       "name": "Extremevoidplanes",
       "type": "biome",
-      "sortid": 312,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1064,7 +1064,7 @@
     {
       "name": "Voidshroom",
       "type": "plant",
-      "sortid": 131,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1072,7 +1072,7 @@
     {
       "name": "AstralToadstool",
       "type": "plant",
-      "sortid": 132,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1080,7 +1080,7 @@
     {
       "name": "Macowanite",
       "type": "plant",
-      "sortid": 133,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1088,7 +1088,7 @@
     {
       "name": "Lightningrod",
       "type": "block",
-      "sortid": 122,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1096,7 +1096,7 @@
     {
       "name": "Blockbird",
       "type": "mob",
-      "sortid": 156,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1104,7 +1104,7 @@
     {
       "name": "Neko1",
       "type": "mob",
-      "sortid": 157,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1112,7 +1112,7 @@
     {
       "name": "Neko1OnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 313,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1128,7 +1128,7 @@
     {
       "name": "VoidMycelium",
       "type": "block",
-      "sortid": 123,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1136,7 +1136,7 @@
     {
       "name": "Zygomycota",
       "type": "plant",
-      "sortid": 134,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1144,7 +1144,7 @@
     {
       "name": "Fireshroom",
       "type": "plant",
-      "sortid": 135,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1152,7 +1152,7 @@
     {
       "name": "RainbowCap",
       "type": "plant",
-      "sortid": 136,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1160,7 +1160,7 @@
     {
       "name": "Voidshromblock",
       "type": "block",
-      "sortid": 124,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1168,7 +1168,7 @@
     {
       "name": "Astraltoodstool",
       "type": "block",
-      "sortid": 125,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1176,7 +1176,7 @@
     {
       "name": "Macowaniteblock",
       "type": "block",
-      "sortid": 126,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1184,7 +1184,7 @@
     {
       "name": "Firefungusblock",
       "type": "block",
-      "sortid": 127,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1192,7 +1192,7 @@
     {
       "name": "Rainbowcapblock",
       "type": "block",
-      "sortid": 128,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1200,7 +1200,7 @@
     {
       "name": "Bigastraltoadstool",
       "type": "structure",
-      "sortid": 314,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1208,7 +1208,7 @@
     {
       "name": "Bigfirefungus",
       "type": "structure",
-      "sortid": 315,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1216,7 +1216,7 @@
     {
       "name": "Bigmacowanite",
       "type": "structure",
-      "sortid": 316,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1224,7 +1224,7 @@
     {
       "name": "Bigrainbowcap",
       "type": "structure",
-      "sortid": 317,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1232,7 +1232,7 @@
     {
       "name": "Bigvoidshroom",
       "type": "structure",
-      "sortid": 318,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1240,7 +1240,7 @@
     {
       "name": "AetherFrame",
       "type": "block",
-      "sortid": 129,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1248,7 +1248,7 @@
     {
       "name": "TheAether",
       "type": "dimension",
-      "sortid": 151,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1256,7 +1256,7 @@
     {
       "name": "Cobaltore",
       "type": "block",
-      "sortid": 111,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1264,7 +1264,7 @@
     {
       "name": "Iridiumore",
       "type": "block",
-      "sortid": 112,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1272,7 +1272,7 @@
     {
       "name": "LeadOre",
       "type": "block",
-      "sortid": 113,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1280,7 +1280,7 @@
     {
       "name": "VoidCrystle",
       "type": "block",
-      "sortid": 114,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1288,7 +1288,7 @@
     {
       "name": "CrocoiteShard",
       "type": "item",
-      "sortid": 153,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1297,7 +1297,7 @@
     {
       "name": "BlueCrocoite",
       "type": "plant",
-      "sortid": 137,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1306,7 +1306,7 @@
     {
       "name": "BlueCrocoiteBlock",
       "type": "block",
-      "sortid": 116,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1315,7 +1315,7 @@
     {
       "name": "InfestedVoidstone",
       "type": "block",
-      "sortid": 115,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1323,7 +1323,7 @@
     {
       "name": "CrocoiteLarge",
       "type": "structure",
-      "sortid": 319,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1331,7 +1331,7 @@
     {
       "name": "VoidEnter",
       "type": "achievement",
-      "sortid": 320,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1339,7 +1339,7 @@
     {
       "name": "BlueSteelIngot",
       "type": "item",
-      "sortid": 28,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1347,7 +1347,7 @@
     {
       "name": "BlueArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 325,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1355,7 +1355,7 @@
     {
       "name": "BlueArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 326,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1363,7 +1363,7 @@
     {
       "name": "BlueArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 327,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1371,7 +1371,7 @@
     {
       "name": "BlueArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 328,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1379,7 +1379,7 @@
     {
       "name": "DarkFelSteelIngot",
       "type": "item",
-      "sortid": 29,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1387,7 +1387,7 @@
     {
       "name": "DarkIronIngot",
       "type": "item",
-      "sortid": 30,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1395,7 +1395,7 @@
     {
       "name": "DarkFelSteelArmor",
       "type": "armor",
-      "sortid": 80,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1409,7 +1409,7 @@
     {
       "name": "DarkFelSteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 329,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1417,7 +1417,7 @@
     {
       "name": "DarkFelSteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 330,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1425,7 +1425,7 @@
     {
       "name": "DarkFelSteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 331,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1433,7 +1433,7 @@
     {
       "name": "DarkFelSteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1441,7 +1441,7 @@
     {
       "name": "DarkIronArmor",
       "type": "armor",
-      "sortid": 66,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1455,7 +1455,7 @@
     {
       "name": "DarkIronArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 333,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1463,7 +1463,7 @@
     {
       "name": "DarkIronArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1471,7 +1471,7 @@
     {
       "name": "DarkIronArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 335,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1479,7 +1479,7 @@
     {
       "name": "DarkIronArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 336,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1487,7 +1487,7 @@
     {
       "name": "MithrilIngot",
       "type": "item",
-      "sortid": 34,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1495,7 +1495,7 @@
     {
       "name": "MithrilArmor",
       "type": "armor",
-      "sortid": 81,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1509,7 +1509,7 @@
     {
       "name": "MithrilArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1517,7 +1517,7 @@
     {
       "name": "MithrilArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1525,7 +1525,7 @@
     {
       "name": "MithrilArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 351,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1533,7 +1533,7 @@
     {
       "name": "MithrilArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1541,7 +1541,7 @@
     {
       "name": "MoonsilverIngot",
       "type": "item",
-      "sortid": 35,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1549,7 +1549,7 @@
     {
       "name": "MoonsilverArmor",
       "type": "armor",
-      "sortid": 77,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1563,7 +1563,7 @@
     {
       "name": "MoonsilverArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 353,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1571,7 +1571,7 @@
     {
       "name": "MoonsilverArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1579,7 +1579,7 @@
     {
       "name": "MoonsilverArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 355,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1587,7 +1587,7 @@
     {
       "name": "MoonsilverArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 356,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1595,7 +1595,7 @@
     {
       "name": "OricalIngot",
       "type": "item",
-      "sortid": 36,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1603,7 +1603,7 @@
     {
       "name": "RoseGoldIngot",
       "type": "item",
-      "sortid": 37,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1611,7 +1611,7 @@
     {
       "name": "RedBrassIngot",
       "type": "item",
-      "sortid": 38,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1619,7 +1619,7 @@
     {
       "name": "OricalArmor",
       "type": "armor",
-      "sortid": 82,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1633,7 +1633,7 @@
     {
       "name": "OricalArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1641,7 +1641,7 @@
     {
       "name": "OricalArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1649,7 +1649,7 @@
     {
       "name": "OricalArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1657,7 +1657,7 @@
     {
       "name": "OricalArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 360,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1665,7 +1665,7 @@
     {
       "name": "RoseArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1673,7 +1673,7 @@
     {
       "name": "RoseArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 362,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1681,7 +1681,7 @@
     {
       "name": "RoseArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1689,7 +1689,7 @@
     {
       "name": "RoseArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 364,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1697,7 +1697,7 @@
     {
       "name": "RedBrassArmor",
       "type": "armor",
-      "sortid": 61,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1711,7 +1711,7 @@
     {
       "name": "RedBrassArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1719,7 +1719,7 @@
     {
       "name": "RedBrassArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1727,7 +1727,7 @@
     {
       "name": "RedBrassArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 367,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1735,7 +1735,7 @@
     {
       "name": "RedBrassArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 368,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1743,7 +1743,7 @@
     {
       "name": "Lupin",
       "type": "mob",
-      "sortid": 159,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1751,7 +1751,7 @@
     {
       "name": "Lupin1",
       "type": "procedure",
-      "sortid": 373,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1771,7 +1771,7 @@
     {
       "name": "NIckelIngot",
       "type": "item",
-      "sortid": 40,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1779,7 +1779,7 @@
     {
       "name": "NickelArmor",
       "type": "armor",
-      "sortid": 51,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1793,7 +1793,7 @@
     {
       "name": "NickelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 374,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1801,7 +1801,7 @@
     {
       "name": "NickelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 375,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1809,7 +1809,7 @@
     {
       "name": "NickelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 376,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1817,7 +1817,7 @@
     {
       "name": "NickelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 377,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1825,7 +1825,7 @@
     {
       "name": "IridiumIngot",
       "type": "item",
-      "sortid": 41,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1833,7 +1833,7 @@
     {
       "name": "IridiumArmor",
       "type": "armor",
-      "sortid": 52,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1847,7 +1847,7 @@
     {
       "name": "IridiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 378,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1855,7 +1855,7 @@
     {
       "name": "IridiumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 379,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1863,7 +1863,7 @@
     {
       "name": "IridiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 380,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1871,7 +1871,7 @@
     {
       "name": "IridiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 381,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1879,7 +1879,7 @@
     {
       "name": "ObsidianArmor",
       "type": "armor",
-      "sortid": 56,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1893,7 +1893,7 @@
     {
       "name": "ObsidianArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1901,7 +1901,7 @@
     {
       "name": "ObsidianArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1909,7 +1909,7 @@
     {
       "name": "ObsidianArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1917,7 +1917,7 @@
     {
       "name": "ObsidianArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1925,7 +1925,7 @@
     {
       "name": "FlowingWaterSteelIngot",
       "type": "item",
-      "sortid": 42,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1933,7 +1933,7 @@
     {
       "name": "FlowingArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 386,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1941,7 +1941,7 @@
     {
       "name": "FlowingArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1949,7 +1949,7 @@
     {
       "name": "FlowingArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1957,7 +1957,7 @@
     {
       "name": "FlowingArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1965,7 +1965,7 @@
     {
       "name": "EmeraldArmor",
       "type": "armor",
-      "sortid": 70,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1979,7 +1979,7 @@
     {
       "name": "EmeraldArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1987,7 +1987,7 @@
     {
       "name": "EmeraldArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1995,7 +1995,7 @@
     {
       "name": "EmeraldArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2003,7 +2003,7 @@
     {
       "name": "EmeraldArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2011,7 +2011,7 @@
     {
       "name": "AeonForgegui",
       "type": "gui",
-      "sortid": 396,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2019,7 +2019,7 @@
     {
       "name": "AeonForge",
       "type": "block",
-      "sortid": 161,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2027,7 +2027,7 @@
     {
       "name": "Aeonguicode",
       "type": "procedure",
-      "sortid": 397,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2055,7 +2055,7 @@
     {
       "name": "PowederKeg",
       "type": "block",
-      "sortid": 154,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2064,7 +2064,7 @@
     {
       "name": "AetheriaTools",
       "type": "tab",
-      "sortid": 396,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2072,7 +2072,7 @@
     {
       "name": "AetheriaCrafting",
       "type": "tab",
-      "sortid": 399,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2080,7 +2080,7 @@
     {
       "name": "AetheriaMaterials",
       "type": "tab",
-      "sortid": 398,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2088,7 +2088,7 @@
     {
       "name": "AetheriaMisc",
       "type": "tab",
-      "sortid": 399,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2096,7 +2096,7 @@
     {
       "name": "AetheriaArmor",
       "type": "tab",
-      "sortid": 400,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2104,7 +2104,7 @@
     {
       "name": "AetheriaBlocks",
       "type": "tab",
-      "sortid": 401,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2112,7 +2112,7 @@
     {
       "name": "AetheriaFoodItems",
       "type": "tab",
-      "sortid": 402,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2120,7 +2120,7 @@
     {
       "name": "AetheriaWeapons",
       "type": "tab",
-      "sortid": 403,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2128,7 +2128,7 @@
     {
       "name": "TitaniumOreSmelt",
       "type": "recipe",
-      "sortid": 405,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2136,7 +2136,7 @@
     {
       "name": "GemWroughttoIngot",
       "type": "recipe",
-      "sortid": 406,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2144,7 +2144,7 @@
     {
       "name": "AeonFurnace",
       "type": "block",
-      "sortid": 162,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2152,7 +2152,7 @@
     {
       "name": "BismuthSmelt",
       "type": "recipe",
-      "sortid": 409,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2160,7 +2160,7 @@
     {
       "name": "TinSmelt",
       "type": "recipe",
-      "sortid": 410,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2168,7 +2168,7 @@
     {
       "name": "CopperSmelt",
       "type": "recipe",
-      "sortid": 411,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2176,7 +2176,7 @@
     {
       "name": "CobaltSmelt",
       "type": "recipe",
-      "sortid": 412,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2184,7 +2184,7 @@
     {
       "name": "IridiumSmelt",
       "type": "recipe",
-      "sortid": 413,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2192,7 +2192,7 @@
     {
       "name": "LeadSmelt",
       "type": "recipe",
-      "sortid": 414,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2200,7 +2200,7 @@
     {
       "name": "TitaniumOreblast",
       "type": "recipe",
-      "sortid": 415,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2208,7 +2208,7 @@
     {
       "name": "BismuthBlast",
       "type": "recipe",
-      "sortid": 416,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2216,7 +2216,7 @@
     {
       "name": "TinBlast",
       "type": "recipe",
-      "sortid": 417,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2224,7 +2224,7 @@
     {
       "name": "CopperBlast",
       "type": "recipe",
-      "sortid": 418,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2232,7 +2232,7 @@
     {
       "name": "CobaltBlast",
       "type": "recipe",
-      "sortid": 419,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2240,7 +2240,7 @@
     {
       "name": "IridiumBlast",
       "type": "recipe",
-      "sortid": 420,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2248,7 +2248,7 @@
     {
       "name": "LeadBlast",
       "type": "recipe",
-      "sortid": 421,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2256,7 +2256,7 @@
     {
       "name": "Silverwoodsap",
       "type": "plant",
-      "sortid": 155,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2264,7 +2264,7 @@
     {
       "name": "Logs",
       "type": "tag",
-      "sortid": 422,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2272,7 +2272,7 @@
     {
       "name": "LeadBlock",
       "type": "block",
-      "sortid": 149,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2280,7 +2280,7 @@
     {
       "name": "AetheriaMusic",
       "type": "tab",
-      "sortid": 422,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2288,7 +2288,7 @@
     {
       "name": "SpecialStone",
       "type": "block",
-      "sortid": 426,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2296,7 +2296,7 @@
     {
       "name": "SilverBlock",
       "type": "block",
-      "sortid": 427,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2304,7 +2304,7 @@
     {
       "name": "LeadBlockR",
       "type": "recipe",
-      "sortid": 438,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2312,7 +2312,7 @@
     {
       "name": "SpecialStoneAchievementFunction",
       "type": "function",
-      "sortid": 428,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2320,7 +2320,7 @@
     {
       "name": "AetheriaEntities",
       "type": "tab",
-      "sortid": 429,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2328,7 +2328,7 @@
     {
       "name": "SpecialStoneAchievement",
       "type": "achievement",
-      "sortid": 427,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2336,7 +2336,7 @@
     {
       "name": "UltraRareCow",
       "type": "mob",
-      "sortid": 429,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2345,7 +2345,7 @@
     {
       "name": "SilverBlockR",
       "type": "recipe",
-      "sortid": 449,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2353,7 +2353,7 @@
     {
       "name": "ScytheBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 453,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2382,7 +2382,7 @@
     {
       "name": "Scythe",
       "type": "tool",
-      "sortid": 453,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2391,7 +2391,7 @@
     {
       "name": "Glowmoss",
       "type": "item",
-      "sortid": 455,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2400,7 +2400,7 @@
     {
       "name": "QuestItems",
       "type": "tab",
-      "sortid": 456,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2409,7 +2409,7 @@
     {
       "name": "OPTestPick",
       "type": "tool",
-      "sortid": 454,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2418,7 +2418,7 @@
     {
       "name": "WoodenChairBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 466,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2447,7 +2447,7 @@
     {
       "name": "Lantern",
       "type": "structure",
-      "sortid": 454,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2455,7 +2455,7 @@
     {
       "name": "PowederKegOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 452,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2487,7 +2487,7 @@
     {
       "name": "Ruins1",
       "type": "structure",
-      "sortid": 455,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2495,7 +2495,7 @@
     {
       "name": "ChairEntity",
       "type": "mob",
-      "sortid": 464,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2504,7 +2504,7 @@
     {
       "name": "WoodenChairBlockAdded",
       "type": "procedure",
-      "sortid": 465,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2533,7 +2533,7 @@
     {
       "name": "NickelOre",
       "type": "block",
-      "sortid": 457,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2541,7 +2541,7 @@
     {
       "name": "IronRapier",
       "type": "tool",
-      "sortid": 463,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2549,7 +2549,7 @@
     {
       "name": "WoodenChair",
       "type": "block",
-      "sortid": 465,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2558,7 +2558,7 @@
     {
       "name": "PowederKegExplosion",
       "type": "procedure",
-      "sortid": 453,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2586,7 +2586,7 @@
     {
       "name": "SilverOre",
       "type": "block",
-      "sortid": 456,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2594,7 +2594,7 @@
     {
       "name": "Plantslayingfunction",
       "type": "procedure",
-      "sortid": 462,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2614,7 +2614,7 @@
     {
       "name": "DeadPlayerBody",
       "type": "mob",
-      "sortid": 467,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2623,7 +2623,7 @@
     {
       "name": "Deadbodyisappearing",
       "type": "procedure",
-      "sortid": 468,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2640,7 +2640,7 @@
     {
       "name": "SporeReservoirMobplayerCollidesBlock",
       "type": "procedure",
-      "sortid": 469,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2657,7 +2657,7 @@
     {
       "name": "FoxFur",
       "type": "item",
-      "sortid": 470,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2666,7 +2666,7 @@
     {
       "name": "Glowshroom",
       "type": "plant",
-      "sortid": 471,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2675,7 +2675,7 @@
     {
       "name": "NickelSmelt",
       "type": "recipe",
-      "sortid": 485,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2684,7 +2684,7 @@
     {
       "name": "PalladiumOre",
       "type": "block",
-      "sortid": 474,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2693,7 +2693,7 @@
     {
       "name": "TungstenOre",
       "type": "block",
-      "sortid": 471,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2702,7 +2702,7 @@
     {
       "name": "PlatinumSmelt",
       "type": "recipe",
-      "sortid": 478,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2711,7 +2711,7 @@
     {
       "name": "PlatinumOre",
       "type": "block",
-      "sortid": 475,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2720,7 +2720,7 @@
     {
       "name": "ZincOre",
       "type": "block",
-      "sortid": 476,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2729,7 +2729,7 @@
     {
       "name": "ZincBlast",
       "type": "recipe",
-      "sortid": 479,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2738,7 +2738,7 @@
     {
       "name": "SilverBlast",
       "type": "recipe",
-      "sortid": 484,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2747,7 +2747,7 @@
     {
       "name": "PalladiumSmelt",
       "type": "recipe",
-      "sortid": 481,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2756,7 +2756,7 @@
     {
       "name": "PalladiumBlast",
       "type": "recipe",
-      "sortid": 482,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2765,7 +2765,7 @@
     {
       "name": "SilverSmelt",
       "type": "recipe",
-      "sortid": 483,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2774,7 +2774,7 @@
     {
       "name": "RawToIngotTungsten",
       "type": "recipe",
-      "sortid": 473,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2783,7 +2783,7 @@
     {
       "name": "NickelBlast",
       "type": "recipe",
-      "sortid": 486,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2792,7 +2792,7 @@
     {
       "name": "TungstenSmelt",
       "type": "recipe",
-      "sortid": 472,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2801,7 +2801,7 @@
     {
       "name": "ZincOreSmelt",
       "type": "recipe",
-      "sortid": 477,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2810,7 +2810,7 @@
     {
       "name": "PlatinumBlast",
       "type": "recipe",
-      "sortid": 480,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2819,7 +2819,7 @@
     {
       "name": "GlowshroomStewFoodEaten",
       "type": "procedure",
-      "sortid": 487,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2836,7 +2836,7 @@
     {
       "name": "GlowshroomStew",
       "type": "food",
-      "sortid": 487,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2845,7 +2845,7 @@
     {
       "name": "GlowshroomStewRecipe",
       "type": "recipe",
-      "sortid": 488,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2854,7 +2854,7 @@
     {
       "name": "Mummy",
       "type": "mob",
-      "sortid": 489,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2863,7 +2863,7 @@
     {
       "name": "FoxDropExtra",
       "type": "loottable",
-      "sortid": 490,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2872,7 +2872,7 @@
     {
       "name": "OinkLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 493,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2901,7 +2901,7 @@
     {
       "name": "BronzeArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 626,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2910,7 +2910,7 @@
     {
       "name": "Underworld",
       "type": "dimension",
-      "sortid": 490,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2919,7 +2919,7 @@
     {
       "name": "SilverArmor",
       "type": "armor",
-      "sortid": 673,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2934,7 +2934,7 @@
     {
       "name": "EndersteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 602,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2943,7 +2943,7 @@
     {
       "name": "EndersteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 603,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2952,7 +2952,7 @@
     {
       "name": "AluminumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 699,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2961,7 +2961,7 @@
     {
       "name": "CopperArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 716,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2970,7 +2970,7 @@
     {
       "name": "PalladiumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 656,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2979,7 +2979,7 @@
     {
       "name": "SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 681,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2988,7 +2988,7 @@
     {
       "name": "UnderworldBiome",
       "type": "biome",
-      "sortid": 516,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2997,7 +2997,7 @@
     {
       "name": "FelsteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 557,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3006,7 +3006,7 @@
     {
       "name": "MagnegoldArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 691,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3015,7 +3015,7 @@
     {
       "name": "BismuthArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 706,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3024,7 +3024,7 @@
     {
       "name": "FelsteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 555,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3033,7 +3033,7 @@
     {
       "name": "LostSoul",
       "type": "mob",
-      "sortid": 506,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3042,7 +3042,7 @@
     {
       "name": "SHUltimate",
       "type": "musicdisc",
-      "sortid": 512,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3051,7 +3051,7 @@
     {
       "name": "Black_BronzeArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 584,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3060,7 +3060,7 @@
     {
       "name": "AluminumArmor",
       "type": "armor",
-      "sortid": 698,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3075,7 +3075,7 @@
     {
       "name": "BrassIngot",
       "type": "item",
-      "sortid": 610,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3084,7 +3084,7 @@
     {
       "name": "StormberryCookie",
       "type": "food",
-      "sortid": 533,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3093,7 +3093,7 @@
     {
       "name": "Flowing_Water_SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3102,7 +3102,7 @@
     {
       "name": "Rose_GoldArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 562,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3111,7 +3111,7 @@
     {
       "name": "BismuthArmor",
       "type": "armor",
-      "sortid": 703,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3126,7 +3126,7 @@
     {
       "name": "CopperIngot",
       "type": "item",
-      "sortid": 648,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3135,7 +3135,7 @@
     {
       "name": "TinBlockRecipe",
       "type": "recipe",
-      "sortid": 724,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3144,7 +3144,7 @@
     {
       "name": "Sterling_SilverArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 669,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3153,7 +3153,7 @@
     {
       "name": "GoldRingRecipe",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3162,7 +3162,7 @@
     {
       "name": "Cold_IronArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 608,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3171,7 +3171,7 @@
     {
       "name": "ParasolMushroomPatch",
       "type": "plant",
-      "sortid": 721,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3180,7 +3180,7 @@
     {
       "name": "AluminumIngot",
       "type": "item",
-      "sortid": 644,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3189,7 +3189,7 @@
     {
       "name": "SilverArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 676,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3198,7 +3198,7 @@
     {
       "name": "Mycon",
       "type": "mob",
-      "sortid": 513,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3207,7 +3207,7 @@
     {
       "name": "CrucibleRecipe",
       "type": "recipe",
-      "sortid": 511,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3216,7 +3216,7 @@
     {
       "name": "FeysteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 549,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3225,7 +3225,7 @@
     {
       "name": "PlatinumIngot",
       "type": "item",
-      "sortid": 586,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3234,7 +3234,7 @@
     {
       "name": "CopperArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 715,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3243,7 +3243,7 @@
     {
       "name": "TinBlock",
       "type": "block",
-      "sortid": 723,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3252,7 +3252,7 @@
     {
       "name": "BronzeArmor",
       "type": "armor",
-      "sortid": 623,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3267,7 +3267,7 @@
     {
       "name": "EndersteelIngot",
       "type": "item",
-      "sortid": 598,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3276,7 +3276,7 @@
     {
       "name": "SteelIngot",
       "type": "item",
-      "sortid": 650,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3285,7 +3285,7 @@
     {
       "name": "DeathCap",
       "type": "plant",
-      "sortid": 720,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3294,7 +3294,7 @@
     {
       "name": "IronRing",
       "type": "item",
-      "sortid": 573,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3303,7 +3303,7 @@
     {
       "name": "Cold_IronArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 609,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3312,7 +3312,7 @@
     {
       "name": "Dim99",
       "type": "dimension",
-      "sortid": 501,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3321,7 +3321,7 @@
     {
       "name": "ElectrumArmor",
       "type": "armor",
-      "sortid": 683,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3336,7 +3336,7 @@
     {
       "name": "AeonFurnaceRecipes",
       "type": "procedure",
-      "sortid": 508,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3365,7 +3365,7 @@
     {
       "name": "Black_BronzeArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 583,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3374,7 +3374,7 @@
     {
       "name": "TinIngot",
       "type": "item",
-      "sortid": 645,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3383,7 +3383,7 @@
     {
       "name": "PalladiumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 655,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3392,7 +3392,7 @@
     {
       "name": "AluminumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 700,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3401,7 +3401,7 @@
     {
       "name": "Rose_GoldArmor",
       "type": "armor",
-      "sortid": 558,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3416,7 +3416,7 @@
     {
       "name": "BlacksteelArmor",
       "type": "armor",
-      "sortid": 565,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3431,7 +3431,7 @@
     {
       "name": "AdamantArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 534,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3440,7 +3440,7 @@
     {
       "name": "BrassArmor",
       "type": "armor",
-      "sortid": 611,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3455,7 +3455,7 @@
     {
       "name": "ZincArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 696,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3464,7 +3464,7 @@
     {
       "name": "EndersteelArmor",
       "type": "armor",
-      "sortid": 599,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3479,7 +3479,7 @@
     {
       "name": "Flowing_Water_SteelArmor",
       "type": "armor",
-      "sortid": 541,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3494,7 +3494,7 @@
     {
       "name": "PewterBlock",
       "type": "block",
-      "sortid": 725,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3503,7 +3503,7 @@
     {
       "name": "Flowing_Water_SteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 544,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3512,7 +3512,7 @@
     {
       "name": "PewterArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 621,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3521,7 +3521,7 @@
     {
       "name": "Cold_IronArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 607,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3530,7 +3530,7 @@
     {
       "name": "BismuthArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 704,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3539,7 +3539,7 @@
     {
       "name": "PewterBlockRecipe",
       "type": "recipe",
-      "sortid": 727,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3548,7 +3548,7 @@
     {
       "name": "SilverIngot",
       "type": "item",
-      "sortid": 649,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3557,7 +3557,7 @@
     {
       "name": "AeonForgeRecipes",
       "type": "procedure",
-      "sortid": 509,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3586,7 +3586,7 @@
     {
       "name": "EndersteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 600,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3595,7 +3595,7 @@
     {
       "name": "TitaniumNuggeet",
       "type": "item",
-      "sortid": 634,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3604,7 +3604,7 @@
     {
       "name": "ZincArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 694,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3613,7 +3613,7 @@
     {
       "name": "Black_BronzeArmor",
       "type": "armor",
-      "sortid": 581,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3628,7 +3628,7 @@
     {
       "name": "GoldenAppleRecipe",
       "type": "recipe",
-      "sortid": 538,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3637,7 +3637,7 @@
     {
       "name": "AdvancedCrucible",
       "type": "block",
-      "sortid": 517,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3646,7 +3646,7 @@
     {
       "name": "SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 682,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3655,7 +3655,7 @@
     {
       "name": "PlatinumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 590,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3664,7 +3664,7 @@
     {
       "name": "SterlingSilverArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 666,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3673,7 +3673,7 @@
     {
       "name": "CobaltArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 640,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3682,7 +3682,7 @@
     {
       "name": "AluminumBlock",
       "type": "block",
-      "sortid": 726,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3691,7 +3691,7 @@
     {
       "name": "CobaltArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 639,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3700,7 +3700,7 @@
     {
       "name": "BrassArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 614,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3709,7 +3709,7 @@
     {
       "name": "FelsteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 554,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3718,7 +3718,7 @@
     {
       "name": "BismuthIngot",
       "type": "item",
-      "sortid": 643,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3727,7 +3727,7 @@
     {
       "name": "GrassStew",
       "type": "food",
-      "sortid": 523,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3736,7 +3736,7 @@
     {
       "name": "MagnegoldBlockRecipe",
       "type": "recipe",
-      "sortid": 730,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3745,7 +3745,7 @@
     {
       "name": "BlacksteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 568,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3754,7 +3754,7 @@
     {
       "name": "ElectrumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 684,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3763,7 +3763,7 @@
     {
       "name": "MagnegoldArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 690,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3772,7 +3772,7 @@
     {
       "name": "CopperArmor",
       "type": "armor",
-      "sortid": 713,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3787,7 +3787,7 @@
     {
       "name": "Cheese",
       "type": "food",
-      "sortid": 520,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3796,7 +3796,7 @@
     {
       "name": "StormberryCakeRecipe",
       "type": "recipe",
-      "sortid": 537,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3805,7 +3805,7 @@
     {
       "name": "Bismuth_BronzeArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 596,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3814,7 +3814,7 @@
     {
       "name": "ElectrumIngot",
       "type": "item",
-      "sortid": 651,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3823,7 +3823,7 @@
     {
       "name": "TinArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 710,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3832,7 +3832,7 @@
     {
       "name": "Sterling_SilverArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 671,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3841,7 +3841,7 @@
     {
       "name": "UmberStalk",
       "type": "item",
-      "sortid": 530,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3850,7 +3850,7 @@
     {
       "name": "Rose_GoldArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 559,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3859,7 +3859,7 @@
     {
       "name": "ZincArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 695,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3868,7 +3868,7 @@
     {
       "name": "Rose_GoldArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 561,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3877,7 +3877,7 @@
     {
       "name": "PlatinumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 588,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3886,7 +3886,7 @@
     {
       "name": "PewterArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 620,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3895,7 +3895,7 @@
     {
       "name": "MagnegoldIngot",
       "type": "item",
-      "sortid": 652,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3904,7 +3904,7 @@
     {
       "name": "ElectrumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 687,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3913,7 +3913,7 @@
     {
       "name": "OpenAccessories",
       "type": "keybind",
-      "sortid": 514,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3922,7 +3922,7 @@
     {
       "name": "ElectrumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 685,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3931,7 +3931,7 @@
     {
       "name": "SilverArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 674,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3940,7 +3940,7 @@
     {
       "name": "AluminumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 702,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3949,7 +3949,7 @@
     {
       "name": "FeysteelArmor",
       "type": "armor",
-      "sortid": 547,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3964,7 +3964,7 @@
     {
       "name": "BedrockBreaker",
       "type": "tool",
-      "sortid": 499,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3973,7 +3973,7 @@
     {
       "name": "EndersteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 601,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3982,7 +3982,7 @@
     {
       "name": "LeadArmor",
       "type": "armor",
-      "sortid": 658,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3997,7 +3997,7 @@
     {
       "name": "CocoabeanRollRecipe",
       "type": "recipe",
-      "sortid": 532,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4006,7 +4006,7 @@
     {
       "name": "LeadArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 661,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4015,7 +4015,7 @@
     {
       "name": "Bismuth_BronzeArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4024,7 +4024,7 @@
     {
       "name": "LeadArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 660,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4033,7 +4033,7 @@
     {
       "name": "CobaltArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 638,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4042,7 +4042,7 @@
     {
       "name": "OpenAccessoriesOnKeyPressed",
       "type": "procedure",
-      "sortid": 514,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4075,7 +4075,7 @@
     {
       "name": "BedrockBreakerRecipe",
       "type": "recipe",
-      "sortid": 500,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4084,7 +4084,7 @@
     {
       "name": "FeysteelIngot",
       "type": "item",
-      "sortid": 546,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4093,7 +4093,7 @@
     {
       "name": "CopperArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 714,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4102,7 +4102,7 @@
     {
       "name": "BrassArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 612,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4111,7 +4111,7 @@
     {
       "name": "PewterArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 618,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4120,7 +4120,7 @@
     {
       "name": "Oink",
       "type": "tool",
-      "sortid": 493,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4129,7 +4129,7 @@
     {
       "name": "StormberryCookieFoodEaten",
       "type": "procedure",
-      "sortid": 535,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4146,7 +4146,7 @@
     {
       "name": "PalladiumArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 654,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4155,7 +4155,7 @@
     {
       "name": "LeadArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 662,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4164,7 +4164,7 @@
     {
       "name": "AluminumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 701,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4173,7 +4173,7 @@
     {
       "name": "TinArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 709,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4182,7 +4182,7 @@
     {
       "name": "BluesteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 574,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4191,7 +4191,7 @@
     {
       "name": "MagnegoldArmor",
       "type": "armor",
-      "sortid": 688,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4206,7 +4206,7 @@
     {
       "name": "BlacksteelIngot",
       "type": "item",
-      "sortid": 564,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4215,7 +4215,7 @@
     {
       "name": "CobaltArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 637,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4224,7 +4224,7 @@
     {
       "name": "Moldsnout",
       "type": "mob",
-      "sortid": 496,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4233,7 +4233,7 @@
     {
       "name": "AdamantArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 532,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4242,7 +4242,7 @@
     {
       "name": "ZincIngot",
       "type": "item",
-      "sortid": 641,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4251,7 +4251,7 @@
     {
       "name": "BlacksteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4260,7 +4260,7 @@
     {
       "name": "BismuthBronzeIngot",
       "type": "item",
-      "sortid": 592,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4269,7 +4269,7 @@
     {
       "name": "AdamantArmor",
       "type": "armor",
-      "sortid": 531,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4284,7 +4284,7 @@
     {
       "name": "TungstenArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 631,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4293,7 +4293,7 @@
     {
       "name": "BlacksteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 566,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4302,7 +4302,7 @@
     {
       "name": "Black_BronzeArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 582,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4311,7 +4311,7 @@
     {
       "name": "Rose_GoldArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 560,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4320,7 +4320,7 @@
     {
       "name": "ApplePieRecipe",
       "type": "recipe",
-      "sortid": 522,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4329,7 +4329,7 @@
     {
       "name": "PlatinumArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 589,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4338,7 +4338,7 @@
     {
       "name": "ElectrumArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 686,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4347,7 +4347,7 @@
     {
       "name": "Flowing_Water_SteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 543,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4356,7 +4356,7 @@
     {
       "name": "Cold_IronArmor",
       "type": "armor",
-      "sortid": 605,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4371,7 +4371,7 @@
     {
       "name": "AeonFurnaceGUI",
       "type": "gui",
-      "sortid": 507,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4380,7 +4380,7 @@
     {
       "name": "BlacksteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 567,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4389,7 +4389,7 @@
     {
       "name": "FelsteelArmor",
       "type": "armor",
-      "sortid": 553,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4404,7 +4404,7 @@
     {
       "name": "Black_BronzeArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4413,7 +4413,7 @@
     {
       "name": "ZincArmor",
       "type": "armor",
-      "sortid": 693,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4428,7 +4428,7 @@
     {
       "name": "TungstenIngot",
       "type": "item",
-      "sortid": 628,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4437,7 +4437,7 @@
     {
       "name": "StyxWater",
       "type": "fluid",
-      "sortid": 502,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4446,7 +4446,7 @@
     {
       "name": "GrassStewRecipe",
       "type": "recipe",
-      "sortid": 524,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4455,7 +4455,7 @@
     {
       "name": "SterlingSilverArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 664,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4464,7 +4464,7 @@
     {
       "name": "Sterling_SilverArmor",
       "type": "armor",
-      "sortid": 668,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4479,7 +4479,7 @@
     {
       "name": "StormberryCookieRecipe",
       "type": "recipe",
-      "sortid": 534,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4488,7 +4488,7 @@
     {
       "name": "UnderworldBiome2",
       "type": "biome",
-      "sortid": 512,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4497,7 +4497,7 @@
     {
       "name": "BluesteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 572,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4506,7 +4506,7 @@
     {
       "name": "AdamantArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 533,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4515,7 +4515,7 @@
     {
       "name": "LeadIngot",
       "type": "item",
-      "sortid": 646,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4524,7 +4524,7 @@
     {
       "name": "FeysteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 550,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4533,7 +4533,7 @@
     {
       "name": "IronRingRecipe",
       "type": "recipe",
-      "sortid": 574,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4542,7 +4542,7 @@
     {
       "name": "BelowTheBedrock",
       "type": "achievement",
-      "sortid": 492,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4551,7 +4551,7 @@
     {
       "name": "BluesteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 571,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4560,7 +4560,7 @@
     {
       "name": "AdamantArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 535,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4569,7 +4569,7 @@
     {
       "name": "WelcomeToAetheria",
       "type": "achievement",
-      "sortid": 497,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4578,7 +4578,7 @@
     {
       "name": "PewterIngot",
       "type": "item",
-      "sortid": 616,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4587,7 +4587,7 @@
     {
       "name": "TungstenArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 630,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4596,7 +4596,7 @@
     {
       "name": "PalladiumArmor",
       "type": "armor",
-      "sortid": 653,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4611,7 +4611,7 @@
     {
       "name": "CobaltArmor",
       "type": "armor",
-      "sortid": 636,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4626,7 +4626,7 @@
     {
       "name": "PalladiumIngot",
       "type": "item",
-      "sortid": 642,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4635,7 +4635,7 @@
     {
       "name": "TinArmor",
       "type": "armor",
-      "sortid": 708,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4650,7 +4650,7 @@
     {
       "name": "SterlingSilverArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 667,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4659,7 +4659,7 @@
     {
       "name": "PewterArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 619,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4668,7 +4668,7 @@
     {
       "name": "BluesteelArmor",
       "type": "armor",
-      "sortid": 570,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4683,7 +4683,7 @@
     {
       "name": "ZincArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 697,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4692,7 +4692,7 @@
     {
       "name": "StormberryRollRecipe",
       "type": "recipe",
-      "sortid": 525,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4701,7 +4701,7 @@
     {
       "name": "AntiCheatOnPotionActiveTick",
       "type": "procedure",
-      "sortid": 505,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4718,7 +4718,7 @@
     {
       "name": "SterlingSilverIngot",
       "type": "item",
-      "sortid": 647,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4727,7 +4727,7 @@
     {
       "name": "BronzeArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 625,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4736,7 +4736,7 @@
     {
       "name": "TinArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 711,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4745,7 +4745,7 @@
     {
       "name": "AdvancedCrucibleRecipes",
       "type": "procedure",
-      "sortid": 519,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4774,7 +4774,7 @@
     {
       "name": "AdamantIngot",
       "type": "item",
-      "sortid": 530,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4783,7 +4783,7 @@
     {
       "name": "BluesteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 573,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4792,7 +4792,7 @@
     {
       "name": "TungstenArmor",
       "type": "armor",
-      "sortid": 629,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4807,7 +4807,7 @@
     {
       "name": "TungstenArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 633,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4816,7 +4816,7 @@
     {
       "name": "SoullessPlains",
       "type": "biome",
-      "sortid": 515,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4825,7 +4825,7 @@
     {
       "name": "AccessoriesSlot1",
       "type": "procedure",
-      "sortid": 571,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4842,7 +4842,7 @@
     {
       "name": "AccessoriesSlot0",
       "type": "procedure",
-      "sortid": 570,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4859,7 +4859,7 @@
     {
       "name": "Sterling_SilverArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 670,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4868,7 +4868,7 @@
     {
       "name": "ElectrumBlock",
       "type": "block",
-      "sortid": 718,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4877,7 +4877,7 @@
     {
       "name": "AdvancedCrucibleGUI",
       "type": "gui",
-      "sortid": 518,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4886,7 +4886,7 @@
     {
       "name": "OinkAch",
       "type": "achievement",
-      "sortid": 494,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4895,7 +4895,7 @@
     {
       "name": "Flowing_Water_SteelArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 545,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4904,7 +4904,7 @@
     {
       "name": "BrassArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 615,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4913,7 +4913,7 @@
     {
       "name": "ColdIronIngot",
       "type": "item",
-      "sortid": 604,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4922,7 +4922,7 @@
     {
       "name": "SteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 679,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4931,7 +4931,7 @@
     {
       "name": "SteelArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 680,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4940,7 +4940,7 @@
     {
       "name": "BronzeArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 624,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4958,7 +4958,7 @@
     {
       "name": "SilverArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 675,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4967,7 +4967,7 @@
     {
       "name": "Sterling_SilverArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 672,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4976,7 +4976,7 @@
     {
       "name": "SteelArmor",
       "type": "armor",
-      "sortid": 678,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4991,7 +4991,7 @@
     {
       "name": "Croissant",
       "type": "food",
-      "sortid": 526,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5000,7 +5000,7 @@
     {
       "name": "FeysteelArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 548,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5009,7 +5009,7 @@
     {
       "name": "Bismuth_BronzeArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5018,7 +5018,7 @@
     {
       "name": "Bismuth_BronzeArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5027,7 +5027,7 @@
     {
       "name": "BismuthArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 705,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5036,7 +5036,7 @@
     {
       "name": "BronzeIngot",
       "type": "item",
-      "sortid": 622,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5045,7 +5045,7 @@
     {
       "name": "MagnegoldArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 689,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5054,7 +5054,7 @@
     {
       "name": "FelsteelArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 556,
+      "sortid": 559,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5063,7 +5063,7 @@
     {
       "name": "AluminumBlockRecipe",
       "type": "recipe",
-      "sortid": 728,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5072,7 +5072,7 @@
     {
       "name": "PewterArmor",
       "type": "armor",
-      "sortid": 617,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5087,7 +5087,7 @@
     {
       "name": "Accessories",
       "type": "gui",
-      "sortid": 495,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5096,7 +5096,7 @@
     {
       "name": "Cold_IronArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 606,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5105,7 +5105,7 @@
     {
       "name": "ApplePie",
       "type": "food",
-      "sortid": 521,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5114,7 +5114,7 @@
     {
       "name": "PalladiumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 657,
+      "sortid": 563,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5123,7 +5123,7 @@
     {
       "name": "CopperArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 717,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5132,7 +5132,7 @@
     {
       "name": "SterlingSilverArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 665,
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5141,7 +5141,7 @@
     {
       "name": "ParasolMushroom",
       "type": "food",
-      "sortid": 722,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5150,7 +5150,7 @@
     {
       "name": "Bismuth_BronzeArmor",
       "type": "armor",
-      "sortid": 593,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5165,7 +5165,7 @@
     {
       "name": "TungstenArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 632,
+      "sortid": 566,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5174,7 +5174,7 @@
     {
       "name": "MagnegoldArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 692,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5183,7 +5183,7 @@
     {
       "name": "LeadArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 659,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5192,7 +5192,7 @@
     {
       "name": "TinArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 712,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5201,7 +5201,7 @@
     {
       "name": "CroissantRecipe",
       "type": "recipe",
-      "sortid": 527,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5210,7 +5210,7 @@
     {
       "name": "BismuthArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 707,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5219,7 +5219,7 @@
     {
       "name": "GoldRing",
       "type": "item",
-      "sortid": 529,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5228,7 +5228,7 @@
     {
       "name": "BlackBronzeIngot",
       "type": "item",
-      "sortid": 575,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5237,7 +5237,7 @@
     {
       "name": "PlatinumArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 591,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5246,7 +5246,7 @@
     {
       "name": "ElectrumBlockRecipe",
       "type": "recipe",
-      "sortid": 719,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5255,7 +5255,7 @@
     {
       "name": "AntiCheat",
       "type": "potion",
-      "sortid": 504,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5264,7 +5264,7 @@
     {
       "name": "SilverArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 677,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5273,7 +5273,7 @@
     {
       "name": "CobaltIngot",
       "type": "item",
-      "sortid": 635,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5282,7 +5282,7 @@
     {
       "name": "CocoabeanRoll",
       "type": "food",
-      "sortid": 531,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5291,7 +5291,7 @@
     {
       "name": "BrassArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 613,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5300,7 +5300,7 @@
     {
       "name": "PlatinumArmor",
       "type": "armor",
-      "sortid": 587,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5315,7 +5315,7 @@
     {
       "name": "MagnegoldBlock",
       "type": "block",
-      "sortid": 729,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5324,7 +5324,7 @@
     {
       "name": "FelsteelIngot",
       "type": "item",
-      "sortid": 552,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5333,7 +5333,7 @@
     {
       "name": "AeonForgeRecipe",
       "type": "recipe",
-      "sortid": 510,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5342,7 +5342,7 @@
     {
       "name": "BronzeArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 627,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5351,7 +5351,7 @@
     {
       "name": "SapphireShovel",
       "type": "tool",
-      "sortid": 740,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5360,7 +5360,7 @@
     {
       "name": "SapphireHoeRecipe",
       "type": "recipe",
-      "sortid": 746,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5369,7 +5369,7 @@
     {
       "name": "MysticalFenceGate",
       "type": "block",
-      "sortid": 735,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5378,7 +5378,7 @@
     {
       "name": "MysticalFence",
       "type": "block",
-      "sortid": 734,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5387,7 +5387,7 @@
     {
       "name": "MysticalDoor",
       "type": "block",
-      "sortid": 736,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5396,7 +5396,7 @@
     {
       "name": "SapphireArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 749,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5405,7 +5405,7 @@
     {
       "name": "MysticalSlab",
       "type": "block",
-      "sortid": 732,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5414,7 +5414,7 @@
     {
       "name": "CopperBlock",
       "type": "block",
-      "sortid": 752,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5423,7 +5423,7 @@
     {
       "name": "SapphireAxeRecipe",
       "type": "recipe",
-      "sortid": 743,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5432,7 +5432,7 @@
     {
       "name": "SilverwoodFence",
       "type": "block",
-      "sortid": 757,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5441,7 +5441,7 @@
     {
       "name": "MysticalStairs",
       "type": "block",
-      "sortid": 733,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5450,7 +5450,7 @@
     {
       "name": "SilverwoodFenceGate",
       "type": "block",
-      "sortid": 758,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5459,7 +5459,7 @@
     {
       "name": "SapphireAxe",
       "type": "tool",
-      "sortid": 738,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5468,7 +5468,7 @@
     {
       "name": "SapphireGem",
       "type": "item",
-      "sortid": 733,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5477,7 +5477,7 @@
     {
       "name": "MysticalFenceGateRecipe",
       "type": "recipe",
-      "sortid": 743,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5486,7 +5486,7 @@
     {
       "name": "NickelBlock",
       "type": "block",
-      "sortid": 755,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5495,7 +5495,7 @@
     {
       "name": "SapphireArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 750,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5504,7 +5504,7 @@
     {
       "name": "MysticalTrapDoor",
       "type": "block",
-      "sortid": 737,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5513,7 +5513,7 @@
     {
       "name": "SapphirePickaxe",
       "type": "tool",
-      "sortid": 737,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5522,7 +5522,7 @@
     {
       "name": "SilverwoodPlank",
       "type": "block",
-      "sortid": 756,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5531,7 +5531,7 @@
     {
       "name": "MysticalSlabRecipe",
       "type": "recipe",
-      "sortid": 738,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5540,7 +5540,7 @@
     {
       "name": "MysticalDoorRecipe",
       "type": "recipe",
-      "sortid": 740,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5549,7 +5549,7 @@
     {
       "name": "SapphireHoe",
       "type": "tool",
-      "sortid": 741,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5558,7 +5558,7 @@
     {
       "name": "SapphireBlockOreRecipe",
       "type": "recipe",
-      "sortid": 735,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5567,7 +5567,7 @@
     {
       "name": "SilverwoodDoor",
       "type": "block",
-      "sortid": 759,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5576,7 +5576,7 @@
     {
       "name": "SapphireArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 748,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5585,7 +5585,7 @@
     {
       "name": "SapphireOreBlock",
       "type": "block",
-      "sortid": 732,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5594,7 +5594,7 @@
     {
       "name": "SapphireOreBlockRecipe",
       "type": "recipe",
-      "sortid": 734,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5603,7 +5603,7 @@
     {
       "name": "SapphireOreSmelting",
       "type": "recipe",
-      "sortid": 736,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5612,7 +5612,7 @@
     {
       "name": "MysticalTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 741,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5621,7 +5621,7 @@
     {
       "name": "SilverwoodWood",
       "type": "block",
-      "sortid": 754,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5630,7 +5630,7 @@
     {
       "name": "SapphireSwordRecipe",
       "type": "recipe",
-      "sortid": 744,
+      "sortid": 591,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5639,7 +5639,7 @@
     {
       "name": "SIlverwoodStairs",
       "type": "block",
-      "sortid": 761,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5648,16 +5648,22 @@
     {
       "name": "SapphireArmor",
       "type": "armor",
-      "sortid": 747,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sapphire_armor"
+      "registry_name": "sapphire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "SilverwoodSlab",
       "type": "block",
-      "sortid": 762,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5666,7 +5672,7 @@
     {
       "name": "SapphireSword",
       "type": "tool",
-      "sortid": 739,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5675,7 +5681,7 @@
     {
       "name": "SapphireOre",
       "type": "block",
-      "sortid": 731,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5684,7 +5690,7 @@
     {
       "name": "SapphirePickaxeRecipe",
       "type": "recipe",
-      "sortid": 742,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5693,7 +5699,7 @@
     {
       "name": "MysticalFenceRecipe",
       "type": "recipe",
-      "sortid": 742,
+      "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5702,7 +5708,7 @@
     {
       "name": "SapphireShovelRecipe",
       "type": "recipe",
-      "sortid": 745,
+      "sortid": 594,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5711,7 +5717,7 @@
     {
       "name": "SpectralRaven",
       "type": "mob",
-      "sortid": 731,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5720,7 +5726,7 @@
     {
       "name": "SapphireArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 751,
+      "sortid": 595,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5729,7 +5735,7 @@
     {
       "name": "MysticalStairsRecipe",
       "type": "recipe",
-      "sortid": 739,
+      "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5738,7 +5744,7 @@
     {
       "name": "SilverwoodTrapDoor",
       "type": "block",
-      "sortid": 760,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5747,7 +5753,7 @@
     {
       "name": "MossyOakPlank",
       "type": "block",
-      "sortid": 763,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5756,7 +5762,7 @@
     {
       "name": "MossyOakLog",
       "type": "block",
-      "sortid": 764,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5765,7 +5771,7 @@
     {
       "name": "MossyOakWood",
       "type": "block",
-      "sortid": 765,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5774,34 +5780,16 @@
     {
       "name": "Shade",
       "type": "mob",
-      "sortid": 766,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "shade"
     },
     {
-      "name": "MossyOakLeave",
-      "type": "block",
-      "sortid": 767,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_oak_leave"
-    },
-    {
-      "name": "MossyOakSapling",
-      "type": "plant",
-      "sortid": 768,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mossy_oak_sapling"
-    },
-    {
       "name": "SilverwoodBonemealGrowth",
       "type": "procedure",
-      "sortid": 769,
+      "sortid": 597,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5832,63 +5820,18 @@
       }
     },
     {
-      "name": "MoonfireSapling",
-      "type": "plant",
-      "sortid": 770,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moonfire_sapling"
-    },
-    {
       "name": "Planks",
       "type": "tag",
-      "sortid": 771,
+      "sortid": 598,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "planks"
     },
     {
-      "name": "MoonfireLog",
-      "type": "block",
-      "sortid": 772,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moonfire_log"
-    },
-    {
-      "name": "MoonfireWood",
-      "type": "block",
-      "sortid": 773,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moonfire_wood"
-    },
-    {
-      "name": "MoonfireLeaves",
-      "type": "block",
-      "sortid": 774,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moonfire_leaves"
-    },
-    {
-      "name": "MoonfirePlank",
-      "type": "block",
-      "sortid": 775,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moonfire_plank"
-    },
-    {
       "name": "SilverwoodSlabRecipe",
       "type": "recipe",
-      "sortid": 776,
+      "sortid": 599,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5897,7 +5840,7 @@
     {
       "name": "SilverwoodFenceGateRecipe",
       "type": "recipe",
-      "sortid": 777,
+      "sortid": 600,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5906,7 +5849,7 @@
     {
       "name": "SilverwoodFenceRecipe",
       "type": "recipe",
-      "sortid": 778,
+      "sortid": 601,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5915,7 +5858,7 @@
     {
       "name": "SilverwoodStairsRecipe",
       "type": "recipe",
-      "sortid": 779,
+      "sortid": 602,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -5924,19 +5867,82 @@
     {
       "name": "SilverwoodDoorRecipe",
       "type": "recipe",
-      "sortid": 780,
+      "sortid": 603,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "silverwood_door_recipe"
+    },
+    {
+      "name": "MossyOakLeaves",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_oak_leaves"
+    },
+    {
+      "name": "MoonfirePlanks",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_planks"
+    },
+    {
+      "name": "MoonfireLeave",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_leave"
+    },
+    {
+      "name": "MoonfireWood",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_wood"
+    },
+    {
+      "name": "MoonfireLog",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_log"
+    },
+    {
+      "name": "MossyOakSapling",
+      "type": "plant",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_oak_sapling"
+    },
+    {
+      "name": "MoonfireSapling",
+      "type": "plant",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_sapling"
     }
   ],
   "variable_elements": [
     {
       "name": "race",
       "type": "string",
-      "scope": "map",
-      "value": ""
+      "scope": "player_persistent",
+      "value": "Choose"
     }
   ],
   "sound_elements": [
@@ -5983,12 +5989,12 @@
       "item.aetheria.bronze_ingot": "Bronze",
       "item.aetheria.magnegold_armor_helmet": "Magnegold Helmet",
       "item.aetheria.endersteel_armorbody": "Endersteel Chestplate",
-      "block.aetheria.mystical_trap_door": "Mystical Trap Door",
-      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
       "item.minecraft.potion.effect.anti_cheat": "Anti-Cheat",
+      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
+      "block.aetheria.mystical_trap_door": "Mystical Trap Door",
       "item.aetheria.bluesteel_armor_leggings": "Bluesteel Leggings",
-      "item.aetheria.feysteel_armor_boots": "Feysteel Boots",
       "item.aetheria.sterling_silver_armorbody": "Sterling_Silver Chestplate",
+      "item.aetheria.feysteel_armor_boots": "Feysteel Boots",
       "block.aetheria.macowaniteblock": "Macowaniteblock",
       "item.aetheria.pizza": "Pizza",
       "block.aetheria.voidmycelium": "Void Mycelium",
@@ -6035,8 +6041,8 @@
       "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.titaniumarmor_chestplate": "Titanium Chestplate",
       "item.aetheria.sapphire_sword": "Sapphire Sword",
-      "item.aetheria.nyancat": "Music Disc",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
+      "item.aetheria.nyancat": "Music Disc",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "entity.aetheria.mummy": "Mummy",
       "item.aetheria.aluminum": "Aluminum",
@@ -6049,8 +6055,8 @@
       "block.aetheria.crocoite_block": "Crocoite Block",
       "item.aetheria.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.aetheria.bismuth_bronze_armorbody": "Bismuth_Bronze Chestplate",
-      "item.aetheria.aluminum_armor_leggings": "Aluminum Leggings",
       "item.aetheria.endersteeelboots": "Endersteel Boots",
+      "item.aetheria.aluminum_armor_leggings": "Aluminum Leggings",
       "block.aetheria.tin_block": "Tin Block",
       "item.aetheria.obamiumaxe": "Obamium Axe",
       "item.aetheria.coldironarmorarmorlegs": "Cold Iron Leggings",
@@ -6072,16 +6078,16 @@
       "item.aetheria.pizzaslice": "Pizza Slice",
       "block.aetheria.cobaltore": "Cobalt Ore",
       "item.aetheria.zinc_armor_boots": "Zinc Boots",
-      "item.aetheria.copper_armorhelmet": "Copper Helmet",
       "block.aetheria.voidcrystle": "Void Crystal",
+      "item.aetheria.copper_armorhelmet": "Copper Helmet",
       "item.aetheria.lead_armor_helmet": "Lead Helmet",
       "item.aetheria.mithrilarmor_boots": "Mithril Boots",
       "item.aetheria.underworld": "Underworld Portal Igniter",
       "item.aetheria.darkironingot": "Dark Iron Ingot",
       "item.aetheria.sterlingsilver": "Sterling Silver",
       "item.aetheria.coldironarmorarmorhelmet": "Cold Iron Helmet",
-      "item.aetheria.blacksteel_armor_helmet": "Blacksteel Helmet",
       "item.minecraft.lingering_potion.effect.anti_cheat": "Lingering Anti-Cheat",
+      "item.aetheria.blacksteel_armor_helmet": "Blacksteel Helmet",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.bismutharmorarmorboots": "Bismuth Boots",
       "itemGroup.tabaetheriamisc": "Aetheria Miscellaneous",
@@ -6094,8 +6100,8 @@
       "item.aetheria.bismuth_bronze_armorlegs": "Bismuth_Bronze Leggings",
       "item.aetheria.leadarmorarmorboots": "Lead Boots",
       "item.aetheria.obsidianarmor_chestplate": "Obsidian Chestplate",
-      "item.aetheria.palladium_armor_boots": "Palladium Boots",
       "itemGroup.tabquest_items": "Quest Items",
+      "item.aetheria.palladium_armor_boots": "Palladium Boots",
       "item.aetheria.coldironarmorarmorbody": "Cold Iron Chestplate",
       "item.aetheria.steel_armor_boots": "Steel Boots",
       "item.aetheria.emeraldarmor_leggings": "Emerald Leggings",
@@ -6141,24 +6147,24 @@
       "item.aetheria.moonsilverarmorboots": "Moonsilver Boots",
       "item.aetheria.cobalt_armorbody": "Cobalt Chestplate",
       "item.aetheria.tin_armor_chestplate": "Tin Chestplate",
-      "item.aetheria.silversword": "Silver Sword",
       "item.aetheria.rose_gold_armorbody": "Rose_Gold Chestplate",
+      "item.aetheria.silversword": "Silver Sword",
       "item.aetheria.endersteel_armor_chestplate": "Endersteel Chestplate",
       "item.aetheria.magnegold_armorboots": "Magnegold Boots",
       "item.aetheria.endersteeelbody": "Endersteel Chestplate",
       "item.aetheria.bronze_armor_chestplate": "Bronze Chestplate",
       "item.aetheria.moonsilverarmor_helmet": "Moonsilver Helmet",
       "item.aetheria.electrumarmorarmorhelmet": "Electrum Helmet",
-      "item.aetheria.nickelarmor_chestplate": "Nickel Chestplate",
       "item.aetheria.pewter_armorlegs": "Pewter Leggings",
+      "item.aetheria.nickelarmor_chestplate": "Nickel Chestplate",
       "item.aetheria.op_test_pick": "OP Test Pick",
       "item.aetheria.styx_water_bucket": "StyxWater Bucket",
       "item.aetheria.tungsten_armor_helmet": "Tungsten Helmet",
       "item.aetheria.blacksteel_armorboots": "Blacksteel Boots",
       "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
       "block.aetheria.mystical_stairs": "Mystical Stairs",
-      "item.aetheria.obamiumpickaxe": "Obamium Pickaxe",
       "biome.aetheria.extremevoidplanes": "Extremevoidplanes",
+      "item.aetheria.obamiumpickaxe": "Obamium Pickaxe",
       "item.aetheria.bismuth_bronze_armorhelmet": "Bismuth_Bronze Helmet",
       "item.aetheria.neko1": "Neko1 Spawn Egg",
       "item.aetheria.feysteel_armorhelmet": "Feysteel Helmet",
@@ -6170,8 +6176,8 @@
       "item.aetheria.black_bronze_armorlegs": "Black_Bronze Leggings",
       "item.aetheria.sterling_silver_armor_chestplate": "Sterling_Silver Chestplate",
       "item.aetheria.oricalarmorbody": "Orical Chestplate",
-      "item.aetheria.flowing_water_steel_armorboots": "Flowing_Water_Steel Boots",
       "item.aetheria.felsteel_armorboots": "Felsteel Boots",
+      "item.aetheria.flowing_water_steel_armorboots": "Flowing_Water_Steel Boots",
       "item.aetheria.blackarmorlegs": "Black Bronze Leggings",
       "item.aetheria.silverarmorarmorhelmet": "Silver Helmet",
       "item.aetheria.leadarmorarmorbody": "Lead Chestplate",
@@ -6183,8 +6189,8 @@
       "item.aetheria.bismuth_armorhelmet": "Bismuth Helmet",
       "item.aetheria.apple_pie": "Apple Pie",
       "item.aetheria.iridiumarmor_helmet": "Iridium Helmet",
-      "item.aetheria.palladium": "Palladium",
       "item.aetheria.cobalt": "Cobalt",
+      "item.aetheria.palladium": "Palladium",
       "item.aetheria.obsidianarmor_leggings": "Obsidian Leggings",
       "item.aetheria.bismuth_bronze_armor_leggings": "Bismuth Bronze Leggings",
       "item.aetheria.cobaltarmorarmorhelmet": "Cobalt Helmet",
@@ -6205,8 +6211,8 @@
       "item.aetheria.steelarmorarmorbody": "Steel Chestplate",
       "item.aetheria.darksteelaarmorlegs": "Blacksteel Leggings",
       "item.aetheria.feysteel": "Fey Steel",
-      "item.aetheria.sapphire_hoe": "Sapphire Hoe",
       "block.aetheria.mysticalstone": "Mystical Stone",
+      "item.aetheria.sapphire_hoe": "Sapphire Hoe",
       "block.aetheria.mossy_oak_wood": "Mossy Oak Wood",
       "item.aetheria.cheese": "Cheese",
       "item.aetheria.platinum_ingot": "Platinum",
@@ -6236,12 +6242,12 @@
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
       "item.aetheria.nickelarmor_helmet": "Nickel Helmet",
       "block.aetheria.crocoite": "Crocoite Cluster",
-      "item.aetheria.darkironarmor_leggings": "Dark Iron Leggings",
-      "item.aetheria.blacksteel_armorbody": "Blacksteel Chestplate",
       "item.aetheria.felsteel_armorbody": "Felsteel Chestplate",
+      "item.aetheria.blacksteel_armorbody": "Blacksteel Chestplate",
+      "item.aetheria.darkironarmor_leggings": "Dark Iron Leggings",
       "item.aetheria.zinc_armorbody": "Zinc Chestplate",
-      "item.aetheria.moonsilverarmor_boots": "Moonsilver Boots",
       "item.aetheria.darkfelsteelarmor_boots": "Black Felsteel Boots",
+      "item.aetheria.moonsilverarmor_boots": "Moonsilver Boots",
       "block.aetheria.silverwood_plank": "Silverwood Plank",
       "item.aetheria.electrumarmorarmorbody": "Electrum Chestplate",
       "item.aetheria.silver": "Silver",
@@ -6257,6 +6263,7 @@
       "item.aetheria.rickroll.desc": "Ckir Stelay - Ckir Lorl",
       "item.aetheria.flowing_water_steel_armor_chestplate": "Flowing_Water_Steel Chestplate",
       "item.aetheria.brass_armorlegs": "Brass Leggings",
+      "block.aetheria.moonfire_planks": "Moonfire Plank",
       "item.aetheria.dark_iron_ingot": "Dark Iron Ingot",
       "item.aetheria.bismuth_bronze_armor_helmet": "Bismuth Bronze Helmet",
       "item.aetheria.electrum_armor_chestplate": "Electrum Chestplate",
@@ -6272,8 +6279,8 @@
       "item.aetheria.sterlingarmorarmorbody": "Sterling Silver Chestplate",
       "item.aetheria.feysteel_armorlegs": "Feysteel Leggings",
       "block.aetheria.zinc_ore": "Zinc Ore",
-      "item.aetheria.nickelarmorbody": "Nickel Chestplate",
       "item.aetheria.lead_armorbody": "Lead Chestplate",
+      "item.aetheria.nickelarmorbody": "Nickel Chestplate",
       "block.aetheria.electrum_block": "Electrum Block",
       "item.aetheria.steel": "Steel",
       "block.aetheria.titanium_ore": "Titanium ore",
@@ -6284,20 +6291,18 @@
       "item.aetheria.chair_entity": "Chair Entity Spawn Egg",
       "item.aetheria.tin_armorhelmet": "Tin Helmet",
       "item.aetheria.rose_gold_armor_chestplate": "Rose Gold Chestplate",
-      "item.aetheria.parasol_mushroom": "Parasol Mushroom",
       "item.aetheria.felsteel_armorlegs": "Felsteel Leggings",
-      "item.aetheria.sapphire_armor_leggings": "Sapphire Leggings",
+      "item.aetheria.parasol_mushroom": "Parasol Mushroom",
       "item.aetheria.blacksteel_armorlegs": "Blacksteel Leggings",
+      "item.aetheria.sapphire_armor_leggings": "Sapphire Leggings",
       "item.aetheria.mithrilarmorhelmet": "Mithril Helmet",
       "item.aetheria.obamium": "Obamium",
-      "item.aetheria.copper_armor_helmet": "Copper Helmet",
       "block.aetheria.specialstone": "Special Stone",
+      "item.aetheria.copper_armor_helmet": "Copper Helmet",
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
       "entity.aetheria.lost_soul": "Lost Soul",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
-      "block.aetheria.mossy_oak_leave": "Mossy Oak Leaves",
       "item.aetheria.copper_armorbody": "Copper Chestplate",
-      "block.aetheria.moonfire_plank": "Silverwood Plank",
       "block.aetheria.moonfire_wood": "Moonfire Wood",
       "item.aetheria.endersteel_armor_helmet": "Endersteel Helmet",
       "item.aetheria.copper_armor_boots": "Copper Boots",
@@ -6329,9 +6334,9 @@
       "item.aetheria.oricalingot": "Orical Ingot",
       "item.aetheria.sterlingarmorarmorhelmet": "Sterling Silver Helmet",
       "item.aetheria.rose_gold_armor_leggings": "Rose Gold Leggings",
-      "block.aetheria.silverwood_slab": "Silverwood Slab",
-      "item.aetheria.sterling_silver_armor_boots": "Sterling_Silver Boots",
       "item.aetheria.silvershovel": "Silver Shovel",
+      "item.aetheria.sterling_silver_armor_boots": "Sterling_Silver Boots",
+      "block.aetheria.silverwood_slab": "Silverwood Slab",
       "item.aetheria.feysteel_armor_leggings": "Feysteel Leggings",
       "item.aetheria.adamant_armor_helmet": "Adamant Helmet",
       "item.aetheria.ironrapier": "Iron Rapier",
@@ -6382,6 +6387,7 @@
       "item.aetheria.endersteel_armor_boots": "Endersteel Boots",
       "item.aetheria.brassarmorarmorboots": "Brass Boots",
       "item.aetheria.platinum_armorbody": "Platinum Chestplate",
+      "block.aetheria.mossy_oak_leaves": "Mossy Oak Leaves",
       "item.aetheria.nyancat.desc": "Nyan Cat - Unkown Creator",
       "item.aetheria.redsteelarmorhelmet": "Redsteel Helmet",
       "item.aetheria.aluminumarmorarmorbody": "Aluminum Chestplate",
@@ -6410,7 +6416,6 @@
       "item.aetheria.redsteelarmor_leggings": "Redsteel Leggings",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.lead_ingot": "Lead",
-      "block.aetheria.moonfire_leaves": "Mossy Oak Leaves",
       "item.aetheria.moonsilver_ingot": "Moonsilver Ingot",
       "item.aetheria.lead_armor_boots": "Lead Boots",
       "item.aetheria.grass_stew": "Grass Stew",
@@ -6619,6 +6624,7 @@
       "item.aetheria.flowing_water_steel_armorbody": "Flowing_Water_Steel Chestplate",
       "entity.aetheria.chair_entity": "Chair Entity",
       "item.aetheria.lost_soul": "Lost Soul Spawn Egg",
+      "block.aetheria.moonfire_leave": "Moonfire Leaves",
       "item.aetheria.bismuth_armorboots": "Bismuth Boots",
       "item.aetheria.redbrassingot": "Red Brass Ingot",
       "advancements.voidenter.descr": "Enter The Void",
@@ -6775,11 +6781,11 @@
   },
   "workspaceSettings": {
     "modid": "aetheria",
-    "modName": "aetheria",
+    "modName": "Aetheria",
     "version": "1.1",
     "description": "The Aetheria Mod is the mod from Cube Kid\u0027s books come to real minecraft",
     "author": "10ion, Pylons, Noah, Da_Dragon, Mikeadon, BadBird, Gamer, DJDARKWATERS, jointheprayerbro , KidOfCubes ",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://mcreator.nethttps://aetherian.fandom.com/wiki/Aetherian_Wiki",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -6787,8 +6793,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about and a speccial thanks to Cube Kid for creating  this universe.",
-    "modElementsPackage": "net.mcreator.aetheria",
+    "credits": "a special thanks to Cube Kid for creating  this universe.",
+    "modElementsPackage": "net.mod.aetheria",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202000432115

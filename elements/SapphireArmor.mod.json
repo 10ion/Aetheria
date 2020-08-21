@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "sapphire_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
     "armorTextureFile": "sapphire",
     "helmetName": "Sapphire Helmet",
