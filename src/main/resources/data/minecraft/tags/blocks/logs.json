@@ -1,24 +1,24 @@
 {
   "replace": false,
   "values": [
+    "aetheria:mysticallog",
     "aetheria:silverwoodlog",
-    "minecraft:oak_log",
-    "minecraft:spruce_log",
-    "minecraft:jungle_log",
-    "minecraft:acacia_log",
-    "minecraft:dark_oak_log",
-    "aetheria:silverwood_wood",
+    "aetheria:mossy_oak_log",
     "minecraft:oak_log",
     "minecraft:spruce_log",
     "minecraft:birch_log",
     "minecraft:jungle_log",
     "minecraft:acacia_log",
     "minecraft:dark_oak_log",
+    "aetheria:silverwood_wood",
+    "aetheria:mossy_oak_wood",
     "minecraft:oak_wood",
     "minecraft:spruce_wood",
     "minecraft:birch_wood",
     "minecraft:jungle_wood",
     "minecraft:acacia_wood",
-    "minecraft:dark_oak_wood"
+    "minecraft:dark_oak_wood",
+    "aetheria:moonfire_log",
+    "aetheria:moonfire_wood"
   ]
 }

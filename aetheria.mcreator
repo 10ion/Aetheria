@@ -996,38 +996,6 @@
       "ids": {}
     },
     {
-      "name": "Silverwoodgrowthbonemeal",
-      "type": "procedure",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Silverwoodalsonaturalgrowth",
       "type": "procedure",
       "sortid": 246,
@@ -5811,6 +5779,156 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shade"
+    },
+    {
+      "name": "MossyOakLeave",
+      "type": "block",
+      "sortid": 767,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_oak_leave"
+    },
+    {
+      "name": "MossyOakSapling",
+      "type": "plant",
+      "sortid": 768,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mossy_oak_sapling"
+    },
+    {
+      "name": "SilverwoodBonemealGrowth",
+      "type": "procedure",
+      "sortid": 769,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_bonemeal_growth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonfireSapling",
+      "type": "plant",
+      "sortid": 770,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_sapling"
+    },
+    {
+      "name": "Planks",
+      "type": "tag",
+      "sortid": 771,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planks"
+    },
+    {
+      "name": "MoonfireLog",
+      "type": "block",
+      "sortid": 772,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_log"
+    },
+    {
+      "name": "MoonfireWood",
+      "type": "block",
+      "sortid": 773,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_wood"
+    },
+    {
+      "name": "MoonfireLeaves",
+      "type": "block",
+      "sortid": 774,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_leaves"
+    },
+    {
+      "name": "MoonfirePlank",
+      "type": "block",
+      "sortid": 775,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_plank"
+    },
+    {
+      "name": "SilverwoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 776,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_slab_recipe"
+    },
+    {
+      "name": "SilverwoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 777,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_fence_gate_recipe"
+    },
+    {
+      "name": "SilverwoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 778,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_fence_recipe"
+    },
+    {
+      "name": "SilverwoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 779,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_stairs_recipe"
+    },
+    {
+      "name": "SilverwoodDoorRecipe",
+      "type": "recipe",
+      "sortid": 780,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_door_recipe"
     }
   ],
   "variable_elements": [
@@ -5983,6 +6101,7 @@
       "item.aetheria.emeraldarmor_leggings": "Emerald Leggings",
       "item.aetheria.fox_fur": "Fox Fur",
       "item.aetheria.palladium_armor_leggings": "Palladium Leggings",
+      "block.aetheria.mossy_oak_sapling": "Mossy Oak Sapling",
       "item.aetheria.electrum_armorboots": "Electrum Boots",
       "item.aetheria.nickel_ingot": "Nickel Ingot",
       "item.aetheria.platinumarmorarmorbody": "Platinum Chestplate",
@@ -6176,7 +6295,10 @@
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
       "entity.aetheria.lost_soul": "Lost Soul",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
+      "block.aetheria.mossy_oak_leave": "Mossy Oak Leaves",
       "item.aetheria.copper_armorbody": "Copper Chestplate",
+      "block.aetheria.moonfire_plank": "Silverwood Plank",
+      "block.aetheria.moonfire_wood": "Moonfire Wood",
       "item.aetheria.endersteel_armor_helmet": "Endersteel Helmet",
       "item.aetheria.copper_armor_boots": "Copper Boots",
       "item.aetheria.endersteeelhelmet": "Endersteel Helmet",
@@ -6288,6 +6410,7 @@
       "item.aetheria.redsteelarmor_leggings": "Redsteel Leggings",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.lead_ingot": "Lead",
+      "block.aetheria.moonfire_leaves": "Mossy Oak Leaves",
       "item.aetheria.moonsilver_ingot": "Moonsilver Ingot",
       "item.aetheria.lead_armor_boots": "Lead Boots",
       "item.aetheria.grass_stew": "Grass Stew",
@@ -6469,6 +6592,7 @@
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "item.aetheria.silverpickaxe": "Silver Pickaxe",
       "item.aetheria.glowshroom_stew": "Glowshroom Stew",
+      "block.aetheria.moonfire_log": "Moonfire Log",
       "item.aetheria.copperarmorarmorboots": "Copper Boots",
       "block.aetheria.infestedvoidstone": "Infested Voidstone",
       "item.aetheria.rose_gold_armor_boots": "Rose Gold Boots",
@@ -6540,6 +6664,7 @@
       "item.aetheria.feysteel_armor_helmet": "Feysteel Helmet",
       "item.aetheria.croissant": "Croissant",
       "item.aetheria.shade": "Shade Spawn Egg",
+      "block.aetheria.moonfire_sapling": "Moonfire Sapling",
       "item.aetheria.leadarmorarmorhelmet": "Lead Helmet",
       "entity.aetheria.shade": "Shade",
       "item.aetheria.adamant_armorbody": "Adamant Chestplate",

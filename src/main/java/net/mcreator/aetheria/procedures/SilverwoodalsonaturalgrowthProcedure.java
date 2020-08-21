@@ -46,9 +46,9 @@ public class SilverwoodalsonaturalgrowthProcedure extends AetheriaModElements.Mo
 			if ((Math.random() < 0.25)) {
 				if (!world.getWorld().isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwoodbig1"));
+							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 					if (template != null) {
-						template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))),
+						template.addBlocksToWorld(world, new BlockPos((int) (x + (-10)), (int) y, (int) (z + (-13))),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 					}
 				}

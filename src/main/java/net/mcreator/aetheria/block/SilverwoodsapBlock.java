@@ -30,8 +30,8 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.aetheria.procedures.SilverwoodgrowthbonemealProcedure;
 import net.mcreator.aetheria.procedures.SilverwoodalsonaturalgrowthProcedure;
+import net.mcreator.aetheria.procedures.SilverwoodBonemealGrowthProcedure;
 import net.mcreator.aetheria.itemgroup.AetheriaMiscItemGroup;
 import net.mcreator.aetheria.AetheriaModElements;
 
@@ -111,7 +111,7 @@ public class SilverwoodsapBlock extends AetheriaModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				SilverwoodgrowthbonemealProcedure.executeProcedure($_dependencies);
+				SilverwoodBonemealGrowthProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
 		}

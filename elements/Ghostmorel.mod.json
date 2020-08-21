@@ -39,7 +39,6 @@
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 4,
     "spawnWorldTypes": [
-      "Surface",
       "CUSTOM:TheVoid"
     ],
     "restrictionBiomes": [
@@ -48,9 +47,6 @@
       },
       {
         "value": "CUSTOM:Extremevoidplanes"
-      },
-      {
-        "value": "mountains"
       }
     ]
   }

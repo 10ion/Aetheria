@@ -38,9 +38,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 3,
-    "spawnWorldTypes": [
-      "CUSTOM:TheVoid"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": []
   }
 }

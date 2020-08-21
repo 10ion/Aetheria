@@ -69,7 +69,7 @@ public class Silverwood1Structure extends AetheriaModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwoodbig1"));
+								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)

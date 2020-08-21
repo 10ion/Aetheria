@@ -77,8 +77,6 @@ public class GhostmorelBlock extends AetheriaModElements.ModElement {
 			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, BlockClusterFeatureConfig config) {
 				DimensionType dimensionType = world.getDimension().getType();
 				boolean dimensionCriteria = false;
-				if (dimensionType == DimensionType.OVERWORLD)
-					dimensionCriteria = true;
 				if (dimensionType == TheVoidDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
@@ -91,8 +89,6 @@ public class GhostmorelBlock extends AetheriaModElements.ModElement {
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("aetheria:voidplanes")))
 				biomeCriteria = true;
 			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("aetheria:extremevoidplanes")))
-				biomeCriteria = true;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("mountains")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

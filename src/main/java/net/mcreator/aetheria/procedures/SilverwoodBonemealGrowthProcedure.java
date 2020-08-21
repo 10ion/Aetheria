@@ -8,42 +8,41 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
 import net.mcreator.aetheria.AetheriaModElements;
 
 import java.util.Map;
 
 @AetheriaModElements.ModElement.Tag
-public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModElement {
-	public SilverwoodgrowthbonemealProcedure(AetheriaModElements instance) {
-		super(instance, 244);
+public class SilverwoodBonemealGrowthProcedure extends AetheriaModElements.ModElement {
+	public SilverwoodBonemealGrowthProcedure(AetheriaModElements instance) {
+		super(instance, 769);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure Silverwoodgrowthbonemeal!");
+			System.err.println("Failed to load dependency entity for procedure SilverwoodBonemealGrowth!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure Silverwoodgrowthbonemeal!");
+			System.err.println("Failed to load dependency x for procedure SilverwoodBonemealGrowth!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure Silverwoodgrowthbonemeal!");
+			System.err.println("Failed to load dependency y for procedure SilverwoodBonemealGrowth!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure Silverwoodgrowthbonemeal!");
+			System.err.println("Failed to load dependency z for procedure SilverwoodBonemealGrowth!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure Silverwoodgrowthbonemeal!");
+			System.err.println("Failed to load dependency world for procedure SilverwoodBonemealGrowth!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -51,27 +50,18 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		if (((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
-				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())
-				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
-						.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem()))) {
-			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(Items.BONE_MEAL, (int) (1)).getItem() == p.getItem(),
-						(int) 1);
-			if (world instanceof ServerWorld) {
-				((ServerWorld) world).spawnParticle(ParticleTypes.COMPOSTER, x, (y + 1), z, (int) 5, 3, 3, 3, 1);
-			}
-		}
-		if ((Math.random() < 0.2)) {
+		if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+				.getItem() == new ItemStack(Items.BONE_MEAL, (int) (1)).getItem())) {
 			if ((Math.random() < 0.25)) {
 				if (!world.getWorld().isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwoodbig1"));
+							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 					if (template != null) {
-						template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))),
+						template.addBlocksToWorld(world, new BlockPos((int) (x + (-10)), (int) y, (int) (z + (-13))),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 					}
 				}
+				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			} else {
 				if ((Math.random() < 0.25)) {
 					if (!world.getWorld().isRemote) {
@@ -82,6 +72,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 						}
 					}
+					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 				} else {
 					if ((Math.random() < 0.25)) {
 						if (!world.getWorld().isRemote) {
@@ -92,6 +83,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 										.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 							}
 						}
+						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 					} else {
 						if (!world.getWorld().isRemote) {
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
@@ -101,6 +93,7 @@ public class SilverwoodgrowthbonemealProcedure extends AetheriaModElements.ModEl
 										.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 							}
 						}
+						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 					}
 				}
 			}

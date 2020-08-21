@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "silverwoodbig1",
+    "structure": "silverwood1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 1000000,

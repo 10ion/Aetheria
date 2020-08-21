@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "silverwoodplank",
+    "texture": "silverwoos_plank",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -25,7 +25,7 @@
     "Mz": 1.0,
     "name": "Silverwood Stairs",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,
     "creativeTab": {
