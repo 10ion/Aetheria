@@ -17,7 +17,7 @@ public class SapphirePickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sapphire_pickaxe")
 	public static final Item block = null;
 	public SapphirePickaxeItem(AetheriaModElements instance) {
-		super(instance, 198);
+		super(instance, 205);
 	}
 
 	@Override

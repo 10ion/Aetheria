@@ -26,7 +26,7 @@ public class MagnegoldBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:magnegold_block")
 	public static final Block block = null;
 	public MagnegoldBlockBlock(AetheriaModElements instance) {
-		super(instance, 140);
+		super(instance, 81);
 	}
 
 	@Override

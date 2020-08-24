@@ -29,7 +29,7 @@ public class NickelArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:nickelarmor_boots")
 	public static final Item boots = null;
 	public NickelArmorItem(AetheriaModElements instance) {
-		super(instance, 43);
+		super(instance, 121);
 	}
 
 	@Override

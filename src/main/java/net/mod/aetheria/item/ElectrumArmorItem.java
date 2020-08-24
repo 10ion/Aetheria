@@ -29,7 +29,7 @@ public class ElectrumArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:electrum_armor_boots")
 	public static final Item boots = null;
 	public ElectrumArmorItem(AetheriaModElements instance) {
-		super(instance, 78);
+		super(instance, 115);
 	}
 
 	@Override

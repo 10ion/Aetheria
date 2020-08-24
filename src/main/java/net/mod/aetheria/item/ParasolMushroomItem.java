@@ -16,7 +16,7 @@ public class ParasolMushroomItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:parasol_mushroom")
 	public static final Item block = null;
 	public ParasolMushroomItem(AetheriaModElements instance) {
-		super(instance, 102);
+		super(instance, 172);
 	}
 
 	@Override

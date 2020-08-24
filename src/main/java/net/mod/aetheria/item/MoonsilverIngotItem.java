@@ -15,7 +15,7 @@ public class MoonsilverIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonsilveringot")
 	public static final Item block = null;
 	public MoonsilverIngotItem(AetheriaModElements instance) {
-		super(instance, 8);
+		super(instance, 35);
 	}
 
 	@Override

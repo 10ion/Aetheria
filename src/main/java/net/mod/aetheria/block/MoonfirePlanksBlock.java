@@ -23,7 +23,7 @@ public class MoonfirePlanksBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonfire_planks")
 	public static final Block block = null;
 	public MoonfirePlanksBlock(AetheriaModElements instance) {
-		super(instance, 162);
+		super(instance, 102);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class MoonfirePlanksBlock extends AetheriaModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(4f, 5f).lightValue(0));
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(6f, 7f).lightValue(0));
 			setRegistryName("moonfire_planks");
 		}
 

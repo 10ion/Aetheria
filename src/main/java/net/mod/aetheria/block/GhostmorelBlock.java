@@ -50,7 +50,7 @@ public class GhostmorelBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:ghostmorel")
 	public static final Block block = null;
 	public GhostmorelBlock(AetheriaModElements instance) {
-		super(instance, 166);
+		super(instance, 173);
 	}
 
 	@Override

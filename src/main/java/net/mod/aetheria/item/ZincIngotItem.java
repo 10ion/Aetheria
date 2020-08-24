@@ -15,7 +15,7 @@ public class ZincIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:zinc_ingot")
 	public static final Item block = null;
 	public ZincIngotItem(AetheriaModElements instance) {
-		super(instance, 31);
+		super(instance, 11);
 	}
 
 	@Override

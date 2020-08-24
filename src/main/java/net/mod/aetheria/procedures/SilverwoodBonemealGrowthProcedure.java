@@ -10,6 +10,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
@@ -57,7 +58,7 @@ public class SilverwoodBonemealGrowthProcedure extends AetheriaModElements.ModEl
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
 					if (template != null) {
-						template.addBlocksToWorld(world, new BlockPos((int) (x + (-10)), (int) y, (int) (z + (-13))),
+						template.addBlocksToWorld(world, new BlockPos((int) (x + (-10)), (int) (y - (-2)), (int) (z + (-13))),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 					}
 				}
@@ -68,8 +69,9 @@ public class SilverwoodBonemealGrowthProcedure extends AetheriaModElements.ModEl
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
 						if (template != null) {
-							template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))), new PlacementSettings()
-									.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+							template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) (y - (-2)), (int) (z + (-3))),
+									new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
+											.setIgnoreEntities(false));
 						}
 					}
 					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
@@ -79,8 +81,9 @@ public class SilverwoodBonemealGrowthProcedure extends AetheriaModElements.ModEl
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
 							if (template != null) {
-								template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))), new PlacementSettings()
-										.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+								template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) (y - (-2)), (int) (z + (-3))),
+										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
+												.setIgnoreEntities(false));
 							}
 						}
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
@@ -89,14 +92,18 @@ public class SilverwoodBonemealGrowthProcedure extends AetheriaModElements.ModEl
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood4"));
 							if (template != null) {
-								template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) y, (int) (z + (-3))), new PlacementSettings()
-										.setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
+								template.addBlocksToWorld(world, new BlockPos((int) (x + (-3)), (int) (y - (-2)), (int) (z + (-3))),
+										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
+												.setIgnoreEntities(false));
 							}
 						}
 						world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 					}
 				}
 			}
+		}
+		if (world instanceof ServerWorld) {
+			((ServerWorld) world).spawnParticle(ParticleTypes.COMPOSTER, x, y, z, (int) 5, 1, 1, 1, 2);
 		}
 	}
 }

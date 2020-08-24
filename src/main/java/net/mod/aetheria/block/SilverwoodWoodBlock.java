@@ -30,7 +30,7 @@ public class SilverwoodWoodBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwood_wood")
 	public static final Block block = null;
 	public SilverwoodWoodBlock(AetheriaModElements instance) {
-		super(instance, 154);
+		super(instance, 94);
 	}
 
 	@Override

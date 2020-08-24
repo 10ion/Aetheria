@@ -39,7 +39,7 @@ public class IridiumoreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:iridiumore")
 	public static final Block block = null;
 	public IridiumoreBlock(AetheriaModElements instance) {
-		super(instance, 115);
+		super(instance, 47);
 	}
 
 	@Override

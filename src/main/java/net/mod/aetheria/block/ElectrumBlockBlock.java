@@ -26,7 +26,7 @@ public class ElectrumBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:electrum_block")
 	public static final Block block = null;
 	public ElectrumBlockBlock(AetheriaModElements instance) {
-		super(instance, 135);
+		super(instance, 76);
 	}
 
 	@Override

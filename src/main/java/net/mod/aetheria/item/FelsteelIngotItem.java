@@ -15,7 +15,7 @@ public class FelsteelIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:felsteel_ingot")
 	public static final Item block = null;
 	public FelsteelIngotItem(AetheriaModElements instance) {
-		super(instance, 19);
+		super(instance, 37);
 	}
 
 	@Override

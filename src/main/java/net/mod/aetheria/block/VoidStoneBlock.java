@@ -23,7 +23,7 @@ public class VoidStoneBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidstone")
 	public static final Block block = null;
 	public VoidStoneBlock(AetheriaModElements instance) {
-		super(instance, 109);
+		super(instance, 57);
 	}
 
 	@Override

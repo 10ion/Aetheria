@@ -32,7 +32,7 @@ public class MossyOakLogBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mossy_oak_log")
 	public static final Block block = null;
 	public MossyOakLogBlock(AetheriaModElements instance) {
-		super(instance, 158);
+		super(instance, 98);
 	}
 
 	@Override

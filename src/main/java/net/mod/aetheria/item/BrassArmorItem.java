@@ -29,7 +29,7 @@ public class BrassArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:brass_armor_boots")
 	public static final Item boots = null;
 	public BrassArmorItem(AetheriaModElements instance) {
-		super(instance, 68);
+		super(instance, 128);
 	}
 
 	@Override

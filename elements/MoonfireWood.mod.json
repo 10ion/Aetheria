@@ -24,8 +24,8 @@
     "Mz": 1.0,
     "name": "Moonfire Wood",
     "specialInfo": [],
-    "hardness": 5.0,
-    "resistance": 6.0,
+    "hardness": 7.0,
+    "resistance": 8.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriaBlocks"

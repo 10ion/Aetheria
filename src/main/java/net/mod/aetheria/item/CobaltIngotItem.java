@@ -15,7 +15,7 @@ public class CobaltIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:cobalt_ingot")
 	public static final Item block = null;
 	public CobaltIngotItem(AetheriaModElements instance) {
-		super(instance, 30);
+		super(instance, 21);
 	}
 
 	@Override

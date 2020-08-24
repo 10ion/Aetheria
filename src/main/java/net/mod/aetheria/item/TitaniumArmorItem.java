@@ -29,7 +29,7 @@ public class TitaniumArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:titaniumarmor_boots")
 	public static final Item boots = null;
 	public TitaniumArmorItem(AetheriaModElements instance) {
-		super(instance, 49);
+		super(instance, 144);
 	}
 
 	@Override

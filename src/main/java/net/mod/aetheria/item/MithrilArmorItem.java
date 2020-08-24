@@ -29,7 +29,7 @@ public class MithrilArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mithrilarmor_boots")
 	public static final Item boots = null;
 	public MithrilArmorItem(AetheriaModElements instance) {
-		super(instance, 53);
+		super(instance, 153);
 	}
 
 	@Override

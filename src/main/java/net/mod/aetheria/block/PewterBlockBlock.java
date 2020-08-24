@@ -26,7 +26,7 @@ public class PewterBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:pewter_block")
 	public static final Block block = null;
 	public PewterBlockBlock(AetheriaModElements instance) {
-		super(instance, 138);
+		super(instance, 79);
 	}
 
 	@Override

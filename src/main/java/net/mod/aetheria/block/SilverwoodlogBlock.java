@@ -27,10 +27,10 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class SilverwoodlogBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:silverwoodlog")
+	@ObjectHolder("aetheria:silverwood_log")
 	public static final Block block = null;
 	public SilverwoodlogBlock(AetheriaModElements instance) {
-		super(instance, 153);
+		super(instance, 93);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class SilverwoodlogBlock extends AetheriaModElements.ModElement {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(3f, 3f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
-			setRegistryName("silverwoodlog");
+			setRegistryName("silverwood_log");
 		}
 
 		@Override

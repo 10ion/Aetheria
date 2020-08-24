@@ -26,7 +26,7 @@ public class AluminumBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:aluminum_block")
 	public static final Block block = null;
 	public AluminumBlockBlock(AetheriaModElements instance) {
-		super(instance, 139);
+		super(instance, 80);
 	}
 
 	@Override

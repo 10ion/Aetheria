@@ -29,7 +29,7 @@ public class AdamantArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:adamant_armor_boots")
 	public static final Item boots = null;
 	public AdamantArmorItem(AetheriaModElements instance) {
-		super(instance, 56);
+		super(instance, 155);
 	}
 
 	@Override

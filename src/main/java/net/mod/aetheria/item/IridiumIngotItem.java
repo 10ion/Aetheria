@@ -15,7 +15,7 @@ public class IridiumIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:iridiumingot")
 	public static final Item block = null;
 	public IridiumIngotItem(AetheriaModElements instance) {
-		super(instance, 13);
+		super(instance, 10);
 	}
 
 	@Override

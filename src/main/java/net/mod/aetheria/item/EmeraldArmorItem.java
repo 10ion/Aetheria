@@ -30,7 +30,7 @@ public class EmeraldArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:emeraldarmor_boots")
 	public static final Item boots = null;
 	public EmeraldArmorItem(AetheriaModElements instance) {
-		super(instance, 48);
+		super(instance, 140);
 	}
 
 	@Override

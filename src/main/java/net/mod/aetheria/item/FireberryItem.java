@@ -16,7 +16,7 @@ public class FireberryItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:fireberry")
 	public static final Item block = null;
 	public FireberryItem(AetheriaModElements instance) {
-		super(instance, 97);
+		super(instance, 167);
 	}
 
 	@Override

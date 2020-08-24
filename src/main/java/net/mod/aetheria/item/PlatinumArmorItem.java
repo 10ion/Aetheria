@@ -29,7 +29,7 @@ public class PlatinumArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:platinum_armor_boots")
 	public static final Item boots = null;
 	public PlatinumArmorItem(AetheriaModElements instance) {
-		super(instance, 64);
+		super(instance, 142);
 	}
 
 	@Override

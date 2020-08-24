@@ -19,7 +19,7 @@ public class SHUltimateItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sh_ultimate")
 	public static final Item block = null;
 	public SHUltimateItem(AetheriaModElements instance) {
-		super(instance, 211);
+		super(instance, 111);
 	}
 
 	@Override

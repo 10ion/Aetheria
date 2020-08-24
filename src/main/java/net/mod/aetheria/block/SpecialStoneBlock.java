@@ -1,7 +1,6 @@
 
 package net.mod.aetheria.block;
 
-import net.mod.aetheria.itemgroup.AetheriaBlocksItemGroup;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -45,14 +44,13 @@ public class SpecialStoneBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:specialstone")
 	public static final Block block = null;
 	public SpecialStoneBlock(AetheriaModElements instance) {
-		super(instance, 133);
+		super(instance, 75);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

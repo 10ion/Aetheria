@@ -10,7 +10,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
@@ -19,7 +18,7 @@ public class BedrockBreakerItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bedrock_breaker")
 	public static final Item block = null;
 	public BedrockBreakerItem(AetheriaModElements instance) {
-		super(instance, 205);
+		super(instance, 212);
 	}
 
 	@Override
@@ -48,7 +47,7 @@ public class BedrockBreakerItem extends AetheriaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 1, -3f, new Item.Properties().group(null)) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {

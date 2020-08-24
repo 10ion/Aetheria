@@ -43,7 +43,7 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 0.4f))
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 0.5f))
 						.build("chair_entity").setRegistryName("chair_entity");
 		elements.entities.add(() -> entity);
 	}

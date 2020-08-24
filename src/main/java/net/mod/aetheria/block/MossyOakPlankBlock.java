@@ -23,7 +23,7 @@ public class MossyOakPlankBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mossy_oak_plank")
 	public static final Block block = null;
 	public MossyOakPlankBlock(AetheriaModElements instance) {
-		super(instance, 157);
+		super(instance, 97);
 	}
 
 	@Override

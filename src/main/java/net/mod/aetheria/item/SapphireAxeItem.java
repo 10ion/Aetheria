@@ -17,7 +17,7 @@ public class SapphireAxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sapphire_axe")
 	public static final Item block = null;
 	public SapphireAxeItem(AetheriaModElements instance) {
-		super(instance, 199);
+		super(instance, 206);
 	}
 
 	@Override

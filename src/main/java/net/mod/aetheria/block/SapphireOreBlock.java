@@ -25,7 +25,7 @@ public class SapphireOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sapphire_ore")
 	public static final Block block = null;
 	public SapphireOreBlock(AetheriaModElements instance) {
-		super(instance, 141);
+		super(instance, 51);
 	}
 
 	@Override

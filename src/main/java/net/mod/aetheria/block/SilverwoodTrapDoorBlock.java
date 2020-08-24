@@ -31,7 +31,7 @@ public class SilverwoodTrapDoorBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwood_trap_door")
 	public static final Block block = null;
 	public SilverwoodTrapDoorBlock(AetheriaModElements instance) {
-		super(instance, 150);
+		super(instance, 90);
 	}
 
 	@Override

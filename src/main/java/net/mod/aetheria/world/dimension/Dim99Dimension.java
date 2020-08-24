@@ -101,7 +101,7 @@ public class Dim99Dimension extends AetheriaModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public Dim99Dimension(AetheriaModElements instance) {
-		super(instance, 206);
+		super(instance, 213);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

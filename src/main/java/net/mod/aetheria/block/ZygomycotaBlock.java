@@ -50,7 +50,7 @@ public class ZygomycotaBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:zygomycota")
 	public static final Block block = null;
 	public ZygomycotaBlock(AetheriaModElements instance) {
-		super(instance, 170);
+		super(instance, 177);
 	}
 
 	@Override

@@ -51,7 +51,7 @@ public class GlowshroomBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:glowshroom")
 	public static final Block block = null;
 	public GlowshroomBlock(AetheriaModElements instance) {
-		super(instance, 174);
+		super(instance, 181);
 	}
 
 	@Override

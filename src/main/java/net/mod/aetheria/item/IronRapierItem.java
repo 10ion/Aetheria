@@ -1,7 +1,6 @@
 
 package net.mod.aetheria.item;
 
-import net.mod.aetheria.itemgroup.AetheriaWeaponsItemGroup;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -18,7 +17,7 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:ironrapier")
 	public static final Item block = null;
 	public IronRapierItem(AetheriaModElements instance) {
-		super(instance, 92);
+		super(instance, 162);
 	}
 
 	@Override
@@ -47,7 +46,7 @@ public class IronRapierItem extends AetheriaModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT, (int) (1)));
 			}
-		}, 3, -0.4f, new Item.Properties().group(AetheriaWeaponsItemGroup.tab)) {
+		}, 3, -0.4f, new Item.Properties().group(null)) {
 		}.setRegistryName("ironrapier"));
 	}
 }

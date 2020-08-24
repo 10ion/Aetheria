@@ -29,7 +29,7 @@ public class TinArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:tin_armor_boots")
 	public static final Item boots = null;
 	public TinArmorItem(AetheriaModElements instance) {
-		super(instance, 83);
+		super(instance, 116);
 	}
 
 	@Override

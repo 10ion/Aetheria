@@ -15,7 +15,7 @@ public class AdamantIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:adamant_ingot")
 	public static final Item block = null;
 	public AdamantIngotItem(AetheriaModElements instance) {
-		super(instance, 17);
+		super(instance, 41);
 	}
 
 	@Override

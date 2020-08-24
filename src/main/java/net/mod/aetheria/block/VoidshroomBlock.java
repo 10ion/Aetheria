@@ -50,7 +50,7 @@ public class VoidshroomBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidshroom")
 	public static final Block block = null;
 	public VoidshroomBlock(AetheriaModElements instance) {
-		super(instance, 167);
+		super(instance, 174);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class IridiumArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:iridiumarmor_boots")
 	public static final Item boots = null;
 	public IridiumArmorItem(AetheriaModElements instance) {
-		super(instance, 44);
+		super(instance, 122);
 	}
 
 	@Override

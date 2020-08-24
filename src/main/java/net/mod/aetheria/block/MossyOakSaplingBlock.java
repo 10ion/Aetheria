@@ -34,7 +34,7 @@ public class MossyOakSaplingBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mossy_oak_sapling")
 	public static final Block block = null;
 	public MossyOakSaplingBlock(AetheriaModElements instance) {
-		super(instance, 156);
+		super(instance, 96);
 	}
 
 	@Override

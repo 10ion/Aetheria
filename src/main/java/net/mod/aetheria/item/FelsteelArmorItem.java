@@ -29,7 +29,7 @@ public class FelsteelArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:felsteel_armor_boots")
 	public static final Item boots = null;
 	public FelsteelArmorItem(AetheriaModElements instance) {
-		super(instance, 59);
+		super(instance, 150);
 	}
 
 	@Override

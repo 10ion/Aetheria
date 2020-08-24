@@ -17,7 +17,7 @@ public class SapphireHoeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sapphire_hoe")
 	public static final Item block = null;
 	public SapphireHoeItem(AetheriaModElements instance) {
-		super(instance, 201);
+		super(instance, 208);
 	}
 
 	@Override

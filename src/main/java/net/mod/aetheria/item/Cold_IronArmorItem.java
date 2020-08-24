@@ -29,7 +29,7 @@ public class Cold_IronArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:cold_iron_armor_boots")
 	public static final Item boots = null;
 	public Cold_IronArmorItem(AetheriaModElements instance) {
-		super(instance, 67);
+		super(instance, 129);
 	}
 
 	@Override

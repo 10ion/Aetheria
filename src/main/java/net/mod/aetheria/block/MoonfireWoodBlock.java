@@ -30,7 +30,7 @@ public class MoonfireWoodBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonfire_wood")
 	public static final Block block = null;
 	public MoonfireWoodBlock(AetheriaModElements instance) {
-		super(instance, 164);
+		super(instance, 104);
 	}
 
 	@Override
@@ -42,7 +42,7 @@ public class MoonfireWoodBlock extends AetheriaModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(5f, 6f).lightValue(0).harvestLevel(3)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(7f, 8f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.SOUTH));
 			setRegistryName("moonfire_wood");

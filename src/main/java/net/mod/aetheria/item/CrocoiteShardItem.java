@@ -15,7 +15,7 @@ public class CrocoiteShardItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:crocoite_shard")
 	public static final Item block = null;
 	public CrocoiteShardItem(AetheriaModElements instance) {
-		super(instance, 208);
+		super(instance, 108);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class LeadArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:lead_armor_boots")
 	public static final Item boots = null;
 	public LeadArmorItem(AetheriaModElements instance) {
-		super(instance, 74);
+		super(instance, 113);
 	}
 
 	@Override

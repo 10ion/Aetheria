@@ -39,7 +39,7 @@ public class MysticallogBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mysticallog")
 	public static final Block block = null;
 	public MysticallogBlock(AetheriaModElements instance) {
-		super(instance, 121);
+		super(instance, 63);
 	}
 
 	@Override

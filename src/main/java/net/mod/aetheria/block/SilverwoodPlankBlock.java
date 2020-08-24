@@ -23,7 +23,7 @@ public class SilverwoodPlankBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwood_plank")
 	public static final Block block = null;
 	public SilverwoodPlankBlock(AetheriaModElements instance) {
-		super(instance, 146);
+		super(instance, 86);
 	}
 
 	@Override

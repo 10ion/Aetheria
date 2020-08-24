@@ -29,7 +29,7 @@ public class MysticalSlabBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mystical_slab")
 	public static final Block block = null;
 	public MysticalSlabBlock(AetheriaModElements instance) {
-		super(instance, 142);
+		super(instance, 82);
 	}
 
 	@Override

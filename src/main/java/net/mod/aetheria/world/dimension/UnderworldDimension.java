@@ -60,7 +60,7 @@ public class UnderworldDimension extends AetheriaModElements.ModElement {
 	public static DimensionType type = null;
 	private static Biome[] dimensionBiomes;
 	public UnderworldDimension(AetheriaModElements instance) {
-		super(instance, 204);
+		super(instance, 211);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

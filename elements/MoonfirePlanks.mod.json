@@ -24,8 +24,8 @@
     "Mz": 1.0,
     "name": "Moonfire Plank",
     "specialInfo": [],
-    "hardness": 4.0,
-    "resistance": 5.0,
+    "hardness": 6.0,
+    "resistance": 7.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriaBlocks"

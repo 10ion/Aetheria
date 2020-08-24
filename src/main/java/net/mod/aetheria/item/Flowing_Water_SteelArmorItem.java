@@ -29,7 +29,7 @@ public class Flowing_Water_SteelArmorItem extends AetheriaModElements.ModElement
 	@ObjectHolder("aetheria:flowing_water_steel_armor_boots")
 	public static final Item boots = null;
 	public Flowing_Water_SteelArmorItem(AetheriaModElements instance) {
-		super(instance, 57);
+		super(instance, 139);
 	}
 
 	@Override

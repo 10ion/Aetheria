@@ -5,10 +5,12 @@ import net.mod.aetheria.AetheriaModElements;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.Explosion;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 
 import java.util.Map;
 
@@ -48,6 +50,7 @@ public class PowederKegOnBlockRightClickedProcedure extends AetheriaModElements.
 				.getItem() == new ItemStack(Items.FLINT_AND_STEEL, (int) (1)).getItem())
 				|| (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
 						.getItem() == new ItemStack(Items.FLINT_AND_STEEL, (int) (1)).getItem()))) {
+			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.AIR.getDefaultState(), 3);
 			if (world instanceof World && !world.getWorld().isRemote) {
 				world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 10, Explosion.Mode.BREAK);
 			}

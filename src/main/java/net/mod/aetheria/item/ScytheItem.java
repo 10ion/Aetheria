@@ -26,7 +26,7 @@ public class ScytheItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:scythe")
 	public static final Item block = null;
 	public ScytheItem(AetheriaModElements instance) {
-		super(instance, 91);
+		super(instance, 161);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class ColdIronIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:cold_iron_ingot")
 	public static final Item block = null;
 	public ColdIronIngotItem(AetheriaModElements instance) {
-		super(instance, 25);
+		super(instance, 16);
 	}
 
 	@Override

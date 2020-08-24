@@ -15,7 +15,7 @@ public class FeysteelIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:feysteel_ingot")
 	public static final Item block = null;
 	public FeysteelIngotItem(AetheriaModElements instance) {
-		super(instance, 18);
+		super(instance, 36);
 	}
 
 	@Override

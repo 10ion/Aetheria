@@ -21,10 +21,10 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class SapphireOreBlockBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:sapphire_ore_block")
+	@ObjectHolder("aetheria:sapphire_block")
 	public static final Block block = null;
 	public SapphireOreBlockBlock(AetheriaModElements instance) {
-		super(instance, 193);
+		super(instance, 200);
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class SapphireOreBlockBlock extends AetheriaModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("sapphire_ore_block");
+			setRegistryName("sapphire_block");
 		}
 
 		@Override

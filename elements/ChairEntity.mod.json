@@ -8,7 +8,7 @@
     "mobModelTexture": "chairentity.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 0.4,
+    "modelHeight": 0.5,
     "modelShadowSize": 0.1,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": false,
@@ -54,6 +54,7 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -78,6 +79,9 @@
       "value": ""
     },
     "deathSound": {
+      "value": ""
+    },
+    "stepSound": {
       "value": ""
     },
     "spawnParticles": false,

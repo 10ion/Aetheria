@@ -26,7 +26,7 @@ public class VoidshromblockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidshromblock")
 	public static final Block block = null;
 	public VoidshromblockBlock(AetheriaModElements instance) {
-		super(instance, 126);
+		super(instance, 68);
 	}
 
 	@Override

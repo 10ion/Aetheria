@@ -21,7 +21,7 @@ public class TitaniumNuggeetItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:titanium_nuggeet")
 	public static final Item block = null;
 	public TitaniumNuggeetItem(AetheriaModElements instance) {
-		super(instance, 29);
+		super(instance, 30);
 	}
 
 	@Override

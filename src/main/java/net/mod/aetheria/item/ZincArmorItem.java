@@ -29,7 +29,7 @@ public class ZincArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:zinc_armor_boots")
 	public static final Item boots = null;
 	public ZincArmorItem(AetheriaModElements instance) {
-		super(instance, 80);
+		super(instance, 123);
 	}
 
 	@Override

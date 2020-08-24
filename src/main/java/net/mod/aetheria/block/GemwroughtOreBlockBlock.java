@@ -31,7 +31,7 @@ public class GemwroughtOreBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:gemwroughtoreblock")
 	public static final Block block = null;
 	public GemwroughtOreBlockBlock(AetheriaModElements instance) {
-		super(instance, 106);
+		super(instance, 54);
 	}
 
 	@Override

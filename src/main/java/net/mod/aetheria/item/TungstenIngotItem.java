@@ -15,7 +15,7 @@ public class TungstenIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:tungsten_ingot")
 	public static final Item block = null;
 	public TungstenIngotItem(AetheriaModElements instance) {
-		super(instance, 28);
+		super(instance, 25);
 	}
 
 	@Override

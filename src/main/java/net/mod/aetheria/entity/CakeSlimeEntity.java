@@ -25,8 +25,13 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
-import net.minecraft.entity.monster.SlimeEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.entity.ai.goal.LookRandomlyGoal;
+import net.minecraft.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
@@ -72,7 +77,7 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 			}
 		});
 	}
-	public static class CustomEntity extends SlimeEntity {
+	public static class CustomEntity extends MonsterEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -91,6 +96,11 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.goalSelector.addGoal(2, new LeapAtTargetGoal(this, (float) 0.5));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 		}
 
 		@Override

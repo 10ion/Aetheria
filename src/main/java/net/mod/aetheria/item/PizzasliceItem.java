@@ -13,10 +13,10 @@ import net.minecraft.item.Food;
 
 @AetheriaModElements.ModElement.Tag
 public class PizzasliceItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:pizzaslice")
+	@ObjectHolder("aetheria:pizza_slice")
 	public static final Item block = null;
 	public PizzasliceItem(AetheriaModElements instance) {
-		super(instance, 101);
+		super(instance, 171);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class PizzasliceItem extends AetheriaModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(AetheriaFoodItemsItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(8).saturation(0.3f).setAlwaysEdible().build()));
-			setRegistryName("pizzaslice");
+			setRegistryName("pizza_slice");
 		}
 
 		@Override

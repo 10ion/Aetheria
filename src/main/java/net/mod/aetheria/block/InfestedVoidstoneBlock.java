@@ -37,7 +37,7 @@ public class InfestedVoidstoneBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:infestedvoidstone")
 	public static final Block block = null;
 	public InfestedVoidstoneBlock(AetheriaModElements instance) {
-		super(instance, 118);
+		super(instance, 60);
 	}
 
 	@Override

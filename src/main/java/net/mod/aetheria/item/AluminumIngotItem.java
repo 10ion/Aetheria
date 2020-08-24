@@ -15,7 +15,7 @@ public class AluminumIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:aluminum_ingot")
 	public static final Item block = null;
 	public AluminumIngotItem(AetheriaModElements instance) {
-		super(instance, 34);
+		super(instance, 6);
 	}
 
 	@Override

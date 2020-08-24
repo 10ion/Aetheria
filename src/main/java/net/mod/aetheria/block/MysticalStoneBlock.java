@@ -23,7 +23,7 @@ public class MysticalStoneBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mysticalstone")
 	public static final Block block = null;
 	public MysticalStoneBlock(AetheriaModElements instance) {
-		super(instance, 122);
+		super(instance, 64);
 	}
 
 	@Override

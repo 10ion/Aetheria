@@ -34,7 +34,7 @@ public class LightningrodBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:lightningrod")
 	public static final Block block = null;
 	public LightningrodBlock(AetheriaModElements instance) {
-		super(instance, 124);
+		super(instance, 66);
 	}
 
 	@Override

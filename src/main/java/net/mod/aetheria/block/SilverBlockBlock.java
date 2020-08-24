@@ -27,7 +27,7 @@ public class SilverBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverblock")
 	public static final Block block = null;
 	public SilverBlockBlock(AetheriaModElements instance) {
-		super(instance, 187);
+		super(instance, 194);
 	}
 
 	@Override

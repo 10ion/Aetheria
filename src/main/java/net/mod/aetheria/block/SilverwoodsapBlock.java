@@ -43,10 +43,10 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class SilverwoodsapBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:silverwoodsap")
+	@ObjectHolder("aetheria:silverwood_sapling")
 	public static final Block block = null;
 	public SilverwoodsapBlock(AetheriaModElements instance) {
-		super(instance, 210);
+		super(instance, 110);
 	}
 
 	@Override
@@ -65,7 +65,7 @@ public class SilverwoodsapBlock extends AetheriaModElements.ModElement {
 		public BlockCustomFlower() {
 			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS, MaterialColor.FOLIAGE).doesNotBlockMovement().sound(SoundType.PLANT)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
-			setRegistryName("silverwoodsap");
+			setRegistryName("silverwood_sapling");
 		}
 
 		@Override

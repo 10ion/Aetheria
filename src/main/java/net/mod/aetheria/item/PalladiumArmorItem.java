@@ -29,7 +29,7 @@ public class PalladiumArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:palladium_armor_boots")
 	public static final Item boots = null;
 	public PalladiumArmorItem(AetheriaModElements instance) {
-		super(instance, 73);
+		super(instance, 143);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class MysticalStairsBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mystical_stairs")
 	public static final Block block = null;
 	public MysticalStairsBlock(AetheriaModElements instance) {
-		super(instance, 143);
+		super(instance, 83);
 	}
 
 	@Override

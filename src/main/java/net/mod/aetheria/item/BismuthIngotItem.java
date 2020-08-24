@@ -15,7 +15,7 @@ public class BismuthIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bismuth_ingot")
 	public static final Item block = null;
 	public BismuthIngotItem(AetheriaModElements instance) {
-		super(instance, 33);
+		super(instance, 19);
 	}
 
 	@Override

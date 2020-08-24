@@ -37,7 +37,7 @@ public class PalladiumOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:palladium_ore")
 	public static final Block block = null;
 	public PalladiumOreBlock(AetheriaModElements instance) {
-		super(instance, 190);
+		super(instance, 197);
 	}
 
 	@Override

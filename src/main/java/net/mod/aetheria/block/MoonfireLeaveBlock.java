@@ -27,7 +27,7 @@ public class MoonfireLeaveBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonfire_leave")
 	public static final Block block = null;
 	public MoonfireLeaveBlock(AetheriaModElements instance) {
-		super(instance, 165);
+		super(instance, 105);
 	}
 
 	@Override

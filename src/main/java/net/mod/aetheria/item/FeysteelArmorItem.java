@@ -29,7 +29,7 @@ public class FeysteelArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:feysteel_armor_boots")
 	public static final Item boots = null;
 	public FeysteelArmorItem(AetheriaModElements instance) {
-		super(instance, 58);
+		super(instance, 149);
 	}
 
 	@Override

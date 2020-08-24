@@ -15,7 +15,7 @@ public class TinIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:tin_ingot")
 	public static final Item block = null;
 	public TinIngotItem(AetheriaModElements instance) {
-		super(instance, 35);
+		super(instance, 4);
 	}
 
 	@Override

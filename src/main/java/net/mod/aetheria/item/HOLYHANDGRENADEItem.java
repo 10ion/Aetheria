@@ -53,7 +53,7 @@ public class HOLYHANDGRENADEItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:entitybulletholyhandgrenade")
 	public static final EntityType arrow = null;
 	public HOLYHANDGRENADEItem(AetheriaModElements instance) {
-		super(instance, 90);
+		super(instance, 160);
 	}
 
 	@Override

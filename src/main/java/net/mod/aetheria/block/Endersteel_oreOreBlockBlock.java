@@ -24,7 +24,7 @@ public class Endersteel_oreOreBlockBlock extends AetheriaModElements.ModElement 
 	@ObjectHolder("aetheria:endersteel_oreoreblock")
 	public static final Block block = null;
 	public Endersteel_oreOreBlockBlock(AetheriaModElements instance) {
-		super(instance, 107);
+		super(instance, 55);
 	}
 
 	@Override

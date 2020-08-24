@@ -1,7 +1,6 @@
 
 package net.mod.aetheria.entity;
 
-import net.mod.aetheria.itemgroup.AetheriaEntitiesItemGroup;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -55,8 +54,7 @@ public class UltraRareCowEntity extends AetheriaModElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.9f, 1.4f)).build("ultrararecow")
 						.setRegistryName("ultrararecow");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -9751022, -1, new Item.Properties().group(AetheriaEntitiesItemGroup.tab))
-				.setRegistryName("ultrararecow"));
+		elements.items.add(() -> new SpawnEggItem(entity, -9751022, -1, new Item.Properties().group(null)).setRegistryName("ultrararecow"));
 	}
 
 	@Override

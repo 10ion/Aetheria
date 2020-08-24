@@ -50,7 +50,7 @@ public class WoodenChairBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:wooden_chair")
 	public static final Block block = null;
 	public WoodenChairBlock(AetheriaModElements instance) {
-		super(instance, 189);
+		super(instance, 196);
 	}
 
 	@Override

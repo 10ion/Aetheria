@@ -53,7 +53,7 @@ public class DeathCapBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:death_cap")
 	public static final Block block = null;
 	public DeathCapBlock(AetheriaModElements instance) {
-		super(instance, 136);
+		super(instance, 77);
 	}
 
 	@Override

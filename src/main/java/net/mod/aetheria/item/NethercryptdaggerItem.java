@@ -23,7 +23,7 @@ public class NethercryptdaggerItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:nethercryptdagger")
 	public static final Item block = null;
 	public NethercryptdaggerItem(AetheriaModElements instance) {
-		super(instance, 89);
+		super(instance, 159);
 	}
 
 	@Override

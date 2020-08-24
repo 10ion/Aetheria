@@ -17,7 +17,7 @@ public class SapphireShovelItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sapphire_shovel")
 	public static final Item block = null;
 	public SapphireShovelItem(AetheriaModElements instance) {
-		super(instance, 200);
+		super(instance, 207);
 	}
 
 	@Override

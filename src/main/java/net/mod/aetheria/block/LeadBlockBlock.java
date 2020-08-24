@@ -25,7 +25,7 @@ public class LeadBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:leadblock")
 	public static final Block block = null;
 	public LeadBlockBlock(AetheriaModElements instance) {
-		super(instance, 132);
+		super(instance, 74);
 	}
 
 	@Override

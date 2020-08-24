@@ -19,10 +19,10 @@ import java.util.HashMap;
 
 @AetheriaModElements.ModElement.Tag
 public class MoralmedlyItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:moralmedly")
+	@ObjectHolder("aetheria:moral_medly")
 	public static final Item block = null;
 	public MoralmedlyItem(AetheriaModElements instance) {
-		super(instance, 99);
+		super(instance, 169);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class MoralmedlyItem extends AetheriaModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(AetheriaFoodItemsItemGroup.tab).maxStackSize(1)
 					.food((new Food.Builder()).hunger(20).saturation(0.3f).setAlwaysEdible().build()));
-			setRegistryName("moralmedly");
+			setRegistryName("moral_medly");
 		}
 
 		@Override

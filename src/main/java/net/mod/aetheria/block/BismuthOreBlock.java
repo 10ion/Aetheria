@@ -38,7 +38,7 @@ public class BismuthOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bismuth_ore")
 	public static final Block block = null;
 	public BismuthOreBlock(AetheriaModElements instance) {
-		super(instance, 111);
+		super(instance, 48);
 	}
 
 	@Override

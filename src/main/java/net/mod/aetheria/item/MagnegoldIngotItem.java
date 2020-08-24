@@ -15,7 +15,7 @@ public class MagnegoldIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:magnegold_ingot")
 	public static final Item block = null;
 	public MagnegoldIngotItem(AetheriaModElements instance) {
-		super(instance, 42);
+		super(instance, 7);
 	}
 
 	@Override

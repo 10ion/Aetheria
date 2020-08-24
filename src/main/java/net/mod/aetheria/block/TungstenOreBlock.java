@@ -1,7 +1,7 @@
 
 package net.mod.aetheria.block;
 
-import net.mod.aetheria.itemgroup.AetheriaMaterialsItemGroup;
+import net.mod.aetheria.itemgroup.AetheriaBlocksItemGroup;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -40,14 +40,14 @@ public class TungstenOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:tungsten_ore")
 	public static final Block block = null;
 	public TungstenOreBlock(AetheriaModElements instance) {
-		super(instance, 15);
+		super(instance, 50);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(
-				() -> new BlockItem(block, new Item.Properties().group(AetheriaMaterialsItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(AetheriaBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

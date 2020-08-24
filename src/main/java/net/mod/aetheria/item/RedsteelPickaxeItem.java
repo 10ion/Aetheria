@@ -16,7 +16,7 @@ public class RedsteelPickaxeItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:redsteelpickaxe")
 	public static final Item block = null;
 	public RedsteelPickaxeItem(AetheriaModElements instance) {
-		super(instance, 183);
+		super(instance, 190);
 	}
 
 	@Override

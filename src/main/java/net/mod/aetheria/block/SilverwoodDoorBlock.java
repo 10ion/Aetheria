@@ -33,7 +33,7 @@ public class SilverwoodDoorBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwood_door")
 	public static final Block block = null;
 	public SilverwoodDoorBlock(AetheriaModElements instance) {
-		super(instance, 149);
+		super(instance, 89);
 	}
 
 	@Override

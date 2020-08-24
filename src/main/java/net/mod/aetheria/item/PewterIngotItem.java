@@ -1,7 +1,7 @@
 
 package net.mod.aetheria.item;
 
-import net.mod.aetheria.itemgroup.AetheriaMiscItemGroup;
+import net.mod.aetheria.itemgroup.AetheriaMaterialsItemGroup;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -15,7 +15,7 @@ public class PewterIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:pewter_ingot")
 	public static final Item block = null;
 	public PewterIngotItem(AetheriaModElements instance) {
-		super(instance, 212);
+		super(instance, 5);
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class PewterIngotItem extends AetheriaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(AetheriaMiscItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(AetheriaMaterialsItemGroup.tab).maxStackSize(64));
 			setRegistryName("pewter_ingot");
 		}
 

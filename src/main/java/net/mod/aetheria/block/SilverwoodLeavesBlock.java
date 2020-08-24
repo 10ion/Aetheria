@@ -24,10 +24,10 @@ import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
 public class SilverwoodLeavesBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:silverwoodleaves")
+	@ObjectHolder("aetheria:silverwood_leaves")
 	public static final Block block = null;
 	public SilverwoodLeavesBlock(AetheriaModElements instance) {
-		super(instance, 155);
+		super(instance, 95);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class SilverwoodLeavesBlock extends AetheriaModElements.ModElement {
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(0).notSolid());
-			setRegistryName("silverwoodleaves");
+			setRegistryName("silverwood_leaves");
 		}
 
 		@Override

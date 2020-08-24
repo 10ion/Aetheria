@@ -33,7 +33,7 @@ public class MysticalFenceBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mystical_fence")
 	public static final Block block = null;
 	public MysticalFenceBlock(AetheriaModElements instance) {
-		super(instance, 194);
+		super(instance, 201);
 	}
 
 	@Override

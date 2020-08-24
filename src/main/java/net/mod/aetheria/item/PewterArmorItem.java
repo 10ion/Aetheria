@@ -29,7 +29,7 @@ public class PewterArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:pewter_armor_boots")
 	public static final Item boots = null;
 	public PewterArmorItem(AetheriaModElements instance) {
-		super(instance, 69);
+		super(instance, 117);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class RoseGoldIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:rosegoldingot")
 	public static final Item block = null;
 	public RoseGoldIngotItem(AetheriaModElements instance) {
-		super(instance, 10);
+		super(instance, 14);
 	}
 
 	@Override

@@ -29,7 +29,7 @@ public class SapphireArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:sapphire_armor_boots")
 	public static final Item boots = null;
 	public SapphireArmorItem(AetheriaModElements instance) {
-		super(instance, 85);
+		super(instance, 141);
 	}
 
 	@Override

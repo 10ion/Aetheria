@@ -19,10 +19,10 @@ import java.util.HashMap;
 
 @AetheriaModElements.ModElement.Tag
 public class StormberryrollItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:stormberryroll")
+	@ObjectHolder("aetheria:stormberry_roll")
 	public static final Item block = null;
 	public StormberryrollItem(AetheriaModElements instance) {
-		super(instance, 94);
+		super(instance, 164);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class StormberryrollItem extends AetheriaModElements.ModElement {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(AetheriaFoodItemsItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(5).saturation(0.3f).setAlwaysEdible().build()));
-			setRegistryName("stormberryroll");
+			setRegistryName("stormberry_roll");
 		}
 
 		@Override

@@ -29,7 +29,7 @@ public class CopperArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:copper_armor_boots")
 	public static final Item boots = null;
 	public CopperArmorItem(AetheriaModElements instance) {
-		super(instance, 84);
+		super(instance, 120);
 	}
 
 	@Override

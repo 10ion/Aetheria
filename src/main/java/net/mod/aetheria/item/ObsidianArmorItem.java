@@ -30,7 +30,7 @@ public class ObsidianArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:obsidianarmor_boots")
 	public static final Item boots = null;
 	public ObsidianArmorItem(AetheriaModElements instance) {
-		super(instance, 45);
+		super(instance, 126);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class MysticalDoorBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:mystical_door")
 	public static final Block block = null;
 	public MysticalDoorBlock(AetheriaModElements instance) {
-		super(instance, 196);
+		super(instance, 203);
 	}
 
 	@Override

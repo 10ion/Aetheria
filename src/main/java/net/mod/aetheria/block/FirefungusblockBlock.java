@@ -26,7 +26,7 @@ public class FirefungusblockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:firefungusblock")
 	public static final Block block = null;
 	public FirefungusblockBlock(AetheriaModElements instance) {
-		super(instance, 129);
+		super(instance, 71);
 	}
 
 	@Override

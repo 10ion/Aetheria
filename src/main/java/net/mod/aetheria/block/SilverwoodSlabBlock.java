@@ -25,7 +25,7 @@ public class SilverwoodSlabBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwood_slab")
 	public static final Block block = null;
 	public SilverwoodSlabBlock(AetheriaModElements instance) {
-		super(instance, 152);
+		super(instance, 92);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class TinOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:tinore")
 	public static final Block block = null;
 	public TinOreBlock(AetheriaModElements instance) {
-		super(instance, 112);
+		super(instance, 44);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class ZincOreBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:zinc_ore")
 	public static final Block block = null;
 	public ZincOreBlock(AetheriaModElements instance) {
-		super(instance, 192);
+		super(instance, 199);
 	}
 
 	@Override

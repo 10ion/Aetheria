@@ -34,7 +34,7 @@ public class ParasolMushroomPatchBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:parasol_mushroom_patch")
 	public static final Block block = null;
 	public ParasolMushroomPatchBlock(AetheriaModElements instance) {
-		super(instance, 213);
+		super(instance, 112);
 	}
 
 	@Override

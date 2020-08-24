@@ -34,7 +34,7 @@ public class MoonfireSaplingBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:moonfire_sapling")
 	public static final Block block = null;
 	public MoonfireSaplingBlock(AetheriaModElements instance) {
-		super(instance, 161);
+		super(instance, 101);
 	}
 
 	@Override

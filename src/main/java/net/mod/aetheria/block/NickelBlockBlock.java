@@ -26,7 +26,7 @@ public class NickelBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:nickel_block")
 	public static final Block block = null;
 	public NickelBlockBlock(AetheriaModElements instance) {
-		super(instance, 145);
+		super(instance, 85);
 	}
 
 	@Override

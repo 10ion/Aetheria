@@ -29,7 +29,7 @@ public class BluesteelArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bluesteel_armor_boots")
 	public static final Item boots = null;
 	public BluesteelArmorItem(AetheriaModElements instance) {
-		super(instance, 62);
+		super(instance, 146);
 	}
 
 	@Override

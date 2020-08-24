@@ -15,7 +15,7 @@ public class LeadIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:lead_ingot")
 	public static final Item block = null;
 	public LeadIngotItem(AetheriaModElements instance) {
-		super(instance, 36);
+		super(instance, 1);
 	}
 
 	@Override

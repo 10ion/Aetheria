@@ -22,7 +22,7 @@ public class StormberrymuffinItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:stormberrymuffin")
 	public static final Item block = null;
 	public StormberrymuffinItem(AetheriaModElements instance) {
-		super(instance, 96);
+		super(instance, 166);
 	}
 
 	@Override

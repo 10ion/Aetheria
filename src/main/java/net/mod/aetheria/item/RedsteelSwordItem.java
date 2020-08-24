@@ -16,7 +16,7 @@ public class RedsteelSwordItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:redsteelsword")
 	public static final Item block = null;
 	public RedsteelSwordItem(AetheriaModElements instance) {
-		super(instance, 88);
+		super(instance, 158);
 	}
 
 	@Override

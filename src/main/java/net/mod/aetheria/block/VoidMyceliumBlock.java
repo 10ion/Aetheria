@@ -28,7 +28,7 @@ public class VoidMyceliumBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:voidmycelium")
 	public static final Block block = null;
 	public VoidMyceliumBlock(AetheriaModElements instance) {
-		super(instance, 125);
+		super(instance, 67);
 	}
 
 	@Override

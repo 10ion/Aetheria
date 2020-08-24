@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Below The Bedrock",
-    "achievementDescription": "Enter the underworkd, a subterranean cave system with new ores",
+    "achievementDescription": "Enter the underworld, A subterranean cave system with new ores",
     "achievementIcon": {
       "value": "Blocks.BEDROCK"
     },

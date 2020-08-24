@@ -32,7 +32,7 @@ public class BedrockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bedrock")
 	public static final Block block = null;
 	public BedrockBlock(AetheriaModElements instance) {
-		super(instance, 110);
+		super(instance, 58);
 	}
 
 	@Override

@@ -15,7 +15,7 @@ public class BronzeIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:bronze_ingot")
 	public static final Item block = null;
 	public BronzeIngotItem(AetheriaModElements instance) {
-		super(instance, 27);
+		super(instance, 13);
 	}
 
 	@Override

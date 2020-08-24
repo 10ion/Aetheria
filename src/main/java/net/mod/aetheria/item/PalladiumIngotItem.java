@@ -15,7 +15,7 @@ public class PalladiumIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:palladium_ingot")
 	public static final Item block = null;
 	public PalladiumIngotItem(AetheriaModElements instance) {
-		super(instance, 32);
+		super(instance, 29);
 	}
 
 	@Override

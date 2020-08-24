@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "scyth"
+        "1": "scythetexture"
       },
       "name": "default"
     }

@@ -29,7 +29,7 @@ public class SilverArmorItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silver_armor_boots")
 	public static final Item boots = null;
 	public SilverArmorItem(AetheriaModElements instance) {
-		super(instance, 76);
+		super(instance, 114);
 	}
 
 	@Override

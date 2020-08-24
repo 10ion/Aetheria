@@ -15,7 +15,7 @@ public class ElectrumIngotItem extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:electrum_ingot")
 	public static final Item block = null;
 	public ElectrumIngotItem(AetheriaModElements instance) {
-		super(instance, 41);
+		super(instance, 3);
 	}
 
 	@Override

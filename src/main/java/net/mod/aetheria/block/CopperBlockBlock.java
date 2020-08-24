@@ -26,7 +26,7 @@ public class CopperBlockBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:copper_block")
 	public static final Block block = null;
 	public CopperBlockBlock(AetheriaModElements instance) {
-		super(instance, 144);
+		super(instance, 84);
 	}
 
 	@Override
