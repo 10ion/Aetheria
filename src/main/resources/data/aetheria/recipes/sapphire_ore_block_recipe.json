@@ -1,0 +1,42 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:sapphire"
+    },
+    "1": {
+      "item": "aetheria:sapphire"
+    },
+    "2": {
+      "item": "aetheria:sapphire"
+    },
+    "3": {
+      "item": "aetheria:sapphire"
+    },
+    "4": {
+      "item": "aetheria:sapphire"
+    },
+    "5": {
+      "item": "aetheria:sapphire"
+    },
+    "6": {
+      "item": "aetheria:sapphire"
+    },
+    "7": {
+      "item": "aetheria:sapphire"
+    },
+    "8": {
+      "item": "aetheria:sapphire"
+    }
+  },
+  "result": {
+    "item": "aetheria:unknown_element",
+    "count": 1
+  }
+}

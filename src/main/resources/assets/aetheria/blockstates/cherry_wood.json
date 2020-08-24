@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "aetheria:block/cherry_wood"
+    },
+    "facing=north": {
+      "model": "aetheria:block/cherry_wood"
+    },
+    "facing=east": {
+      "model": "aetheria:block/cherry_wood",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "aetheria:block/cherry_wood",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "aetheria:block/cherry_wood",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "aetheria:block/cherry_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

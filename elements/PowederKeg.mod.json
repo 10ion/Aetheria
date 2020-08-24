@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
+    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -21,7 +22,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Poweder Keg",
+    "name": "Powder Keg",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 2.0,
@@ -86,6 +87,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "onRightClicked": {
       "name": "PowederKegOnBlockRightClicked"
     },

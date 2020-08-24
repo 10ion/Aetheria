@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "aetheria:block/silverwood_log"
+    },
+    "facing=north": {
+      "model": "aetheria:block/silverwood_log"
+    },
+    "facing=east": {
+      "model": "aetheria:block/silverwood_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "aetheria:block/silverwood_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "aetheria:block/silverwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "aetheria:block/silverwood_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

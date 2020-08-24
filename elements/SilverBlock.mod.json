@@ -12,7 +12,6 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -35,7 +34,7 @@
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": true,
+    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -87,7 +86,6 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
-    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

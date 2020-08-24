@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "cobaltarmor_head",
+    "textureHelmet": "cobalt_head",
     "enableBody": true,
-    "textureBody": "cobaltarmor_body",
+    "textureBody": "cobalt_body",
     "enableLeggings": true,
-    "textureLeggings": "cobaltarmor_leggings",
+    "textureLeggings": "cobalt_leggings",
     "enableBoots": true,
-    "textureBoots": "cobaltarmor_boots",
+    "textureBoots": "cobalt_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "cobaltarmor_",
+    "armorTextureFile": "cobalt",
     "helmetName": "Cobalt Helmet",
     "bodyName": "Cobalt Chestplate",
     "leggingsName": "Cobalt Leggings",

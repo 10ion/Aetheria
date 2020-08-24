@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SilverwoodPlank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SilverwoodPlank"
+      },
+      {
+        "value": "CUSTOM:SilverwoodPlank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SilverwoodPlank"
+      },
+      {
+        "value": "CUSTOM:SilverwoodPlank"
+      },
+      {
+        "value": "CUSTOM:SilverwoodPlank"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SIlverwoodStairs"
+    },
+    "name": "silverwood_stairs_recipe",
+    "namespace": "mod"
+  }
+}

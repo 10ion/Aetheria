@@ -11,13 +11,21 @@
     "enableBoots": true,
     "textureBoots": "black_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:AetheriaArmor"
     },
+<<<<<<< HEAD
     "armorTextureFile": "black_",
     "helmetName": "Black_Bronze Helmet",
     "bodyName": "Black_Bronze Chestplate",
     "leggingsName": "Black_Bronze Leggings",
     "bootsName": "Black_Bronze Boots",
+=======
+    "armorTextureFile": "black_bronze",
+    "helmetName": "Black Bronze Helmet",
+    "bodyName": "Black Bronze Chestplate",
+    "leggingsName": "Black Bronze Leggings",
+    "bootsName": "Black Bronze Boots",
+>>>>>>> branch 'master' of https://github.com/10ion/Aetheria.git
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "palladiumarmor_head",
+    "textureHelmet": "palladium_head",
     "enableBody": true,
-    "textureBody": "palladiumarmor_body",
+    "textureBody": "palladium_body",
     "enableLeggings": true,
-    "textureLeggings": "palladiumarmor_leggings",
+    "textureLeggings": "palladium_leggings",
     "enableBoots": true,
-    "textureBoots": "palladiumarmor_boots",
+    "textureBoots": "palladium_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "palladiumarmor_",
+    "armorTextureFile": "palladium",
     "helmetName": "Palladium Helmet",
     "bodyName": "Palladium Chestplate",
     "leggingsName": "Palladium Leggings",

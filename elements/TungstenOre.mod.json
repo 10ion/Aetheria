@@ -12,6 +12,7 @@
     "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
+    "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -27,7 +28,7 @@
     "resistance": 16.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaMaterials"
+      "value": "CUSTOM:AetheriaBlocks"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -86,6 +87,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [
       "Surface"
     ],

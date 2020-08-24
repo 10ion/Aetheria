@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "magnegold_block",
+    "texture": "magnegoldblock",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -30,12 +30,12 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriaBlocks"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": true,
+    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -63,7 +63,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

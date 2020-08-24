@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "bedrockbreaker",
+    "texture": "bedrock_breaker",
     "customModelName": "Normal",
     "name": "Bedrock Breaker",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "No creative tab entry"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 7,

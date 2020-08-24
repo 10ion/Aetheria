@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "stormberrycookie",
+    "texture": "stormberry_cookie",
     "customModelName": "Normal",
     "name": "Stormberry Cookie",
     "specialInfo": [],

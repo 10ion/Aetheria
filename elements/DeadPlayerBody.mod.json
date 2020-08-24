@@ -54,6 +54,7 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -78,6 +79,9 @@
       "value": ""
     },
     "deathSound": {
+      "value": ""
+    },
+    "stepSound": {
       "value": ""
     },
     "spawnParticles": false,

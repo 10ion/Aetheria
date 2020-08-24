@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "aetheria:blocks/bedrock",
+    "down": "aetheria:blocks/bedrock",
+    "up": "aetheria:blocks/bedrock",
+    "north": "aetheria:blocks/bedrock",
+    "east": "aetheria:blocks/bedrock",
+    "south": "aetheria:blocks/bedrock",
+    "west": "aetheria:blocks/bedrock",
     "particle": "aetheria:blocks/bedrock"
   }
 }

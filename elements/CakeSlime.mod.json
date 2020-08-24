@@ -46,14 +46,15 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 1,
+    "attackStrength": 3,
     "movementSpeed": 0.2,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 2,
-    "xpAmount": 3,
+    "xpAmount": 6,
     "waterMob": false,
     "flyingMob": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -80,6 +81,9 @@
     "deathSound": {
       "value": "entity.generic.death"
     },
+    "stepSound": {
+      "value": ""
+    },
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "SLIME"
@@ -88,8 +92,8 @@
     "particleSpawningRadious": 0.1,
     "particleAmount": 1,
     "hasAI": true,
-    "aiBase": "Slime",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"/></xml>",
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],

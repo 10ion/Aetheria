@@ -23,8 +23,8 @@
     "Mz": 1.0,
     "name": "Mystical Stone",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 12.0,
+    "hardness": 10000.0,
+    "resistance": 10000.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriaBlocks"
@@ -60,7 +60,7 @@
     "soundOnStep": {
       "value": "GROUND"
     },
-    "luminance": 0.02,
+    "luminance": 0.0,
     "unbreakable": true,
     "breakHarvestLevel": 100,
     "spawnParticles": false,

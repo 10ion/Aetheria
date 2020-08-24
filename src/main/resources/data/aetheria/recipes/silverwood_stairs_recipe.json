@@ -1,0 +1,33 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:unknown_element"
+    },
+    "3": {
+      "item": "aetheria:unknown_element"
+    },
+    "4": {
+      "item": "aetheria:unknown_element"
+    },
+    "6": {
+      "item": "aetheria:unknown_element"
+    },
+    "7": {
+      "item": "aetheria:unknown_element"
+    },
+    "8": {
+      "item": "aetheria:unknown_element"
+    }
+  },
+  "result": {
+    "item": "aetheria:unknown_element",
+    "count": 4
+  }
+}

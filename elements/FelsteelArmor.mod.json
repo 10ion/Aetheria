@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "felsteela_head",
+    "textureHelmet": "felsteel_head",
     "enableBody": true,
-    "textureBody": "felsteela_body",
+    "textureBody": "felsteel_body",
     "enableLeggings": true,
-    "textureLeggings": "felsteela_leggings",
+    "textureLeggings": "felsteel_leggings",
     "enableBoots": true,
-    "textureBoots": "felsteela_boots",
+    "textureBoots": "darkfelsteel",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },
-    "armorTextureFile": "felsteela_",
+    "armorTextureFile": "felsteel",
     "helmetName": "Felsteel Helmet",
     "bodyName": "Felsteel Chestplate",
     "leggingsName": "Felsteel Leggings",

@@ -8,11 +8,12 @@
     "textureFront": "bedrock",
     "textureRight": "bedrock",
     "textureBack": "bedrock",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "hasTransparency": true,
+    "itemTexture": "",
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -22,7 +23,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "name": "Bedrock",
-    "specialInfo": [],
+    "specialInfo": [
+      "Tough Miner"
+    ],
     "hardness": 100.0,
     "resistance": 18000.0,
     "hasGravity": false,
@@ -54,7 +57,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
+    "slipperiness": 0.5,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
@@ -86,6 +89,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
@@ -93,9 +97,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 5
   }
 }

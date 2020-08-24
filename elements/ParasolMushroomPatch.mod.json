@@ -37,11 +37,8 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 5,
-    "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:TheVoid"
-    ],
+    "frequencyOnChunks": 3,
+    "spawnWorldTypes": [],
     "restrictionBiomes": []
   }
 }

@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "glowshroom_stew",
+    "texture": "glowshroomstew",
     "customModelName": "Normal",
     "name": "Glowshroom Stew",
     "specialInfo": [],

@@ -1,0 +1,22 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheria:silverwood_plank"
+    },
+    "1": {
+      "item": "aetheria:silverwood_plank"
+    },
+    "2": {
+      "item": "aetheria:silverwood_plank"
+    }
+  },
+  "result": {
+    "item": "aetheria:silverwood_slab",
+    "count": 6
+  }
+}

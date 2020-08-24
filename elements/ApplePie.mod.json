@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "applepie",
+    "texture": "apple_pie",
     "customModelName": "Normal",
     "name": "Apple Pie",
     "specialInfo": [],

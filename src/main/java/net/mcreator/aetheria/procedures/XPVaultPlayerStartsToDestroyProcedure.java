@@ -1,22 +1,11 @@
 package net.mcreator.aetheria.procedures;
 
-import net.minecraftforge.energy.CapabilityEnergy;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.aetheria.AetheriaModElements;
-
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.Map;
-
 @AetheriaModElements.ModElement.Tag
 public class XPVaultPlayerStartsToDestroyProcedure extends AetheriaModElements.ModElement {
+
 	public XPVaultPlayerStartsToDestroyProcedure(AetheriaModElements instance) {
 		super(instance, 749);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -40,11 +29,13 @@ public class XPVaultPlayerStartsToDestroyProcedure extends AetheriaModElements.M
 			System.err.println("Failed to load dependency world for procedure XPVaultPlayerStartsToDestroy!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if (((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0) + (new Object() {
 			public int getMaxEnergyStored(BlockPos pos) {
 				AtomicInteger _retval = new AtomicInteger(0);
@@ -88,5 +79,7 @@ public class XPVaultPlayerStartsToDestroyProcedure extends AetheriaModElements.M
 					_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> capability.receiveEnergy(_amount, false));
 			}
 		}
+
 	}
+
 }

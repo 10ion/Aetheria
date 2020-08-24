@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Pewter Ingot",
     "creativeTab": {
-      "value": "CUSTOM:AetheriaMisc"
+      "value": "CUSTOM:AetheriaMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,

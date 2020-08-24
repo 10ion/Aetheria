@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/mossy_oak_sappling",
+    "particle": "aetheria:blocks/mossy_oak_sappling"
+  }
+}

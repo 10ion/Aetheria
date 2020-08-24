@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "cocoabeanroll",
+    "texture": "cocoabean_roll",
     "customModelName": "Normal",
     "name": "Cocoabean Roll",
     "specialInfo": [],
