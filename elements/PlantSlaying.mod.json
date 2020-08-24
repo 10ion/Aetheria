@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Plant Slaying",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 7,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

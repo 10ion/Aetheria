@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "black_head",
+    "textureHelmet": "darksteela_head",
     "enableBody": true,
-    "textureBody": "black_body",
+    "textureBody": "darksteela_body",
     "enableLeggings": true,
-    "textureLeggings": "black_leggings",
+    "textureLeggings": "darksteela_leggings",
     "enableBoots": true,
-    "textureBoots": "black_boots",
+    "textureBoots": "darksteela_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "black_",
+    "armorTextureFile": "darksteela_",
     "helmetName": "Blacksteel Helmet",
     "bodyName": "Blacksteel Chestplate",
     "leggingsName": "Blacksteel Leggings",

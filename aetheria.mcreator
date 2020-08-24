@@ -5504,6 +5504,166 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mystical_fence_gate_recipe"
+    },
+    {
+      "name": "StunOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stun_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stun",
+      "type": "potion",
+      "sortid": 744,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stun"
+    },
+    {
+      "name": "PlantSlaying",
+      "type": "enchantment",
+      "sortid": 745,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_slaying"
+    },
+    {
+      "name": "PlantSlayingProcedure",
+      "type": "procedure",
+      "sortid": 746,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_slaying_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPVaultParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_vault_particle_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPVaultOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 748,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_vault_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPVaultPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 749,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_vault_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPVault",
+      "type": "block",
+      "sortid": 747,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_vault"
     }
   ],
   "variable_elements": [
@@ -5610,6 +5770,7 @@
       "item.aetheria.nyancat.desc": "Nyan Cat - Unkown Creator",
       "item.aetheria.mithrilarmorboots": "Mithril Boots",
       "item.aetheria.redsteelarmorhelmet": "Redsteel Helmet",
+      "block.aetheria.xp_vault": "XP Vault",
       "item.aetheria.aluminumarmorarmorbody": "Aluminum Chestplate",
       "item.aetheria.zinc_armorlegs": "Zinc Leggings",
       "item.aetheria.spore_reservoir_bucket": "SporeReservoir Bucket",
@@ -5699,10 +5860,12 @@
       "item.aetheria.black_bronze_armorbody": "Black_Bronze Chestplate",
       "item.aetheria.black_bronze_ingot": "Black Bronze",
       "item.aetheria.black_bronze_armor_chestplate": "Black_Bronze Chestplate",
+      "item.minecraft.potion.effect.stun": "Stun",
       "item.aetheria.blacksteel_armorhelmet": "Blacksteel Helmet",
       "item.aetheria.moralmedly": "Moral Medly",
       "item.aetheria.leadpickaxe": "Lead Pickaxe",
       "block.aetheria.crocoite_block": "Crocoite Block",
+      "item.minecraft.splash_potion.effect.stun": "Splash Stun",
       "advancements.oink_ach.title": "Power of Pigs",
       "item.aetheria.cobalt_armor_chestplate": "Cobalt Chestplate",
       "itemGroup.tabaetheriaentities": "Aetheria Entities",
@@ -6060,6 +6223,7 @@
       "item.aetheria.theaether": "Mythical Flint \u0026 Steel",
       "item.aetheria.pewter_armor_chestplate": "Pewter Chestplate",
       "item.aetheria.pewter_armor_boots": "Pewter Boots",
+      "effect.stun": "Stun",
       "block.aetheria.bluegrass": "Blue Grass",
       "item.aetheria.magnegold_armorhelmet": "Magnegold Helmet",
       "block.aetheria.silverblock": "Silver Block",
@@ -6091,6 +6255,7 @@
       "item.aetheria.bronzearmorarmorboots": "Bronze Boots",
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
       "item.aetheria.dead_player_body": "Dead Player Body Spawn Egg",
+      "item.minecraft.lingering_potion.effect.stun": "Lingering Stun",
       "item.aetheria.stormberry_cake": "Stormberry Cake",
       "item.aetheria.scythe": "Scythe",
       "item.aetheria.nickelarmor_helmet": "Nickel Helmet",
@@ -6200,6 +6365,7 @@
       "entity.aetheria.lost_soul": "Lost Soul",
       "item.aetheria.bronzearmorarmorhelmet": "Bronze Helmet",
       "item.aetheria.pewter_armor_leggings": "Pewter Leggings",
+      "item.minecraft.tipped_arrow.effect.stun": "Arrow of Stun",
       "item.aetheria.electrum_armor_leggings": "Electrum Leggings",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
       "item.aetheria.copper_armorbody": "Copper Chestplate",
@@ -6286,6 +6452,7 @@
       "item.minecraft.splash_potion.effect.milkbottle": "Splash Milkbottle",
       "item.aetheria.darksteelaarmorhelmet": "Blacksteel Helmet",
       "block.aetheria.ghostmorel": "Ghost Morel",
+      "enchantment.aetheria.plant_slaying": "Plant Slaying",
       "item.aetheria.rickroll": "Music Disk",
       "entity.aetheria.lupin": "lupin",
       "item.aetheria.brass_armor_leggings": "Brass Leggings",
@@ -6332,5 +6499,5 @@
     "modElementsPackage": "net.mcreator.aetheria",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000431617
+  "mcreatorVersion": 202000432115
 }
