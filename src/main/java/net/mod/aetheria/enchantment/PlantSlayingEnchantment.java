@@ -1,12 +1,18 @@
 
 package net.mod.aetheria.enchantment;
 
+import net.mod.aetheria.AetheriaModElements;
+
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.enchantment.EnchantmentType;
+import net.minecraft.enchantment.Enchantment;
+
 @AetheriaModElements.ModElement.Tag
 public class PlantSlayingEnchantment extends AetheriaModElements.ModElement {
-
 	@ObjectHolder("aetheria:plant_slaying")
 	public static final Enchantment enchantment = null;
-
 	public PlantSlayingEnchantment(AetheriaModElements instance) {
 		super(instance, 745);
 	}
@@ -15,9 +21,7 @@ public class PlantSlayingEnchantment extends AetheriaModElements.ModElement {
 	public void initElements() {
 		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("plant_slaying"));
 	}
-
 	public static class CustomEnchantment extends Enchantment {
-
 		public CustomEnchantment(EquipmentSlotType... slots) {
 			super(Enchantment.Rarity.COMMON, EnchantmentType.WEAPON, slots);
 		}
@@ -46,7 +50,5 @@ public class PlantSlayingEnchantment extends AetheriaModElements.ModElement {
 		public boolean isAllowedOnBooks() {
 			return true;
 		}
-
 	}
-
 }

@@ -33,11 +33,7 @@
     }
   },
   "result": {
-<<<<<<< HEAD
-    "item": "aetheria:sterling_silver_armor_chestplate",
-=======
     "item": "aetheria:unknown_element_chestplate",
->>>>>>> branch 'master' of https://github.com/10ion/Aetheria.git
     "count": 1
   }
 }

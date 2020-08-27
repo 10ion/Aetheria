@@ -1,11 +1,28 @@
 package net.mod.aetheria.procedures;
 
+import net.mod.aetheria.enchantment.PlantSlayingEnchantment;
+import net.mod.aetheria.AetheriaModElements;
+
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.monster.SlimeEntity;
+import net.minecraft.entity.monster.CreeperEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.enchantment.EnchantmentHelper;
+
+import java.util.Map;
+import java.util.HashMap;
+
 @AetheriaModElements.ModElement.Tag
 public class PlantSlayingProcedureProcedure extends AetheriaModElements.ModElement {
-
 	public PlantSlayingProcedureProcedure(AetheriaModElements instance) {
 		super(instance, 746);
-
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -18,15 +35,12 @@ public class PlantSlayingProcedureProcedure extends AetheriaModElements.ModEleme
 			System.err.println("Failed to load dependency sourceentity for procedure PlantSlayingProcedure!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		Entity sourceentity = (Entity) dependencies.get("sourceentity");
-
 		if (((entity instanceof CreeperEntity) || (entity instanceof SlimeEntity))) {
 			entity.attackEntityFrom(DamageSource.MAGIC, (float) (2.5 * (EnchantmentHelper.getEnchantmentLevel(PlantSlayingEnchantment.enchantment,
 					((sourceentity instanceof LivingEntity) ? ((LivingEntity) sourceentity).getHeldItemMainhand() : ItemStack.EMPTY)))));
 		}
-
 	}
 
 	@SubscribeEvent
@@ -51,5 +65,4 @@ public class PlantSlayingProcedureProcedure extends AetheriaModElements.ModEleme
 			this.executeProcedure(dependencies);
 		}
 	}
-
 }

@@ -3,7 +3,7 @@
   "values": [
     "aetheria:mysticallog",
     "aetheria:silverwood_log",
-    "aetheria:mossy_oak_log",
+    "aetheria:unknown_element",
     "minecraft:oak_log",
     "minecraft:spruce_log",
     "minecraft:birch_log",
@@ -11,14 +11,14 @@
     "minecraft:acacia_log",
     "minecraft:dark_oak_log",
     "aetheria:silverwood_wood",
-    "aetheria:mossy_oak_wood",
+    "aetheria:unknown_element",
     "minecraft:oak_wood",
     "minecraft:spruce_wood",
     "minecraft:birch_wood",
     "minecraft:jungle_wood",
     "minecraft:acacia_wood",
     "minecraft:dark_oak_wood",
-    "aetheria:moonfire_log",
-    "aetheria:moonfire_wood"
+    "aetheria:unknown_element",
+    "aetheria:unknown_element"
   ]
 }
