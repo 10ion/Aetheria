@@ -23,11 +23,11 @@ import java.util.List;
 import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
-public class SilverwoodLeavesBlock extends AetheriaModElements.ModElement {
+public class SilverwoodLEvesBlock extends AetheriaModElements.ModElement {
 	@ObjectHolder("aetheria:silverwood_leaves")
 	public static final Block block = null;
-	public SilverwoodLeavesBlock(AetheriaModElements instance) {
-		super(instance, 95);
+	public SilverwoodLEvesBlock(AetheriaModElements instance) {
+		super(instance, 621);
 	}
 
 	@Override

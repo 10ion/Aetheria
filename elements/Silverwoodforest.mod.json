@@ -25,10 +25,6 @@
     "treeFruits": {
       "value": ""
     },
-    "airColor": {
-      "value": -5916161,
-      "falpha": 0.0
-    },
     "grassColor": {
       "value": -16740793,
       "falpha": 0.0
@@ -61,6 +57,70 @@
       "MAGICAL",
       "FOREST"
     ],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityVindicator"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 7,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityVex"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 11,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Blockbird"
+        },
+        "minGroup": 1,
+        "maxGroup": 5,
+        "weight": 13,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFox"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 12,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:CakeSlime"
+        },
+        "minGroup": 1,
+        "maxGroup": 8,
+        "weight": 5,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 1,
+        "maxGroup": 6,
+        "weight": 11,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityIllusionIllager"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 1,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

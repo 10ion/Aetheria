@@ -52,7 +52,7 @@ public class ChairEntityEntity extends AetheriaModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.1f) {
+			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("aetheria:textures/chairentity.png");

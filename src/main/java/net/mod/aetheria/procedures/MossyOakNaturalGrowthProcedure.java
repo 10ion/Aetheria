@@ -46,9 +46,9 @@ public class MossyOakNaturalGrowthProcedure extends AetheriaModElements.ModEleme
 			if ((Math.random() < 0.25)) {
 				if (!world.getWorld().isRemote) {
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood1"));
+							.getTemplateDefaulted(new ResourceLocation("aetheria", "mossyoaktree1"));
 					if (template != null) {
-						template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y - (-2)), (int) (z + (-5))),
+						template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y + (-2)), (int) (z + (-5))),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 					}
 				}
@@ -56,9 +56,9 @@ public class MossyOakNaturalGrowthProcedure extends AetheriaModElements.ModEleme
 				if ((Math.random() < 0.25)) {
 					if (!world.getWorld().isRemote) {
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood2"));
+								.getTemplateDefaulted(new ResourceLocation("aetheria", "mossyoaktree2"));
 						if (template != null) {
-							template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y - (-2)), (int) (z + (-5))),
+							template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y + (-2)), (int) (z + (-5))),
 									new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
 											.setIgnoreEntities(false));
 						}
@@ -67,9 +67,9 @@ public class MossyOakNaturalGrowthProcedure extends AetheriaModElements.ModEleme
 					if ((Math.random() < 0.25)) {
 						if (!world.getWorld().isRemote) {
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood3"));
+									.getTemplateDefaulted(new ResourceLocation("aetheria", "mossyoaktree3"));
 							if (template != null) {
-								template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y - (-2)), (int) (z + (-5))),
+								template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y + (-2)), (int) (z + (-5))),
 										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
 												.setIgnoreEntities(false));
 							}
@@ -77,9 +77,9 @@ public class MossyOakNaturalGrowthProcedure extends AetheriaModElements.ModEleme
 					} else {
 						if (!world.getWorld().isRemote) {
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("aetheria", "silverwood4"));
+									.getTemplateDefaulted(new ResourceLocation("aetheria", "mossyoaktree4"));
 							if (template != null) {
-								template.addBlocksToWorld(world, new BlockPos((int) (x + (-7)), (int) (y - (-2)), (int) (z + (-7))),
+								template.addBlocksToWorld(world, new BlockPos((int) (x + (-7)), (int) (y + (-2)), (int) (z + (-7))),
 										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
 												.setIgnoreEntities(false));
 							}

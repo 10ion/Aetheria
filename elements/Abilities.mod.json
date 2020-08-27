@@ -1,0 +1,195 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 343,
+    "height": 475,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability1>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability1>",
+          "x": 320,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability2>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability2>",
+          "x": 320,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability3>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability3>",
+          "x": 320,
+          "y": 122
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability4>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability4>",
+          "x": 320,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability5>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability5>",
+          "x": 320,
+          "y": 178
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability6>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability6>",
+          "x": 320,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability7>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability7>",
+          "x": 320,
+          "y": 234
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability8>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability8>",
+          "x": 320,
+          "y": 262
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability9>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability9>",
+          "x": 320,
+          "y": 290
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ability10>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ability10>",
+          "x": 320,
+          "y": 318
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ultimate1>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ultimate1>",
+          "x": 320,
+          "y": 388
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ultimate2>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ultimate2>",
+          "x": 320,
+          "y": 416
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Abilities",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "Abilities",
+          "x": 376,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ultimates",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "Ultimates",
+          "x": 376,
+          "y": 346
+        }
+      }
+    ]
+  }
+}

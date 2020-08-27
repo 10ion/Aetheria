@@ -1,0 +1,12 @@
+{
+  "_fv": 10,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Open Abilities",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "OpenAbilitiesOnKeyPressed"
+    }
+  }
+}

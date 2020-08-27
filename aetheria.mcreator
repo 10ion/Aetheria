@@ -976,15 +976,6 @@
       }
     },
     {
-      "name": "SilverwoodLeaves",
-      "type": "block",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "silverwood_leaves"
-    },
-    {
       "name": "Silverwood1",
       "type": "structure",
       "sortid": 294,
@@ -2865,15 +2856,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mummy"
-    },
-    {
-      "name": "FoxDropExtra",
-      "type": "loottable",
-      "sortid": 419,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fox_drop_extra"
     },
     {
       "name": "OinkLivingEntityIsHitWithTool",
@@ -5898,15 +5880,6 @@
       "registry_name": "moonfire_planks"
     },
     {
-      "name": "MoonfireLeave",
-      "type": "block",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "moonfire_leave"
-    },
-    {
       "name": "MoonfireWood",
       "type": "block",
       "sortid": 104,
@@ -6153,14 +6126,241 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mossy_oak_4"
+    },
+    {
+      "name": "SilverwoodLEves",
+      "type": "block",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverwood_leaves"
+    },
+    {
+      "name": "MoonfireLeaves",
+      "type": "block",
+      "sortid": 622,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_leaves"
+    },
+    {
+      "name": "Abilities",
+      "type": "gui",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abilities"
+    },
+    {
+      "name": "FoxExtraDrops",
+      "type": "loottable",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fox_extra_drops"
+    },
+    {
+      "name": "OpenAbilitiesOnKeyPressed",
+      "type": "procedure",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_abilities_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenAbilities",
+      "type": "keybind",
+      "sortid": 625,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_abilities"
+    },
+    {
+      "name": "MoonfireNaturalGrowth",
+      "type": "procedure",
+      "sortid": 626,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "moonfire_natural_growth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "race",
+      "name": "Race",
       "type": "string",
       "scope": "player_persistent",
       "value": "Choose"
+    },
+    {
+      "name": "Ability1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability3",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability4",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability5",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability6",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability7",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability8",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability9",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ability10",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ultimate1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Ultimate2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class1",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "Neophyte"
+    },
+    {
+      "name": "Class2",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class3",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class4",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class5",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class6",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class7",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
+    },
+    {
+      "name": "Class8",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "None"
     }
   ],
   "sound_elements": [
@@ -6207,12 +6407,12 @@
       "item.aetheria.bronze_ingot": "Bronze",
       "item.aetheria.magnegold_armor_helmet": "Magnegold Helmet",
       "item.aetheria.endersteel_armorbody": "Endersteel Chestplate",
-      "block.aetheria.mystical_trap_door": "Mystical Trap Door",
-      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
       "item.minecraft.potion.effect.anti_cheat": "Anti-Cheat",
+      "item.aetheria.zincarmorarmorhelmet": "Zinc Helmet",
+      "block.aetheria.mystical_trap_door": "Mystical Trap Door",
       "item.aetheria.bluesteel_armor_leggings": "Bluesteel Leggings",
-      "item.aetheria.feysteel_armor_boots": "Feysteel Boots",
       "item.aetheria.sterling_silver_armorbody": "Sterling_Silver Chestplate",
+      "item.aetheria.feysteel_armor_boots": "Feysteel Boots",
       "block.aetheria.macowaniteblock": "Macowaniteblock",
       "item.aetheria.pizza": "Pizza",
       "block.aetheria.voidmycelium": "Void Mycelium",
@@ -6259,8 +6459,8 @@
       "item.aetheria.magnegold": "Magnegold",
       "item.aetheria.titaniumarmor_chestplate": "Titanium Chestplate",
       "item.aetheria.sapphire_sword": "Sapphire Sword",
-      "item.aetheria.nyancat": "Music Disc",
       "item.aetheria.emeraldarmorhelmet": "Emerald Helmet",
+      "item.aetheria.nyancat": "Music Disc",
       "item.aetheria.blackarmorbody": "Black Bronze Chestplate",
       "entity.aetheria.mummy": "Mummy",
       "item.aetheria.aluminum": "Aluminum",
@@ -6274,8 +6474,8 @@
       "block.aetheria.crocoite_block": "Crocoite Block",
       "item.aetheria.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.aetheria.bismuth_bronze_armorbody": "Bismuth_Bronze Chestplate",
-      "item.aetheria.aluminum_armor_leggings": "Aluminum Leggings",
       "item.aetheria.endersteeelboots": "Endersteel Boots",
+      "item.aetheria.aluminum_armor_leggings": "Aluminum Leggings",
       "block.aetheria.tin_block": "Tin Block",
       "item.aetheria.obamiumaxe": "Obamium Axe",
       "item.aetheria.coldironarmorarmorlegs": "Cold Iron Leggings",
@@ -6296,16 +6496,16 @@
       "item.aetheria.endersteeltoolssword": "Endersteel Sword",
       "block.aetheria.cobaltore": "Cobalt Ore",
       "item.aetheria.zinc_armor_boots": "Zinc Boots",
-      "item.aetheria.copper_armorhelmet": "Copper Helmet",
       "block.aetheria.voidcrystle": "Void Crystal",
+      "item.aetheria.copper_armorhelmet": "Copper Helmet",
       "item.aetheria.lead_armor_helmet": "Lead Helmet",
       "item.aetheria.mithrilarmor_boots": "Mithril Boots",
       "item.aetheria.underworld": "Underworld Portal Igniter",
       "item.aetheria.darkironingot": "Dark Iron Ingot",
       "item.aetheria.sterlingsilver": "Sterling Silver",
       "item.aetheria.coldironarmorarmorhelmet": "Cold Iron Helmet",
-      "item.aetheria.blacksteel_armor_helmet": "Blacksteel Helmet",
       "item.minecraft.lingering_potion.effect.anti_cheat": "Lingering Anti-Cheat",
+      "item.aetheria.blacksteel_armor_helmet": "Blacksteel Helmet",
       "block.aetheria.endersteel_oreoreblock": "Endersteel Block",
       "item.aetheria.bismutharmorarmorboots": "Bismuth Boots",
       "itemGroup.tabaetheriamisc": "Aetheria Miscellaneous",
@@ -6318,8 +6518,8 @@
       "item.aetheria.bismuth_bronze_armorlegs": "Bismuth_Bronze Leggings",
       "item.aetheria.leadarmorarmorboots": "Lead Boots",
       "item.aetheria.obsidianarmor_chestplate": "Obsidian Chestplate",
-      "item.aetheria.palladium_armor_boots": "Palladium Boots",
       "itemGroup.tabquest_items": "Quest Items",
+      "item.aetheria.palladium_armor_boots": "Palladium Boots",
       "item.aetheria.coldironarmorarmorbody": "Cold Iron Chestplate",
       "item.aetheria.steel_armor_boots": "Steel Boots",
       "item.aetheria.emeraldarmor_leggings": "Emerald Leggings",
@@ -6344,6 +6544,7 @@
       "item.aetheria.sapphire": "Sapphire",
       "item.aetheria.platinum_armorhelmet": "Platinum Helmet",
       "item.aetheria.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "key.mcreator.open_abilities": "Open Abilities",
       "entity.aetheria.dead_player_body": "Dead Player Body",
       "item.aetheria.felsteel": "Fel Steel",
       "item.aetheria.mithrilarmor_chestplate": "Mithril Chestplate",
@@ -6364,24 +6565,24 @@
       "item.aetheria.moonsilverarmorboots": "Moonsilver Boots",
       "item.aetheria.cobalt_armorbody": "Cobalt Chestplate",
       "item.aetheria.tin_armor_chestplate": "Tin Chestplate",
-      "item.aetheria.silversword": "Silver Sword",
       "item.aetheria.rose_gold_armorbody": "Rose_Gold Chestplate",
+      "item.aetheria.silversword": "Silver Sword",
       "item.aetheria.endersteel_armor_chestplate": "Endersteel Chestplate",
       "item.aetheria.magnegold_armorboots": "Magnegold Boots",
       "item.aetheria.endersteeelbody": "Endersteel Chestplate",
       "item.aetheria.bronze_armor_chestplate": "Bronze Chestplate",
       "item.aetheria.moonsilverarmor_helmet": "Moonsilver Helmet",
       "item.aetheria.electrumarmorarmorhelmet": "Electrum Helmet",
-      "item.aetheria.nickelarmor_chestplate": "Nickel Chestplate",
       "item.aetheria.pewter_armorlegs": "Pewter Leggings",
+      "item.aetheria.nickelarmor_chestplate": "Nickel Chestplate",
       "item.aetheria.op_test_pick": "OP Test Pick",
       "item.aetheria.styx_water_bucket": "StyxWater Bucket",
       "item.aetheria.tungsten_armor_helmet": "Tungsten Helmet",
       "item.aetheria.blacksteel_armorboots": "Blacksteel Boots",
       "item.aetheria.iridiumarmorhelmet": "Iridium Helmet",
       "block.aetheria.mystical_stairs": "Mystical Stairs",
-      "item.aetheria.obamiumpickaxe": "Obamium Pickaxe",
       "biome.aetheria.extremevoidplanes": "Extremevoidplanes",
+      "item.aetheria.obamiumpickaxe": "Obamium Pickaxe",
       "item.aetheria.bismuth_bronze_armorhelmet": "Bismuth_Bronze Helmet",
       "item.aetheria.neko1": "Neko1 Spawn Egg",
       "item.aetheria.feysteel_armorhelmet": "Feysteel Helmet",
@@ -6393,8 +6594,8 @@
       "item.aetheria.black_bronze_armorlegs": "Black_Bronze Leggings",
       "item.aetheria.sterling_silver_armor_chestplate": "Sterling_Silver Chestplate",
       "item.aetheria.oricalarmorbody": "Orical Chestplate",
-      "item.aetheria.flowing_water_steel_armorboots": "Flowing_Water_Steel Boots",
       "item.aetheria.felsteel_armorboots": "Felsteel Boots",
+      "item.aetheria.flowing_water_steel_armorboots": "Flowing_Water_Steel Boots",
       "item.aetheria.blackarmorlegs": "Black Bronze Leggings",
       "item.aetheria.silverarmorarmorhelmet": "Silver Helmet",
       "item.aetheria.leadarmorarmorbody": "Lead Chestplate",
@@ -6408,8 +6609,8 @@
       "item.aetheria.bismuth_armorhelmet": "Bismuth Helmet",
       "item.aetheria.apple_pie": "Apple Pie",
       "item.aetheria.iridiumarmor_helmet": "Iridium Helmet",
-      "item.aetheria.palladium": "Palladium",
       "item.aetheria.cobalt": "Cobalt",
+      "item.aetheria.palladium": "Palladium",
       "item.aetheria.obsidianarmor_leggings": "Obsidian Leggings",
       "item.aetheria.bismuth_bronze_armor_leggings": "Bismuth Bronze Leggings",
       "item.aetheria.cobaltarmorarmorhelmet": "Cobalt Helmet",
@@ -6429,8 +6630,8 @@
       "item.aetheria.steelarmorarmorbody": "Steel Chestplate",
       "item.aetheria.darksteelaarmorlegs": "Blacksteel Leggings",
       "item.aetheria.feysteel": "Fey Steel",
-      "item.aetheria.sapphire_hoe": "Sapphire Hoe",
       "block.aetheria.mysticalstone": "Mystical Stone",
+      "item.aetheria.sapphire_hoe": "Sapphire Hoe",
       "block.aetheria.mossy_oak_wood": "Mossy Oak Wood",
       "item.aetheria.cheese": "Cheese",
       "item.aetheria.platinum_ingot": "Platinum",
@@ -6459,12 +6660,12 @@
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
       "item.aetheria.nickelarmor_helmet": "Nickel Helmet",
       "block.aetheria.crocoite": "Crocoite Cluster",
-      "item.aetheria.darkironarmor_leggings": "Dark Iron Leggings",
-      "item.aetheria.blacksteel_armorbody": "Blacksteel Chestplate",
       "item.aetheria.felsteel_armorbody": "Felsteel Chestplate",
+      "item.aetheria.blacksteel_armorbody": "Blacksteel Chestplate",
+      "item.aetheria.darkironarmor_leggings": "Dark Iron Leggings",
       "item.aetheria.zinc_armorbody": "Zinc Chestplate",
-      "item.aetheria.moonsilverarmor_boots": "Moonsilver Boots",
       "item.aetheria.darkfelsteelarmor_boots": "Black Felsteel Boots",
+      "item.aetheria.moonsilverarmor_boots": "Moonsilver Boots",
       "block.aetheria.silverwood_plank": "Silverwood Plank",
       "item.aetheria.electrumarmorarmorbody": "Electrum Chestplate",
       "item.aetheria.silver": "Silver",
@@ -6479,8 +6680,8 @@
       "block.aetheria.sapphire_ore": "Sapphire Ore",
       "item.aetheria.rickroll.desc": "Ckir Stelay - Ckir Lorl",
       "item.aetheria.flowing_water_steel_armor_chestplate": "Flowing_Water_Steel Chestplate",
-      "block.aetheria.moonfire_planks": "Moonfire Plank",
       "item.aetheria.brass_armorlegs": "Brass Leggings",
+      "block.aetheria.moonfire_planks": "Moonfire Plank",
       "item.aetheria.dark_iron_ingot": "Dark Iron Ingot",
       "item.aetheria.bismuth_bronze_armor_helmet": "Bismuth Bronze Helmet",
       "item.aetheria.electrum_armor_chestplate": "Electrum Chestplate",
@@ -6496,8 +6697,8 @@
       "item.aetheria.sterlingarmorarmorbody": "Sterling Silver Chestplate",
       "item.aetheria.feysteel_armorlegs": "Feysteel Leggings",
       "block.aetheria.zinc_ore": "Zinc Ore",
-      "item.aetheria.nickelarmorbody": "Nickel Chestplate",
       "item.aetheria.lead_armorbody": "Lead Chestplate",
+      "item.aetheria.nickelarmorbody": "Nickel Chestplate",
       "block.aetheria.electrum_block": "Electrum Block",
       "item.aetheria.steel": "Steel",
       "block.aetheria.titanium_ore": "Titanium ore",
@@ -6508,14 +6709,14 @@
       "item.aetheria.chair_entity": "Chair Entity Spawn Egg",
       "item.aetheria.tin_armorhelmet": "Tin Helmet",
       "item.aetheria.rose_gold_armor_chestplate": "Rose Gold Chestplate",
-      "item.aetheria.parasol_mushroom": "Parasol Mushroom",
       "item.aetheria.felsteel_armorlegs": "Felsteel Leggings",
-      "item.aetheria.sapphire_armor_leggings": "Sapphire Leggings",
+      "item.aetheria.parasol_mushroom": "Parasol Mushroom",
       "item.aetheria.blacksteel_armorlegs": "Blacksteel Leggings",
+      "item.aetheria.sapphire_armor_leggings": "Sapphire Leggings",
       "item.aetheria.mithrilarmorhelmet": "Mithril Helmet",
       "item.aetheria.obamium": "Obamium",
-      "item.aetheria.copper_armor_helmet": "Copper Helmet",
       "block.aetheria.specialstone": "Special Stone",
+      "item.aetheria.copper_armor_helmet": "Copper Helmet",
       "item.minecraft.potion.effect.milkbottle": "Milkbottle",
       "entity.aetheria.lost_soul": "Lost Soul",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
@@ -6633,6 +6834,7 @@
       "item.aetheria.redsteelarmor_leggings": "Redsteel Leggings",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.lead_ingot": "Lead",
+      "block.aetheria.moonfire_leaves": "Moonfire Leaves",
       "item.aetheria.moonsilver_ingot": "Moonsilver Ingot",
       "item.aetheria.lead_armor_boots": "Lead Boots",
       "item.aetheria.grass_stew": "Grass Stew",
@@ -6844,7 +7046,6 @@
       "item.aetheria.flowing_water_steel_armorbody": "Flowing_Water_Steel Chestplate",
       "entity.aetheria.chair_entity": "Chair Entity",
       "item.aetheria.lost_soul": "Lost Soul Spawn Egg",
-      "block.aetheria.moonfire_leave": "Moonfire Leaves",
       "item.aetheria.bismuth_armorboots": "Bismuth Boots",
       "item.aetheria.redbrassingot": "Red Brass Ingot",
       "advancements.voidenter.descr": "Enter The Void",
@@ -7003,7 +7204,7 @@
   "workspaceSettings": {
     "modid": "aetheria",
     "modName": "Aetheria",
-    "version": "1.1",
+    "version": "1.1.1",
     "description": "The Aetheria Mod is the mod from Cube Kid\u0027s books come to real minecraft",
     "author": " Pylons, AgentLoneStar007,10ion, Noah, PigletKid,  Da_Dragon, Mikeadon, BadBird, Gamer, DJDARKWATERS, jointheprayerbro , KidOfCubes ",
     "websiteURL": "https://mcreator.nethttps://aetherian.fandom.com/wiki/Aetherian_Wiki",

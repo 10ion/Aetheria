@@ -1,6 +1,8 @@
 
 package net.mod.aetheria.world.biome;
 
+import net.mod.aetheria.entity.CakeSlimeEntity;
+import net.mod.aetheria.entity.BlockbirdEntity;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -19,6 +21,8 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
 @AetheriaModElements.ModElement.Tag
@@ -61,6 +65,13 @@ public class SilverwoodforestBiome extends AetheriaModElements.ModElement {
 							.withPlacement(Placement.CHANCE_HEIGHTMAP_DOUBLE.configure(new ChanceConfig(2))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.RED_MUSHROOM_CONFIG)
 					.withPlacement(Placement.CHANCE_HEIGHTMAP_DOUBLE.configure(new ChanceConfig(2))));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.VINDICATOR, 7, 1, 3));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.VEX, 11, 1, 5));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(BlockbirdEntity.entity, 13, 1, 5));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.FOX, 12, 1, 2));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(CakeSlimeEntity.entity, 5, 1, 8));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.WOLF, 11, 1, 6));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ILLUSIONER, 1, 1, 4));
 		}
 
 		@OnlyIn(Dist.CLIENT)
@@ -73,12 +84,6 @@ public class SilverwoodforestBiome extends AetheriaModElements.ModElement {
 		@Override
 		public int getFoliageColor() {
 			return -16740793;
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public int getSkyColor() {
-			return -5916161;
 		}
 	}
 }

@@ -9,7 +9,7 @@
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 0.5,
-    "modelShadowSize": 0.1,
+    "modelShadowSize": 0.0,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": false,
     "spawnEggBaseColor": {

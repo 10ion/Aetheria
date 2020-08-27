@@ -58,7 +58,7 @@ public class MoonfireBonemealGrowthProcedure extends AetheriaModElements.ModElem
 					Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 							.getTemplateDefaulted(new ResourceLocation("aetheria", "moonfiretree4"));
 					if (template != null) {
-						template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y - (-2)), (int) (z + (-6))),
+						template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y + (-2)), (int) (z + (-6))),
 								new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null).setIgnoreEntities(false));
 					}
 				}
@@ -69,7 +69,7 @@ public class MoonfireBonemealGrowthProcedure extends AetheriaModElements.ModElem
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 								.getTemplateDefaulted(new ResourceLocation("aetheria", "moonfiretree1"));
 						if (template != null) {
-							template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y - (-2)), (int) (z + (-7))),
+							template.addBlocksToWorld(world, new BlockPos((int) (x + (-6)), (int) (y + (-2)), (int) (z + (-7))),
 									new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
 											.setIgnoreEntities(false));
 						}
@@ -81,7 +81,7 @@ public class MoonfireBonemealGrowthProcedure extends AetheriaModElements.ModElem
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("aetheria", "moonfiretree3"));
 							if (template != null) {
-								template.addBlocksToWorld(world, new BlockPos((int) (x + (-8)), (int) (y - (-2)), (int) (z + (-8))),
+								template.addBlocksToWorld(world, new BlockPos((int) (x + (-8)), (int) (y + (-2)), (int) (z + (-8))),
 										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
 												.setIgnoreEntities(false));
 							}
@@ -92,7 +92,7 @@ public class MoonfireBonemealGrowthProcedure extends AetheriaModElements.ModElem
 							Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("aetheria", "moonfiretree2"));
 							if (template != null) {
-								template.addBlocksToWorld(world, new BlockPos((int) (x + (-7)), (int) (y - (-2)), (int) (z + (-7))),
+								template.addBlocksToWorld(world, new BlockPos((int) (x + (-7)), (int) (y + (-2)), (int) (z + (-7))),
 										new PlacementSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setChunk(null)
 												.setIgnoreEntities(false));
 							}

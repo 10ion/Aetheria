@@ -5,8 +5,8 @@
     "type": "Entity",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 2,
+        "minrolls": 3,
+        "maxrolls": 3,
         "minbonusrolls": 0,
         "maxbonusrolls": 0,
         "hasbonusrolls": false,
@@ -21,7 +21,7 @@
         ]
       }
     ],
-    "name": "fox_drop_extra",
+    "name": "entities/fox",
     "namespace": "mod"
   }
 }

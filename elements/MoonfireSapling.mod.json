@@ -39,6 +39,12 @@
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 0,
     "spawnWorldTypes": [],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "onTickUpdate": {
+      "name": "MoonfireNaturalGrowth"
+    },
+    "onRightClicked": {
+      "name": "MoonfireBonemealGrowth"
+    }
   }
 }

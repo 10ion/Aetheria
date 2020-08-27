@@ -23,11 +23,11 @@ import java.util.List;
 import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
-public class MoonfireLeaveBlock extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:moonfire_leave")
+public class MoonfireLeavesBlock extends AetheriaModElements.ModElement {
+	@ObjectHolder("aetheria:moonfire_leaves")
 	public static final Block block = null;
-	public MoonfireLeaveBlock(AetheriaModElements instance) {
-		super(instance, 105);
+	public MoonfireLeavesBlock(AetheriaModElements instance) {
+		super(instance, 622);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class MoonfireLeaveBlock extends AetheriaModElements.ModElement {
 	public static class CustomBlock extends LeavesBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0f, 0f).lightValue(0).notSolid());
-			setRegistryName("moonfire_leave");
+			setRegistryName("moonfire_leaves");
 		}
 
 		@Override

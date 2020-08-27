@@ -9,7 +9,7 @@
     "enableLeggings": true,
     "textureLeggings": "felsteel_leggings",
     "enableBoots": true,
-    "textureBoots": "darkfelsteel",
+    "textureBoots": "darkfelsteel_boots",
     "creativeTab": {
       "value": "CUSTOM:AetheriaArmor"
     },

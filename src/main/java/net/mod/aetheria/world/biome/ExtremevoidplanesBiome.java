@@ -39,7 +39,7 @@ public class ExtremevoidplanesBiome extends AetheriaModElements.ModElement {
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(0.65f).temperature(0.46f).precipitation(Biome.RainType.NONE)
+			super(new Biome.Builder().downfall(0f).depth(0.1f).scale(1.95f).temperature(0.46f).precipitation(Biome.RainType.NONE)
 					.category(Biome.Category.EXTREME_HILLS).waterColor(-16764109).waterFogColor(-16764109).parent("aetheria:voidplanes")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(VoidMyceliumBlock.block.getDefaultState(),
 							VoidStoneBlock.block.getDefaultState(), VoidStoneBlock.block.getDefaultState())));
