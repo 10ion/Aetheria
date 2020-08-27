@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "aetheria:blocks/silverwoos_plank",
-    "particle": "aetheria:blocks/silverwoos_plank"
-  }
-}

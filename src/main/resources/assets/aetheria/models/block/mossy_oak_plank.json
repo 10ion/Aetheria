@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "aetheria:blocks/mossy_oak_plank",
-    "particle": "aetheria:blocks/mossy_oak_plank"
-  }
-}

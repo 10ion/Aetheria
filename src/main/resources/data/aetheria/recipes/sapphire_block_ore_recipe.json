@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "aetheria:sapphire_block"
+      "item": "aetheria:unknown_element"
     }
   ],
   "result": {
-    "item": "aetheria:sapphire",
+    "item": "aetheria:unknown_element",
     "count": 9
   }
 }

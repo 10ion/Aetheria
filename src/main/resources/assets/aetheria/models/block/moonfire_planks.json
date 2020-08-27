@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "aetheria:blocks/moonfire_plank",
-    "particle": "aetheria:blocks/moonfire_plank"
-  }
-}

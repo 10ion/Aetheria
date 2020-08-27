@@ -1,8 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "aetheria:blocks/silverwoos_plank",
-    "top": "aetheria:blocks/silverwoos_plank",
-    "side": "aetheria:blocks/silverwoos_plank"
-  }
-}

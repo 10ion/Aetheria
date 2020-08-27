@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aetheria:blocks/moonfire_sapling",
-    "particle": "aetheria:blocks/moonfire_sapling"
-  }
-}

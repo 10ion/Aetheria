@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_top_rh",
-  "textures": {
-    "bottom": "aetheria:blocks/silverwood_door_bottom",
-    "top": "aetheria:blocks/silverwood_door_top"
-  }
-}
