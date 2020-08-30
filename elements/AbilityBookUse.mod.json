@@ -1,0 +1,7 @@
+{
+  "_fv": 10,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">player_right_click_item</field><next><block type=\"controls_if\"><comment pinned=\"false\" h=\"86\" w=\"233\">This example will test if the entity is holding a specific item. If it is true, then it will give the entity a level 2 status effect of speed for 3 seconds.</comment><value name=\"IF0\"><block type=\"compare_mcitems\"><value name=\"a\"><block type=\"entity_iteminhand\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"b\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:TomeOfAbility</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_open_gui\"><field name=\"guiname\">AbilityAllocation</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value></block></statement></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/mossy_oak_leaves",
+    "particle": "aetheria:blocks/mossy_oak_leaves"
+  }
+}

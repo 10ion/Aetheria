@@ -1,8 +1,8 @@
 {
   "parent": "aetheria:custom/crucible",
   "textures": {
-    "all": "aetheria:blocks/aeon_furnace_top",
-    "particle": "aetheria:blocks/aeon_furnace_top",
-    "missing": "aetheria:blocks/"
+    "all": "aetheria:blocks/crucible",
+    "particle": "aetheria:blocks/crucible",
+    "missing": "aetheria:blocks/crucible"
   }
 }

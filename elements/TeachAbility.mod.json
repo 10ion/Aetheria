@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "command",
+  "definition": {
+    "commandName": "teach",
+    "permissionLevel": 1,
+    "onCommandExecuted": {
+      "name": "AbilityTeach"
+    }
+  }
+}

@@ -2,9 +2,15 @@
   "mappings": {
     "default": {
       "map": {
-        "missing": ""
+        "missing": "crucible"
       },
       "name": "default"
+    },
+    "aeon_crucible": {
+      "map": {
+        "missing": "aeon_crucible"
+      },
+      "name": "aeon_crucible"
     }
   }
 }

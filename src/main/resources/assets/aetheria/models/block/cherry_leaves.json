@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheria:blocks/cherry_leaves",
+    "particle": "aetheria:blocks/cherry_leaves"
+  }
+}

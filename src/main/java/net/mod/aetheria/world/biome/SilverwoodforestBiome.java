@@ -1,7 +1,7 @@
 
 package net.mod.aetheria.world.biome;
 
-import net.mod.aetheria.entity.CakeSlimeEntity;
+import net.mod.aetheria.entity.ShadeEntity;
 import net.mod.aetheria.entity.BlockbirdEntity;
 import net.mod.aetheria.AetheriaModElements;
 
@@ -69,7 +69,7 @@ public class SilverwoodforestBiome extends AetheriaModElements.ModElement {
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.VEX, 11, 1, 5));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(BlockbirdEntity.entity, 13, 1, 5));
 			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.FOX, 12, 1, 2));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(CakeSlimeEntity.entity, 5, 1, 8));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(ShadeEntity.entity, 5, 1, 8));
 			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.WOLF, 11, 1, 6));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ILLUSIONER, 1, 1, 4));
 		}

@@ -1,0 +1,12 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "aetheria:sapphire_ore"
+  },
+  "result": {
+    "item": "aetheria:sapphire_gem"
+  }
+}

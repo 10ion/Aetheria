@@ -1,0 +1,205 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 343,
+    "height": 475,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Abilities",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "Abilities",
+          "x": 376,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ultimates",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "Ultimates",
+          "x": 372,
+          "y": 324
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 1",
+          "onClick": {
+            "name": "AbilitySlot1"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 1",
+          "x": 297,
+          "y": 54
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 2",
+          "onClick": {
+            "name": "AbilitySlot2"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 2",
+          "x": 432,
+          "y": 54
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 3",
+          "onClick": {
+            "name": "AbilitySlot3"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 3",
+          "x": 297,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 4",
+          "onClick": {
+            "name": "AbilitySlot4"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 4",
+          "x": 432,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 5",
+          "onClick": {
+            "name": "AbilitySlot5"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 5",
+          "x": 297,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 6",
+          "onClick": {
+            "name": "AbilitySlot6"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 6",
+          "x": 432,
+          "y": 144
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 7",
+          "onClick": {
+            "name": "AbilitySlot7"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 7",
+          "x": 297,
+          "y": 189
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 8",
+          "onClick": {
+            "name": "AbilitySlot8"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 8",
+          "x": 432,
+          "y": 189
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 9",
+          "onClick": {
+            "name": "AbilitySlot9"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 9",
+          "x": 297,
+          "y": 234
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Slot 10",
+          "onClick": {
+            "name": "AbilitySlot10"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Slot 10",
+          "x": 432,
+          "y": 234
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ultimate1>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ultimate1>",
+          "x": 357,
+          "y": 369
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Ultimate2>",
+          "color": {
+            "value": -11447983,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Ultimate2>",
+          "x": 357,
+          "y": 414
+        }
+      }
+    ]
+  }
+}

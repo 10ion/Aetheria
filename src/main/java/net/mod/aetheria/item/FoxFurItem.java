@@ -12,7 +12,7 @@ import net.minecraft.block.BlockState;
 
 @AetheriaModElements.ModElement.Tag
 public class FoxFurItem extends AetheriaModElements.ModElement {
-	@ObjectHolder("aetheria:fox_fur")
+	@ObjectHolder("aetheria:fox_pelt")
 	public static final Item block = null;
 	public FoxFurItem(AetheriaModElements instance) {
 		super(instance, 220);
@@ -25,7 +25,7 @@ public class FoxFurItem extends AetheriaModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
-			setRegistryName("fox_fur");
+			setRegistryName("fox_pelt");
 		}
 
 		@Override

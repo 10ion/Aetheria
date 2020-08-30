@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "moonfire_leaves",
-    "textureTop": "slilverwoodleaves",
-    "textureLeft": "slilverwoodleaves",
-    "textureFront": "slilverwoodleaves",
-    "textureRight": "slilverwoodleaves",
-    "textureBack": "slilverwoodleaves",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -23,31 +23,31 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Moonfire Leaves",
+    "name": "Silverwood Leaves",
     "specialInfo": [],
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriaBlocks"
+      "value": "CUSTOM:AetheriaTools"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:MoonfireSapling"
+      "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 1,
+    "lightOpacity": 255,
     "material": {
       "value": "LEAVES"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "GREEN",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
