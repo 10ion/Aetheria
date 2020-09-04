@@ -764,7 +764,8 @@
       "sortid": 214,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "cake_slime"
     },
     {
       "name": "Omnessence1OnPotionActiveTick",
@@ -834,22 +835,6 @@
           {
             "name": "world",
             "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Howtoentervoid",
-      "type": "procedure",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
           }
         ]
       }
@@ -5587,16 +5572,7 @@
       "ids": {},
       "registry_name": "plant_slaying_procedure",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -6228,22 +6204,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6261,22 +6221,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6294,22 +6238,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6327,22 +6255,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6360,22 +6272,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6393,22 +6289,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6426,22 +6306,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6459,22 +6323,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6492,22 +6340,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6525,22 +6357,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       }
@@ -6564,15 +6380,6 @@
       "registry_name": "sapphire_ore"
     },
     {
-      "name": "SapphireOreSmelting",
-      "type": "recipe",
-      "sortid": 815,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sapphire_ore_smelting"
-    },
-    {
       "name": "Shade",
       "type": "mob",
       "sortid": 816,
@@ -6591,6 +6398,10 @@
       "registry_name": "ability_teach",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "cmdparams",
             "type": "map"
@@ -6622,6 +6433,84 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teach_ability"
+    },
+    {
+      "name": "Cattail",
+      "type": "plant",
+      "sortid": 818,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cattail"
+    },
+    {
+      "name": "CattailAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 819,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cattail_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnterUndergroundDimensions",
+      "type": "procedure",
+      "sortid": 820,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enter_underground_dimensions",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CakeSlimeLoot",
+      "type": "loottable",
+      "sortid": 821,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cake_slime_loot"
+    },
+    {
+      "name": "BauxiteSmelt",
+      "type": "recipe",
+      "sortid": 822,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauxite_smelt"
+    },
+    {
+      "name": "BauxiteBlast",
+      "type": "recipe",
+      "sortid": 823,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bauxite_blast"
     }
   ],
   "variable_elements": [
@@ -6825,7 +6714,6 @@
       "item.aetheria.platinum_armor_helmet": "Platinum Helmet",
       "item.aetheria.blackbronze": "Black Bronze",
       "item.aetheria.electrumarmorarmorlegs": "Electrum Leggings",
-      "item.aetheria.cakeslime": "Cake Slime Spawn Egg",
       "item.aetheria.rosearmorboots": "Rose Gold Boots",
       "advancements.specialstoneachievement.title": "Easter Egg Achievment",
       "item.aetheria.felsteel_ingot": "Fel Steel",
@@ -6845,7 +6733,7 @@
       "item.aetheria.tin_armorboots": "Tin Boots",
       "item.aetheria.steel_armorboots": "Steel Boots",
       "item.aetheria.emeraldarmorlegs": "Emerald Leggings",
-      "block.aetheria.pewter_block": "Electrum Block",
+      "block.aetheria.pewter_block": "Pewter Block",
       "item.aetheria.sapphire_sword": "Sapphire Sword",
       "item.aetheria.titaniumarmor_chestplate": "Titanium Chestplate",
       "item.aetheria.magnegold": "Magnegold",
@@ -6863,6 +6751,7 @@
       "item.minecraft.potion.effect.stun": "Stun",
       "item.aetheria.blacksteel_armorhelmet": "Blacksteel Helmet",
       "block.aetheria.crocoite_block": "Crocoite Block",
+      "item.aetheria.cake_slime": "Cake Slime Spawn Egg",
       "item.aetheria.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.aetheria.bismuth_bronze_armorbody": "Bismuth_Bronze Chestplate",
       "item.aetheria.endersteeelboots": "Endersteel Boots",
@@ -6996,7 +6885,7 @@
       "item.aetheria.bismuth_armor_helmet": "Bismuth Helmet",
       "block.aetheria.sapphire_block": "Sapphire Block",
       "item.aetheria.zinc_armor_helmet": "Zinc Helmet",
-      "block.aetheria.cherry_wood": "Silverwood Log",
+      "block.aetheria.cherry_wood": "Cherry Wood",
       "item.aetheria.sh_ultimate": "SH Ultimate",
       "item.aetheria.bismuth_armorhelmet": "Bismuth Helmet",
       "item.aetheria.apple_pie": "Apple Pie",
@@ -7025,7 +6914,7 @@
       "item.aetheria.feysteel": "Fey Steel",
       "block.aetheria.mysticalstone": "Mystical Stone",
       "item.aetheria.sapphire_hoe": "Sapphire Hoe",
-      "block.aetheria.mossy_oak_wood": "Silverwood Log",
+      "block.aetheria.mossy_oak_wood": "Mossy Oak Wood",
       "item.aetheria.cheese": "Cheese",
       "item.aetheria.platinum_ingot": "Platinum",
       "block.aetheria.silverwoodsap": "Silverwood Sapling",
@@ -7046,7 +6935,7 @@
       "item.aetheria.palladium_armor_chestplate": "Palladium Chestplate",
       "block.aetheria.gemwroughtoreblock": "Block of Gemwrought",
       "item.aetheria.zinc_armorboots": "Zinc Boots",
-      "block.aetheria.aluminum_block": "Electrum Block",
+      "block.aetheria.aluminum_block": "Aluminum Block",
       "item.aetheria.copper_armor_chestplate": "Copper Chestplate",
       "entity.aetheria.neko1": "Neko1",
       "item.aetheria.aluminumarmorarmorlegs": "Aluminum Leggings",
@@ -7077,7 +6966,7 @@
       "item.aetheria.rickroll.desc": "Ckir Stelay - Ckir Lorl",
       "item.aetheria.flowing_water_steel_armor_chestplate": "Flowing_Water_Steel Chestplate",
       "item.aetheria.brass_armorlegs": "Brass Leggings",
-      "block.aetheria.moonfire_planks": "Silverwood Log",
+      "block.aetheria.moonfire_planks": "Moonfire Planks",
       "item.aetheria.dark_iron_ingot": "Dark Iron Ingot",
       "item.aetheria.bismuth_bronze_armor_helmet": "Bismuth Bronze Helmet",
       "item.aetheria.electrum_armor_chestplate": "Electrum Chestplate",
@@ -7117,7 +7006,7 @@
       "entity.aetheria.lost_soul": "Lost Soul",
       "item.aetheria.sterlingarmorarmorlegs": "Sterling Silver Leggings",
       "item.aetheria.copper_armorbody": "Copper Chestplate",
-      "block.aetheria.moonfire_wood": "Silverwood Log",
+      "block.aetheria.moonfire_wood": "Moonfire Wood",
       "item.aetheria.endersteel_armor_helmet": "Endersteel Helmet",
       "item.aetheria.copper_armor_boots": "Copper Boots",
       "item.aetheria.endersteeelhelmet": "Endersteel Helmet",
@@ -7204,7 +7093,7 @@
       "item.aetheria.endersteel_armor_boots": "Endersteel Boots",
       "item.aetheria.brassarmorarmorboots": "Brass Boots",
       "item.aetheria.platinum_armorbody": "Platinum Chestplate",
-      "block.aetheria.mossy_oak_leaves": "Silverwood Leaves",
+      "block.aetheria.mossy_oak_leaves": "Mossy Oak Leaves",
       "item.aetheria.nyancat.desc": "Nyan Cat - Unkown Creator",
       "item.aetheria.redsteelarmorhelmet": "Redsteel Helmet",
       "block.aetheria.xp_vault": "XP Vault",
@@ -7234,7 +7123,7 @@
       "item.aetheria.redsteelarmor_leggings": "Redsteel Leggings",
       "item.aetheria.oricalarmorhelmet": "Orical Helmet",
       "item.aetheria.lead_ingot": "Lead",
-      "block.aetheria.moonfire_leaves": "Silverwood Leaves",
+      "block.aetheria.moonfire_leaves": "Moonfire Leaves",
       "item.aetheria.moonsilver_ingot": "Moonsilver Ingot",
       "item.aetheria.lead_armor_boots": "Lead Boots",
       "block.aetheria.silverwood_trapdoor": "Silverwood Trapdoor",
@@ -7243,7 +7132,6 @@
       "item.aetheria.endersteel_sword": "Endersteel Sword",
       "item.aetheria.pewterarmorarmorlegs": "Pewter Leggings",
       "item.aetheria.copper_armor_leggings": "Copper Leggings",
-      "entity.aetheria.cakeslime": "Cake Slime",
       "entity.aetheria.mycon": "Mycon",
       "item.aetheria.spacebattle": "Music Disc",
       "item.aetheria.moral_medly": "Moral Medly",
@@ -7277,6 +7165,7 @@
       "item.aetheria.bismutharmorarmorbody": "Bismuth Chestplate",
       "item.aetheria.adamant_armorhelmet": "Adamant Helmet",
       "item.aetheria.mithrilingot": "Mithril Ingot",
+      "block.aetheria.cattail": "Cattail",
       "item.aetheria.bronze": "Bronze",
       "item.aetheria.feyarmorbody": "Feysteel Chestplate",
       "item.aetheria.flowing_water_steel_ingot": "Flowing Water Steel Ingot",
@@ -7291,7 +7180,7 @@
       "item.aetheria.gemwroughtarmorhelmet": "Gemwrought Mail Helmet",
       "item.aetheria.brass_armorhelmet": "Brass Helmet",
       "itemGroup.tabaetheriacrafting": "Aetheria Crafting",
-      "block.aetheria.cherry_log": "Silverwood Log",
+      "block.aetheria.cherry_log": "Cherry Log",
       "item.aetheria.darkfelsteelarmor_chestplate": "Black Felsteel Chestplate",
       "item.aetheria.dim_9_9": "Decay",
       "item.aetheria.sterling_silver_armorboots": "Sterling_Silver Boots",
@@ -7337,7 +7226,7 @@
       "item.aetheria.dark_felsteel_ingot": "Dark Fel Steel Ingot",
       "item.aetheria.leadshovel": "Lead Shovel",
       "item.aetheria.bluearmorhelmet": "Bluesteel Helmet",
-      "block.aetheria.mossy_oak_log": "Silverwood Log",
+      "block.aetheria.mossy_oak_log": "Mossy Oak Log",
       "item.aetheria.nickelarmor_leggings": "Nickel Leggings",
       "item.aetheria.zinc_armor_chestplate": "Zinc Chestplate",
       "item.aetheria.oink": "The Baconator",
@@ -7421,8 +7310,8 @@
       "item.minecraft.lingering_potion.effect.milkbottle": "Lingering Milkbottle",
       "item.aetheria.silverpickaxe": "Silver Pickaxe",
       "item.aetheria.glowshroom_stew": "Glowshroom Stew",
-      "block.aetheria.moonfire_log": "Silverwood Log",
-      "block.aetheria.cherry_leaves": "Silverwood Leaves",
+      "block.aetheria.moonfire_log": "Moonfire Log",
+      "block.aetheria.cherry_leaves": "Cherry Leaves",
       "item.aetheria.copperarmorarmorboots": "Copper Boots",
       "block.aetheria.infestedvoidstone": "Infested Voidstone",
       "item.aetheria.rose_gold_armor_boots": "Rose Gold Boots",
@@ -7454,7 +7343,7 @@
       "item.aetheria.redbrassingot": "Red Brass Ingot",
       "advancements.voidenter.descr": "Enter The Void",
       "item.aetheria.adamant_armorboots": "Adamant Boots",
-      "block.aetheria.mossy_oak_plank": "Silverwood Log",
+      "block.aetheria.mossy_oak_plank": "Mossy Oak Plank",
       "item.aetheria.redsteelarmor_boots": "Redsteel Boots",
       "item.aetheria.darkfelsteelarmorlegs": "Black Felsteel Leggings",
       "item.aetheria.electrum_armor_boots": "Electrum Boots",
@@ -7568,6 +7457,7 @@
       "item.aetheria.orical_ingot": "Orical Ingot",
       "block.aetheria.silverwood_fence": "Silverwood Fence",
       "item.aetheria.pewter": "Pewter",
+      "entity.aetheria.cake_slime": "Cake Slime",
       "item.aetheria.cold_iron_armorboots": "Cold Iron Boots",
       "item.minecraft.potion.effect.omnessence1": "Omnessence1",
       "block.aetheria.astraltoodstool": "Astraltoodstool",

@@ -1,28 +1,7 @@
 {
   "variants": {
-    "facing=south": {
+    "": {
       "model": "aetheria:block/moonfire_planks"
-    },
-    "facing=north": {
-      "model": "aetheria:block/moonfire_planks"
-    },
-    "facing=east": {
-      "model": "aetheria:block/moonfire_planks",
-      "x": 90
-    },
-    "facing=west": {
-      "model": "aetheria:block/moonfire_planks",
-      "x": 90
-    },
-    "facing=up": {
-      "model": "aetheria:block/moonfire_planks",
-      "x": 90,
-      "y": 90
-    },
-    "facing=down": {
-      "model": "aetheria:block/moonfire_planks",
-      "x": 90,
-      "y": 90
     }
   }
 }

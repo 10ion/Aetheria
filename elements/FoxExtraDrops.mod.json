@@ -5,8 +5,8 @@
     "type": "Entity",
     "pools": [
       {
-        "minrolls": 3,
-        "maxrolls": 3,
+        "minrolls": 1,
+        "maxrolls": 1,
         "minbonusrolls": 0,
         "maxbonusrolls": 0,
         "hasbonusrolls": false,
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:FoxFur"
             },
-            "weight": 1
+            "weight": 100
           }
         ]
       }

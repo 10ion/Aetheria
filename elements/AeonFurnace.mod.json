@@ -10,8 +10,8 @@
     "textureBack": "aeon_furnace_side",
     "renderType": 2,
     "customModelName": "crucible:default",
-    "rotationMode": 0,
-    "emissiveRendering": false,
+    "rotationMode": 1,
+    "emissiveRendering": true,
     "itemTexture": "",
     "hasTransparency": true,
     "connectedSides": false,
@@ -61,7 +61,7 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0.0,
+    "luminance": 0.5,
     "unbreakable": false,
     "breakHarvestLevel": 3,
     "spawnParticles": false,

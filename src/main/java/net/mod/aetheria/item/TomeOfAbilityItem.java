@@ -32,7 +32,7 @@ public class TomeOfAbilityItem extends AetheriaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1));
 			setRegistryName("tome_of_ability");
 		}
 

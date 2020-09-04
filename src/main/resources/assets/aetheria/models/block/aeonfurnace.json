@@ -3,6 +3,6 @@
   "textures": {
     "all": "aetheria:blocks/crucible",
     "particle": "aetheria:blocks/crucible",
-    "missing": "aetheria:blocks/crucible"
+    "1": "aetheria:blocks/crucible"
   }
 }

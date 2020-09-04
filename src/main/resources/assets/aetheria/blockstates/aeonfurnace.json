@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "aetheria:block/aeonfurnace"
+    },
+    "facing=east": {
+      "model": "aetheria:block/aeonfurnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheria:block/aeonfurnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheria:block/aeonfurnace",
+      "y": 270
     }
   }
 }

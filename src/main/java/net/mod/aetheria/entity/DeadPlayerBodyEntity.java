@@ -43,8 +43,8 @@ public class DeadPlayerBodyEntity extends AetheriaModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 0.8f))
-						.build("dead_player_body").setRegistryName("dead_player_body");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 0.8f)).build("dead_player_body")
+						.setRegistryName("dead_player_body");
 		elements.entities.add(() -> entity);
 	}
 

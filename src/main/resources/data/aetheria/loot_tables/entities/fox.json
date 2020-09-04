@@ -2,12 +2,12 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "aetheria:fox_pelt",
-          "weight": 1
+          "weight": 100
         }
       ]
     }

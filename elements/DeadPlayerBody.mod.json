@@ -61,7 +61,7 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "immuneToArrows": true,
     "immuneToFallDamage": true,
     "immuneToCactus": true,

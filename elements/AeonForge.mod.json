@@ -11,7 +11,8 @@
     "renderType": 2,
     "customModelName": "aeonforge:default",
     "rotationMode": 1,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
+    "itemTexture": "",
     "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -86,6 +87,7 @@
     "energyMaxExtract": 200,
     "isFluidTank": false,
     "fluidCapacity": 8000,
+    "fluidRestrictions": [],
     "onTickUpdate": {
       "name": "Aeonguicode"
     },

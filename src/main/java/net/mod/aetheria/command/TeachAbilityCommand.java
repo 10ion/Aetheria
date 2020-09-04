@@ -53,6 +53,7 @@ public class TeachAbilityCommand extends AetheriaModElements.ModElement {
 		});
 		{
 			Map<String, Object> $_dependencies = new HashMap<>();
+			$_dependencies.put("entity", entity);
 			$_dependencies.put("cmdparams", cmdparams);
 			$_dependencies.put("x", x);
 			$_dependencies.put("y", y);

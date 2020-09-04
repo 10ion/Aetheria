@@ -10,7 +10,7 @@
     "textureBack": "silverwoodlogside",
     "renderType": 11,
     "customModelName": "Single texture",
-    "rotationMode": 5,
+    "rotationMode": 0,
     "emissiveRendering": false,
     "itemTexture": "",
     "hasTransparency": false,

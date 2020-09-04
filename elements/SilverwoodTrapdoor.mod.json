@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "itemTexture": "",
     "blockBase": "TrapDoor",
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,

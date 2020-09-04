@@ -101,10 +101,16 @@ public class AdvancedCrucibleBlock extends AetheriaModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1.5f, 20.5f).lightValue(0).harvestLevel(4)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1.5f, 20.5f).lightValue(5).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE).notSolid());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("advanced_crucible");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public boolean isEmissiveRendering(BlockState blockState) {
+			return true;
 		}
 
 		@Override

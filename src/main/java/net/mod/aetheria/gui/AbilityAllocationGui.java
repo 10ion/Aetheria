@@ -306,10 +306,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot1Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -317,10 +313,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot2Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -328,10 +320,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot3Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -339,10 +327,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot4Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -350,10 +334,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot5Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -361,10 +341,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot6Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -372,10 +348,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot7Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -383,10 +355,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot8Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -394,10 +362,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot9Procedure.executeProcedure($_dependencies);
 			}
 		}
@@ -405,10 +369,6 @@ public class AbilityAllocationGui extends AetheriaModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
 				AbilitySlot10Procedure.executeProcedure($_dependencies);
 			}
 		}

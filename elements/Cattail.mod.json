@@ -1,0 +1,89 @@
+{
+  "_fv": 10,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "cattailplant",
+    "customModelName": "cattails:default",
+    "plantType": "normal",
+    "staticPlantGenerationType": "Grass",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 1,
+    "name": "Cattail",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaMisc"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "FOLIAGE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Silverwoodforest"
+      },
+      {
+        "value": "CUSTOM:CherryForest"
+      },
+      {
+        "value": "CUSTOM:MoonfireCherryForest"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "birch_forest_hills"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest_hills"
+      }
+    ],
+    "generateCondition": {
+      "name": "CattailAdditionalGenerationCondition"
+    }
+  }
+}

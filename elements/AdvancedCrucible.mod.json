@@ -11,7 +11,7 @@
     "renderType": 2,
     "customModelName": "crucible:aeon_crucible",
     "rotationMode": 1,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "itemTexture": "",
     "hasTransparency": true,
     "connectedSides": false,
@@ -61,7 +61,7 @@
     "soundOnStep": {
       "value": "METAL"
     },
-    "luminance": 0.0,
+    "luminance": 0.33,
     "unbreakable": false,
     "breakHarvestLevel": 4,
     "spawnParticles": false,

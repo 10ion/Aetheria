@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "itemTexture": "silverwood_door",
     "blockBase": "Door",
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "mx": 0.0,

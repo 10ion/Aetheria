@@ -52,10 +52,10 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 1f)).build("cakeslime")
-						.setRegistryName("cakeslime");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(1f, 1f)).build("cake_slime")
+						.setRegistryName("cake_slime");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -8522647, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("cakeslime"));
+		elements.items.add(() -> new SpawnEggItem(entity, -8522647, -1, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("cake_slime"));
 	}
 
 	@Override
@@ -134,7 +134,7 @@ public class CakeSlimeEntity extends AetheriaModElements.ModElement {
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
-			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
+			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(1);
 		}
 	}
 }
