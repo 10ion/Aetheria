@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=1": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=2": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=3": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=4": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=5": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=6": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=7": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=8": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=9": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=10": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=11": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=12": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=13": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=14": {
+      "model": "aetheria:block/reeds"
+    },
+    "age=15": {
+      "model": "aetheria:block/reeds"
+    }
+  }
+}

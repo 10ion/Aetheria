@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "sushi",
+    "customModelName": "Normal",
+    "name": "Sushi",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriaFoodItems"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.8,
+    "eatingSpeed": 10,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

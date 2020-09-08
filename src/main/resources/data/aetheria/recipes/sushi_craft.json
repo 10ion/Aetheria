@@ -1,0 +1,42 @@
+{
+  "group": "aetheria",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dried_kelp"
+    },
+    "1": {
+      "item": "minecraft:carrot"
+    },
+    "2": {
+      "item": "minecraft:dried_kelp"
+    },
+    "3": {
+      "item": "minecraft:dried_kelp"
+    },
+    "4": {
+      "tag": "minecraft:fishes"
+    },
+    "5": {
+      "item": "minecraft:dried_kelp"
+    },
+    "6": {
+      "item": "minecraft:dried_kelp"
+    },
+    "7": {
+      "item": "aetheria:pileofrice"
+    },
+    "8": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "aetheria:sushi",
+    "count": 1
+  }
+}

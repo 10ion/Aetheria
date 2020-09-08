@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Items.FISH"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      },
+      {
+        "value": "CUSTOM:Pileofrice"
+      },
+      {
+        "value": "Items.DRIED_KELP"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Sushi"
+    },
+    "name": "sushi_craft",
+    "namespace": "mod"
+  }
+}

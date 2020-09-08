@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheria:blocks/rice_plant",
+    "particle": "aetheria:blocks/rice_plant"
+  }
+}

@@ -64,6 +64,8 @@ public class AbilityTeachProcedure extends AetheriaModElements.ModElement {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
 		String Target = "";
+		boolean Too_Far = false;
+		boolean Too_Close = false;
 		Target = (String) (new Object() {
 			public String getText() {
 				String param = (String) cmdparams.get("0");
@@ -73,6 +75,8 @@ public class AbilityTeachProcedure extends AetheriaModElements.ModElement {
 				return "";
 			}
 		}.getText());
+		Too_Far = (boolean) (false);
+		Too_Close = (boolean) (false);
 		if ((!(((Target)).equals(((world
 				.getEntitiesWithinAABB(PlayerEntity.class, new AxisAlignedBB(x - 6 / 2, y - 6 / 2, z - 6 / 2, x + 6 / 2, y + 6 / 2, z + 6 / 2), null)
 				.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst().orElse(null)).getDisplayName()
@@ -81,14 +85,18 @@ public class AbilityTeachProcedure extends AetheriaModElements.ModElement {
 				((PlayerEntity) entity).sendStatusMessage(
 						new StringTextComponent((((Target)) + "" + (" is too far away, or ") + "" + ((Target)) + "" + (" does not exist"))), (true));
 			}
-		} else if ((((Target)).equals(((world
+			Too_Far = (boolean) (true);
+		}
+		if ((((Target)).equals(((world
 				.getEntitiesWithinAABB(PlayerEntity.class, new AxisAlignedBB(x - 1 / 2, y - 1 / 2, z - 1 / 2, x + 1 / 2, y + 1 / 2, z + 1 / 2), null)
 				.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst().orElse(null)).getDisplayName()
 						.getString())))) {
 			if (entity instanceof PlayerEntity && !entity.world.isRemote) {
 				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You cannnot teach yourself an ability!"), (true));
 			}
-		} else {
+			Too_Close = (boolean) (true);
+		}
+		if ((((Too_Far) == (false)) && ((Too_Close) == (false)))) {
 			if ((((new Object() {
 				public String getText() {
 					String param = (String) cmdparams.get("1");

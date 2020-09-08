@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "aetheria:fox_pelt",
-          "weight": 100
+          "weight": 10000
         }
       ]
     }
