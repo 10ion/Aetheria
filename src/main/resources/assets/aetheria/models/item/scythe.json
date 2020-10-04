@@ -1,0 +1,7 @@
+{
+  "parent": "aetheria:custom/scythe",
+  "textures": {
+    "1": "aetheria:blocks/scythetexture",
+    "particle": "aetheria:items/scythetexture"
+  }
+}
