@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "command",
+  "definition": {
+    "commandName": "a1",
+    "permissionLevel": 1,
+    "onCommandExecuted": {
+      "name": "AbilityUse1CommandExecuted"
+    }
+  }
+}
