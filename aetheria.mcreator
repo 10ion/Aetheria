@@ -138,22 +138,6 @@
       "ids": {}
     },
     {
-      "name": "TitaniumIItemIsCraftedsmelted",
-      "type": "procedure",
-      "sortid": 248,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Titaniumnuggettoingot",
       "type": "recipe",
       "sortid": 249,
@@ -168,17 +152,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "ForgeR",
-      "type": "procedure",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
     },
     {
       "name": "RTungsten",
@@ -1719,26 +1692,6 @@
       "ids": {}
     },
     {
-      "name": "Lupin1",
-      "type": "procedure",
-      "sortid": 340,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "NIckelIngot",
       "type": "item",
       "sortid": 9,
@@ -2563,26 +2516,6 @@
       "ids": {}
     },
     {
-      "name": "Plantslayingfunction",
-      "type": "procedure",
-      "sortid": 402,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      }
-    },
-    {
       "name": "DeadPlayerBody",
       "type": "mob",
       "sortid": 219,
@@ -2599,23 +2532,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "deadbodyisappearing",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SporeReservoirMobplayerCollidesBlock",
-      "type": "procedure",
-      "sortid": 404,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "spore_reservoir_mobplayer_collides_block",
       "metadata": {
         "dependencies": [
           {
@@ -5572,7 +5488,12 @@
       "ids": {},
       "registry_name": "plant_slaying_procedure",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -6591,6 +6512,27 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ability_use_1"
+    },
+    {
+      "name": "OnPlayerTick",
+      "type": "procedure",
+      "sortid": 828,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_player_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -7020,7 +6962,7 @@
       "item.aetheria.copper_armor_chestplate": "Copper Chestplate",
       "entity.aetheria.neko1": "Neko1",
       "item.aetheria.aluminumarmorarmorlegs": "Aluminum Leggings",
-      "item.aetheria.titaniumingot": "Titanium nugget",
+      "item.aetheria.titaniumingot": "Titanium Ingot",
       "item.aetheria.endersteeltoolspickaxe": "Endersteel Pickaxe",
       "item.minecraft.lingering_potion.effect.stun": "Lingering Stun",
       "item.aetheria.darkironarmorbody": "Dark Iron Chestplate",
@@ -7136,7 +7078,7 @@
       "item.aetheria.flowing_water_steel_armor_leggings": "Flowing_Water_Steel Leggings",
       "item.aetheria.plantslaying": "Test Enchanting",
       "block.aetheria.silverwoodleaves": "Silverwood Leaves",
-      "item.aetheria.titanium_nuggeet": "Titanium ingot",
+      "item.aetheria.titanium_nuggeet": "Titanium Nugget",
       "item.aetheria.electrum_armorhelmet": "Electrum Helmet",
       "block.aetheria.blueleaf": "Blueleaf",
       "item.aetheria.feysteel_armor_chestplate": "Feysteel Chestplate",
@@ -7587,8 +7529,8 @@
     "modid": "aetheria",
     "modName": "Aetheria",
     "version": "1.1.1",
-    "description": "The Aetheria Mod is the mod from Cube Kid\u0027s books come to real minecraft",
-    "author": " Pylons, AgentLoneStar007,10ion, Noah, PigletKid,  Da_Dragon, Mikeadon, BadBird, Gamer, DJDARKWATERS, jointheprayerbro , KidOfCubes ",
+    "description": "The Aetheria Mod is the mod from Cube Kid\u0027s books come to minecraft",
+    "author": " Pylons, AgentLoneStar007,10ion, Noah, PigletKid,  Da_Dragon,c DJDARKWATERS, jointheprayerbro , KidOfCubes ",
     "websiteURL": "https://mcreator.nethttps://aetherian.fandom.com/wiki/Aetherian_Wiki",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "titaniumn",
     "customModelName": "Normal",
-    "name": "Titanium ingot",
+    "name": "Titanium Nugget",
     "creativeTab": {
       "value": "CUSTOM:AetheriaMaterials"
     },
@@ -21,10 +21,8 @@
     "damageVsEntity": 5.0,
     "specialInfo": [],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onCrafted": {
-      "name": "TitaniumIItemIsCraftedsmelted"
-    }
+    "inventoryStackSize": 64
   }
 }

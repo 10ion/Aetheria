@@ -1,7 +1,6 @@
 
 package net.mod.aetheria.entity;
 
-import net.mod.aetheria.procedures.Lupin1Procedure;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -37,9 +36,6 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.block.BlockState;
-
-import java.util.Map;
-import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -142,21 +138,6 @@ public class LupinEntity extends AetheriaModElements.ModElement {
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
-		}
-
-		@Override
-		public void baseTick() {
-			super.baseTick();
-			double x = this.getPosX();
-			double y = this.getPosY();
-			double z = this.getPosZ();
-			Entity entity = this;
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("world", world);
-				Lupin1Procedure.executeProcedure($_dependencies);
-			}
 		}
 
 		@Override

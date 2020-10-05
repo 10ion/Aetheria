@@ -1,20 +1,14 @@
 
 package net.mod.aetheria.item;
 
-import net.mod.aetheria.procedures.TitaniumIItemIsCraftedsmeltedProcedure;
 import net.mod.aetheria.itemgroup.AetheriaMaterialsItemGroup;
 import net.mod.aetheria.AetheriaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.world.World;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
-
-import java.util.Map;
-import java.util.HashMap;
 
 @AetheriaModElements.ModElement.Tag
 public class TitaniumNuggeetItem extends AetheriaModElements.ModElement {
@@ -47,19 +41,6 @@ public class TitaniumNuggeetItem extends AetheriaModElements.ModElement {
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
-		}
-
-		@Override
-		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
-			super.onCreated(itemstack, world, entity);
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				TitaniumIItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
-			}
 		}
 	}
 }

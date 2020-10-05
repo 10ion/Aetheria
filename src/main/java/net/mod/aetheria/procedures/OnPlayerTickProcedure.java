@@ -26,19 +26,19 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @AetheriaModElements.ModElement.Tag
-public class EnterUndergroundDimensionsProcedure extends AetheriaModElements.ModElement {
-	public EnterUndergroundDimensionsProcedure(AetheriaModElements instance) {
-		super(instance, 820);
+public class OnPlayerTickProcedure extends AetheriaModElements.ModElement {
+	public OnPlayerTickProcedure(AetheriaModElements instance) {
+		super(instance, 828);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure EnterUndergroundDimensions!");
+			System.err.println("Failed to load dependency entity for procedure OnPlayerTick!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure EnterUndergroundDimensions!");
+			System.err.println("Failed to load dependency y for procedure OnPlayerTick!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -46,6 +46,20 @@ public class EnterUndergroundDimensionsProcedure extends AetheriaModElements.Mod
 		double X = 0;
 		double Y = 0;
 		double Z = 0;
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"fill ~-10 0 ~-10 ~10 ~10 ~10 aetheria:bedrock replace minecraft:bedrock");
+			}
+		}
+		{
+			Entity _ent = entity;
+			if (!_ent.world.isRemote && _ent.world.getServer() != null) {
+				_ent.world.getServer().getCommandManager().handleCommand(_ent.getCommandSource().withFeedbackDisabled().withPermissionLevel(4),
+						"fill ~-10 ~-10 ~-10 ~10 ~10 ~10 aetheria:bedrock replace minecraft:bedrock");
+			}
+		}
 		X = (double) (entity.getPosX());
 		Y = (double) (entity.getPosY());
 		Z = (double) (entity.getPosZ());

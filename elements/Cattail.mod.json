@@ -34,10 +34,10 @@
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "WATER_BORDER",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 20,
+    "frequencyOnChunks": 40,
     "spawnWorldTypes": [
       "Surface"
     ],

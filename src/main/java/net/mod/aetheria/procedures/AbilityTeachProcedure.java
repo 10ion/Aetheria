@@ -73,35 +73,10 @@ public class AbilityTeachProcedure extends AetheriaModElements.ModElement {
 				return "";
 			}
 		}.getText());
-		if ((!(((Target)).equals(((world
-				.getEntitiesWithinAABB(PlayerEntity.class, new AxisAlignedBB(x - 6 / 2, y - 6 / 2, z - 6 / 2, x + 6 / 2, y + 6 / 2, z + 6 / 2), null)
+		if (((entity instanceof PlayerEntity) && ((((Target)).equals((entity.getDisplayName().getString()))) && ((((world
+				.getEntitiesWithinAABB(PlayerEntity.class, new AxisAlignedBB(x - 8 / 2, y - 8 / 2, z - 8 / 2, x + 8 / 2, y + 8 / 2, z + 8 / 2), null)
 				.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst().orElse(null)).getDisplayName()
-						.getString()))))) {
-			if (entity instanceof PlayerEntity && !entity.world.isRemote) {
-				((PlayerEntity) entity).sendStatusMessage(
-						new StringTextComponent((((Target)) + "" + (" is too far away, or ") + "" + ((Target)) + "" + (" does not exist"))), (true));
-			}
-		} else if ((((Target)).equals(((world
-				.getEntitiesWithinAABB(PlayerEntity.class, new AxisAlignedBB(x - 2 / 2, y - 2 / 2, z - 2 / 2, x + 2 / 2, y + 2 / 2, z + 2 / 2), null)
-				.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst().orElse(null)).getDisplayName()
-						.getString())))) {
-			if ((world
-					.getEntitiesWithinAABB(PlayerEntity.class, new AxisAlignedBB(x - 2 / 2, y - 2 / 2, z - 2 / 2, x + 2 / 2, y + 2 / 2, z + 2 / 2),
-							null)
-					.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst()
-					.orElse(null)) instanceof PlayerEntity
-					&& !(world
-							.getEntitiesWithinAABB(PlayerEntity.class,
-									new AxisAlignedBB(x - 2 / 2, y - 2 / 2, z - 2 / 2, x + 2 / 2, y + 2 / 2, z + 2 / 2), null)
-							.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst()
-							.orElse(null)).world.isRemote) {
-				((PlayerEntity) (world
-						.getEntitiesWithinAABB(PlayerEntity.class,
-								new AxisAlignedBB(x - 2 / 2, y - 2 / 2, z - 2 / 2, x + 2 / 2, y + 2 / 2, z + 2 / 2), null)
-						.stream().sorted(Comparator.comparing(_entcnd -> _entcnd.getDistanceSq(x, y, z))).findFirst().orElse(null)))
-								.sendStatusMessage(new StringTextComponent("You cannnot teach yourself an ability!"), (true));
-			}
-		} else {
+						.getString())).equals((entity.getDisplayName().getString())))))) {
 			if ((((new Object() {
 				public String getText() {
 					String param = (String) cmdparams.get("1");
